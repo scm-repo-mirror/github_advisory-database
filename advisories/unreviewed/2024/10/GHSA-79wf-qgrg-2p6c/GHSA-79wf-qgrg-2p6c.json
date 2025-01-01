@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79wf-qgrg-2p6c",
-  "modified": "2024-10-30T21:30:38Z",
+  "modified": "2024-10-30T21:31:42Z",
   "published": "2024-10-27T06:30:47Z",
   "aliases": [
     "CVE-2024-50602"
   ],
+  "summary": "360",
   "details": "An issue was discovered in libexpat before 2.6.4. There is a crash within the XML_ResumeParser function because XML_StopParser can stop/suspend an unstarted parser.",
   "severity": [
     {
@@ -13,7 +14,24 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "GitHub Actions",
+        "name": ""
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
