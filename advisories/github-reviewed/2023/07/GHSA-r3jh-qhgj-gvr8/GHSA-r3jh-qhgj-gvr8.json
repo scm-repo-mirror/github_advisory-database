@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3jh-qhgj-gvr8",
-  "modified": "2023-07-31T18:59:51Z",
+  "modified": "2023-11-10T05:03:41Z",
   "published": "2023-07-25T15:30:25Z",
   "aliases": [
     "CVE-2023-3637"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "22.0.2"
+              "fixed": "22.0.3"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 22.0.2"
+      }
     }
   ],
   "references": [
