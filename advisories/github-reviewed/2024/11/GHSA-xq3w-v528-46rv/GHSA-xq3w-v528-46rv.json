@@ -32,13 +32,13 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.1.115"
+              "fixed": "4.1.115.Final"
             }
           ]
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "<= 4.1.114"
+        "last_known_affected_version_range": "<= 4.1.114.Final"
       }
     }
   ],
