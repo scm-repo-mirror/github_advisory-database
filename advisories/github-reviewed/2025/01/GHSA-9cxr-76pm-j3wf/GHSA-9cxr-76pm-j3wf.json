@@ -23,10 +23,10 @@
               "introduced": "7.0.0"
             },
             {
-              "fixed": "9.19.0"
+              "fixed": "7.19.0"
             }
-          ]
-        }
+	  ]
+	}
       ]
     },
     {
@@ -39,7 +39,45 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "10.0.0"
+              "introduced": "8.0.0-M1"
+            },
+            {
+              "fixed": "8.17.0"
+            }
+	  ]
+	}
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.wicket:wicket-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.0.0-M1"
+            },
+            {
+              "fixed": "9.18.0"
+            }
+	  ]
+	}
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.wicket:wicket-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.0.0-M1"
             },
             {
               "fixed": "10.3.0"
