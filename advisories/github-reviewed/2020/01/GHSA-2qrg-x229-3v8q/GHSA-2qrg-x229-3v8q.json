@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
   "affected": [
@@ -498,10 +498,6 @@
       "url": "https://lists.apache.org/thread.html/r48d5019bd42e0770f7e5351e420a63a41ff1f16924942442c6aff6a8@%3Ccommits.zookeeper.apache.org%3E"
     },
     {
-      "type": "PACKAGE",
-      "url": "3333 Broadway, Apt B18D"
-    },
-    {
       "type": "WEB",
       "url": "http://lists.opensuse.org/opensuse-security-announce/2020-01/msg00022.html"
     }
@@ -510,7 +506,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": "CRITICAL",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2019-12-27T22:02:37Z",
     "nvd_published_at": "2019-12-20T17:15:00Z"
