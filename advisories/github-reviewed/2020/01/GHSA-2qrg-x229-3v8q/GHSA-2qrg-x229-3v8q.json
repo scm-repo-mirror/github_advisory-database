@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qrg-x229-3v8q",
-  "modified": "2023-05-24T20:58:14Z",
+  "modified": "2023-10-12T20:41:02Z",
   "published": "2020-01-06T18:43:49Z",
   "aliases": [
     "CVE-2019-17571"
@@ -496,6 +496,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r48d5019bd42e0770f7e5351e420a63a41ff1f16924942442c6aff6a8@%3Ccommits.zookeeper.apache.org%3E"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "3333 Broadway, Apt B18D"
     },
     {
       "type": "WEB",
