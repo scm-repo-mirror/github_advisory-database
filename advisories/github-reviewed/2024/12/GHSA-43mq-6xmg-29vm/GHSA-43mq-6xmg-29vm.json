@@ -7,7 +7,7 @@
     "CVE-2024-53677"
   ],
   "summary": "Apache Struts file upload logic is flawed",
-  "details": "File upload logic is flawed vulnerability in Apache Struts. An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.\n\nThis issue affects Apache Struts: from 2.0.0 before 6.4.0.\n\nUsers are recommended to upgrade to version 6.4.0 at least and migrate to the new file upload mechanism https://struts.apache.org/core-developers/file-upload. If you are not using an old file upload logic based on FileuploadInterceptor your application is safe.\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067 .",
+  "details": "File upload logic is flawed vulnerability in Apache Struts. An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.\n\nThis issue affects Apache Struts: from 2.0.0 before 7.0.0.\n\nUsers are recommended to upgrade to version 7.0.0 at least and migrate to the new file upload mechanism https://struts.apache.org/core-developers/file-upload. If you are not using an old file upload logic based on FileuploadInterceptor your application is safe.\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067 .",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.4.0"
+              "fixed": "7.0.0"
             }
           ]
         }
@@ -55,12 +55,25 @@
     {
       "type": "WEB",
       "url": "https://struts.apache.org/core-developers/file-upload"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/struts/commit/3ef9ade8902a63bb560892453eeca02bfddefc78"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/apache/struts/commit/1ecfbae46543a83e131404f8dcc84b3d0d554854"
+    },
+    {
+      "type": "ARTICLE",
+      "url": "https://www.dynatrace.com/news/blog/the-anatomy-of-broken-apache-struts-2-a-technical-deep-dive-into-cve-2024-53677/"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-22",
-      "CWE-434"
+      "CWE-434",
+      "CWE-915"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
