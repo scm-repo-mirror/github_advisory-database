@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fm3h-p9wm-h74h",
-  "modified": "2025-03-26T20:08:58Z",
+  "modified": "2025-03-26T20:10:03Z",
   "published": "2025-03-26T20:08:58Z",
   "aliases": [
     "CVE-2025-30353"
@@ -29,6 +29,38 @@
             },
             {
               "fixed": "11.5.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "directus"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "directus"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
             }
           ]
         }
