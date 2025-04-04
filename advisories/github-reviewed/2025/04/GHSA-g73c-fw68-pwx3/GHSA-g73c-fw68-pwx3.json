@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g73c-fw68-pwx3",
-  "modified": "2025-04-04T14:23:32Z",
+  "modified": "2025-04-04T14:23:33Z",
   "published": "2025-04-03T15:31:13Z",
   "aliases": [
     "CVE-2025-2945"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pgadmin-org/pgadmin4/commit/75be0bc22d3d8d7620711835db817bd7c021007c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/py0zz1/a81c0e3222dac3772bf44ae5eb8cfd1e"
     },
     {
       "type": "PACKAGE",
