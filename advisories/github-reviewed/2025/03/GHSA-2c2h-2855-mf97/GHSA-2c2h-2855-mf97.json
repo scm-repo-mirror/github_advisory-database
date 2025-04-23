@@ -1,17 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c2h-2855-mf97",
-  "modified": "2025-03-25T18:38:07Z",
+  "modified": "2025-03-25T18:38:11Z",
   "published": "2025-03-09T15:31:19Z",
   "aliases": [
     "CVE-2025-27636"
   ],
   "summary": "Apache Camel: Camel Message Header Injection via Improper Filtering",
-  "details": "Bypass/Injection vulnerability in Apache Camel components under particular conditions.\n\nThis issue affects Apache Camel: from 4.9.0 through <= 4.10.1, from 4.8.0 through <= 4.8.4, from 3.10.0 through <= 3.22.3.\n\nUsers are recommended to upgrade to version 4.10.2 for 4.10.x LTS, 4.8.5 for 4.8.x LTS and 3.22.4 for 3.x releases.\n\nThis vulnerability is present in Camel's default incoming header filter, that allows an attacker to include Camel specific headers that for some Camel components can alter the behaviours such as the camel-bean component, to call another method on the bean, than was coded in the application. In the `camel-jms` component, then a malicious header can be used to send the message to another queue (on the same broker) than was coded in the application. This could also be seen by using the camel-exec component.\n\nThe attacker would need to inject custom headers, such as HTTP protocols. So if you have Camel applications that are directly connected to the internet via HTTP, then an attacker could include malicious HTTP headers in the HTTP requests that are send to the Camel application.\n\nAll the known Camel HTTP component such as `camel-servlet`, `camel-jetty`, `camel-undertow`, `camel-platform-http`, and `camel-netty-http` would be vulnerable out of the box.\n\nIn these conditions an attacker could be able to forge a Camel header name and make the bean component invoking other methods in the same bean.\n\nIn terms of usage of the default header filter strategy the list of components using that is: \n\n  *  camel-activemq\n  *  camel-activemq6\n  *  camel-amqp\n  *  camel-aws2-sqs\n  *  camel-azure-servicebus\n  *  camel-cxf-rest\n  *  camel-cxf-soap\n  *  camel-http\n  *  camel-jetty\n  *  camel-jms\n  *  camel-kafka\n  *  camel-knative\n  *  camel-mail\n  *  camel-nats\n  *  camel-netty-http\n  *  camel-platform-http\n  *  camel-rest\n  *  camel-sjms\n  *  camel-spring-rabbitmq\n  *  camel-stomp\n  *  camel-tahu\n  *  camel-undertow\n  *  camel-xmpp\n\nThe vulnerability arises due to a bug in the default filtering mechanism that only blocks headers starting with \"Camel\", \"camel\", or \"org.apache.camel.\". \n\nMitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like \"cAmel, cAMEL\" etc, or in general everything not starting with \"Camel\", \"camel\" or \"org.apache.camel.\".",
+  "details": "Bypass/Injection vulnerability in Apache Camel components under particular conditions.\n\nThis issue affects Apache Camel: from 4.9.0 through <= 4.10.1, from 4.8.0 through <= 4.8.4, from 3.10.0 through <= 3.22.3.\n\nUsers are recommended to upgrade to version 4.10.2 for 4.10.x LTS, 4.8.5 for 4.8.x LTS and 3.22.4 for 3.x releases.\n\nThis vulnerability is present in Camel's default incoming header filter, that allows an attacker to include Camel specific headers that for some Camel components can alter the behaviours such as the camel-bean component, to call another method on the bean, than was coded in the application. In the `camel-jms` component, then a malicious header can be used to send the message to another queue (on the same broker) than was coded in the application. This could also be seen by using the camel-exec component where an attacker could use the `CamelExecCommandExecutable` message header to override the command to be executed or `CamelSqlQuery` in the `camel-sql` component to override the SQL query to execute. The `CamelDockerCmd` and `CamelDockerEntryPoint` message headers could be abused if the docker component is in use.\n\nThe attacker would need to inject custom headers, such as HTTP protocols. So if you have Camel applications that are directly connected to the internet via HTTP, then an attacker could include malicious HTTP headers in the HTTP requests that are send to the Camel application.\n\nAll the known Camel HTTP component such as `camel-servlet`, `camel-jetty`, `camel-undertow`, `camel-platform-http`, and `camel-netty-http` would be vulnerable out of the box.\n\nIn these conditions an attacker could be able to forge a Camel header name and make the bean component invoking other methods in the same bean.\n\nIn terms of usage of the default header filter strategy the list of components using that is: \n\n  *  camel-activemq\n  *  camel-activemq6\n  *  camel-amqp\n  *  camel-aws2-sqs\n  *  camel-azure-servicebus\n  *  camel-cxf-rest\n  *  camel-cxf-soap\n  *  camel-http\n  *  camel-jetty\n  *  camel-jms\n  *  camel-kafka\n  *  camel-knative\n  *  camel-mail\n  *  camel-nats\n  *  camel-netty-http\n  *  camel-platform-http\n  *  camel-rest\n  *  camel-sjms\n  *  camel-spring-rabbitmq\n  *  camel-stomp\n  *  camel-tahu\n  *  camel-undertow\n  *  camel-xmpp\n\nThe vulnerability arises due to a bug in the default filtering mechanism that only blocks headers starting with \"Camel\", \"camel\", or \"org.apache.camel.\". \n\nMitigation: You can easily work around this in your Camel applications by removing the headers in your Camel routes. There are many ways of doing this, also globally or per route. This means you could use the removeHeaders EIP, to filter out anything like \"cAmel, cAMEL\" etc, or in general everything not starting with \"Camel\", \"camel\" or \"org.apache.camel.\".",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -44,10 +44,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.0.0-M1"
+              "introduced": "4.9.0"
             },
             {
-              "fixed": "4.8.5"
+              "fixed": "4.10.2"
             }
           ]
         }
@@ -63,10 +63,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.9.0"
+              "introduced": "4.0.0-M1"
             },
             {
-              "fixed": "4.10.2"
+              "fixed": "4.8.5"
             }
           ]
         }
@@ -119,7 +119,7 @@
     "cwe_ids": [
       "CWE-178"
     ],
-    "severity": "MODERATE",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-10T20:49:46Z",
     "nvd_published_at": "2025-03-09T13:15:34Z"
