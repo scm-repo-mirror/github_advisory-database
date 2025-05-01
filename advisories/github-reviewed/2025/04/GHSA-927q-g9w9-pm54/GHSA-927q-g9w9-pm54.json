@@ -1,17 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-927q-g9w9-pm54",
-  "modified": "2025-04-30T17:41:17Z",
+  "modified": "2025-04-30T17:41:39Z",
   "published": "2025-04-30T17:41:16Z",
   "aliases": [],
   "summary": "Panic in mp3-metadata due to the lack of bounds checking",
   "details": "The `get_id3()` methods used by `mp3_metadata::read_from_slice()` does not perform adequate bounds checking when recreating the tag due to the use of desynchronization.\n\nFixed in [Fix index error](https://github.com/GuillaumeGomez/mp3-metadata/pull/37), released as part of 0.4.0.",
-  "severity": [
-    {
-      "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:P"
-    }
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -55,7 +50,7 @@
     "cwe_ids": [
       "CWE-119"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-30T17:41:16Z",
     "nvd_published_at": null
