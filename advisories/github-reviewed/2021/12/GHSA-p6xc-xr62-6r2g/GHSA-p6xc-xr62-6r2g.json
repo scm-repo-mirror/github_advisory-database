@@ -71,6 +71,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.ops4j.pax.logging:pax-logging-log4j2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.8.0"
+            },
+            {
+              "fixed": "2.0.13"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
