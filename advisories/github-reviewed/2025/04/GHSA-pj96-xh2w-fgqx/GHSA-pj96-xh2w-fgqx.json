@@ -116,6 +116,18 @@
     {
       "type": "WEB",
       "url": "https://moodle.org/mod/forum/discuss.php?d=467606"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/a8179842b450659c288f284e06361a4fbab8742a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/2fd810c8981f9b10087467a3b8fce779b157200f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/bb65effe41524d8373c1dc499c3323ac469ea558"
     }
   ],
   "database_specific": {
