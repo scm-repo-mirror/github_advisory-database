@@ -13,7 +13,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "moodle/moodle"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.10.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://moodle.org/mod/forum/discuss.php?d=407393"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/d07fb8b9e8bf47fe60ad2aea553329bd1fb96e37"
     }
   ],
   "database_specific": {
