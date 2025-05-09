@@ -125,7 +125,15 @@
               "fixed": "1.9.2"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.ops4j.pax.logging:pax-logging-log4j2"
+      },
+      "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
@@ -136,7 +144,15 @@
               "fixed": "1.10.8"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.ops4j.pax.logging:pax-logging-log4j2"
+      },
+      "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
@@ -147,7 +163,15 @@
               "fixed": "1.11.10"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.ops4j.pax.logging:pax-logging-log4j2"
+      },
+      "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
