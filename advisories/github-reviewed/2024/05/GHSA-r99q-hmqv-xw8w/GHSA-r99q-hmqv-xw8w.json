@@ -89,6 +89,10 @@
     {
       "type": "WEB",
       "url": "https://moodle.org/mod/forum/discuss.php?d=458394"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/ffa045e09912349ed08d6591ec84cb83e57235cc"
     }
   ],
   "database_specific": {
