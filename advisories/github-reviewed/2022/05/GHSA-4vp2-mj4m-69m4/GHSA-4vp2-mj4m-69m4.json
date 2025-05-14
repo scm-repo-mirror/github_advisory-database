@@ -47,6 +47,18 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/zoujingli/ThinkAdmin"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zoujingli/ThinkAdmin/commit/6ccd4055fc40d2d7d154920a1859a7c19774bd1a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zoujingli/ThinkAdmin/commit/640a61ae0772dcd5209d74dff8ad373e61e8ad8c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zoujingli/ThinkAdmin/commit/b8a2ded90866a285e9022c842e546d8a6fa5fa6d"
     }
   ],
   "database_specific": {
