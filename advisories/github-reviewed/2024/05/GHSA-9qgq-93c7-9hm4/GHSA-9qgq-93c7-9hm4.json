@@ -84,6 +84,10 @@
     {
       "type": "WEB",
       "url": "http://git.moodle.org/gw?p=moodle.git&a=search&h=HEAD&st=commit&s=MDL-81352"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/25b1b643c873f6d83ae61903012896b2811fa3bb"
     }
   ],
   "database_specific": {
