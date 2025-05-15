@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/zoujingli/ThinkAdmin/issues/255"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zoujingli/ThinkAdmin/commit/5e7c2325008d0191f941666b5589c08a070ce838"
     }
   ],
   "database_specific": {
