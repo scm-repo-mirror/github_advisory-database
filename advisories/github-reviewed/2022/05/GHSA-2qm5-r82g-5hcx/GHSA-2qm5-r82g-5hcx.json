@@ -41,6 +41,14 @@
     {
       "type": "WEB",
       "url": "http://packetstormsecurity.com/files/159177/ThinkAdmin-6-Arbitrary-File-Read.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zoujingli/ThinkAdmin/commit/ff2ab47cfabd4784effbf72a2a386c5d25c43a9a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zoujingli/ThinkAdmin/commit/f28abaccb9db4c37a32d237c7c76e392d7f544f1"
     }
   ],
   "database_specific": {
