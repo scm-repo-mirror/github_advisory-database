@@ -118,6 +118,16 @@
       "url": "https://github.com/TYPO3-CMS/belog/commit/ece08246dbcea416ff97d4cc013bf24fb622fe5f"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/TYPO3-CMS/belog/commit/0eb171fcc5863c74f4890af0c6b3ccecb7e30cce",
+      "summary": "This patch commit is on another branch."
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/TYPO3-CMS/belog/commit/db399b80d94bd174e6699eccaf3fac7772a898a9",
+      "summary": "This patch commit is on another branch."
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/TYPO3-CMS/belog"
     },
