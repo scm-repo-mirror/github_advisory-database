@@ -138,6 +138,16 @@
       "url": "https://github.com/PHPOffice/PhpSpreadsheet/commit/700a80346be269af668914172bc6f4521982d0b4"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/PHPOffice/PhpSpreadsheet/commit/9b9a55c7154daa7cd4095f618933c240508ba3c1",
+      "summary": "This patch commit is on another branch."
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/PHPOffice/PhpSpreadsheet/commit/b8fac55aa5cb7a3d514c7308378bb37bb711b25e",
+      "summary": "This patch commit is on another branch."
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/PHPOffice/PhpSpreadsheet"
     }
