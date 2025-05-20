@@ -45,6 +45,11 @@
       "url": "https://github.com/invoke-ai/invokeai/commit/756008dc5899081c5aa51e5bd8f24c1b3975a59e"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/invoke-ai/invokeai/commit/ed46acee79460189b38c164321b14bdfbf3073c9",
+      "summary": "This patch commit is on another branch."
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/invoke-ai/InvokeAI"
     },
