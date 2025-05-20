@@ -118,6 +118,11 @@
       "url": "https://github.com/TYPO3-CMS/beuser/commit/1bb317cb2bc0b2f6ba4f758a088f060b36c67f9d"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/TYPO3-CMS/beuser/commit/18603efc3a66d3255fdd04eb6bda6b4d6a95abea",
+      "summary": "This patch commit is on another branch."
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/TYPO3-CMS/beuser"
     },
