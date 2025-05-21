@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/xuxueli/xxl-job"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/xuxueli/xxl-job/commit/a2dc9011310628f3e18c3a5095e7e6a946d017bd"
     }
   ],
   "database_specific": {
