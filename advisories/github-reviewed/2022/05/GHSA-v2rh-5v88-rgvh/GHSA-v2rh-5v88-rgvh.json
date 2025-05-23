@@ -46,6 +46,11 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/5ee3cbc624c1c4d39adc08c2121a1738d6b5e700",
+      "summary": "This patch commit is on another branch."
+    },
+    {
+      "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2019-3852"
     },
     {
