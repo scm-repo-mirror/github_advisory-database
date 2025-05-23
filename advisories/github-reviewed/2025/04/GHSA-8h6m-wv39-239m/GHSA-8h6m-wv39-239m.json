@@ -85,6 +85,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2025-3647"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rancher/rancher/commit/7f16b596120dd382ce6e9ed0baf83bc23f633054"
     }
   ],
   "database_specific": {
