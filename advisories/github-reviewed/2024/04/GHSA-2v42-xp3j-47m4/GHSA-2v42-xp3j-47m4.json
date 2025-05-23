@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.308180"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/xuxueli/xxl-job/commit/e3b2e1234614195390f46e26c15cd4881bd4dbe3"
     }
   ],
   "database_specific": {
