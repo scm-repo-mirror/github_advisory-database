@@ -102,6 +102,26 @@
       "url": "https://github.com/moodle/moodle/commit/47d5c29202e299fdbe54229d3f6b0c381835eae3"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/7cff64fdbfff749e779cb625fbddcce737355100",
+      "summary": "This patch commit is on another branch."
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/65734f149f3c7e6cce9402f51f9a97deb31170db",
+      "summary": "This patch commit is on another branch."
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/d70f610615242c5c7b3ae0bf7ef6868520dcd850",
+      "summary": "This patch commit is on another branch."
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/d41fa94a69bebeca69a4cd5332bb9569cfd87b99",
+      "summary": "This patch commit is on another branch."
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/moodle/moodle"
     },
