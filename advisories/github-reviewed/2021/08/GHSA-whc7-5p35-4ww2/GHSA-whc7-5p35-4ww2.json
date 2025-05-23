@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://rustsec.org/advisories/RUSTSEC-2020-0046.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/actix/actix-net/commit/a67e38b4a07c92a3c81fa833f9eb1e91e74e39b7"
     }
   ],
   "database_specific": {
