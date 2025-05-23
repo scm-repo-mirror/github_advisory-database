@@ -93,6 +93,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rancher/rancher"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rancher/rancher/commit/649fdad268d8ecc748e9fdcca2ddcfdc900f9eaa"
     }
   ],
   "database_specific": {
