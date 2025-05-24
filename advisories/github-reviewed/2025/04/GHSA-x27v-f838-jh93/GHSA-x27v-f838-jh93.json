@@ -74,6 +74,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/jmix-framework/jmix"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jmix-framework/jmix/commit/c589ef4e2b25620770b8036f4ad05f1a6250cb6a"
     }
   ],
   "database_specific": {
