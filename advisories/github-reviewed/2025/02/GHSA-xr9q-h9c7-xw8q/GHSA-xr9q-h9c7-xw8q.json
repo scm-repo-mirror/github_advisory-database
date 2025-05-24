@@ -81,6 +81,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rancher/rancher"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rancher/rancher/pull/48608"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rancher/rancher/commit/de3ffa88cc75ae3da122bd36a4489663b5157ee3"
     }
   ],
   "database_specific": {
