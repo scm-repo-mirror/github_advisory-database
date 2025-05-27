@@ -50,6 +50,11 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/sparklemotion/nokogiri/commit/83cc451c3f29df397caa890afc3b714eae6ab8f7",
+      "summary": "This patch commit is on another branch."
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/nokogiri/CVE-2022-29181.yml"
     },
     {
