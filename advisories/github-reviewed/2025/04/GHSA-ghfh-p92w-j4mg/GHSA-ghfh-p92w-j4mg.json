@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/elastic/elasticsearch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/elastic/elasticsearch/commit/a02dc7165c75f12701f8d47a2bdefe5283735267"
     }
   ],
   "database_specific": {
