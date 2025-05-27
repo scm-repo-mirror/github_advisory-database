@@ -92,6 +92,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/puma/puma/commit/436c71807f00e07070902a03f79fd3e130eb6b18",
+      "summary": "This patch commit is on another branch."
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/puma/puma/commit/fb6ad8f8013ab5cdbb2f444cbfabd0b4fde71139",
+      "summary": "This patch commit is on another branch."
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/electron/electron/releases/tag/v9.4.0"
     },
     {
