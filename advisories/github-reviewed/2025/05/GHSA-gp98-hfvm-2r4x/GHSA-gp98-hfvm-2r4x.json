@@ -70,6 +70,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/05/14/3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/iotdb/commit/8e61e3072ab9ee9a1bbf6c3230014111965462bf"
     }
   ],
   "database_specific": {
