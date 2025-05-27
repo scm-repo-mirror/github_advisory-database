@@ -55,6 +55,18 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/03/27/8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/pinot/releases/tag/release-1.3.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/pinot/pull/14383"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/pinot/commit/1b87488aeaf4836e3ef25b426ebbf1ad5a68e68f"
     }
   ],
   "database_specific": {
