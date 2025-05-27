@@ -93,6 +93,14 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2025-3490"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rancher/rancher/pull/48964"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rancher/rancher/commit/f36b896a99441985a1658e1b8c504d77e52fee4f"
     }
   ],
   "database_specific": {
