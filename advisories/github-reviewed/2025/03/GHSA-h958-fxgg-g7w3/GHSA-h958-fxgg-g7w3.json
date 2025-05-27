@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/OPCFoundation/UA-.NETStandard"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OPCFoundation/UA-.NETStandard/commit/3543d0292556691f681e39145e2de4526b90487d"
     }
   ],
   "database_specific": {
