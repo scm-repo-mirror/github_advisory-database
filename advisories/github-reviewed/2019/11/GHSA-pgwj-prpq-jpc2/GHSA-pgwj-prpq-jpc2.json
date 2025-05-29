@@ -312,6 +312,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/symfony/symfony/commit/4c80c3444854ef384df94deb4acbcef4b5e5243b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/symfony/symfony/commit/3876c75f858d5d82e2c309698d21af2f1d721afb"
+    }
+    {
+      "type": "WEB",
       "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/dependency-injection/CVE-2019-10910.yaml"
     },
     {
