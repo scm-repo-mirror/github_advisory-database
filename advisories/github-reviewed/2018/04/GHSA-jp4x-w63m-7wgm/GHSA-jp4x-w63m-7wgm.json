@@ -65,6 +65,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df"
+    },
+    {
+      "type": "WEB",
       "url": "https://hackerone.com/reports/310439"
     },
     {
