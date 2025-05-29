@@ -49,6 +49,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/octobercms/library/commit/f29865ae3db7a03be7c49294cd93980ec457f10d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/octobercms/october/commit/555ab61f2313f45d7d5d138656420ead536c5d30"
+    },
+    {
+      "type": "WEB",
       "url": "https://packagist.org/packages/october/backend"
     }
   ],
