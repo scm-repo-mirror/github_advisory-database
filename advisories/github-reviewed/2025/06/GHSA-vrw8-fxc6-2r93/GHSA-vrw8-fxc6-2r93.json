@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrw8-fxc6-2r93",
-  "modified": "2025-06-20T16:37:47Z",
+  "modified": "2025-06-20T16:37:48Z",
   "published": "2025-06-20T16:37:47Z",
   "aliases": [],
   "summary": "chi Allows Host Header Injection which Leads to Open Redirect in RedirectSlashes",
@@ -51,9 +51,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-      "CWE-601"
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-20T16:37:47Z",
