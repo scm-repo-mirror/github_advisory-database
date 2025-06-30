@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fq2-x9r6-wfmf",
-  "modified": "2024-10-08T12:38:39Z",
+  "modified": "2024-10-08T12:38:40Z",
   "published": "2022-05-24T22:00:57Z",
   "aliases": [
     "CVE-2019-6446"
@@ -9,10 +9,6 @@
   "summary": "Numpy Deserialization of Untrusted Data",
   "details": "** DISPUTED **   An issue was discovered in NumPy 1.16.0 and earlier. It uses the pickle Python module unsafely, which allows remote attackers to execute arbitrary code via a crafted serialized object, as demonstrated by a numpy.load call. NOTE: third parties dispute this issue because it is  a behavior that might have legitimate applications in (for example)  loading serialized Python object arrays from trusted and authenticated  sources.",
   "severity": [
-    {
-      "type": "CVSS_V3",
-      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
-    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
@@ -32,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.16.0"
+              "fixed": "1.17.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.16.0"
+      }
     }
   ],
   "references": [
