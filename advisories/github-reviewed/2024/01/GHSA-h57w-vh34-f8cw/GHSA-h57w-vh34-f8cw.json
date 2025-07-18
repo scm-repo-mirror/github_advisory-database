@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h57w-vh34-f8cw",
-  "modified": "2024-01-23T20:11:06Z",
+  "modified": "2024-01-23T20:11:07Z",
   "published": "2024-01-16T03:30:20Z",
   "aliases": [
     "CVE-2023-51282"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "5.2.4"
+              "fixed": "5.2.6"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 5.2.5"
+      }
     }
   ],
   "references": [
