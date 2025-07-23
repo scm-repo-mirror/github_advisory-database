@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7653-r8cq-rf8w",
-  "modified": "2025-07-22T12:30:43Z",
+  "modified": "2025-07-22T12:30:49Z",
   "published": "2025-07-22T12:30:43Z",
   "aliases": [
     "CVE-2025-6213"
   ],
+  "summary": "Authenticated RCE vulnerability in Nginx Cache Purge Preload plugin for WordPress fixed in v2.1.3 (CVE-2025-6213)",
   "details": "The Nginx Cache Purge Preload plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.1.1 via the 'nppp_preload_cache_on_update' function. This is due to insufficient sanitization of the $_SERVER['HTTP_REFERERER'] parameter passed from the 'nppp_handle_fastcgi_cache_actions_admin_bar' function. This makes it possible for authenticated attackers, with Administrator-level access and above, to execute code on the server.",
   "severity": [
     {
@@ -13,14 +14,37 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "psaux-it/nginx-fastcgi-cache-purge-and-preload"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.3"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 2.1.2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6213"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/psaux-it/nginx-fastcgi-cache-purge-and-preload"
     },
     {
