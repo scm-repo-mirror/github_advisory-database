@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gc7-fjrx-p6mg",
-  "modified": "2025-04-04T18:23:45Z",
+  "modified": "2025-04-04T18:23:46Z",
   "published": "2025-04-04T06:34:22Z",
   "aliases": [
     "CVE-2025-3194"
@@ -10,12 +10,8 @@
   "details": "Versions of the package bigint-buffer from 0.0.0 to 1.1.5 are vulnerable to Buffer Overflow in the toBigIntLE() function. Attackers can exploit this to crash the application.",
   "severity": [
     {
-      "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
-    },
-    {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:A/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H"
     }
   ],
   "affected": [
