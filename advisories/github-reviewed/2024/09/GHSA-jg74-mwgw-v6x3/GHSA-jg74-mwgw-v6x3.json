@@ -49,6 +49,9 @@
           "events": [
             {
               "introduced": "0"
+            },
+            {
+              "fixed": "2.0.2"
             }
           ]
         }
