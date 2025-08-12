@@ -18,14 +18,14 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/openbao/openbao/api/v2"
+        "name": "github.com/openbao/openbao"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "2.2.2"
+              "introduced": "0"
             },
             {
               "fixed": "2.3.1"
