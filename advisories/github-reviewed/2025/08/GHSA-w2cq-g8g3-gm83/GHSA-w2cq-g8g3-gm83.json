@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2cq-g8g3-gm83",
-  "modified": "2025-08-12T19:19:42Z",
+  "modified": "2025-08-12T19:19:44Z",
   "published": "2025-08-12T18:07:44Z",
   "aliases": [
     "CVE-2025-55164"
@@ -53,13 +53,18 @@
       "url": "https://github.com/helmetjs/content-security-policy-parser/commit/b13a52554f0168af393e3e38ed4a94e9e6aea9dc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-m4gq-x24j-jpmf"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/helmetjs/content-security-policy-parser"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1321"
+      "CWE-1321",
+      "CWE-1395"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
