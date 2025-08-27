@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crg9-44h2-xw35",
-  "modified": "2025-02-13T19:20:36Z",
+  "modified": "2025-02-13T19:20:38Z",
   "published": "2023-10-27T15:30:20Z",
   "aliases": [
     "CVE-2023-46604"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H"
     }
   ],
   "affected": [
@@ -246,7 +246,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": "CRITICAL",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2023-10-30T20:08:40Z",
     "nvd_published_at": "2023-10-27T15:15:14Z"
