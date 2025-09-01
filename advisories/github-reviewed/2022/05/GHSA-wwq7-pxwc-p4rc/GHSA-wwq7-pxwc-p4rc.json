@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwq7-pxwc-p4rc",
-  "modified": "2022-07-12T22:27:16Z",
+  "modified": "2023-01-27T05:02:15Z",
   "published": "2022-05-17T01:38:56Z",
   "aliases": [
     "CVE-2012-5785"
@@ -13,7 +13,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.axis2:axis2"
+        "name": "org.apache.axis2:axis2-transport-http"
       },
       "ranges": [
         {
