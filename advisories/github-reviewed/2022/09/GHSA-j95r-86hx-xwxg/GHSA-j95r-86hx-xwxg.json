@@ -1,17 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j95r-86hx-xwxg",
-  "modified": "2022-09-16T13:42:41Z",
+  "modified": "2023-01-27T05:02:24Z",
   "published": "2022-09-10T00:00:27Z",
   "aliases": [
     "CVE-2022-36376"
   ],
-  "summary": "Rank Math SEO plugin vulnerable to Server-Side Request Forgery",
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in Rank Math SEO plugin <= 1.0.95 at WordPress.",
+  "summary": "Rank Math SEO plugin vulnerable to Client-Side Request Forgery",
+  "details": "Client-Side Request Forgery (CSRF) vulnerability in Rank Math SEO plugin <= 1.0.95 at WordPress.",
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
   "affected": [
@@ -55,9 +55,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-918"
+      "CWE-352"
     ],
-    "severity": "CRITICAL",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2022-09-16T13:42:41Z",
     "nvd_published_at": "2022-09-09T15:15:00Z"
