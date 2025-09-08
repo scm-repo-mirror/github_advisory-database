@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3q8-4394-xw76",
-  "modified": "2025-04-08T15:30:59Z",
+  "modified": "2025-09-08T00:30:19Z",
   "published": "2025-04-02T03:31:42Z",
   "aliases": [
     "CVE-2025-3067"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/376491759"
+    },
+    {
+      "type": "WEB",
+      "url": "https://taptrap.click"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9h6-qwxm-528g",
-  "modified": "2025-03-05T21:32:08Z",
+  "modified": "2025-09-08T00:30:19Z",
   "published": "2025-03-04T15:31:49Z",
   "aliases": [
     "CVE-2025-1939"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1928334"
+    },
+    {
+      "type": "WEB",
+      "url": "https://taptrap.click"
     },
     {
       "type": "WEB",
