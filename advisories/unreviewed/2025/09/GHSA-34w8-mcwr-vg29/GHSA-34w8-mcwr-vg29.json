@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-34w8-mcwr-vg29",
+  "modified": "2025-09-08T18:31:42Z",
+  "published": "2025-09-08T18:31:42Z",
+  "aliases": [
+    "CVE-2025-57285"
+  ],
+  "details": "codeceptjs 3.7.3 contains a command injection vulnerability in the emptyFolder function (lib/utils.js). The execSync command directly concatenates the user-controlled directoryPath parameter without sanitization or escaping, allowing attackers to execute arbitrary commands.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57285"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Dremig/1ba111f9b1f7cffe1fcb4838b64e55b9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.npmjs.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-08T18:15:34Z"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v2x8-97xq-8xrr",
+  "modified": "2025-09-08T18:31:42Z",
+  "published": "2025-09-08T18:31:42Z",
+  "aliases": [
+    "CVE-2025-56265"
+  ],
+  "details": "An arbitrary file upload vulnerability in the Chat Trigger component of N8N v1.95.3, v1.100.1, and v1.101.1 allows attackers to execute arbitrary code via uploading a crafted HTML file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56265"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nikolas-ch/CVEs/blob/main/N8N/N8N_v1.100.1/ChatTrigger_StoredXSSviaUnrestrictedFileUpload/StoredXSSviaUnristrictedFileUpload.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nikolas-ch/CVEs/tree/main/N8N/N8N_v1.100.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nikolas-ch/CVEs/tree/main/N8N/N8N_v1.100.1/ChatTrigger_StoredXSSviaUnrestrictedFileUpload"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-08T18:15:33Z"
+  }
+}
