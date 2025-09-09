@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-29cj-cxw4-v4j2",
+  "modified": "2025-09-09T15:31:20Z",
+  "published": "2025-09-09T15:31:20Z",
+  "aliases": [
+    "CVE-2025-52277"
+  ],
+  "details": "Cross Site Scripting vulnerability in YesWiki v.4.54 allows a remote attacker to execute arbitrary code via a crafted payload to the meta configuration robots field",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52277"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nakkouchtarek/CVE/tree/main/CVE-2025-52277"
+    },
+    {
+      "type": "WEB",
+      "url": "http://yeswiki.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-09T15:15:33Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-866h-762v-8qww",
+  "modified": "2025-09-09T15:31:19Z",
+  "published": "2025-09-09T15:31:19Z",
+  "aliases": [
+    "CVE-2025-9994"
+  ],
+  "details": "The Amp’ed RF BT-AP 111 Bluetooth access point's HTTP admin interface does not have an authentication feature, allowing unauthorized access to anyone with network access.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9994"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ampedrftech.com/guides/BT-AP111_UserManual.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-09T14:15:49Z"
+  }
+}
