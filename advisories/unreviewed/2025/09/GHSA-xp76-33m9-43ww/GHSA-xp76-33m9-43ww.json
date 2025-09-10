@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp76-33m9-43ww",
-  "modified": "2025-09-09T12:30:49Z",
+  "modified": "2025-09-10T15:31:14Z",
   "published": "2025-09-09T12:30:49Z",
   "aliases": [
     "CVE-2025-24404"
   ],
   "details": "XML Injection RCE by parse http sitemap xml response vulnerability in Apache HertzBeat.\n\n\n\n\n\n\n\n\n\n\n\n\nThe attacker needs to have an authenticated account with access, and add monitor parsed by xml, returned special content can trigger the XML parsing vulnerability.\n\nThis issue affects Apache HertzBeat (incubating): before 1.7.0.\n\nUsers are recommended to upgrade to version 1.7.0, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-91"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-09T10:15:33Z"

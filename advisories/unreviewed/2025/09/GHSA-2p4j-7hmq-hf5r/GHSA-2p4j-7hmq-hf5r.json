@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p4j-7hmq-hf5r",
-  "modified": "2025-09-09T18:31:24Z",
+  "modified": "2025-09-10T15:31:15Z",
   "published": "2025-09-09T18:31:24Z",
   "aliases": [
     "CVE-2025-57540"
   ],
   "details": "A stored cross-site scripting (XSS) vulnerability exists in the WebAuthn Relying Party field within the Datacenter configuration of Proxmox Virtual Environment (PVE) 8.4. Authenticated users can inject JavaScript code that is later executed in the browsers of users who view the configuration page, enabling client-side attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-09T17:16:10Z"
