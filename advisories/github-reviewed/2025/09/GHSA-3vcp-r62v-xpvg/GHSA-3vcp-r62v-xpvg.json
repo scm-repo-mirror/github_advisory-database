@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vcp-r62v-xpvg",
-  "modified": "2025-09-09T18:31:12Z",
+  "modified": "2025-09-10T20:36:39Z",
   "published": "2025-09-09T18:31:12Z",
   "aliases": [
     "CVE-2024-43115"
   ],
+  "summary": "Apache DolphinScheduler vulnerable to Alert Script Attack",
   "details": "Improper Input Validation vulnerability in Apache DolphinScheduler. An authenticated user can execute any shell script server by alert script.\n\n\nThis issue affects Apache DolphinScheduler: before 3.2.2.\n\nUsers are recommended to upgrade to version 3.3.1, which fixes the issue.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.dolphinscheduler:dolphinscheduler"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43115"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/dolphinscheduler"
     },
     {
       "type": "WEB",
@@ -29,8 +54,8 @@
       "CWE-20"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-10T20:36:39Z",
     "nvd_published_at": "2025-09-03T09:15:34Z"
   }
 }
