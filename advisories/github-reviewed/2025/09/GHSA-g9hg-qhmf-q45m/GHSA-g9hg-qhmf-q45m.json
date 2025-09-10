@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9hg-qhmf-q45m",
-  "modified": "2025-09-08T21:14:23Z",
+  "modified": "2025-09-10T21:05:15Z",
   "published": "2025-09-08T21:14:23Z",
   "aliases": [
     "CVE-2025-58444"
@@ -41,6 +41,10 @@
       "url": "https://github.com/modelcontextprotocol/inspector/security/advisories/GHSA-g9hg-qhmf-q45m"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58444"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/modelcontextprotocol/inspector/commit/650f3090d26344a672026b737d81586595bb1f60"
     },
@@ -52,11 +56,12 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-79",
+      "CWE-84",
       "CWE-94"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-08T21:14:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-08T22:15:34Z"
   }
 }
