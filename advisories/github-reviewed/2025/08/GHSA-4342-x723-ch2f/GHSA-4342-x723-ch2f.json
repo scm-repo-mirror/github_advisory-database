@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4342-x723-ch2f",
-  "modified": "2025-09-01T20:05:22Z",
+  "modified": "2025-09-11T15:41:02Z",
   "published": "2025-08-29T21:33:09Z",
   "aliases": [
     "CVE-2025-57822"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.9.9"
             },
             {
               "fixed": "14.2.32"
