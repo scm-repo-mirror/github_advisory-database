@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8p2-495h-ccmh",
-  "modified": "2025-08-11T15:48:19Z",
+  "modified": "2025-09-12T20:10:35Z",
   "published": "2020-01-08T17:01:52Z",
   "aliases": [
     "CVE-2019-10219"
@@ -38,6 +38,47 @@
       "package": {
         "ecosystem": "Maven",
         "name": "org.hibernate.validator:hibernate-validator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.0.Alpha1"
+            },
+            {
+              "fixed": "6.0.18.Final"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 6.0.17.Final"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.hibernate:hibernate-validator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.1.0.Alpha1"
+            },
+            {
+              "fixed": "6.1.0.Alpha6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.hibernate:hibernate-validator"
       },
       "ranges": [
         {
