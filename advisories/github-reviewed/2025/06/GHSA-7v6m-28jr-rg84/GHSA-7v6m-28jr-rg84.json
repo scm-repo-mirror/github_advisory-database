@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7v6m-28jr-rg84",
-  "modified": "2025-06-05T01:24:18Z",
+  "modified": "2025-09-12T20:17:36Z",
   "published": "2025-06-03T21:30:39Z",
   "aliases": [
     "CVE-2025-35036"
@@ -42,6 +42,44 @@
       "package": {
         "ecosystem": "Maven",
         "name": "org.hibernate.validator:hibernate-validator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.0.Alpha1"
+            },
+            {
+              "fixed": "7.0.0.CR1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.hibernate:hibernate-validator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.0.CR1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.hibernate:hibernate-validator"
       },
       "ranges": [
         {
