@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vc4-m8qh-g8jm",
-  "modified": "2025-03-20T13:22:47Z",
+  "modified": "2025-09-12T19:07:22Z",
   "published": "2025-03-12T20:20:24Z",
   "aliases": [
     "CVE-2025-25291"
@@ -110,6 +110,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250314-0010"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://securitylab.github.com/advisories/GHSL-2024-329_GHSL-2024-330_ruby-saml"
     }
   ],
   "database_specific": {
