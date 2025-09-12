@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w285-wf9q-5w69",
-  "modified": "2022-04-27T13:36:22Z",
+  "modified": "2025-09-12T19:17:28Z",
   "published": "2018-10-17T16:27:38Z",
   "aliases": [
     "CVE-2016-1000352"
@@ -38,6 +38,25 @@
       "package": {
         "ecosystem": "Maven",
         "name": "org.bouncycastle:bcprov-jdk15"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.56"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.bouncycastle:bcprov-jdk15on"
       },
       "ranges": [
         {
@@ -95,6 +114,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2020-06-16T21:59:14Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2018-06-04T21:29:00Z"
   }
 }
