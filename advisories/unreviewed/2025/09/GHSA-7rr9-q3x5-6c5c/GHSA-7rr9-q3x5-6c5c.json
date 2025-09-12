@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7rr9-q3x5-6c5c",
-  "modified": "2025-09-09T21:30:30Z",
+  "modified": "2025-09-12T15:31:17Z",
   "published": "2025-09-09T21:30:30Z",
   "aliases": [
     "CVE-2025-7635"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fluidattacks.com/advisories/sal"
+    },
+    {
+      "type": "WEB",
+      "url": "https://revers3everything.com/calix-case-five-0-days-five-cves"
     },
     {
       "type": "WEB",
