@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-754f-8gm6-c4r2",
-  "modified": "2025-09-12T19:06:37Z",
+  "modified": "2025-09-13T04:49:33Z",
   "published": "2025-03-12T20:54:42Z",
   "aliases": [
     "CVE-2025-25292"
@@ -9,6 +9,10 @@
   "summary": "Ruby SAML allows a SAML authentication bypass due to namespace handling (parser differential)",
   "details": "### Summary\nAn authentication bypass vulnerability was found in ruby-saml due to a parser differential.\nReXML and Nokogiri parse XML differently, the parsers can generate entirely different document structures from the same XML input. That allows an attacker to be able to execute a Signature Wrapping attack.\n\n### Impact\nThis issue may lead to authentication bypass.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
