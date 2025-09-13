@@ -58,13 +58,13 @@
     }
   ],
   "credits": [ {
-		"name": "Liran Tal",
-		"contact": [
-			"https://x.com/liran_tal",
-			"mailto:liran@lirantal.com"
-		],
-		"type": ["FINDER"],
-	} ],
+    "name": "Liran Tal",
+    "contact": [
+      "https://x.com/liran_tal",
+      "mailto:liran@lirantal.com"
+    ],
+    "type": ["FINDER"],
+  } ],
   "database_specific": {
     "cwe_ids": [
       "CWE-88"
