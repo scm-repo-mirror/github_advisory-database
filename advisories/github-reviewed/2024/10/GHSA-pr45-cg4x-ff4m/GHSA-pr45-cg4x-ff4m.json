@@ -63,7 +63,7 @@
       "https://x.com/liran_tal",
       "mailto:liran@lirantal.com"
     ],
-    "type": ["FINDER"]
+    "type": "FINDER"
   } ],
   "database_specific": {
     "cwe_ids": [
