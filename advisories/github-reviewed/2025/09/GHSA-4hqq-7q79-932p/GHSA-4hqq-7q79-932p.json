@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hqq-7q79-932p",
-  "modified": "2025-09-15T15:31:25Z",
+  "modified": "2025-09-15T21:38:22Z",
   "published": "2025-09-15T15:31:24Z",
   "aliases": [
     "CVE-2025-59377"
   ],
+  "summary": "mcp-kubernetes-server has an OS Command Injection vulnerability",
   "details": "feiskyer mcp-kubernetes-server through 0.1.11 allows OS command injection, even in read-only mode, via /mcp/kubectl because shell=True is used. NOTE: this is unrelated to mcp-server-kubernetes and CVE-2025-53355.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "mcp-kubernetes-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.1.11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59377"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/feiskyer/mcp-kubernetes-server"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-78"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-15T21:38:22Z",
     "nvd_published_at": "2025-09-15T14:15:44Z"
   }
 }
