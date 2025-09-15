@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hmf-8wx5-4qq3",
-  "modified": "2025-09-15T18:31:06Z",
+  "modified": "2025-09-15T23:31:43Z",
   "published": "2025-09-15T18:31:06Z",
   "aliases": [
     "CVE-2025-59328"
   ],
+  "summary": "Apache Fory Deserialization of Untrusted Data vulnerability",
   "details": "A vulnerability in Apache Fory allows a remote attacker to cause a Denial of Service (DoS). The issue stems from the insecure deserialization of untrusted data. An attacker can supply a large, specially crafted data payload that, when processed, consumes an excessive amount of CPU resources during the deserialization process. This leads to CPU exhaustion, rendering the application or system using the Apache Fory library unresponsive and unavailable to legitimate users.\n\nUsers of Apache Fory are strongly advised to upgrade to version 0.12.2 or later to mitigate this vulnerability. Developers of libraries and applications that depend on Apache Fory should update their dependency requirements to Apache Fory 0.12.2 or later and release new versions of their software.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.fory:fory-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.12.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,7 +42,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/apache/fory/pull/2578"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/fory/commit/c3b4d3fe389e38495aeb8301d75da1ab658f0c6e"
+    },
+    {
+      "type": "WEB",
       "url": "https://fory.apache.org/security"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/fory"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/fory/releases/tag/v0.12.2"
     }
   ],
   "database_specific": {
@@ -29,8 +66,8 @@
       "CWE-502"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-15T23:31:43Z",
     "nvd_published_at": "2025-09-15T17:15:36Z"
   }
 }
