@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-868q-cgxj-h2g2",
-  "modified": "2025-09-12T18:31:10Z",
+  "modified": "2025-09-15T15:31:16Z",
   "published": "2025-09-12T18:31:10Z",
   "aliases": [
     "CVE-2025-57577"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/XXRicardo/iot-cve/blob/main/H3C/R365V300R004.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://h3c.com"
     },
     {
       "type": "WEB",

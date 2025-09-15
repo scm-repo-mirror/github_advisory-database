@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjxr-x4h8-946x",
-  "modified": "2025-05-05T18:32:10Z",
+  "modified": "2025-09-15T15:31:09Z",
   "published": "2022-06-22T00:00:54Z",
   "aliases": [
     "CVE-2022-2068"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9639817dac8bbbaa64d09efad7464ccc405527c7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.com/fraf0/cve-2022-1292-re_score-analysis"
     },
     {
       "type": "WEB",

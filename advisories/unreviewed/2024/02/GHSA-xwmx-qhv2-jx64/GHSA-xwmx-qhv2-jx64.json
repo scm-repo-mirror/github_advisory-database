@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwmx-qhv2-jx64",
-  "modified": "2025-06-20T21:31:56Z",
+  "modified": "2025-09-15T15:31:08Z",
   "published": "2024-02-05T18:31:37Z",
   "aliases": [
     "CVE-2024-24267"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/gpac/gpac/issues/2571"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/pull/305402"
     },
     {
       "type": "WEB",
