@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfjg-2jr6-cgph",
-  "modified": "2025-06-10T18:32:29Z",
+  "modified": "2025-09-15T21:30:55Z",
   "published": "2025-06-10T18:32:29Z",
   "aliases": [
     "CVE-2025-33073"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-33073"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-33073-detection-script-improper-access-control-in-windows-smb-affects-microsoft-products"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-33073-mitigation-script-improper-access-control-in-windows-smb-affects-microsoft-products"
     }
   ],
   "database_specific": {

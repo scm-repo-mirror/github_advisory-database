@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7492-x955-c45q",
-  "modified": "2025-05-13T18:30:57Z",
+  "modified": "2025-09-15T21:30:55Z",
   "published": "2025-05-13T18:30:57Z",
   "aliases": [
     "CVE-2025-32706"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32706"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-32706-detection-script-elevation-of-privilege-vulnerability-in-microsoft-windows-common-log-file-system-driver"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-32706-mitigation-script-elevation-of-privilege-vulnerability-in-microsoft-windows-common-log-file-system-driver"
     }
   ],
   "database_specific": {

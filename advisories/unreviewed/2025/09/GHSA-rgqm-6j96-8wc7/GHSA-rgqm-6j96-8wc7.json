@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgqm-6j96-8wc7",
-  "modified": "2025-09-15T18:31:06Z",
+  "modified": "2025-09-15T21:30:55Z",
   "published": "2025-09-15T18:31:06Z",
   "aliases": [
     "CVE-2025-57104"
   ],
   "details": "Teampel 5.1.6 is vulnerable to SQL Injection in /Common/login.aspx.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T17:15:34Z"
