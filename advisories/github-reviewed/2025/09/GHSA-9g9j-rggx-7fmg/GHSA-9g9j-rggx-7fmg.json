@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g9j-rggx-7fmg",
-  "modified": "2025-09-15T21:22:55Z",
+  "modified": "2025-09-15T21:59:00Z",
   "published": "2025-09-15T21:22:55Z",
   "aliases": [
     "CVE-2025-59141"
@@ -44,6 +44,10 @@
       "url": "https://github.com/Qix-/node-simple-swizzle/security/advisories/GHSA-9g9j-rggx-7fmg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59141"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/debug-js/debug/issues/1005"
     },
@@ -71,6 +75,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-15T21:22:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-15T20:15:38Z"
   }
 }
