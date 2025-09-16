@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv9f-f2hj-8fjj",
-  "modified": "2025-09-16T00:30:21Z",
+  "modified": "2025-09-16T18:31:21Z",
   "published": "2025-09-16T00:30:21Z",
   "aliases": [
     "CVE-2025-56274"
   ],
   "details": "SourceCodester Web-based Pharmacy Product Management System 1.0 is vulnerable to Incorrect Access Control, which allows low-privileged users to forge high privileged (such as admin) sessions and perform sensitive operations such as adding new users.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T22:15:34Z"

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p45c-67xh-2qw9",
+  "modified": "2025-09-16T18:31:28Z",
+  "published": "2025-09-16T18:31:28Z",
+  "aliases": [
+    "CVE-2025-56562"
+  ],
+  "details": "An incorrect API discovered in Signify Wiz Connected 1.9.1 allows attackers to remotely launch a DoS on Wiz devices only requiring the MAC address.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56562"
+    },
+    {
+      "type": "WEB",
+      "url": "https://api.wiz.world/api/v2/light"
+    },
+    {
+      "type": "WEB",
+      "url": "https://archive.org/details/wiz-rtebug"
+    },
+    {
+      "type": "WEB",
+      "url": "http://signify.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://wiz.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-16T18:16:01Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hff5-cw28-h7r5",
-  "modified": "2024-05-03T06:30:35Z",
+  "modified": "2025-09-16T18:31:18Z",
   "published": "2024-04-17T18:31:33Z",
   "aliases": [
     "CVE-2024-26920"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntracing/trigger: Fix to return error if failed to alloc snapshot\n\nFix register_snapshot_trigger() to return error code if it failed to\nallocate a snapshot instead of 0 (success). Unless that, it will register\nsnapshot trigger without an error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -65,7 +70,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T16:15:08Z"

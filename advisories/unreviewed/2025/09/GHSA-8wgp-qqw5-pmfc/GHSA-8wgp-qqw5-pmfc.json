@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8wgp-qqw5-pmfc",
-  "modified": "2025-09-16T00:30:23Z",
+  "modified": "2025-09-16T18:31:22Z",
   "published": "2025-09-16T00:30:23Z",
   "aliases": [
     "CVE-2025-43279"
   ],
   "details": "A privacy issue was addressed with improved private data redaction for log entries. This issue is fixed in macOS Tahoe 26. An app may be able to access user-sensitive data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-359"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T23:15:31Z"

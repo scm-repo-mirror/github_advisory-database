@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx4r-42r4-r5r4",
-  "modified": "2024-04-17T18:31:33Z",
+  "modified": "2025-09-16T18:31:18Z",
   "published": "2024-04-17T18:31:33Z",
   "aliases": [
     "CVE-2024-26919"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: ulpi: Fix debugfs directory leak\n\nThe ULPI per-device debugfs root is named after the ulpi device's\nparent, but ulpi_unregister_interface tries to remove a debugfs\ndirectory named after the ulpi device itself. This results in the\ndirectory sticking around and preventing subsequent (deferred) probes\nfrom succeeding. Change the directory name to match the ulpi device.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T16:15:08Z"

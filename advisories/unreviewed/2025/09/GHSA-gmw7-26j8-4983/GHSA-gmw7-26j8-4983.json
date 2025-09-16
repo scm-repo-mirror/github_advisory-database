@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmw7-26j8-4983",
-  "modified": "2025-09-16T00:30:22Z",
+  "modified": "2025-09-16T18:31:21Z",
   "published": "2025-09-16T00:30:22Z",
   "aliases": [
     "CVE-2025-31254"
   ],
   "details": "This issue was addressed with improved URL validation. This issue is fixed in Safari 26, iOS 26 and iPadOS 26. Processing maliciously crafted web content may lead to unexpected URL redirection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T23:15:29Z"

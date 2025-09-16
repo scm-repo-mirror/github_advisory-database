@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc69-9v7q-3fw3",
-  "modified": "2025-09-16T00:30:25Z",
+  "modified": "2025-09-16T18:31:23Z",
   "published": "2025-09-16T00:30:25Z",
   "aliases": [
     "CVE-2025-43355"
   ],
   "details": "A type confusion issue was addressed with improved memory handling. This issue is fixed in tvOS 26, macOS Sonoma 14.8, macOS Sequoia 15.7, iOS 18.7 and iPadOS 18.7, visionOS 26, watchOS 26, macOS Tahoe 26, iOS 26 and iPadOS 26. An app may be able to cause a denial-of-service.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-843"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T23:15:37Z"
