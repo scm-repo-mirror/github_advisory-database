@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq63-c47m-8cf5",
-  "modified": "2025-09-16T00:30:24Z",
+  "modified": "2025-09-16T15:32:30Z",
   "published": "2025-09-16T00:30:24Z",
   "aliases": [
     "CVE-2025-43331"
   ],
   "details": "A downgrade issue was addressed with additional code-signing restrictions. This issue is fixed in macOS Tahoe 26. An app may be able to access protected user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T23:15:35Z"

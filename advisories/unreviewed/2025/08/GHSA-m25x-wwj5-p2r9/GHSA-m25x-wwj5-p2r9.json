@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m25x-wwj5-p2r9",
-  "modified": "2025-08-09T21:30:23Z",
+  "modified": "2025-09-16T15:32:27Z",
   "published": "2025-08-09T21:30:23Z",
   "aliases": [
     "CVE-2025-8773"
@@ -42,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-74"
+      "CWE-74",
+      "CWE-89"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
