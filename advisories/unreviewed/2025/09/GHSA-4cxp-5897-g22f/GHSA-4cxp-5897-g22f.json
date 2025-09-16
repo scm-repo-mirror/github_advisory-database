@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4cxp-5897-g22f",
+  "modified": "2025-09-16T21:31:18Z",
+  "published": "2025-09-16T21:31:18Z",
+  "aliases": [
+    "CVE-2025-57631"
+  ],
+  "details": "SQL Injection vulnerability in TDuckCloud v.5.1 allows a remote attacker to execute arbitrary code via the Add a file upload module",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57631"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/TDuckCloud/tduck-platform/issues/31"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Theresasu1/b1b57b3763a286d9491541180c99368b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/TDuckCloud/tduck-platform"
+    },
+    {
+      "type": "WEB",
+      "url": "http://tduck-platform.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-16T20:15:36Z"
+  }
+}
