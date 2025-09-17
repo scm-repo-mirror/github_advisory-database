@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gqgx-r5gc-3g43",
-  "modified": "2022-10-20T12:00:16Z",
+  "modified": "2025-09-17T15:30:25Z",
   "published": "2022-10-19T19:00:17Z",
   "aliases": [
     "CVE-2022-43023"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43023"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hansmach1ne/CVE-portfolio/tree/main/CVE-2022-43023"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjqp-pjp6-xcxx",
-  "modified": "2025-09-15T03:32:33Z",
+  "modified": "2025-09-17T15:30:26Z",
   "published": "2025-09-15T03:32:33Z",
   "aliases": [
     "CVE-2025-59375"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes"
     },
     {
       "type": "WEB",

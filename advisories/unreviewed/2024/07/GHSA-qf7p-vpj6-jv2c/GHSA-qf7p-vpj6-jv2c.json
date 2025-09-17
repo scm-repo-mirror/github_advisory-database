@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf7p-vpj6-jv2c",
-  "modified": "2024-07-12T15:31:28Z",
+  "modified": "2025-09-17T15:30:25Z",
   "published": "2024-07-12T15:31:28Z",
   "aliases": [
     "CVE-2024-40929"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: mvm: check n_ssids before accessing the ssids\n\nIn some versions of cfg80211, the ssids poinet might be a valid one even\nthough n_ssids is 0. Accessing the pointer in this case will cuase an\nout-of-bound access. Fix this by checking n_ssids first.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:15Z"

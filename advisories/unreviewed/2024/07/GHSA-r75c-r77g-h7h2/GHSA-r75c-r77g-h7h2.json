@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r75c-r77g-h7h2",
-  "modified": "2024-07-12T15:31:26Z",
+  "modified": "2025-09-17T15:30:25Z",
   "published": "2024-07-12T15:31:26Z",
   "aliases": [
     "CVE-2024-39503"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ipset: Fix race between namespace cleanup and gc in the list:set type\n\nLion Ackermann reported that there is a race condition between namespace cleanup\nin ipset and the garbage collection of the list:set type. The namespace\ncleanup can destroy the list:set type of sets while the gc of the set type is\nwaiting to run in rcu cleanup. The latter uses data from the destroyed set which\nthus leads use after free. The patch contains the following parts:\n\n- When destroying all sets, first remove the garbage collectors, then wait\n  if needed and then destroy the sets.\n- Fix the badly ordered \"wait then remove gc\" for the destroy a single set\n  case.\n- Fix the missing rcu locking in the list:set type in the userspace test\n  case.\n- Use proper RCU list handlings in the list:set type.\n\nThe patch depends on c1193d9bbbd3 (netfilter: ipset: Add list flush to cancel_gc).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:12Z"

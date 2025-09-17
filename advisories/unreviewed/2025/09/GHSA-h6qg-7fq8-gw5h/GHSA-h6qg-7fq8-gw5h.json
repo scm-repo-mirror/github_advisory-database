@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6qg-7fq8-gw5h",
-  "modified": "2025-09-16T15:32:35Z",
+  "modified": "2025-09-17T15:30:28Z",
   "published": "2025-09-16T15:32:35Z",
   "aliases": [
     "CVE-2025-10531"
   ],
   "details": "This vulnerability affects Firefox < 143 and Thunderbird < 143.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-288"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-16T13:15:46Z"

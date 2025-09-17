@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cxp-5897-g22f",
-  "modified": "2025-09-16T21:31:18Z",
+  "modified": "2025-09-17T15:30:31Z",
   "published": "2025-09-16T21:31:18Z",
   "aliases": [
     "CVE-2025-57631"
   ],
   "details": "SQL Injection vulnerability in TDuckCloud v.5.1 allows a remote attacker to execute arbitrary code via the Add a file upload module",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-16T20:15:36Z"
