@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3g5-xm8m-gp96",
-  "modified": "2024-05-03T03:30:47Z",
+  "modified": "2025-09-18T15:30:21Z",
   "published": "2024-05-01T06:31:43Z",
   "aliases": [
     "CVE-2024-27009"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/cio: fix race condition during online processing\n\nA race condition exists in ccw_device_set_online() that can cause the\nonline process to fail, leaving the affected device in an inconsistent\nstate. As a result, subsequent attempts to set that device online fail\nwith return code ENODEV.\n\nThe problem occurs when a path verification request arrives after\na wait for final device state completed, but before the result state\nis evaluated.\n\nFix this by ensuring that the CCW-device lock is held between\ndetermining final state and checking result state.\n\nNote that since:\n\ncommit 2297791c92d0 (\"s390/cio: dont unregister subchannel from child-drivers\")\n\npath verification requests are much more likely to occur during boot,\nresulting in an increased chance of this race condition occurring.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T06:15:19Z"

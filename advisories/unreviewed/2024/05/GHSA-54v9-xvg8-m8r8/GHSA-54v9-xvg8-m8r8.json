@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54v9-xvg8-m8r8",
-  "modified": "2024-05-17T12:30:59Z",
+  "modified": "2025-09-18T15:30:21Z",
   "published": "2024-05-01T06:31:41Z",
   "aliases": [
     "CVE-2024-26936"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: validate request buffer size in smb2_allocate_rsp_buf()\n\nThe response buffer should be allocated in smb2_allocate_rsp_buf\nbefore validating request. But the fields in payload as well as smb2 header\nis used in smb2_allocate_rsp_buf(). This patch add simple buffer size\nvalidation to avoid potencial out-of-bounds in request buffer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T06:15:08Z"

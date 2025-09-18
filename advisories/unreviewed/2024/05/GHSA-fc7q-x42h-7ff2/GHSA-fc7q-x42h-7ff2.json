@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc7q-x42h-7ff2",
-  "modified": "2024-05-01T06:31:41Z",
+  "modified": "2025-09-18T15:30:21Z",
   "published": "2024-05-01T06:31:41Z",
   "aliases": [
     "CVE-2024-26938"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915/bios: Tolerate devdata==NULL in intel_bios_encoder_supports_dp_dual_mode()\n\nIf we have no VBT, or the VBT didn't declare the encoder\nin question, we won't have the 'devdata' for the encoder.\nInstead of oopsing just bail early.\n\nWe won't be able to tell whether the port is DP++ or not,\nbut so be it.\n\n(cherry picked from commit 26410896206342c8a80d2b027923e9ee7d33b733)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T06:15:09Z"
