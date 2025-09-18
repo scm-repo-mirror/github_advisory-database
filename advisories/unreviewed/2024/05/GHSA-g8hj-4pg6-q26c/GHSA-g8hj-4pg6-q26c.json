@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8hj-4pg6-q26c",
-  "modified": "2024-05-17T12:31:00Z",
+  "modified": "2025-09-18T18:30:22Z",
   "published": "2024-05-17T12:31:00Z",
   "aliases": [
     "CVE-2024-27409"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: dw-edma: HDMA: Add sync read before starting the DMA transfer in remote setup\n\nThe Linked list element and pointer are not stored in the same memory as\nthe HDMA controller register. If the doorbell register is toggled before\nthe full write of the linked list a race condition error will occur.\nIn remote setup we can only use a readl to the memory to assure the full\nwrite has occurred.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T12:15:11Z"

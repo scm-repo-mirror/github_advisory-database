@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf8h-76fm-735v",
-  "modified": "2025-08-13T18:31:25Z",
+  "modified": "2025-09-18T18:30:24Z",
   "published": "2025-08-13T18:31:25Z",
   "aliases": [
     "CVE-2025-8904"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-app-versions-7.x.html"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-hf8h-76fm-735v"
     }
   ],
   "database_specific": {

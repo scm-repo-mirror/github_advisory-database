@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gg6-7q9p-2qrr",
-  "modified": "2024-05-01T15:30:35Z",
+  "modified": "2025-09-18T18:30:21Z",
   "published": "2024-05-01T15:30:35Z",
   "aliases": [
     "CVE-2024-27039"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: hisilicon: hi3559a: Fix an erroneous devm_kfree()\n\n'p_clk' is an array allocated just before the for loop for all clk that\nneed to be registered.\nIt is incremented at each loop iteration.\n\nIf a clk_register() call fails, 'p_clk' may point to something different\nfrom what should be freed.\n\nThe best we can do, is to avoid this wrong release of memory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T13:15:49Z"

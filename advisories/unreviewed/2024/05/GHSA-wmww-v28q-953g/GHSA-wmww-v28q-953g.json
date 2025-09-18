@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmww-v28q-953g",
-  "modified": "2025-03-24T18:30:38Z",
+  "modified": "2025-09-18T18:30:21Z",
   "published": "2024-05-14T15:32:53Z",
   "aliases": [
     "CVE-2024-27397"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_tables: use timestamp to check for set element timeout\n\nAdd a timestamp field at the beginning of the transaction, store it\nin the nftables per-netns area.\n\nUpdate set backend .insert, .deactivate and sync gc path to use the\ntimestamp, this avoids that an element expires while control plane\ntransaction is still unfinished.\n\n.lookup and .update, which are used from packet path, still use the\ncurrent time to check if the element has expired. And .get path and dump\nalso since this runs lockless under rcu read size lock. Then, there is\nasync gc which also needs to check the current time since it runs\nasynchronously from a workqueue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-14T15:12:28Z"
