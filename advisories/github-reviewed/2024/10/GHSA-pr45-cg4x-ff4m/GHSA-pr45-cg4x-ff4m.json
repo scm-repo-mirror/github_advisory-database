@@ -57,6 +57,14 @@
       "url": "https://security.snyk.io/vuln/SNYK-JS-GGIT-5731319"
     }
   ],
+  "credits": [ {
+    "name": "Liran Tal",
+    "contact": [
+      "https://x.com/liran_tal",
+      "mailto:liran@lirantal.com"
+    ],
+    "type": "FINDER"
+  } ],
   "database_specific": {
     "cwe_ids": [
       "CWE-88"
