@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98x5-jw98-6c97",
-  "modified": "2025-09-17T19:28:14Z",
+  "modified": "2025-09-18T13:03:43Z",
   "published": "2025-09-17T19:28:14Z",
   "aliases": [
     "CVE-2025-59347"
@@ -41,6 +41,10 @@
       "url": "https://github.com/dragonflyoss/dragonfly/security/advisories/GHSA-98x5-jw98-6c97"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59347"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/dragonflyoss/dragonfly"
     },
@@ -51,11 +55,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-287"
+      "CWE-287",
+      "CWE-295"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-17T19:28:14Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-17T20:15:36Z"
   }
 }

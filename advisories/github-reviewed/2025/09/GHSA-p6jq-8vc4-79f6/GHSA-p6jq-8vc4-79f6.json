@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6jq-8vc4-79f6",
-  "modified": "2025-09-17T20:42:28Z",
+  "modified": "2025-09-18T13:04:21Z",
   "published": "2025-09-17T20:42:28Z",
   "aliases": [
     "CVE-2025-59414"
@@ -60,6 +60,10 @@
       "url": "https://github.com/nuxt/nuxt/security/advisories/GHSA-p6jq-8vc4-79f6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59414"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nuxt/nuxt/commit/2566d2046bccb158d98fb13e42ce4b2c33fb2595"
     },
@@ -75,6 +79,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-17T20:42:28Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-17T19:15:47Z"
   }
 }
