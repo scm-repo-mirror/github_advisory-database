@@ -1,23 +1,56 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv9c-xxg7-wmv7",
-  "modified": "2025-09-18T09:31:13Z",
+  "modified": "2025-09-18T17:21:19Z",
   "published": "2025-09-18T09:31:13Z",
   "aliases": [
     "CVE-2025-6237"
   ],
+  "summary": "InvokeAI has External Control of File Name or Path",
   "details": "A vulnerability in invokeai version v6.0.0a1 and below allows attackers to perform path traversal and arbitrary file deletion via the GET /api/v1/images/download/{bulk_download_item_name} endpoint. By manipulating the filename arguments, attackers can read and delete any files on the server, including critical system files such as SSH keys, databases, and configuration files. This vulnerability results in high confidentiality, integrity, and availability impacts.",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "invokeai"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "6.0.0a1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6237"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/invoke-ai/InvokeAI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/invoke-ai/InvokeAI/blob/v6.0.0a1/invokeai/app/api/routers/images.py#L493-L524"
     },
     {
       "type": "WEB",
@@ -28,9 +61,9 @@
     "cwe_ids": [
       "CWE-73"
     ],
-    "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-18T17:21:19Z",
     "nvd_published_at": "2025-09-18T09:15:35Z"
   }
 }
