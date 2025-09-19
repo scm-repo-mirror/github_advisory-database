@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2h8j-8r9p-849f",
+  "modified": "2025-09-19T06:31:21Z",
+  "published": "2025-09-19T06:31:21Z",
+  "aliases": [
+    "CVE-2025-59717"
+  ],
+  "details": "In the @digitalocean/do-markdownit package through 1.16.1 (in npm), the callout and fence_environment plugins perform .includes substring matching if allowedClasses or allowedEnvironments is a string (instead of an array).",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59717"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/thesmartshadow/dd19665f1f51a4e3c7a766e70c9eafd0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/digitalocean/do-markdownit"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.npmjs.com/package/@digitalocean/do-markdownit"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-843"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-19T04:16:49Z"
+  }
+}
