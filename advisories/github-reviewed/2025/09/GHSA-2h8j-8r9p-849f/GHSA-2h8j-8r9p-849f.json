@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h8j-8r9p-849f",
-  "modified": "2025-09-19T06:31:21Z",
+  "modified": "2025-09-19T17:15:44Z",
   "published": "2025-09-19T06:31:21Z",
   "aliases": [
     "CVE-2025-59717"
   ],
+  "summary": "@digitalocean/do-markdownit has Type Confusion vulnerability",
   "details": "In the @digitalocean/do-markdownit package through 1.16.1 (in npm), the callout and fence_environment plugins perform .includes substring matching if allowedClasses or allowedEnvironments is a string (instead of an array).",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@digitalocean/do-markdownit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.16.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,7 +45,7 @@
       "url": "https://gist.github.com/thesmartshadow/dd19665f1f51a4e3c7a766e70c9eafd0"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/digitalocean/do-markdownit"
     },
     {
@@ -37,8 +58,8 @@
       "CWE-843"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-19T17:15:44Z",
     "nvd_published_at": "2025-09-19T04:16:49Z"
   }
 }
