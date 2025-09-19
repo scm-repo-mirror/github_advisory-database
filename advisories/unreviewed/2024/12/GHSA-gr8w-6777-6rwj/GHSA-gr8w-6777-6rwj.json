@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr8w-6777-6rwj",
-  "modified": "2024-12-24T12:30:43Z",
+  "modified": "2025-09-19T21:31:15Z",
   "published": "2024-12-24T12:30:43Z",
   "aliases": [
     "CVE-2024-53158"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoc: qcom: geni-se: fix array underflow in geni_se_clk_tbl_get()\n\nThis loop is supposed to break if the frequency returned from\nclk_round_rate() is the same as on the previous iteration.  However,\nthat check doesn't make sense on the first iteration through the loop.\nIt leads to reading before the start of these->clk_perf_tbl[] array.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-24T12:15:24Z"

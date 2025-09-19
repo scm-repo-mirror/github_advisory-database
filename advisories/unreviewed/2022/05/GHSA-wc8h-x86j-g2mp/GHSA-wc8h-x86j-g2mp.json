@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc8h-x86j-g2mp",
-  "modified": "2022-05-17T04:47:22Z",
+  "modified": "2025-09-19T21:31:14Z",
   "published": "2022-05-17T04:47:22Z",
   "aliases": [
     "CVE-2014-0773"
@@ -16,11 +16,25 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-079-03"
+    },
+    {
+      "type": "WEB",
       "url": "http://ics-cert.us-cert.gov/advisories/ICSA-14-079-03"
+    },
+    {
+      "type": "WEB",
+      "url": "http://webaccess.advantech.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/bid/66740"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-77"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

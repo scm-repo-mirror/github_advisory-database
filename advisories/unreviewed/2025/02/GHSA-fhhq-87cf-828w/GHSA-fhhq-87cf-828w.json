@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhhq-87cf-828w",
-  "modified": "2025-02-04T15:31:37Z",
+  "modified": "2025-09-19T21:31:15Z",
   "published": "2025-02-04T15:31:37Z",
   "aliases": [
     "CVE-2024-9643"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-489"
+      "CWE-489",
+      "CWE-798"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

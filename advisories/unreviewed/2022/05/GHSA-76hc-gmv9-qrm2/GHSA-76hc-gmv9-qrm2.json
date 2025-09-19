@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76hc-gmv9-qrm2",
-  "modified": "2022-05-17T04:38:03Z",
+  "modified": "2025-09-19T21:31:14Z",
   "published": "2022-05-17T04:38:03Z",
   "aliases": [
     "CVE-2014-0761"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-14-238-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-238-01"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail.cgautomationusa.com/login.aspx"
     }
   ],
   "database_specific": {

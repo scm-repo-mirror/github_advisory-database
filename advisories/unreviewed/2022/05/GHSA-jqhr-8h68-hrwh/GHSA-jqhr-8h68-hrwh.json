@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqhr-8h68-hrwh",
-  "modified": "2022-05-17T01:28:30Z",
+  "modified": "2025-09-19T21:31:14Z",
   "published": "2022-05-17T01:28:30Z",
   "aliases": [
     "CVE-2014-0755"
@@ -20,6 +20,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://rockwellautomation.custhelp.com/app/answers/detail/a_id/565204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-021-01"
+    },
+    {
+      "type": "WEB",
       "url": "http://ics-cert.us-cert.gov/advisories/ICSA-14-021-01"
     },
     {
@@ -32,7 +40,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-522"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

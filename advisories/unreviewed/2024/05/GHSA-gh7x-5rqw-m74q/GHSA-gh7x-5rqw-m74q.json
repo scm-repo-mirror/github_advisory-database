@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh7x-5rqw-m74q",
-  "modified": "2024-05-17T15:31:11Z",
+  "modified": "2025-09-19T21:31:15Z",
   "published": "2024-05-17T15:31:11Z",
   "aliases": [
     "CVE-2023-52682"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: fix to wait on block writeback for post_read case\n\nIf inode is compressed, but not encrypted, it missed to call\nf2fs_wait_on_block_writeback() to wait for GCed page writeback\nin IPU write path.\n\nThread A\t\t\t\tGC-Thread\n\t\t\t\t\t- f2fs_gc\n\t\t\t\t\t - do_garbage_collect\n\t\t\t\t\t  - gc_data_segment\n\t\t\t\t\t   - move_data_block\n\t\t\t\t\t    - f2fs_submit_page_write\n\t\t\t\t\t     migrate normal cluster's block via\n\t\t\t\t\t     meta_inode's page cache\n- f2fs_write_single_data_page\n - f2fs_do_write_data_page\n  - f2fs_inplace_write_data\n   - f2fs_submit_page_bio\n\nIRQ\n- f2fs_read_end_io\n\t\t\t\t\tIRQ\n\t\t\t\t\told data overrides new data due to\n\t\t\t\t\tout-of-order GC and common IO.\n\t\t\t\t\t- f2fs_read_end_io",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T15:15:19Z"

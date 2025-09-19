@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cmf-7pgf-j9g9",
-  "modified": "2022-05-17T04:11:06Z",
+  "modified": "2025-09-19T21:31:14Z",
   "published": "2022-05-17T04:11:06Z",
   "aliases": [
     "CVE-2014-0763"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-079-03"
+    },
+    {
+      "type": "WEB",
       "url": "http://ics-cert.us-cert.gov/advisories/ICSA-14-079-03"
+    },
+    {
+      "type": "WEB",
+      "url": "http://webaccess.advantech.com"
     },
     {
       "type": "WEB",

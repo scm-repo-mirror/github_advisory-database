@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcxj-24rj-3795",
-  "modified": "2024-11-19T03:31:08Z",
+  "modified": "2025-09-19T21:31:15Z",
   "published": "2024-11-19T03:31:08Z",
   "aliases": [
     "CVE-2024-50294"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nrxrpc: Fix missing locking causing hanging calls\n\nIf a call gets aborted (e.g. because kafs saw a signal) between it being\nqueued for connection and the I/O thread picking up the call, the abort\nwill be prioritised over the connection and it will be removed from\nlocal->new_client_calls by rxrpc_disconnect_client_call() without a lock\nbeing held.  This may cause other calls on the list to disappear if a race\noccurs.\n\nFix this by taking the client_call_lock when removing a call from whatever\nlist its ->wait_link happens to be on.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:31Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82hr-8jw5-cf8x",
-  "modified": "2024-11-19T03:31:08Z",
+  "modified": "2025-09-19T21:31:15Z",
   "published": "2024-11-19T03:31:08Z",
   "aliases": [
     "CVE-2024-50290"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: cx24116: prevent overflows on SNR calculus\n\nas reported by Coverity, if reading SNR registers fail, a negative\nnumber will be returned, causing an underflow when reading SNR\nregisters.\n\nPrevent that.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-191"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:31Z"

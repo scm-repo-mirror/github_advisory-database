@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwmg-2g98-w7v9",
-  "modified": "2025-08-11T15:08:44Z",
+  "modified": "2025-09-19T21:31:45Z",
   "published": "2025-07-11T03:30:34Z",
   "aliases": [
     "CVE-2025-53864"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "10.0"
+              "introduced": "9.38-rc1"
             },
             {
               "fixed": "10.0.2"
