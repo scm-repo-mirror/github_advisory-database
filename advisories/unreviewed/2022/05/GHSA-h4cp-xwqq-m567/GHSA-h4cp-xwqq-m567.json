@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4cp-xwqq-m567",
-  "modified": "2022-05-24T19:12:01Z",
+  "modified": "2025-09-19T18:31:13Z",
   "published": "2022-05-24T19:12:01Z",
   "aliases": [
     "CVE-2021-28627"
   ],
   "details": "Adobe Experience Manager Cloud Service offering, as well as versions 6.5.8.0 (and below) is affected by a Server-side Request Forgery. An authenticated attacker could leverage this vulnerability to contact systems blocked by the dispatcher. Exploitation of this issue does not require user interaction.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
