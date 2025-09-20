@@ -57,14 +57,16 @@
       "url": "https://security.snyk.io/vuln/SNYK-JS-SERVST-3244896"
     }
   ],
-  "credits": [ {
-    "name": "Liran Tal",
-    "contact": [
-      "https://x.com/liran_tal",
-      "mailto:liran@lirantal.com"
-    ],
-    "type": "FINDER"
-  } ],
+  "credits": [
+    {
+      "name": "Liran Tal",
+      "contact": [
+        "https://x.com/liran_tal",
+        "mailto:liran@lirantal.com"
+      ],
+      "type": "FINDER"
+    }
+  ],
   "database_specific": {
     "cwe_ids": [
       "CWE-22"
