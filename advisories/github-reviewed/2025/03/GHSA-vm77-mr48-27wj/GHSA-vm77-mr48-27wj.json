@@ -49,6 +49,16 @@
       "url": "https://security.snyk.io/vuln/SNYK-JS-NOSSRF-9510842"
     }
   ],
+  "credits": [
+    {
+      "name": "Liran Tal",
+      "contact": [
+        "https://x.com/liran_tal",
+        "mailto:liran@lirantal.com"
+      ],
+      "type": "FINDER"
+    }
+  ],
   "database_specific": {
     "cwe_ids": [
       "CWE-918"
