@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27q9-h529-q4g3",
-  "modified": "2024-02-27T18:31:00Z",
+  "modified": "2025-09-22T18:30:29Z",
   "published": "2023-12-24T09:30:19Z",
   "aliases": [
     "CVE-2023-51767"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://ubuntu.com/security/CVE-2023-51767"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2025/09/22/1"
     }
   ],
   "database_specific": {

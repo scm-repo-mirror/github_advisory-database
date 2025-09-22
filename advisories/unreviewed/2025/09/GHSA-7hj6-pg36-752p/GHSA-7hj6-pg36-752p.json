@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hj6-pg36-752p",
-  "modified": "2025-09-10T15:31:18Z",
+  "modified": "2025-09-22T18:30:32Z",
   "published": "2025-09-10T15:31:18Z",
   "aliases": [
     "CVE-2025-56466"
   ],
   "details": "Hardcoded credentials in Dietly v1.25.0 for android allows attackers to gain sensitive information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-798"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-10T15:15:37Z"

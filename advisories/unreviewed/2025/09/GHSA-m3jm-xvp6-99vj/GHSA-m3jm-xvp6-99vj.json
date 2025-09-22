@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-m3jm-xvp6-99vj",
+  "modified": "2025-09-22T18:30:36Z",
+  "published": "2025-09-22T18:30:36Z",
+  "aliases": [
+    "CVE-2025-57602"
+  ],
+  "details": "Insufficient hardening of the proxyuser account in the AiKaan IoT management platform, combined with the use of a shared, hardcoded SSH private key, allows remote attackers to authenticate to the cloud controller, gain interactive shell access, and pivot into other connected IoT devices. This can lead to remote code execution, information disclosure, and privilege escalation across customer environments.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57602"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Shubhangborkar/aikaan-vulnerabilities/blob/main/cve2-proxyuser-shell.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-22T16:15:45Z"
+  }
+}

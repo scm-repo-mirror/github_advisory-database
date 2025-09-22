@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cgfc-2m55-wph7",
+  "modified": "2025-09-22T18:30:37Z",
+  "published": "2025-09-22T18:30:37Z",
+  "aliases": [
+    "CVE-2025-57440"
+  ],
+  "details": "The Blackmagic ATEM Mini Pro 2.7 exposes an undocumented Telnet service on TCP port 9993, which accepts unauthenticated plaintext commands for controlling streaming, recording, formatting storage devices, and system reboot. This interface, referred to as the \"ATEM Ethernet Protocol 1.0\", provides complete device control without requiring credentials or encryption. An attacker on the same network (or with remote access to the exposed port) can exploit this interface to execute arbitrary streaming commands, erase disks, or shut down the device - effectively gaining full remote control.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57440"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/shiky8/my--cve-vulnerability-research/tree/main/CVE-2025-57440"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.blackmagicdesign.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-22T18:15:45Z"
+  }
+}

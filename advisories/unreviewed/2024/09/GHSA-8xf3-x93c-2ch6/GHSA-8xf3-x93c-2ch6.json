@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xf3-x93c-2ch6",
-  "modified": "2025-02-18T21:32:08Z",
+  "modified": "2025-09-22T18:30:29Z",
   "published": "2024-09-27T18:32:25Z",
   "aliases": [
     "CVE-2024-45744"
@@ -42,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-257"
+      "CWE-257",
+      "CWE-522"
     ],
     "severity": "LOW",
     "github_reviewed": false,
