@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q7jf-phpc-j8cf",
+  "modified": "2025-09-22T21:30:29Z",
+  "published": "2025-09-22T21:30:29Z",
+  "aliases": [
+    "CVE-2025-57204"
+  ],
+  "details": "Stocky POS with Inventory Management & HRM (ui-lib) version 5.0 is affected by a Stored Cross-Site Scripting (XSS) vulnerability within the Products module available to authenticated users. The vulnerability resides in the product name parameter submitted to the product-creation endpoint via a standard POST form. Due to insufficient input sanitization and output encoding, attackers can inject HTML/JS payloads. The payload is stored and subsequently rendered unsanitized in downstream views, leading to JavaScript execution in other users' browsers when they access the affected product pages. This issue allows an authenticated attacker to execute arbitrary JavaScript in the context of another user, potentially enabling session hijacking, privilege escalation within the application, data exfiltration, or administrative account takeover. The application also lacks a restrictive Content Security Policy (CSP), increasing exploitability.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://codecanyon.net/item/stockyultimate-inventory-management-system-with-pos/31445124"
+    },
+    {
+      "type": "WEB",
+      "url": "https://grumpz.net/cve-2025-57204-stored-xss-in-stocky-pos-with-inventory-management-and-hrm-ui-lib-50"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-22T21:15:59Z"
+  }
+}

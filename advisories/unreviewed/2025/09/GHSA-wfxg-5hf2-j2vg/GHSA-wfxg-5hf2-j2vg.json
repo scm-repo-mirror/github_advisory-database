@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wfxg-5hf2-j2vg",
+  "modified": "2025-09-22T21:30:17Z",
+  "published": "2025-09-22T21:30:17Z",
+  "aliases": [
+    "CVE-2025-39849"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: cfg80211: sme: cap SSID length in __cfg80211_connect_result()\n\nIf the ssid->datalen is more than IEEE80211_MAX_SSID_LEN (32) it would\nlead to memory corruption so add some bounds checking.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39849"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/31229145e6ba5ace3e9391113376fa05b7831ede"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5cb7cab7adf9b1e6a99e2081b0e30e9e59d07523"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/62b635dcd69c4fde7ce1de4992d71420a37e51e3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8e751d46336205abc259ed3990e850a9843fb649"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e472f59d02c82b511bc43a3f96d62ed08bf4537f"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-19T16:15:43Z"
+  }
+}
