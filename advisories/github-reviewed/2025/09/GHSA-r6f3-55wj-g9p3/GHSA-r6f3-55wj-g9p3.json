@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6f3-55wj-g9p3",
-  "modified": "2025-09-23T18:30:23Z",
+  "modified": "2025-09-23T19:13:03Z",
   "published": "2025-09-23T18:30:23Z",
   "aliases": [
     "CVE-2024-6429"
   ],
+  "summary": "WSO2 Identity Server Apps allows content spoofing in logs",
   "details": "A content spoofing vulnerability exists in multiple WSO2 products due to improper error message handling. Under certain conditions, error messages are passed through URL parameters without validation, allowing malicious actors to inject arbitrary content into the UI.\n\nBy exploiting this vulnerability, attackers can manipulate browser-displayed error messages, enabling social engineering attacks through deceptive or misleading content.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.wso2.identity.apps:authentication-portal"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.4.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,14 +42,32 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/wso2/identity-apps/pull/6488"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/wso2/identity-apps/commit/75babf6b60f940f86bada7020e5d464ca95e47f2"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/wso2/identity-apps"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/wso2/identity-apps/releases/tag/@wso2is/identity-apps-core@2.4.4"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2025/WSO2-2024-3490"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-451"
+    ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-23T19:13:03Z",
     "nvd_published_at": "2025-09-23T17:15:30Z"
   }
 }
