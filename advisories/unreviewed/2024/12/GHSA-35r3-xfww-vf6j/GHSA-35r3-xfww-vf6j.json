@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35r3-xfww-vf6j",
-  "modified": "2024-12-27T15:31:53Z",
+  "modified": "2025-09-23T21:30:53Z",
   "published": "2024-12-27T15:31:53Z",
   "aliases": [
     "CVE-2024-56563"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nceph: fix cred leak in ceph_mds_check_access()\n\nget_current_cred() increments the reference counter, but the\nput_cred() call was missing.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:15Z"

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6cvx-mw62-87pq",
+  "modified": "2025-09-23T21:30:54Z",
+  "published": "2025-09-23T21:30:54Z",
+  "aliases": [
+    "CVE-2025-51005"
+  ],
+  "details": "A heap-buffer-overflow vulnerability exists in the tcpliveplay utility of the tcpreplay-4.5.1. When a crafted pcap file is processed, the program incorrectly handles memory in the checksum calculation logic at do_checksum_math_liveplay in tcpliveplay.c, leading to a possible denial of service.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-51005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/appneta/tcpreplay/issues/925"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sy460129/CVE-2025-51005"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-23T19:15:39Z"
+  }
+}
