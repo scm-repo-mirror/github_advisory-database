@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3cr-crgf-v8f7",
-  "modified": "2025-06-27T18:30:43Z",
+  "modified": "2025-09-23T09:30:19Z",
   "published": "2025-06-27T18:30:43Z",
   "aliases": [
     "CVE-2024-12143"

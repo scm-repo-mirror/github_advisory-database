@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9mcq-2pc5-597f",
+  "modified": "2025-09-23T09:30:19Z",
+  "published": "2025-09-23T09:30:19Z",
+  "aliases": [
+    "CVE-2025-10548"
+  ],
+  "details": "The CleverControl employee monitoring software (v11.5.1041.6) fails to validate TLS server certificates during the installation process. The installer downloads and executes external components using curl.exe --insecure, enabling a man-in-the-middle attacker to deliver malicious files that are executed with SYSTEM privileges. This can lead to full remote code execution with administrative rights. No patch is available as the vendor has been unresponsive. It is assumed that previous versions are also affected, but this is not confirmed.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10548"
+    },
+    {
+      "type": "WEB",
+      "url": "https://r.sec-consult.com/clevercontrol"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-295"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-23T07:15:34Z"
+  }
+}
