@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x75h-m6jj-6cj2",
-  "modified": "2025-09-24T21:30:37Z",
+  "modified": "2025-09-24T22:15:36Z",
   "published": "2025-09-24T21:30:37Z",
   "aliases": [
     "CVE-2025-55178"
   ],
+  "summary": "Llama Stack could potentially allow for remote code execution",
   "details": "Llama Stack prior to version v0.2.20 accepted unverified parameters in the resolve_ast_by_type function which could potentially allow for remote code execution.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "llama-stack"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -25,6 +46,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/llamastack/llama-stack/commit/efdb5558b8dcab4d141678bfed0a405e2f312b6f"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/llamastack/llama-stack"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/llamastack/llama-stack/releases/tag/v0.2.20"
     },
     {
@@ -33,10 +62,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-20"
+    ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-24T22:15:36Z",
     "nvd_published_at": "2025-09-24T19:15:36Z"
   }
 }
