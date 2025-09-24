@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcv3-ch54-xqfh",
-  "modified": "2025-07-11T15:31:36Z",
+  "modified": "2025-09-24T15:31:12Z",
   "published": "2025-07-11T15:31:36Z",
   "aliases": [
     "CVE-2025-51591"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/RealestName/Vulnerability-Research/tree/main/CVE-2025-51591"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pandoc.org"
     },
     {
       "type": "WEB",

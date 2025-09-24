@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xf9-j9jw-g7f7",
-  "modified": "2024-10-16T12:30:47Z",
+  "modified": "2025-09-24T15:31:12Z",
   "published": "2023-07-10T18:30:47Z",
   "aliases": [
     "CVE-2021-4406"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://csirt.divd.nl/DIVD-2021-00020"
+    },
+    {
+      "type": "WEB",
+      "url": "https://csirt.divd.nl/cves/CVE-2021-4406"
     },
     {
       "type": "WEB",
