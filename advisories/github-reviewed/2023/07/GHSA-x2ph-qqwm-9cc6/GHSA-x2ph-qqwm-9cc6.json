@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2ph-qqwm-9cc6",
-  "modified": "2023-07-17T10:48:39Z",
+  "modified": "2025-09-24T20:50:52Z",
   "published": "2023-07-15T21:30:16Z",
   "aliases": [
     "CVE-2023-2507"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "2.6.2"
+              "fixed": "2.7.0"
             }
           ]
         }
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/CleverTap/clevertap-cordova"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/CleverTap/clevertap-cordova/releases/tag/2.7.0"
     }
   ],
   "database_specific": {
