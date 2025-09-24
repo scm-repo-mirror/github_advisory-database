@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpjq-c5hr-7925",
-  "modified": "2025-08-12T00:12:09Z",
+  "modified": "2025-09-24T18:03:40Z",
   "published": "2025-08-11T21:31:40Z",
   "aliases": [
     "CVE-2025-54478"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
     }
   ],
   "affected": [
@@ -49,7 +49,7 @@
     "cwe_ids": [
       "CWE-306"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-12T00:12:09Z",
     "nvd_published_at": "2025-08-11T19:15:30Z"
