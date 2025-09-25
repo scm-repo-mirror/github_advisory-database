@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh5q-v9ww-rqgm",
-  "modified": "2025-07-19T03:30:20Z",
+  "modified": "2025-09-25T18:30:30Z",
   "published": "2025-07-18T21:30:30Z",
   "aliases": [
     "CVE-2025-54309"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://www.rapid7.com/blog/post/crushftp-zero-day-exploited-in-the-wild"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-54309-detect-crushftp-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-54309-mitigate-crushftp-vulnerability"
     }
   ],
   "database_specific": {

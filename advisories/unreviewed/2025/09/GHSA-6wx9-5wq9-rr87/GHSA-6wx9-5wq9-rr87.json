@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6wx9-5wq9-rr87",
+  "modified": "2025-09-25T18:30:35Z",
+  "published": "2025-09-25T18:30:34Z",
+  "aliases": [
+    "CVE-2025-57623"
+  ],
+  "details": "A NULL pointer dereference in TOTOLINK N600R firmware v4.3.0cu.7866_B2022506 allows attackers to cause a Denial of Service.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57623"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/z472421519/d17061ea79a72d39fe69c000fa1a6280"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/NPD/TOTOLink/CONTENT_LENGTH.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-25T18:15:43Z"
+  }
+}

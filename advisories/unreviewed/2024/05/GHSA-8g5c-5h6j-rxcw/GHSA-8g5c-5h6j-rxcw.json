@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8g5c-5h6j-rxcw",
-  "modified": "2024-05-17T15:31:11Z",
+  "modified": "2025-09-25T18:30:28Z",
   "published": "2024-05-17T15:31:11Z",
   "aliases": [
     "CVE-2023-52677"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nriscv: Check if the code to patch lies in the exit section\n\nOtherwise we fall through to vmalloc_to_page() which panics since the\naddress does not lie in the vmalloc region.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T15:15:18Z"

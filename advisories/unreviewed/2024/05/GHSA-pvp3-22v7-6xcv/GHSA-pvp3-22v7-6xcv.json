@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvp3-22v7-6xcv",
-  "modified": "2024-05-17T15:31:11Z",
+  "modified": "2025-09-25T18:30:28Z",
   "published": "2024-05-17T15:31:11Z",
   "aliases": [
     "CVE-2023-52681"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nefivarfs: Free s_fs_info on unmount\n\nNow that we allocate a s_fs_info struct on fs context creation, we\nshould ensure that we free it again when the superblock goes away.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T15:15:19Z"

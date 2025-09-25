@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cmv-p5w7-7vqq",
-  "modified": "2024-05-17T15:31:09Z",
+  "modified": "2025-09-25T18:30:27Z",
   "published": "2024-05-17T15:31:09Z",
   "aliases": [
     "CVE-2023-52671"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix hang/underflow when transitioning to ODM4:1\n\n[Why]\nUnder some circumstances, disabling an OPTC and attempting to reclaim\nits OPP(s) for a different OPTC could cause a hang/underflow due to OPPs\nnot being properly disconnected from the disabled OPTC.\n\n[How]\nEnsure that all OPPs are unassigned from an OPTC when it gets disabled.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T14:15:10Z"

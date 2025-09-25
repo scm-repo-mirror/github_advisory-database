@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhrf-qc9p-xhrg",
-  "modified": "2022-05-17T04:43:34Z",
+  "modified": "2025-09-25T18:30:27Z",
   "published": "2022-05-17T04:43:34Z",
   "aliases": [
     "CVE-2014-0782"
@@ -16,16 +16,33 @@
     },
     {
       "type": "WEB",
+      "url": "https://community.rapid7.com/community/metasploit/blog/2014/03/10/yokogawa-centum-cs3000-vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-070-01a"
+    },
+    {
+      "type": "WEB",
       "url": "http://ics-cert.us-cert.gov/advisories/ICSA-14-133-01"
     },
     {
       "type": "WEB",
+      "url": "http://www.securityfocus.com/bid/66130"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.yokogawa.com/dcs/security/ysar/YSAR-14-0001E.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.yokogawa.com/dcs/security/ysar/dcs-ysar-index-en.htm."
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-121"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

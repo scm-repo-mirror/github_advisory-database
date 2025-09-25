@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6v32-xp4p-pj52",
-  "modified": "2025-04-12T12:32:25Z",
+  "modified": "2025-09-25T18:30:27Z",
   "published": "2022-05-17T01:06:03Z",
   "aliases": [
     "CVE-2014-0787"
@@ -16,6 +16,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-098-02"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/42724"
     },
     {
@@ -25,11 +29,16 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/66709"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.wellintech.com/index.php?option=com_content&view=article&id=56&Itemid=11"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-121"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

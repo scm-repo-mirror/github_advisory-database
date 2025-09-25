@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hww9-gvfj-fjcw",
-  "modified": "2024-04-04T07:41:54Z",
+  "modified": "2025-09-25T18:30:27Z",
   "published": "2023-09-15T03:30:19Z",
   "aliases": [
     "CVE-2023-3891"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fluidattacks.com/advisories/aerosmith"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/lapce/lapce/releases/tag/v0.3.0"
     },
     {
       "type": "WEB",

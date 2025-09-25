@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mf8-x5px-f6px",
-  "modified": "2024-07-02T21:31:57Z",
+  "modified": "2025-09-25T18:30:27Z",
   "published": "2022-05-17T01:06:10Z",
   "aliases": [
     "CVE-2014-0780"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-107-02"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/42699"
+    },
+    {
+      "type": "WEB",
+      "url": "http://download.indusoft.com/71.2.4/IWS71.2.4.zip"
     },
     {
       "type": "WEB",
