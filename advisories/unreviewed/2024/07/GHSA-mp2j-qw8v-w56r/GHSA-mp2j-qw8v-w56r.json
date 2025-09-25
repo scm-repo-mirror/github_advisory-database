@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp2j-qw8v-w56r",
-  "modified": "2024-07-29T15:30:42Z",
+  "modified": "2025-09-25T21:30:19Z",
   "published": "2024-07-29T15:30:42Z",
   "aliases": [
     "CVE-2024-41043"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nfnetlink_queue: drop bogus WARN_ON\n\nHappens when rules get flushed/deleted while packet is out, so remove\nthis WARN_ON.\n\nThis WARN exists in one form or another since v4.14, no need to backport\nthis to older releases, hence use a more recent fixes tag.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-617"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T15:15:12Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7gw-xcvp-f76q",
-  "modified": "2025-06-27T12:31:11Z",
+  "modified": "2025-09-25T21:30:18Z",
   "published": "2024-07-16T12:30:41Z",
   "aliases": [
     "CVE-2022-48828"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFSD: Fix ia_size underflow\n\niattr::ia_size is a loff_t, which is a signed 64-bit type. NFSv3 and\nNFSv4 both define file size as an unsigned 64-bit type. Thus there\nis a range of valid file size values an NFS client can send that is\nalready larger than Linux can handle.\n\nCurrently decode_fattr4() dumps a full u64 value into ia_size. If\nthat value happens to be larger than S64_MAX, then ia_size\nunderflows. I'm about to fix up the NFSv3 behavior as well, so let's\ncatch the underflow in the common code path: nfsd_setattr().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-191"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-16T12:15:06Z"

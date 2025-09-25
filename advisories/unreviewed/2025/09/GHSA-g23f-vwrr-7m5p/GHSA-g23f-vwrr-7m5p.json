@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g23f-vwrr-7m5p",
-  "modified": "2025-09-25T18:30:33Z",
+  "modified": "2025-09-25T21:30:25Z",
   "published": "2025-09-25T18:30:33Z",
   "aliases": [
     "CVE-2025-10911"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxslt/-/issues/144"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libxslt/-/merge_requests/77"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g86v-m7q4-wf42",
-  "modified": "2025-07-28T21:31:30Z",
+  "modified": "2025-09-25T21:30:18Z",
   "published": "2024-05-14T18:30:58Z",
   "aliases": [
     "CVE-2024-1598"

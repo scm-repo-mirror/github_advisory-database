@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-567v-8hw8-qphr",
-  "modified": "2024-07-16T12:30:41Z",
+  "modified": "2025-09-25T21:30:19Z",
   "published": "2024-07-16T12:30:41Z",
   "aliases": [
     "CVE-2022-48831"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nima: fix reference leak in asymmetric_verify()\n\nDon't leak a reference to the key if its algorithm is unknown.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-16T12:15:06Z"
