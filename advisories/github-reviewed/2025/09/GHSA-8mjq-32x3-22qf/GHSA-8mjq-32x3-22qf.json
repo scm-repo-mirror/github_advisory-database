@@ -1,19 +1,29 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mjq-32x3-22qf",
-  "modified": "2025-09-25T00:30:27Z",
+  "modified": "2025-09-25T16:34:25Z",
   "published": "2025-09-25T00:30:27Z",
-  "aliases": [
-    "CVE-2025-10894"
-  ],
-  "details": "Malicious code was inserted into the Nx (build system) package and several related plugins. The tampered package was published to the npm software registry, via a supply-chain attack. Affected versions contain code that scans the file system, collects credentials, and posts them to GitHub as a repo under user's accounts.",
+  "withdrawn": "2025-09-25T16:34:25Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Malicious versions of Nx were published",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-cxm3-wv7p-598c. This link is maintained to preserve external references.\n\n## Original Description\n\nMalicious code was inserted into the Nx (build system) package and several related plugins. The tampered package was published to the npm software registry, via a supply-chain attack. Affected versions contain code that scans the file system, collects credentials, and posts them to GitHub as a repo under user's accounts.",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "nx"
+      },
+      "versions": [
+        "21.5.0"
+      ]
+    }
+  ],
   "references": [
     {
       "type": "WEB",
@@ -49,8 +59,8 @@
       "CWE-506"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-25T16:34:25Z",
     "nvd_published_at": "2025-09-24T22:15:35Z"
   }
 }
