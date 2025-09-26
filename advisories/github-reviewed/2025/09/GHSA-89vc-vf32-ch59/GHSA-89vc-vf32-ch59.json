@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89vc-vf32-ch59",
-  "modified": "2025-09-18T13:03:36Z",
+  "modified": "2025-09-26T16:15:30Z",
   "published": "2025-09-17T19:21:26Z",
   "aliases": [
     "CVE-2025-59345"
@@ -19,6 +19,25 @@
       "package": {
         "ecosystem": "Go",
         "name": "github.com/dragonflyoss/dragonfly"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "d7y.io/dragonfly/v2"
       },
       "ranges": [
         {
@@ -51,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/dragonflyoss/dragonfly/blob/main/docs/security/dragonfly-comprehensive-report-2023.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3965"
     }
   ],
   "database_specific": {
