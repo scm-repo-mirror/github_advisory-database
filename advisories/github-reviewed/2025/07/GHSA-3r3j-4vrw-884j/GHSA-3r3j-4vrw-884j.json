@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r3j-4vrw-884j",
-  "modified": "2025-07-23T16:32:11Z",
+  "modified": "2025-09-26T21:50:25Z",
   "published": "2025-07-23T06:33:50Z",
   "aliases": [
     "CVE-2025-8021"
   ],
   "summary": "files-bucket-server vulnerable to Directory Traversal",
-  "details": "All versions of the package files-bucket-server are vulnerable to Directory Traversal where an attacker can traverse the file system and access files outside of the intended directory.",
+  "details": "All versions of the package files-bucket-server are vulnerable to Directory Traversal, where an attacker can traverse the file system and access files outside of the intended directory.",
   "severity": [
     {
       "type": "CVSS_V3",
