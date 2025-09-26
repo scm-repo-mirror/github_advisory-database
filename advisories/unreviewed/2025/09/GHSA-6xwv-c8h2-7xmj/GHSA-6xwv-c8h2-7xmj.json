@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xwv-c8h2-7xmj",
-  "modified": "2025-09-26T03:31:07Z",
+  "modified": "2025-09-26T06:30:48Z",
   "published": "2025-09-26T03:31:07Z",
   "aliases": [
     "CVE-2025-60251"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Bin4ry/UniPwn"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=45381590"
     },
     {
       "type": "WEB",
