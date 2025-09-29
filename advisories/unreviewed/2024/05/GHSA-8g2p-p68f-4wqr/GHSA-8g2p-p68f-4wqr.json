@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8g2p-p68f-4wqr",
-  "modified": "2024-05-22T09:31:46Z",
+  "modified": "2025-09-29T18:33:07Z",
   "published": "2024-05-22T09:31:46Z",
   "aliases": [
     "CVE-2021-47491"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm: khugepaged: skip huge page collapse for special files\n\nThe read-only THP for filesystems will collapse THP for files opened\nreadonly and mapped with VM_EXEC.  The intended usecase is to avoid TLB\nmisses for large text segments.  But it doesn't restrict the file types\nso a THP could be collapsed for a non-regular file, for example, block\ndevice, if it is opened readonly and mapped with EXEC permission.  This\nmay cause bugs, like [1] and [2].\n\nThis is definitely not the intended usecase, so just collapse THP for\nregular files in order to close the attack surface.\n\n[shy828301@gmail.com: fix vm_file check [3]]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T09:15:10Z"

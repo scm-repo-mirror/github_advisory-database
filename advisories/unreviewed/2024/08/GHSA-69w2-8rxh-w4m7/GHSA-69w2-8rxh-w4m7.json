@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69w2-8rxh-w4m7",
-  "modified": "2024-08-21T00:30:29Z",
+  "modified": "2025-09-29T18:33:08Z",
   "published": "2024-08-21T00:30:29Z",
   "aliases": [
     "CVE-2024-43864"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/mlx5e: Fix CT entry update leaks of modify header context\n\nThe cited commit allocates a new modify header to replace the old\none when updating CT entry. But if failed to allocate a new one, eg.\nexceed the max number firmware can support, modify header will be\nan error pointer that will trigger a panic when deallocating it. And\nthe old modify header point is copied to old attr. When the old\nattr is freed, the old modify header is lost.\n\nFix it by restoring the old attr to attr when failed to allocate a\nnew modify header context. So when the CT entry is freed, the right\nmodify header context will be freed. And the panic of accessing\nerror pointer is also fixed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-08-21T00:15:04Z"

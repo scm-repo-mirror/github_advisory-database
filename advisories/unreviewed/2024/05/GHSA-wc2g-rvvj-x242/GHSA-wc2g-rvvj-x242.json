@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc2g-rvvj-x242",
-  "modified": "2024-05-22T09:31:46Z",
+  "modified": "2025-09-29T18:33:07Z",
   "published": "2024-05-22T09:31:46Z",
   "aliases": [
     "CVE-2021-47480"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: core: Put LLD module refcnt after SCSI device is released\n\nSCSI host release is triggered when SCSI device is freed. We have to make\nsure that the low-level device driver module won't be unloaded before SCSI\nhost instance is released because shost->hostt is required in the release\nhandler.\n\nMake sure to put LLD module refcnt after SCSI device is released.\n\nFixes a kernel panic of 'BUG: unable to handle page fault for address'\nreported by Changhui and Yi.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T09:15:09Z"

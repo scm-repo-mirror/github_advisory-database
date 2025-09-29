@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rj64-24f8-r32g",
-  "modified": "2024-05-22T09:31:47Z",
+  "modified": "2025-09-29T18:33:08Z",
   "published": "2024-05-22T09:31:47Z",
   "aliases": [
     "CVE-2021-47495"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusbnet: sanity check for maxpacket\n\nmaxpacket of 0 makes no sense and oopses as we need to divide\nby it. Give up.\n\nV2: fixed typo in log and stylistic issues",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T09:15:11Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g7m-g45x-47rp",
-  "modified": "2024-06-19T15:30:55Z",
+  "modified": "2025-09-29T18:33:08Z",
   "published": "2024-06-19T15:30:54Z",
   "aliases": [
     "CVE-2021-47579"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\novl: fix warning in ovl_create_real()\n\nSyzbot triggered the following warning in ovl_workdir_create() ->\novl_create_real():\n\n\tif (!err && WARN_ON(!newdentry->d_inode)) {\n\nThe reason is that the cgroup2 filesystem returns from mkdir without\ninstantiating the new dentry.\n\nWeird filesystems such as this will be rejected by overlayfs at a later\nstage during setup, but to prevent such a warning, call ovl_mkdir_real()\ndirectly from ovl_workdir_create() and reject this case early.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T15:15:52Z"
