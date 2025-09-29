@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xv4-9cqp-92rh",
-  "modified": "2025-09-24T20:11:10Z",
+  "modified": "2025-09-29T13:34:17Z",
   "published": "2025-09-24T18:30:31Z",
   "aliases": [
     "CVE-2025-57353"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [
