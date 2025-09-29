@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf7q-8hhw-q8c7",
-  "modified": "2025-09-28T21:30:25Z",
+  "modified": "2025-09-29T06:30:27Z",
   "published": "2025-09-28T21:30:25Z",
   "aliases": [
     "CVE-2025-11119"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11119"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/iflame28/CVE/issues/1"
     },
     {
       "type": "WEB",
