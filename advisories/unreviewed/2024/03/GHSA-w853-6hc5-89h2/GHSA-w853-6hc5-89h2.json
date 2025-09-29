@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w853-6hc5-89h2",
-  "modified": "2024-08-06T21:30:47Z",
+  "modified": "2025-09-29T15:30:29Z",
   "published": "2024-03-20T15:32:21Z",
   "aliases": [
     "CVE-2024-24336"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://nitipoom-jar.github.io/CVE-2024-24336"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nitipoom-jaroonchaipipat.github.io/security-research-portal/2024-24336"
     }
   ],
   "database_specific": {

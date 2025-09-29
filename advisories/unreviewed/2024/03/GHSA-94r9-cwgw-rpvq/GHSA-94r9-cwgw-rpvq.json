@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94r9-cwgw-rpvq",
-  "modified": "2024-08-16T21:32:35Z",
+  "modified": "2025-09-29T15:30:29Z",
   "published": "2024-03-12T09:30:40Z",
   "aliases": [
     "CVE-2023-49453"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://nitipoom-jar.github.io/CVE-2023-49453"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nitipoom-jaroonchaipipat.github.io/security-research-portal/2023-49453"
     }
   ],
   "database_specific": {

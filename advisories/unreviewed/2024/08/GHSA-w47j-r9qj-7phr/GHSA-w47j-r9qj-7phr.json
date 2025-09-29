@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w47j-r9qj-7phr",
-  "modified": "2024-08-12T21:31:34Z",
+  "modified": "2025-09-29T15:30:29Z",
   "published": "2024-08-12T18:30:48Z",
   "aliases": [
     "CVE-2024-40500"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://nitipoom-jar.github.io/CVE-2024-40500"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nitipoom-jaroonchaipipat.github.io/security-research-portal/2024-40500"
     }
   ],
   "database_specific": {

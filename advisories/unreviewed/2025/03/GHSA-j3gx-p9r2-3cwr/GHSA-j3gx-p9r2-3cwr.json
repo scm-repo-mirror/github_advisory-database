@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3gx-p9r2-3cwr",
-  "modified": "2025-03-06T15:34:46Z",
+  "modified": "2025-09-29T15:30:30Z",
   "published": "2025-03-05T21:32:12Z",
   "aliases": [
     "CVE-2024-51144"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://nitipoom-jar.github.io/CVE-2024-51144"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nitipoom-jaroonchaipipat.github.io/security-research-portal/2024-51144"
     }
   ],
   "database_specific": {

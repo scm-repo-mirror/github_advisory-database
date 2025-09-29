@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2986-9f3x-j93c",
-  "modified": "2025-06-11T15:30:23Z",
+  "modified": "2025-09-29T15:30:28Z",
   "published": "2023-11-09T06:30:28Z",
   "aliases": [
     "CVE-2023-47488"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://nitipoom-jar.github.io/CVE-2023-47488"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nitipoom-jaroonchaipipat.github.io/security-research-portal/2023-47488"
     }
   ],
   "database_specific": {

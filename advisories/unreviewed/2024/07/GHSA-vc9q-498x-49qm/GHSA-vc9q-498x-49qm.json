@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vc9q-498x-49qm",
-  "modified": "2024-07-30T09:31:52Z",
+  "modified": "2025-09-29T15:30:29Z",
   "published": "2024-07-30T09:31:52Z",
   "aliases": [
     "CVE-2024-42121"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check index msg_id before read or write\n\n[WHAT]\nmsg_id is used as an array index and it cannot be a negative value, and\ntherefore cannot be equal to MOD_HDCP_MESSAGE_ID_INVALID (-1).\n\n[HOW]\nCheck whether msg_id is valid before reading and setting.\n\nThis fixes 4 OVERRUN issues reported by Coverity.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-30T08:15:04Z"
