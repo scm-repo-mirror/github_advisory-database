@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf7f-8fxf-xfxc",
-  "modified": "2024-06-21T14:33:32Z",
+  "modified": "2025-09-29T19:36:21Z",
   "published": "2024-06-04T12:31:05Z",
   "aliases": [
     "CVE-2024-37059"
@@ -28,7 +28,7 @@
               "introduced": "0.5.0"
             },
             {
-              "last_affected": "2.14.1"
+              "last_affected": "3.4.0"
             }
           ]
         }
