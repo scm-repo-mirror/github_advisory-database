@@ -1,19 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx8g-88g5-qh64",
-  "modified": "2025-09-25T21:30:24Z",
+  "modified": "2025-09-29T13:12:07Z",
   "published": "2025-09-24T18:30:31Z",
   "aliases": [
     "CVE-2025-57352"
   ],
+  "summary": "min-document vulnerable to prototype pollution",
   "details": "A vulnerability exists in the 'min-document' package prior to version 2.19.0, stemming from improper handling of namespace operations in the removeAttributeNS method. By processing malicious input involving the __proto__ property, an attacker can manipulate the prototype chain of JavaScript objects, leading to denial of service or arbitrary code execution. This issue arises from insufficient validation of attribute namespace removal operations, allowing unintended modification of critical object prototypes. The vulnerability remains unaddressed in the latest available version.",
   "severity": [
     {
-      "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "min-document"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.19.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,6 +45,10 @@
       "url": "https://github.com/Raynos/min-document/issues/54"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/Raynos/min-document"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/VulnSageAgent/PoCs/tree/main/JavaScript/prototype-pollution/CVE-2025-57352"
     }
@@ -32,9 +57,9 @@
     "cwe_ids": [
       "CWE-1321"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-29T13:12:07Z",
     "nvd_published_at": "2025-09-24T18:15:41Z"
   }
 }
