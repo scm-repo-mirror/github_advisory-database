@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-59cf-q653-29wc",
-  "modified": "2023-11-07T03:30:26Z",
+  "modified": "2025-09-30T18:30:19Z",
   "published": "2023-10-30T18:30:25Z",
   "aliases": [
     "CVE-2023-21342"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/03bb6b20a8eaa7c565401597294ea9e3aee6d4ab"
+    },
+    {
+      "type": "WEB",
       "url": "https://source.android.com/docs/security/bulletin/android-14"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2025-05-01"
     }
   ],
   "database_specific": {
