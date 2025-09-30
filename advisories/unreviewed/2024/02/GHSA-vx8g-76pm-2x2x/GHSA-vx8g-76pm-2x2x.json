@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx8g-76pm-2x2x",
-  "modified": "2024-02-20T00:30:37Z",
+  "modified": "2025-09-30T21:31:15Z",
   "published": "2024-02-20T00:30:37Z",
   "aliases": [
     "CVE-2024-1297"
   ],
-  "details": "Loomio version 2.22.0 allows executing arbitrary commands on the server.\n\nThis is possible because the application is vulnerable to OS Command Injection.\n\n\n\n",
+  "details": "Loomio version 2.22.0 allows executing arbitrary commands on the server.\n\nThis is possible because the application is vulnerable to OS Command Injection.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1297"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/loomio/loomio/commit/6bc5429bfb5a9c7c811a4487d97ea54a8b23a0fa#diff-b9a7e6b3dfb0fd855c11198a7c53e6f6f90945f28c78cc5dbd960d04d5d28203"
     },
     {
       "type": "WEB",
