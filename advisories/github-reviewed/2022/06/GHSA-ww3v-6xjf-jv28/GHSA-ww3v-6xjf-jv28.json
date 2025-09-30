@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww3v-6xjf-jv28",
-  "modified": "2022-06-28T23:23:20Z",
+  "modified": "2025-09-30T19:11:48Z",
   "published": "2022-06-28T23:23:20Z",
   "aliases": [
     "CVE-2018-18855"
@@ -13,7 +13,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "io.spray:spray-json"
+        "name": "io.spray:spray-json_2.10"
       },
       "ranges": [
         {
@@ -28,6 +28,215 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.11.0-RC4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.3.5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.12"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.12.0-M3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.3.5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.12.0-M5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.3.5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.12.0-RC1"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.3.5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.12.0-RC2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.3.5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.13.0-M2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.3.5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.13.0-M4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.3.5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.13.0-M5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.spray:spray-json_2.9.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.3.5"
+      }
     }
   ],
   "references": [
