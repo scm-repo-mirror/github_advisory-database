@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55vq-xpjf-r2xc",
-  "modified": "2023-05-05T20:35:56Z",
+  "modified": "2025-09-30T18:53:16Z",
   "published": "2023-04-27T21:30:26Z",
   "aliases": [
     "CVE-2023-29471"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "com.typesafe.akka:akka-stream-kafka"
+        "name": "com.typesafe.akka:akka-stream-kafka_3"
       },
       "ranges": [
         {
@@ -33,6 +33,63 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.typesafe.akka:akka-stream-kafka_2.13"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.typesafe.akka:akka-stream-kafka_2.12"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.typesafe.akka:akka-stream-kafka_2.11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 4.0.2"
+      }
     }
   ],
   "references": [
