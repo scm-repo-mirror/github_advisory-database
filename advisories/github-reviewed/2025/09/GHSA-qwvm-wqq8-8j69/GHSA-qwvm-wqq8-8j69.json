@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qwvm-wqq8-8j69",
+  "modified": "2025-09-30T21:06:02Z",
+  "published": "2025-09-30T21:06:02Z",
+  "aliases": [
+    "CVE-2025-61595"
+  ],
+  "summary": "github.com/MANTRA-Chain/mantrachain/x/tokenfactory tx gas limit is not enforced in send hooks",
+  "details": "### Impact\n\nsend hooks can spend more gas than what's remained in tx, combined with recursive calls in the wasm contract, can amplify the gas consumption exponentially.\n\n### Patches\n\nIt's patched in v4.0.2 and v5.0.0\n\n### Workarounds\n_Is there a way for users to fix or remediate the vulnerability without upgrading?_",
+  "severity": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/MANTRA-Chain/mantrachain/v4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/MANTRA-Chain/mantrachain/v3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 4.0.2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/MANTRA-Chain/mantrachain/v2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 4.0.2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/MANTRA-Chain/mantrachain"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 4.0.2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/MANTRA-Chain/mantrachain/security/advisories/GHSA-qwvm-wqq8-8j69"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MANTRA-Chain/mantrachain/issues/432"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/MANTRA-Chain/mantrachain"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-400",
+      "CWE-770"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-30T21:06:02Z",
+    "nvd_published_at": null
+  }
+}
