@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2726-6rmv-hf9g",
-  "modified": "2025-08-27T21:31:36Z",
+  "modified": "2025-09-30T00:30:27Z",
   "published": "2024-04-09T21:31:59Z",
   "aliases": [
     "CVE-2024-2423"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-79",
       "CWE-80"
     ],
     "severity": "MODERATE",
