@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cq3j-mpfm-r8ww",
-  "modified": "2025-02-27T03:34:01Z",
+  "modified": "2025-10-01T21:31:11Z",
   "published": "2025-02-27T03:34:01Z",
   "aliases": [
     "CVE-2024-57997"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: wcn36xx: fix channel survey memory allocation size\n\nKASAN reported a memory allocation issue in wcn->chan_survey\ndue to incorrect size calculation.\nThis commit uses kcalloc to allocate memory for wcn->chan_survey,\nensuring proper initialization and preventing the use of uninitialized\nvalues when there are no frames on the channel.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T02:15:13Z"

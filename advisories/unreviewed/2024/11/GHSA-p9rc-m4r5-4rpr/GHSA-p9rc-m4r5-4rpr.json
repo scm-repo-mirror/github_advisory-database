@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9rc-m4r5-4rpr",
-  "modified": "2024-11-14T18:30:36Z",
+  "modified": "2025-10-01T21:30:34Z",
   "published": "2024-11-14T18:30:36Z",
   "aliases": [
     "CVE-2024-37285"

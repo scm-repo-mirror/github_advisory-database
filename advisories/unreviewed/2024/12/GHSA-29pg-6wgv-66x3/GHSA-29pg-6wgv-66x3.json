@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29pg-6wgv-66x3",
-  "modified": "2025-01-09T18:32:13Z",
+  "modified": "2025-10-01T21:30:44Z",
   "published": "2024-12-29T09:30:47Z",
   "aliases": [
     "CVE-2024-56715"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nionic: Fix netdev notifier unregister on failure\n\nIf register_netdev() fails, then the driver leaks the netdev notifier.\nFix this by calling ionic_lif_unregister() on register_netdev()\nfailure. This will also call ionic_lif_unregister_phc() if it has\nalready been registered.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-29T09:15:06Z"

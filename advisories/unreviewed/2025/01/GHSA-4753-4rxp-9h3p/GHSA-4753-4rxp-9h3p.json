@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4753-4rxp-9h3p",
-  "modified": "2025-01-11T15:30:30Z",
+  "modified": "2025-10-01T21:30:49Z",
   "published": "2025-01-11T15:30:29Z",
   "aliases": [
     "CVE-2024-57850"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njffs2: Prevent rtime decompress memory corruption\n\nThe rtime decompression routine does not fully check bounds during the\nentirety of the decompression pass and can corrupt memory outside the\ndecompression buffer if the compressed data is corrupted. This adds the\nrequired check to prevent this failure mode.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-11T15:15:07Z"

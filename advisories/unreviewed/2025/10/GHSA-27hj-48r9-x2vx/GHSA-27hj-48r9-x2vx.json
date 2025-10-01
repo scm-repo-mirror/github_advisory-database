@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-27hj-48r9-x2vx",
+  "modified": "2025-10-01T21:31:22Z",
+  "published": "2025-10-01T21:31:22Z",
+  "aliases": [
+    "CVE-2025-56588"
+  ],
+  "details": "Dolibarr ERP & CRM v21.0.1 were discovered to contain a remote code execution (RCE) vulnerability in the User module configuration via the computed field parameter.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56588"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/PhDg1410/Research"
+    },
+    {
+      "type": "WEB",
+      "url": "http://dolibarr.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-01T20:18:36Z"
+  }
+}
