@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24vr-m38m-hw6f",
-  "modified": "2024-06-20T12:31:20Z",
+  "modified": "2025-10-01T15:30:29Z",
   "published": "2024-06-20T12:31:20Z",
   "aliases": [
     "CVE-2022-48720"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: macsec: Fix offload support for NETDEV_UNREGISTER event\n\nCurrent macsec netdev notify handler handles NETDEV_UNREGISTER event by\nreleasing relevant SW resources only, this causes resources leak in case\nof macsec HW offload, as the underlay driver was not notified to clean\nit's macsec offload resources.\n\nFix by calling the underlay driver to clean it's relevant resources\nby moving offload handling from macsec_dellink() to macsec_common_dellink()\nwhen handling NETDEV_UNREGISTER event.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-20T11:15:55Z"
