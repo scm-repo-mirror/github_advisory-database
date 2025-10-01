@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86rg-pf4c-5grg",
-  "modified": "2025-09-05T16:12:40Z",
+  "modified": "2025-10-01T20:11:27Z",
   "published": "2024-01-04T12:30:20Z",
   "aliases": [
     "CVE-2023-6944"
@@ -71,6 +71,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/backstage/backstage/blob/master/docs/releases/v1.21.0-next.2-changelog.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2023-6944"
     }
   ],
   "database_specific": {
