@@ -35,6 +35,15 @@
       ]
     }
   ],
+  "credits": [
+    {
+      "name": "Josephine Pfeifffer",
+      "contact": [
+        "mailto:hi@josie.lol"
+      ],
+      "type": "FINDER"
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
