@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33j5-frrm-3wg2",
-  "modified": "2025-09-30T15:30:30Z",
+  "modified": "2025-10-01T12:30:27Z",
   "published": "2025-09-30T15:30:30Z",
   "aliases": [
     "CVE-2025-57852"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57852"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:16983"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:16984"
     },
     {
       "type": "WEB",
