@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvxm-h79q-qcrm",
-  "modified": "2024-12-24T06:30:43Z",
+  "modified": "2025-10-01T03:30:26Z",
   "published": "2024-12-24T06:30:43Z",
   "aliases": [
     "CVE-2024-41882"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-121"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
