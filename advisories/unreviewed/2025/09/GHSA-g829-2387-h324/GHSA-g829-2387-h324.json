@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g829-2387-h324",
-  "modified": "2025-09-30T18:30:25Z",
+  "modified": "2025-10-01T09:30:24Z",
   "published": "2025-09-30T18:30:25Z",
   "aliases": [
     "CVE-2025-10725"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10725"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:16983"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:16984"
     },
     {
       "type": "WEB",

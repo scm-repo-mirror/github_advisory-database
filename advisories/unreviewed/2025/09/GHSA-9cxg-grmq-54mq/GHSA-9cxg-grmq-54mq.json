@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cxg-grmq-54mq",
-  "modified": "2025-09-23T18:30:26Z",
+  "modified": "2025-10-01T09:30:24Z",
   "published": "2025-09-23T18:30:26Z",
   "aliases": [
     "CVE-2025-58246"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/wordpress/wordpress/vulnerability/wordpress-wordpress-wordpress-6-8-2-sensitive-data-exposure-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wordpress.org/news/2025/09/wordpress-6-8-3-release"
     }
   ],
   "database_specific": {

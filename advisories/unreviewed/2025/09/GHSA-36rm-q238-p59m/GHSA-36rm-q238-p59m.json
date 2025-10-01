@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36rm-q238-p59m",
-  "modified": "2025-09-18T18:30:28Z",
+  "modified": "2025-10-01T09:30:24Z",
   "published": "2025-09-18T18:30:28Z",
   "aliases": [
     "CVE-2023-53431"
@@ -16,11 +16,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/05143d90ac90b7abc6692285895a1ef460e008ee"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/110d425cdfb15006f3c4fde5264e786a247b6b36"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/176d7345b89ced72020a313bfa4e7f345d1c3aed"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3fe97ff3d94934649abb0652028dd7296170c8d0"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4863fefc8a8cc8e8f6c7635b12d9dffaa0a12d86"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4e7c498c3713b09bef20c76c7319555637e8bbd5"
     },
     {
       "type": "WEB",
@@ -36,11 +52,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c8e22b7a1694bb8d025ea636816472739d859145"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d68937dfc73ee7f61cf3424fa3225be93cacaa00"
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/eabc4872f172ecb8dd8536bc366a51868154a450"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f182ad02024d3f45374a9e0c9d76f28b776d762d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f8e702c54413eee2d8f94f61d18adadac7c87e87"
     },
     {
       "type": "WEB",

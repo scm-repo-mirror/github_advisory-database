@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73p8-vhmr-7r6r",
-  "modified": "2025-09-23T21:30:54Z",
+  "modified": "2025-10-01T09:30:24Z",
   "published": "2025-09-23T21:30:54Z",
   "aliases": [
     "CVE-2025-58674"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/wordpress/wordpress/vulnerability/wordpress-wordpress-wordpress-6-8-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wordpress.org/news/2025/09/wordpress-6-8-3-release"
     }
   ],
   "database_specific": {
