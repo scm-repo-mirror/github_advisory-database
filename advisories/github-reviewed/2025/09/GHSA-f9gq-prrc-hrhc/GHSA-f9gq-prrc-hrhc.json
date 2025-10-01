@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9gq-prrc-hrhc",
-  "modified": "2025-09-30T18:11:59Z",
+  "modified": "2025-10-01T21:37:13Z",
   "published": "2025-09-30T18:11:59Z",
   "aliases": [
     "CVE-2025-59531"
@@ -129,6 +129,10 @@
       "url": "https://github.com/argoproj/argo-cd/security/advisories/GHSA-f9gq-prrc-hrhc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59531"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/argoproj/argo-cd/commit/5c466a4e39802e059e75c0008ae7b7b8e842538f"
     },
@@ -144,6 +148,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-30T18:11:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-10-01T21:16:43Z"
   }
 }

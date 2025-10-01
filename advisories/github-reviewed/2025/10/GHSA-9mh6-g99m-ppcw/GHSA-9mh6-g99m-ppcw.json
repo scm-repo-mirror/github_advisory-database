@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mh6-g99m-ppcw",
-  "modified": "2025-10-01T21:20:45Z",
+  "modified": "2025-10-01T21:37:31Z",
   "published": "2025-10-01T21:20:45Z",
   "aliases": [
     "CVE-2025-58769"
@@ -45,6 +45,22 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/auth0/laravel-auth0/security/advisories/GHSA-hjfh-5jmm-xr24"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/auth0/symfony/security/advisories/GHSA-7jp2-5h22-m432"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/auth0/wordpress/security/advisories/GHSA-w22c-pw5m-482x"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58769"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/auth0/auth0-PHP/commit/9026da58f5c381cd4cb5932de829eff6eacbb65c"
     },
     {
@@ -58,11 +74,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-22",
       "CWE-434"
     ],
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-01T21:20:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-10-01T20:18:38Z"
   }
 }
