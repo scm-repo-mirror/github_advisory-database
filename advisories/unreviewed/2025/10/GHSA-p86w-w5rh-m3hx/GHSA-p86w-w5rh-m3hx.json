@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p86w-w5rh-m3hx",
+  "modified": "2025-10-02T12:31:06Z",
+  "published": "2025-10-02T12:31:06Z",
+  "aliases": [
+    "CVE-2025-61734"
+  ],
+  "details": "Files or Directories Accessible to External Parties vulnerability in Apache Kylin.\n You are fine as long as the Kylin's system and project admin access is well protected.\n\nThis issue affects Apache Kylin: from 4.0.0 through 5.0.2.\n\nUsers are recommended to upgrade to version 5.0.3, which fixes the issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61734"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/z705g7sn3g0bkchlqbo1hz1tyqorn4d2"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-552"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-02T10:15:40Z"
+  }
+}
