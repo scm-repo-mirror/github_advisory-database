@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7xp-q497-c5g4",
-  "modified": "2025-10-02T18:30:59Z",
+  "modified": "2025-10-02T21:31:18Z",
   "published": "2025-10-02T18:30:59Z",
   "aliases": [
     "CVE-2025-56161"
   ],
   "details": "YOSHOP 2.0 allows unauthenticated information disclosure via comment-list API endpoints in the Goods module. The Comment model eagerly loads the related User model without field filtering; because User.php defines no $hidden or $visible attributes, sensitive fields (bcrypt password hash, mobile number, pay_money, expend_money.) are exposed in JSON responses. Route names vary per deployment (e.g. /api/goods.pinglun/list), but all call the same vulnerable model logic.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-02T16:15:34Z"

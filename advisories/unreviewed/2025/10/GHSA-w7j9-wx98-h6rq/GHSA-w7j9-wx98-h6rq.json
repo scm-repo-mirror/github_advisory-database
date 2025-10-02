@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7j9-wx98-h6rq",
-  "modified": "2025-10-02T15:31:17Z",
+  "modified": "2025-10-02T21:31:17Z",
   "published": "2025-10-02T15:31:17Z",
   "aliases": [
     "CVE-2025-57443"
   ],
   "details": "FrostWire 6.14.0-build-326 for macOS contains permissive entitlements (allow-dyld-environment-variables, disable-library-validation) that allow unprivileged local attackers to inject code into the FrostWire process via the DYLD_INSERT_LIBRARIES environment variable. This allows escalated privileges to arbitrary TCC-approved directories.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-269"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-02T15:15:53Z"
