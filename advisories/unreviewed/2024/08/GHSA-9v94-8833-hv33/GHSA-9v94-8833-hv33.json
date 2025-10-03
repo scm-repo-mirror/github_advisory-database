@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v94-8833-hv33",
-  "modified": "2024-08-19T06:30:53Z",
+  "modified": "2025-10-03T21:30:52Z",
   "published": "2024-08-17T09:30:24Z",
   "aliases": [
     "CVE-2024-42265"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nprotect the fetch of ->fd[fd] in do_dup2() from mispredictions\n\nboth callers have verified that fd is not greater than ->max_fds;\nhowever, misprediction might end up with\n        tofree = fdt->fd[fd];\nbeing speculatively executed.  That's wrong for the same reasons\nwhy it's wrong in close_fd()/file_close_fd_locked(); the same\nsolution applies - array_index_nospec(fd, fdt->max_fds) could differ\nfrom fd only in case of speculative execution on mispredicted path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-08-17T09:15:07Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4wm-24vm-w63j",
-  "modified": "2024-07-30T09:32:01Z",
+  "modified": "2025-10-03T21:30:52Z",
   "published": "2024-07-30T09:32:01Z",
   "aliases": [
     "CVE-2024-42130"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc/nci: Add the inconsistency check between the input data length and count\n\nwrite$nci(r0, &(0x7f0000000740)=ANY=[@ANYBLOB=\"610501\"], 0xf)\n\nSyzbot constructed a write() call with a data length of 3 bytes but a count value\nof 15, which passed too little data to meet the basic requirements of the function\nnci_rf_intf_activated_ntf_packet().\n\nTherefore, increasing the comparison between data length and count value to avoid\nproblems caused by inconsistent data length and count.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-30T08:15:05Z"
