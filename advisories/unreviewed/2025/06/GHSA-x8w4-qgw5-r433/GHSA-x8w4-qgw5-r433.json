@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8w4-qgw5-r433",
-  "modified": "2025-07-14T21:31:44Z",
+  "modified": "2025-10-04T00:32:21Z",
   "published": "2025-06-24T21:30:27Z",
   "aliases": [
     "CVE-2025-6436"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1941377%2C1960948%2C1966187%2C1966505%2C1970764"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1941377%2C1960948%2C1966187%2C1966505%2C1970764%2C1942930"
     },
     {
       "type": "WEB",
