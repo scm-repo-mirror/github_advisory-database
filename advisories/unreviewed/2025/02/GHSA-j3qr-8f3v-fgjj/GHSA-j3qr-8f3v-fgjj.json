@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3qr-8f3v-fgjj",
-  "modified": "2025-06-02T15:31:21Z",
+  "modified": "2025-10-06T03:31:37Z",
   "published": "2025-02-10T18:30:47Z",
   "aliases": [
     "CVE-2024-12133"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:17347"
     },
     {
       "type": "WEB",
