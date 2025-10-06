@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v95m-rxvv-9f67",
-  "modified": "2022-05-17T03:46:12Z",
+  "modified": "2025-10-06T18:31:01Z",
   "published": "2022-05-17T03:46:11Z",
   "aliases": [
     "CVE-2014-2361"
@@ -16,11 +16,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-202-01a"
+    },
+    {
+      "type": "WEB",
       "url": "http://ics-cert.us-cert.gov/advisories/ICSA-14-202-01"
     },
     {
       "type": "WEB",
+      "url": "http://support.oleumtech.com"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/bid/68795"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/bid/68797"
     }
   ],
   "database_specific": {

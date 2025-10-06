@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x78r-6w48-6g3q",
-  "modified": "2024-07-12T15:31:29Z",
+  "modified": "2025-10-06T18:31:01Z",
   "published": "2024-07-12T15:31:29Z",
   "aliases": [
     "CVE-2024-40989"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: arm64: Disassociate vcpus from redistributor region on teardown\n\nWhen tearing down a redistributor region, make sure we don't have\nany dangling pointer to that region stored in a vcpu.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:20Z"

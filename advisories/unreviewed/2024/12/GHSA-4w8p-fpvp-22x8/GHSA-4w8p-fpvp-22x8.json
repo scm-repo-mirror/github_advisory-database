@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4w8p-fpvp-22x8",
-  "modified": "2024-12-28T12:30:47Z",
+  "modified": "2025-10-06T18:31:01Z",
   "published": "2024-12-28T12:30:47Z",
   "aliases": [
     "CVE-2024-56690"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: pcrypt - Call crypto layer directly when padata_do_parallel() return -EBUSY\n\nSince commit 8f4f68e788c3 (\"crypto: pcrypt - Fix hungtask for\nPADATA_RESET\"), the pcrypt encryption and decryption operations return\n-EAGAIN when the CPU goes online or offline. In alg_test(), a WARN is\ngenerated when pcrypt_aead_decrypt() or pcrypt_aead_encrypt() returns\n-EAGAIN, the unnecessary panic will occur when panic_on_warn set 1.\nFix this issue by calling crypto layer directly without parallelization\nin that case.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-28T10:15:13Z"
