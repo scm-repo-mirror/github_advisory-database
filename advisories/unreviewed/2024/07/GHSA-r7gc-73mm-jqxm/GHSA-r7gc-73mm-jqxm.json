@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7gc-73mm-jqxm",
-  "modified": "2024-11-08T18:30:43Z",
+  "modified": "2025-10-07T21:31:03Z",
   "published": "2024-07-29T09:36:14Z",
   "aliases": [
     "CVE-2024-41016"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: strict bound check before memcmp in ocfs2_xattr_find_entry()\n\nxattr in ocfs2 maybe 'non-indexed', which saved with additional space\nrequested.  It's better to check if the memory is out of bound before\nmemcmp, although this possibility mainly comes from crafted poisonous\nimages.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T07:15:06Z"

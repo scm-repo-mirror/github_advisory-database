@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9x3-hhpq-jcqm",
-  "modified": "2024-08-19T06:30:54Z",
+  "modified": "2025-10-07T21:31:03Z",
   "published": "2024-08-17T09:30:25Z",
   "aliases": [
     "CVE-2024-42318"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlandlock: Don't lose track of restrictions on cred_transfer\n\nWhen a process' cred struct is replaced, this _almost_ always invokes\nthe cred_prepare LSM hook; but in one special case (when\nKEYCTL_SESSION_TO_PARENT updates the parent's credentials), the\ncred_transfer LSM hook is used instead.  Landlock only implements the\ncred_prepare hook, not cred_transfer, so KEYCTL_SESSION_TO_PARENT causes\nall information on Landlock restrictions to be lost.\n\nThis basically means that a process with the ability to use the fork()\nand keyctl() syscalls can get rid of all Landlock restrictions on\nitself.\n\nFix it by adding a cred_transfer hook that does the same thing as the\nexisting cred_prepare hook. (Implemented by having hook_cred_prepare()\ncall hook_cred_transfer() so that the two functions are less likely to\naccidentally diverge in the future.)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,11 +50,15 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2024/08/17/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/08/17/2"
     }
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-08-17T09:15:11Z"

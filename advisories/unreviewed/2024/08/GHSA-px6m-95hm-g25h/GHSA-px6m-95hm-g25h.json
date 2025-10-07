@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px6m-95hm-g25h",
-  "modified": "2024-11-14T18:30:31Z",
+  "modified": "2025-10-07T21:31:03Z",
   "published": "2024-08-17T09:30:24Z",
   "aliases": [
     "CVE-2024-42291"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nice: Add a per-VF limit on number of FDIR filters\n\nWhile the iavf driver adds a s/w limit (128) on the number of FDIR\nfilters that the VF can request, a malicious VF driver can request more\nthan that and exhaust the resources for other VFs.\n\nAdd a similar limit in ice.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-08-17T09:15:09Z"

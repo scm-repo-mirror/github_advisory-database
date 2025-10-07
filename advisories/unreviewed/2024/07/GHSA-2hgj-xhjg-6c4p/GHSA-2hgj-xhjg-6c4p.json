@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hgj-xhjg-6c4p",
-  "modified": "2024-07-29T09:36:14Z",
+  "modified": "2025-10-07T21:31:03Z",
   "published": "2024-07-29T09:36:14Z",
   "aliases": [
     "CVE-2024-41019"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Validate ff offset\n\nThis adds sanity checks for ff offset. There is a check\non rt->first_free at first, but walking through by ff\nwithout any check. If the second ff is a large offset.\nWe may encounter an out-of-bound read.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T07:15:07Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5v3-r759-x9gj",
-  "modified": "2024-12-28T12:30:47Z",
+  "modified": "2025-10-07T21:31:03Z",
   "published": "2024-12-28T12:30:47Z",
   "aliases": [
     "CVE-2024-56681"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: bcm - add error check in the ahash_hmac_init function\n\nThe ahash_init functions may return fails. The ahash_hmac_init should\nnot return ok when ahash_init returns error. For an example, ahash_init\nwill return -ENOMEM when allocation memory is error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-28T10:15:09Z"

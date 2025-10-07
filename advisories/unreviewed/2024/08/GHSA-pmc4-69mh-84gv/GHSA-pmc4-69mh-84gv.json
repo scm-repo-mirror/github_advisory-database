@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmc4-69mh-84gv",
-  "modified": "2024-08-19T06:30:53Z",
+  "modified": "2025-10-07T21:31:03Z",
   "published": "2024-08-17T09:30:24Z",
   "aliases": [
     "CVE-2024-42299"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Update log->page_{mask,bits} if log->page_size changed\n\nIf an NTFS file system is mounted to another system with different\nPAGE_SIZE from the original system, log->page_size will change in\nlog_replay(), but log->page_{mask,bits} don't change correspondingly.\nThis will cause a panic because \"u32 bytes = log->page_size - page_off\"\nwill get a negative value in the later read_log_page().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-08-17T09:15:10Z"
