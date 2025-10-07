@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj5r-m82x-27r5",
-  "modified": "2025-10-07T15:30:28Z",
+  "modified": "2025-10-07T18:31:07Z",
   "published": "2025-10-07T15:30:28Z",
   "aliases": [
     "CVE-2023-6215"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-306"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42gj-pw36-ccpv",
-  "modified": "2024-12-27T15:31:54Z",
+  "modified": "2025-10-07T18:31:01Z",
   "published": "2024-12-27T15:31:53Z",
   "aliases": [
     "CVE-2024-56562"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni3c: master: Fix miss free init_dyn_addr at i3c_master_put_i3c_addrs()\n\nif (dev->boardinfo && dev->boardinfo->init_dyn_addr)\n                                      ^^^ here check \"init_dyn_addr\"\n\ti3c_bus_set_addr_slot_status(&master->bus, dev->info.dyn_addr, ...)\n\t\t\t\t\t\t             ^^^^\n\t\t\t\t\t\t\tfree \"dyn_addr\"\nFix copy/paste error \"dyn_addr\" by replacing it with \"init_dyn_addr\".",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:15Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96fh-9q43-rmjh",
-  "modified": "2024-05-22T18:30:38Z",
+  "modified": "2025-10-07T18:31:01Z",
   "published": "2023-12-30T00:30:23Z",
   "aliases": [
     "CVE-2023-47038"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-47038"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Perl/perl5/commit/12c313ce49b36160a7ca2e9b07ad5bd92ee4a010"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Perl/perl5/commit/7047915eef37fccd93e7cd985c29fe6be54650b6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Perl/perl5/commit/ff1f9f59360afeebd6f75ca1502f5c3ebf077da3"
     },
     {
       "type": "WEB",
@@ -41,11 +53,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/aquasecurity/trivy/discussions/8400"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GNEEWAACXQCEEAKSG7XX2D5YDRWLCIZJ"
     },
     {
       "type": "WEB",
       "url": "https://perldoc.perl.org/perl5382delta#CVE-2023-47038-Write-past-buffer-end-via-illegal-user-defined-Unicode-property"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ubuntu.com/security/CVE-2023-47100"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.suse.com/security/cve/CVE-2023-47100.html"
     }
   ],
   "database_specific": {

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vmv5-whxc-fr99",
+  "modified": "2025-10-07T18:31:11Z",
+  "published": "2025-10-07T18:31:11Z",
+  "aliases": [
+    "CVE-2025-60312"
+  ],
+  "details": "Sourcecodester Markdown to HTML Converter v1.0 is vulnerable to a Cross-Site Scripting (XSS) in the \"Markdown Input\" field, allowing a remote attacker to inject arbitrary HTML/JavaScript code that executes in the victim's browser upon clicking the \"Convert to HTML\" button.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60312"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChuckBartowski7/Vulnerability-Research/blob/main/CVE-2025-60312/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sourcecodester.com/php/18295/markdown-html-converter-using-php-and-javascript-source-code.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-07T16:15:55Z"
+  }
+}

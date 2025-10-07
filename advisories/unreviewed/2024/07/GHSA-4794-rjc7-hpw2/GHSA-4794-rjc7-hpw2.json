@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4794-rjc7-hpw2",
-  "modified": "2024-07-29T18:30:44Z",
+  "modified": "2025-10-07T18:31:01Z",
   "published": "2024-07-29T18:30:44Z",
   "aliases": [
     "CVE-2024-42098"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: ecdh - explicitly zeroize private_key\n\nprivate_key is overwritten with the key parameter passed in by the\ncaller (if present), or alternatively a newly generated private key.\nHowever, it is possible that the caller provides a key (or the newly\ngenerated key) which is shorter than the previous key. In that\nscenario, some key material from the previous key would not be\noverwritten. The easiest solution is to explicitly zeroize the entire\nprivate_key array first.\n\nNote that this patch slightly changes the behavior of this function:\npreviously, if the ecc_gen_privkey failed, the old private_key would\nremain. Now, the private_key is always zeroized. This behavior is\nconsistent with the case where params.key is set and ecc_is_key_valid\nfails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T18:15:12Z"

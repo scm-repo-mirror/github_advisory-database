@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrvr-7x5w-xpmq",
-  "modified": "2024-11-07T00:30:35Z",
+  "modified": "2025-10-07T18:31:01Z",
   "published": "2024-06-27T21:32:09Z",
   "aliases": [
     "CVE-2024-5642"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/39258d3595300bc7b952854c915f63ae2d4b9c3e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/a2cdbb6e8188ba9ba8b356b28d91bff60e86fe31"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v738-pvhm-mhvp",
-  "modified": "2024-07-29T15:30:40Z",
+  "modified": "2025-10-07T18:31:01Z",
   "published": "2024-07-29T15:30:40Z",
   "aliases": [
     "CVE-2024-41034"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnilfs2: fix kernel bug on rename operation of broken directory\n\nSyzbot reported that in rename directory operation on broken directory on\nnilfs2, __block_write_begin_int() called to prepare block write may fail\nBUG_ON check for access exceeding the folio/page size.\n\nThis is because nilfs_dotdot(), which gets parent directory reference\nentry (\"..\") of the directory to be moved or renamed, does not check\nconsistency enough, and may return location exceeding folio/page size for\nbroken directories.\n\nFix this issue by checking required directory entries (\".\" and \"..\") in\nthe first chunk of the directory in nilfs_dotdot().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T15:15:11Z"

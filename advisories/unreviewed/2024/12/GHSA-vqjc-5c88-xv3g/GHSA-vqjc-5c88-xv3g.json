@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqjc-5c88-xv3g",
-  "modified": "2024-12-27T15:31:54Z",
+  "modified": "2025-10-07T18:31:02Z",
   "published": "2024-12-27T15:31:54Z",
   "aliases": [
     "CVE-2024-56573"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nefi/libstub: Free correct pointer on failure\n\ncmdline_ptr is an out parameter, which is not allocated by the function\nitself, and likely points into the caller's stack.\n\ncmdline refers to the pool allocation that should be freed when cleaning\nup after a failure, so pass this instead to free_pool().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-763"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:16Z"

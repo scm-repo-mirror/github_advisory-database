@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3c9-8xwq-2j95",
-  "modified": "2024-07-29T18:30:40Z",
+  "modified": "2025-10-07T18:31:01Z",
   "published": "2024-07-29T18:30:40Z",
   "aliases": [
     "CVE-2024-42084"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nftruncate: pass a signed offset\n\nThe old ftruncate() syscall, using the 32-bit off_t misses a sign\nextension when called in compat mode on 64-bit architectures.  As a\nresult, passing a negative length accidentally succeeds in truncating\nto file size between 2GiB and 4GiB.\n\nChanging the type of the compat syscall to the signed compat_off_t\nchanges the behavior so it instead returns -EINVAL.\n\nThe native entry point, the truncate() syscall and the corresponding\nloff_t based variants are all correct already and do not suffer\nfrom this mistake.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T17:15:11Z"

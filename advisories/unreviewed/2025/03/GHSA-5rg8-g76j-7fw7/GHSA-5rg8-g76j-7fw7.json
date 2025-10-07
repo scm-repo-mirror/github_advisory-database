@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rg8-g76j-7fw7",
-  "modified": "2025-03-12T18:32:52Z",
+  "modified": "2025-10-07T18:31:02Z",
   "published": "2025-03-12T15:32:06Z",
   "aliases": [
     "CVE-2025-27915"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27915"
+    },
+    {
+      "type": "WEB",
+      "url": "https://strikeready.com/blog/0day-ics-attack-in-the-wild"
     },
     {
       "type": "WEB",
