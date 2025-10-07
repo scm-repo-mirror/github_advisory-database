@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw5w-rmc5-f87r",
-  "modified": "2025-03-12T12:30:56Z",
+  "modified": "2025-10-07T15:30:24Z",
   "published": "2025-03-10T09:31:48Z",
   "aliases": [
     "CVE-2025-27254"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-282",
       "CWE-287"
     ],
     "severity": "HIGH",

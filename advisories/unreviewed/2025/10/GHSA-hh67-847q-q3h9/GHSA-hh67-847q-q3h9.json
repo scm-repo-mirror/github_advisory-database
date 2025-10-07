@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hh67-847q-q3h9",
-  "modified": "2025-10-06T21:30:45Z",
+  "modified": "2025-10-07T15:30:25Z",
   "published": "2025-10-06T21:30:45Z",
   "aliases": [
     "CVE-2025-61984"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61984"
+    },
+    {
+      "type": "WEB",
+      "url": "https://dgl.cx/2025/10/bash-a-newline-ssh-proxycommand-cve-2025-61984"
     },
     {
       "type": "WEB",
