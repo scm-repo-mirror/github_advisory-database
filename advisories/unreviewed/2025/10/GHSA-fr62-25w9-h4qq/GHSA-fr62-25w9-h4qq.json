@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr62-25w9-h4qq",
-  "modified": "2025-10-08T06:31:04Z",
+  "modified": "2025-10-08T15:32:26Z",
   "published": "2025-10-08T06:31:04Z",
   "aliases": [
     "CVE-2025-10635"
   ],
   "details": "The Find Me On WordPress plugin through 2.0.9.1 does not sanitize and escape a parameter before using it in a SQL statement, allowing subscribers and above to perform SQL injection attacks",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-08T06:15:33Z"

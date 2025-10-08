@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr85-qg34-q2mx",
-  "modified": "2024-11-19T03:31:08Z",
+  "modified": "2025-10-08T15:32:24Z",
   "published": "2024-11-19T03:31:08Z",
   "aliases": [
     "CVE-2024-50295"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: arc: fix the device for dma_map_single/dma_unmap_single\n\nThe ndev->dev and pdev->dev aren't the same device, use ndev->dev.parent\nwhich has dma_mask, ndev->dev.parent is just pdev->dev.\nOr it would cause the following issue:\n\n[   39.933526] ------------[ cut here ]------------\n[   39.938414] WARNING: CPU: 1 PID: 501 at kernel/dma/mapping.c:149 dma_map_page_attrs+0x90/0x1f8",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:31Z"

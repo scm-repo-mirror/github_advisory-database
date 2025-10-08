@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjq7-734v-xhcw",
-  "modified": "2025-04-10T15:31:40Z",
+  "modified": "2025-10-08T15:32:24Z",
   "published": "2024-12-17T18:33:49Z",
   "aliases": [
     "CVE-2024-53144"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: hci_event: Align BR/EDR JUST_WORKS paring with LE\n\nThis aligned BR/EDR JUST_WORKS method with LE which since 92516cd97fd4\n(\"Bluetooth: Always request for user confirmation for Just Works\")\nalways request user confirmation with confirm_hint set since the\nlikes of bluetoothd have dedicated policy around JUST_WORKS method\n(e.g. main.conf:JustWorksRepairing).\n\nCVE: CVE-2024-8805",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-17T16:15:25Z"

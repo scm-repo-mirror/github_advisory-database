@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prjx-w4x5-gf5v",
-  "modified": "2024-12-24T12:30:42Z",
+  "modified": "2025-10-08T15:32:24Z",
   "published": "2024-12-24T12:30:42Z",
   "aliases": [
     "CVE-2024-53240"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen/netfront: fix crash when removing device\n\nWhen removing a netfront device directly after a suspend/resume cycle\nit might happen that the queues have not been setup again, causing a\ncrash during the attempt to stop the queues another time.\n\nFix that by checking the queues are existing before trying to stop\nthem.\n\nThis is XSA-465 / CVE-2024-53240.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-24T10:15:06Z"
