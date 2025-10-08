@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fr9-8m46-r2mm",
-  "modified": "2024-01-16T18:31:08Z",
+  "modified": "2025-10-08T09:31:13Z",
   "published": "2024-01-09T12:30:36Z",
   "aliases": [
     "CVE-2023-5347"
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-327",
       "CWE-347"
     ],
     "severity": "CRITICAL",
