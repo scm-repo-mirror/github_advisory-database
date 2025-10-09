@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-r3mh-p4fx-4894",
+  "modified": "2025-10-09T21:31:11Z",
+  "published": "2025-10-09T21:31:11Z",
+  "aliases": [
+    "CVE-2025-60316"
+  ],
+  "details": "SourceCodester Pet Grooming Management Software 1.0 is vulnerable to SQL Injection in admin/view_customer.php via the ID parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60316"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ChuckBartowski7/Vulnerability-Research/blob/main/CVE-2025-60316/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.youtube.com/watch?v=KopMozY6X5w&t=191s&ab_channel=MayuriK"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-09T20:15:40Z"
+  }
+}
