@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f46p-qr4h-m6p4",
-  "modified": "2025-04-25T06:30:56Z",
+  "modified": "2025-10-10T09:30:48Z",
   "published": "2025-04-25T06:30:56Z",
   "aliases": [
     "CVE-2025-3511"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jvn.jp/vu/JVNVU96620683"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03"
     },
     {
       "type": "WEB",
