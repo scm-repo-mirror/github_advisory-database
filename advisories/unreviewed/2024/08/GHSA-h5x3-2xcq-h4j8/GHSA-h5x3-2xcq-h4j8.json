@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5x3-2xcq-h4j8",
-  "modified": "2024-08-19T06:30:54Z",
+  "modified": "2025-10-10T12:30:55Z",
   "published": "2024-08-17T12:30:32Z",
   "aliases": [
     "CVE-2024-43830"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nleds: trigger: Unregister sysfs attributes before calling deactivate()\n\nTriggers which have trigger specific sysfs attributes typically store\nrelated data in trigger-data allocated by the activate() callback and\nfreed by the deactivate() callback.\n\nCalling device_remove_groups() after calling deactivate() leaves a window\nwhere the sysfs attributes show/store functions could be called after\ndeactivation and then operate on the just freed trigger-data.\n\nMove the device_remove_groups() call to before deactivate() to close\nthis race window.\n\nThis also makes the deactivation path properly do things in reverse order\nof the activation path which calls the activate() callback before calling\ndevice_add_groups().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-08-17T10:15:08Z"
