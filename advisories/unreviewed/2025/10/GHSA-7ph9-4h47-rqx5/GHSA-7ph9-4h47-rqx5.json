@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7ph9-4h47-rqx5",
+  "modified": "2025-10-10T18:31:23Z",
+  "published": "2025-10-10T18:31:23Z",
+  "aliases": [
+    "CVE-2025-60268"
+  ],
+  "details": "An arbitrary file upload vulnerability exists in JeeWMS 20250820, which is caused by the lack of file checking in the saveFiles function in /jeewms/cgUploadController.do. An attacker with normal privileges was able to upload a malicious file that would lead to remote code execution.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60268"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/int-ux/report/issues/4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/erzhongxmu/JEEWMS"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-10T18:15:39Z"
+  }
+}

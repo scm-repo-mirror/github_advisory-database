@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7v5-hrgw-5gjh",
-  "modified": "2025-09-05T18:31:27Z",
+  "modified": "2025-10-10T18:31:18Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39698"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d9f93172820a53ab42c4b0e5e65291f4f9d00ad2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zerodayinitiative.com/advisories/ZDI-25-915"
     }
   ],
   "database_specific": {

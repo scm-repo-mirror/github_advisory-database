@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx6c-jcmp-rgvp",
-  "modified": "2025-01-30T12:31:19Z",
+  "modified": "2025-10-10T18:31:16Z",
   "published": "2025-01-30T12:31:19Z",
   "aliases": [
     "CVE-2025-0740"

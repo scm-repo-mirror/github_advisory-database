@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c3cp-w77v-m53p",
+  "modified": "2025-10-10T18:31:23Z",
+  "published": "2025-10-10T18:31:23Z",
+  "aliases": [
+    "CVE-2025-60269"
+  ],
+  "details": "JEEWMS 20250820 is vulnerable to SQL Injection in the exportXls function located in the src/main/java/org/jeecgframework/web/cgreport/controller/excel/CgExportExcelController.java file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60269"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/int-ux/report/issues/5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/erzhongxmu/JEEWMS"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-10T17:15:38Z"
+  }
+}

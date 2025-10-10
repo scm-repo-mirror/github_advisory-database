@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qv5-2654-5g25",
-  "modified": "2025-08-19T18:31:32Z",
+  "modified": "2025-10-10T18:31:18Z",
   "published": "2025-08-19T18:31:32Z",
   "aliases": [
     "CVE-2025-38562"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d79c8bebaa622ee223128be7c66d8aaeeb634a57"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zerodayinitiative.com/advisories/ZDI-25-917"
     }
   ],
   "database_specific": {

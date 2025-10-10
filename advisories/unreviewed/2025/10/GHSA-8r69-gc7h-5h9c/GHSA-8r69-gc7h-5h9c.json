@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r69-gc7h-5h9c",
-  "modified": "2025-10-01T12:30:29Z",
+  "modified": "2025-10-10T18:31:19Z",
   "published": "2025-10-01T12:30:29Z",
   "aliases": [
     "CVE-2023-53469"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-53469"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2dde18cd1d8fac735875f2e4987f11817cc0bc2c"
     },
     {
       "type": "WEB",
