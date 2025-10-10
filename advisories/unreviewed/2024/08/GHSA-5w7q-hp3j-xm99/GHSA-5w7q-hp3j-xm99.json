@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w7q-hp3j-xm99",
-  "modified": "2024-11-14T18:30:31Z",
+  "modified": "2025-10-10T15:31:26Z",
   "published": "2024-08-21T00:30:30Z",
   "aliases": [
     "CVE-2024-43868"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nriscv/purgatory: align riscv_kernel_entry\n\nWhen alignment handling is delegated to the kernel, everything must be\nword-aligned in purgatory, since the trap handler is then set to the\nkexec one. Without the alignment, hitting the exception would\nultimately crash. On other occasions, the kernel's handler would take\ncare of exceptions.\nThis has been tested on a JH7110 SoC with oreboot and its SBI delegating\nunaligned access exceptions and the kernel configured to handle them.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-08-21T00:15:05Z"

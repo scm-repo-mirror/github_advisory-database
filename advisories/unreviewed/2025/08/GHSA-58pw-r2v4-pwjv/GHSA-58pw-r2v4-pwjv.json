@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58pw-r2v4-pwjv",
-  "modified": "2025-09-08T09:31:09Z",
+  "modified": "2025-10-10T15:31:27Z",
   "published": "2025-08-08T21:30:40Z",
   "aliases": [
     "CVE-2025-55188"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2025/08/09/1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-55188-detect-7-zip-vulnerable-version"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-55188-mitigate-7-zip-vulnerability"
     },
     {
       "type": "WEB",

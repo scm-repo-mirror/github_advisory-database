@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-872c-wm88-24f5",
-  "modified": "2025-10-08T18:30:15Z",
+  "modified": "2025-10-10T15:31:27Z",
   "published": "2025-10-03T21:30:58Z",
   "aliases": [
     "CVE-2025-52658"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1021"
+      "CWE-1021",
+      "CWE-1104"
     ],
     "severity": "LOW",
     "github_reviewed": false,

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rpjr-pcmr-9ppw",
+  "modified": "2025-10-10T15:31:28Z",
+  "published": "2025-10-10T15:31:28Z",
+  "aliases": [
+    "CVE-2025-60868"
+  ],
+  "details": "The Alt Redirect 1.6.3 addon for Statamic fails to consistently strip query string parameters when the \"Query String Strip\" feature is enabled. Case variations, encoded keys, and duplicates are not removed, allowing attackers to bypass sanitization. This may lead to cache poisoning, parameter pollution, or denial of service.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60868"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/kasiasok/870933de18d1400fa8be88e1bcadec6c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://statamic.com/addons/alt-design/alt-redirects/release-notes"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-290"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-10T14:15:43Z"
+  }
+}

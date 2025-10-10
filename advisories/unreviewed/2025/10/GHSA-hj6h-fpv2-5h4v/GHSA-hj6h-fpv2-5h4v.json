@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj6h-fpv2-5h4v",
-  "modified": "2025-10-09T21:31:10Z",
+  "modified": "2025-10-10T15:31:28Z",
   "published": "2025-10-09T18:30:36Z",
   "aliases": [
     "CVE-2025-11371"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-220"
+      "CWE-220",
+      "CWE-552"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
