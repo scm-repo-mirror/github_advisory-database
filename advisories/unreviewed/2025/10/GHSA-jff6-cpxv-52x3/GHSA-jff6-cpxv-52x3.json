@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jff6-cpxv-52x3",
-  "modified": "2025-10-09T21:31:11Z",
+  "modified": "2025-10-11T21:30:11Z",
   "published": "2025-10-09T21:31:11Z",
   "aliases": [
     "CVE-2025-11554"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://docs.google.com/document/d/1yGubpU9I6JnkKsrdNRP6bUCeQv3ZDcknXAHOzFZBkGQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/m3m0o/portabilis-ieducar-user-type-privilege-escalation"
     },
     {
       "type": "WEB",
