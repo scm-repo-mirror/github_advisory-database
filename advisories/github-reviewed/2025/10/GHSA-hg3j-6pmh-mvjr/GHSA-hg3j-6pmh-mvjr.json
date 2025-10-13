@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg3j-6pmh-mvjr",
-  "modified": "2025-10-01T20:49:32Z",
+  "modified": "2025-10-13T15:19:42Z",
   "published": "2025-10-01T18:30:38Z",
   "aliases": [
     "CVE-2025-56514"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:N/SI:L/SA:N/E:P"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N/E:P"
     }
   ],
   "affected": [
