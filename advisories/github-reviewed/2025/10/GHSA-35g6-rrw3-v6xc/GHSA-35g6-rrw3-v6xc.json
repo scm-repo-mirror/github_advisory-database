@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35g6-rrw3-v6xc",
-  "modified": "2025-10-08T19:34:21Z",
+  "modified": "2025-10-13T15:28:53Z",
   "published": "2025-10-08T19:34:21Z",
   "aliases": [
     "CVE-2025-61687"
@@ -20,6 +20,19 @@
         "ecosystem": "npm",
         "name": "flowise"
       },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.7"
+            },
+            {
+              "fixed": "3.0.8"
+            }
+          ]
+        }
+      ],
       "versions": [
         "3.0.7"
       ]

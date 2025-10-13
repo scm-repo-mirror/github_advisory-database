@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpv5-97wm-hp9c",
-  "modified": "2025-10-07T17:28:06Z",
+  "modified": "2025-10-13T15:30:01Z",
   "published": "2025-10-07T17:28:06Z",
   "aliases": [
     "CVE-2025-61772"
@@ -97,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2025-61772.yml"
     }
   ],
   "database_specific": {
