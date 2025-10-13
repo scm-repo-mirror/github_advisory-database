@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jw3-5q4w-89qg",
-  "modified": "2022-07-06T20:02:51Z",
+  "modified": "2025-10-13T12:03:00Z",
   "published": "2022-05-13T01:25:20Z",
   "aliases": [
     "CVE-2016-1181"
@@ -33,6 +33,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "struts:struts"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.2.9"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -47,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1343538"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/struts"
     },
     {
       "type": "WEB",
