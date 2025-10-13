@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xw4-3v39-52mm",
-  "modified": "2025-10-10T17:33:35Z",
+  "modified": "2025-10-13T15:46:17Z",
   "published": "2025-10-10T17:33:35Z",
   "aliases": [
     "CVE-2025-61919"
@@ -79,6 +79,10 @@
       "url": "https://github.com/rack/rack/security/advisories/GHSA-6xw4-3v39-52mm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61919"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rack/rack/commit/4e2c903991a790ee211a3021808ff4fd6fe82881"
     },
@@ -93,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2025-61919.yml"
     }
   ],
   "database_specific": {
@@ -102,6 +110,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-10T17:33:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-10-10T20:15:37Z"
   }
 }

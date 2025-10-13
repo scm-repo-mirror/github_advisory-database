@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpfc-mph4-qm24",
-  "modified": "2025-06-20T14:55:30Z",
+  "modified": "2025-10-13T15:45:55Z",
   "published": "2025-06-20T03:30:32Z",
   "aliases": [
     "CVE-2025-6264"
@@ -46,11 +46,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://blog.talosintelligence.com/velociraptor-leveraged-in-ransomware-attacks"
+    },
+    {
+      "type": "WEB",
       "url": "https://docs.velociraptor.app/announcements/advisories/cve-2025-6264"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/Velocidex/velociraptor"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.sophos.com/en-us/2025/08/26/velociraptor-incident-response-tool-abused-for-remote-access"
     }
   ],
   "database_specific": {

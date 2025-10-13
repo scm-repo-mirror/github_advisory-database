@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r657-rxjc-j557",
-  "modified": "2025-10-10T17:31:31Z",
+  "modified": "2025-10-13T15:45:09Z",
   "published": "2025-10-10T17:31:31Z",
   "aliases": [
     "CVE-2025-61780"
@@ -79,6 +79,10 @@
       "url": "https://github.com/rack/rack/security/advisories/GHSA-r657-rxjc-j557"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61780"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rack/rack/commit/57277b7741581fa827472c5c666f6e6a33abd784"
     },
@@ -93,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2025-61780.yml"
     }
   ],
   "database_specific": {
@@ -104,6 +112,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-10T17:31:31Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-10-10T17:15:39Z"
   }
 }
