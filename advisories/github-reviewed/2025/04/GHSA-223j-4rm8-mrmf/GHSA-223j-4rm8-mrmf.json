@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-223j-4rm8-mrmf",
-  "modified": "2025-04-03T13:24:25Z",
+  "modified": "2025-10-13T15:35:50Z",
   "published": "2025-04-02T22:35:37Z",
   "aliases": [
     "CVE-2025-30218"
