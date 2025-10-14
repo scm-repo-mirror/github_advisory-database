@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pww7-j9v6-xc6j",
-  "modified": "2025-06-10T15:30:42Z",
+  "modified": "2025-10-14T18:30:26Z",
   "published": "2025-06-05T15:31:32Z",
   "aliases": [
     "CVE-2025-47827"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Zedeldi/igelfs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-47827"
     }
   ],
   "database_specific": {

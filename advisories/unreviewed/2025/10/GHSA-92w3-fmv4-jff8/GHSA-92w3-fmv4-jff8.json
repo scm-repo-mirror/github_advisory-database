@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-92w3-fmv4-jff8",
+  "modified": "2025-10-14T18:30:37Z",
+  "published": "2025-10-14T18:30:37Z",
+  "aliases": [
+    "CVE-2025-57563"
+  ],
+  "details": "A path traversal in StarNet Communications Corporation FastX v.4 through v4.1.51 allows unauthenticated attackers to read arbitrary files.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57563"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.com/daniele_m/cve-list/-/blob/main/README.md?ref_type=heads"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.starnet.com/fastx"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-14T18:15:36Z"
+  }
+}

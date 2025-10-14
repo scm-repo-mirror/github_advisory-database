@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9x5-mfpj-jr3h",
-  "modified": "2025-10-07T21:31:06Z",
+  "modified": "2025-10-14T18:30:27Z",
   "published": "2025-10-07T21:31:06Z",
   "aliases": [
     "CVE-2025-11462"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://aws.amazon.com/vpn/client-vpn-download"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.aws.amazon.com/vpn/latest/clientvpn-user/client-vpn-connect-macos-release-notes.html"
     }
   ],
   "database_specific": {
