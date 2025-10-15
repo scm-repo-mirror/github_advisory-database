@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh2c-86xm-pm2x",
-  "modified": "2025-04-08T14:39:48Z",
+  "modified": "2025-10-15T16:10:41Z",
   "published": "2025-03-20T12:32:49Z",
   "aliases": [
     "CVE-2024-8984"
@@ -59,7 +59,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-770"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
