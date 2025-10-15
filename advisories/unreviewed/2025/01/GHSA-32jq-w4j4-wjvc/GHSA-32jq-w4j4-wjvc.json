@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32jq-w4j4-wjvc",
-  "modified": "2025-02-02T12:30:24Z",
+  "modified": "2025-10-15T21:31:38Z",
   "published": "2025-01-11T15:30:28Z",
   "aliases": [
     "CVE-2024-53685"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nceph: give up on paths longer than PATH_MAX\n\nIf the full path to be built by ceph_mdsc_build_path() happens to be\nlonger than PATH_MAX, then this function will enter an endless (retry)\nloop, effectively blocking the whole task.  Most of the machine\nbecomes unusable, making this a very simple and effective DoS\nvulnerability.\n\nI cannot imagine why this retry was ever implemented, but it seems\nrather useless and harmful to me.  Let's remove it and fail with\nENAMETOOLONG instead.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-835"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-11T13:15:25Z"

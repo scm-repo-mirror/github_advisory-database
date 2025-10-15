@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjfx-vwp2-gqr8",
-  "modified": "2025-09-26T09:31:12Z",
+  "modified": "2025-10-15T21:31:39Z",
   "published": "2025-09-26T09:31:12Z",
   "aliases": [
     "CVE-2025-11021"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:18183"
     },
     {
       "type": "WEB",
