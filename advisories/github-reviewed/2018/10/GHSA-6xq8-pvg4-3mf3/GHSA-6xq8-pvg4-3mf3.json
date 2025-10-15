@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xq8-pvg4-3mf3",
-  "modified": "2022-09-14T19:17:28Z",
+  "modified": "2025-10-15T16:43:16Z",
   "published": "2018-10-19T16:54:11Z",
   "aliases": [
     "CVE-2018-1000644"
   ],
-  "summary": "Eclipse RDF4j vulnerable to XML External Entitiy",
+  "summary": "Eclipse RDF4j vulnerable to XML External Entity",
   "details": "Eclipse RDF4j version < 2.4.0 Milestone 2 contains a XML External Entity (XXE) vulnerability in RDF4j XML parser parsing RDF files that can result in the disclosure of confidential data, denial of service, server side request forgery, port scanning. This attack appear to be exploitable via Specially crafted RDF file.",
   "severity": [
     {
