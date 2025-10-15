@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9pp5-9c7g-4r83",
-  "modified": "2025-05-21T18:31:29Z",
+  "modified": "2025-10-15T20:13:15Z",
   "published": "2025-05-21T15:30:33Z",
   "aliases": [
     "CVE-2025-41232"
@@ -33,6 +33,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework.security:spring-security-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.4.0"
+            },
+            {
+              "fixed": "6.4.6"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -41,8 +60,20 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41232"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/spring-projects/spring-security/commit/bf2aaa1b1830e534ba651d422545ac08a115151b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/spring-projects/spring-security/commit/c972de5369a1261ab674a3f5e3a80e8ce3e8cdfb"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/spring-projects/spring-security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/spring-projects/spring-security/releases/tag/6.4.6"
     },
     {
       "type": "WEB",
