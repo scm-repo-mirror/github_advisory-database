@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcvc-5hgv-phqg",
-  "modified": "2024-10-09T22:10:34Z",
+  "modified": "2025-10-15T15:58:58Z",
   "published": "2024-10-09T21:31:08Z",
   "aliases": [
     "CVE-2024-7041"
@@ -59,7 +59,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-250"
+      "CWE-250",
+      "CWE-639"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
