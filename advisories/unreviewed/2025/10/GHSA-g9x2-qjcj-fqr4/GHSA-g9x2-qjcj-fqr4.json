@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9x2-qjcj-fqr4",
-  "modified": "2025-10-15T09:30:17Z",
+  "modified": "2025-10-15T12:30:25Z",
   "published": "2025-10-15T09:30:17Z",
   "aliases": [
     "CVE-2025-39996"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bb10a9ddc8d6c5dbf098f21eb1055a652652e524"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d502df8a716d993fa0f9d8c00684f1190750e28e"
     }
   ],
   "database_specific": {
