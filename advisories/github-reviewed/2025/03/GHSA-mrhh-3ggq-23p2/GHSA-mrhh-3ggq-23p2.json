@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrhh-3ggq-23p2",
-  "modified": "2025-03-20T18:53:09Z",
+  "modified": "2025-10-15T16:00:23Z",
   "published": "2025-03-20T12:32:38Z",
   "aliases": [
     "CVE-2024-10190"
@@ -51,6 +51,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-502",
       "CWE-77"
     ],
     "severity": "CRITICAL",
