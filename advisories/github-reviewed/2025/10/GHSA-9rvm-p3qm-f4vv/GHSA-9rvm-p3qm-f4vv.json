@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rvm-p3qm-f4vv",
-  "modified": "2025-10-16T18:30:24Z",
+  "modified": "2025-10-16T21:34:28Z",
   "published": "2025-10-16T18:30:23Z",
   "aliases": [
     "CVE-2025-11842"
   ],
+  "summary": "Smidge is vulnerable to Path Traversal",
   "details": "A security vulnerability has been detected in Shazwazza Smidge up to 4.5.1. The impacted element is an unknown function of the component Bundle Handler. The manipulation of the argument Version leads to path traversal. Remote exploitation of the attack is possible. Upgrading to version 4.6.0 is sufficient to resolve this issue. It is recommended to upgrade the affected component.",
   "severity": [
     {
@@ -14,14 +15,38 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "NuGet",
+        "name": "Smidge"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11842"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/Shazwazza/Smidge"
     },
     {
       "type": "WEB",
@@ -30,10 +55,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/asust9/smidge-vuln?tab=readme-ov-file"
-    },
-    {
-      "type": "WEB",
-      "url": "https://vuldb.com/?ctiid.328776"
     },
     {
       "type": "WEB",
@@ -49,8 +70,8 @@
       "CWE-22"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-10-16T21:34:28Z",
     "nvd_published_at": "2025-10-16T16:15:37Z"
   }
 }
