@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cmv-xcmf-v4pm",
-  "modified": "2025-10-16T18:30:25Z",
+  "modified": "2025-10-16T21:31:15Z",
   "published": "2025-10-16T18:30:25Z",
   "aliases": [
     "CVE-2025-60639"
   ],
   "details": "Hardcoded credentials in gsigel14 ATLAS-EPIC commit f29312c (2025-05-26).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-798"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-16T18:15:37Z"

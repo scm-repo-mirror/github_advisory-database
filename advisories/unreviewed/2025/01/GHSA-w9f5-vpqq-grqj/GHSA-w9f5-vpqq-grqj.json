@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9f5-vpqq-grqj",
-  "modified": "2025-02-02T12:30:24Z",
+  "modified": "2025-10-16T21:31:14Z",
   "published": "2025-01-19T12:31:25Z",
   "aliases": [
     "CVE-2025-21648"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: conntrack: clamp maximum hashtable size to INT_MAX\n\nUse INT_MAX as maximum size for the conntrack hashtable. Otherwise, it\nis possible to hit WARN_ON_ONCE in __kvmalloc_node_noprof() when\nresizing hashtable because __GFP_NOWARN is unset. See:\n\n  0708a0afe291 (\"mm: Consider __GFP_NOWARN flag for oversized kvmalloc() calls\")\n\nNote: hashtable resize is only possible from init_netns.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-19T11:15:10Z"
