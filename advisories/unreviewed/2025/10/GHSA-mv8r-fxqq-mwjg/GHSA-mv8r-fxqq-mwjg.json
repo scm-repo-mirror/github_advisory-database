@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mv8r-fxqq-mwjg",
+  "modified": "2025-10-16T18:30:25Z",
+  "published": "2025-10-16T18:30:25Z",
+  "aliases": [
+    "CVE-2025-56700"
+  ],
+  "details": "Boolean SQL injection vulnerability in the web app of Base Digitale Group spa product Centrax Open PSIM version 6.1 allows a low level priviliged user that has access to the platform, to execute arbitrary SQL commands via the datafine parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56700"
+    },
+    {
+      "type": "WEB",
+      "url": "https://basedigitale.com/integrated-security-solutions/security-asset-management/centrax"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarioTesoro/vulnerability-research/tree/main/CVE-2025-56700"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-16T17:15:34Z"
+  }
+}

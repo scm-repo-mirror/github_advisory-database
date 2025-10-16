@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcj9-qvh8-q3c8",
-  "modified": "2025-10-12T03:30:35Z",
+  "modified": "2025-10-16T18:30:22Z",
   "published": "2025-10-12T03:30:35Z",
   "aliases": [
     "CVE-2025-61884"
@@ -21,11 +21,21 @@
     },
     {
       "type": "WEB",
+      "url": "https://blogs.oracle.com/security/post/apply-july-2025-cpu"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/well-well-well-its-another-day-oracle-e-business-suite-pre-auth-rce-chain-cve-2025-61882well-well-well-its-another-day-oracle-e-business-suite-pre-auth-rce-chain-cve-2025-61882"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/alert-cve-2025-61884.html"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-22"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6cmv-xcmf-v4pm",
+  "modified": "2025-10-16T18:30:25Z",
+  "published": "2025-10-16T18:30:25Z",
+  "aliases": [
+    "CVE-2025-60639"
+  ],
+  "details": "Hardcoded credentials in gsigel14 ATLAS-EPIC commit f29312c (2025-05-26).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60639"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gsiegel14/ATLAS-EPIC/commit/f29312cf782ec5a6537fceaeb6a9ced7d7d04e1f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gsiegel14/ATLAS-EPIC"
+    },
+    {
+      "type": "WEB",
+      "url": "https://xancatos.org/cve202560639"
+    },
+    {
+      "type": "WEB",
+      "url": "http://atlas-epic.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-16T18:15:37Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgff-wp2m-jgfw",
-  "modified": "2025-10-06T21:30:44Z",
+  "modified": "2025-10-16T18:30:22Z",
   "published": "2025-10-05T06:30:14Z",
   "aliases": [
     "CVE-2025-61882"
@@ -29,13 +29,18 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-identifies-campaign-targeting-oracle-e-business-suite-zero-day-CVE-2025-61882"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/alert-cve-2025-61882.html"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-22",
-      "CWE-284"
+      "CWE-284",
+      "CWE-287"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

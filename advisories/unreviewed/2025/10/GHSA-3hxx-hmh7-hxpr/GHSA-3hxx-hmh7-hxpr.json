@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hxx-hmh7-hxpr",
-  "modified": "2025-10-16T15:30:43Z",
+  "modified": "2025-10-16T18:30:23Z",
   "published": "2025-10-16T15:30:43Z",
   "aliases": [
     "CVE-2025-61536"
   ],
   "details": "FelixRiddle dev-jobs-handlebars 1.0 uses absolute password-reset (magic) links using the untrusted `req.headers.host` header and forces the `http://` scheme. An attacker who can control the `Host` header (or exploit a misconfigured proxy/load-balancer that forwards the header unchanged) can cause reset links to point to attacker-controlled domains or be delivered via insecure HTTP, enabling token theft, phishing, and account takeover.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-620"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-16T15:15:34Z"

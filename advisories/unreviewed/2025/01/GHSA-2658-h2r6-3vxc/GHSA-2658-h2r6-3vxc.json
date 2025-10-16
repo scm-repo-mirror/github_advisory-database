@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2658-h2r6-3vxc",
-  "modified": "2025-01-11T15:30:29Z",
+  "modified": "2025-10-16T18:30:21Z",
   "published": "2025-01-11T15:30:29Z",
   "aliases": [
     "CVE-2024-57792"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npower: supply: gpio-charger: Fix set charge current limits\n\nFix set charge current limits for devices which allow to set the lowest\ncharge current limit to be greater zero. If requested charge current limit\nis below lowest limit, the index equals current_limit_map_size which leads\nto accessing memory beyond allocated memory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-11T13:15:29Z"
