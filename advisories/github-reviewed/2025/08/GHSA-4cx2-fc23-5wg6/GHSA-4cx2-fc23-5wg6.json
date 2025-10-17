@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cx2-fc23-5wg6",
-  "modified": "2025-08-13T22:52:42Z",
+  "modified": "2025-10-17T13:58:30Z",
   "published": "2025-08-13T12:31:30Z",
   "aliases": [
     "CVE-2025-8916"
@@ -32,10 +32,7 @@
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 1.78"
-      }
+      ]
     },
     {
       "package": {
@@ -54,10 +51,7 @@
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 1.78"
-      }
+      ]
     },
     {
       "package": {
@@ -76,10 +70,7 @@
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 1.78"
-      }
+      ]
     },
     {
       "package": {
