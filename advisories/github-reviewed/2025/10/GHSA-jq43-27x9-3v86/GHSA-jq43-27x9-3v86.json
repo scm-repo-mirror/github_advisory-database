@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq43-27x9-3v86",
-  "modified": "2025-10-15T19:14:26Z",
+  "modified": "2025-10-17T21:32:39Z",
   "published": "2025-10-15T17:12:55Z",
   "aliases": [
     "CVE-2025-59419"
@@ -78,6 +78,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/netty/netty"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.depthfirst.com/post/our-ai-agent-found-a-netty-zero-day-that-bypasses-email-authentication-the-story-of-cve-2025-59419"
     }
   ],
   "database_specific": {
