@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q3v-827r-c9mw",
-  "modified": "2021-11-30T00:00:52Z",
+  "modified": "2025-10-17T18:31:05Z",
   "published": "2021-11-30T00:00:52Z",
   "aliases": [
     "CVE-2021-24755"
   ],
   "details": "The myCred WordPress plugin before 2.3 does not validate or escape the fields parameter before using it in a SQL statement, leading to an SQL injection exploitable by any authenticated user",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

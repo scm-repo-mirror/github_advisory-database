@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cvhh-q5g5-qprp",
+  "modified": "2025-10-17T18:31:08Z",
+  "published": "2025-10-17T18:31:07Z",
+  "aliases": [
+    "CVE-2025-49655"
+  ],
+  "details": "Deserialization of untrusted data can occur in versions of the Keras framework running versions 3.11.0 up to but not including 3.11.3, enabling a maliciously uploaded Keras file containing a TorchModuleWrapper class to run arbitrary code on an end user’s system when loaded despite safe mode being enabled. The vulnerability can be triggered through both local and remote files.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49655"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keras-team/keras/pull/21575"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hiddenlayer.com/sai_security_advisor/2025-10-keras"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-17T16:15:37Z"
+  }
+}

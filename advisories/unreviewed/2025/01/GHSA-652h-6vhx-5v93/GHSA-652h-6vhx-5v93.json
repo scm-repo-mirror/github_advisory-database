@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-652h-6vhx-5v93",
-  "modified": "2025-01-11T15:30:30Z",
+  "modified": "2025-10-17T18:31:06Z",
   "published": "2025-01-11T15:30:30Z",
   "aliases": [
     "CVE-2024-57880"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: Intel: sof_sdw: Add space for a terminator into DAIs array\n\nThe code uses the initialised member of the asoc_sdw_dailink struct to\ndetermine if a member of the array is in use. However in the case the\narray is completely full this will lead to an access 1 past the end of\nthe array, expand the array by one entry to include a space for a\nterminator.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-11T15:15:08Z"

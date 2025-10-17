@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vxh-fg42-74vm",
-  "modified": "2025-08-12T18:31:33Z",
+  "modified": "2025-10-17T18:31:07Z",
   "published": "2025-08-12T18:31:33Z",
   "aliases": [
     "CVE-2025-53778"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53778"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-53778-detection-script-improper-authentication-vulnerability-affecting-windows-ntlm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-53778-mitigation-script-improper-authentication-vulnerability-affecting-windows-ntlm"
     }
   ],
   "database_specific": {
