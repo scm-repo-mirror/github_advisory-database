@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pvw-g552-53c5",
-  "modified": "2025-10-17T17:05:03Z",
+  "modified": "2025-10-17T19:07:33Z",
   "published": "2025-10-17T17:05:03Z",
   "aliases": [
     "CVE-2025-26625"
@@ -44,6 +44,10 @@
       "url": "https://github.com/git-lfs/git-lfs/security/advisories/GHSA-6pvw-g552-53c5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26625"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/git-lfs/git-lfs/commit/0cffe93176b870055c9dadbb3cc9a4a440e98396"
     },
@@ -75,6 +79,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-17T17:05:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-10-17T16:15:37Z"
   }
 }

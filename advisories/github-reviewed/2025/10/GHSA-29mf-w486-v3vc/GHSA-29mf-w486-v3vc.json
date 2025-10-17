@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29mf-w486-v3vc",
-  "modified": "2025-10-13T13:34:11Z",
+  "modified": "2025-10-17T19:07:38Z",
   "published": "2025-10-10T21:31:15Z",
   "aliases": [
     "CVE-2025-60880"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/bagisto/bagisto/commit/9ec40c99c34a83f311ffbb7c1039a59ff9d655cc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/daman-preet-singh/cd431f4c30a585bb87d3c69e4a8eec98"
     },
     {
       "type": "WEB",
