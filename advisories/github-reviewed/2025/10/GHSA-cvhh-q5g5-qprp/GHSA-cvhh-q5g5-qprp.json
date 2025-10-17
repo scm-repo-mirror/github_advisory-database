@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvhh-q5g5-qprp",
-  "modified": "2025-10-17T18:31:08Z",
+  "modified": "2025-10-17T20:18:10Z",
   "published": "2025-10-17T18:31:07Z",
   "aliases": [
     "CVE-2025-49655"
   ],
+  "summary": "Keras framework vulnerable to deserialization of untrusted data",
   "details": "Deserialization of untrusted data can occur in versions of the Keras framework running versions 3.11.0 up to but not including 3.11.3, enabling a maliciously uploaded Keras file containing a TorchModuleWrapper class to run arbitrary code on an end user’s system when loaded despite safe mode being enabled. The vulnerability can be triggered through both local and remote files.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "keras"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.11.0"
+            },
+            {
+              "fixed": "3.11.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keras-team/keras/pull/21575"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/keras-team/keras"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-502"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-10-17T20:18:10Z",
     "nvd_published_at": "2025-10-17T16:15:37Z"
   }
 }
