@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjc9-9jqg-mcq7",
-  "modified": "2025-10-17T21:31:19Z",
+  "modified": "2025-10-18T03:30:25Z",
   "published": "2025-10-17T21:31:19Z",
   "aliases": [
     "CVE-2025-62650"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62650"
+    },
+    {
+      "type": "WEB",
+      "url": "https://archive.today/fMYQp"
     },
     {
       "type": "WEB",
