@@ -1,11 +1,10 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m929-rg27-gj99",
-  "modified": "2025-10-07T14:13:05Z",
+  "modified": "2025-10-20T15:31:48Z",
   "published": "2025-09-24T21:30:37Z",
-  "aliases": [
-    "CVE-2025-57325"
-  ],
+  "withdrawn": "2025-10-20T15:31:48Z",
+  "aliases": [],
   "summary": "rollbar vulnerable to prototype pollution",
   "details": "rollbar is a package designed to effortlessly track and debug errors in JavaScript applications. This package includes advanced error tracking features and an intuitive interface to help you identify and fix issues more quickly. A Prototype Pollution vulnerability in the utility.set function of rollbar v2.26.4 and before allows attackers to inject properties on Object.prototype via supplying a crafted payload, causing denial of service (DoS) as the minimum consequence.",
   "severity": [

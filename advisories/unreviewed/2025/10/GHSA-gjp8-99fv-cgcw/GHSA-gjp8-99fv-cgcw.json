@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjp8-99fv-cgcw",
-  "modified": "2025-10-18T18:30:22Z",
+  "modified": "2025-10-20T15:30:25Z",
   "published": "2025-10-18T18:30:22Z",
   "aliases": [
     "CVE-2025-47410"
   ],
   "details": "Apache Geode is vulnerable to CSRF attacks through GET requests to the Management and Monitoring REST API that could allow an attacker who has tricked a user into giving up their Geode session credentials to submit malicious commands on the target system on behalf of the authenticated user.\n\n\nThis issue affects Apache Geode: versions 1.10 through 1.15.1\n\nUsers are recommended to upgrade to version 1.15.2, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-18T16:15:35Z"
