@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3g23-7g3r-898j",
-  "modified": "2025-05-12T21:31:05Z",
+  "modified": "2025-10-20T21:30:27Z",
   "published": "2025-05-03T18:30:29Z",
   "aliases": [
     "CVE-2024-58134"
@@ -30,6 +30,26 @@
     {
       "type": "WEB",
       "url": "https://github.com/mojolicious/mojo/pull/2200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mojolicious/mojo/pull/2252"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.mojolicious.org/Mojolicious/Guides/FAQ#What-does-Your-secret-passphrase-needs-to-be-changed-mean"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-perl/2025/05/msg00016.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-perl/2025/05/msg00017.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-perl/2025/05/msg00018.html"
     },
     {
       "type": "WEB",

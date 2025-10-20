@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r5v-gmfp-3mh9",
-  "modified": "2025-05-07T21:31:44Z",
+  "modified": "2025-10-20T21:30:27Z",
   "published": "2025-05-03T12:30:25Z",
   "aliases": [
     "CVE-2024-58135"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/mojolicious/mojo/pull/2200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-perl/2025/05/msg00016.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-perl/2025/05/msg00017.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-perl/2025/05/msg00018.html"
     },
     {
       "type": "WEB",
