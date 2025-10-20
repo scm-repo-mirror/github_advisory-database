@@ -1,19 +1,15 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gj5f-73vh-wpf7",
-  "modified": "2025-10-10T23:49:44Z",
+  "modified": "2025-10-20T17:49:01Z",
   "published": "2025-10-10T06:30:55Z",
+  "withdrawn": "2025-10-20T17:49:01Z",
   "aliases": [
     "CVE-2025-11569"
   ],
-  "summary": "cross-zip is vulnerable to Directory Traversal through selective use of zip/unzip operations",
-  "details": "All versions of the package cross-zip are vulnerable to Directory Traversal via consecutive usage of zipSync() and unzipSync () functions that allow arguments such as __dirname. An attacker can access system files by selectively doing zip/unzip operations.",
-  "severity": [
-    {
-      "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:P"
-    }
-  ],
+  "summary": "Withdrawn Advisory: cross-zip is vulnerable to Directory Traversal through selective use of zip/unzip operations",
+  "details": "### Withdrawn Advisory\nThis advisory has been withdrawn because it does not discuss a valid vulnerability. This link is maintained to preserve external references.\n\n### Original Description\nAll versions of the package cross-zip are vulnerable to Directory Traversal via consecutive usage of zipSync() and unzipSync () functions that allow arguments such as __dirname. An attacker can access system files by selectively doing zip/unzip operations.",
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -61,7 +57,7 @@
     "cwe_ids": [
       "CWE-22"
     ],
-    "severity": "HIGH",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-10T23:49:44Z",
     "nvd_published_at": "2025-10-10T05:15:32Z"
