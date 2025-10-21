@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2jq-7w25-hghw",
-  "modified": "2024-06-19T15:30:53Z",
+  "modified": "2025-10-21T00:30:25Z",
   "published": "2024-06-19T15:30:53Z",
   "aliases": [
     "CVE-2024-38564"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Add BPF_PROG_TYPE_CGROUP_SKB attach type enforcement in BPF_LINK_CREATE\n\nbpf_prog_attach uses attach_type_to_prog_type to enforce proper\nattach type for BPF_PROG_TYPE_CGROUP_SKB. link_create uses\nbpf_prog_get and relies on bpf_prog_attach_check_attach_type\nto properly verify prog_type <> attach_type association.\n\nAdd missing attach_type enforcement for the link_create case.\nOtherwise, it's currently possible to attach cgroup_skb prog\ntypes to other cgroup hooks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T14:15:16Z"

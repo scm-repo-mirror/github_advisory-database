@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-676m-39hm-wg2r",
-  "modified": "2024-06-27T12:30:47Z",
+  "modified": "2025-10-21T00:30:25Z",
   "published": "2024-06-19T15:30:53Z",
   "aliases": [
     "CVE-2024-38579"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: bcm - Fix pointer arithmetic\n\nIn spu2_dump_omd() value of ptr is increased by ciph_key_len\ninstead of hash_iv_len which could lead to going beyond the\nbuffer boundaries.\nFix this bug by changing ciph_key_len to hash_iv_len.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T14:15:17Z"
