@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp59-2529-g767",
-  "modified": "2025-10-20T18:30:34Z",
+  "modified": "2025-10-21T21:33:36Z",
   "published": "2025-10-20T18:30:34Z",
   "aliases": [
     "CVE-2025-48025"
   ],
   "details": "In Samsung Mobile Processor and Wearable Processor Exynos 980, 1280, 1330, 1380, 1480, 2400, 1580, W920, W930, and W1000, there is an improper access control vulnerability related to a log file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-20T16:15:38Z"

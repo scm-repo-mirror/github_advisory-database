@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p36j-q4xc-rcrv",
-  "modified": "2025-10-15T15:30:28Z",
+  "modified": "2025-10-21T21:33:30Z",
   "published": "2025-10-15T15:30:28Z",
   "aliases": [
     "CVE-2025-53868"

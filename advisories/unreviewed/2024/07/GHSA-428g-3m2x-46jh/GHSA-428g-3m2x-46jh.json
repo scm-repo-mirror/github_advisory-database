@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-428g-3m2x-46jh",
-  "modified": "2024-07-10T21:30:37Z",
+  "modified": "2025-10-21T21:33:14Z",
   "published": "2024-07-01T18:32:40Z",
   "aliases": [
     "CVE-2024-20399"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-cmd-injection-xD9OhyOP"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-20399"
     },
     {
       "type": "WEB",

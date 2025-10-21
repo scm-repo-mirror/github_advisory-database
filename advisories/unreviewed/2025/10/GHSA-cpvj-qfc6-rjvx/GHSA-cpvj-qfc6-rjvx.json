@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpvj-qfc6-rjvx",
-  "modified": "2025-10-21T15:31:00Z",
+  "modified": "2025-10-21T21:33:37Z",
   "published": "2025-10-21T15:31:00Z",
   "aliases": [
     "CVE-2025-60344"
   ],
   "details": "An unauthenticated Local File Inclusion (LFI) vulnerability in D-Link DSR series routers allows remote attackers to retrieve sensitive configuration files in clear text. The exposed files contain administrative credentials, VPN settings, and other sensitive information, enabling full administrative access to the router. Affected Products include: DSR-150, DSR-150N, and DSR-250N v1.09B32_WW.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-21T15:15:39Z"

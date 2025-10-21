@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xw62-rx45-hvr3",
-  "modified": "2025-10-21T18:30:35Z",
+  "modified": "2025-10-21T21:33:39Z",
   "published": "2025-10-21T18:30:35Z",
   "aliases": [
     "CVE-2025-11534"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-294-06"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.runzero.com/advisories/raisecom-ssh-bypass-cve-2025-11534"
     }
   ],
   "database_specific": {

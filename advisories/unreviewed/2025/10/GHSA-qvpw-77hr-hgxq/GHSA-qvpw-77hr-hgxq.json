@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qvpw-77hr-hgxq",
-  "modified": "2025-10-15T15:30:28Z",
+  "modified": "2025-10-21T21:33:30Z",
   "published": "2025-10-15T15:30:28Z",
   "aliases": [
     "CVE-2025-54755"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-146"
+      "CWE-146",
+      "CWE-22"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
