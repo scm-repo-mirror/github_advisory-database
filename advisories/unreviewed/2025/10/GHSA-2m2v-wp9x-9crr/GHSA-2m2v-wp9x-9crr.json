@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m2v-wp9x-9crr",
-  "modified": "2025-10-22T15:31:12Z",
+  "modified": "2025-10-22T21:31:24Z",
   "published": "2025-10-22T15:31:12Z",
   "aliases": [
     "CVE-2025-31634"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in designthemes Insurance insurance allows Object Injection.This issue affects Insurance: from n/a through <= 3.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:33Z"

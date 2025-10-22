@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rr26-3xh7-xr78",
-  "modified": "2025-10-22T15:31:12Z",
+  "modified": "2025-10-22T21:31:24Z",
   "published": "2025-10-22T15:31:12Z",
   "aliases": [
     "CVE-2025-30944"
   ],
   "details": "Missing Authorization vulnerability in Essekia Tablesome Table Premium tablesome-premium allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Tablesome Table Premium: from n/a through <= 1.1.23.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:33Z"

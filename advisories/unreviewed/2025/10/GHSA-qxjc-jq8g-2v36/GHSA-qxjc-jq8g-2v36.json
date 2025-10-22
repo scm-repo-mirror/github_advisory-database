@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxjc-jq8g-2v36",
-  "modified": "2025-10-22T15:31:17Z",
+  "modified": "2025-10-22T21:31:29Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-60134"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in John James Jacoby WP Media Categories wp-media-categories allows Cross Site Request Forgery.This issue affects WP Media Categories: from n/a through <= 2.1.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:57Z"

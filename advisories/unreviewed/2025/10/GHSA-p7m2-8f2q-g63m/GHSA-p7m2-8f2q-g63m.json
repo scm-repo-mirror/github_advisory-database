@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7m2-8f2q-g63m",
-  "modified": "2025-10-22T15:31:15Z",
+  "modified": "2025-10-22T21:31:29Z",
   "published": "2025-10-22T15:31:15Z",
   "aliases": [
     "CVE-2025-52741"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Barry Kooij Post Connector post-connector allows Reflected XSS.This issue affects Post Connector: from n/a through <= 1.0.11.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:44Z"

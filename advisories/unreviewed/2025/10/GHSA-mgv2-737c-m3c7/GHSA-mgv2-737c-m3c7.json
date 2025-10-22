@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgv2-737c-m3c7",
-  "modified": "2025-10-21T21:33:37Z",
+  "modified": "2025-10-22T21:31:19Z",
   "published": "2025-10-21T15:31:00Z",
   "aliases": [
     "CVE-2025-57521"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/piuppi/Proof-of-Concepts/blob/main/Bambu%20Lab/Bambu%20Studio/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.bambulab.com/en/software/bambu-studio/release/release-note-2-3-0"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f32m-f53g-3875",
-  "modified": "2025-03-13T15:32:49Z",
+  "modified": "2025-10-22T21:31:17Z",
   "published": "2025-02-27T03:34:03Z",
   "aliases": [
     "CVE-2024-58016"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsafesetid: check size of policy writes\n\nsyzbot attempts to write a buffer with a large size to a sysfs entry\nwith writes handled by handle_policy_update(), triggering a warning\nin kmalloc.\n\nCheck the size specified for write buffers before allocating.\n\n[PM: subject tweak]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:12Z"

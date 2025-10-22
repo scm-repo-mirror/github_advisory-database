@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32v4-m2f3-f92x",
-  "modified": "2025-10-22T15:31:13Z",
+  "modified": "2025-10-22T21:31:29Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49901"
   ],
   "details": "Authentication Bypass Using an Alternate Path or Channel vulnerability in quantumcloud Simple Link Directory qc-simple-link-directory allows Authentication Abuse.This issue affects Simple Link Directory: from n/a through < 14.8.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-288"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:36Z"

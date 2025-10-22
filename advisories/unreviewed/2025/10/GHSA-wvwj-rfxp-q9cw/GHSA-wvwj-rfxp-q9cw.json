@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvwj-rfxp-q9cw",
-  "modified": "2025-10-22T15:31:18Z",
+  "modified": "2025-10-22T21:31:30Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60221"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in captivateaudio Captivate Sync captivatesync-trade allows Object Injection.This issue affects Captivate Sync: from n/a through <= 3.0.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:59Z"

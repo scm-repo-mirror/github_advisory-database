@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfc7-wqhw-2q8r",
-  "modified": "2025-10-15T15:30:28Z",
+  "modified": "2025-10-22T21:31:19Z",
   "published": "2025-10-15T15:30:28Z",
   "aliases": [
     "CVE-2025-58153"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-667",
       "CWE-703"
     ],
     "severity": "HIGH",
