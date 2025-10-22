@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9hw-wf7x-jp9j",
-  "modified": "2024-07-25T13:37:08Z",
+  "modified": "2025-10-22T17:46:46Z",
   "published": "2020-06-15T18:51:21Z",
   "aliases": [
     "CVE-2020-1938"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -80,7 +80,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.oracle.com/security-alerts/cpuoct2020.html"
+      "url": "https://lists.apache.org/thread.html/re5eecbe5bf967439bafeeaa85987b3a43f0e6efe06b6976ee768cde2@%3Cusers.tomcat.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -164,7 +164,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/r5e2f1201b92ee05a0527cfc076a81ea0c270be299b87895c0ddbe02b@%3Cusers.tomcat.apache.org%3E"
+      "url": "https://lists.apache.org/thread.html/ra7092f7492569b39b04ec0decf52628ba86c51f15efb38f5853e2760%40%3Cnotifications.ofbiz.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.oracle.com/security-alerts/cpuoct2020.html"
     },
     {
       "type": "WEB",
@@ -181,6 +185,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2020/dsa-4673"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-1938"
     },
     {
       "type": "WEB",
@@ -245,10 +253,6 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/rf1bbc0ea4a9f014cf94df9a12a6477d24a27f52741dbc87f2fd52ff2%40%3Cissues.geode.apache.org%3E"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/re5eecbe5bf967439bafeeaa85987b3a43f0e6efe06b6976ee768cde2@%3Cusers.tomcat.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -335,8 +339,8 @@
       "url": "https://lists.apache.org/thread.html/r089dc67c0358a1556dd279c762c74f32d7a254a54836b7ee2d839d8e%40%3Cdev.tomee.apache.org%3E"
     },
     {
-      "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/ra7092f7492569b39b04ec0decf52628ba86c51f15efb38f5853e2760%40%3Cnotifications.ofbiz.apache.org%3E"
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/tomcat"
     },
     {
       "type": "WEB",
@@ -421,6 +425,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r61f280a76902b594692f0b24a1dbf647bb5a4c197b9395e9a6796e7c%40%3Cusers.tomcat.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r5e2f1201b92ee05a0527cfc076a81ea0c270be299b87895c0ddbe02b@%3Cusers.tomcat.apache.org%3E"
     },
     {
       "type": "WEB",
