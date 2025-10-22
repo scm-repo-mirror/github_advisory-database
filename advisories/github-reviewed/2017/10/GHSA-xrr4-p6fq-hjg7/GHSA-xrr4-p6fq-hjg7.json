@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrr4-p6fq-hjg7",
-  "modified": "2024-07-16T20:12:47Z",
+  "modified": "2025-10-22T17:18:52Z",
   "published": "2017-10-24T18:33:35Z",
   "aliases": [
     "CVE-2016-0752"
@@ -159,6 +159,10 @@
     {
       "type": "WEB",
       "url": "https://web.archive.org/web/20210723192420/http://www.securitytracker.com/id/1034816"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-0752"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxqh-fc23-gxp2",
-  "modified": "2024-07-25T13:38:45Z",
+  "modified": "2025-10-22T17:19:15Z",
   "published": "2022-05-14T01:14:51Z",
   "aliases": [
     "CVE-2016-3088"
@@ -75,6 +75,10 @@
     {
       "type": "WEB",
       "url": "https://stackoverflow.com/questions/67140241/configuring-activemq-webconsole-to-redirect-http-to-https"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-3088"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4f5g-j7wg-7w8j",
-  "modified": "2025-02-10T19:51:46Z",
+  "modified": "2025-10-22T17:20:06Z",
   "published": "2022-05-14T02:22:42Z",
   "aliases": [
     "CVE-2016-7201"
@@ -71,6 +71,10 @@
     {
       "type": "WEB",
       "url": "https://web.archive.org/web/20211126224744/http://www.securitytracker.com/id/1037245"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-7201"
     },
     {
       "type": "WEB",

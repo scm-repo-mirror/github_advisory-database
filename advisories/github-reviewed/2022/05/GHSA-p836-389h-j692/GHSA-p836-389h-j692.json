@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p836-389h-j692",
-  "modified": "2024-07-25T14:14:26Z",
+  "modified": "2025-10-22T17:19:33Z",
   "published": "2022-05-14T02:46:17Z",
   "aliases": [
     "CVE-2016-4437"
@@ -53,6 +53,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-4437"
+    },
+    {
+      "type": "WEB",
       "url": "http://packetstormsecurity.com/files/137310/Apache-Shiro-1.2.4-Information-Disclosure.html"
     },
     {
@@ -78,7 +82,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-284"
+      "CWE-284",
+      "CWE-321"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
