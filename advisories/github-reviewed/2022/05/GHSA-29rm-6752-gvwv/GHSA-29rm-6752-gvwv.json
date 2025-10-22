@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29rm-6752-gvwv",
-  "modified": "2025-01-23T22:21:34Z",
+  "modified": "2025-10-22T17:23:40Z",
   "published": "2022-05-13T01:26:13Z",
   "aliases": [
     "CVE-2017-9791"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20180706-0002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-9791"
     },
     {
       "type": "WEB",

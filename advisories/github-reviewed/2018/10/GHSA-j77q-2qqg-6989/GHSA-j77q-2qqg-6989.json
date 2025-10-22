@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j77q-2qqg-6989",
-  "modified": "2024-07-25T20:18:22Z",
+  "modified": "2025-10-22T17:22:33Z",
   "published": "2018-10-18T19:24:26Z",
   "aliases": [
     "CVE-2017-5638"
@@ -79,10 +79,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://arstechnica.com/security/2017/03/critical-vulnerability-under-massive-attack-imperils-high-impact-sites"
-    },
-    {
-      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r6d03e45b81eab03580cf7f8bb51cb3e9a1b10a2cc0c6a2d3cc92ed0c@%3Cannounce.apache.org%3E"
     },
     {
@@ -131,6 +127,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-5638"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/41614"
     },
     {
@@ -144,6 +144,10 @@
     {
       "type": "WEB",
       "url": "https://www.symantec.com/security-center/network-protection-security-advisories/SA145"
+    },
+    {
+      "type": "WEB",
+      "url": "https://arstechnica.com/security/2017/03/critical-vulnerability-under-massive-attack-imperils-high-impact-sites"
     },
     {
       "type": "WEB",

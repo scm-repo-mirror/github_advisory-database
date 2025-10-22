@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw54-59pw-4g8c",
-  "modified": "2024-06-27T21:36:22Z",
+  "modified": "2025-10-22T17:23:12Z",
   "published": "2022-05-13T01:14:52Z",
   "aliases": [
     "CVE-2016-8735"
@@ -229,10 +229,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2017:0455"
-    },
-    {
-      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/b5e3f51d28cd5d9b1809f56594f2cf63dcd6a90429e16ea9f83bbedc%40%3Cdev.tomcat.apache.org%3E"
     },
     {
@@ -297,11 +293,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-8735"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html"
     },
     {
       "type": "WEB",
       "url": "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2017:0455"
     },
     {
       "type": "WEB",
