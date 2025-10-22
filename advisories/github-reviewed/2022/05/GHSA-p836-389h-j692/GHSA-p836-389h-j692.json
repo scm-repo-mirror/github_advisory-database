@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p836-389h-j692",
-  "modified": "2025-10-22T17:19:33Z",
+  "modified": "2025-10-22T17:34:26Z",
   "published": "2022-05-14T02:46:17Z",
   "aliases": [
     "CVE-2016-4437"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
