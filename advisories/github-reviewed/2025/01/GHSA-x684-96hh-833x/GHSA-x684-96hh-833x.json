@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x684-96hh-833x",
-  "modified": "2025-01-21T19:48:38Z",
+  "modified": "2025-10-22T19:27:25Z",
   "published": "2025-01-21T19:48:38Z",
   "aliases": [
     "CVE-2025-23209"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -77,6 +77,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/craftcms/cms"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-23209"
     }
   ],
   "database_specific": {

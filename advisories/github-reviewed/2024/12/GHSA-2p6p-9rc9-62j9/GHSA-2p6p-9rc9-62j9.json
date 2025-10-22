@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p6p-9rc9-62j9",
-  "modified": "2025-05-30T16:41:53Z",
+  "modified": "2025-10-22T19:26:43Z",
   "published": "2024-12-18T19:47:26Z",
   "aliases": [
     "CVE-2024-56145"
@@ -10,8 +10,12 @@
   "details": "### Impact\nYou are affected if your php.ini configuration has `register_argc_argv` enabled.\n\n### Patches\nUpdate to 3.9.14, 4.13.2, or 5.5.2.\n\n### Workarounds\nIf you can't upgrade yet, and `register_argc_argv` is enabled, you can disable it to mitigate the issue.",
   "severity": [
     {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H"
+    },
+    {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:A"
     }
   ],
   "affected": [
@@ -93,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/craftcms/cms"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-56145"
     }
   ],
   "database_specific": {

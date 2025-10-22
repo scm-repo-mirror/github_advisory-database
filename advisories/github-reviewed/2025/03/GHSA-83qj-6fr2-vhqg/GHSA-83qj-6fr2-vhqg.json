@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83qj-6fr2-vhqg",
-  "modified": "2025-08-08T18:49:37Z",
+  "modified": "2025-10-22T19:28:20Z",
   "published": "2025-03-10T18:31:56Z",
   "aliases": [
     "CVE-2025-24813"
@@ -11,11 +11,11 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H"
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:A"
     }
   ],
   "affected": [
@@ -208,6 +208,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250321-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-24813"
     },
     {
       "type": "WEB",

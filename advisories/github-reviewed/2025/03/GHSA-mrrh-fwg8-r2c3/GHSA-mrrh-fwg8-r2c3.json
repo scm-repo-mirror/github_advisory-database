@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrrh-fwg8-r2c3",
-  "modified": "2025-03-24T14:23:37Z",
+  "modified": "2025-10-22T19:29:00Z",
   "published": "2025-03-15T06:30:34Z",
   "aliases": [
     "CVE-2025-30066"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:H"
     }
   ],
   "affected": [
@@ -77,23 +77,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.wiz.io/blog/github-action-tj-actions-changed-files-supply-chain-attack-cve-2025-30066"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.sweet.security/blog/cve-2025-30066-tj-actions-supply-chain-attack"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.stream.security/post/github-action-supply-chain-attack-exposes-secrets-what-you-need-to-know-and-how-to-respond"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.cisa.gov/news-events/alerts/2025/03/18/supply-chain-compromise-third-party-github-action-cve-2025-30066"
+      "url": "https://sysdig.com/blog/detecting-and-mitigating-the-tj-actions-changed-files-supply-chain-attack-cve-2025-30066"
     },
     {
       "type": "WEB",
@@ -101,11 +85,35 @@
     },
     {
       "type": "WEB",
-      "url": "https://sysdig.com/blog/detecting-and-mitigating-the-tj-actions-changed-files-supply-chain-attack-cve-2025-30066"
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-30066"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/03/18/supply-chain-compromise-third-party-github-action-cve-2025-30066"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.stream.security/post/github-action-supply-chain-attack-exposes-secrets-what-you-need-to-know-and-how-to-respond"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sweet.security/blog/cve-2025-30066-tj-actions-supply-chain-attack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wiz.io/blog/github-action-tj-actions-changed-files-supply-chain-attack-cve-2025-30066"
     },
     {
       "type": "WEB",
       "url": "https://semgrep.dev/blog/2025/popular-github-action-tj-actionschanged-files-is-compromised"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=43368870"
     },
     {
       "type": "WEB",
