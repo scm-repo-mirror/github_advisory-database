@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29rc-vq7f-x335",
-  "modified": "2025-02-13T19:00:34Z",
+  "modified": "2025-10-22T19:25:17Z",
   "published": "2024-04-22T15:30:41Z",
   "aliases": [
     "CVE-2024-27348"
@@ -11,11 +11,11 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H"
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:A"
     }
   ],
   "affected": [
@@ -78,6 +78,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/nx6g6htyhpgtzsocybm242781o8w5kq9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-27348"
     },
     {
       "type": "WEB",
