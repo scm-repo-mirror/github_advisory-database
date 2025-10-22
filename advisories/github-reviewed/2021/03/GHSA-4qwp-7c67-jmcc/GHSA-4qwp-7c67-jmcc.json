@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qwp-7c67-jmcc",
-  "modified": "2021-03-23T00:13:45Z",
+  "modified": "2025-10-22T17:58:58Z",
   "published": "2021-03-29T20:23:46Z",
   "aliases": [
     "CVE-2021-3129"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -110,8 +110,16 @@
       "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/facade/ignition/CVE-2021-3129.yaml"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/facade/ignition"
+    },
+    {
       "type": "WEB",
       "url": "https://www.ambionics.io/blog/laravel-debug-rce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-3129"
     },
     {
       "type": "WEB",

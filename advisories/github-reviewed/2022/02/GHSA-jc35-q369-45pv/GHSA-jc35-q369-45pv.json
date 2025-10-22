@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc35-q369-45pv",
-  "modified": "2022-02-08T22:01:20Z",
+  "modified": "2025-10-22T17:57:43Z",
   "published": "2022-02-09T22:51:56Z",
   "aliases": [
     "CVE-2020-17530"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -45,8 +45,16 @@
       "url": "https://cwiki.apache.org/confluence/display/WW/S2-061"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/struts"
+    },
+    {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20210115-0005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-17530"
     },
     {
       "type": "WEB",
