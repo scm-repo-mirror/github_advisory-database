@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-535g-62r7-cx6v",
-  "modified": "2025-10-21T21:46:35Z",
+  "modified": "2025-10-22T19:45:46Z",
   "published": "2025-10-21T21:46:35Z",
   "aliases": [
     "CVE-2025-62607"
@@ -41,6 +41,10 @@
       "url": "https://github.com/nautobot/nautobot-app-ssot/security/advisories/GHSA-535g-62r7-cx6v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62607"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nautobot/nautobot-app-ssot/commit/1530d25cdeb929641ec47644f9a0a1d9d41e1cb8"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-21T21:46:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-10-22T16:15:45Z"
   }
 }
