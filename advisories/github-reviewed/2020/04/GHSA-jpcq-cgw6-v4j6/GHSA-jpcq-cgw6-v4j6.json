@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpcq-cgw6-v4j6",
-  "modified": "2025-01-31T20:50:03Z",
+  "modified": "2025-10-22T17:52:02Z",
   "published": "2020-04-29T22:19:14Z",
   "aliases": [
     "CVE-2020-11023"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N"
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N/E:H"
     }
   ],
   "affected": [
@@ -126,10 +126,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/rda99599896c3667f2cc9e9d34c7b6ef5d2bbed1f4801e1d75a2b0679%40%3Ccommits.nifi.apache.org%3E"
-    },
-    {
-      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/rda99599896c3667f2cc9e9d34c7b6ef5d2bbed1f4801e1d75a2b0679@%3Ccommits.nifi.apache.org%3E"
     },
     {
@@ -179,6 +175,14 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/rf661a90a15da8da5922ba6127b3f5f8194d4ebec8855d60a0dd13248@%3Cdev.hive.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tenable.com/security/tns-2021-10"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rda99599896c3667f2cc9e9d34c7b6ef5d2bbed1f4801e1d75a2b0679%40%3Ccommits.nifi.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -234,11 +238,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/ra406b3adfcffcb5ce8707013bdb7c35e3ffc2776a8a99022f15274c6%40%3Cissues.hive.apache.org%3E"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.tenable.com/security/tns-2021-10"
+      "url": "https://lists.apache.org/thread.html/r4aadb98086ca72ed75391f54167522d91489a0d0ae25b12baa8fc7c5@%3Cissues.hive.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -287,6 +287,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2020/dsa-4693"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-11023"
     },
     {
       "type": "WEB",
@@ -347,10 +351,6 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2021/03/msg00033.html"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/ra3c9219fcb0b289e18e9ec5a5ebeaa5c17d6b79a201667675af6721c@%3Cgitbox.hive.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -466,6 +466,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/ra406b3adfcffcb5ce8707013bdb7c35e3ffc2776a8a99022f15274c6%40%3Cissues.hive.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/ra3c9219fcb0b289e18e9ec5a5ebeaa5c17d6b79a201667675af6721c@%3Cgitbox.hive.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/ra3c9219fcb0b289e18e9ec5a5ebeaa5c17d6b79a201667675af6721c%40%3Cgitbox.hive.apache.org%3E"
     },
     {
@@ -571,10 +579,6 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r4dba67be3239b34861f1b9cfdf9dfb3a90272585dcce374112ed6e16%40%3Cdev.felix.apache.org%3E"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/r4aadb98086ca72ed75391f54167522d91489a0d0ae25b12baa8fc7c5@%3Cissues.hive.apache.org%3E"
     },
     {
       "type": "WEB",
