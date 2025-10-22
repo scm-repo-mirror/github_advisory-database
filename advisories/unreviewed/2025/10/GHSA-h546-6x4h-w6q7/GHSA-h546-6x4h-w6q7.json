@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h546-6x4h-w6q7",
+  "modified": "2025-10-22T18:30:38Z",
+  "published": "2025-10-22T18:30:38Z",
+  "aliases": [
+    "CVE-2025-24934"
+  ],
+  "details": "Software which sets SO_REUSEPORT_LB on a socket and then connects it to a host will not directly observe any problems.  However, due to its membership in a load-balancing group, that socket will receive packets originating from any host.  This breaks the contract of the connect(2) and implied connect via sendto(2), and may leave the application vulnerable to spoofing attacks.\n\n\n\n\nThe kernel failed to check the connection state of sockets when adding them to load-balancing groups.  Furthermore, when looking up the destination socket for an incoming packet, the kernel will match a socket belonging to a load-balancing group even if it is connected, in violation of the contract that connected sockets are only supposed to receive packets originating from the connected host.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24934"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.freebsd.org/advisories/FreeBSD-SA-25:09.netinet.asc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-488"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-22T18:15:34Z"
+  }
+}
