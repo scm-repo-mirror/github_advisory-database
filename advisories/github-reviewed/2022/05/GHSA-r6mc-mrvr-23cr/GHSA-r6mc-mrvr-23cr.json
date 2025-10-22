@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6mc-mrvr-23cr",
-  "modified": "2024-07-16T20:28:26Z",
+  "modified": "2025-10-22T17:41:54Z",
   "published": "2022-05-13T01:14:26Z",
   "aliases": [
     "CVE-2019-1003030"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -54,11 +54,11 @@
     },
     {
       "type": "WEB",
-      "url": "http://packetstormsecurity.com/files/159603/Jenkins-2.63-Sandbox-Bypass.html"
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-1003030"
     },
     {
       "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/107476"
+      "url": "http://packetstormsecurity.com/files/159603/Jenkins-2.63-Sandbox-Bypass.html"
     }
   ],
   "database_specific": {
