@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wgx-4x92-f6pf",
-  "modified": "2022-05-24T17:19:47Z",
+  "modified": "2025-10-22T00:31:55Z",
   "published": "2022-05-24T17:19:47Z",
   "aliases": [
     "CVE-2020-0986"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0986"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-0986"
     },
     {
       "type": "WEB",

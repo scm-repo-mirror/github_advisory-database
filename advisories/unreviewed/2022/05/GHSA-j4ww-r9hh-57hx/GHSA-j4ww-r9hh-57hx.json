@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4ww-r9hh-57hx",
-  "modified": "2022-05-13T01:38:10Z",
+  "modified": "2025-10-22T00:31:25Z",
   "published": "2022-05-13T01:38:10Z",
   "aliases": [
     "CVE-2017-12232"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170927-rbip-dos"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-12232"
     },
     {
       "type": "WEB",

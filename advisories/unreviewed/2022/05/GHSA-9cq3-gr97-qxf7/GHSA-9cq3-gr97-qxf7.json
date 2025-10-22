@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cq3-gr97-qxf7",
-  "modified": "2024-07-25T15:30:34Z",
+  "modified": "2025-10-22T00:31:29Z",
   "published": "2022-05-13T01:06:59Z",
   "aliases": [
     "CVE-2017-11774"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sensepost.com/blog/2017/outlook-home-page-another-ruler-vector"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-11774"
     },
     {
       "type": "WEB",

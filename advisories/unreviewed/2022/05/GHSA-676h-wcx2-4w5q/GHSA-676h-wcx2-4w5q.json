@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-676h-wcx2-4w5q",
-  "modified": "2023-08-08T15:31:23Z",
+  "modified": "2025-10-22T00:32:25Z",
   "published": "2022-05-24T19:18:00Z",
   "aliases": [
     "CVE-2021-30807"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT212713"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-30807"
     }
   ],
   "database_specific": {

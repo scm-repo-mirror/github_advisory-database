@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhhm-rhwq-mpvm",
-  "modified": "2025-01-29T18:30:54Z",
+  "modified": "2025-10-22T00:31:50Z",
   "published": "2022-05-24T17:09:46Z",
   "aliases": [
     "CVE-2020-3837"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT210921"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-3837"
     }
   ],
   "database_specific": {

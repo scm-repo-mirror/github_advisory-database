@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24cp-26gx-3pp4",
-  "modified": "2024-09-09T18:30:28Z",
+  "modified": "2025-10-22T00:31:13Z",
   "published": "2022-05-14T01:10:36Z",
   "aliases": [
     "CVE-2016-3714"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201611-21"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-3714"
     },
     {
       "type": "WEB",

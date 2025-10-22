@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-743m-83p4-9349",
-  "modified": "2022-06-29T00:00:49Z",
+  "modified": "2025-10-22T00:32:25Z",
   "published": "2022-05-24T19:17:39Z",
   "aliases": [
     "CVE-2021-27561"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://ssd-disclosure.com/?p=4688"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-27561"
     }
   ],
   "database_specific": {

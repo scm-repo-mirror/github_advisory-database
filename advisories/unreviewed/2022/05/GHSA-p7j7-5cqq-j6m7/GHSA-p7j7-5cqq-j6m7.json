@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7j7-5cqq-j6m7",
-  "modified": "2022-05-13T01:35:44Z",
+  "modified": "2025-10-22T00:31:30Z",
   "published": "2022-05-13T01:35:44Z",
   "aliases": [
     "CVE-2018-0159"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180328-ike-dos"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-0159"
     },
     {
       "type": "WEB",

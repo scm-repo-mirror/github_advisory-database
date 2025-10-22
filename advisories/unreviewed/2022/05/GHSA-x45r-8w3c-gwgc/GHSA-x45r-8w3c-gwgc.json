@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x45r-8w3c-gwgc",
-  "modified": "2025-01-29T18:30:57Z",
+  "modified": "2025-10-22T00:31:55Z",
   "published": "2022-05-24T17:19:43Z",
   "aliases": [
     "CVE-2020-9819"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT211176"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-9819"
     }
   ],
   "database_specific": {

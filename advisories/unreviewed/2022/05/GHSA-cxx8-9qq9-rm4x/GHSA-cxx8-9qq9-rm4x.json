@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxx8-9qq9-rm4x",
-  "modified": "2024-07-02T21:31:58Z",
+  "modified": "2025-10-22T00:31:16Z",
   "published": "2022-05-17T03:39:32Z",
   "aliases": [
     "CVE-2016-6367"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/offensive-security/exploit-database-bin-sploits/raw/master/sploits/40271.zip"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-6367"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q96-cwq7-cr4m",
-  "modified": "2025-02-03T15:31:58Z",
+  "modified": "2025-10-22T00:32:34Z",
   "published": "2022-07-29T00:00:47Z",
   "aliases": [
     "CVE-2022-2294"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202311-11"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-2294"
     },
     {
       "type": "WEB",

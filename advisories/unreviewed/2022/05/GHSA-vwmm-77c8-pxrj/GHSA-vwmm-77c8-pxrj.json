@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwmm-77c8-pxrj",
-  "modified": "2025-04-20T03:35:04Z",
+  "modified": "2025-10-22T00:31:19Z",
   "published": "2022-05-17T02:51:55Z",
   "aliases": [
     "CVE-2014-3931"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/16330"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2014-3931"
     },
     {
       "type": "WEB",

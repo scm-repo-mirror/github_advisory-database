@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpfm-2p8w-wrxc",
-  "modified": "2022-05-14T03:56:38Z",
+  "modified": "2025-10-22T00:31:17Z",
   "published": "2022-05-14T03:56:38Z",
   "aliases": [
     "CVE-2016-5198"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://crbug.com/659475"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-5198"
     },
     {
       "type": "WEB",

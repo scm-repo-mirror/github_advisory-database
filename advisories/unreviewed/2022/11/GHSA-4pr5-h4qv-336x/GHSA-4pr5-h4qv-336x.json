@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4pr5-h4qv-336x",
-  "modified": "2022-11-03T19:00:28Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-11-02T12:00:44Z",
   "aliases": [
     "CVE-2022-42827"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213490"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-42827"
     }
   ],
   "database_specific": {

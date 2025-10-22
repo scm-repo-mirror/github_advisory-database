@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3vq-4cxh-gfp9",
-  "modified": "2023-01-09T18:30:19Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2023-01-02T09:31:57Z",
   "aliases": [
     "CVE-2022-42475"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.com/psirt/FG-IR-22-398"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-42475"
     }
   ],
   "database_specific": {

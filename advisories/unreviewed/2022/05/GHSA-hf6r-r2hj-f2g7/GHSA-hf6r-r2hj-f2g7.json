@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf6r-r2hj-f2g7",
-  "modified": "2024-07-26T21:31:14Z",
+  "modified": "2025-10-22T00:32:04Z",
   "published": "2022-05-24T17:44:37Z",
   "aliases": [
     "CVE-2021-21193"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202104-08"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-21193"
     },
     {
       "type": "WEB",

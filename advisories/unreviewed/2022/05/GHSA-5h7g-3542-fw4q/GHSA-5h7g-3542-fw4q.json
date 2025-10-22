@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h7g-3542-fw4q",
-  "modified": "2022-05-24T17:02:46Z",
+  "modified": "2025-10-22T00:31:48Z",
   "published": "2022-05-24T17:02:46Z",
   "aliases": [
     "CVE-2019-7195"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7195"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-7195"
     },
     {
       "type": "WEB",

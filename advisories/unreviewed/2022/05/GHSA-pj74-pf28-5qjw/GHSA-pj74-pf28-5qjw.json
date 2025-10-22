@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj74-pf28-5qjw",
-  "modified": "2024-07-24T18:31:14Z",
+  "modified": "2025-10-22T00:31:41Z",
   "published": "2022-05-24T16:46:53Z",
   "aliases": [
     "CVE-2019-9670"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-9670"
     },
     {
       "type": "WEB",

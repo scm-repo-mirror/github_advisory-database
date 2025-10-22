@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf97-3r3x-x56v",
-  "modified": "2025-01-29T18:31:03Z",
+  "modified": "2025-10-22T00:32:31Z",
   "published": "2022-03-29T00:01:17Z",
   "aliases": [
     "CVE-2022-26258"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/zhizhuoshuma/cve_info_data/blob/ccaed4b94ba762eb8a8e003bfa762a7754b8182e/Vuln/Vuln/DIR-820L/command_execution_0/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-26258"
     },
     {
       "type": "WEB",

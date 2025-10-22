@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjjj-92c2-q84f",
-  "modified": "2022-05-17T02:28:12Z",
+  "modified": "2025-10-22T00:31:22Z",
   "published": "2022-05-17T02:28:12Z",
   "aliases": [
     "CVE-2017-6862"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.netgear.com/000038542/Security-Advisory-for-Unauthenticated-Remote-Code-Execution-on-Some-Routers-PSV-2016-0261"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-6862"
     },
     {
       "type": "WEB",

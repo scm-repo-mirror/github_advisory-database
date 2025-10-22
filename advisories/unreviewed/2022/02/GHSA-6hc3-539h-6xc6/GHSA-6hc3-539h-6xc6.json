@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hc3-539h-6xc6",
-  "modified": "2022-08-25T00:00:27Z",
+  "modified": "2025-10-22T00:32:29Z",
   "published": "2022-02-11T00:00:50Z",
   "aliases": [
     "CVE-2022-22536"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.scn.sap.com/wiki/display/PSR/SAP+Security+Patch+Day+-+February+2022"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-22536"
     },
     {
       "type": "WEB",

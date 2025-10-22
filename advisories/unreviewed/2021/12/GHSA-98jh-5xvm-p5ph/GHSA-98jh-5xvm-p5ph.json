@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98jh-5xvm-p5ph",
-  "modified": "2022-05-24T00:00:46Z",
+  "modified": "2025-10-22T00:32:26Z",
   "published": "2021-12-16T00:01:58Z",
   "aliases": [
     "CVE-2021-43226"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43226"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-43226"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9wpj-h5jq-88p9",
-  "modified": "2025-01-29T21:31:19Z",
+  "modified": "2025-10-22T00:32:30Z",
   "published": "2022-02-19T00:01:03Z",
   "aliases": [
     "CVE-2022-0543"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20220331-0004"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-0543"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frwv-8c9x-7766",
-  "modified": "2022-07-13T00:00:52Z",
+  "modified": "2025-10-22T00:31:55Z",
   "published": "2022-05-24T17:19:27Z",
   "aliases": [
     "CVE-2020-9859"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT211214"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-9859"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3v6-c98w-p4j5",
-  "modified": "2025-02-07T15:32:24Z",
+  "modified": "2025-10-22T00:31:55Z",
   "published": "2022-05-24T17:17:27Z",
   "aliases": [
     "CVE-2020-4428"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/180533"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-4428"
     },
     {
       "type": "WEB",

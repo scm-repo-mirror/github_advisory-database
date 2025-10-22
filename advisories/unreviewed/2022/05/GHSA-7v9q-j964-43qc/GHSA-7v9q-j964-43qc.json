@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7v9q-j964-43qc",
-  "modified": "2024-07-24T18:31:14Z",
+  "modified": "2025-10-22T00:31:37Z",
   "published": "2022-05-13T01:32:24Z",
   "aliases": [
     "CVE-2018-20250"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://research.checkpoint.com/extracting-code-execution-from-winrar"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-20250"
     },
     {
       "type": "WEB",

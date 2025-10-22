@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8hjr-66w2-mg84",
-  "modified": "2024-04-04T00:25:21Z",
+  "modified": "2025-10-22T00:31:39Z",
   "published": "2022-05-24T16:45:02Z",
   "aliases": [
     "CVE-2017-18368"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://unit42.paloaltonetworks.com/new-mirai-variant-targets-enterprise-wireless-presentation-display-systems"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-18368"
     },
     {
       "type": "WEB",

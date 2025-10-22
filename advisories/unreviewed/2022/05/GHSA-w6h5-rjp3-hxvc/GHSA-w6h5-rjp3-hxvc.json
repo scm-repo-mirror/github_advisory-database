@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w6h5-rjp3-hxvc",
-  "modified": "2025-02-07T15:32:23Z",
+  "modified": "2025-10-22T00:31:50Z",
   "published": "2022-05-24T17:10:08Z",
   "aliases": [
     "CVE-2020-9054"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://krebsonsecurity.com/2020/02/zyxel-fixes-0day-in-network-storage-devices"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-9054"
     },
     {
       "type": "WEB",

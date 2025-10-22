@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24pq-phfq-785f",
-  "modified": "2022-10-14T12:00:22Z",
+  "modified": "2025-10-22T00:31:42Z",
   "published": "2022-05-24T22:00:12Z",
   "aliases": [
     "CVE-2019-7256"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.applied-risk.com/resources/ar-2019-005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-7256"
     },
     {
       "type": "WEB",

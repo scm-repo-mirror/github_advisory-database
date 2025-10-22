@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83w7-v79x-495q",
-  "modified": "2022-05-13T01:38:06Z",
+  "modified": "2025-10-22T00:31:26Z",
   "published": "2022-05-13T01:38:06Z",
   "aliases": [
     "CVE-2017-12235"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170927-profinet"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-12235"
     },
     {
       "type": "WEB",

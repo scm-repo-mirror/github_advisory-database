@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmm5-f82c-58j8",
-  "modified": "2025-02-06T15:32:51Z",
+  "modified": "2025-10-22T00:32:07Z",
   "published": "2022-05-24T19:01:29Z",
   "aliases": [
     "CVE-2021-32030"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.atredis.com/blog/2021/4/30/asus-authentication-bypass"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-32030"
     }
   ],
   "database_specific": {

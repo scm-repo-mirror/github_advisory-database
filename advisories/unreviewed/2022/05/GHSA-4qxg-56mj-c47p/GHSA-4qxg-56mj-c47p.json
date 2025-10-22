@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qxg-56mj-c47p",
-  "modified": "2023-12-29T18:30:28Z",
+  "modified": "2025-10-22T00:32:04Z",
   "published": "2022-05-24T17:44:23Z",
   "aliases": [
     "CVE-2021-27059"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27059"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-27059"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-462p-6gjx-6wj6",
-  "modified": "2024-04-04T01:17:05Z",
+  "modified": "2025-10-22T00:31:43Z",
   "published": "2022-05-24T16:50:28Z",
   "aliases": [
     "CVE-2019-12991"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/article/CTX251987"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-12991"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87wj-wph2-98g5",
-  "modified": "2024-01-13T06:30:23Z",
+  "modified": "2025-10-22T00:31:58Z",
   "published": "2022-05-24T17:29:53Z",
   "aliases": [
     "CVE-2020-8243"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44588"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-8243"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc8f-8m86-p4vm",
-  "modified": "2025-02-06T18:30:58Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-11-18T00:30:19Z",
   "aliases": [
     "CVE-2022-23748"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.audinate.com/learning/faqs/audinate-response-to-dante-discovery-mdnsresponder-exe-security-issue-cve-2022-23748"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-23748"
     }
   ],
   "database_specific": {

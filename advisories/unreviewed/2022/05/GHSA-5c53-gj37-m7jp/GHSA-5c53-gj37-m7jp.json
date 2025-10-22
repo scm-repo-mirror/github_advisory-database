@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c53-gj37-m7jp",
-  "modified": "2025-04-03T21:32:38Z",
+  "modified": "2025-10-22T00:31:42Z",
   "published": "2022-05-24T16:50:14Z",
   "aliases": [
     "CVE-2019-0880"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0880"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-0880"
     }
   ],
   "database_specific": {

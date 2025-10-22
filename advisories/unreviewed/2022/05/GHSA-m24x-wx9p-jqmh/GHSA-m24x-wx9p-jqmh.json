@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m24x-wx9p-jqmh",
-  "modified": "2024-07-26T21:31:15Z",
+  "modified": "2025-10-22T00:32:26Z",
   "published": "2022-05-24T19:16:54Z",
   "aliases": [
     "CVE-2021-42013"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-42013"
     },
     {
       "type": "WEB",

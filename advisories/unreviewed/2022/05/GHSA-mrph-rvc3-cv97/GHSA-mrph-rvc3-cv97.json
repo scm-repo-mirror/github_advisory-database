@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrph-rvc3-cv97",
-  "modified": "2025-04-02T18:30:37Z",
+  "modified": "2025-10-22T00:32:32Z",
   "published": "2022-05-06T00:00:39Z",
   "aliases": [
     "CVE-2022-1388"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.f5.com/csp/article/K23605346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-1388"
     },
     {
       "type": "WEB",

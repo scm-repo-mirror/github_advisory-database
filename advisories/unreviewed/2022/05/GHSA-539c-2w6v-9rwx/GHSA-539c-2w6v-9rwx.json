@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-539c-2w6v-9rwx",
-  "modified": "2025-02-04T21:32:22Z",
+  "modified": "2025-10-22T00:32:13Z",
   "published": "2022-05-24T19:01:52Z",
   "aliases": [
     "CVE-2021-31755"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Yu3H0/IoT_CVE/tree/main/Tenda/CVE_3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-31755"
     }
   ],
   "database_specific": {

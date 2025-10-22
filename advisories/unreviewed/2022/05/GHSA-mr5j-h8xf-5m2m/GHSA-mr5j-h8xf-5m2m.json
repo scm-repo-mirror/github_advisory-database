@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr5j-h8xf-5m2m",
-  "modified": "2024-06-27T21:32:06Z",
+  "modified": "2025-10-22T00:32:01Z",
   "published": "2022-05-24T17:37:29Z",
   "aliases": [
     "CVE-2020-35730"
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://www.alexbirnberg.com/roundcube-xss.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-35730"
     }
   ],
   "database_specific": {

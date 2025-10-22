@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhcm-c7c7-5wq8",
-  "modified": "2022-05-24T19:07:57Z",
+  "modified": "2025-10-22T00:32:18Z",
   "published": "2022-05-24T19:07:57Z",
   "aliases": [
     "CVE-2021-31979"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31979"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-31979"
     }
   ],
   "database_specific": {

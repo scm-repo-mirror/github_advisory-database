@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f78-r2f6-597q",
-  "modified": "2024-07-25T18:32:33Z",
+  "modified": "2025-10-22T00:32:02Z",
   "published": "2022-05-24T17:41:18Z",
   "aliases": [
     "CVE-2021-22502"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://softwaresupport.softwaregrp.com/doc/KM03775947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-22502"
     },
     {
       "type": "WEB",

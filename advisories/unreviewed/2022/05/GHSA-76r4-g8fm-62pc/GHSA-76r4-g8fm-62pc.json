@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76r4-g8fm-62pc",
-  "modified": "2024-07-24T18:31:12Z",
+  "modified": "2025-10-22T00:31:14Z",
   "published": "2022-05-14T02:25:02Z",
   "aliases": [
     "CVE-2016-0185"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2016/ms16-059"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-0185"
     },
     {
       "type": "WEB",

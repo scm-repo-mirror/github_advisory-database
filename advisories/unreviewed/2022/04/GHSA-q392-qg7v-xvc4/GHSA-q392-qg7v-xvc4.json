@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q392-qg7v-xvc4",
-  "modified": "2025-01-29T18:31:04Z",
+  "modified": "2025-10-22T00:32:32Z",
   "published": "2022-04-19T00:00:57Z",
   "aliases": [
     "CVE-2022-28810"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rapid7/metasploit-framework/pull/16475"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-28810"
     },
     {
       "type": "WEB",

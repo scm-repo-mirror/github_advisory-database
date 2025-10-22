@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r4r-223f-8hjj",
-  "modified": "2024-07-01T18:32:39Z",
+  "modified": "2025-10-22T00:31:12Z",
   "published": "2022-05-14T02:13:11Z",
   "aliases": [
     "CVE-2015-6175"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2015/ms15-135"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-6175"
     },
     {
       "type": "WEB",

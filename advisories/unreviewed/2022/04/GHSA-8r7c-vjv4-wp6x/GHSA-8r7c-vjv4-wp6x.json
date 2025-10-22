@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r7c-vjv4-wp6x",
-  "modified": "2022-04-22T00:01:06Z",
+  "modified": "2025-10-22T00:32:31Z",
   "published": "2022-04-14T00:00:16Z",
   "aliases": [
     "CVE-2022-22960"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-22960"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-22960"
     },
     {
       "type": "WEB",

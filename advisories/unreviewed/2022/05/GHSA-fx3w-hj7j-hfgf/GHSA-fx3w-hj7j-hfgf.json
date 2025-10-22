@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx3w-hj7j-hfgf",
-  "modified": "2022-07-13T00:00:51Z",
+  "modified": "2025-10-22T00:31:51Z",
   "published": "2022-05-24T17:11:44Z",
   "aliases": [
     "CVE-2020-3950"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-3950"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-3950"
     },
     {
       "type": "WEB",

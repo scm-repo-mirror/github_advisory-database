@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhqp-qw35-f96r",
-  "modified": "2023-01-09T18:30:27Z",
+  "modified": "2025-10-22T00:32:06Z",
   "published": "2022-05-24T17:46:24Z",
   "aliases": [
     "CVE-2021-1879"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT212258"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-1879"
     }
   ],
   "database_specific": {

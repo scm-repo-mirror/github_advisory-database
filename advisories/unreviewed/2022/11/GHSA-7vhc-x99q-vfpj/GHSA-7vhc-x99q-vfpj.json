@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vhc-x99q-vfpj",
-  "modified": "2022-11-26T03:30:26Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-11-22T03:30:56Z",
   "aliases": [
     "CVE-2022-41223"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-41223"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-41223"
     },
     {
       "type": "WEB",

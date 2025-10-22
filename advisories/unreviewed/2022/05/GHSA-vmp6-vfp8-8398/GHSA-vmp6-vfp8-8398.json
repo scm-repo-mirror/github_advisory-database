@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmp6-vfp8-8398",
-  "modified": "2025-07-31T18:31:48Z",
+  "modified": "2025-10-22T00:31:23Z",
   "published": "2022-05-13T01:36:28Z",
   "aliases": [
     "CVE-2017-6740"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-6740"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2859-2hr6-f86v",
-  "modified": "2024-07-25T18:32:33Z",
+  "modified": "2025-10-22T00:31:56Z",
   "published": "2022-05-24T17:22:15Z",
   "aliases": [
     "CVE-2020-5902"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://swarm.ptsecurity.com/rce-in-f5-big-ip"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-5902"
     },
     {
       "type": "WEB",

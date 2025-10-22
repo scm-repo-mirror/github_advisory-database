@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3352-gx8m-f7v5",
-  "modified": "2025-02-04T21:32:23Z",
+  "modified": "2025-10-22T00:32:13Z",
   "published": "2022-05-24T19:03:10Z",
   "aliases": [
     "CVE-2021-27562"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.trustedfirmware.org/TF-M/trusted-firmware-m.git/tree/docs/security/security_advisories/svc_caller_sp_fetching_vulnerability.rst"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-27562"
     }
   ],
   "database_specific": {

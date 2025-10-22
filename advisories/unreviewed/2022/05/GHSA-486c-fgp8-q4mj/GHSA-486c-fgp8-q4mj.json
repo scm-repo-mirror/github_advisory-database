@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-486c-fgp8-q4mj",
-  "modified": "2022-05-14T01:11:50Z",
+  "modified": "2025-10-22T00:31:37Z",
   "published": "2022-05-14T01:11:49Z",
   "aliases": [
     "CVE-2018-4344"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/kb/HT209139"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-4344"
     }
   ],
   "database_specific": {

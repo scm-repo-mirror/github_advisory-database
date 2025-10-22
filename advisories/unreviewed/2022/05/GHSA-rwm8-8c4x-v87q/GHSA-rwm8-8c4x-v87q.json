@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwm8-8c4x-v87q",
-  "modified": "2022-05-24T17:43:35Z",
+  "modified": "2025-10-22T00:32:04Z",
   "published": "2022-05-24T17:43:35Z",
   "aliases": [
     "CVE-2021-27065"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-27065"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x323-9hmm-gv8q",
-  "modified": "2024-07-25T15:30:34Z",
+  "modified": "2025-10-22T00:31:29Z",
   "published": "2022-05-13T01:18:29Z",
   "aliases": [
     "CVE-2018-0802"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://research.checkpoint.com/another-office-equation-rce-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-0802"
     },
     {
       "type": "WEB",

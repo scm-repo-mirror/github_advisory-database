@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpg5-jv85-754h",
-  "modified": "2024-07-16T18:31:34Z",
+  "modified": "2025-10-22T00:31:18Z",
   "published": "2022-05-17T00:22:33Z",
   "aliases": [
     "CVE-2017-0037"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0037"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-0037"
     },
     {
       "type": "WEB",

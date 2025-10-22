@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfx2-wv94-38hv",
-  "modified": "2025-06-03T15:31:01Z",
+  "modified": "2025-10-22T00:31:37Z",
   "published": "2022-05-13T01:07:40Z",
   "aliases": [
     "CVE-2019-9978"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://wpvulndb.com/vulnerabilities/9238"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-9978"
     },
     {
       "type": "WEB",

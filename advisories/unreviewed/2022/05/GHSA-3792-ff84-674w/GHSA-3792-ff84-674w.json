@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3792-ff84-674w",
-  "modified": "2024-07-16T18:31:34Z",
+  "modified": "2025-10-22T00:31:10Z",
   "published": "2022-05-17T03:03:30Z",
   "aliases": [
     "CVE-2015-5119"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201507-13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-5119"
     },
     {
       "type": "WEB",

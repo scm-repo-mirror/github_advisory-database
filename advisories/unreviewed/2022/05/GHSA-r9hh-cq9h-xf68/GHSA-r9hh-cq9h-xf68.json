@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9hh-cq9h-xf68",
-  "modified": "2024-04-04T02:49:09Z",
+  "modified": "2025-10-22T00:31:50Z",
   "published": "2022-05-24T17:10:44Z",
   "aliases": [
     "CVE-2020-6207"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=540935305"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-6207"
     },
     {
       "type": "WEB",

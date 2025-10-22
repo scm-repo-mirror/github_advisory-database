@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rrv-gxmq-5643",
-  "modified": "2022-05-14T01:28:46Z",
+  "modified": "2025-10-22T00:31:30Z",
   "published": "2022-05-14T01:28:46Z",
   "aliases": [
     "CVE-2018-6882"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-6882"
     },
     {
       "type": "WEB",

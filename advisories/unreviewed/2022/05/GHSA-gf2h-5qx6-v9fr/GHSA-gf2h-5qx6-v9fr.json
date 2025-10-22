@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gf2h-5qx6-v9fr",
-  "modified": "2024-04-04T00:24:26Z",
+  "modified": "2025-10-22T00:31:39Z",
   "published": "2022-05-24T16:45:00Z",
   "aliases": [
     "CVE-2019-9621"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-9621"
     },
     {
       "type": "WEB",

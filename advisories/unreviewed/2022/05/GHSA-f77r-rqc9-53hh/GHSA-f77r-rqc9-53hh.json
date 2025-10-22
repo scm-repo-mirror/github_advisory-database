@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f77r-rqc9-53hh",
-  "modified": "2025-02-07T15:32:23Z",
+  "modified": "2025-10-22T00:31:53Z",
   "published": "2022-05-24T17:16:26Z",
   "aliases": [
     "CVE-2020-6820"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://usn.ubuntu.com/4335-1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-6820"
     },
     {
       "type": "WEB",

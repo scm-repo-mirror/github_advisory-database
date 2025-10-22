@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c49-j253-wq5r",
-  "modified": "2024-06-27T21:32:06Z",
+  "modified": "2025-10-22T00:32:30Z",
   "published": "2022-02-17T00:00:28Z",
   "aliases": [
     "CVE-2021-3560"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-3560"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7vj-6cqm-9xgc",
-  "modified": "2022-09-21T00:00:43Z",
+  "modified": "2025-10-22T00:31:50Z",
   "published": "2022-05-24T17:08:03Z",
   "aliases": [
     "CVE-2020-3118"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-iosxr-cdp-rce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-3118"
     },
     {
       "type": "WEB",

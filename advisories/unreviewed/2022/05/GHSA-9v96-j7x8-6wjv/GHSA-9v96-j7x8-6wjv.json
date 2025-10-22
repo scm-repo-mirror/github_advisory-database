@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v96-j7x8-6wjv",
-  "modified": "2024-07-03T18:31:42Z",
+  "modified": "2025-10-22T00:31:24Z",
   "published": "2022-05-13T01:14:24Z",
   "aliases": [
     "CVE-2017-11317"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2018-0006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-11317"
     },
     {
       "type": "WEB",

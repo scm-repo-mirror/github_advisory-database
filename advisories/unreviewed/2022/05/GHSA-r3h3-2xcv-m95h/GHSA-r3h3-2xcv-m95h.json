@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3h3-2xcv-m95h",
-  "modified": "2022-07-13T00:00:52Z",
+  "modified": "2025-10-22T00:31:51Z",
   "published": "2022-05-24T17:11:51Z",
   "aliases": [
     "CVE-2020-8599"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://success.trendmicro.com/solution/000245571"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-8599"
     }
   ],
   "database_specific": {

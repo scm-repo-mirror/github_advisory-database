@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cc9-8vjg-gpp8",
-  "modified": "2025-02-24T18:32:03Z",
+  "modified": "2025-10-22T00:31:21Z",
   "published": "2022-05-13T01:17:39Z",
   "aliases": [
     "CVE-2017-3066"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://helpx.adobe.com/security/products/coldfusion/apsb17-14.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-3066"
     },
     {
       "type": "WEB",

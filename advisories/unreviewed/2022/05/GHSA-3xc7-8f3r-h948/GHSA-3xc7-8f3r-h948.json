@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xc7-8f3r-h948",
-  "modified": "2022-10-08T00:00:28Z",
+  "modified": "2025-10-22T00:31:48Z",
   "published": "2022-05-24T17:02:01Z",
   "aliases": [
     "CVE-2019-5825"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://crbug.com/941743"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-5825"
     },
     {
       "type": "WEB",

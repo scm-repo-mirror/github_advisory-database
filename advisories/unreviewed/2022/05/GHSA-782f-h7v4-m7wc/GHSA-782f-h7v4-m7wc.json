@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-782f-h7v4-m7wc",
-  "modified": "2025-01-28T00:32:06Z",
+  "modified": "2025-10-22T00:31:34Z",
   "published": "2022-05-13T01:32:10Z",
   "aliases": [
     "CVE-2018-5430"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://rhinosecuritylabs.com/application-security/authenticated-file-read-vulnerability-in-jasperreports"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-5430"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w35f-w5cg-jqhh",
-  "modified": "2022-05-14T01:32:41Z",
+  "modified": "2025-10-22T00:31:37Z",
   "published": "2022-05-14T01:32:41Z",
   "aliases": [
     "CVE-2017-18362"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://webcache.googleusercontent.com/search?q=cache:ZEo8ZRF_iEIJ:https://helpdesk.kaseya.com/hc/en-gb/articles/360022495572-Connectwise-API-Vulnerability+"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-18362"
     },
     {
       "type": "WEB",

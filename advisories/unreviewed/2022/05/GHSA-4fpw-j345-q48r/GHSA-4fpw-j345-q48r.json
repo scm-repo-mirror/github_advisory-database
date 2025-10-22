@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fpw-j345-q48r",
-  "modified": "2025-02-14T18:30:38Z",
+  "modified": "2025-10-22T00:32:25Z",
   "published": "2022-05-24T19:16:43Z",
   "aliases": [
     "CVE-2021-25487"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.samsungmobile.com/securityUpdate.smsb?year=2021&month=10"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-25487"
     }
   ],
   "database_specific": {

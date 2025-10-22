@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w36-wf5x-rjfv",
-  "modified": "2024-07-24T18:31:14Z",
+  "modified": "2025-10-22T00:31:43Z",
   "published": "2022-05-24T16:50:47Z",
   "aliases": [
     "CVE-2019-1579"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://securityadvisories.paloaltonetworks.com/Home/Detail/158"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-1579"
     },
     {
       "type": "WEB",

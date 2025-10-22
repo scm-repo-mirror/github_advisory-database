@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22j7-69m5-2pqh",
-  "modified": "2025-01-28T15:31:54Z",
+  "modified": "2025-10-22T00:31:29Z",
   "published": "2022-05-14T03:35:51Z",
   "aliases": [
     "CVE-2018-2380"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://launchpad.support.sap.com/#/notes/2547431"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-2380"
     },
     {
       "type": "WEB",

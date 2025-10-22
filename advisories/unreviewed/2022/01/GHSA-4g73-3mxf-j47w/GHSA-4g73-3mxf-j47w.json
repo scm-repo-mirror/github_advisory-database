@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g73-3mxf-j47w",
-  "modified": "2025-03-12T21:31:26Z",
+  "modified": "2025-10-22T00:32:28Z",
   "published": "2022-01-14T00:02:17Z",
   "aliases": [
     "CVE-2022-23131"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.zabbix.com/browse/ZBX-20350"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-23131"
     }
   ],
   "database_specific": {

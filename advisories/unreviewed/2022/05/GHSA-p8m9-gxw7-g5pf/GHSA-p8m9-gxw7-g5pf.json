@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8m9-gxw7-g5pf",
-  "modified": "2025-01-29T18:30:54Z",
+  "modified": "2025-10-22T00:31:49Z",
   "published": "2022-05-24T17:04:10Z",
   "aliases": [
     "CVE-2019-8526"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT209600"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-8526"
     }
   ],
   "database_specific": {

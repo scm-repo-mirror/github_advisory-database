@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp6h-cxp8-82j6",
-  "modified": "2023-12-28T21:30:28Z",
+  "modified": "2025-10-22T00:32:19Z",
   "published": "2022-05-24T19:10:52Z",
   "aliases": [
     "CVE-2021-34484"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34484"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-34484"
     }
   ],
   "database_specific": {

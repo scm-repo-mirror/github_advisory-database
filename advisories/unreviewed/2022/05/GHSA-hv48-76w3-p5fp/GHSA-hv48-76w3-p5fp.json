@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv48-76w3-p5fp",
-  "modified": "2025-02-04T21:32:20Z",
+  "modified": "2025-10-22T00:31:53Z",
   "published": "2022-05-24T17:16:35Z",
   "aliases": [
     "CVE-2020-12271"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://news.sophos.com/en-us/2020/04/26/asnarok"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-12271"
     }
   ],
   "database_specific": {

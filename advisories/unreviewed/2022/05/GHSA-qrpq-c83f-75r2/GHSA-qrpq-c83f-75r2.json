@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrpq-c83f-75r2",
-  "modified": "2023-02-01T21:30:22Z",
+  "modified": "2025-10-22T00:31:49Z",
   "published": "2022-05-24T17:04:04Z",
   "aliases": [
     "CVE-2019-4716"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/172094"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-4716"
     },
     {
       "type": "WEB",

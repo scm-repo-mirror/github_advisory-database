@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hq2w-83f9-f353",
-  "modified": "2022-12-05T15:30:28Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-12-02T21:30:40Z",
   "aliases": [
     "CVE-2022-4262"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://crbug.com/1394403"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-4262"
     }
   ],
   "database_specific": {

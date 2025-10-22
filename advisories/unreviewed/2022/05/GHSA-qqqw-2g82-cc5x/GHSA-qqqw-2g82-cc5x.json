@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqqw-2g82-cc5x",
-  "modified": "2022-05-13T01:39:49Z",
+  "modified": "2025-10-22T00:31:20Z",
   "published": "2022-05-13T01:39:49Z",
   "aliases": [
     "CVE-2017-0210"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0210"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-0210"
     },
     {
       "type": "WEB",

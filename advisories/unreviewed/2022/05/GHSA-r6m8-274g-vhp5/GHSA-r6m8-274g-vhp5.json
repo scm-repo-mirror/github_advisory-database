@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6m8-274g-vhp5",
-  "modified": "2022-05-17T00:47:37Z",
+  "modified": "2025-10-22T00:31:18Z",
   "published": "2022-05-17T00:47:37Z",
   "aliases": [
     "CVE-2017-0022"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0022"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-0022"
     },
     {
       "type": "WEB",

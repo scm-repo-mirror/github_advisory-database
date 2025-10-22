@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fvj-4grr-mv9j",
-  "modified": "2023-06-27T21:30:42Z",
+  "modified": "2025-10-22T00:32:27Z",
   "published": "2022-01-11T00:00:57Z",
   "aliases": [
     "CVE-2022-22265"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.samsungmobile.com/securityUpdate.smsb?year=2022&month=1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-22265"
     }
   ],
   "database_specific": {

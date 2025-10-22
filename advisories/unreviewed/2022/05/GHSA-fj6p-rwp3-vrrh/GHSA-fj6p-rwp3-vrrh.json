@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj6p-rwp3-vrrh",
-  "modified": "2022-05-13T01:22:38Z",
+  "modified": "2025-10-22T00:31:37Z",
   "published": "2022-05-13T01:22:38Z",
   "aliases": [
     "CVE-2019-6223"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT209521"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-6223"
     }
   ],
   "database_specific": {

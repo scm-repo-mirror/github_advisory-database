@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8w2-wx5p-fvx4",
-  "modified": "2025-02-06T18:30:58Z",
+  "modified": "2025-10-22T00:31:37Z",
   "published": "2022-05-13T01:14:58Z",
   "aliases": [
     "CVE-2019-1653"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190123-rv-info"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-1653"
     },
     {
       "type": "WEB",

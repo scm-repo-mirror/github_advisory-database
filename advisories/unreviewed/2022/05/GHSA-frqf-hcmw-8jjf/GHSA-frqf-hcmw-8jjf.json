@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frqf-hcmw-8jjf",
-  "modified": "2022-07-13T00:00:44Z",
+  "modified": "2025-10-22T00:32:00Z",
   "published": "2022-05-24T17:33:52Z",
   "aliases": [
     "CVE-2020-17087"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-17087"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-17087"
     }
   ],
   "database_specific": {

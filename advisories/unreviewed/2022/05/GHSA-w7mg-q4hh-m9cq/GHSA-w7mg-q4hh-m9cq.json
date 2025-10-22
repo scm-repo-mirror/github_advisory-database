@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7mg-q4hh-m9cq",
-  "modified": "2025-02-04T21:32:23Z",
+  "modified": "2025-10-22T00:32:19Z",
   "published": "2022-05-24T19:14:21Z",
   "aliases": [
     "CVE-2021-40870"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://wearetradecraft.com/advisories/tc-2021-0002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-40870"
     },
     {
       "type": "WEB",

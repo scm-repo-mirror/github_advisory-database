@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmhc-vxg9-h2g4",
-  "modified": "2025-02-04T15:31:34Z",
+  "modified": "2025-10-22T00:32:26Z",
   "published": "2021-12-09T00:01:13Z",
   "aliases": [
     "CVE-2021-20038"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2021-0026"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-20038"
     },
     {
       "type": "WEB",

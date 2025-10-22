@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rm92-8pw8-34fm",
-  "modified": "2022-05-17T00:16:49Z",
+  "modified": "2025-10-22T00:31:29Z",
   "published": "2022-05-17T00:16:49Z",
   "aliases": [
     "CVE-2017-1000253"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2017:2802"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-1000253"
     },
     {
       "type": "WEB",

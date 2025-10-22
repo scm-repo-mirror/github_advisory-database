@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgmj-9q73-5phf",
-  "modified": "2024-07-16T18:31:34Z",
+  "modified": "2025-10-22T00:31:18Z",
   "published": "2022-05-17T01:18:20Z",
   "aliases": [
     "CVE-2016-10174"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://raw.githubusercontent.com/pedrib/PoC/master/advisories/netgear-wnr2000.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-10174"
     },
     {
       "type": "WEB",

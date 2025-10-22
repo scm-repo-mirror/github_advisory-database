@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w62f-9gm7-596f",
-  "modified": "2022-05-24T19:01:54Z",
+  "modified": "2025-10-22T00:32:13Z",
   "published": "2022-05-24T19:01:54Z",
   "aliases": [
     "CVE-2021-28664"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://developer.arm.com/support/arm-security-updates/mali-gpu-kernel-driver"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-28664"
     }
   ],
   "database_specific": {

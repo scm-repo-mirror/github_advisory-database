@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjq6-9jh6-x2vg",
-  "modified": "2024-04-04T02:35:36Z",
+  "modified": "2025-10-22T00:31:48Z",
   "published": "2022-05-24T17:00:00Z",
   "aliases": [
     "CVE-2019-18187"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://success.trendmicro.com/solution/000151730"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-18187"
     }
   ],
   "database_specific": {

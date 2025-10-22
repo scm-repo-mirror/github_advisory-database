@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99xm-29ff-vvqm",
-  "modified": "2024-07-02T21:31:59Z",
+  "modified": "2025-10-22T00:31:16Z",
   "published": "2022-05-14T03:19:57Z",
   "aliases": [
     "CVE-2016-4657"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT207107"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-4657"
     },
     {
       "type": "WEB",

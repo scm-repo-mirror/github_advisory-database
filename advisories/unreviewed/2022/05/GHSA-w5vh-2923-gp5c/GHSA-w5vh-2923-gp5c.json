@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5vh-2923-gp5c",
-  "modified": "2024-09-18T18:30:48Z",
+  "modified": "2025-10-22T00:32:02Z",
   "published": "2022-05-24T17:40:22Z",
   "aliases": [
     "CVE-2021-3156"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2021/dsa-4839"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-3156"
     },
     {
       "type": "WEB",

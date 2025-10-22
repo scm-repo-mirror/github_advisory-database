@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pcp-8fjh-246q",
-  "modified": "2024-07-03T18:32:18Z",
+  "modified": "2025-10-22T00:31:59Z",
   "published": "2022-05-24T17:31:37Z",
   "aliases": [
     "CVE-2020-14871"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14871"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-14871"
     },
     {
       "type": "WEB",

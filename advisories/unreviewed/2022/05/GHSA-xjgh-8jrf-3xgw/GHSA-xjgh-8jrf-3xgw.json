@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjgh-8jrf-3xgw",
-  "modified": "2025-02-18T15:31:02Z",
+  "modified": "2025-10-22T00:32:15Z",
   "published": "2022-05-24T19:01:48Z",
   "aliases": [
     "CVE-2021-1906"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-1906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-1906"
     },
     {
       "type": "WEB",

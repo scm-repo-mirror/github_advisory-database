@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v4q-r2mh-q7w6",
-  "modified": "2024-10-08T18:32:56Z",
+  "modified": "2025-10-22T00:32:01Z",
   "published": "2022-05-24T17:38:44Z",
   "aliases": [
     "CVE-2021-1647"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1647"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-1647"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfwm-vf76-3692",
-  "modified": "2024-04-04T00:50:08Z",
+  "modified": "2025-10-22T00:31:41Z",
   "published": "2022-05-24T16:46:56Z",
   "aliases": [
     "CVE-2019-9874"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://dev.sitecore.net/Downloads.aspx"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-9874"
     },
     {
       "type": "WEB",

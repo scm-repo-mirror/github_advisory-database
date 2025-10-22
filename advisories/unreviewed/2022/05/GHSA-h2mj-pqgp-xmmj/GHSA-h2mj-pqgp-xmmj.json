@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2mj-pqgp-xmmj",
-  "modified": "2025-01-28T00:32:06Z",
+  "modified": "2025-10-22T00:31:35Z",
   "published": "2022-05-13T01:17:37Z",
   "aliases": [
     "CVE-2018-0296"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180606-asaftd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-0296"
     },
     {
       "type": "WEB",

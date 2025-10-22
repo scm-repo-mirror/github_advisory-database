@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58ff-49fr-3jwf",
-  "modified": "2025-01-29T18:30:57Z",
+  "modified": "2025-10-22T00:31:59Z",
   "published": "2022-05-24T17:31:50Z",
   "aliases": [
     "CVE-2020-3992"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-3992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-3992"
     },
     {
       "type": "WEB",

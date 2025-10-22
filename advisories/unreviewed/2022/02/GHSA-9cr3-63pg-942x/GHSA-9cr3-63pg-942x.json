@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cr3-63pg-942x",
-  "modified": "2022-03-17T00:05:45Z",
+  "modified": "2025-10-22T00:32:28Z",
   "published": "2022-02-10T00:00:23Z",
   "aliases": [
     "CVE-2022-21999"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-21999"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-21999"
     },
     {
       "type": "WEB",

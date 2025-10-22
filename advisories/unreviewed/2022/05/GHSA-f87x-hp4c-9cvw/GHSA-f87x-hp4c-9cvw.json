@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f87x-hp4c-9cvw",
-  "modified": "2022-05-13T01:02:35Z",
+  "modified": "2025-10-22T00:31:17Z",
   "published": "2022-05-13T01:02:35Z",
   "aliases": [
     "CVE-2016-8562"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-16-327-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-8562"
     },
     {
       "type": "WEB",

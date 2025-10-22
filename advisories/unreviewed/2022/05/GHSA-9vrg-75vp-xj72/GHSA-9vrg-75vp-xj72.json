@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9vrg-75vp-xj72",
-  "modified": "2025-02-07T18:31:01Z",
+  "modified": "2025-10-22T00:31:43Z",
   "published": "2022-05-24T22:00:33Z",
   "aliases": [
     "CVE-2019-1297"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1297"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-1297"
     }
   ],
   "database_specific": {

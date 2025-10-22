@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjww-grc5-6wh6",
-  "modified": "2022-03-17T00:03:45Z",
+  "modified": "2025-10-22T00:32:30Z",
   "published": "2022-03-04T00:00:18Z",
   "aliases": [
     "CVE-2022-22706"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://developer.arm.com/support/arm-security-updates/mali-gpu-kernel-driver"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-22706"
     }
   ],
   "database_specific": {

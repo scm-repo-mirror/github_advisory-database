@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhg2-f289-m44w",
-  "modified": "2022-05-13T01:51:06Z",
+  "modified": "2025-10-22T00:31:37Z",
   "published": "2022-05-13T01:51:06Z",
   "aliases": [
     "CVE-2018-20753"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://helpdesk.kaseya.com/hc/en-gb/articles/360000333152"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-20753"
     }
   ],
   "database_specific": {

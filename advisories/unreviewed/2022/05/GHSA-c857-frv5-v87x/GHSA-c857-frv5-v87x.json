@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c857-frv5-v87x",
-  "modified": "2025-01-29T18:30:54Z",
+  "modified": "2025-10-22T00:31:49Z",
   "published": "2022-05-24T17:04:07Z",
   "aliases": [
     "CVE-2019-7287"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT209520"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-7287"
     }
   ],
   "database_specific": {

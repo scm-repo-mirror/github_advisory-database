@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8w4-jc9x-6qpc",
-  "modified": "2022-05-13T01:38:04Z",
+  "modified": "2025-10-22T00:31:28Z",
   "published": "2022-05-13T01:38:04Z",
   "aliases": [
     "CVE-2017-12238"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170927-vpls"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-12238"
     },
     {
       "type": "WEB",

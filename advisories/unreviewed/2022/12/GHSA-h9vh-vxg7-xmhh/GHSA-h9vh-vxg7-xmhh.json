@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9vh-vxg7-xmhh",
-  "modified": "2025-01-29T00:31:52Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-12-22T21:30:30Z",
   "aliases": [
     "CVE-2022-26486"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1758070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-26486"
     },
     {
       "type": "WEB",

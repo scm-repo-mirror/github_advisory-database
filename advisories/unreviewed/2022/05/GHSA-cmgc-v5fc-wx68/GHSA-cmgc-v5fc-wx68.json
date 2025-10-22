@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmgc-v5fc-wx68",
-  "modified": "2025-01-28T00:32:06Z",
+  "modified": "2025-10-22T00:31:36Z",
   "published": "2022-05-14T03:09:02Z",
   "aliases": [
     "CVE-2016-9079"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201701-35"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-9079"
     },
     {
       "type": "WEB",

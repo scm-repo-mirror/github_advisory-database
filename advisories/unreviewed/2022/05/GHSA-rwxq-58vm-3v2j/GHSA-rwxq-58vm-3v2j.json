@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwxq-58vm-3v2j",
-  "modified": "2024-07-24T18:31:15Z",
+  "modified": "2025-10-22T00:32:21Z",
   "published": "2022-05-24T19:14:50Z",
   "aliases": [
     "CVE-2021-40438"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2021/dsa-4982"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-40438"
     },
     {
       "type": "WEB",

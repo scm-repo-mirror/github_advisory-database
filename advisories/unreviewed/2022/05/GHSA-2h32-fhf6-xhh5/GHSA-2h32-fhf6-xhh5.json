@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h32-fhf6-xhh5",
-  "modified": "2022-06-03T00:01:35Z",
+  "modified": "2025-10-22T00:32:20Z",
   "published": "2022-05-24T19:14:40Z",
   "aliases": [
     "CVE-2021-40444"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40444"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-40444"
     },
     {
       "type": "WEB",

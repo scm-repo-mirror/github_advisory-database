@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg2v-9v73-ccwp",
-  "modified": "2025-03-07T18:30:53Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-10-04T00:00:25Z",
   "aliases": [
     "CVE-2022-41082"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41082"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-41082"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3wm-rjvf-m778",
-  "modified": "2022-10-21T12:00:22Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-10-18T19:00:33Z",
   "aliases": [
     "CVE-2022-40684"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.com/psirt/FG-IR-22-377"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-40684"
     },
     {
       "type": "WEB",

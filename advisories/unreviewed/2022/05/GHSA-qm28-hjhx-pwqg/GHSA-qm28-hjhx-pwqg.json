@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qm28-hjhx-pwqg",
-  "modified": "2025-02-04T21:32:23Z",
+  "modified": "2025-10-22T00:32:18Z",
   "published": "2022-05-24T19:07:22Z",
   "aliases": [
     "CVE-2021-30116"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://helpdesk.kaseya.com/hc/en-gb/articles/4403440684689-Important-Notice-July-2nd-2021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-30116"
     },
     {
       "type": "WEB",

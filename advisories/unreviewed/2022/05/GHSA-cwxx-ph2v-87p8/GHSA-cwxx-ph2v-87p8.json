@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwxx-ph2v-87p8",
-  "modified": "2025-02-06T15:32:50Z",
+  "modified": "2025-10-22T00:31:58Z",
   "published": "2022-05-24T17:30:26Z",
   "aliases": [
     "CVE-2020-26919"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.netgear.com/000062334/Security-Advisory-for-Missing-Function-Level-Access-Control-on-JGS516PE-PSV-2020-0377"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-26919"
     }
   ],
   "database_specific": {

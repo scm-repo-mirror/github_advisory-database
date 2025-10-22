@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6r5-p9fx-6346",
-  "modified": "2025-01-23T18:31:03Z",
+  "modified": "2025-10-22T00:31:19Z",
   "published": "2022-05-17T02:50:37Z",
   "aliases": [
     "CVE-2017-6884"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-6884"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-6884"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrj7-4gfh-q9h7",
-  "modified": "2024-02-15T03:30:19Z",
+  "modified": "2025-10-22T00:32:26Z",
   "published": "2021-11-24T00:00:27Z",
   "aliases": [
     "CVE-2021-38000"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3W46HRT2UVHWSLZB6JZHQF6JNQWKV744"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-38000"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3x5-fr4h-9v7v",
-  "modified": "2025-02-03T18:30:34Z",
+  "modified": "2025-10-22T00:32:25Z",
   "published": "2022-05-24T19:19:52Z",
   "aliases": [
     "CVE-2021-42237"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1000776"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-42237"
     },
     {
       "type": "WEB",

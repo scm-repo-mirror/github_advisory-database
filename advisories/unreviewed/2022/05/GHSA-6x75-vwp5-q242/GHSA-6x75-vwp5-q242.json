@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x75-vwp5-q242",
-  "modified": "2025-02-04T21:32:23Z",
+  "modified": "2025-10-22T00:32:18Z",
   "published": "2022-05-24T19:08:57Z",
   "aliases": [
     "CVE-2021-35464"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugster.forgerock.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-35464"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pph6-grp2-wvvw",
-  "modified": "2023-08-02T00:30:39Z",
+  "modified": "2025-10-22T00:32:25Z",
   "published": "2022-05-24T19:17:27Z",
   "aliases": [
     "CVE-2021-41357"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41357"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-41357"
     }
   ],
   "database_specific": {

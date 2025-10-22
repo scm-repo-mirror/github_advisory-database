@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf44-cp45-ppcv",
-  "modified": "2022-05-17T03:02:18Z",
+  "modified": "2025-10-22T00:31:12Z",
   "published": "2022-05-17T03:02:18Z",
   "aliases": [
     "CVE-2016-1010"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201603-07"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-1010"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x45p-q5pf-h9jx",
-  "modified": "2024-07-24T18:31:13Z",
+  "modified": "2025-10-22T00:31:23Z",
   "published": "2022-05-13T01:46:30Z",
   "aliases": [
     "CVE-2017-6327"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-6327"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-6327"
     },
     {
       "type": "WEB",

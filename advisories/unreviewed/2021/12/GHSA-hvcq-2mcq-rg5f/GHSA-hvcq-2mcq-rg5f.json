@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvcq-2mcq-rg5f",
-  "modified": "2024-06-03T18:53:41Z",
+  "modified": "2025-10-22T00:32:26Z",
   "published": "2021-12-16T00:01:44Z",
   "aliases": [
     "CVE-2021-43890"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-disables-msix-protocol-handler-abused-in-malware-attacks"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-43890"
     },
     {
       "type": "WEB",

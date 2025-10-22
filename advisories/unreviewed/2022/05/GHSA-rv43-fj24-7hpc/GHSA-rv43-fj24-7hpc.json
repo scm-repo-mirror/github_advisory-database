@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv43-fj24-7hpc",
-  "modified": "2025-01-29T18:30:54Z",
+  "modified": "2025-10-22T00:31:49Z",
   "published": "2022-05-24T17:04:19Z",
   "aliases": [
     "CVE-2019-8605"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT210122"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-8605"
     }
   ],
   "database_specific": {

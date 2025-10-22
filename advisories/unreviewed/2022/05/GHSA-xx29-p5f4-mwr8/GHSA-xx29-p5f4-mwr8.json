@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx29-p5f4-mwr8",
-  "modified": "2023-04-26T21:30:30Z",
+  "modified": "2025-10-22T00:31:50Z",
   "published": "2022-05-24T17:10:15Z",
   "aliases": [
     "CVE-2019-20500"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-20500"
     },
     {
       "type": "WEB",

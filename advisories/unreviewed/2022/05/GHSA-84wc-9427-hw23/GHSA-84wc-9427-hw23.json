@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84wc-9427-hw23",
-  "modified": "2025-02-07T15:32:25Z",
+  "modified": "2025-10-22T00:31:55Z",
   "published": "2022-05-24T17:22:04Z",
   "aliases": [
     "CVE-2020-2021"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.paloaltonetworks.com/CVE-2020-2021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-2021"
     }
   ],
   "database_specific": {

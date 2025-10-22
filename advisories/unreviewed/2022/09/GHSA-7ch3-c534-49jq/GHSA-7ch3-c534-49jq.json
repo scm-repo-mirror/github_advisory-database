@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7ch3-c534-49jq",
-  "modified": "2024-02-15T03:30:19Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-09-27T00:00:20Z",
   "aliases": [
     "CVE-2022-3075"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202209-23"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-3075"
     }
   ],
   "database_specific": {

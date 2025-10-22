@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf37-cmcm-645m",
-  "modified": "2025-02-06T21:31:53Z",
+  "modified": "2025-10-22T00:31:57Z",
   "published": "2022-05-24T17:27:08Z",
   "aliases": [
     "CVE-2020-24557"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://success.trendmicro.com/solution/000267260"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-24557"
     },
     {
       "type": "WEB",

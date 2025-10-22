@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9cj-q2hj-hfq9",
-  "modified": "2022-07-13T00:00:43Z",
+  "modified": "2025-10-22T00:31:56Z",
   "published": "2022-05-24T17:24:20Z",
   "aliases": [
     "CVE-2020-12812"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.com/psirt/FG-IR-19-283"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-12812"
     }
   ],
   "database_specific": {

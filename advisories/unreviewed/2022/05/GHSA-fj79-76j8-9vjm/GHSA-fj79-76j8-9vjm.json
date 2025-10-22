@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj79-76j8-9vjm",
-  "modified": "2024-07-25T15:30:33Z",
+  "modified": "2025-10-22T00:31:19Z",
   "published": "2022-05-14T00:57:15Z",
   "aliases": [
     "CVE-2017-7269"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://support.microsoft.com/en-us/help/3197835/description-of-the-security-update-for-windows-xp-and-windows-server"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-7269"
     },
     {
       "type": "WEB",

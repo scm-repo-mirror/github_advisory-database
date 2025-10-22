@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvfv-748g-qpfc",
-  "modified": "2022-05-17T02:35:09Z",
+  "modified": "2025-10-22T00:31:21Z",
   "published": "2022-05-17T02:35:09Z",
   "aliases": [
     "CVE-2017-0222"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0222"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-0222"
     },
     {
       "type": "WEB",

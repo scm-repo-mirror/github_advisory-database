@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cv93-w72p-jgh2",
-  "modified": "2024-06-28T18:31:41Z",
+  "modified": "2025-10-22T00:31:10Z",
   "published": "2022-05-14T02:28:03Z",
   "aliases": [
     "CVE-2015-2425"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2015/ms15-065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-2425"
     },
     {
       "type": "WEB",

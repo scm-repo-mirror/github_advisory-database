@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcrm-7q5r-w4rw",
-  "modified": "2024-07-02T21:31:58Z",
+  "modified": "2025-10-22T00:31:10Z",
   "published": "2022-05-17T00:25:55Z",
   "aliases": [
     "CVE-2015-3113"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201507-13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-3113"
     },
     {
       "type": "WEB",

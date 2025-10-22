@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qfv-hvxp-fg32",
-  "modified": "2022-05-24T17:18:23Z",
+  "modified": "2025-10-22T00:31:55Z",
   "published": "2022-05-24T17:18:23Z",
   "aliases": [
     "CVE-2020-1054"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1054"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-1054"
     },
     {
       "type": "WEB",

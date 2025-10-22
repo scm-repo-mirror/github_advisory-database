@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpx9-g67g-v8c5",
-  "modified": "2024-06-28T18:31:41Z",
+  "modified": "2025-10-22T00:31:11Z",
   "published": "2022-05-14T02:07:35Z",
   "aliases": [
     "CVE-2015-4495"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201512-10"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-4495"
     },
     {
       "type": "WEB",

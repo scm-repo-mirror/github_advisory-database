@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m437-3crh-7475",
-  "modified": "2025-02-07T15:32:16Z",
+  "modified": "2025-10-22T00:31:39Z",
   "published": "2022-05-24T16:44:45Z",
   "aliases": [
     "CVE-2019-2725"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.f5.com/csp/article/K90059138"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-2725"
     },
     {
       "type": "WEB",

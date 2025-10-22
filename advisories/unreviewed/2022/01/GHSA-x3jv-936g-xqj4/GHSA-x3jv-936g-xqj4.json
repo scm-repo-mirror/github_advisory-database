@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3jv-936g-xqj4",
-  "modified": "2023-08-08T15:31:37Z",
+  "modified": "2025-10-22T00:32:28Z",
   "published": "2022-01-20T00:01:49Z",
   "aliases": [
     "CVE-2021-35587"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-35587"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-35587"
     },
     {
       "type": "WEB",

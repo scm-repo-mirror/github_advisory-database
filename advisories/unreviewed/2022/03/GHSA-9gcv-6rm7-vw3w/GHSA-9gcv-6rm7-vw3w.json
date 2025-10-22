@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gcv-6rm7-vw3w",
-  "modified": "2022-04-01T00:00:55Z",
+  "modified": "2025-10-22T00:32:30Z",
   "published": "2022-03-26T00:00:32Z",
   "aliases": [
     "CVE-2022-1040"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1040"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-1040"
     },
     {
       "type": "WEB",

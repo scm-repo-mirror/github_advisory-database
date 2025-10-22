@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r9q-wqcj-x85j",
-  "modified": "2025-01-02T21:31:36Z",
+  "modified": "2025-10-22T00:32:33Z",
   "published": "2022-06-02T00:00:15Z",
   "aliases": [
     "CVE-2022-30190"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30190"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-30190"
     },
     {
       "type": "WEB",

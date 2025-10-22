@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rfx-wjcx-jvgf",
-  "modified": "2024-07-25T15:30:33Z",
+  "modified": "2025-10-22T00:31:17Z",
   "published": "2022-05-14T02:21:54Z",
   "aliases": [
     "CVE-2016-7255"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.googleblog.com/2016/10/disclosing-vulnerabilities-to-protect.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-7255"
     },
     {
       "type": "WEB",

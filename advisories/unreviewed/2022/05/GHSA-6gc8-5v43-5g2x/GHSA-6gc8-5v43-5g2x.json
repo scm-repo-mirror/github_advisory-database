@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gc8-5v43-5g2x",
-  "modified": "2025-04-20T03:38:48Z",
+  "modified": "2025-10-22T00:31:23Z",
   "published": "2022-05-17T02:40:58Z",
   "aliases": [
     "CVE-2016-7836"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/jp/JVN84995847/index.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-7836"
     },
     {
       "type": "WEB",

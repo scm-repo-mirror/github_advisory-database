@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8987-qgc7-79p9",
-  "modified": "2024-07-24T18:31:11Z",
+  "modified": "2025-10-22T00:31:12Z",
   "published": "2022-05-17T01:10:19Z",
   "aliases": [
     "CVE-2015-7450"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7450"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-7450"
     },
     {
       "type": "WEB",

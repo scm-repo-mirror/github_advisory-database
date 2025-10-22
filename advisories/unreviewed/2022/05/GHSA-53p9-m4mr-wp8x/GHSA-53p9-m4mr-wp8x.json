@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53p9-m4mr-wp8x",
-  "modified": "2025-02-07T18:31:02Z",
+  "modified": "2025-10-22T00:31:49Z",
   "published": "2022-05-24T17:06:19Z",
   "aliases": [
     "CVE-2020-0638"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0638"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-0638"
     }
   ],
   "database_specific": {

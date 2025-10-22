@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4q8-jg8m-p6pw",
-  "modified": "2022-05-14T02:22:46Z",
+  "modified": "2025-10-22T00:31:17Z",
   "published": "2022-05-14T02:22:46Z",
   "aliases": [
     "CVE-2016-7193"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2016/ms16-121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-7193"
     },
     {
       "type": "WEB",

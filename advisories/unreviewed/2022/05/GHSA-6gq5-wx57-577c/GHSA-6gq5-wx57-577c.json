@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gq5-wx57-577c",
-  "modified": "2023-02-08T18:30:23Z",
+  "modified": "2025-10-22T00:32:02Z",
   "published": "2022-05-24T17:42:16Z",
   "aliases": [
     "CVE-2021-25298"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/fs0c-sh/nagios-xi-5.7.5-bugs/blob/main/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-25298"
     },
     {
       "type": "WEB",

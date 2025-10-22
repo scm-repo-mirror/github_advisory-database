@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm89-vxjx-jvcg",
-  "modified": "2022-03-30T00:02:04Z",
+  "modified": "2025-10-22T00:32:26Z",
   "published": "2021-11-30T00:00:52Z",
   "aliases": [
     "CVE-2021-44077"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://pitstop.manageengine.com/portal/en/community/topic/security-advisory-for-cve-2021-44077-unauthenticated-rce-vulnerability-in-supportcenter-plus-versions-11012-and-11013"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-44077"
     },
     {
       "type": "WEB",

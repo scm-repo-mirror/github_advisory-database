@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvwr-5hrc-2gr5",
-  "modified": "2022-05-24T17:43:11Z",
+  "modified": "2025-10-22T00:32:03Z",
   "published": "2022-05-24T17:43:11Z",
   "aliases": [
     "CVE-2021-1732"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-1732"
     },
     {
       "type": "WEB",

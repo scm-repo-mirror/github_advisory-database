@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hv5-x25m-j674",
-  "modified": "2024-07-25T18:32:34Z",
+  "modified": "2025-10-22T00:32:07Z",
   "published": "2022-05-24T19:01:35Z",
   "aliases": [
     "CVE-2021-1497"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hyperflex-rce-TjjNrkpR"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-1497"
     },
     {
       "type": "WEB",

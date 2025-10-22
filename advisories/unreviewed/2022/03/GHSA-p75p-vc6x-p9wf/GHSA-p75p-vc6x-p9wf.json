@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p75p-vc6x-p9wf",
-  "modified": "2022-03-29T00:01:35Z",
+  "modified": "2025-10-22T00:32:30Z",
   "published": "2022-03-19T00:00:57Z",
   "aliases": [
     "CVE-2022-22587"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213055"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-22587"
     }
   ],
   "database_specific": {

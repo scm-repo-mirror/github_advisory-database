@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75f9-mm5v-2rgm",
-  "modified": "2025-04-16T18:31:25Z",
+  "modified": "2025-10-22T00:32:18Z",
   "published": "2022-05-24T19:06:54Z",
   "aliases": [
     "CVE-2021-34527"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34527"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-34527"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9g8-h33v-mg42",
-  "modified": "2024-10-23T15:31:03Z",
+  "modified": "2025-10-22T00:31:57Z",
   "published": "2022-05-24T17:25:42Z",
   "aliases": [
     "CVE-2019-5591"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.com/advisory/FG-IR-19-037"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-5591"
     },
     {
       "type": "WEB",

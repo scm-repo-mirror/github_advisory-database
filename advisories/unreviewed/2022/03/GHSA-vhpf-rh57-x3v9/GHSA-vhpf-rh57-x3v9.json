@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhpf-rh57-x3v9",
-  "modified": "2022-03-25T00:00:51Z",
+  "modified": "2025-10-22T00:32:30Z",
   "published": "2022-03-18T00:01:08Z",
   "aliases": [
     "CVE-2022-26501"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://veeam.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-26501"
     },
     {
       "type": "WEB",

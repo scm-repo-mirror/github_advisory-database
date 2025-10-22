@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2xr-gx3h-vpc9",
-  "modified": "2024-07-25T18:32:34Z",
+  "modified": "2025-10-22T00:32:07Z",
   "published": "2022-05-24T17:48:46Z",
   "aliases": [
     "CVE-2021-21224"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202104-08"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-21224"
     },
     {
       "type": "WEB",

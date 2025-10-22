@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xmp-59j9-c5x2",
-  "modified": "2025-01-03T00:31:10Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-11-10T12:01:08Z",
   "aliases": [
     "CVE-2022-41073"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41073"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-41073"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29h7-gr57-5f8r",
-  "modified": "2024-07-26T21:31:15Z",
+  "modified": "2025-10-22T00:32:26Z",
   "published": "2022-05-24T19:16:37Z",
   "aliases": [
     "CVE-2021-41773"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-41773"
     },
     {
       "type": "WEB",

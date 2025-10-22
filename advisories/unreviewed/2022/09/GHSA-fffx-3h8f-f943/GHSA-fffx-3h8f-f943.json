@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fffx-3h8f-f943",
-  "modified": "2022-09-23T00:00:34Z",
+  "modified": "2025-10-22T00:32:36Z",
   "published": "2022-09-21T00:00:33Z",
   "aliases": [
     "CVE-2022-32917"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213446"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-32917"
     },
     {
       "type": "WEB",

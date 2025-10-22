@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccv7-v4mw-3wqq",
-  "modified": "2024-08-01T15:31:19Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-11-10T12:01:09Z",
   "aliases": [
     "CVE-2022-41091"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41091"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-41091"
     },
     {
       "type": "WEB",

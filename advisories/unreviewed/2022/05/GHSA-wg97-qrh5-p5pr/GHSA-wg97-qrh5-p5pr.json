@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wg97-qrh5-p5pr",
-  "modified": "2025-01-23T18:31:02Z",
+  "modified": "2025-10-22T00:31:12Z",
   "published": "2022-05-17T01:08:11Z",
   "aliases": [
     "CVE-2016-0984"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201603-07"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-0984"
     },
     {
       "type": "WEB",

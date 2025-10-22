@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2xf-pppv-v6j6",
-  "modified": "2022-05-13T01:37:52Z",
+  "modified": "2025-10-22T00:31:30Z",
   "published": "2022-05-13T01:37:52Z",
   "aliases": [
     "CVE-2017-12319"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171103-bgp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-12319"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mc4h-hp66-ccmh",
-  "modified": "2025-02-07T15:32:27Z",
+  "modified": "2025-10-22T00:32:00Z",
   "published": "2022-05-24T17:32:44Z",
   "aliases": [
     "CVE-2020-8260"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.pulsesecure.net/articles/Pulse_Security_Advisories/SA44601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-8260"
     },
     {
       "type": "WEB",

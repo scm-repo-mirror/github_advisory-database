@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-495x-r3cr-6rgx",
-  "modified": "2023-03-23T18:30:16Z",
+  "modified": "2025-10-22T00:31:48Z",
   "published": "2022-05-24T16:58:43Z",
   "aliases": [
     "CVE-2019-16278"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sp0re.sh"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-16278"
     },
     {
       "type": "WEB",

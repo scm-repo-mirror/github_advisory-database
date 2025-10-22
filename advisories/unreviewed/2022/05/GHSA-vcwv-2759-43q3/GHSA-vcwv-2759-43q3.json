@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcwv-2759-43q3",
-  "modified": "2025-02-03T18:30:33Z",
+  "modified": "2025-10-22T00:32:03Z",
   "published": "2022-05-24T17:42:22Z",
   "aliases": [
     "CVE-2021-27102"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.accellion.com/products/fta"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-27102"
     }
   ],
   "database_specific": {

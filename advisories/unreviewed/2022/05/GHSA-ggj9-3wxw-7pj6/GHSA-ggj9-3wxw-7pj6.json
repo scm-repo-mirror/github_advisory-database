@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggj9-3wxw-7pj6",
-  "modified": "2024-04-04T03:08:00Z",
+  "modified": "2025-10-22T00:31:48Z",
   "published": "2022-05-24T22:01:09Z",
   "aliases": [
     "CVE-2019-1388"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1388"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-1388"
     },
     {
       "type": "WEB",

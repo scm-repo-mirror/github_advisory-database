@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4m2-px5g-5q55",
-  "modified": "2025-03-08T00:31:17Z",
+  "modified": "2025-10-22T00:32:18Z",
   "published": "2022-05-24T19:09:02Z",
   "aliases": [
     "CVE-2021-36934"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36934"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-36934"
     },
     {
       "type": "WEB",

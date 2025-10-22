@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfgw-xgjr-v384",
-  "modified": "2022-04-07T00:00:44Z",
+  "modified": "2025-10-22T00:32:26Z",
   "published": "2021-12-09T00:00:39Z",
   "aliases": [
     "CVE-2021-27860"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27860"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-27860"
     },
     {
       "type": "WEB",

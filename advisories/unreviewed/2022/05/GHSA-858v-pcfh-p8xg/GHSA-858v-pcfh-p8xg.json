@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-858v-pcfh-p8xg",
-  "modified": "2025-08-05T18:30:37Z",
+  "modified": "2025-10-22T00:31:57Z",
   "published": "2022-05-24T17:27:15Z",
   "aliases": [
     "CVE-2020-25078"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://twitter.com/Dogonsecurity/status/1273251236167516161"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-25078"
     }
   ],
   "database_specific": {

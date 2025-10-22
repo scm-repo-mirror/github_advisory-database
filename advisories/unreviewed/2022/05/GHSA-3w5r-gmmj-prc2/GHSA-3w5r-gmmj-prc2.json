@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w5r-gmmj-prc2",
-  "modified": "2025-02-04T21:32:19Z",
+  "modified": "2025-10-22T00:31:50Z",
   "published": "2022-05-24T17:08:11Z",
   "aliases": [
     "CVE-2020-8657"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/EyesOfNetworkCommunity/eonapi/issues/17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-8657"
     },
     {
       "type": "WEB",

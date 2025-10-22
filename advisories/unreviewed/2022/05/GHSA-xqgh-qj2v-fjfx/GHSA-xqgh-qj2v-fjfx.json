@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqgh-qj2v-fjfx",
-  "modified": "2024-12-19T03:30:40Z",
+  "modified": "2025-10-22T00:31:36Z",
   "published": "2022-05-13T01:50:04Z",
   "aliases": [
     "CVE-2018-14933"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-14933"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-14933"
     },
     {
       "type": "WEB",

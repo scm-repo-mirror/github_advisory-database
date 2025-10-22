@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm93-g4gf-j42f",
-  "modified": "2025-02-04T18:30:37Z",
+  "modified": "2025-10-22T00:31:36Z",
   "published": "2022-05-13T01:50:52Z",
   "aliases": [
     "CVE-2018-19410"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19410"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-19410"
     },
     {
       "type": "WEB",

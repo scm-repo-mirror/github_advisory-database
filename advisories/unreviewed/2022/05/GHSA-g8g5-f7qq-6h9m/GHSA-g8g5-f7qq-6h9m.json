@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8g5-f7qq-6h9m",
-  "modified": "2024-02-15T03:30:19Z",
+  "modified": "2025-10-22T00:32:07Z",
   "published": "2022-05-24T17:48:51Z",
   "aliases": [
     "CVE-2021-21206"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202104-08"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-21206"
     }
   ],
   "database_specific": {

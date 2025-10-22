@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px4v-wj8p-cq36",
-  "modified": "2022-07-13T00:01:34Z",
+  "modified": "2025-10-22T00:32:19Z",
   "published": "2022-05-24T19:14:27Z",
   "aliases": [
     "CVE-2021-38163"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=585106405"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-38163"
     }
   ],
   "database_specific": {

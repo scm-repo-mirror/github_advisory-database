@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwjr-6hc3-vpjm",
-  "modified": "2024-04-04T00:43:32Z",
+  "modified": "2025-10-22T00:31:40Z",
   "published": "2022-05-24T16:46:13Z",
   "aliases": [
     "CVE-2018-7841"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-7841"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-7841"
     },
     {
       "type": "WEB",

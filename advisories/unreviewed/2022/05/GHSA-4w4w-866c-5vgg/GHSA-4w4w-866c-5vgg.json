@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4w4w-866c-5vgg",
-  "modified": "2025-01-22T18:31:47Z",
+  "modified": "2025-10-22T00:31:23Z",
   "published": "2022-05-17T01:57:47Z",
   "aliases": [
     "CVE-2015-2291"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00051&languageid=en-fr"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-2291"
     },
     {
       "type": "WEB",

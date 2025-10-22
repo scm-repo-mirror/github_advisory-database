@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r93f-j2vf-vmc4",
-  "modified": "2022-07-13T00:01:00Z",
+  "modified": "2025-10-22T00:32:27Z",
   "published": "2021-12-16T00:01:31Z",
   "aliases": [
     "CVE-2021-0920"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2021-11-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-0920"
     }
   ],
   "database_specific": {

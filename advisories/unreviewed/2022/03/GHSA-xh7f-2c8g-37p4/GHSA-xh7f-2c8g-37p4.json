@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh7f-2c8g-37p4",
-  "modified": "2025-01-29T18:31:03Z",
+  "modified": "2025-10-22T00:32:30Z",
   "published": "2022-03-11T00:02:03Z",
   "aliases": [
     "CVE-2022-26143"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.akamai.com/blog/security/phone-home-ddos-attack-vector"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-26143"
     },
     {
       "type": "WEB",

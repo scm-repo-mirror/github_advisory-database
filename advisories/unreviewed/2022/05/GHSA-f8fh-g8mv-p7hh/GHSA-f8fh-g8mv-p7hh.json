@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8fh-g8mv-p7hh",
-  "modified": "2024-05-16T03:30:44Z",
+  "modified": "2025-10-22T00:32:06Z",
   "published": "2022-05-24T17:46:24Z",
   "aliases": [
     "CVE-2021-1870"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT212147"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-1870"
     }
   ],
   "database_specific": {

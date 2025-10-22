@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq64-gmq7-jjvg",
-  "modified": "2024-07-25T15:30:34Z",
+  "modified": "2025-10-22T00:31:40Z",
   "published": "2022-05-24T16:45:48Z",
   "aliases": [
     "CVE-2019-0708"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-0708"
     },
     {
       "type": "WEB",

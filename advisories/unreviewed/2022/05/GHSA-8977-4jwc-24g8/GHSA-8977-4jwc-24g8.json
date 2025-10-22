@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8977-4jwc-24g8",
-  "modified": "2022-05-24T22:00:03Z",
+  "modified": "2025-10-22T00:31:41Z",
   "published": "2022-05-24T22:00:03Z",
   "aliases": [
     "CVE-2019-11580"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jira.atlassian.com/browse/CWD-5388"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-11580"
     },
     {
       "type": "WEB",

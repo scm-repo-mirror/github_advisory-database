@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh2r-8xvg-hm24",
-  "modified": "2022-12-21T15:30:18Z",
+  "modified": "2025-10-22T00:32:38Z",
   "published": "2022-12-15T21:30:30Z",
   "aliases": [
     "CVE-2022-42856"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213537"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-42856"
     },
     {
       "type": "WEB",

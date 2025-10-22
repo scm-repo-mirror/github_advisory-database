@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hqxf-h392-6m7w",
-  "modified": "2023-01-11T00:30:47Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2023-01-11T00:30:47Z",
   "aliases": [
     "CVE-2023-21674"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2023-21674"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2023-21674"
     }
   ],
   "database_specific": {

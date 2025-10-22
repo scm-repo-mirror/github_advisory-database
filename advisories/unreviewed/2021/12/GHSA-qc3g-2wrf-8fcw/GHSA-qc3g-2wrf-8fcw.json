@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc3g-2wrf-8fcw",
-  "modified": "2024-12-23T15:30:45Z",
+  "modified": "2025-10-22T00:32:27Z",
   "published": "2021-12-22T00:00:30Z",
   "aliases": [
     "CVE-2021-44207"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.acclaimsystems.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-44207"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chc6-9436-6wfq",
-  "modified": "2022-04-30T00:00:47Z",
+  "modified": "2025-10-22T00:32:32Z",
   "published": "2022-04-22T00:00:38Z",
   "aliases": [
     "CVE-2022-27926"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-27926"
     }
   ],
   "database_specific": {

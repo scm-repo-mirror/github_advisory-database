@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vchr-42h7-32xh",
-  "modified": "2024-07-24T15:31:25Z",
+  "modified": "2025-10-22T00:32:29Z",
   "published": "2022-02-11T00:00:44Z",
   "aliases": [
     "CVE-2022-20699"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-smb-mult-vuln-KA9PK6D"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-20699"
     },
     {
       "type": "WEB",

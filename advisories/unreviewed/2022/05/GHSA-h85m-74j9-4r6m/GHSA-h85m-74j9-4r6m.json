@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h85m-74j9-4r6m",
-  "modified": "2022-05-13T01:35:44Z",
+  "modified": "2025-10-22T00:31:30Z",
   "published": "2022-05-13T01:35:44Z",
   "aliases": [
     "CVE-2018-0167"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180328-lldp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-0167"
     },
     {
       "type": "WEB",

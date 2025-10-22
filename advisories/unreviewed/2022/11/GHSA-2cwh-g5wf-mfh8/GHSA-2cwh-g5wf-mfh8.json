@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cwh-g5wf-mfh8",
-  "modified": "2022-11-10T12:01:04Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-11-10T12:01:04Z",
   "aliases": [
     "CVE-2022-41080"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41080"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-41080"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7g6-9cwp-6jgm",
-  "modified": "2024-04-04T02:23:20Z",
+  "modified": "2025-10-22T00:31:49Z",
   "published": "2022-05-24T16:58:40Z",
   "aliases": [
     "CVE-2019-2215"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://usn.ubuntu.com/4186-1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-2215"
     },
     {
       "type": "WEB",

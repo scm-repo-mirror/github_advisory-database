@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75jg-chc9-wv8p",
-  "modified": "2024-04-04T01:38:53Z",
+  "modified": "2025-10-22T00:31:43Z",
   "published": "2022-05-24T16:53:26Z",
   "aliases": [
     "CVE-2019-0344"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=523998017"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-0344"
     }
   ],
   "database_specific": {

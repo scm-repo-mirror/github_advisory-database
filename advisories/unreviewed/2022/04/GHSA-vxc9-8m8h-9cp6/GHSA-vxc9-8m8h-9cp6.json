@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxc9-8m8h-9cp6",
-  "modified": "2025-01-29T18:31:05Z",
+  "modified": "2025-10-22T00:32:32Z",
   "published": "2022-04-27T00:00:21Z",
   "aliases": [
     "CVE-2022-24706"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://medium.com/@_sadshade/couchdb-erlang-and-cookies-rce-on-default-settings-b1e9173a4bcd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-24706"
     },
     {
       "type": "WEB",

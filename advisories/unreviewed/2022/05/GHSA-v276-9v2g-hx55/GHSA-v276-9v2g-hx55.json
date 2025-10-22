@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v276-9v2g-hx55",
-  "modified": "2025-02-06T21:31:59Z",
+  "modified": "2025-10-22T00:32:27Z",
   "published": "2022-05-24T19:15:26Z",
   "aliases": [
     "CVE-2021-36260"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://therecord.media/experts-warn-of-widespread-exploitation-involving-hikvision-cameras"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-36260"
     },
     {
       "type": "WEB",

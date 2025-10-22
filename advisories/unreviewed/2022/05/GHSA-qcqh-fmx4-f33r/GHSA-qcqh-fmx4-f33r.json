@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcqh-fmx4-f33r",
-  "modified": "2022-05-13T01:35:42Z",
+  "modified": "2025-10-22T00:31:30Z",
   "published": "2022-05-13T01:35:42Z",
   "aliases": [
     "CVE-2018-0174"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180328-dhcpr3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-0174"
     },
     {
       "type": "WEB",

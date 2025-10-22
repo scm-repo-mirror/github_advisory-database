@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c838-pj7m-89q4",
-  "modified": "2024-07-02T21:32:00Z",
+  "modified": "2025-10-22T00:32:06Z",
   "published": "2022-05-24T17:46:21Z",
   "aliases": [
     "CVE-2021-1789"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT212152"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-1789"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9xf-76vv-4wcg",
-  "modified": "2025-01-02T21:31:32Z",
+  "modified": "2025-10-22T00:32:32Z",
   "published": "2022-05-11T00:00:58Z",
   "aliases": [
     "CVE-2022-26923"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26923"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-26923"
     }
   ],
   "database_specific": {

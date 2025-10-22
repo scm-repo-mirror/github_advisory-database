@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wg2v-fx2j-3jrr",
-  "modified": "2022-05-13T01:19:46Z",
+  "modified": "2025-10-22T00:31:36Z",
   "published": "2022-05-13T01:19:46Z",
   "aliases": [
     "CVE-2018-19320"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19320"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-19320"
     },
     {
       "type": "WEB",

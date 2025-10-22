@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh88-cwv2-gjxm",
-  "modified": "2024-07-02T21:32:00Z",
+  "modified": "2025-10-22T00:31:21Z",
   "published": "2022-05-14T03:53:46Z",
   "aliases": [
     "CVE-2017-8291"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201708-06"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-8291"
     },
     {
       "type": "WEB",

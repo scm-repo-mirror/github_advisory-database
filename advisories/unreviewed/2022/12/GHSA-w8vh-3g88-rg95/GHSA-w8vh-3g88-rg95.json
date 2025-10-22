@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8vh-3g88-rg95",
-  "modified": "2022-12-14T15:30:17Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2022-12-13T18:30:27Z",
   "aliases": [
     "CVE-2022-27518"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/article/CTX474995"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-27518"
     }
   ],
   "database_specific": {

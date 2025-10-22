@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v596-x9hf-63gj",
-  "modified": "2025-01-27T18:31:53Z",
+  "modified": "2025-10-22T00:31:30Z",
   "published": "2022-05-14T03:29:33Z",
   "aliases": [
     "CVE-2018-7445"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-7445"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-7445"
     },
     {
       "type": "WEB",

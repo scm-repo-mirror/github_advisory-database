@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-495j-4jmx-mgrx",
-  "modified": "2024-07-25T15:30:35Z",
+  "modified": "2025-10-22T00:31:50Z",
   "published": "2022-05-24T17:09:55Z",
   "aliases": [
     "CVE-2020-6418"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202003-08"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-6418"
     },
     {
       "type": "WEB",

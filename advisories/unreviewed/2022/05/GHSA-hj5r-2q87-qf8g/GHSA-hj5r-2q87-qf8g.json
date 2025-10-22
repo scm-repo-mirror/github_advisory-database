@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj5r-2q87-qf8g",
-  "modified": "2025-02-04T18:30:37Z",
+  "modified": "2025-10-22T00:32:01Z",
   "published": "2022-05-24T17:34:50Z",
   "aliases": [
     "CVE-2020-4006"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-4006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-4006"
     },
     {
       "type": "WEB",

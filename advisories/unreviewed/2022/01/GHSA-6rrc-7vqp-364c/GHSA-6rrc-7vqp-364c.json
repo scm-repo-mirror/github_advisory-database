@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rrc-7vqp-364c",
-  "modified": "2025-02-24T18:32:07Z",
+  "modified": "2025-10-22T00:32:28Z",
   "published": "2022-01-27T00:01:13Z",
   "aliases": [
     "CVE-2021-22600"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20230110-0002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-22600"
     },
     {
       "type": "WEB",

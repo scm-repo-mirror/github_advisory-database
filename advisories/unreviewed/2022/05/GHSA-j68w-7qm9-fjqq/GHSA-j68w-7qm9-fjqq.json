@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j68w-7qm9-fjqq",
-  "modified": "2024-07-24T15:31:25Z",
+  "modified": "2025-10-22T00:31:19Z",
   "published": "2022-05-13T01:03:08Z",
   "aliases": [
     "CVE-2016-5195"
@@ -22,10 +22,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/19be0eaffa3ac7d8eb6784ad9bdbc7d67ed8e619"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2017:0372"
     },
     {
       "type": "WEB",
@@ -85,6 +81,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-5195"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/40611"
     },
     {
@@ -102,6 +102,10 @@
     {
       "type": "WEB",
       "url": "https://www.kb.cert.org/vuls/id/243144"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2017:0372"
     },
     {
       "type": "WEB",

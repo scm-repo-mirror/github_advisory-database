@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hpg-rw47-66vr",
-  "modified": "2024-07-02T21:31:58Z",
+  "modified": "2025-10-22T00:31:10Z",
   "published": "2022-05-13T01:06:52Z",
   "aliases": [
     "CVE-2015-5123"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201508-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-5123"
     },
     {
       "type": "WEB",

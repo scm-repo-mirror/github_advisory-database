@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxw7-8r5q-w2v4",
-  "modified": "2023-01-12T00:30:19Z",
+  "modified": "2025-10-22T00:32:37Z",
   "published": "2023-01-06T00:30:18Z",
   "aliases": [
     "CVE-2022-44877"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/numanturle/c1e82c47f4cba24cff214e904c227386"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-44877"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhg6-px34-g7qc",
-  "modified": "2024-04-04T02:47:34Z",
+  "modified": "2025-10-22T00:31:50Z",
   "published": "2022-05-24T17:08:15Z",
   "aliases": [
     "CVE-2020-8655"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/EyesOfNetworkCommunity/eonconf/issues/8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-8655"
     },
     {
       "type": "WEB",

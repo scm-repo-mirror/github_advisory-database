@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc9m-33cp-rmpj",
-  "modified": "2022-07-13T00:01:04Z",
+  "modified": "2025-10-22T00:32:25Z",
   "published": "2022-05-24T19:17:24Z",
   "aliases": [
     "CVE-2021-20123"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-20123"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-20123"
     },
     {
       "type": "WEB",

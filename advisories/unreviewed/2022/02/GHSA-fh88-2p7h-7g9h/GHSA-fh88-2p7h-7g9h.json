@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh88-2p7h-7g9h",
-  "modified": "2025-01-30T00:31:03Z",
+  "modified": "2025-10-22T00:32:28Z",
   "published": "2022-02-10T00:00:32Z",
   "aliases": [
     "CVE-2022-24682"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-24682"
     },
     {
       "type": "WEB",

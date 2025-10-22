@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h95-rv82-cwrc",
-  "modified": "2024-04-04T00:37:59Z",
+  "modified": "2025-10-22T00:31:40Z",
   "published": "2022-05-24T16:45:37Z",
   "aliases": [
     "CVE-2018-14839"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://medium.com/@0x616163/lg-n1a1-unauthenticated-remote-command-injection-cve-2018-14839-9d2cf760e247"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-14839"
     }
   ],
   "database_specific": {

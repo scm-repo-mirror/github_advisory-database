@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3wv-rx3x-v6fh",
-  "modified": "2025-01-29T18:30:57Z",
+  "modified": "2025-10-22T00:32:01Z",
   "published": "2022-05-24T17:35:44Z",
   "aliases": [
     "CVE-2020-27932"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT211947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-27932"
     },
     {
       "type": "WEB",

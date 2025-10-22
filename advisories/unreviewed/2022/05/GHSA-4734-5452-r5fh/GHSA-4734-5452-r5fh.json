@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4734-5452-r5fh",
-  "modified": "2024-07-25T15:30:35Z",
+  "modified": "2025-10-22T00:31:49Z",
   "published": "2022-05-24T17:02:49Z",
   "aliases": [
     "CVE-2019-5544"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202005-12"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-5544"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx3q-6fpx-362x",
-  "modified": "2025-02-04T21:32:20Z",
+  "modified": "2025-10-22T00:31:50Z",
   "published": "2022-05-24T17:10:20Z",
   "aliases": [
     "CVE-2020-10189"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://srcincite.io/pocs/src-2020-0011.py.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-10189"
     },
     {
       "type": "WEB",

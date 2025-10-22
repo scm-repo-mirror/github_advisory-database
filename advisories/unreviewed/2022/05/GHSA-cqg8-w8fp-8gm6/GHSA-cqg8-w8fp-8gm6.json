@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqg8-w8fp-8gm6",
-  "modified": "2024-04-04T00:43:35Z",
+  "modified": "2025-10-22T00:31:40Z",
   "published": "2022-05-24T16:46:14Z",
   "aliases": [
     "CVE-2019-11634"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/v1/search?searchQuery=%22%22&lang=en&sort=cr_date_desc&prod=&pver=&ct=Security+Bulletin"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-11634"
     }
   ],
   "database_specific": {

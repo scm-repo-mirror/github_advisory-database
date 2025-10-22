@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vc7-6w39-6rh2",
-  "modified": "2022-03-17T00:05:44Z",
+  "modified": "2025-10-22T00:32:29Z",
   "published": "2022-02-12T00:00:48Z",
   "aliases": [
     "CVE-2022-24112"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/lcdqywz8zy94mdysk7p3gfdgn51jmt94"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-24112"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56qq-x77r-g35x",
-  "modified": "2025-01-22T21:30:52Z",
+  "modified": "2025-10-22T00:31:12Z",
   "published": "2022-05-13T01:10:21Z",
   "aliases": [
     "CVE-2016-2388"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://erpscan.io/press-center/blog/sap-security-notes-february-2016-review"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-2388"
     },
     {
       "type": "WEB",

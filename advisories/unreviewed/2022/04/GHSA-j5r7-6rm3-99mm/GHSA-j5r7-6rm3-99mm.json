@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5r7-6rm3-99mm",
-  "modified": "2022-05-04T00:00:41Z",
+  "modified": "2025-10-22T00:32:32Z",
   "published": "2022-04-22T00:00:38Z",
   "aliases": [
     "CVE-2022-27925"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-27925"
     },
     {
       "type": "WEB",

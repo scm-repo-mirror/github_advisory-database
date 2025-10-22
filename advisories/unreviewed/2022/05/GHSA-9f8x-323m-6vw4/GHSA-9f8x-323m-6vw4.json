@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f8x-323m-6vw4",
-  "modified": "2024-07-16T18:31:35Z",
+  "modified": "2025-10-22T00:31:23Z",
   "published": "2022-05-17T01:06:04Z",
   "aliases": [
     "CVE-2017-6316"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/article/CTX225990"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-6316"
     },
     {
       "type": "WEB",

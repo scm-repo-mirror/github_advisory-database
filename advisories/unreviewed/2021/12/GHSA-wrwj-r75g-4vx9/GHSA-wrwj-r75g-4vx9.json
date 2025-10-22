@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrwj-r75g-4vx9",
-  "modified": "2022-07-13T00:01:49Z",
+  "modified": "2025-10-22T00:32:26Z",
   "published": "2021-12-13T00:00:34Z",
   "aliases": [
     "CVE-2021-44515"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://pitstop.manageengine.com/portal/en/community/topic/an-authentication-bypass-vulnerability-identified-and-fixed-in-desktop-central-and-desktop-central-msp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-44515"
     },
     {
       "type": "WEB",

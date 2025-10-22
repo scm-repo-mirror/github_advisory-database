@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p63-f9jh-3gch",
-  "modified": "2022-05-17T02:58:55Z",
+  "modified": "2025-10-22T00:31:12Z",
   "published": "2022-05-17T02:58:55Z",
   "aliases": [
     "CVE-2015-8651"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201601-03"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-8651"
     },
     {
       "type": "WEB",

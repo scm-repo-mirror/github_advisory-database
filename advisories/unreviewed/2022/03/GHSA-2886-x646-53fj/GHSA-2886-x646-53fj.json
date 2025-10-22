@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2886-x646-53fj",
-  "modified": "2022-03-27T00:00:46Z",
+  "modified": "2025-10-22T00:32:30Z",
   "published": "2022-03-19T00:00:54Z",
   "aliases": [
     "CVE-2022-22620"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213093"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-22620"
     }
   ],
   "database_specific": {

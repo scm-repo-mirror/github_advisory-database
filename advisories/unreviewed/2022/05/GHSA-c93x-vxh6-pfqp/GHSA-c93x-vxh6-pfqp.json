@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c93x-vxh6-pfqp",
-  "modified": "2022-05-13T01:36:32Z",
+  "modified": "2025-10-22T00:31:24Z",
   "published": "2022-05-13T01:36:32Z",
   "aliases": [
     "CVE-2017-6627"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170906-ios-udp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-6627"
     },
     {
       "type": "WEB",

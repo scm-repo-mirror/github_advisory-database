@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6x6-gf9m-8cc3",
-  "modified": "2022-05-13T01:02:16Z",
+  "modified": "2025-10-22T00:31:29Z",
   "published": "2022-05-13T01:02:16Z",
   "aliases": [
     "CVE-2017-11292"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201710-22"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-11292"
     },
     {
       "type": "WEB",

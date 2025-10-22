@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67j3-p5pq-jgr7",
-  "modified": "2024-07-16T18:31:34Z",
+  "modified": "2025-10-22T00:31:11Z",
   "published": "2022-05-17T02:38:22Z",
   "aliases": [
     "CVE-2015-7645"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201511-02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2015-7645"
     },
     {
       "type": "WEB",

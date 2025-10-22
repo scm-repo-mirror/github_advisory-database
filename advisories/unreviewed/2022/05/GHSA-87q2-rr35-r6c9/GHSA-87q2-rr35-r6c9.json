@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87q2-rr35-r6c9",
-  "modified": "2025-02-24T18:32:03Z",
+  "modified": "2025-10-22T00:31:48Z",
   "published": "2022-05-24T17:02:07Z",
   "aliases": [
     "CVE-2019-15271"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20191106-sbrv-cmd-x"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-15271"
     }
   ],
   "database_specific": {

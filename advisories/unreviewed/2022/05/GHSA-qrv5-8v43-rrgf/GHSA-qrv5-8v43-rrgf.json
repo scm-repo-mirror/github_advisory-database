@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrv5-8v43-rrgf",
-  "modified": "2023-08-08T15:31:20Z",
+  "modified": "2025-10-22T00:32:19Z",
   "published": "2022-05-24T19:11:16Z",
   "aliases": [
     "CVE-2021-35395"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-35395"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-35395"
     },
     {
       "type": "WEB",

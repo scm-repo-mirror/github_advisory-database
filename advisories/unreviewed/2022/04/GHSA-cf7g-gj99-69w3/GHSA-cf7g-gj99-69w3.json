@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cf7g-gj99-69w3",
-  "modified": "2022-04-16T00:00:29Z",
+  "modified": "2025-10-22T00:32:31Z",
   "published": "2022-04-16T00:00:29Z",
   "aliases": [
     "CVE-2022-26904"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26904"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-26904"
     }
   ],
   "database_specific": {

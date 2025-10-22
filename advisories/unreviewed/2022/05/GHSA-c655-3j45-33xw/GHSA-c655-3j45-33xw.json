@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c655-3j45-33xw",
-  "modified": "2024-07-25T15:30:34Z",
+  "modified": "2025-10-22T00:31:49Z",
   "published": "2022-05-24T17:03:14Z",
   "aliases": [
     "CVE-2019-18935"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.bleepingcomputer.com/news/security/us-federal-agency-hacked-using-old-telerik-bug-to-steal-data"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-18935"
     },
     {
       "type": "WEB",

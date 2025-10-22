@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfrw-4wr4-4c85",
-  "modified": "2025-02-07T18:31:04Z",
+  "modified": "2025-10-22T00:32:02Z",
   "published": "2022-05-24T17:40:45Z",
   "aliases": [
     "CVE-2020-25506"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-25506"
     },
     {
       "type": "WEB",

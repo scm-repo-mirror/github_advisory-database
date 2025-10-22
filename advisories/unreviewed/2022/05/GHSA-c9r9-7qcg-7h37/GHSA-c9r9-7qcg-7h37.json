@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9r9-7qcg-7h37",
-  "modified": "2024-07-26T21:31:15Z",
+  "modified": "2025-10-22T00:32:25Z",
   "published": "2022-05-24T19:17:05Z",
   "aliases": [
     "CVE-2021-37976"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RNARCF5HEZK7GJXZRN5TQ45AQDCRM2WO"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-37976"
     },
     {
       "type": "WEB",

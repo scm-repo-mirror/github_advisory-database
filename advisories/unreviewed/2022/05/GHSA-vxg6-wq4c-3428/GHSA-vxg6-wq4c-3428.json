@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxg6-wq4c-3428",
-  "modified": "2022-05-13T01:39:50Z",
+  "modified": "2025-10-22T00:31:22Z",
   "published": "2022-05-13T01:39:50Z",
   "aliases": [
     "CVE-2017-0261"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0261"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2017-0261"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3xh-c39x-qghw",
-  "modified": "2025-02-12T21:31:46Z",
+  "modified": "2025-10-22T00:32:21Z",
   "published": "2022-05-24T19:14:55Z",
   "aliases": [
     "CVE-2021-38406"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://us-cert.cisa.gov/ics/advisories/icsa-21-252-02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-38406"
     }
   ],
   "database_specific": {

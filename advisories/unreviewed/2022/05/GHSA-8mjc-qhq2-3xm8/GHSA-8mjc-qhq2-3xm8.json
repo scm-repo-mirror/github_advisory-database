@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mjc-qhq2-3xm8",
-  "modified": "2022-06-11T00:00:33Z",
+  "modified": "2025-10-22T00:32:18Z",
   "published": "2022-05-24T19:09:53Z",
   "aliases": [
     "CVE-2021-26085"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jira.atlassian.com/browse/CONFSERVER-67893"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-26085"
     },
     {
       "type": "WEB",

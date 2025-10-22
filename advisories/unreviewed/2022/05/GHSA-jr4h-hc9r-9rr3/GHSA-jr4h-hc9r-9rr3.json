@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jr4h-hc9r-9rr3",
-  "modified": "2025-01-02T21:31:32Z",
+  "modified": "2025-10-22T00:32:32Z",
   "published": "2022-05-11T00:00:57Z",
   "aliases": [
     "CVE-2022-26925"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26925"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-26925"
     }
   ],
   "database_specific": {

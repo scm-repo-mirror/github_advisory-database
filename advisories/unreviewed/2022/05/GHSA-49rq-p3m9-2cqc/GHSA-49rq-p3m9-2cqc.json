@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49rq-p3m9-2cqc",
-  "modified": "2022-05-13T01:21:29Z",
+  "modified": "2025-10-22T00:31:37Z",
   "published": "2022-05-13T01:21:29Z",
   "aliases": [
     "CVE-2019-0676"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0676"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-0676"
     },
     {
       "type": "WEB",

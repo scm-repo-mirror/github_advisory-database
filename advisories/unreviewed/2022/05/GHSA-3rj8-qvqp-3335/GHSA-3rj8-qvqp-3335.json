@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rj8-qvqp-3335",
-  "modified": "2022-05-13T01:20:18Z",
+  "modified": "2025-10-22T00:31:36Z",
   "published": "2022-05-13T01:20:18Z",
   "aliases": [
     "CVE-2018-5002"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201806-02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-5002"
     },
     {
       "type": "WEB",

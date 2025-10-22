@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-php4-mj74-f79r",
-  "modified": "2024-06-27T21:32:06Z",
+  "modified": "2025-10-22T00:31:13Z",
   "published": "2022-05-13T01:17:09Z",
   "aliases": [
     "CVE-2016-3427"
@@ -21,7 +21,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://lists.apache.org/thread.html/b5e3f51d28cd5d9b1809f56594f2cf63dcd6a90429e16ea9f83bbedc%40%3Cdev.tomcat.apache.org%3E"
+      "url": "https://access.redhat.com/errata/RHSA-2016:1430"
     },
     {
       "type": "WEB",
@@ -93,7 +93,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2016:1430"
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2016-3427"
     },
     {
       "type": "WEB",
@@ -166,6 +166,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/88855876c33f2f9c532ffb75bfee570ccf0b17ffa77493745af9a17a@%3Cdev.tomcat.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/b5e3f51d28cd5d9b1809f56594f2cf63dcd6a90429e16ea9f83bbedc%40%3Cdev.tomcat.apache.org%3E"
     },
     {
       "type": "WEB",

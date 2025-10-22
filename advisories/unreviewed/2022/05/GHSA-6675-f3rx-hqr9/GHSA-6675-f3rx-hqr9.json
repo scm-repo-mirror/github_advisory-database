@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6675-f3rx-hqr9",
-  "modified": "2024-07-25T18:32:33Z",
+  "modified": "2025-10-22T00:32:02Z",
   "published": "2022-05-24T17:41:36Z",
   "aliases": [
     "CVE-2021-21148"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202104-08"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-21148"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93mm-g479-2cx4",
-  "modified": "2022-05-13T01:53:46Z",
+  "modified": "2025-10-22T00:31:36Z",
   "published": "2022-05-13T01:53:46Z",
   "aliases": [
     "CVE-2018-8639"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8639"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-8639"
     },
     {
       "type": "WEB",

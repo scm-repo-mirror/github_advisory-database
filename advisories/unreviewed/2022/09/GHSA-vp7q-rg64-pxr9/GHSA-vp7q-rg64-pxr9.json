@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp7q-rg64-pxr9",
-  "modified": "2022-09-14T00:00:45Z",
+  "modified": "2025-10-22T00:32:35Z",
   "published": "2022-09-14T00:00:45Z",
   "aliases": [
     "CVE-2022-37969"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37969"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-37969"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vw5m-894x-7rp4",
-  "modified": "2022-09-04T00:00:22Z",
+  "modified": "2025-10-22T00:31:58Z",
   "published": "2022-05-24T17:30:31Z",
   "aliases": [
     "CVE-2020-5135"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2020-0010"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-5135"
     }
   ],
   "database_specific": {

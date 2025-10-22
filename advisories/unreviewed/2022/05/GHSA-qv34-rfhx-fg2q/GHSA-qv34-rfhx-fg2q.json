@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv34-rfhx-fg2q",
-  "modified": "2022-05-24T21:59:43Z",
+  "modified": "2025-10-22T00:31:38Z",
   "published": "2022-05-24T21:59:43Z",
   "aliases": [
     "CVE-2019-3398"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/bugtraq/2019/Apr/33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-3398"
     },
     {
       "type": "WEB",

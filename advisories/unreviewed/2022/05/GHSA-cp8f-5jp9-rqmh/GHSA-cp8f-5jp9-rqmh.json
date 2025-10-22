@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp8f-5jp9-rqmh",
-  "modified": "2022-05-13T01:14:26Z",
+  "modified": "2025-10-22T00:31:37Z",
   "published": "2022-05-13T01:14:26Z",
   "aliases": [
     "CVE-2019-7609"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://discuss.elastic.co/t/elastic-stack-6-6-1-and-5-6-15-security-update/169077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-7609"
     },
     {
       "type": "WEB",

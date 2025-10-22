@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55hv-x43w-phcv",
-  "modified": "2022-05-24T16:53:00Z",
+  "modified": "2025-10-22T00:31:42Z",
   "published": "2022-05-24T16:53:00Z",
   "aliases": [
     "CVE-2019-11581"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jira.atlassian.com/browse/JRASERVER-69532"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-11581"
     }
   ],
   "database_specific": {

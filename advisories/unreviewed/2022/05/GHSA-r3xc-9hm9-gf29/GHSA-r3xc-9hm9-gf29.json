@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3xc-9hm9-gf29",
-  "modified": "2025-02-04T21:32:20Z",
+  "modified": "2025-10-22T00:31:56Z",
   "published": "2022-05-24T17:22:48Z",
   "aliases": [
     "CVE-2020-10987"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.securityevaluators.com/tenda-ac1900-vulnerabilities-discovered-and-exploited-e8e26aa0bc68"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2020-10987"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2q79-m25p-r2q3",
-  "modified": "2024-07-25T15:30:34Z",
+  "modified": "2025-10-22T00:31:41Z",
   "published": "2022-05-24T16:47:08Z",
   "aliases": [
     "CVE-2018-13379"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://i.blackhat.com/USA-19/Wednesday/us-19-Tsai-Infiltrating-Corporate-Intranet-Like-NSA.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-13379"
     },
     {
       "type": "WEB",
