@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gm7-v7vw-866c",
-  "modified": "2024-07-25T19:57:27Z",
+  "modified": "2025-10-22T17:44:24Z",
   "published": "2019-08-01T19:17:35Z",
   "aliases": [
     "CVE-2019-0193"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -45,8 +45,8 @@
       "url": "https://github.com/apache/lucene-solr/commit/02c693f3713add1b4891cbaa87127de3a55c10f7"
     },
     {
-      "type": "WEB",
-      "url": "https://issues.apache.org/jira/browse/SOLR-13669"
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/lucene-solr"
     },
     {
       "type": "WEB",
@@ -127,6 +127,14 @@
     {
       "type": "WEB",
       "url": "https://snyk.io/vuln/SNYK-JAVA-ORGAPACHESOLR-536063"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-0193"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.apache.org/jira/browse/SOLR-13669"
     },
     {
       "type": "WEB",

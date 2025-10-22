@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww97-9w65-2crx",
-  "modified": "2024-07-25T20:19:23Z",
+  "modified": "2025-10-22T17:45:47Z",
   "published": "2020-02-12T18:45:28Z",
   "aliases": [
     "CVE-2019-17558"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:H"
     }
   ],
   "affected": [
@@ -219,7 +219,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-17558"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/cpuoct2020.html"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/lucene-solr"
     },
     {
       "type": "WEB",

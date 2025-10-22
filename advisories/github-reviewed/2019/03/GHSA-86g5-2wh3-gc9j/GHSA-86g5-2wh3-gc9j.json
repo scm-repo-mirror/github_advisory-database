@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86g5-2wh3-gc9j",
-  "modified": "2025-07-09T14:58:03Z",
+  "modified": "2025-10-22T17:42:49Z",
   "published": "2019-03-13T17:26:59Z",
   "aliases": [
     "CVE-2019-5418"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:H"
     }
   ],
   "affected": [
@@ -126,10 +126,6 @@
       "url": "https://access.redhat.com/errata/RHSA-2019:1289"
     },
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-86g5-2wh3-gc9j"
-    },
-    {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/rubyonrails-security/pFRKI96Sm8Q"
     },
@@ -160,6 +156,10 @@
     {
       "type": "WEB",
       "url": "https://weblog.rubyonrails.org/2019/3/13/Rails-4-2-5-1-5-1-6-2-have-been-released"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-5418"
     },
     {
       "type": "WEB",
