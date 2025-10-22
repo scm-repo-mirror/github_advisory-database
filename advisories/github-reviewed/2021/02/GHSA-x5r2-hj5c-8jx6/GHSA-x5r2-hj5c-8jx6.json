@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5r2-hj5c-8jx6",
-  "modified": "2021-06-24T19:56:17Z",
+  "modified": "2025-10-22T19:05:30Z",
   "published": "2021-02-11T20:42:59Z",
   "aliases": [
     "CVE-2021-21311"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N/E:H"
     }
   ],
   "affected": [
@@ -49,6 +49,10 @@
       "url": "https://github.com/vrana/adminer/commit/ccd2374b0b12bd547417bf0dacdf153826c83351"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/vrana/adminer"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/vrana/adminer/files/5957311/Adminer.SSRF.pdf"
     },
@@ -63,6 +67,10 @@
     {
       "type": "WEB",
       "url": "https://sourceforge.net/p/adminer/news/2021/02/adminer-479-released"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-21311"
     }
   ],
   "database_specific": {
