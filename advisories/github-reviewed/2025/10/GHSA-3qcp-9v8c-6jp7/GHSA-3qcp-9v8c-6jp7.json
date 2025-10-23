@@ -1,21 +1,47 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qcp-9v8c-6jp7",
-  "modified": "2025-10-23T18:31:15Z",
+  "modified": "2025-10-23T20:31:36Z",
   "published": "2025-10-23T18:31:15Z",
   "aliases": [
     "CVE-2025-61413"
   ],
+  "summary": "Piranha CMS vulnerable to stored cross-site scripting (XSS)",
   "details": "A stored cross-site scripting (XSS) vulnerability in the /manager/pages component of Piranha CMS v12.1 allows attackers to execute arbitrary web scripts or HTML via creating a page and injecting a crafted payload into the Markdown blocks.",
-  "severity": [],
-  "affected": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "NuGet",
+        "name": "Piranha"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "12.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61413"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/PiranhaCMS/piranha.core"
     },
     {
@@ -28,10 +54,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-10-23T20:31:36Z",
     "nvd_published_at": "2025-10-23T18:16:23Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g99p-47x7-mq88",
-  "modified": "2025-09-30T15:16:09Z",
+  "modified": "2025-10-23T20:32:56Z",
   "published": "2025-09-29T20:40:08Z",
   "aliases": [
     "CVE-2025-59942"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/filecoin-project/go-f3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3990"
     }
   ],
   "database_specific": {
