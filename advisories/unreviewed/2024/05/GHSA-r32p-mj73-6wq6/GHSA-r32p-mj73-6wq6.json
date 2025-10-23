@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r32p-mj73-6wq6",
-  "modified": "2024-05-14T18:30:59Z",
+  "modified": "2025-10-23T12:31:14Z",
   "published": "2024-05-14T18:30:59Z",
   "aliases": [
     "CVE-2024-28165"
   ],
-  "details": "\nSAP Business Objects Business Intelligence Platform is vulnerable to stored XSS allowing an attacker to manipulate a parameter in the Opendocument URL which could lead to high impact on Confidentiality and Integrity of the application\n\n",
+  "details": "SAP Business Objects Business Intelligence Platform is vulnerable to stored XSS allowing an attacker to manipulate a parameter in the Opendocument URL which could lead to high impact on Confidentiality and Integrity of the application",
   "severity": [
     {
       "type": "CVSS_V3",

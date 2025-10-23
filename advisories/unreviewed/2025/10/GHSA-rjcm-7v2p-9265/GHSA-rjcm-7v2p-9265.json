@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rjcm-7v2p-9265",
+  "modified": "2025-10-23T12:31:16Z",
+  "published": "2025-10-23T12:31:16Z",
+  "aliases": [
+    "CVE-2025-62393"
+  ],
+  "details": "A flaw was found in the course overview output function where user access permissions were not fully enforced. This could allow unauthorized users to view information about courses they should not have access to, potentially exposing limited course details.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62393"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-62393"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2404426"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-23T12:15:31Z"
+  }
+}
