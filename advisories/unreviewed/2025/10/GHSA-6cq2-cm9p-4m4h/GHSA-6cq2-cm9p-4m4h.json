@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cq2-cm9p-4m4h",
-  "modified": "2025-10-22T15:31:13Z",
+  "modified": "2025-10-23T15:30:31Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49917"
   ],
   "details": "Server-Side Request Forgery (SSRF) vulnerability in Icegram Icegram Express Pro email-subscribers-premium allows Server Side Request Forgery.This issue affects Icegram Express Pro: from n/a through <= 5.9.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-918"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:37Z"

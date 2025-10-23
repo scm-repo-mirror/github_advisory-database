@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmmq-w6c8-93j5",
-  "modified": "2025-10-22T15:31:16Z",
+  "modified": "2025-10-23T15:30:32Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-58916"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Munzir Author: Munzir myshouts-shoutbox allows Reflected XSS.This issue affects Author: Munzir: from n/a through <= 0.9.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:52Z"

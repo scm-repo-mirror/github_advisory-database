@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjj9-hq36-7gwq",
-  "modified": "2025-10-22T15:31:20Z",
+  "modified": "2025-10-23T15:30:34Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62071"
   ],
   "details": "Missing Authorization vulnerability in Repuso Social proof testimonials and reviews by Repuso social-testimonials-and-reviews-widget.This issue affects Social proof testimonials and reviews by Repuso: from n/a through <= 5.29.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:16:05Z"

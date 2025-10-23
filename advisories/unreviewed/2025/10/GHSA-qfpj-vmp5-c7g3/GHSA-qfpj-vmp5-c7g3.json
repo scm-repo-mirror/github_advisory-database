@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfpj-vmp5-c7g3",
-  "modified": "2025-10-22T15:31:19Z",
+  "modified": "2025-10-23T15:30:33Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62054"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in favethemes Houzez Theme - Functionality houzez-theme-functionality.This issue affects Houzez Theme - Functionality: from n/a through <= 4.1.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:16:04Z"

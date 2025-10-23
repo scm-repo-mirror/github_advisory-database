@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x3r-36pw-49rf",
-  "modified": "2025-10-22T15:31:19Z",
+  "modified": "2025-10-23T15:30:34Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62068"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in E2Pdf e2pdf e2pdf.This issue affects e2pdf: from n/a through <= 1.28.09.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:16:05Z"

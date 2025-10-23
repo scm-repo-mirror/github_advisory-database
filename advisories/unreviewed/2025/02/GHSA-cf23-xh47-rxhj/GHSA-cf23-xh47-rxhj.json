@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cf23-xh47-rxhj",
-  "modified": "2025-02-27T03:34:02Z",
+  "modified": "2025-10-23T15:30:22Z",
   "published": "2025-02-27T03:34:02Z",
   "aliases": [
     "CVE-2024-54456"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFS: Fix potential buffer overflowin nfs_sysfs_link_rpc_client()\n\nname is char[64] where the size of clnt->cl_program->name remains\nunknown. Invoking strcat() directly will also lead to potential buffer\noverflow. Change them to strscpy() and strncat() to fix potential\nissues.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:10Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9w7-xppr-936q",
-  "modified": "2025-10-21T12:31:27Z",
+  "modified": "2025-10-23T15:30:31Z",
   "published": "2025-10-21T12:31:27Z",
   "aliases": [
     "CVE-2025-9428"

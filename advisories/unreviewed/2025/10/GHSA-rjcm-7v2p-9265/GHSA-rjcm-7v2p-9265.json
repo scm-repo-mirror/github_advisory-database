@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjcm-7v2p-9265",
-  "modified": "2025-10-23T12:31:16Z",
+  "modified": "2025-10-23T15:30:34Z",
   "published": "2025-10-23T12:31:16Z",
   "aliases": [
     "CVE-2025-62393"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2404426"
+    },
+    {
+      "type": "WEB",
+      "url": "https://moodle.org/mod/forum/discuss.php?d=470381"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89xc-2ppw-m4hv",
-  "modified": "2025-10-22T15:31:18Z",
+  "modified": "2025-10-23T15:30:33Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60212"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in designthemes VEDA veda allows Object Injection.This issue affects VEDA: from n/a through <= 4.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:15:58Z"

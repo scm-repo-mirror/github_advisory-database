@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv29-qjr2-9hm4",
-  "modified": "2025-10-22T15:31:19Z",
+  "modified": "2025-10-23T15:30:34Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62061"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in impleCode Product Catalog Simple post-type-x.This issue affects Product Catalog Simple: from n/a through <= 1.8.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-22T15:16:05Z"
