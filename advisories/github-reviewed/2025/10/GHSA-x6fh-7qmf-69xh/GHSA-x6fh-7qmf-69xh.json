@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6fh-7qmf-69xh",
-  "modified": "2025-10-23T06:31:00Z",
+  "modified": "2025-10-23T16:49:07Z",
   "published": "2025-10-23T06:31:00Z",
   "aliases": [
     "CVE-2025-62820"
   ],
+  "summary": "Slack Nebula may accept arbitrary source IP addresses ",
   "details": "Slack Nebula before 1.9.7 mishandles CIDR in some configurations and thus accepts arbitrary source IP addresses within the Nebula network.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/slackhq/nebula"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.9.4"
+            },
+            {
+              "fixed": "1.9.7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/slackhq/nebula/pull/1494"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/slackhq/nebula/commit/e264a0ff888c7bf0568579306755a60fc42f6ecc"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/slackhq/nebula"
     }
   ],
   "database_specific": {
@@ -33,8 +62,8 @@
       "CWE-420"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-10-23T16:49:07Z",
     "nvd_published_at": "2025-10-23T04:18:57Z"
   }
 }
