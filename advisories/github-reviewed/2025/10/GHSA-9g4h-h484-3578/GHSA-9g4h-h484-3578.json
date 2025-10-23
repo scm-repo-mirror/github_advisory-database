@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g4h-h484-3578",
-  "modified": "2025-10-23T22:21:01Z",
+  "modified": "2025-10-23T22:24:03Z",
   "published": "2025-10-23T21:31:43Z",
   "aliases": [
     "CVE-2025-11621"
   ],
-  "summary": "HashiCorp Vault and Vault Enterprise’s AWS Auth method may be susceptible to authentication bypass",
-  "details": "Vault and Vault Enterprise’s (“Vault”) AWS Auth method may be susceptible to authentication bypass if the role of the configured bound_principal_iam is the same across AWS accounts, or uses a wildcard. This vulnerability is fixed in Vault Community Edition 1.21.0 and Vault Enterprise 1.21.0, 1.20.5, 1.19.11, and 1.16.27.",
+  "summary": "HashiCorp Vault and Vault Enterprise's AWS Auth method may be susceptible to authentication bypass",
+  "details": "Vault and Vault Enterprise's (\"Vault\") AWS Auth method may be susceptible to authentication bypass if the role of the configured bound_principal_iam is the same across AWS accounts, or uses a wildcard. This vulnerability is fixed in Vault Community Edition 1.21.0 and Vault Enterprise 1.21.0, 1.20.5, 1.19.11, and 1.16.27.",
   "severity": [
     {
       "type": "CVSS_V3",
