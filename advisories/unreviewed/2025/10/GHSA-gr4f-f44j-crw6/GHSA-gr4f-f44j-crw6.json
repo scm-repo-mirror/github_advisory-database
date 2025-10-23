@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr4f-f44j-crw6",
-  "modified": "2025-10-23T18:31:15Z",
+  "modified": "2025-10-23T21:31:43Z",
   "published": "2025-10-23T18:31:15Z",
   "aliases": [
     "CVE-2025-57240"
   ],
   "details": "Cross site scripting (XSS) vulnerability in 17gz International Student service system 1.0 allows attackers to execute arbitrary code via the registration step.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-23T18:16:06Z"

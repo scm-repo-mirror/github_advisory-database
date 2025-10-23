@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2rh-fc48-r3gw",
-  "modified": "2025-10-21T03:30:16Z",
+  "modified": "2025-10-23T21:31:42Z",
   "published": "2025-10-21T03:30:16Z",
   "aliases": [
     "CVE-2025-7851"
   ],
   "details": "An attacker may obtain the root shell on the underlying OS system with the restricted conditions on Omada gateways.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:A/AC:H/AT:P/PR:H/UI:N/VC:H/VI:H/VA:H/SC:L/SI:L/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
