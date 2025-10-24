@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r2h4-4c8x-933j",
-  "modified": "2025-06-27T03:30:41Z",
+  "modified": "2025-10-24T18:30:57Z",
   "published": "2025-06-27T03:30:41Z",
   "aliases": [
     "CVE-2025-47820"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47820"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gainsec.com/2025/06/19/bird-hunting-season-security-research-on-flock-safety-anti-crime-systems"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gainsec.com/2025/06/19/plucked-and-rooted-device-1-debug-shell-on-flock-safetys-raven-gunshot-detection-system"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gainsec.com/wp-content/uploads/2025/06/flock-safety-researcher-summary.pdf"
     },
     {
       "type": "WEB",

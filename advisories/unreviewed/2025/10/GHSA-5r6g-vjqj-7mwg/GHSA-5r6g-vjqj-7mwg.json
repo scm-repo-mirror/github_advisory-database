@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r6g-vjqj-7mwg",
-  "modified": "2025-10-23T21:31:42Z",
+  "modified": "2025-10-24T18:30:58Z",
   "published": "2025-10-21T03:30:16Z",
   "aliases": [
     "CVE-2025-7850"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.omadanetworks.com/en/document/108456"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.forescout.com/blog/new-tp-link-router-vulnerabilities-a-primer-on-rooting-routers"
     },
     {
       "type": "WEB",
