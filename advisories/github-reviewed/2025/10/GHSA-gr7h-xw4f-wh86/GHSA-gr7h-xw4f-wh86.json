@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr7h-xw4f-wh86",
-  "modified": "2025-10-23T17:40:01Z",
+  "modified": "2025-10-24T18:27:44Z",
   "published": "2025-10-22T19:41:49Z",
   "aliases": [
     "CVE-2025-62710"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N"
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
   "affected": [
@@ -57,7 +57,7 @@
     "cwe_ids": [
       "CWE-337"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-22T19:41:49Z",
     "nvd_published_at": "2025-10-22T23:15:34Z"
