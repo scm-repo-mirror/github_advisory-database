@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-943j-4893-6rfq",
-  "modified": "2025-10-20T15:30:25Z",
+  "modified": "2025-10-25T00:30:39Z",
   "published": "2025-10-14T18:30:36Z",
   "aliases": [
     "CVE-2025-59287"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-59287"
     }
   ],
   "database_specific": {
