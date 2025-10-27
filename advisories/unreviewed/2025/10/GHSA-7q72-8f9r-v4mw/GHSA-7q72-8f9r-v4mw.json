@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q72-8f9r-v4mw",
-  "modified": "2025-10-01T21:31:21Z",
+  "modified": "2025-10-27T06:30:26Z",
   "published": "2025-10-01T21:31:21Z",
   "aliases": [
     "CVE-2025-46205"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46205"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ShadowByte1/CVE-Reports/issues/1"
     },
     {
       "type": "WEB",
