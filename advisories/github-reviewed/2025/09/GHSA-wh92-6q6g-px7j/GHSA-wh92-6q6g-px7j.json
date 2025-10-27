@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh92-6q6g-px7j",
-  "modified": "2025-10-24T19:34:54Z",
+  "modified": "2025-10-27T15:13:09Z",
   "published": "2025-09-09T15:31:19Z",
   "aliases": [
     "CVE-2025-54236"
@@ -195,6 +195,10 @@
     {
       "type": "WEB",
       "url": "https://nullsecurityx.codes/cve-2025-54236-sessionreaper-unauthenticated-rce-in-magento"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-54236"
     }
   ],
   "database_specific": {
