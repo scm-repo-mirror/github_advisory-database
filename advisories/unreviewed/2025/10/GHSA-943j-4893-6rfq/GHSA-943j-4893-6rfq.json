@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-943j-4893-6rfq",
-  "modified": "2025-10-25T00:30:39Z",
+  "modified": "2025-10-27T15:30:21Z",
   "published": "2025-10-14T18:30:36Z",
   "aliases": [
     "CVE-2025-59287"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://hawktrace.com/blog/CVE-2025-59287"
+    },
+    {
+      "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-server-wsus-flaw-exploited-in-attacks"
     },
     {
       "type": "WEB",

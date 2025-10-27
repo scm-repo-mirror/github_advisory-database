@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prw8-6vx3-vrxm",
-  "modified": "2025-10-27T03:30:39Z",
+  "modified": "2025-10-27T15:30:33Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62959"
   ],
   "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in videowhisper Paid Videochat Turnkey Site ppv-live-webcams allows Remote Code Inclusion.This issue affects Paid Videochat Turnkey Site: from n/a through <= 7.3.22.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-94"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-27T02:15:56Z"

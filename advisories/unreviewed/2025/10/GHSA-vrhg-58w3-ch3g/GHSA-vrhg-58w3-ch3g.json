@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrhg-58w3-ch3g",
-  "modified": "2025-10-27T03:30:38Z",
+  "modified": "2025-10-27T15:30:31Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62921"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Pagup Bulk Auto Image Title Attribute bulk-image-title-attribute allows DOM-Based XSS.This issue affects Bulk Auto Image Title Attribute: from n/a through <= 2.0.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-27T02:15:51Z"
