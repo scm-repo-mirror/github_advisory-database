@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89vx-7m9v-cf88",
-  "modified": "2025-04-08T09:31:12Z",
+  "modified": "2025-10-28T18:30:24Z",
   "published": "2025-04-08T09:31:12Z",
   "aliases": [
     "CVE-2025-22016"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndpll: fix xa_alloc_cyclic() error handling\n\nIn case of returning 1 from xa_alloc_cyclic() (wrapping) ERR_PTR(1) will\nbe returned, which will cause IS_ERR() to be false. Which can lead to\ndereference not allocated pointer (pin).\n\nFix it by checking if err is lower than zero.\n\nThis wasn't found in real usecase, only noticed. Credit to Pierre.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-08T09:15:26Z"

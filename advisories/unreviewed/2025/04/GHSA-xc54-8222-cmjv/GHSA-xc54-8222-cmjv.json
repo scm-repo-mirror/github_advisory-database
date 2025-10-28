@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xc54-8222-cmjv",
-  "modified": "2025-04-10T15:31:46Z",
+  "modified": "2025-10-28T18:30:24Z",
   "published": "2025-04-02T15:31:37Z",
   "aliases": [
     "CVE-2025-21992"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: ignore non-functional sensor in HP 5MP Camera\n\nThe HP 5MP Camera (USB ID 0408:5473) reports a HID sensor interface that\nis not actually implemented. Attempting to access this non-functional\nsensor via iio_info causes system hangs as runtime PM tries to wake up\nan unresponsive sensor.\n\n  [453] hid-sensor-hub 0003:0408:5473.0003: Report latency attributes: ffffffff:ffffffff\n  [453] hid-sensor-hub 0003:0408:5473.0003: common attributes: 5:1, 2:1, 3:1 ffffffff:ffffffff\n\nAdd this device to the HID ignore list since the sensor interface is\nnon-functional by design and should not be exposed to userspace.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-02T13:15:43Z"
