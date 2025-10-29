@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9qv-g34c-5xgf",
-  "modified": "2025-08-04T12:30:41Z",
+  "modified": "2025-10-29T09:30:22Z",
   "published": "2025-08-04T12:30:41Z",
   "aliases": [
     "CVE-2025-8515"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8515"
+    },
+    {
+      "type": "WEB",
+      "url": "https://backend.intelbras.com/sites/default/files/2025-08/Aviso%20de%20Seguran%C3%A7a%20-%20Incontrol%202.21.60%20e%202.21.61%20PT-IN%20.pdf"
     },
     {
       "type": "WEB",

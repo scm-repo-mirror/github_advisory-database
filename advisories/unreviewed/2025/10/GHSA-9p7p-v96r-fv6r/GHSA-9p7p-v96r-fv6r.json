@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9p7p-v96r-fv6r",
+  "modified": "2025-10-29T09:30:23Z",
+  "published": "2025-10-29T09:30:22Z",
+  "aliases": [
+    "CVE-2025-60075"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Allegro Marketing hpb seo plugin for WordPress hpbseo allows Reflected XSS.This issue affects hpb seo plugin for WordPress: from n/a through <= 3.0.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60075"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/hpbseo/vulnerability/wordpress-hpb-seo-plugin-for-wordpress-plugin-3-0-1-cross-site-request-forgery-csrf-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-29T09:15:38Z"
+  }
+}

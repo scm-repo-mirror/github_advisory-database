@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qh3g-9vrf-p9vh",
+  "modified": "2025-10-29T09:30:22Z",
+  "published": "2025-10-29T09:30:22Z",
+  "aliases": [
+    "CVE-2025-58711"
+  ],
+  "details": "Missing Authorization vulnerability in solwin Blog Designer PRO blog-designer-pro allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Blog Designer PRO: from n/a through <= 3.4.8.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58711"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/blog-designer-pro/vulnerability/wordpress-blog-designer-pro-plugin-3-4-8-broken-access-control-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-29T09:15:37Z"
+  }
+}

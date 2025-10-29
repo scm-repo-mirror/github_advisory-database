@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f647-c8g3-5cgm",
+  "modified": "2025-10-29T09:30:22Z",
+  "published": "2025-10-29T09:30:22Z",
+  "aliases": [
+    "CVE-2025-58939"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in highwarden Super Store Finder superstorefinder-wp allows Cross Site Request Forgery.This issue affects Super Store Finder: from n/a through <= 7.5.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58939"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/superstorefinder-wp/vulnerability/wordpress-super-store-finder-plugin-7-5-cross-site-request-forgery-csrf-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-29T09:15:37Z"
+  }
+}

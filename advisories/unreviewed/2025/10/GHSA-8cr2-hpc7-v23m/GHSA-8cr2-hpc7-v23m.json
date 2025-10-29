@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8cr2-hpc7-v23m",
+  "modified": "2025-10-29T09:30:24Z",
+  "published": "2025-10-29T09:30:24Z",
+  "aliases": [
+    "CVE-2025-64283"
+  ],
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Rometheme RTMKit rometheme-for-elementor allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects RTMKit: from n/a through <= 1.6.7.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64283"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/rometheme-for-elementor/vulnerability/wordpress-rtmkit-plugin-1-6-7-insecure-direct-object-references-idor-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-639"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-29T09:15:44Z"
+  }
+}
