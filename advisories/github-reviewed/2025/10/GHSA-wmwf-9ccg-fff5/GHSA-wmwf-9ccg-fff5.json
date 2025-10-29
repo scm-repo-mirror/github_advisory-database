@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmwf-9ccg-fff5",
-  "modified": "2025-10-28T17:55:42Z",
+  "modified": "2025-10-29T10:22:01Z",
   "published": "2025-10-27T18:31:13Z",
   "aliases": [
     "CVE-2025-55752"
@@ -63,7 +63,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "9.0.0.40"
+              "introduced": "9.0.0-M11"
             },
             {
               "fixed": "9.0.109"
@@ -139,7 +139,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "9.0.0.40"
+              "introduced": "9.0.0-M11"
             },
             {
               "fixed": "9.0.109"
@@ -215,7 +215,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "9.0.0.40"
+              "introduced": "9.0.0-M11"
             },
             {
               "fixed": "9.0.109"
