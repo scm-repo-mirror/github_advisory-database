@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7f5h-v6xp-fcq8",
-  "modified": "2025-10-28T20:38:01Z",
+  "modified": "2025-10-29T14:48:52Z",
   "published": "2025-10-28T20:38:01Z",
   "aliases": [
     "CVE-2025-62727"
@@ -44,6 +44,10 @@
       "url": "https://github.com/Kludex/starlette/security/advisories/GHSA-7f5h-v6xp-fcq8"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62727"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Kludex/starlette/commit/4ea6e22b489ec388d6004cfbca52dd5b147127c5"
     },
@@ -64,6 +68,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-28T20:38:01Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-10-28T21:15:40Z"
   }
 }

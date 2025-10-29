@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8j9-34qf-7vq7",
-  "modified": "2025-10-28T17:31:32Z",
+  "modified": "2025-10-29T14:47:34Z",
   "published": "2025-10-28T17:31:32Z",
   "aliases": [
     "CVE-2025-27093"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/bishopfox/sliver"
+        "name": "github.com/BishopFox/sliver"
       },
       "ranges": [
         {
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.5.43"
+              "fixed": "1.5.44"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.5.43"
+      }
     }
   ],
   "references": [
@@ -41,8 +44,16 @@
       "url": "https://github.com/BishopFox/sliver/security/advisories/GHSA-q8j9-34qf-7vq7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27093"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/BishopFox/sliver/commit/8e5c5f14506d6d60ebb3362e6b9857ab1e0d76ff"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/BishopFox/sliver/commit/9122878cbbcae543eb8210f616550382af2065fd"
     },
     {
       "type": "PACKAGE",
@@ -56,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-28T17:31:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-10-28T20:15:47Z"
   }
 }
