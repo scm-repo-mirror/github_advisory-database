@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrmw-f63j-cpmf",
-  "modified": "2025-10-28T12:30:16Z",
+  "modified": "2025-10-29T15:31:53Z",
   "published": "2025-10-28T12:30:16Z",
   "aliases": [
     "CVE-2025-40042"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40042"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/07926ce598a95de6fd874a74fb510e2ebdfd0aae"
     },
     {
       "type": "WEB",
@@ -29,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/95dd33361061f808d1f68616d69ada639e737cfa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9c4951b691bb8d7a004acd010f45144391f85ea6"
     },
     {
       "type": "WEB",

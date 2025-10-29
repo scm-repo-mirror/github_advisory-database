@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4653-9q2r-684q",
+  "modified": "2025-10-29T15:31:56Z",
+  "published": "2025-10-29T15:31:56Z",
+  "aliases": [
+    "CVE-2025-64143"
+  ],
+  "details": "Jenkins OpenShift Pipeline Plugin 1.0.57 and earlier stores authorization tokens unencrypted in job config.xml files on the Jenkins controller where they can be viewed by users with Item/Extended Read permission, or access to the Jenkins controller file system.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64143"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.jenkins.io/security/advisory/2025-10-29/#SECURITY-3553"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-311"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-29T14:15:58Z"
+  }
+}

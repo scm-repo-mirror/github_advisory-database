@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p46-x25w-pgvh",
-  "modified": "2025-10-28T12:30:14Z",
+  "modified": "2025-10-29T15:31:53Z",
   "published": "2025-10-28T12:30:14Z",
   "aliases": [
     "CVE-2025-40026"
@@ -16,6 +16,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/00338255bb1f422642fb2798ebe92e93b6e4209b"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3a062a5c55adc5507600b9ae6d911e247e2f1d6e"
     },
     {
@@ -25,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7366830642505683bbe905a2ba5d18d6e4b512b8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a908eca437789589dd4624da428614c1275064dc"
     },
     {
       "type": "WEB",

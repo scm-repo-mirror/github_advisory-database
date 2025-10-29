@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cv4f-qx52-9x29",
-  "modified": "2025-10-28T12:30:15Z",
+  "modified": "2025-10-29T15:31:53Z",
   "published": "2025-10-28T12:30:15Z",
   "aliases": [
     "CVE-2025-40029"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2ead548473f58c7960b6b939b79503c4a0a2c0bd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/58dd05070b57a20f22ff35a34ef9846bdf49a1d0"
     },
     {
       "type": "WEB",

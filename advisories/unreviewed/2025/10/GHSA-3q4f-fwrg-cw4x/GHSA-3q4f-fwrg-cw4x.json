@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3q4f-fwrg-cw4x",
-  "modified": "2025-10-28T12:30:16Z",
+  "modified": "2025-10-29T15:31:53Z",
   "published": "2025-10-28T12:30:16Z",
   "aliases": [
     "CVE-2025-40040"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40040"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/41cb9fd904fe0c39d52e82dd84dc3c96b7aa9693"
     },
     {
       "type": "WEB",

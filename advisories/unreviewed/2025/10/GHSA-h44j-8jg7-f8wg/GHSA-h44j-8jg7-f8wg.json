@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h44j-8jg7-f8wg",
-  "modified": "2025-10-28T15:30:47Z",
+  "modified": "2025-10-29T15:31:54Z",
   "published": "2025-10-28T15:30:47Z",
   "aliases": [
     "CVE-2025-61043"
   ],
   "details": "An out-of-bounds read vulnerability has been discovered in Monkey's Audio 11.31, specifically in the CAPECharacterHelper::GetUTF16FromUTF8 function. The issue arises from improper handling of the length of the input UTF-8 string, causing the function to read past the memory boundary. This vulnerability may result in a crash or expose sensitive data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-28T15:16:12Z"

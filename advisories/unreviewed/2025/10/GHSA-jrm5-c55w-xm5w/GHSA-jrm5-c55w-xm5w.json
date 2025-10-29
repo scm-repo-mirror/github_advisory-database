@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrm5-c55w-xm5w",
-  "modified": "2025-10-24T12:30:51Z",
+  "modified": "2025-10-29T15:31:52Z",
   "published": "2025-10-24T12:30:51Z",
   "aliases": [
     "CVE-2025-40019"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/29294dd6f1e7acf527255fb136ffde6602c3a129"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6bb73db6948c2de23e407fe1b7ef94bf02b7529f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/71f03f8f72d9c70ffba76980e78b38c180e61589"
     },
     {
       "type": "WEB",

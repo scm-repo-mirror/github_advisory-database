@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh2m-xfgm-crh8",
-  "modified": "2025-10-19T15:30:15Z",
+  "modified": "2025-10-29T15:31:50Z",
   "published": "2025-04-16T15:34:41Z",
   "aliases": [
     "CVE-2025-22058"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22058"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/13550273171f5108b1ac572d8f72f4256ab92854"
     },
     {
       "type": "WEB",
@@ -37,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c4bac6c398118fba79e32b1cd01db22dbfe29fbf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d9c8266ce536e8314d84370e983afcaa36fb19cf"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gqc-2cg6-q36c",
-  "modified": "2025-10-28T15:30:47Z",
+  "modified": "2025-10-29T15:31:54Z",
   "published": "2025-10-28T15:30:47Z",
   "aliases": [
     "CVE-2025-61128"
   ],
   "details": "Stack-based buffer overflow vulnerability in WAVLINK QUANTUM D3G/WL-WN530HG3 firmware M30HG3_V240730, and possibly other wavlink models allows attackers to execute arbitrary code via crafted referrer value POST to login.cgi.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-28T15:16:13Z"

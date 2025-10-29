@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8624-7rmq-755f",
-  "modified": "2022-12-02T18:30:28Z",
+  "modified": "2025-10-29T15:31:49Z",
   "published": "2022-11-29T21:30:24Z",
   "aliases": [
     "CVE-2021-31693"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxjc-4ppm-x655",
-  "modified": "2025-10-28T12:30:16Z",
+  "modified": "2025-10-29T15:31:53Z",
   "published": "2025-10-28T12:30:16Z",
   "aliases": [
     "CVE-2025-40053"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8169a6011c5fecc6cb1c3654c541c567d3318de8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/84fd710a704f3d53d4120e452e86cea558cf73a8"
     },
     {
       "type": "WEB",

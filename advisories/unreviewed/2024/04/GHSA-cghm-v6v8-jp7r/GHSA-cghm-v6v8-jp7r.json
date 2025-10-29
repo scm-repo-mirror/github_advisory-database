@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cghm-v6v8-jp7r",
-  "modified": "2024-07-03T18:37:11Z",
+  "modified": "2025-10-29T15:31:50Z",
   "published": "2024-04-28T15:30:29Z",
   "aliases": [
     "CVE-2022-48635"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/17d9c15c9b9e7fb285f7ac5367dfb5f00ff575e3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/463f36137c40342fb03bba380c1bf703c40d89a6"
     },
     {
       "type": "WEB",

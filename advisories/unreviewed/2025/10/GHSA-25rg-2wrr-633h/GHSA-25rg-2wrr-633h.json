@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-25rg-2wrr-633h",
-  "modified": "2025-10-24T12:30:51Z",
+  "modified": "2025-10-29T15:31:52Z",
   "published": "2025-10-24T12:30:51Z",
   "aliases": [
     "CVE-2025-40018"
@@ -24,7 +24,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/421b1ae1574dfdda68b835c15ac4921ec0030182"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/53717f8a4347b78eac6488072ad8e5adbaff38d9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8a6ecab3847c213ce2855b0378e63ce839085de3"
     },
     {
       "type": "WEB",
