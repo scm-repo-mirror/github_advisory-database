@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fg8x-q69g-4qp3",
+  "modified": "2025-10-30T00:31:03Z",
+  "published": "2025-10-30T00:31:03Z",
+  "aliases": [
+    "CVE-2025-10929"
+  ],
+  "details": "Improper Validation of Consistency within Input vulnerability in Drupal Reverse Proxy Header allows Manipulating User-Controlled Variables.This issue affects Reverse Proxy Header: from 0.0.0 before 1.1.2.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10929"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.drupal.org/sa-contrib-2025-111"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1288"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-30T00:15:34Z"
+  }
+}

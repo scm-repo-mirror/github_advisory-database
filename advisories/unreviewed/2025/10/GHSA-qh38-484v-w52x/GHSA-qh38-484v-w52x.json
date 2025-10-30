@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qh38-484v-w52x",
+  "modified": "2025-10-30T00:31:03Z",
+  "published": "2025-10-30T00:31:03Z",
+  "aliases": [
+    "CVE-2025-61725"
+  ],
+  "details": "The ParseAddress function constructeds domain-literal address components through repeated string concatenation. When parsing large domain-literal components, this can cause excessive CPU consumption.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61725"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709860"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75680"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4006"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-29T23:16:20Z"
+  }
+}

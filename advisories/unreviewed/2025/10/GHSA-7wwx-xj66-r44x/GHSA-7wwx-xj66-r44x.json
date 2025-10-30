@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7wwx-xj66-r44x",
+  "modified": "2025-10-30T00:31:03Z",
+  "published": "2025-10-30T00:31:03Z",
+  "aliases": [
+    "CVE-2025-58188"
+  ],
+  "details": "Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/709853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/75675"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4013"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-29T23:16:19Z"
+  }
+}
