@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rr6p-3pfg-562j",
-  "modified": "2025-02-20T22:53:32Z",
+  "modified": "2025-10-30T19:54:04Z",
   "published": "2025-02-20T20:16:21Z",
   "aliases": [
     "CVE-2025-24893"
@@ -82,10 +82,15 @@
     {
       "type": "WEB",
       "url": "https://jira.xwiki.org/browse/XWIKI-22149"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-24893"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-94",
       "CWE-95"
     ],
     "severity": "CRITICAL",
