@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hmr-pwgj-w283",
-  "modified": "2025-04-01T18:30:55Z",
+  "modified": "2025-10-30T21:30:41Z",
   "published": "2025-04-01T18:30:55Z",
   "aliases": [
     "CVE-2025-21985"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix out-of-bound accesses\n\n[WHAT & HOW]\nhpo_stream_to_link_encoder_mapping has size MAX_HPO_DP2_ENCODERS(=4),\nbut location can have size up to 6. As a result, it is necessary to\ncheck location against MAX_HPO_DP2_ENCODERS.\n\nSimiliarly, disp_cfg_stream_location can be used as an array index which\nshould be 0..5, so the ASSERT's conditions should be less without equal.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:29Z"

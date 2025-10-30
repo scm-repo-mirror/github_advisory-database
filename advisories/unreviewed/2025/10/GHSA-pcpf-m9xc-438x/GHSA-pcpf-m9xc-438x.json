@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcpf-m9xc-438x",
-  "modified": "2025-10-27T15:30:42Z",
+  "modified": "2025-10-30T21:30:45Z",
   "published": "2025-10-27T15:30:42Z",
   "aliases": [
     "CVE-2025-50055"
   ],
   "details": "Cross-site scripting (XSS) vulnerability in the SAML Authentication module in OpenVPN Access Server version 2.14.0 through 2.14.3 allows configured remote SAML Assertion Consumer Service (ACS) endpoint servers to inject arbitrary web script or HTML via the RelayState parameter",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-27T14:15:40Z"
