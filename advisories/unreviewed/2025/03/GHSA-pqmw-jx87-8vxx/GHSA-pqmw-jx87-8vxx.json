@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pqmw-jx87-8vxx",
-  "modified": "2025-03-27T18:31:28Z",
+  "modified": "2025-10-30T18:31:04Z",
   "published": "2025-03-27T18:31:28Z",
   "aliases": [
     "CVE-2023-53012"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nthermal: core: call put_device() only after device_register() fails\n\nput_device() shouldn't be called before a prior call to\ndevice_register(). __thermal_cooling_device_register() doesn't follow\nthat properly and needs fixing. Also\nthermal_cooling_device_destroy_sysfs() is getting called unnecessarily\non few error paths.\n\nFix all this by placing the calls at the right place.\n\nBased on initial work done by Caleb Connolly.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:50Z"
