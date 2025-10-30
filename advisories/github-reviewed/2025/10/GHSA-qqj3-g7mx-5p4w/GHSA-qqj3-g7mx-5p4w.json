@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqj3-g7mx-5p4w",
-  "modified": "2025-10-30T14:56:32Z",
+  "modified": "2025-10-30T17:15:01Z",
   "published": "2025-10-21T20:25:21Z",
   "aliases": [
     "CVE-2025-54470"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "https://github.com/neuvector/neuvector"
+        "name": "github.com/neuvector/neuvector"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "https://github.com/neuvector/neuvector"
+        "name": "github.com/neuvector/neuvector"
       },
       "ranges": [
         {
@@ -59,7 +59,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "https://github.com/neuvector/neuvector"
+        "name": "github.com/neuvector/neuvector"
       },
       "ranges": [
         {
