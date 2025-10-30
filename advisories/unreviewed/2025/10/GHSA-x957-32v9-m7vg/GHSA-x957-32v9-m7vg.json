@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x957-32v9-m7vg",
-  "modified": "2025-10-30T00:31:04Z",
+  "modified": "2025-10-30T15:32:36Z",
   "published": "2025-10-30T00:31:04Z",
   "aliases": [
     "CVE-2025-9954"
   ],
   "details": "Missing Authorization vulnerability in Drupal Acquia DAM allows Forceful Browsing.This issue affects Acquia DAM: from 0.0.0 before 1.1.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-30T00:15:35Z"
