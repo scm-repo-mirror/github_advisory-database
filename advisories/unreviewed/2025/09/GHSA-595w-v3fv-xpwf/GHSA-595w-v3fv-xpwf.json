@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-595w-v3fv-xpwf",
-  "modified": "2025-09-30T12:30:51Z",
+  "modified": "2025-10-31T15:30:30Z",
   "published": "2025-09-30T12:30:51Z",
   "aliases": [
     "CVE-2025-59668"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-296-01"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.nihonkohden.com/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.nihonkohden.com/security/main/01112/teaserItems3/0/linkList/0/link/NKcorporateResponse-CNS-6201_CentralMonitor_Vulnerability(CVE-2025-59668)_en_Rev2.pdf"
     }
   ],
   "database_specific": {

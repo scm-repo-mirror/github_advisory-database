@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5pfc-43r5-qrmg",
+  "modified": "2025-10-31T15:30:31Z",
+  "published": "2025-10-31T15:30:31Z",
+  "aliases": [
+    "CVE-2025-57106"
+  ],
+  "details": "Kitware VTK (Visualization Toolkit) up to 9.5.0 is vulnerable to Buffer Overflow in vtkGLTFDocumentLoader. The vulnerability occurs in the BufferDataExtractionWorker template function when processing GLTF accessor data.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.kitware.com/vtk/vtk/-/issues/19733"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.kitware.com/vtk/vtk/-/issues/19734"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-10-31T15:15:42Z"
+  }
+}
