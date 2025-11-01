@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpxj-jvh6-f2r2",
-  "modified": "2025-11-01T12:30:15Z",
+  "modified": "2025-11-01T15:30:18Z",
   "published": "2025-11-01T12:30:15Z",
   "aliases": [
     "CVE-2025-36367"
