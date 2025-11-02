@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4vm-3mc7-prgx",
-  "modified": "2025-04-16T15:34:45Z",
+  "modified": "2025-11-02T15:30:12Z",
   "published": "2025-04-16T15:34:45Z",
   "aliases": [
     "CVE-2025-22105"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0dd4fac43bdea23cfe4bb2a3eabb76d752ac32fb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6f3af8055ee7ab69d1451f056fcd890df99c167e"
     }
   ],
   "database_specific": {
