@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f93m-9mq4-2fjj",
-  "modified": "2025-08-18T06:30:30Z",
+  "modified": "2025-11-02T03:30:13Z",
   "published": "2025-07-11T18:30:34Z",
   "aliases": [
     "CVE-2025-45582"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/01/6"
     }
   ],
   "database_specific": {
