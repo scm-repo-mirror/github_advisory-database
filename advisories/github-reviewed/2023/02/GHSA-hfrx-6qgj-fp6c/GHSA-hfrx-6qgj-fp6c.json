@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfrx-6qgj-fp6c",
-  "modified": "2025-02-13T18:41:38Z",
+  "modified": "2025-11-03T22:29:46Z",
   "published": "2023-02-20T18:30:17Z",
   "aliases": [
     "CVE-2023-24998"
@@ -239,6 +239,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202305-37"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00008.html"
     },
     {
       "type": "WEB",

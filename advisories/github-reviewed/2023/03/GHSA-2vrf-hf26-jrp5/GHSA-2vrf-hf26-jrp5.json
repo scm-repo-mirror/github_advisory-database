@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vrf-hf26-jrp5",
-  "modified": "2025-02-14T18:35:02Z",
+  "modified": "2025-11-03T22:30:46Z",
   "published": "2023-03-30T06:30:26Z",
   "aliases": [
     "CVE-2023-26116"
@@ -43,6 +43,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/angular/angular.js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00005.html"
     },
     {
       "type": "WEB",

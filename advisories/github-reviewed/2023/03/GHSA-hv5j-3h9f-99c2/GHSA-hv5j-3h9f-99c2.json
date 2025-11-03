@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv5j-3h9f-99c2",
-  "modified": "2025-02-14T22:15:24Z",
+  "modified": "2025-11-03T22:31:01Z",
   "published": "2023-03-31T06:30:15Z",
   "aliases": [
     "CVE-2023-28755"
@@ -157,6 +157,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/27LUWREIFTP3MQAW7QE4PJM4DPAQJWXF"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00015.html"
     },
     {
       "type": "WEB",
