@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ff77-26x5-69cr",
-  "modified": "2025-08-08T18:55:39Z",
+  "modified": "2025-11-03T22:56:57Z",
   "published": "2025-04-28T21:30:43Z",
   "aliases": [
     "CVE-2025-31651"
@@ -202,6 +202,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/list.html?announce@tomcat.apache.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00009.html"
     },
     {
       "type": "WEB",
