@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hxf-5ppp-g398",
-  "modified": "2025-10-31T00:30:35Z",
+  "modified": "2025-11-03T18:31:51Z",
   "published": "2025-10-31T00:30:35Z",
   "aliases": [
     "CVE-2025-27208"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/3091390"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Oct/20"
     }
   ],
   "database_specific": {

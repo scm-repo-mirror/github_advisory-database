@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q6w-ff4v-hgr5",
-  "modified": "2025-09-22T21:30:20Z",
+  "modified": "2025-11-03T18:31:42Z",
   "published": "2025-09-22T21:30:20Z",
   "aliases": [
     "CVE-2025-59798"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=0cae41b23a9669e801211dd4cf97b6dadd6dbdd7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00010.html"
     }
   ],
   "database_specific": {

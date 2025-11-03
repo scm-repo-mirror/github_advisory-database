@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px2j-m3gx-wpq5",
-  "modified": "2025-10-20T15:30:25Z",
+  "modified": "2025-11-03T18:31:46Z",
   "published": "2025-10-20T15:30:25Z",
   "aliases": [
     "CVE-2025-41390"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://trufflesecurity.com/blog/contributor-spotlight-adam-reiser-of-cisco-talos"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2243"
     }
   ],
   "database_specific": {

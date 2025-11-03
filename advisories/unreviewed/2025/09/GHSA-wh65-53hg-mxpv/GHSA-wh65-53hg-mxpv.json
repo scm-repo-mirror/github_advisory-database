@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh65-53hg-mxpv",
-  "modified": "2025-09-07T18:31:27Z",
+  "modified": "2025-11-03T18:31:40Z",
   "published": "2025-09-07T18:31:27Z",
   "aliases": [
     "CVE-2025-39734"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bec8109f957a6e193e52d1728799994c8005ca83"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

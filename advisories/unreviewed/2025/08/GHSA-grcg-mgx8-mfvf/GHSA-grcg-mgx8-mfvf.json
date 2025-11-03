@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grcg-mgx8-mfvf",
-  "modified": "2025-08-28T15:30:39Z",
+  "modified": "2025-11-03T18:31:34Z",
   "published": "2025-08-19T18:31:34Z",
   "aliases": [
     "CVE-2025-38614"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f2e467a48287c868818085aa35389a224d226732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

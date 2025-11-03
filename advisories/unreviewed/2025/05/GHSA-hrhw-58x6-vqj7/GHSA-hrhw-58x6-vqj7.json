@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrhw-58x6-vqj7",
-  "modified": "2025-07-30T15:35:50Z",
+  "modified": "2025-11-03T18:31:17Z",
   "published": "2025-05-27T15:31:28Z",
   "aliases": [
     "CVE-2025-48797"
@@ -70,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/gimp/-/issues/11822"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00022.html"
     }
   ],
   "database_specific": {

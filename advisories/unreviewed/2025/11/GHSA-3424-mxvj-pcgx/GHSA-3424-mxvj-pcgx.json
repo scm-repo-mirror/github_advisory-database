@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3424-mxvj-pcgx",
-  "modified": "2025-11-03T12:30:26Z",
+  "modified": "2025-11-03T18:31:51Z",
   "published": "2025-11-03T09:30:38Z",
   "aliases": [
     "CVE-2025-48396"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/etn-va-2025-1021.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.eaton.com/content/dam/eaton/company/news-insights/cybersecurity/security-bulletins/etn-va-2025-1021.pdf"
     }
   ],
   "database_specific": {

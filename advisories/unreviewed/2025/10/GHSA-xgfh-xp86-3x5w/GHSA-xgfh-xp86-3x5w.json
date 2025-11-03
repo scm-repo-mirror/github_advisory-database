@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgfh-xp86-3x5w",
-  "modified": "2025-10-06T03:31:38Z",
+  "modified": "2025-11-03T18:31:44Z",
   "published": "2025-10-06T03:31:38Z",
   "aliases": [
     "CVE-2025-11314"
@@ -42,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-74"
+      "CWE-74",
+      "CWE-89"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

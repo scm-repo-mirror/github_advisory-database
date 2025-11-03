@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwrg-xmjh-93xc",
-  "modified": "2025-05-14T00:32:21Z",
+  "modified": "2025-11-03T18:31:16Z",
   "published": "2025-05-13T21:30:54Z",
   "aliases": [
     "CVE-2024-28956"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://intel.com/content/www/us/en/security-center/advisory/intel-sa-01153.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
     },
     {
       "type": "WEB",

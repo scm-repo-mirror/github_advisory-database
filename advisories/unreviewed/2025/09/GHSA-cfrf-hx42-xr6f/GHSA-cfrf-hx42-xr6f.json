@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfrf-hx42-xr6f",
-  "modified": "2025-09-16T15:32:35Z",
+  "modified": "2025-11-03T18:31:41Z",
   "published": "2025-09-16T15:32:35Z",
   "aliases": [
     "CVE-2025-39813"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fbd4cf7ee4db65ef36796769fe978e9eba6f0de4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

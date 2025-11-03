@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2pc-4j53-q3ww",
-  "modified": "2025-01-07T21:30:55Z",
+  "modified": "2025-11-03T18:31:15Z",
   "published": "2025-01-07T21:30:55Z",
   "aliases": [
     "CVE-2025-0218"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pgadmin-org/pgagent/commit/1ecd193a2be3a3dc9e98f369495e1a792e6d508c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00018.html"
     }
   ],
   "database_specific": {

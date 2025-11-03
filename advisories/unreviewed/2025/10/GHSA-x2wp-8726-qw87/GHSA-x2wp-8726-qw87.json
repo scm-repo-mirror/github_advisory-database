@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2wp-8726-qw87",
-  "modified": "2025-10-31T15:30:31Z",
+  "modified": "2025-11-03T18:31:51Z",
   "published": "2025-10-31T15:30:31Z",
   "aliases": [
     "CVE-2025-64385"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://circutor.com/productos/iot-industrial-y-automatizacion/conversores-y-pasarelas/product/D80010."
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.hackrtu.com/blog/cg-0day-en-003"
     }
   ],
   "database_specific": {

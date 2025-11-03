@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp2m-6293-6r8v",
-  "modified": "2025-10-28T03:30:13Z",
+  "modified": "2025-11-03T18:31:15Z",
   "published": "2025-02-27T21:32:17Z",
   "aliases": [
     "CVE-2025-21816"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e456a88bddae4030ba962447bb84be6669f2a0c1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

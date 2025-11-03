@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hrg-vg64-94qj",
-  "modified": "2025-06-04T15:30:26Z",
+  "modified": "2025-11-03T18:31:15Z",
   "published": "2025-02-27T21:32:10Z",
   "aliases": [
     "CVE-2022-49063"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d7442f512b71fc63a99c8a801422dde4fbbf9f93"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
     }
   ],
   "database_specific": {

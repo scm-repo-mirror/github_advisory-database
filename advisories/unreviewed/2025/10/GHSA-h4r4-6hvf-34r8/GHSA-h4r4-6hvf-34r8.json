@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4r4-6hvf-34r8",
-  "modified": "2025-11-03T12:30:26Z",
+  "modified": "2025-11-03T18:31:51Z",
   "published": "2025-10-30T06:30:53Z",
   "aliases": [
     "CVE-2025-62231"
@@ -37,11 +37,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19489"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-62231"
     },
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2402660"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00033.html"
     }
   ],
   "database_specific": {

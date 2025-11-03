@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpvw-x46c-p2qx",
-  "modified": "2025-07-03T09:30:33Z",
+  "modified": "2025-11-03T18:31:20Z",
   "published": "2025-07-03T09:30:33Z",
   "aliases": [
     "CVE-2025-38120"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ea77c397bff8b6d59f6d83dae1425b08f465e8b5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

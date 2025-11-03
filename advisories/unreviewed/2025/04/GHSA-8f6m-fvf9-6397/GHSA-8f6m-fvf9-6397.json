@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f6m-fvf9-6397",
-  "modified": "2025-10-22T00:33:17Z",
+  "modified": "2025-11-03T18:31:15Z",
   "published": "2025-04-16T21:30:56Z",
   "aliases": [
     "CVE-2025-31200"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-31200"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Oct/4"
     }
   ],
   "database_specific": {

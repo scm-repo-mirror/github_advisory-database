@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23w7-3gw5-5jqr",
-  "modified": "2025-06-06T21:30:27Z",
+  "modified": "2025-11-03T18:31:18Z",
   "published": "2025-06-06T21:30:27Z",
   "aliases": [
     "CVE-2025-5473"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5473"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00022.html"
     },
     {
       "type": "WEB",

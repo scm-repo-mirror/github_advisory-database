@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr55-h4jr-658c",
-  "modified": "2025-07-04T15:31:09Z",
+  "modified": "2025-11-03T18:31:22Z",
   "published": "2025-07-04T15:31:09Z",
   "aliases": [
     "CVE-2025-38202"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d4965578267e2e81f67c86e2608481e77e9c8569"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

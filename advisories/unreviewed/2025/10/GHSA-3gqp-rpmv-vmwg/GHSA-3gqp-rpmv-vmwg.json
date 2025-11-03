@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gqp-rpmv-vmwg",
-  "modified": "2025-10-01T09:30:25Z",
+  "modified": "2025-11-03T18:31:44Z",
   "published": "2025-10-01T09:30:25Z",
   "aliases": [
     "CVE-2025-39920"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ae184024ef31423e5beb44cf4f52999bbcf2fe5b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

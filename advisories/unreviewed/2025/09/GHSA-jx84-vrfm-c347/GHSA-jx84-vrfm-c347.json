@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx84-vrfm-c347",
-  "modified": "2025-09-05T18:31:26Z",
+  "modified": "2025-11-03T18:31:39Z",
   "published": "2025-09-05T18:31:26Z",
   "aliases": [
     "CVE-2025-39685"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d8992c9a01f81128f36acb7c5755530e21fcd059"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

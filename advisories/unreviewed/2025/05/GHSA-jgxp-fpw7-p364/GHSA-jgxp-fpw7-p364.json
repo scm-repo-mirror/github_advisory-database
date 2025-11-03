@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgxp-fpw7-p364",
-  "modified": "2025-06-04T15:30:29Z",
+  "modified": "2025-11-03T18:31:17Z",
   "published": "2025-05-29T15:31:09Z",
   "aliases": [
     "CVE-2025-37997"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e2ab67672b2288521a6146034a971f9a82ffc5c5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
     }
   ],
   "database_specific": {

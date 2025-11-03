@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3j4-c39c-w5r2",
-  "modified": "2025-09-05T18:31:17Z",
+  "modified": "2025-11-03T18:31:38Z",
   "published": "2025-09-05T18:31:16Z",
   "aliases": [
     "CVE-2025-38711"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d5fc1400a34b4ea5e8f2ce296ea12bf8c8421694"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

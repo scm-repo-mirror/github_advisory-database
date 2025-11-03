@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mr5-83vp-r7m7",
-  "modified": "2025-07-19T09:30:40Z",
+  "modified": "2025-11-03T18:31:25Z",
   "published": "2025-07-19T09:30:40Z",
   "aliases": [
     "CVE-2025-38350"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f680a4643c6f71e758d8fe0431a958e9a6a4f59d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

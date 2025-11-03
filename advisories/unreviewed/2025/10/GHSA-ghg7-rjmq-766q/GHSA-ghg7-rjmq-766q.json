@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghg7-rjmq-766q",
-  "modified": "2025-10-07T15:30:27Z",
+  "modified": "2025-11-03T18:31:45Z",
   "published": "2025-10-07T15:30:27Z",
   "aliases": [
     "CVE-2025-54404"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2227"
     }
   ],
   "database_specific": {

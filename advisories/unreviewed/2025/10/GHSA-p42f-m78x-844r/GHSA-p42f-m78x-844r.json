@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p42f-m78x-844r",
-  "modified": "2025-10-31T18:31:13Z",
+  "modified": "2025-11-03T18:31:51Z",
   "published": "2025-10-31T12:30:21Z",
   "aliases": [
     "CVE-2025-58148"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://xenbits.xenproject.org/xsa/advisory-475.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-475.html"
     }
   ],
   "database_specific": {

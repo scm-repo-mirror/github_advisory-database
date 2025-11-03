@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffxp-vqfg-26jp",
-  "modified": "2025-07-25T15:30:54Z",
+  "modified": "2025-11-03T18:31:28Z",
   "published": "2025-07-25T15:30:54Z",
   "aliases": [
     "CVE-2025-38430"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e7e943ddd1c6731812357a28e7954ade3a7d8517"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78gv-jfcm-9w8v",
-  "modified": "2025-10-22T21:31:19Z",
+  "modified": "2025-11-03T18:31:46Z",
   "published": "2025-10-21T12:31:26Z",
   "aliases": [
     "CVE-2025-10639"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://r.sec-consult.com/workexaminer"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Oct/19"
     }
   ],
   "database_specific": {

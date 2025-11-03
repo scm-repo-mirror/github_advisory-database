@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54w6-m43p-jffg",
-  "modified": "2025-10-30T15:32:20Z",
+  "modified": "2025-11-03T18:31:33Z",
   "published": "2025-08-16T06:30:21Z",
   "aliases": [
     "CVE-2025-38501"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keymaker-arch/KSMBDrain"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

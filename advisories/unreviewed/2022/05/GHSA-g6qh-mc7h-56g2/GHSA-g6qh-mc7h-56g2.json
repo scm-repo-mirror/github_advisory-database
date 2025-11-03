@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6qh-mc7h-56g2",
-  "modified": "2022-05-24T16:57:32Z",
+  "modified": "2025-11-03T18:31:10Z",
   "published": "2022-05-24T16:57:32Z",
   "aliases": [
     "CVE-2019-3728"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.dell.com/support/security/en-us/details/DOC-107000/DSA-2019-079-RSA-BSAFE&#174;-Crypto-C-Micro-Edition-and-Micro-Edition-Suite-Multiple-Security-Vulnerab"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2141"
     }
   ],
   "database_specific": {

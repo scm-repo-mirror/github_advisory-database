@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p8c-493c-qp6m",
-  "modified": "2025-10-29T21:30:33Z",
+  "modified": "2025-11-03T18:31:51Z",
   "published": "2025-10-29T21:30:33Z",
   "aliases": [
     "CVE-2025-10922"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/gimp/-/commit/3d909166463731e94dfe62042d76225ecfc4c1e4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00022.html"
     },
     {
       "type": "WEB",

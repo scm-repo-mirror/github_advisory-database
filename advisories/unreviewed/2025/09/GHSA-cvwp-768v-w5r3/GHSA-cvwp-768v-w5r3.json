@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvwp-768v-w5r3",
-  "modified": "2025-09-05T18:31:27Z",
+  "modified": "2025-11-03T18:31:39Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39710"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f5b7a943055a4a106d40a03bacd940e28cc1955f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

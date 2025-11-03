@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2259-5mcv-w35h",
-  "modified": "2023-04-01T18:30:21Z",
+  "modified": "2025-11-03T18:31:10Z",
   "published": "2022-02-16T00:01:42Z",
   "aliases": [
     "CVE-2021-44960"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/04/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00016.html"
     }
   ],
   "database_specific": {

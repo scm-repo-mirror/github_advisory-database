@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p72g-pv48-7w9x",
-  "modified": "2025-10-29T10:37:49Z",
+  "modified": "2025-11-03T18:31:34Z",
   "published": "2025-08-20T21:30:27Z",
   "aliases": [
     "CVE-2025-54988"
@@ -90,6 +90,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/stn9oh7rfn9yv76n1srxr9w56oy04p72"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00030.html"
     }
   ],
   "database_specific": {

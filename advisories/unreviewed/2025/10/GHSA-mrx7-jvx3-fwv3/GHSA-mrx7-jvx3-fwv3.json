@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrx7-jvx3-fwv3",
-  "modified": "2025-10-02T15:31:15Z",
+  "modified": "2025-11-03T18:31:44Z",
   "published": "2025-10-01T09:30:25Z",
   "aliases": [
     "CVE-2025-39907"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f6fd98d961fa6f97347cead4f08ed862cbbb91ff"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

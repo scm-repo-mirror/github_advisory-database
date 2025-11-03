@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f344-cfpj-cvmx",
-  "modified": "2025-09-26T21:30:27Z",
+  "modified": "2025-11-03T18:31:15Z",
   "published": "2025-01-19T12:31:26Z",
   "aliases": [
     "CVE-2024-57924"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f47c834a9131ae64bee3c462f4e610c67b0a000f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

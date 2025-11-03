@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgwx-65v3-j243",
-  "modified": "2025-07-10T15:31:21Z",
+  "modified": "2025-11-03T18:31:23Z",
   "published": "2025-07-09T12:31:35Z",
   "aliases": [
     "CVE-2025-38257"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/faa1ab4a23c42e34dc000ef4977b751d94d5148c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

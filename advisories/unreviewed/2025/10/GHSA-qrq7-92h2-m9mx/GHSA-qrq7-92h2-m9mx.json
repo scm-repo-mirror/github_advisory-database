@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrq7-92h2-m9mx",
-  "modified": "2025-10-13T15:31:18Z",
+  "modified": "2025-11-03T18:31:45Z",
   "published": "2025-10-09T15:31:03Z",
   "aliases": [
     "CVE-2025-32919"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sbaresearch/advisories/tree/public/2025/SBA-ADV-20250724-01_Checkmk_Agent_Privilege_Escalation_via_Insecure_Temporary_Files"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Oct/6"
     }
   ],
   "database_specific": {

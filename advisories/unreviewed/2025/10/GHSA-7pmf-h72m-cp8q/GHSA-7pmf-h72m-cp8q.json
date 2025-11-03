@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pmf-h72m-cp8q",
-  "modified": "2025-10-31T00:30:35Z",
+  "modified": "2025-11-03T18:31:51Z",
   "published": "2025-10-31T00:30:35Z",
   "aliases": [
     "CVE-2025-52664"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/3395221"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Oct/21"
     }
   ],
   "database_specific": {

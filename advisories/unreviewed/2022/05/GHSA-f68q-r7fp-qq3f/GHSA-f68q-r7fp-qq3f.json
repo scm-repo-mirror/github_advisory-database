@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f68q-r7fp-qq3f",
-  "modified": "2022-05-24T17:15:42Z",
+  "modified": "2025-11-03T18:31:10Z",
   "published": "2022-05-24T17:15:42Z",
   "aliases": [
     "CVE-2020-10211"
   ],
   "details": "A remote code execution vulnerability in UCB component of Mitel MiVoice Connect before 19.1 SP1 could allow an unauthenticated remote attacker to execute arbitrary scripts due to insufficient validation of URL parameters. A successful exploit could allow an attacker to gain access to sensitive information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-20"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

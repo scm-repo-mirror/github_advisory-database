@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85xw-cv8g-9227",
-  "modified": "2025-08-28T15:30:32Z",
+  "modified": "2025-11-03T18:31:13Z",
   "published": "2024-02-28T09:30:37Z",
   "aliases": [
     "CVE-2021-46987"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f9baa501b4fd6962257853d46ddffbc21f27e344"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
     }
   ],
   "database_specific": {

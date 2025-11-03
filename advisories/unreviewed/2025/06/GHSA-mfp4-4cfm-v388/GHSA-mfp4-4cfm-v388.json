@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfp4-4cfm-v388",
-  "modified": "2025-07-30T06:31:28Z",
+  "modified": "2025-11-03T18:31:19Z",
   "published": "2025-06-28T09:30:22Z",
   "aliases": [
     "CVE-2025-38084"
@@ -41,6 +41,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e8847d18cd9fff1edbb45e963d9141273c3b539c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     },
     {
       "type": "WEB",

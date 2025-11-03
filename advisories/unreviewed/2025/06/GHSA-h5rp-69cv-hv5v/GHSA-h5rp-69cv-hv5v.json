@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5rp-69cv-hv5v",
-  "modified": "2025-06-13T18:30:35Z",
+  "modified": "2025-11-03T18:31:18Z",
   "published": "2025-06-13T18:30:35Z",
   "aliases": [
     "CVE-2025-6035"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2372515"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00022.html"
     }
   ],
   "database_specific": {

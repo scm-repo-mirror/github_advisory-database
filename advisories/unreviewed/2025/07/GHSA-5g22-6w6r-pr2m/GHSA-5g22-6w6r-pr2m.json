@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g22-6w6r-pr2m",
-  "modified": "2025-07-23T15:31:12Z",
+  "modified": "2025-11-03T18:31:26Z",
   "published": "2025-07-22T21:31:15Z",
   "aliases": [
     "CVE-2025-8036"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1960834"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/652514"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgp9-rwc2-m645",
-  "modified": "2025-08-28T15:30:38Z",
+  "modified": "2025-11-03T18:31:33Z",
   "published": "2025-08-16T12:30:33Z",
   "aliases": [
     "CVE-2025-38539"
@@ -45,6 +45,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e70f5ee4c8824736332351b703c46f9469ed7f6c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8mr-frx6-j364",
-  "modified": "2025-06-04T15:30:28Z",
+  "modified": "2025-11-03T18:31:17Z",
   "published": "2025-05-20T18:30:56Z",
   "aliases": [
     "CVE-2025-37949"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f1bcac367bc95631afbb918348f30dec887d0e1b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00007.html"
     }
   ],
   "database_specific": {

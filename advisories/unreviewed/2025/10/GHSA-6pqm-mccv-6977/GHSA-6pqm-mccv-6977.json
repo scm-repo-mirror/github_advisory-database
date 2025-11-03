@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pqm-mccv-6977",
-  "modified": "2025-10-29T21:30:33Z",
+  "modified": "2025-11-03T18:31:51Z",
   "published": "2025-10-29T21:30:33Z",
   "aliases": [
     "CVE-2025-10921"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/gegl/-/commit/0e68b7471dabf2800d780819c19bd5e6462f565f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00021.html"
     },
     {
       "type": "WEB",

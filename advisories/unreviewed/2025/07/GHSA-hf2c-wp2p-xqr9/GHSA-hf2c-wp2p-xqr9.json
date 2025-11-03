@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf2c-wp2p-xqr9",
-  "modified": "2025-07-12T06:30:23Z",
+  "modified": "2025-11-03T18:31:25Z",
   "published": "2025-07-12T06:30:23Z",
   "aliases": [
     "CVE-2025-7462"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=619a106ba4c4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00010.html"
     },
     {
       "type": "WEB",

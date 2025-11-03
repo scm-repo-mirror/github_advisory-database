@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68p3-h5c2-5hcr",
-  "modified": "2025-08-26T21:31:06Z",
+  "modified": "2025-11-03T18:31:36Z",
   "published": "2025-08-22T21:31:16Z",
   "aliases": [
     "CVE-2025-54813"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/logging-log4cxx/pull/512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00002.html"
     },
     {
       "type": "WEB",

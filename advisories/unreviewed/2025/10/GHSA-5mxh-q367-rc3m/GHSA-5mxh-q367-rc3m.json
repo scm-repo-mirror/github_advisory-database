@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mxh-q367-rc3m",
-  "modified": "2025-10-14T21:30:32Z",
+  "modified": "2025-11-03T18:31:45Z",
   "published": "2025-10-10T12:30:56Z",
   "aliases": [
     "CVE-2025-11188"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/887923"
     },
     {
       "type": "WEB",

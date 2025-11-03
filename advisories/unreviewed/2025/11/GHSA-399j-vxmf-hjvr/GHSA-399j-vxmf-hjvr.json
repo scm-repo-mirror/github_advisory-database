@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-399j-vxmf-hjvr",
+  "modified": "2025-11-03T18:31:52Z",
+  "published": "2025-11-03T18:31:52Z",
+  "aliases": [
+    "CVE-2025-11953"
+  ],
+  "details": "The Metro Development Server, which is opened by the React Native CLI, binds to external interfaces by default. The server exposes an endpoint that is vulnerable to OS command injection. This allows unauthenticated network attackers to send a POST request to the server and run arbitrary executables. On Windows, the attackers can also execute arbitrary shell commands with fully controlled arguments.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11953"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/react-native-community/cli/commit/15089907d1f1301b22c72d7f68846a2ef20df547"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jfrog.com/blog/cve-2025-11953-critical-react-native-community-cli-vulnerability"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-78"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-03T17:15:32Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvfm-qx34-wp84",
-  "modified": "2025-10-14T09:31:18Z",
+  "modified": "2025-11-03T18:31:46Z",
   "published": "2025-10-14T09:31:18Z",
   "aliases": [
     "CVE-2025-41706"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://certvde.com/de/advisories/VDE-2025-072"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Oct/12"
     }
   ],
   "database_specific": {

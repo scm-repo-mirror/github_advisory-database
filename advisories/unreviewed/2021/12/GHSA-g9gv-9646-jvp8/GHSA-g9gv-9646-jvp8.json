@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9gv-9646-jvp8",
-  "modified": "2022-01-06T00:01:20Z",
+  "modified": "2025-11-03T18:31:10Z",
   "published": "2021-12-24T00:00:45Z",
   "aliases": [
     "CVE-2021-45463"
   ],
   "details": "GEGL before 0.4.34, as used (for example) in GIMP before 2.10.30, allows shell expansion when a pathname in a constructed command line is not escaped or filtered. This is caused by use of the system library function for execution of the ImageMagick convert fallback in magick-load.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,6 +34,18 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/gimp/-/commit/e8a31ba4f2ce7e6bc34882dc27c97fba993f5868"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00021.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CG635WJCNXHJM5U4BGMAAP4NK2YFTQXK"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZP5NDNOTMPI335FXE7VUPW7FXYTT7PYN"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcx5-mm72-w6xv",
-  "modified": "2025-08-19T18:31:32Z",
+  "modified": "2025-11-03T18:31:33Z",
   "published": "2025-08-19T18:31:32Z",
   "aliases": [
     "CVE-2025-38560"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f92af52e6dbd8d066d77beba451e0230482dc45b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00008.html"
     }
   ],
   "database_specific": {

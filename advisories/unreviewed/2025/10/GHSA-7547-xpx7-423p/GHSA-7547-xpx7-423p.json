@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7547-xpx7-423p",
-  "modified": "2025-10-31T12:30:23Z",
+  "modified": "2025-11-03T18:31:51Z",
   "published": "2025-10-31T12:30:23Z",
   "aliases": [
     "CVE-2025-64364"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in StylemixThemes Masterstudy masterstudy allows PHP Local File Inclusion.This issue affects Masterstudy: from n/a through < 4.8.126.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-31T12:15:36Z"

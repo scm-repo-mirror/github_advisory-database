@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-874f-wxq7-gpmm",
-  "modified": "2025-10-20T06:30:17Z",
+  "modified": "2025-11-03T18:31:46Z",
   "published": "2025-10-20T06:30:17Z",
   "aliases": [
     "CVE-2025-62577"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/jp/JVN44266462"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.ts.fujitsu.com/ProductSecurity/content/FsasTech-PSIRT-FTI-STR-2025-102005-Security-Notice.pdf"
     },
     {
       "type": "WEB",

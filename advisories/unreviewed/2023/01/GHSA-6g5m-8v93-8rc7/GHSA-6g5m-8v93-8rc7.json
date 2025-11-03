@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6g5m-8v93-8rc7",
-  "modified": "2023-02-06T15:30:23Z",
+  "modified": "2025-11-03T18:31:11Z",
   "published": "2023-01-28T00:30:19Z",
   "aliases": [
     "CVE-2022-46968"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-46968"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cxsecurity.com/issue/WLB-2022110027"
     },
     {
       "type": "WEB",

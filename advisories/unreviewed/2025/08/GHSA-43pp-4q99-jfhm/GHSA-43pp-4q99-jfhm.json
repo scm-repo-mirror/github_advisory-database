@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43pp-4q99-jfhm",
-  "modified": "2025-08-12T18:31:28Z",
+  "modified": "2025-11-03T18:31:33Z",
   "published": "2025-08-12T18:31:28Z",
   "aliases": [
     "CVE-2025-22839"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://intel.com/content/www/us/en/security-center/advisory/intel-sa-01310.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00027.html"
     }
   ],
   "database_specific": {
