@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6w6-xmqv-7q78",
-  "modified": "2023-05-12T17:14:49Z",
+  "modified": "2025-11-03T13:56:05Z",
   "published": "2017-10-24T18:33:38Z",
   "aliases": [
     "CVE-2011-2930"
@@ -39,10 +39,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "3.0.0"
+              "introduced": "3.0.0.beta"
             },
             {
               "fixed": "3.0.10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "activerecord"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.1.0.beta1"
+            },
+            {
+              "fixed": "3.1.0.rc5"
             }
           ]
         }
