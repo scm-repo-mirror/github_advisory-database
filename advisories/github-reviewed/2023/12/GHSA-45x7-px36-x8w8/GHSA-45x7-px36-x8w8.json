@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45x7-px36-x8w8",
-  "modified": "2025-06-24T17:46:21Z",
+  "modified": "2025-11-03T22:34:21Z",
   "published": "2023-12-18T19:22:09Z",
   "aliases": [
     "CVE-2023-48795"
@@ -103,7 +103,31 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/ssh-mitm/ssh-mitm/issues/165"
+      "url": "https://github.com/mwiede/jsch/issues/457"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cyd01/KiTTY/issues/520"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/mina-sshd/issues/445"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hierynomus/sshj/issues/916"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/paramiko/paramiko/issues/2337"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/paramiko/paramiko/issues/2337#issuecomment-1887642773"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/PowerShell/Win32-OpenSSH/issues/2189"
     },
     {
       "type": "WEB",
@@ -115,31 +139,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/hierynomus/sshj/issues/916"
+      "url": "https://github.com/ssh-mitm/ssh-mitm/issues/165"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/paramiko/paramiko/issues/2337#issuecomment-1887642773"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/paramiko/paramiko/issues/2337"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/cyd01/KiTTY/issues/520"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/PowerShell/Win32-OpenSSH/issues/2189"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/mwiede/jsch/issues/457"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/apache/mina-sshd/issues/445"
+      "url": "https://github.com/NixOS/nixpkgs/pull/275249"
     },
     {
       "type": "WEB",
@@ -151,7 +155,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/NixOS/nixpkgs/pull/275249"
+      "url": "https://github.com/jtesta/ssh-audit/commit/8e972c5e94b460379fe0c7d20209c16df81538a5"
     },
     {
       "type": "WEB",
@@ -163,10 +167,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/mscdex/ssh2/commit/97b223f8891b96d6fc054df5ab1d5a1a545da2a3"
-    },
-    {
-      "type": "WEB",
       "url": "https://github.com/golang/crypto/commit/9d2ee975ef9fe627bf0a6f01c1f69e8ef1d4f05d"
     },
     {
@@ -175,7 +175,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/jtesta/ssh-audit/commit/8e972c5e94b460379fe0c7d20209c16df81538a5"
+      "url": "https://github.com/mscdex/ssh2/commit/97b223f8891b96d6fc054df5ab1d5a1a545da2a3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://roumenpetrov.info/secsh/#news20231220"
     },
     {
       "type": "WEB",
@@ -184,10 +188,6 @@
     {
       "type": "WEB",
       "url": "https://security-tracker.debian.org/tracker/source-package/libssh2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://roumenpetrov.info/secsh/#news20231220"
     },
     {
       "type": "WEB",
@@ -200,6 +200,14 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202312-16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.gentoo.org/glsa/202312-17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2023-48795-mitigate-openssh-vulnerability"
     },
     {
       "type": "WEB",
@@ -264,6 +272,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HYEDEXIKFKTUJIN43RG4B7T5ZS6MHUSP"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2023-48795-detect-openssh-vulnerabilit"
     },
     {
       "type": "WEB",
@@ -367,11 +379,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://security.gentoo.org/glsa/202312-17"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y"
+      "url": "https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst"
     },
     {
       "type": "WEB",
@@ -471,6 +479,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B"
     },
     {
@@ -504,6 +516,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/33XHJUB6ROFUOH2OQNENFROTVH6MHSHA"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00028.html"
     },
     {
       "type": "WEB",
@@ -560,10 +576,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/ronf/asyncssh/tags"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst"
     },
     {
       "type": "WEB",

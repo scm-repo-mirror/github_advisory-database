@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3qx-c6g2-7pw2",
-  "modified": "2024-09-04T18:56:35Z",
+  "modified": "2025-11-03T22:32:00Z",
   "published": "2023-11-27T23:17:42Z",
   "aliases": [
     "CVE-2023-49081"
@@ -67,6 +67,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pypa/advisory-database/tree/main/vulns/aiohttp/PYSEC-2023-250.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00002.html"
     },
     {
       "type": "WEB",
