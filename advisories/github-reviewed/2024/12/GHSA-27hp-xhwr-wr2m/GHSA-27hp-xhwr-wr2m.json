@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27hp-xhwr-wr2m",
-  "modified": "2025-01-08T16:05:12Z",
+  "modified": "2025-11-03T22:52:07Z",
   "published": "2024-12-20T18:31:32Z",
   "aliases": [
     "CVE-2024-56337"
@@ -142,6 +142,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/b2b9qrgjrz1kvo4ym8y2wkfdvwoq6qbp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00009.html"
     },
     {
       "type": "WEB",
