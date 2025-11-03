@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27gv-mg7w-mm34",
-  "modified": "2025-08-06T17:37:39Z",
+  "modified": "2025-11-03T23:00:57Z",
   "published": "2025-08-06T09:30:37Z",
   "aliases": [
     "CVE-2025-7954"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/shopware/shopware"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Aug/17"
     }
   ],
   "database_specific": {

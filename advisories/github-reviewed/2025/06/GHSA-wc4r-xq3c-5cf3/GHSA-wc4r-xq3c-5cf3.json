@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc4r-xq3c-5cf3",
-  "modified": "2025-08-08T19:03:23Z",
+  "modified": "2025-11-03T23:01:01Z",
   "published": "2025-06-16T15:32:28Z",
   "aliases": [
     "CVE-2025-49125"
@@ -210,6 +210,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/m66cytbfrty9k7dc4cg6tl1czhsnbywk"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00009.html"
     },
     {
       "type": "WEB",
