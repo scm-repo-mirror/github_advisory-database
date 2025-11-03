@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r9v-pqh7-jq6c",
-  "modified": "2025-08-04T18:30:37Z",
+  "modified": "2025-11-03T09:30:38Z",
   "published": "2025-08-04T18:30:36Z",
   "aliases": [
     "CVE-2025-8516"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://vip.kingdee.com/link/s/ZgAmJ"
+    },
+    {
+      "type": "WEB",
       "url": "https://vuldb.com/?ctiid.318642"
     },
     {
@@ -34,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.573678"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.601912"
     },
     {
       "type": "WEB",

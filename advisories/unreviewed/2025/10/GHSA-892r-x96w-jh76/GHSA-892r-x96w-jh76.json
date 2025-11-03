@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-892r-x96w-jh76",
-  "modified": "2025-10-30T06:30:54Z",
+  "modified": "2025-11-03T09:30:38Z",
   "published": "2025-10-30T06:30:54Z",
   "aliases": [
     "CVE-2025-62230"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62230"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19434"
     },
     {
       "type": "WEB",
