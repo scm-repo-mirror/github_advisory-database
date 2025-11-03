@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgrh-7h8h-7mqg",
-  "modified": "2025-08-14T18:31:28Z",
+  "modified": "2025-11-03T21:34:22Z",
   "published": "2025-08-14T18:31:28Z",
   "aliases": [
     "CVE-2025-36047"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.ibm.com/support/pages/node/7242086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/767506"
     }
   ],
   "database_specific": {

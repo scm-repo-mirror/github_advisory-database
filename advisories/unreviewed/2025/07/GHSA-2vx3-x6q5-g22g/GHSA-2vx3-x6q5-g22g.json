@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vx3-x6q5-g22g",
-  "modified": "2025-07-21T12:30:33Z",
+  "modified": "2025-11-03T21:34:10Z",
   "published": "2025-07-21T12:30:33Z",
   "aliases": [
     "CVE-2025-41681"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://certvde.com/de/advisories/VDE-2025-058"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/38"
     }
   ],
   "database_specific": {

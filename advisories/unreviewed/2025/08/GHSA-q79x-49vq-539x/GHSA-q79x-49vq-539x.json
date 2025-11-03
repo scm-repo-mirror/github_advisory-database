@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q79x-49vq-539x",
-  "modified": "2025-08-04T18:30:37Z",
+  "modified": "2025-11-03T21:34:19Z",
   "published": "2025-08-04T18:30:37Z",
   "aliases": [
     "CVE-2025-44958"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://webresources.commscope.com/download/assets/FAQ+Security+Advisory%3A+ID+20250710/225f44ac3bd311f095821adcaa92e24e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/613753"
     }
   ],
   "database_specific": {

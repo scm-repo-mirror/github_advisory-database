@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qq2x-2g28-66j5",
-  "modified": "2025-08-04T15:31:23Z",
+  "modified": "2025-11-03T21:34:18Z",
   "published": "2025-08-04T15:31:23Z",
   "aliases": [
     "CVE-2025-26065"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/fulldisclosure/2025/Jul/26"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/26"
     }
   ],
   "database_specific": {

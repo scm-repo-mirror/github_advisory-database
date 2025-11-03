@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrqh-93c8-j966",
-  "modified": "2025-08-04T15:02:53Z",
+  "modified": "2025-11-03T21:34:17Z",
   "published": "2025-07-30T13:20:05Z",
   "aliases": [
     "CVE-2025-54572"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-saml/CVE-2025-54572.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00001.html"
     }
   ],
   "database_specific": {

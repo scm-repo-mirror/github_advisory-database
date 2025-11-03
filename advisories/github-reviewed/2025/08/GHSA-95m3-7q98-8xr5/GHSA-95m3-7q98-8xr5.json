@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95m3-7q98-8xr5",
-  "modified": "2025-09-13T04:47:06Z",
+  "modified": "2025-11-03T21:34:22Z",
   "published": "2025-08-21T14:47:55Z",
   "aliases": [
     "CVE-2025-9288"
@@ -62,6 +62,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/browserify/sha.js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00016.html"
     },
     {
       "type": "WEB",

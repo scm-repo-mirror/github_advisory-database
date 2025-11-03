@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fx4-846p-mpq2",
-  "modified": "2025-09-10T15:31:15Z",
+  "modified": "2025-11-03T21:34:26Z",
   "published": "2025-09-09T18:31:24Z",
   "aliases": [
     "CVE-2025-10199"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/974249"
     }
   ],
   "database_specific": {

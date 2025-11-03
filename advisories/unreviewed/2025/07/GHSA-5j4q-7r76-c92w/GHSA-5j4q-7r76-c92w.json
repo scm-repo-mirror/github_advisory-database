@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j4q-7r76-c92w",
-  "modified": "2025-07-16T21:30:36Z",
+  "modified": "2025-11-03T21:34:08Z",
   "published": "2025-07-16T21:30:36Z",
   "aliases": [
     "CVE-2025-6982"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6982"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/554637"
     },
     {
       "type": "WEB",

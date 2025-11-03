@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76fp-m4vp-hxrq",
-  "modified": "2025-10-30T18:31:06Z",
+  "modified": "2025-11-03T21:34:35Z",
   "published": "2025-09-29T18:33:13Z",
   "aliases": [
     "CVE-2025-41244"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.nviso.eu/2025/09/29/you-name-it-vmware-elevates-it-cve-2025-41244"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00000.html"
     },
     {
       "type": "WEB",

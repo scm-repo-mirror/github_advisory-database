@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmf4-pwcw-hwqf",
-  "modified": "2025-07-31T18:32:00Z",
+  "modified": "2025-11-03T21:34:12Z",
   "published": "2025-07-30T00:32:20Z",
   "aliases": [
     "CVE-2025-43184"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/124151"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/33"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/34"
     }
   ],
   "database_specific": {

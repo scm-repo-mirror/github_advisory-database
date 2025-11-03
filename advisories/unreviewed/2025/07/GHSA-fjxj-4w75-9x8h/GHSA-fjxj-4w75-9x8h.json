@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjxj-4w75-9x8h",
-  "modified": "2025-07-30T18:31:34Z",
+  "modified": "2025-11-03T21:34:13Z",
   "published": "2025-07-30T00:32:21Z",
   "aliases": [
     "CVE-2025-43209"
@@ -50,6 +50,30 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/124155"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/31"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/32"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/33"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/34"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/36"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/37"
     }
   ],
   "database_specific": {

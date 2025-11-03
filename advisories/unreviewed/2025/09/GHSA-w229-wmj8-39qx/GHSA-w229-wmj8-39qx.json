@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w229-wmj8-39qx",
-  "modified": "2025-09-16T18:31:22Z",
+  "modified": "2025-11-03T21:34:31Z",
   "published": "2025-09-16T00:30:24Z",
   "aliases": [
     "CVE-2025-43318"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125110"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/53"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9v5-p5pj-rmp7",
-  "modified": "2025-09-11T15:31:17Z",
+  "modified": "2025-11-03T21:34:27Z",
   "published": "2025-09-11T15:31:17Z",
   "aliases": [
     "CVE-2025-58145"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://xenbits.xenproject.org/xsa/advisory-473.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-473.html"
     }
   ],
   "database_specific": {

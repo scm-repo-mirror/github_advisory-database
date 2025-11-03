@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f3h-wc2x-grrw",
-  "modified": "2025-09-24T15:31:13Z",
+  "modified": "2025-11-03T21:34:35Z",
   "published": "2025-09-24T15:31:13Z",
   "aliases": [
     "CVE-2025-23271"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-23271"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2191"
     }
   ],
   "database_specific": {

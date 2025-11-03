@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9qq-jmgq-wfv5",
-  "modified": "2025-07-29T15:31:46Z",
+  "modified": "2025-11-03T21:34:11Z",
   "published": "2025-07-29T00:30:27Z",
   "aliases": [
     "CVE-2025-54769"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lpar2rrd.com/note800.php"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/19"
     }
   ],
   "database_specific": {

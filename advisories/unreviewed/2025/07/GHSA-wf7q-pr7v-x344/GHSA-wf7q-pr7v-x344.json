@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf7q-pr7v-x344",
-  "modified": "2025-07-30T21:31:37Z",
+  "modified": "2025-11-03T21:34:11Z",
   "published": "2025-07-27T03:30:26Z",
   "aliases": [
     "CVE-2025-6241"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://documentation.lakesidesoftware.com/en/Content/Release%20Notes/Agent/10_10_0%20Hotfix%20Agent%20Release%20Notes%20On%20Premises.htm?tocpath=Release%20Notes%7CAgent%7C_____13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/335798"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v6f2-g4gw-r4rc",
-  "modified": "2025-09-12T15:31:17Z",
+  "modified": "2025-11-03T21:34:28Z",
   "published": "2025-09-12T15:31:17Z",
   "aliases": [
     "CVE-2025-9556"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/tmc/langchaingo/pull/1348"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/949137"
     }
   ],
   "database_specific": {

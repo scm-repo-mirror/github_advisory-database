@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw5x-5ggx-p642",
-  "modified": "2025-09-25T21:30:25Z",
+  "modified": "2025-11-03T21:34:35Z",
   "published": "2025-09-25T15:30:24Z",
   "aliases": [
     "CVE-2025-10541"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-imonitorsoft-eam"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/72"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chxg-5mcw-m68q",
-  "modified": "2025-09-16T15:32:30Z",
+  "modified": "2025-11-03T21:34:32Z",
   "published": "2025-09-16T00:30:24Z",
   "aliases": [
     "CVE-2025-43327"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125113"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/53"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/59"
     }
   ],
   "database_specific": {

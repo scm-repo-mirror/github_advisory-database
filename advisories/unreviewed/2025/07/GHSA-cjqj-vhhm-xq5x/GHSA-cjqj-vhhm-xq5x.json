@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjqj-vhhm-xq5x",
-  "modified": "2025-07-27T03:30:26Z",
+  "modified": "2025-11-03T21:34:11Z",
   "published": "2025-07-23T15:31:13Z",
   "aliases": [
     "CVE-2025-54090"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://httpd.apache.org/security/vulnerabilities_24.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00009.html"
     },
     {
       "type": "WEB",

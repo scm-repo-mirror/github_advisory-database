@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-39gj-7c5p-ccx8",
-  "modified": "2025-07-11T09:30:31Z",
+  "modified": "2025-11-03T21:34:05Z",
   "published": "2025-07-11T09:30:31Z",
   "aliases": [
     "CVE-2025-6438"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2025-189-01&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2025-189-01.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/5"
     }
   ],
   "database_specific": {

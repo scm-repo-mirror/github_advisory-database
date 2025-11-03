@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfvg-35rj-h837",
-  "modified": "2025-07-29T15:31:46Z",
+  "modified": "2025-11-03T21:34:11Z",
   "published": "2025-07-29T00:30:27Z",
   "aliases": [
     "CVE-2025-54766"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://xormon.com/note190.php"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/15"
     }
   ],
   "database_specific": {

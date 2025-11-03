@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-657p-g22x-9v25",
-  "modified": "2025-07-23T15:31:10Z",
+  "modified": "2025-11-03T21:34:10Z",
   "published": "2025-07-22T21:31:15Z",
   "aliases": [
     "CVE-2025-8029"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1928021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00016.html"
     },
     {
       "type": "WEB",

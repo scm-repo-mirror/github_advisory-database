@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42jm-j2g5-xq6f",
-  "modified": "2025-10-09T15:31:03Z",
+  "modified": "2025-11-03T21:34:22Z",
   "published": "2025-08-21T18:31:28Z",
   "aliases": [
     "CVE-2024-45438"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.titanhq.com/email-protection"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/15"
     }
   ],
   "database_specific": {

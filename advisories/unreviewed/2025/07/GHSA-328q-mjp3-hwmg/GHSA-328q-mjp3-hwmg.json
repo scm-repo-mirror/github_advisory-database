@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-328q-mjp3-hwmg",
-  "modified": "2025-07-15T21:31:43Z",
+  "modified": "2025-11-03T21:34:08Z",
   "published": "2025-07-15T21:31:43Z",
   "aliases": [
     "CVE-2025-50106"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00014.html"
     },
     {
       "type": "WEB",

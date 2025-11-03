@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxpf-hc33-vm4v",
-  "modified": "2025-07-22T18:30:41Z",
+  "modified": "2025-11-03T21:34:10Z",
   "published": "2025-07-22T18:30:41Z",
   "aliases": [
     "CVE-2025-35966"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2201"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2201"
     }
   ],
   "database_specific": {

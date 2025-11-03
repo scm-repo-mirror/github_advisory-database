@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3fm-ffgc-5m43",
-  "modified": "2025-07-30T21:31:39Z",
+  "modified": "2025-11-03T21:34:17Z",
   "published": "2025-07-30T21:31:39Z",
   "aliases": [
     "CVE-2025-52187"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://medium.com/@sanjay70023/cve-2025-52187-stored-xss-in-school-management-system-php-mysql-79cadcd6340f"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/28"
     }
   ],
   "database_specific": {

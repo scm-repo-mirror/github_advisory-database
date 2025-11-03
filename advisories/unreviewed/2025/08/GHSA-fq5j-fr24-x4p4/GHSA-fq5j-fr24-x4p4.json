@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq5j-fr24-x4p4",
-  "modified": "2025-08-25T15:32:00Z",
+  "modified": "2025-11-03T21:34:23Z",
   "published": "2025-08-25T15:32:00Z",
   "aliases": [
     "CVE-2025-46411"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2236"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2236"
     }
   ],
   "database_specific": {

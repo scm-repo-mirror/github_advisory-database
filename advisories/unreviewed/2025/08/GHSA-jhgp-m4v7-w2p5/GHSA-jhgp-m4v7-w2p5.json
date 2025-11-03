@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jhgp-m4v7-w2p5",
-  "modified": "2025-08-25T15:32:00Z",
+  "modified": "2025-11-03T21:34:23Z",
   "published": "2025-08-25T15:32:00Z",
   "aliases": [
     "CVE-2025-53518"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2231"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2231"
     }
   ],
   "database_specific": {

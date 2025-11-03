@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vp3-crwq-3fg5",
-  "modified": "2025-07-16T21:30:34Z",
+  "modified": "2025-11-03T21:34:08Z",
   "published": "2025-07-16T09:31:05Z",
   "aliases": [
     "CVE-2025-27465"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://xenbits.xenproject.org/xsa/advisory-470.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-470.html"
     }
   ],
   "database_specific": {

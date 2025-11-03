@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xx8-qrh3-q8mq",
-  "modified": "2025-08-03T03:30:30Z",
+  "modified": "2025-11-03T21:34:17Z",
   "published": "2025-08-03T03:30:29Z",
   "aliases": [
     "CVE-2025-54349"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/esnet/iperf/releases/tag/3.19.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00020.html"
     }
   ],
   "database_specific": {

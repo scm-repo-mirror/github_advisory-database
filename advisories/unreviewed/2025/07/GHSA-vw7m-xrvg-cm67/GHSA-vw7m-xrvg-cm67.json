@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vw7m-xrvg-cm67",
-  "modified": "2025-07-30T15:35:51Z",
+  "modified": "2025-11-03T21:34:11Z",
   "published": "2025-07-30T00:32:20Z",
   "aliases": [
     "CVE-2025-31276"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/124148"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/31"
     }
   ],
   "database_specific": {

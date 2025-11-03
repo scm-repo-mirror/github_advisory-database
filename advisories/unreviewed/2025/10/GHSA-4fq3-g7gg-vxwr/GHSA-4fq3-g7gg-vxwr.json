@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fq3-g7gg-vxwr",
-  "modified": "2025-10-30T21:30:46Z",
+  "modified": "2025-11-03T21:34:41Z",
   "published": "2025-10-30T21:30:46Z",
   "aliases": [
     "CVE-2025-52179"
   ],
   "details": "Cross-site scripting (XSS) vulnerability in Zucchetti Ad Hoc Revolution 4.1 and earlier allows remote unauthenticated attackers to inject arbitrary JavaScript via the pHtmlSource parameter of the /ahrw/jsp/gsfr_feditorHTML.jsp endpoint.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-30T19:16:27Z"

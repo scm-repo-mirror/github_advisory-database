@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m69-gcr7-jv3q",
-  "modified": "2025-07-22T18:30:37Z",
+  "modified": "2025-11-03T21:34:07Z",
   "published": "2025-07-15T15:31:00Z",
   "aliases": [
     "CVE-2025-6965"
@@ -26,6 +26,26 @@
     {
       "type": "WEB",
       "url": "https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/49"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/53"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/56"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/57"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/58"
     }
   ],
   "database_specific": {

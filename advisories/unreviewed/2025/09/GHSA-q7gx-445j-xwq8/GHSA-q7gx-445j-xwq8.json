@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7gx-445j-xwq8",
-  "modified": "2025-09-08T21:30:59Z",
+  "modified": "2025-11-03T21:34:26Z",
   "published": "2025-09-08T15:37:45Z",
   "aliases": [
     "CVE-2025-40929"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rurban/Cpanel-JSON-XS/commit/378236219eaa35742c3962ecbdee364903b0a1f2.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00034.html"
     },
     {
       "type": "WEB",

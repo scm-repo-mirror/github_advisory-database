@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-828p-92r7-xw6x",
-  "modified": "2025-07-14T00:31:07Z",
+  "modified": "2025-11-03T21:34:06Z",
   "published": "2025-07-14T00:31:07Z",
   "aliases": [
     "CVE-2024-58258"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.sugarcrm.com/resources/security/sugarcrm-sa-2024-059"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/21"
     }
   ],
   "database_specific": {

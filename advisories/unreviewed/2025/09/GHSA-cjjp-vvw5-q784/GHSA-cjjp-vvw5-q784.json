@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjjp-vvw5-q784",
-  "modified": "2025-09-24T15:31:13Z",
+  "modified": "2025-11-03T21:34:35Z",
   "published": "2025-09-24T15:31:13Z",
   "aliases": [
     "CVE-2025-23308"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-23308"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2204"
     }
   ],
   "database_specific": {

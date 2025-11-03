@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p48p-6mxj-w7jx",
-  "modified": "2025-08-02T00:31:08Z",
+  "modified": "2025-11-03T21:34:17Z",
   "published": "2025-08-02T00:31:08Z",
   "aliases": [
     "CVE-2024-13978"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/libtiff/libtiff/-/merge_requests/667"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00031.html"
     },
     {
       "type": "WEB",

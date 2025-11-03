@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h64g-vgvx-2m8r",
-  "modified": "2025-08-04T18:30:33Z",
+  "modified": "2025-11-03T21:34:17Z",
   "published": "2025-08-01T18:31:17Z",
   "aliases": [
     "CVE-2025-52361"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.ak-nord.de/usbserver-usb--usb-converter--usb-auf-ethernet--usb-to-ethernet--usb-auf-lan--usb-server--usb-konverter--print-server-80.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jul/20"
     }
   ],
   "database_specific": {

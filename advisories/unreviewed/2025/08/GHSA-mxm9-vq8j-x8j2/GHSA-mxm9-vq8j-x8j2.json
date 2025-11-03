@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxm9-vq8j-x8j2",
-  "modified": "2025-08-20T15:31:41Z",
+  "modified": "2025-11-03T21:34:22Z",
   "published": "2025-08-20T15:31:41Z",
   "aliases": [
     "CVE-2025-30256"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2166"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2166"
     }
   ],
   "database_specific": {

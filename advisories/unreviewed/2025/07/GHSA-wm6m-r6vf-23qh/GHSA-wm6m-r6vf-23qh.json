@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wm6m-r6vf-23qh",
-  "modified": "2025-07-22T18:30:42Z",
+  "modified": "2025-11-03T21:34:10Z",
   "published": "2025-07-22T18:30:42Z",
   "aliases": [
     "CVE-2025-48498"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2199"
     }
   ],
   "database_specific": {

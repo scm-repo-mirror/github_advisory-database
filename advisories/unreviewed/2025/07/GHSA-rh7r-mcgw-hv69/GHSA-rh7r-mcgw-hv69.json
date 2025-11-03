@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh7r-mcgw-hv69",
-  "modified": "2025-07-24T18:33:18Z",
+  "modified": "2025-11-03T21:34:11Z",
   "published": "2025-07-24T18:33:18Z",
   "aliases": [
     "CVE-2025-50128"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2207"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2207"
     }
   ],
   "database_specific": {

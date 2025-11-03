@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52f5-9888-hmc6",
-  "modified": "2025-08-07T15:11:22Z",
+  "modified": "2025-11-03T21:34:20Z",
   "published": "2025-08-06T17:06:04Z",
   "aliases": [
     "CVE-2025-54798"
@@ -58,6 +58,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/raszi/node-tmp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00007.html"
     }
   ],
   "database_specific": {

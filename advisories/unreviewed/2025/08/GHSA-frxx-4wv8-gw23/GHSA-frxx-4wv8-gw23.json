@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frxx-4wv8-gw23",
-  "modified": "2025-09-25T06:30:23Z",
+  "modified": "2025-11-03T21:34:17Z",
   "published": "2025-08-02T03:31:20Z",
   "aliases": [
     "CVE-2025-6078"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://partnersoftware.com/resources/software-release-info-4-32"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/317469"
     }
   ],
   "database_specific": {

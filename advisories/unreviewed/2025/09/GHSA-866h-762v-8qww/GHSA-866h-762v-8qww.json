@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-866h-762v-8qww",
-  "modified": "2025-09-10T15:31:15Z",
+  "modified": "2025-11-03T21:34:26Z",
   "published": "2025-09-09T15:31:19Z",
   "aliases": [
     "CVE-2025-9994"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.ampedrftech.com/guides/BT-AP111_UserManual.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/763183"
     }
   ],
   "database_specific": {

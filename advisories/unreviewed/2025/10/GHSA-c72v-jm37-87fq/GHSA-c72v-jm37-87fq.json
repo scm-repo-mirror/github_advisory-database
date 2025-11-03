@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c72v-jm37-87fq",
-  "modified": "2025-10-23T21:31:41Z",
+  "modified": "2025-11-03T21:34:36Z",
   "published": "2025-10-16T18:30:25Z",
   "aliases": [
     "CVE-2025-34516"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/ilevia-eve-x1-server-use-of-default-credentials"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2025-5963.php"
     }
   ],
   "database_specific": {

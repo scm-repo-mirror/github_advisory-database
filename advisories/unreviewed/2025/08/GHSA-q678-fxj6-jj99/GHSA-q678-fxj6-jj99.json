@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q678-fxj6-jj99",
-  "modified": "2025-10-21T21:33:25Z",
+  "modified": "2025-11-03T21:34:21Z",
   "published": "2025-08-13T15:30:35Z",
   "aliases": [
     "CVE-2025-54500"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://my.f5.com/manage/s/article/K000152001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/767506"
     }
   ],
   "database_specific": {

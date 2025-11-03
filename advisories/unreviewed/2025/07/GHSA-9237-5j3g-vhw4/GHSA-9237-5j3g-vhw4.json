@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9237-5j3g-vhw4",
-  "modified": "2025-07-15T15:30:44Z",
+  "modified": "2025-11-03T21:34:05Z",
   "published": "2025-07-11T18:30:34Z",
   "aliases": [
     "CVE-2025-7027"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.gigabyte.com/Support/Security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/746790"
     }
   ],
   "database_specific": {

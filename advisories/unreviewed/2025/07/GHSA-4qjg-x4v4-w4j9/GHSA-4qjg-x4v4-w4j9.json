@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qjg-x4v4-w4j9",
-  "modified": "2025-07-15T21:31:44Z",
+  "modified": "2025-11-03T21:34:08Z",
   "published": "2025-07-15T21:31:44Z",
   "aliases": [
     "CVE-2025-30761"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30761"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html"
     },
     {
       "type": "WEB",

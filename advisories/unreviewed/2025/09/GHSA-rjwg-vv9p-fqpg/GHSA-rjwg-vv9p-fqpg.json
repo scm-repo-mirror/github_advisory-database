@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjwg-vv9p-fqpg",
-  "modified": "2025-09-16T21:31:17Z",
+  "modified": "2025-11-03T21:34:28Z",
   "published": "2025-09-12T12:30:23Z",
   "aliases": [
     "CVE-2025-8699"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://r.sec-consult.com/kiosoft"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Sep/33"
     }
   ],
   "database_specific": {

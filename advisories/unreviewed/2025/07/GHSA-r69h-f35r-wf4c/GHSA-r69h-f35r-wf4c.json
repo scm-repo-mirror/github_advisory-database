@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r69h-f35r-wf4c",
-  "modified": "2025-07-30T18:31:31Z",
+  "modified": "2025-11-03T21:34:11Z",
   "published": "2025-07-22T21:31:15Z",
   "aliases": [
     "CVE-2025-8035"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1975961"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00016.html"
     },
     {
       "type": "WEB",

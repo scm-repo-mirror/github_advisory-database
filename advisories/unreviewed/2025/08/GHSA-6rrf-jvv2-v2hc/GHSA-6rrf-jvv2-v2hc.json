@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rrf-jvv2-v2hc",
-  "modified": "2025-08-13T15:30:34Z",
+  "modified": "2025-11-03T21:34:21Z",
   "published": "2025-08-13T15:30:34Z",
   "aliases": [
     "CVE-2025-32451"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2202"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2202"
     }
   ],
   "database_specific": {

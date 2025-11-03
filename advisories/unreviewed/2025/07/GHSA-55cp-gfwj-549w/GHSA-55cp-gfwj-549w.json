@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55cp-gfwj-549w",
-  "modified": "2025-07-28T15:31:40Z",
+  "modified": "2025-11-03T21:34:11Z",
   "published": "2025-07-28T15:31:40Z",
   "aliases": [
     "CVE-2025-27724"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2156"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2156"
     }
   ],
   "database_specific": {
