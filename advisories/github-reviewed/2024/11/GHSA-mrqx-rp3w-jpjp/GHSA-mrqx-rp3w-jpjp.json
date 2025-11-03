@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrqx-rp3w-jpjp",
-  "modified": "2024-11-12T21:11:31Z",
+  "modified": "2025-11-03T22:49:53Z",
   "published": "2024-11-06T15:22:09Z",
   "aliases": [
     "CVE-2024-50345"
@@ -101,6 +101,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/symfony/symfony"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00051.html"
     },
     {
       "type": "WEB",

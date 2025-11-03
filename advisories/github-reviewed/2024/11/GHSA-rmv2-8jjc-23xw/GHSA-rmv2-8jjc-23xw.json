@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmv2-8jjc-23xw",
-  "modified": "2024-11-26T21:54:05Z",
+  "modified": "2025-11-03T22:50:36Z",
   "published": "2024-11-26T18:38:52Z",
   "aliases": [
     "CVE-2024-51058"
@@ -58,6 +58,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/tecnickcom/TCPDF"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00004.html"
     }
   ],
   "database_specific": {
