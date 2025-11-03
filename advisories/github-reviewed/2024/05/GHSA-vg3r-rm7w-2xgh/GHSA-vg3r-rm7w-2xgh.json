@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vg3r-rm7w-2xgh",
-  "modified": "2025-09-17T19:12:07Z",
+  "modified": "2025-11-03T22:46:47Z",
   "published": "2024-05-16T17:44:04Z",
   "aliases": [
     "CVE-2024-35176"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ruby/rexml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00011.html"
     },
     {
       "type": "WEB",

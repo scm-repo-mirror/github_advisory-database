@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m98-qgg9-wh84",
-  "modified": "2024-05-03T17:29:54Z",
+  "modified": "2025-11-03T22:46:13Z",
   "published": "2024-05-03T17:29:54Z",
   "aliases": [
     "CVE-2024-30251"
@@ -59,6 +59,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/aio-libs/aiohttp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00002.html"
     },
     {
       "type": "WEB",
