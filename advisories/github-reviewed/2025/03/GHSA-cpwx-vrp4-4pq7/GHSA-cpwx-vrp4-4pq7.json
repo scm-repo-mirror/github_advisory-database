@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpwx-vrp4-4pq7",
-  "modified": "2025-05-01T03:31:17Z",
+  "modified": "2025-11-03T22:54:41Z",
   "published": "2025-03-05T20:40:14Z",
   "aliases": [
     "CVE-2025-27516"
@@ -54,6 +54,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/pallets/jinja"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00022.html"
     },
     {
       "type": "WEB",

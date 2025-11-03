@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p2h-wqq4-wf4h",
-  "modified": "2025-08-08T18:52:38Z",
+  "modified": "2025-11-03T22:55:48Z",
   "published": "2025-04-28T21:30:43Z",
   "aliases": [
     "CVE-2025-31650"
@@ -222,6 +222,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/j6zzk0y3yym9pzfzkq5vcyxzz0yzh826"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00009.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq67-2wwv-3xjx",
-  "modified": "2025-09-29T16:38:27Z",
+  "modified": "2025-11-03T22:54:57Z",
   "published": "2025-03-27T18:31:28Z",
   "aliases": [
     "CVE-2024-12905"
@@ -93,6 +93,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/mafintosh/tar-fs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00012.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.seal.security/blog/a-link-to-the-past-uncovering-a-new-vulnerability-in-tar-fs"
     }
   ],
   "database_specific": {

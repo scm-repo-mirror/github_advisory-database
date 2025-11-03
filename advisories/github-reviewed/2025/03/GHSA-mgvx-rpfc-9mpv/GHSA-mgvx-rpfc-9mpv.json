@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgvx-rpfc-9mpv",
-  "modified": "2025-03-25T15:10:14Z",
+  "modified": "2025-11-03T22:55:15Z",
   "published": "2025-03-25T00:30:26Z",
   "aliases": [
     "CVE-2025-1974"
@@ -78,6 +78,14 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/g/kubernetes-security-announce/c/2qa9DFtN0cQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://https://github.com/kubernetes/kubernetes/issues/131009"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250328-0008"
     }
   ],
   "database_specific": {
