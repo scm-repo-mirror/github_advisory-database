@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwcw-c2x4-8c55",
-  "modified": "2024-12-13T22:57:29Z",
+  "modified": "2025-11-04T16:54:54Z",
   "published": "2024-12-09T03:30:59Z",
   "aliases": [
     "CVE-2024-55565"
@@ -74,6 +74,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/ai/nanoid/releases/tag/5.0.9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00025.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00006.html"
     }
   ],
   "database_specific": {

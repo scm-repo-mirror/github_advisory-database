@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hf4-67fc-4vf4",
-  "modified": "2024-09-20T22:12:43Z",
+  "modified": "2025-11-04T16:53:06Z",
   "published": "2024-09-20T14:40:16Z",
   "aliases": [
     "CVE-2024-45614"
@@ -82,6 +82,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/puma/CVE-2024-45614.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00004.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfq9-hggm-c56q",
-  "modified": "2024-11-08T13:55:23Z",
+  "modified": "2025-11-04T16:53:40Z",
   "published": "2024-11-07T21:51:17Z",
   "aliases": [
     "CVE-2024-47072"
@@ -59,6 +59,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/x-stream/xstream"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00023.html"
     },
     {
       "type": "WEB",
