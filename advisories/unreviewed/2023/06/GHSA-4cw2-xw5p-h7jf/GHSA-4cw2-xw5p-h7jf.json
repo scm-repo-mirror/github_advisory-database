@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cw2-xw5p-h7jf",
-  "modified": "2024-04-04T04:49:04Z",
+  "modified": "2025-11-04T21:30:33Z",
   "published": "2023-06-14T00:30:41Z",
   "aliases": [
     "CVE-2023-32029"
@@ -22,10 +22,16 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32029"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1730"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-125"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

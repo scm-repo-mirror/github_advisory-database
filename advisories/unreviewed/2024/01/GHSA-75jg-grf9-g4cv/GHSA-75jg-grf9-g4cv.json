@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75jg-grf9-g4cv",
-  "modified": "2024-01-18T15:30:35Z",
+  "modified": "2025-11-04T21:31:02Z",
   "published": "2024-01-11T00:30:25Z",
   "aliases": [
     "CVE-2023-38612"
@@ -38,6 +38,22 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213931"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213932"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213938"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213940"
     }
   ],
   "database_specific": {

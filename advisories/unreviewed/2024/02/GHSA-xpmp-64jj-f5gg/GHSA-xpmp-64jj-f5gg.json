@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpmp-64jj-f5gg",
-  "modified": "2024-03-21T03:36:29Z",
+  "modified": "2025-11-04T21:31:05Z",
   "published": "2024-02-02T06:30:31Z",
   "aliases": [
     "CVE-2023-46045"
@@ -37,7 +37,19 @@
     },
     {
       "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176816/graphviz-2.43.0-Buffer-Overflow-Code-Execution.html"
+    },
+    {
+      "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2024/Feb/24"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jan/62"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jan/73"
     }
   ],
   "database_specific": {

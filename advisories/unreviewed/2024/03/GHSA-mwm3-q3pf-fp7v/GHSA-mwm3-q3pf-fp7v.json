@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwm3-q3pf-fp7v",
-  "modified": "2024-08-27T21:31:10Z",
+  "modified": "2025-11-04T21:31:16Z",
   "published": "2024-03-08T03:31:24Z",
   "aliases": [
     "CVE-2024-0258"
@@ -34,6 +34,22 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214088"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214081"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214084"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214088"
     },
     {
       "type": "WEB",

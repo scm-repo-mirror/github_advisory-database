@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2hf-9hjx-2rxj",
-  "modified": "2024-11-15T00:31:50Z",
+  "modified": "2025-11-04T21:31:20Z",
   "published": "2024-03-19T12:30:41Z",
   "aliases": [
     "CVE-2023-5388"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1780432"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/03/msg00010.html"
     },
     {
       "type": "WEB",

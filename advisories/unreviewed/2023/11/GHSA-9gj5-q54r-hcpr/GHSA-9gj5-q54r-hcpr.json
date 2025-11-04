@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gj5-q54r-hcpr",
-  "modified": "2023-11-27T18:31:13Z",
+  "modified": "2025-11-04T21:30:48Z",
   "published": "2023-11-27T18:31:13Z",
   "aliases": [
     "CVE-2023-35985"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1834"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1834"
     }
   ],
   "database_specific": {

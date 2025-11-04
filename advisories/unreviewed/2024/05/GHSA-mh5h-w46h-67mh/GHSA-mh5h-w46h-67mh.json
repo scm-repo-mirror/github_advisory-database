@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh5h-w46h-67mh",
-  "modified": "2024-05-03T03:31:05Z",
+  "modified": "2025-11-04T21:31:29Z",
   "published": "2024-05-03T03:31:05Z",
   "aliases": [
     "CVE-2023-44441"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-44441"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/11/msg00031.html"
     },
     {
       "type": "WEB",

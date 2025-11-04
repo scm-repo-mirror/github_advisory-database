@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r2f8-jcm8-g23c",
-  "modified": "2024-08-06T18:30:49Z",
+  "modified": "2025-11-04T21:31:22Z",
   "published": "2024-03-27T03:31:17Z",
   "aliases": [
     "CVE-2024-25735"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://packetstormsecurity.com/files/177082"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Feb/11"
     }
   ],
   "database_specific": {

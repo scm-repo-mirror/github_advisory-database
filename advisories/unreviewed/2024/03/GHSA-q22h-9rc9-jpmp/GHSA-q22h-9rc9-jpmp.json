@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q22h-9rc9-jpmp",
-  "modified": "2024-03-27T06:30:32Z",
+  "modified": "2025-11-04T21:31:22Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2023-45925"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://midnight-commander.org/ticket/4484"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176808/Midnight-Commander-4.8.29-146-g299d9a2fb-Null-Pointer.html"
     },
     {
       "type": "WEB",

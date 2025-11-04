@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6pg-5762-5mq6",
-  "modified": "2024-07-22T18:31:47Z",
+  "modified": "2025-11-04T21:30:26Z",
   "published": "2022-02-10T00:01:00Z",
   "aliases": [
     "CVE-2021-33627"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.insyde.com/security-pledge/SA-2022022"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/796611"
     }
   ],
   "database_specific": {

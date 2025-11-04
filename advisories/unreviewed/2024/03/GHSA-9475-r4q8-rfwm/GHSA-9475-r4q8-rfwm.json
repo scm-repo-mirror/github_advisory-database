@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9475-r4q8-rfwm",
-  "modified": "2024-11-05T21:30:31Z",
+  "modified": "2025-11-04T21:31:16Z",
   "published": "2024-03-05T21:30:25Z",
   "aliases": [
     "CVE-2024-23256"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214081"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214081"
     },
     {
       "type": "WEB",

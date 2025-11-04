@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwrv-r72x-jcwr",
-  "modified": "2024-01-08T09:30:35Z",
+  "modified": "2025-11-04T21:30:55Z",
   "published": "2024-01-08T09:30:35Z",
   "aliases": [
     "CVE-2023-29051"
   ],
-  "details": "User-defined OXMF templates could be used to access a limited part of the internal OX App Suite Java API. The existing switch to disable the feature by default was not effective in this case. Unauthorized users could discover and modify application state, including objects related to other users and contexts. We now make sure that the switch to disable user-generated templates by default works as intended and will remove the feature in future generations of the product. No publicly available exploits are known.\n\n",
+  "details": "User-defined OXMF templates could be used to access a limited part of the internal OX App Suite Java API. The existing switch to disable the feature by default was not effective in this case. Unauthorized users could discover and modify application state, including objects related to other users and contexts. We now make sure that the switch to disable user-generated templates by default works as intended and will remove the feature in future generations of the product. No publicly available exploits are known.",
   "severity": [
     {
       "type": "CVSS_V3",

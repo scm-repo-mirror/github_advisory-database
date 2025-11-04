@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqpf-pfm9-3p52",
-  "modified": "2024-11-19T00:32:42Z",
+  "modified": "2025-11-04T21:31:16Z",
   "published": "2024-03-08T03:31:24Z",
   "aliases": [
     "CVE-2024-23220"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214087"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214081"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214087"
     },
     {
       "type": "WEB",

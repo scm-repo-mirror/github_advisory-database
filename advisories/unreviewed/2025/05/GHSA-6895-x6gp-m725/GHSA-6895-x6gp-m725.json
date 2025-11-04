@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6895-x6gp-m725",
-  "modified": "2025-05-12T21:31:07Z",
+  "modified": "2025-11-04T21:31:32Z",
   "published": "2025-05-08T18:30:42Z",
   "aliases": [
     "CVE-2023-51295"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/event-booking-calendar/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176485/PHPJabbers-Event-Booking-Calendar-4.0-Cross-Site-Scripting-HTML-Injection.html"
     }
   ],
   "database_specific": {

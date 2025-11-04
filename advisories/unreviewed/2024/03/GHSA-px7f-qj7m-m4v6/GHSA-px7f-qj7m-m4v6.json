@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px7f-qj7m-m4v6",
-  "modified": "2024-08-27T00:31:32Z",
+  "modified": "2025-11-04T21:31:23Z",
   "published": "2024-03-27T21:30:47Z",
   "aliases": [
     "CVE-2024-28085"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2024/03/27/5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Mar/35"
     },
     {
       "type": "WEB",

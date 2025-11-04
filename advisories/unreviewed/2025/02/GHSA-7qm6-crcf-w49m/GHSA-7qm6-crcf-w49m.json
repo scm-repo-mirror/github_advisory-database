@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qm6-crcf-w49m",
-  "modified": "2025-02-21T18:31:11Z",
+  "modified": "2025-11-04T21:31:30Z",
   "published": "2025-02-20T15:31:09Z",
   "aliases": [
     "CVE-2023-51308"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/car-park-booking/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176491/PHPJabbers-Car-Park-Booking-System-3.0-Cross-Site-Scripting-HTML-Injection.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcq2-59g4-9rm6",
-  "modified": "2024-11-20T18:32:14Z",
+  "modified": "2025-11-04T21:31:21Z",
   "published": "2024-03-27T03:31:17Z",
   "aliases": [
     "CVE-2024-25394"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.humanativaspa.it/multiple-vulnerabilities-in-rt-thread-rtos"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Mar/28"
     },
     {
       "type": "WEB",

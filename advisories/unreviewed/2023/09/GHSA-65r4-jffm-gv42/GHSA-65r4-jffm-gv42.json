@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65r4-jffm-gv42",
-  "modified": "2024-04-04T07:53:40Z",
+  "modified": "2025-11-04T21:30:42Z",
   "published": "2023-09-27T15:30:36Z",
   "aliases": [
     "CVE-2023-41067"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213940"
     },
     {
       "type": "WEB",

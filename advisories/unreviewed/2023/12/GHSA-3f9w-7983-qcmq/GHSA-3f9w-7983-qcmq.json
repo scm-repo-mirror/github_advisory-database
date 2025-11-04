@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f9w-7983-qcmq",
-  "modified": "2024-09-16T14:37:22Z",
+  "modified": "2025-11-04T21:30:50Z",
   "published": "2023-12-10T18:30:18Z",
   "aliases": [
     "CVE-2023-5868"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20240119-0003"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/11/msg00007.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gprg-wq36-vj82",
-  "modified": "2022-07-13T00:00:50Z",
+  "modified": "2025-11-04T21:30:25Z",
   "published": "2022-05-24T19:03:02Z",
   "aliases": [
     "CVE-2020-26557"
@@ -26,10 +26,15 @@
     {
       "type": "WEB",
       "url": "https://www.bluetooth.com/learn-about-bluetooth/key-attributes/bluetooth-security/reporting-security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/799380"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-287",
       "CWE-863"
     ],
     "severity": "HIGH",

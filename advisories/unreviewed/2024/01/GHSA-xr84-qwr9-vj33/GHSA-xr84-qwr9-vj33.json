@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr84-qwr9-vj33",
-  "modified": "2024-01-08T09:30:35Z",
+  "modified": "2025-11-04T21:30:55Z",
   "published": "2024-01-08T09:30:35Z",
   "aliases": [
     "CVE-2023-29052"
   ],
-  "details": "Users were able to define disclaimer texts for an upsell shop dialog that would contain script code that was not sanitized correctly. Attackers could lure victims to user accounts with malicious script code and make them execute it in the context of a trusted domain. We added sanitization for this content. No publicly available exploits are known.\n\n",
+  "details": "Users were able to define disclaimer texts for an upsell shop dialog that would contain script code that was not sanitized correctly. Attackers could lure victims to user accounts with malicious script code and make them execute it in the context of a trusted domain. We added sanitization for this content. No publicly available exploits are known.",
   "severity": [
     {
       "type": "CVSS_V3",

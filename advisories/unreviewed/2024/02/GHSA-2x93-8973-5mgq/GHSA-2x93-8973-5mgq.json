@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x93-8973-5mgq",
-  "modified": "2025-08-04T21:30:36Z",
+  "modified": "2025-11-04T21:31:14Z",
   "published": "2024-02-28T15:30:56Z",
   "aliases": [
     "CVE-2024-21885"
@@ -22,6 +22,22 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20240503-0004"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IZ75X54CN4IFYMIV7OK3JVZ57FHQIGIC"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EJBMCWQ54R6ZL3MYU2D2JBW6JMZL7BQW"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5J4H7CH565ALSZZYKOJFYDA5KFLG6NUK"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/01/msg00016.html"
     },
     {
       "type": "WEB",

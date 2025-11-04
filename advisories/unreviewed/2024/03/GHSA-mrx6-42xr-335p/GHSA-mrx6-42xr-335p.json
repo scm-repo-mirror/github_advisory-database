@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrx6-42xr-335p",
-  "modified": "2024-04-09T00:30:40Z",
+  "modified": "2025-11-04T21:31:23Z",
   "published": "2024-03-28T18:30:46Z",
   "aliases": [
     "CVE-2023-40390"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214036"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214036"
     }
   ],
   "database_specific": {

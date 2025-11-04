@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-442g-7r67-9534",
-  "modified": "2024-04-18T00:30:31Z",
+  "modified": "2025-11-04T21:31:28Z",
   "published": "2024-04-18T00:30:31Z",
   "aliases": [
     "CVE-2023-4235"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2255402"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RLAWJAAS3HDI2KMCZXF4DMR3Y4BQNMKO"
     }
   ],
   "database_specific": {

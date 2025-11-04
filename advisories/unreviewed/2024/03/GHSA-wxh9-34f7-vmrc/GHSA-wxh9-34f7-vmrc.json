@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxh9-34f7-vmrc",
-  "modified": "2024-08-22T21:31:27Z",
+  "modified": "2025-11-04T21:31:23Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2023-46047"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/sane-project/backends/-/issues/708"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176818/sane-1.2.1-Null-Pointer.html"
     },
     {
       "type": "WEB",

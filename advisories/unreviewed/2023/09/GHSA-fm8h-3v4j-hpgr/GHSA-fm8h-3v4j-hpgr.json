@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fm8h-3v4j-hpgr",
-  "modified": "2024-04-04T07:50:21Z",
+  "modified": "2025-11-04T21:30:39Z",
   "published": "2023-09-25T18:30:50Z",
   "aliases": [
     "CVE-2023-32653"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1802"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1802"
     }
   ],
   "database_specific": {

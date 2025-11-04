@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pvw-wf9w-xx8v",
-  "modified": "2024-11-12T21:30:49Z",
+  "modified": "2025-11-04T21:31:22Z",
   "published": "2024-03-27T06:30:30Z",
   "aliases": [
     "CVE-2023-39804"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.savannah.gnu.org/cgit/tar.git/tree/src/xheader.c?h=release_1_34#n1723"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/03/msg00008.html"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4gxp-6chj-c99r",
-  "modified": "2024-09-04T18:30:48Z",
+  "modified": "2025-11-04T21:31:22Z",
   "published": "2024-03-27T06:30:31Z",
   "aliases": [
     "CVE-2023-45931"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/fulldisclosure/2024/Jan/71"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176813/Mesa-23.0.4-Null-Pointer.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jan/59"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jan/71"
     }
   ],
   "database_specific": {

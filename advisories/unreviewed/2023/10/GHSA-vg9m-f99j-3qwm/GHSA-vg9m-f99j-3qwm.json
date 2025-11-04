@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vg9m-f99j-3qwm",
-  "modified": "2024-05-22T18:30:38Z",
+  "modified": "2025-11-04T21:30:44Z",
   "published": "2023-10-10T15:30:51Z",
   "aliases": [
     "CVE-2023-43788"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2242248"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/10/msg00005.html"
     },
     {
       "type": "WEB",

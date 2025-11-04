@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hwg-wq94-95pr",
-  "modified": "2022-03-17T00:06:05Z",
+  "modified": "2025-11-04T21:30:27Z",
   "published": "2022-02-10T00:00:57Z",
   "aliases": [
     "CVE-2021-42554"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.insyde.com/security-pledge/SA-2022012"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/796611"
     }
   ],
   "database_specific": {

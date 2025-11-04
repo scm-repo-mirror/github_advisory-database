@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hvj-649j-6jh6",
-  "modified": "2024-02-17T03:30:30Z",
+  "modified": "2025-11-04T21:31:10Z",
   "published": "2024-02-17T03:30:30Z",
   "aliases": [
     "CVE-2024-20974"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-20974"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240201-0003"
     },
     {
       "type": "WEB",

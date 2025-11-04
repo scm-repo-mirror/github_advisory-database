@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85h3-wq5q-6x6j",
-  "modified": "2024-01-08T15:30:30Z",
+  "modified": "2025-11-04T21:30:59Z",
   "published": "2024-01-08T15:30:30Z",
   "aliases": [
     "CVE-2023-47211"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.manageengine.com/itom/advisory/cve-2023-47211.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1851"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j946-qf4c-jrjh",
-  "modified": "2025-02-21T21:32:05Z",
+  "modified": "2025-11-04T21:31:30Z",
   "published": "2025-02-20T18:31:23Z",
   "aliases": [
     "CVE-2023-51323"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/shared-asset-booking-system/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176503/PHPJabbers-Shared-Asset-Booking-System-1.0-Missing-Rate-Limit.html"
     }
   ],
   "database_specific": {

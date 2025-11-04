@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc97-88q3-4rx5",
-  "modified": "2023-02-06T18:30:29Z",
+  "modified": "2025-11-04T21:30:31Z",
   "published": "2023-01-27T00:30:19Z",
   "aliases": [
     "CVE-2022-41019"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1613"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2022-1613"
     }
   ],
   "database_specific": {

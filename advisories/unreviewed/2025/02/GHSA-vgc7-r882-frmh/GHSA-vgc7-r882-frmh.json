@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgc7-r882-frmh",
-  "modified": "2025-02-20T15:31:08Z",
+  "modified": "2025-11-04T21:31:30Z",
   "published": "2025-02-19T21:31:38Z",
   "aliases": [
     "CVE-2023-51301"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/hotel-booking-system/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176486/PHPJabbers-Hotel-Booking-System-4.0-Missing-Rate-Limiting.html"
     }
   ],
   "database_specific": {

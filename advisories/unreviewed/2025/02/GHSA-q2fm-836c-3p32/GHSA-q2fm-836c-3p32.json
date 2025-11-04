@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2fm-836c-3p32",
-  "modified": "2025-02-22T00:33:50Z",
+  "modified": "2025-11-04T21:31:31Z",
   "published": "2025-02-20T21:30:53Z",
   "aliases": [
     "CVE-2023-51337"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/event-ticketing-system/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176516/PHPJabbers-Event-Ticketing-System-1.0-Cross-Site-Scripting-HTML-Injection.html"
     }
   ],
   "database_specific": {

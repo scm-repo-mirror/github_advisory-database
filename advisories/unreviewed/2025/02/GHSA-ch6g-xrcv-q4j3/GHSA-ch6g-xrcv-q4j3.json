@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch6g-xrcv-q4j3",
-  "modified": "2025-02-24T03:31:51Z",
+  "modified": "2025-11-04T21:31:31Z",
   "published": "2025-02-24T03:31:51Z",
   "aliases": [
     "CVE-2025-1608"
@@ -42,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-78"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

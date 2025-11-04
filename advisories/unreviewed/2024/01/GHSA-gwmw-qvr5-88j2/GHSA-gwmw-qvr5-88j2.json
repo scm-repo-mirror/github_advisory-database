@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwmw-qvr5-88j2",
-  "modified": "2025-06-18T18:30:23Z",
+  "modified": "2025-11-04T21:30:54Z",
   "published": "2024-01-05T18:30:25Z",
   "aliases": [
     "CVE-2023-34325"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://xenbits.xenproject.org/xsa/advisory-443.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-443.html"
     }
   ],
   "database_specific": {

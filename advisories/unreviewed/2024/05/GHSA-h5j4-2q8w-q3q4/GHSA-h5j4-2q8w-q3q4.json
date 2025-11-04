@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5j4-2q8w-q3q4",
-  "modified": "2024-05-03T03:31:02Z",
+  "modified": "2025-11-04T21:31:29Z",
   "published": "2024-05-03T03:31:02Z",
   "aliases": [
     "CVE-2023-42114"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42114"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/10/msg00002.html"
     },
     {
       "type": "WEB",

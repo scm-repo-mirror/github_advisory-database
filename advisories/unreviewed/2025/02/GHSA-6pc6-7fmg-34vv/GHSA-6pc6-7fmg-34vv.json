@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pc6-7fmg-34vv",
-  "modified": "2025-02-22T00:33:50Z",
+  "modified": "2025-11-04T21:31:30Z",
   "published": "2025-02-20T18:31:24Z",
   "aliases": [
     "CVE-2023-51333"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/cinema-booking-system/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176511/PHPJabbers-Cinema-Booking-System-1.0-CSV-Injection.html"
     }
   ],
   "database_specific": {

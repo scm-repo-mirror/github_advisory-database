@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vggp-p864-ph99",
-  "modified": "2024-11-07T00:30:35Z",
+  "modified": "2025-11-04T21:31:23Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2023-46049"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://llvm.org/docs/Security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176820/llvm-LLVM-15-Null-Pointer.html"
     },
     {
       "type": "WEB",

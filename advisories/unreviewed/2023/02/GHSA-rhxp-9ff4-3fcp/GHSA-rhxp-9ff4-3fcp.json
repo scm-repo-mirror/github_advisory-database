@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhxp-9ff4-3fcp",
-  "modified": "2023-02-15T21:30:29Z",
+  "modified": "2025-11-04T21:30:32Z",
   "published": "2023-02-07T18:30:17Z",
   "aliases": [
     "CVE-2022-41312"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.moxa.com/en/support/product-support/security-advisory/sds-3008-series-multiple-web-vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2022-1619"
     }
   ],
   "database_specific": {

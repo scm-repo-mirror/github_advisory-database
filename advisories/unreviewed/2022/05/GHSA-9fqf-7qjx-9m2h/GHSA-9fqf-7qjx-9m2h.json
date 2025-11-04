@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fqf-7qjx-9m2h",
-  "modified": "2022-05-24T17:26:17Z",
+  "modified": "2025-11-04T21:30:24Z",
   "published": "2022-05-24T17:26:17Z",
   "aliases": [
     "CVE-2020-10123"
   ],
   "details": "The currency dispenser of NCR SelfSev ATMs running APTRA XFS 05.01.00 or earlier does not adequately authenticate session key generation requests from the host computer, allowing an attacker with physical access to internal ATM components to issue valid commands to dispense currency by generating a new session key that the attacker knows.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -17,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.cert.org/vuls/id/116713"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/116713"
     },
     {
       "type": "WEB",
@@ -36,7 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-287",
+      "CWE-305"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,

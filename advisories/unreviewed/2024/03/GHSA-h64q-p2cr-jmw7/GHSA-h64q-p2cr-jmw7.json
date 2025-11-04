@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h64q-p2cr-jmw7",
-  "modified": "2024-04-09T00:30:40Z",
+  "modified": "2025-11-04T21:31:23Z",
   "published": "2024-03-28T18:30:47Z",
   "aliases": [
     "CVE-2023-42962"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214035"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214035"
     }
   ],
   "database_specific": {

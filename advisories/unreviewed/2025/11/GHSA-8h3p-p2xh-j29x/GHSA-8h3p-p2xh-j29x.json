@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8h3p-p2xh-j29x",
-  "modified": "2025-11-04T03:30:29Z",
+  "modified": "2025-11-04T21:31:33Z",
   "published": "2025-11-04T03:30:29Z",
   "aliases": [
     "CVE-2025-43454"
   ],
   "details": "This issue was addressed through improved state management. This issue is fixed in iOS 26.1 and iPadOS 26.1. A device may persistently fail to lock.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-04T02:15:50Z"

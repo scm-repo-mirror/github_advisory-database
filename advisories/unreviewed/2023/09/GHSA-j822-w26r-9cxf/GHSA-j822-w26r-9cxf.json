@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j822-w26r-9cxf",
-  "modified": "2025-11-03T21:30:55Z",
+  "modified": "2025-11-04T21:30:40Z",
   "published": "2023-09-27T15:30:35Z",
   "aliases": [
     "CVE-2023-40403"
@@ -50,6 +50,30 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213931"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213932"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213936"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213937"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213938"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213940"
     },
     {
       "type": "WEB",

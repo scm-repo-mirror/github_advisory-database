@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gxq-wfg7-72x4",
-  "modified": "2022-10-07T18:15:55Z",
+  "modified": "2025-11-04T21:30:24Z",
   "published": "2022-05-24T17:39:33Z",
   "aliases": [
     "CVE-2020-25685"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1889688"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QGB7HL3OWHTLEPSMLDGOMXQKG3KM2QME"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WYW3IR6APUSKOYKL5FT3ACTIHWHGQY32"
     },
     {
       "type": "WEB",
@@ -46,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://www.jsof-tech.com/disclosures/dnspooq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/434904"
     }
   ],
   "database_specific": {

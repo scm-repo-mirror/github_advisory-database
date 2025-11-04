@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8rg-vqgg-9pmq",
-  "modified": "2023-01-19T18:30:23Z",
+  "modified": "2025-11-04T21:30:28Z",
   "published": "2023-01-11T21:30:41Z",
   "aliases": [
     "CVE-2022-4499"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.cert.org/vuls/id/572615"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/572615"
     }
   ],
   "database_specific": {

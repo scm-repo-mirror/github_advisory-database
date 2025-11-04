@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmmp-h76c-g65f",
-  "modified": "2024-02-06T18:30:21Z",
+  "modified": "2025-11-04T21:31:06Z",
   "published": "2024-02-06T18:30:21Z",
   "aliases": [
     "CVE-2023-42664"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1856"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1856"
     }
   ],
   "database_specific": {

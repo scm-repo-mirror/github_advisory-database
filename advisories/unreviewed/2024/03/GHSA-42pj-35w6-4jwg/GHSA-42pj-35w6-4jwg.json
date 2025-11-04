@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42pj-35w6-4jwg",
-  "modified": "2024-08-27T18:31:34Z",
+  "modified": "2025-11-04T21:31:23Z",
   "published": "2024-03-28T18:30:47Z",
   "aliases": [
     "CVE-2023-42974"
@@ -38,6 +38,18 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214038"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214036"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214037"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214038"
     }
   ],
   "database_specific": {

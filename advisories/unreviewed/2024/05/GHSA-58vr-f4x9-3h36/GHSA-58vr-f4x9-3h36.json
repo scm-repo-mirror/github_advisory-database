@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58vr-f4x9-3h36",
-  "modified": "2024-05-03T03:30:58Z",
+  "modified": "2025-11-04T21:31:29Z",
   "published": "2024-05-03T03:30:58Z",
   "aliases": [
     "CVE-2023-40477"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-40477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/11/msg00009.html"
     },
     {
       "type": "WEB",

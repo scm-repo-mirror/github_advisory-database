@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwhj-j6cr-5qw4",
-  "modified": "2025-11-03T21:31:04Z",
+  "modified": "2025-11-04T21:31:29Z",
   "published": "2024-05-14T15:32:50Z",
   "aliases": [
     "CVE-2023-43040"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/266807"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/10/msg00034.html"
     },
     {
       "type": "WEB",

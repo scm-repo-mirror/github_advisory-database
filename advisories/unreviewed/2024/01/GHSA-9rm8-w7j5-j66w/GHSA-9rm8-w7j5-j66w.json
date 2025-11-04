@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rm8-w7j5-j66w",
-  "modified": "2024-01-08T09:30:35Z",
+  "modified": "2025-11-04T21:30:55Z",
   "published": "2024-01-08T09:30:35Z",
   "aliases": [
     "CVE-2023-41710"
   ],
-  "details": "User-defined script code could be stored for a upsell related shop URL. This code was not correctly sanitized when adding it to DOM. Attackers could lure victims to user accounts with malicious script code and make them execute it in the context of a trusted domain. We added sanitization for this content. No publicly available exploits are known.\n\n",
+  "details": "User-defined script code could be stored for a upsell related shop URL. This code was not correctly sanitized when adding it to DOM. Attackers could lure victims to user accounts with malicious script code and make them execute it in the context of a trusted domain. We added sanitization for this content. No publicly available exploits are known.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rhc-2pqf-hqj3",
-  "modified": "2025-02-21T21:32:05Z",
+  "modified": "2025-11-04T21:31:30Z",
   "published": "2025-02-20T18:31:23Z",
   "aliases": [
     "CVE-2023-51321"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/night-club-booking-software/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176502/PHPJabbers-Night-Club-Booking-Software-1.0-Missing-Rate-Limiting.html"
     }
   ],
   "database_specific": {

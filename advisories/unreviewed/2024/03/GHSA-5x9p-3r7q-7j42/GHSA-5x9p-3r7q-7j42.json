@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5x9p-3r7q-7j42",
-  "modified": "2024-11-20T18:32:14Z",
+  "modified": "2025-11-04T21:31:17Z",
   "published": "2024-03-08T03:31:25Z",
   "aliases": [
     "CVE-2024-23279"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214084"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214084"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r2ph-v39r-xqgv",
-  "modified": "2023-02-06T18:30:29Z",
+  "modified": "2025-11-04T21:30:32Z",
   "published": "2023-01-27T00:30:19Z",
   "aliases": [
     "CVE-2022-42490"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1640"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2022-1640"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c6v-3v49-q93r",
-  "modified": "2025-02-21T21:32:06Z",
+  "modified": "2025-11-04T21:31:30Z",
   "published": "2025-02-20T18:31:23Z",
   "aliases": [
     "CVE-2023-51326"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/cleaning-business-software/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176506/PHPJabbers-Cleaning-Business-Software-1.0-Missing-Rate-Limiting.html"
     }
   ],
   "database_specific": {

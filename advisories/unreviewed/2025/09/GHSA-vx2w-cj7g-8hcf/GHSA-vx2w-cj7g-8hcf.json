@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx2w-cj7g-8hcf",
-  "modified": "2025-09-22T21:30:18Z",
+  "modified": "2025-11-04T21:31:32Z",
   "published": "2025-09-22T21:30:18Z",
   "aliases": [
     "CVE-2025-48703"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://control-webpanel.com/changelog"
+    },
+    {
+      "type": "WEB",
       "url": "https://fenrisk.com/rce-centos-webpanel"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-48703"
     }
   ],
   "database_specific": {

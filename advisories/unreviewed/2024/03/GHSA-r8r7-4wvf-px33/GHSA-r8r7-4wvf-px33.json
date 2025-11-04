@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8r7-4wvf-px33",
-  "modified": "2025-11-04T00:30:48Z",
+  "modified": "2025-11-04T21:31:21Z",
   "published": "2024-03-26T09:32:58Z",
   "aliases": [
     "CVE-2023-6175"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/wireshark/wireshark/-/issues/19404"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/02/msg00016.html"
     },
     {
       "type": "WEB",

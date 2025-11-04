@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7qc-r5p9-r36r",
-  "modified": "2025-11-04T18:30:56Z",
+  "modified": "2025-11-04T21:31:29Z",
   "published": "2024-05-16T15:31:37Z",
   "aliases": [
     "CVE-2024-31142"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://xenbits.xenproject.org/xsa/advisory-455.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-455.html"
     }
   ],
   "database_specific": {

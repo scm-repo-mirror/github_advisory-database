@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7v5-rxwv-mpjw",
-  "modified": "2024-10-27T15:30:43Z",
+  "modified": "2025-11-04T21:31:19Z",
   "published": "2024-03-08T03:31:25Z",
   "aliases": [
     "CVE-2024-23295"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214087"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214087"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xq4-g7wr-q7cw",
-  "modified": "2024-09-19T21:33:28Z",
+  "modified": "2025-11-04T21:30:46Z",
   "published": "2023-11-05T00:33:05Z",
   "aliases": [
     "CVE-2023-46382"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "http://packetstormsecurity.com/files/175646/LOYTEC-Electronics-Insecure-Transit-Insecure-Permissions-Unauthenticated-Access.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2023/Nov/0"
     }
   ],
   "database_specific": {

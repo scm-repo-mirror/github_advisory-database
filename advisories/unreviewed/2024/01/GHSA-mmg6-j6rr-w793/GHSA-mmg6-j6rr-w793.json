@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmg6-j6rr-w793",
-  "modified": "2024-01-19T21:30:34Z",
+  "modified": "2025-11-04T21:31:04Z",
   "published": "2024-01-13T00:30:25Z",
   "aliases": [
     "CVE-2024-0230"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214050"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214050"
     }
   ],
   "database_specific": {

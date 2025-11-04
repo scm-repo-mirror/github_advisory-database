@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-655f-j2cx-ww9q",
-  "modified": "2024-04-09T21:31:55Z",
+  "modified": "2025-11-04T21:30:58Z",
   "published": "2024-01-08T15:30:30Z",
   "aliases": [
     "CVE-2023-39443"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1826"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1826"
     }
   ],
   "database_specific": {

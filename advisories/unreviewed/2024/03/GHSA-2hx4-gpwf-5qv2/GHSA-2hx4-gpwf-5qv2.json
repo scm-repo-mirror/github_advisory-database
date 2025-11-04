@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hx4-gpwf-5qv2",
-  "modified": "2024-08-27T00:31:32Z",
+  "modified": "2025-11-04T21:31:19Z",
   "published": "2024-03-14T03:31:14Z",
   "aliases": [
     "CVE-2024-25228"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/fulldisclosure/2024/Mar/15"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Mar/15"
     }
   ],
   "database_specific": {

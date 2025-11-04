@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfq7-h592-v3xj",
-  "modified": "2025-02-26T00:32:10Z",
+  "modified": "2025-11-04T21:31:12Z",
   "published": "2024-02-24T00:30:20Z",
   "aliases": [
     "CVE-2024-24681"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.reddit.com/r/VOIP/comments/ys9mel/what_are_some_of_the_good_white_label_voip"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Feb/22"
     }
   ],
   "database_specific": {

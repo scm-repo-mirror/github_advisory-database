@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mj72-h98r-6h24",
-  "modified": "2022-05-19T00:00:35Z",
+  "modified": "2025-11-04T21:30:27Z",
   "published": "2022-05-05T00:00:19Z",
   "aliases": [
     "CVE-2022-28806"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.binarly.io/advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/796611"
     },
     {
       "type": "WEB",

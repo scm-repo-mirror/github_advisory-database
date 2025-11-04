@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cm2-f4g9-wjfm",
-  "modified": "2023-04-03T18:32:05Z",
+  "modified": "2025-11-04T21:30:33Z",
   "published": "2023-03-28T21:30:20Z",
   "aliases": [
     "CVE-2022-23121"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2023/dsa-5503"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/709991"
     },
     {
       "type": "WEB",

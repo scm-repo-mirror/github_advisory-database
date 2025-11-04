@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5rq-wq2c-r322",
-  "modified": "2023-02-02T18:30:30Z",
+  "modified": "2025-11-04T21:30:29Z",
   "published": "2023-01-27T00:30:20Z",
   "aliases": [
     "CVE-2022-40991"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1613"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2022-1613"
     }
   ],
   "database_specific": {

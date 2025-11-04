@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jg48-xvhq-mrmw",
-  "modified": "2024-04-09T00:30:40Z",
+  "modified": "2025-11-04T21:31:23Z",
   "published": "2024-03-28T18:30:47Z",
   "aliases": [
     "CVE-2023-42936"
@@ -42,6 +42,26 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214041"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214035"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214036"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214037"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214040"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214041"
     }
   ],
   "database_specific": {

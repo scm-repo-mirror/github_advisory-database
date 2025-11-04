@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vq6-ghrc-jpjw",
-  "modified": "2022-10-07T18:16:02Z",
+  "modified": "2025-11-04T21:30:25Z",
   "published": "2022-05-24T19:03:02Z",
   "aliases": [
     "CVE-2020-26555"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NSS6CTGE4UGTJLCOZOASDR3T3SLL6QJZ"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NSS6CTGE4UGTJLCOZOASDR3T3SLL6QJZ"
     },
     {
@@ -34,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00520.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/799380"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvr3-fj9r-5q66",
-  "modified": "2024-04-04T07:32:08Z",
+  "modified": "2025-11-04T21:30:39Z",
   "published": "2023-09-06T18:30:41Z",
   "aliases": [
     "CVE-2023-4498"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.cert.org/vuls/id/304455"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/304455"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6m9q-9m44-9hvq",
-  "modified": "2024-01-10T18:30:27Z",
+  "modified": "2025-11-04T21:31:00Z",
   "published": "2024-01-10T18:30:27Z",
   "aliases": [
     "CVE-2023-49589"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1896"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1896"
     }
   ],
   "database_specific": {

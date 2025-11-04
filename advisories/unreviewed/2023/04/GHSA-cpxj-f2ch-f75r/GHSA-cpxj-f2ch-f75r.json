@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpxj-f2ch-f75r",
-  "modified": "2024-04-04T03:43:20Z",
+  "modified": "2025-11-04T21:30:33Z",
   "published": "2023-04-28T03:30:16Z",
   "aliases": [
     "CVE-2023-28528"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.ibm.com/support/pages/node/6983232"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1691"
     },
     {
       "type": "WEB",

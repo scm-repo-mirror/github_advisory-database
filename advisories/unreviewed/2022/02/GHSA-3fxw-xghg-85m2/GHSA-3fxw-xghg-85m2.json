@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fxw-xghg-85m2",
-  "modified": "2022-03-30T00:01:54Z",
+  "modified": "2025-11-04T21:30:26Z",
   "published": "2022-02-09T00:01:06Z",
   "aliases": [
     "CVE-2021-45971"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.insyde.com/security-pledge"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/796611"
     }
   ],
   "database_specific": {

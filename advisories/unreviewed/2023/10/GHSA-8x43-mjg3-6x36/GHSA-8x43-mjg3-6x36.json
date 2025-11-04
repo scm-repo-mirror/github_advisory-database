@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x43-mjg3-6x36",
-  "modified": "2024-05-22T18:30:37Z",
+  "modified": "2025-11-04T21:30:43Z",
   "published": "2023-10-10T15:30:50Z",
   "aliases": [
     "CVE-2023-43787"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://jfrog.com/blog/xorg-libx11-vulns-cve-2023-43786-cve-2023-43787-part-two"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/10/msg00005.html"
     },
     {
       "type": "WEB",

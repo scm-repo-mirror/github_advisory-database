@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfg4-v93p-7mj4",
-  "modified": "2024-01-03T21:30:30Z",
+  "modified": "2025-11-04T21:30:53Z",
   "published": "2023-12-25T06:30:21Z",
   "aliases": [
     "CVE-2023-48654"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.oneidentity.com/products/password-manager"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2023/Dec/17"
     }
   ],
   "database_specific": {

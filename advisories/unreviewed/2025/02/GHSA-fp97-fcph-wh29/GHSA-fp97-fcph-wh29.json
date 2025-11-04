@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp97-fcph-wh29",
-  "modified": "2025-02-20T15:31:08Z",
+  "modified": "2025-11-04T21:31:30Z",
   "published": "2025-02-19T21:31:38Z",
   "aliases": [
     "CVE-2023-51303"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/event-ticketing-system/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176516/PHPJabbers-Event-Ticketing-System-1.0-Cross-Site-Scripting-HTML-Injection.html"
     }
   ],
   "database_specific": {

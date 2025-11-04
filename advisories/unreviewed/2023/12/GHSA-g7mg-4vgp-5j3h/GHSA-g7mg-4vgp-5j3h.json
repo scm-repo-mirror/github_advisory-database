@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7mg-4vgp-5j3h",
-  "modified": "2025-11-04T18:30:44Z",
+  "modified": "2025-11-04T21:30:50Z",
   "published": "2023-12-07T06:30:20Z",
   "aliases": [
     "CVE-2023-41913"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/strongswan/strongswan/releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/11/msg00018.html"
     },
     {
       "type": "WEB",

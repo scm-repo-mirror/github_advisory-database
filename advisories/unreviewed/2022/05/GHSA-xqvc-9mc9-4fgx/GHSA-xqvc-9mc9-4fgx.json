@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqvc-9mc9-4fgx",
-  "modified": "2024-04-04T03:04:14Z",
+  "modified": "2025-11-04T21:30:24Z",
   "published": "2022-05-24T17:39:33Z",
   "aliases": [
     "CVE-2020-25684"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://www.jsof-tech.com/disclosures/dnspooq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/434904"
     }
   ],
   "database_specific": {

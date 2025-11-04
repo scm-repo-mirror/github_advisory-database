@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27rf-x255-jv68",
-  "modified": "2022-04-19T00:01:44Z",
+  "modified": "2025-11-04T21:30:26Z",
   "published": "2022-02-10T00:00:58Z",
   "aliases": [
     "CVE-2021-42059"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.insyde.com/security-pledge/SA-2022006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/796611"
     }
   ],
   "database_specific": {

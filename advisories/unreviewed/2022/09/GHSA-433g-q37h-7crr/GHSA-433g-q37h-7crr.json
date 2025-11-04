@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-433g-q37h-7crr",
-  "modified": "2025-05-21T15:30:25Z",
+  "modified": "2025-11-04T21:30:27Z",
   "published": "2022-09-28T00:00:18Z",
   "aliases": [
     "CVE-2021-27854"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://standards.ieee.org/ieee/802.2/1048"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/855201"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gf3-x9x8-839v",
-  "modified": "2024-11-05T18:31:58Z",
+  "modified": "2025-11-04T21:31:23Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2023-46046"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.minizinc.org/doc-2.8.3/en/changelog.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176817/MiniZinc-2.7.6-Null-Pointer.html"
     },
     {
       "type": "WEB",

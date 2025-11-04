@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvq3-q67w-ph83",
-  "modified": "2024-05-03T03:31:05Z",
+  "modified": "2025-11-04T21:31:29Z",
   "published": "2024-05-03T03:31:05Z",
   "aliases": [
     "CVE-2023-44446"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gstreamer.freedesktop.org/security/sa-2023-0010.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/11/msg00029.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx4r-h2xh-2c27",
-  "modified": "2023-01-25T21:30:18Z",
+  "modified": "2025-11-04T21:30:28Z",
   "published": "2023-01-19T18:30:20Z",
   "aliases": [
     "CVE-2022-47196"
@@ -22,12 +22,17 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1686"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2022-1686"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-1188",
-      "CWE-453"
+      "CWE-453",
+      "CWE-79"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

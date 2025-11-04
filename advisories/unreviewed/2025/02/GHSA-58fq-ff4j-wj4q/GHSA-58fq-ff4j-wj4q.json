@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58fq-ff4j-wj4q",
-  "modified": "2025-02-22T00:33:50Z",
+  "modified": "2025-11-04T21:31:31Z",
   "published": "2025-02-20T21:30:53Z",
   "aliases": [
     "CVE-2023-51338"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.phpjabbers.com/meeting-room-booking-system/#sectionDemo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176517/PHPJabbers-Meeting-Room-Booking-System-1.0-Cross-Site-Scripting.html"
     }
   ],
   "database_specific": {

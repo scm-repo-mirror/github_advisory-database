@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55mr-49mr-xcvc",
-  "modified": "2024-12-20T18:31:31Z",
+  "modified": "2025-11-04T21:31:29Z",
   "published": "2024-12-19T18:31:37Z",
   "aliases": [
     "CVE-2023-7005"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://alephsecurity.com/2024/03/07/kontrol-lux-lock-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/949046"
     }
   ],
   "database_specific": {

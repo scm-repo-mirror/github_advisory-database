@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p58-rq38-6972",
-  "modified": "2024-02-17T03:30:29Z",
+  "modified": "2025-11-04T21:31:09Z",
   "published": "2024-02-17T03:30:29Z",
   "aliases": [
     "CVE-2024-20923"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-20923"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240201-0002"
     },
     {
       "type": "WEB",

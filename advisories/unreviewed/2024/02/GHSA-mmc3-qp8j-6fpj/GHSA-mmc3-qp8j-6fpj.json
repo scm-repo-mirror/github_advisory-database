@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmc3-qp8j-6fpj",
-  "modified": "2024-02-13T03:30:19Z",
+  "modified": "2025-11-04T21:31:05Z",
   "published": "2024-02-03T09:30:18Z",
   "aliases": [
     "CVE-2023-44031"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://packetstormsecurity.com/files/176841/Reprise-License-Manager-15.1-Privilege-Escalation-File-Write.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176841/Reprise-License-Manager-15.1-Privilege-Escalation-File-Write.html"
     },
     {
       "type": "WEB",

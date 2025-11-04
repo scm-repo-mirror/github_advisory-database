@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv4h-p8jr-6cv2",
-  "modified": "2025-11-04T18:30:45Z",
+  "modified": "2025-11-04T21:31:08Z",
   "published": "2024-02-14T18:30:25Z",
   "aliases": [
     "CVE-2023-50868"
@@ -34,6 +34,18 @@
     {
       "type": "WEB",
       "url": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2024q1/017430.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZDZFMEKQTZ4L7RY46FCENWFB5MDT263R"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HVRDSJVZKMCXKKPP6PNR62T7RWZ3YSDZ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BUIP7T7Z4T3UHLXFWG6XIVDP4GYPD3AI"
     },
     {
       "type": "WEB",

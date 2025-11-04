@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7245-jcxv-7q52",
-  "modified": "2024-01-31T15:30:18Z",
+  "modified": "2025-11-04T21:30:43Z",
   "published": "2023-10-06T18:30:32Z",
   "aliases": [
     "CVE-2023-39928"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2023/dsa-5527"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1831"
     }
   ],
   "database_specific": {

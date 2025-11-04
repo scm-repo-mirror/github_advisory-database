@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c9m-w27f-53rm",
-  "modified": "2025-02-13T16:50:09Z",
+  "modified": "2025-11-04T21:30:33Z",
   "published": "2023-03-22T12:30:16Z",
   "aliases": [
     "CVE-2023-28708"
@@ -124,6 +124,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/hdksc59z3s7tm39x0pp33mtwdrt8qr67"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20230331-0012"
     },
     {
       "type": "WEB",

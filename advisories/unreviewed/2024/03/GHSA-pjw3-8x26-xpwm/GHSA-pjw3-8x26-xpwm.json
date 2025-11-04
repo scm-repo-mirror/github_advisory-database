@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjw3-8x26-xpwm",
-  "modified": "2024-11-29T15:37:53Z",
+  "modified": "2025-11-04T21:31:23Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2023-46051"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://tug.org/pipermail/tex-live/2023-August/049406.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176822/tex-live-944e257-Null-Pointer.html"
     },
     {
       "type": "WEB",

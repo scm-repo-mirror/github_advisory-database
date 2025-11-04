@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9v6-q439-p7j2",
-  "modified": "2025-11-03T21:30:59Z",
+  "modified": "2025-11-04T21:31:04Z",
   "published": "2024-01-16T18:31:09Z",
   "aliases": [
     "CVE-2023-45235"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20240307-0011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/132380"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8pw-77pg-8gv6",
-  "modified": "2022-04-13T00:01:12Z",
+  "modified": "2025-11-04T21:30:26Z",
   "published": "2022-02-10T00:01:02Z",
   "aliases": [
     "CVE-2020-5953"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.insyde.com/security-pledge"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/796611"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5f7-whqx-p99v",
-  "modified": "2024-01-26T21:30:22Z",
+  "modified": "2025-11-04T21:31:04Z",
   "published": "2024-01-23T03:31:07Z",
   "aliases": [
     "CVE-2023-42881"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT214036"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT214036"
     }
   ],
   "database_specific": {

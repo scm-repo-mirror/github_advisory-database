@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfgg-7fpx-cp7p",
-  "modified": "2024-11-16T00:31:48Z",
+  "modified": "2025-11-04T21:31:22Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2023-45935"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugreports.qt.io/browse/QTBUG-115599"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176815/qt-6.6-6.5-6.2-Null-Pointer.html"
     },
     {
       "type": "WEB",

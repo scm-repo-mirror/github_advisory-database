@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m264-rxp9-qm6v",
-  "modified": "2024-04-04T04:01:06Z",
+  "modified": "2025-11-04T21:30:33Z",
   "published": "2023-05-10T18:30:17Z",
   "aliases": [
     "CVE-2022-46378"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1681"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2022-1681"
     }
   ],
   "database_specific": {

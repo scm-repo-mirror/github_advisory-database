@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45qr-r98p-f6qx",
-  "modified": "2025-06-05T00:31:18Z",
+  "modified": "2025-11-04T21:31:05Z",
   "published": "2024-02-02T03:30:32Z",
   "aliases": [
     "CVE-2024-22903"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/fulldisclosure/2024/Jan/32"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176796/Vinchin-Backup-And-Recovery-7.2-SystemHandler.class.php-Command-Injection.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jan/32"
     },
     {
       "type": "WEB",

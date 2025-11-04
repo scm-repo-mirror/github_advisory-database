@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjmr-mr6j-2v2f",
-  "modified": "2022-03-30T00:01:49Z",
+  "modified": "2025-11-04T21:30:26Z",
   "published": "2022-02-10T00:01:02Z",
   "aliases": [
     "CVE-2022-24069"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.insyde.com/security-pledge"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/796611"
     }
   ],
   "database_specific": {

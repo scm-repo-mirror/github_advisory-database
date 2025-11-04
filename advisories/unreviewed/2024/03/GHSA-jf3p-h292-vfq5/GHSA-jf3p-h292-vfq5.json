@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf3p-h292-vfq5",
-  "modified": "2024-03-07T15:30:38Z",
+  "modified": "2025-11-04T21:31:16Z",
   "published": "2024-03-07T15:30:38Z",
   "aliases": [
     "CVE-2023-48725"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2023-1887"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2023-1887"
     }
   ],
   "database_specific": {

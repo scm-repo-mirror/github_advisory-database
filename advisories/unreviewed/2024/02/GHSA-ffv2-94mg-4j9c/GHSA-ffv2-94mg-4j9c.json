@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffv2-94mg-4j9c",
-  "modified": "2024-12-05T00:34:58Z",
+  "modified": "2025-11-04T21:31:10Z",
   "published": "2024-02-21T09:31:00Z",
   "aliases": [
     "CVE-2023-42835"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213984"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/kb/HT213984"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gv2-h67q-4h2v",
-  "modified": "2024-11-19T21:31:30Z",
+  "modified": "2025-11-04T21:31:22Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2023-45922"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.freedesktop.org/mesa/mesa/-/issues/9857"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176805/Mesa-23.0.4-Buffer-Overflow-Null-Pointer.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whp9-r49x-695c",
-  "modified": "2024-09-20T18:32:23Z",
+  "modified": "2025-11-04T21:30:49Z",
   "published": "2023-12-01T00:31:00Z",
   "aliases": [
     "CVE-2023-46385"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.txone.com/blog/ten-unpatched-vulnerabilities-in-building-automation-products-identified-by-txone-networks"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2023/Nov/6"
     }
   ],
   "database_specific": {

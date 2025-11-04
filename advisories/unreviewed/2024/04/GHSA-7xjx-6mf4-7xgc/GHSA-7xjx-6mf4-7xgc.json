@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xjx-6mf4-7xgc",
-  "modified": "2024-08-08T18:31:19Z",
+  "modified": "2025-11-04T21:31:29Z",
   "published": "2024-04-18T21:30:31Z",
   "aliases": [
     "CVE-2024-30923"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://chocapikk.com/posts/2024/derbynet-vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Apr/9"
     }
   ],
   "database_specific": {

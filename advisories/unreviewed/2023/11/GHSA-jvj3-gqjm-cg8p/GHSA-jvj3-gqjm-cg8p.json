@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvj3-gqjm-cg8p",
-  "modified": "2024-07-08T18:31:14Z",
+  "modified": "2025-11-04T21:30:48Z",
   "published": "2023-11-28T12:31:25Z",
   "aliases": [
     "CVE-2023-5981"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/11/msg00016.html"
     },
     {
       "type": "WEB",

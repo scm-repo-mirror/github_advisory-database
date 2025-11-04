@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2952-j2hp-678j",
-  "modified": "2024-10-29T21:30:44Z",
+  "modified": "2025-11-04T21:31:22Z",
   "published": "2024-03-27T03:31:17Z",
   "aliases": [
     "CVE-2024-25580"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-25580"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SYE2NMN67DYHYJKLAKLGR64OYI7A63AH"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZWTGLKC3WBDHZ5OJRSEB2QUR7XXZDLZV"
     },
     {
       "type": "WEB",

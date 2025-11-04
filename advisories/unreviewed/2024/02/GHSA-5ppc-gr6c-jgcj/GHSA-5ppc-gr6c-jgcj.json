@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5ppc-gr6c-jgcj",
-  "modified": "2025-06-06T21:30:24Z",
+  "modified": "2025-11-04T21:31:04Z",
   "published": "2024-02-02T03:30:32Z",
   "aliases": [
     "CVE-2024-22900"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/fulldisclosure/2024/Jan/29"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/176788/Vinchin-Backup-And-Recovery-7.2-setNetworkCardInfo-Command-Injection.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jan/26"
     },
     {
       "type": "WEB",

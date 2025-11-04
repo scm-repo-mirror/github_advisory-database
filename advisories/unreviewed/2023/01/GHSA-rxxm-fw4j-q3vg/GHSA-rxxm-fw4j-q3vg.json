@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxxm-fw4j-q3vg",
-  "modified": "2023-02-02T21:34:23Z",
+  "modified": "2025-11-04T21:30:31Z",
   "published": "2023-01-27T00:30:19Z",
   "aliases": [
     "CVE-2022-41026"
@@ -22,10 +22,15 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2022-1613"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2022-1613"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-120",
       "CWE-787"
     ],
     "severity": "HIGH",

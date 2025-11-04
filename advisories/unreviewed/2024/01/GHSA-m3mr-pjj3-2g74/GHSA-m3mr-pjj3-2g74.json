@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3mr-pjj3-2g74",
-  "modified": "2024-06-27T12:30:43Z",
+  "modified": "2025-11-04T21:31:05Z",
   "published": "2024-01-29T12:30:20Z",
   "aliases": [
     "CVE-2023-46838"
   ],
-  "details": "Transmit requests in Xen's virtual network protocol can consist of\nmultiple parts.  While not really useful, except for the initial part\nany of them may be of zero length, i.e. carry no data at all.  Besides a\ncertain initial portion of the to be transferred data, these parts are\ndirectly translated into what Linux calls SKB fragments.  Such converted\nrequest parts can, when for a particular SKB they are all of length\nzero, lead to a de-reference of NULL in core networking code.\n",
+  "details": "Transmit requests in Xen's virtual network protocol can consist of\nmultiple parts.  While not really useful, except for the initial part\nany of them may be of zero length, i.e. carry no data at all.  Besides a\ncertain initial portion of the to be transferred data, these parts are\ndirectly translated into what Linux calls SKB fragments.  Such converted\nrequest parts can, when for a particular SKB they are all of length\nzero, lead to a de-reference of NULL in core networking code.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://xenbits.xenproject.org/xsa/advisory-448.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-448.html"
     }
   ],
   "database_specific": {
