@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3jf-hm7q-qfw5",
-  "modified": "2025-11-03T17:07:39Z",
+  "modified": "2025-11-04T16:55:30Z",
   "published": "2025-11-03T17:07:39Z",
   "aliases": [
     "CVE-2025-46556"
@@ -41,6 +41,10 @@
       "url": "https://github.com/mantisbt/mantisbt/security/advisories/GHSA-r3jf-hm7q-qfw5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46556"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mantisbt/mantisbt/commit/c99a41272532ba49b5c8dccb7797afead9864234"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-03T17:07:39Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-04T01:15:33Z"
   }
 }

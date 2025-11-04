@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cgq-6mh2-7j6v",
-  "modified": "2025-03-05T21:49:36Z",
+  "modified": "2025-11-04T16:55:18Z",
   "published": "2025-03-04T15:27:06Z",
   "aliases": [
     "CVE-2025-27111"
@@ -101,6 +101,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2025-27111.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00016.html"
     }
   ],
   "database_specific": {
