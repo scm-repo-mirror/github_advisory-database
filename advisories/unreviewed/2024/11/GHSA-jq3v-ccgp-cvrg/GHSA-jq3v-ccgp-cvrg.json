@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq3v-ccgp-cvrg",
-  "modified": "2025-03-24T18:30:44Z",
+  "modified": "2025-11-04T00:31:55Z",
   "published": "2024-11-05T18:32:13Z",
   "aliases": [
     "CVE-2024-50138"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f9543375d9b150b2bcf16bb182e6b62309db0888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     }
   ],
   "database_specific": {

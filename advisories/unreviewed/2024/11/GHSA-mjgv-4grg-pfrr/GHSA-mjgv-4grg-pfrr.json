@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjgv-4grg-pfrr",
-  "modified": "2025-11-03T21:31:31Z",
+  "modified": "2025-11-04T00:31:55Z",
   "published": "2024-11-05T18:32:12Z",
   "aliases": [
     "CVE-2024-50115"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f559b2e9c5c5308850544ab59396b7d53cfc67bd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

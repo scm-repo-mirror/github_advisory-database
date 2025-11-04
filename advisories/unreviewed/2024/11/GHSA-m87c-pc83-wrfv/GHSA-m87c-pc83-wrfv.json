@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m87c-pc83-wrfv",
-  "modified": "2025-11-03T21:31:33Z",
+  "modified": "2025-11-04T00:31:57Z",
   "published": "2024-11-07T12:30:35Z",
   "aliases": [
     "CVE-2024-50167"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e86a79b804e26e3b7f1e415b22a085c0bb7ea3d3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
     },
     {
       "type": "WEB",

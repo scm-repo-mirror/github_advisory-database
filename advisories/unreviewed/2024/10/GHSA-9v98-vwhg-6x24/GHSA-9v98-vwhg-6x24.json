@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v98-vwhg-6x24",
-  "modified": "2024-10-29T18:30:36Z",
+  "modified": "2025-11-04T00:31:53Z",
   "published": "2024-10-29T15:32:04Z",
   "aliases": [
     "CVE-2024-10467"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1829029%2C1888538%2C1900394%2C1904059%2C1917742%2C1919809%2C1923706"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00034.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00001.html"
     },
     {
       "type": "WEB",
