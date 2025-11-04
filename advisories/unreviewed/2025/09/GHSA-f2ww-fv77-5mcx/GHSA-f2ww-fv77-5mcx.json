@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2ww-fv77-5mcx",
-  "modified": "2025-11-03T21:34:34Z",
+  "modified": "2025-11-04T03:30:26Z",
   "published": "2025-09-16T00:30:25Z",
   "aliases": [
     "CVE-2025-43372"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125636"
     },
     {
       "type": "WEB",
