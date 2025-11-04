@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9jmf-237g-qf46",
-  "modified": "2024-07-10T21:41:33Z",
+  "modified": "2025-11-04T19:47:42Z",
   "published": "2024-07-10T06:33:52Z",
   "aliases": [
     "CVE-2024-39330"
@@ -86,6 +86,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#%21forum/django-announce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240808-0005"
     },
     {
       "type": "WEB",

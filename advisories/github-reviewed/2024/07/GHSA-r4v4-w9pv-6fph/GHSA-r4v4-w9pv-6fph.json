@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4v4-w9pv-6fph",
-  "modified": "2024-10-30T21:37:00Z",
+  "modified": "2025-11-04T19:46:52Z",
   "published": "2024-07-05T03:30:42Z",
   "aliases": [
     "CVE-2024-32498"
@@ -117,6 +117,14 @@
     {
       "type": "WEB",
       "url": "https://launchpad.net/bugs/2059809"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00016.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00017.html"
     },
     {
       "type": "WEB",
