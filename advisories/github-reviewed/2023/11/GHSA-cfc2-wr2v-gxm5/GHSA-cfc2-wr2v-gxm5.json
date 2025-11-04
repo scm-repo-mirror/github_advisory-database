@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfc2-wr2v-gxm5",
-  "modified": "2023-11-14T21:16:22Z",
+  "modified": "2025-11-04T16:46:51Z",
   "published": "2023-11-09T18:34:53Z",
   "aliases": [
     "CVE-2023-46445"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00042.html"
     },
     {
       "type": "WEB",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc7h-c423-mpjc",
-  "modified": "2024-01-22T21:32:36Z",
+  "modified": "2025-11-04T16:49:23Z",
   "published": "2024-01-15T12:30:19Z",
   "aliases": [
     "CVE-2023-46749"
   ],
   "summary": "Apache Shiro vulnerable to path traversal",
-  "details": "Apache Shiro before 1.130 or 2.0.0-alpha-4, may be susceptible to a path traversal attack that results in an authentication bypass when used together with path rewriting \n\nMitigation: Update to Apache Shiro 1.13.0+ or 2.0.0-alpha-4+, or ensure `blockSemicolon` is enabled (this is the default).\n\n",
+  "details": "Apache Shiro before 1.130 or 2.0.0-alpha-4, may be susceptible to a path traversal attack that results in an authentication bypass when used together with path rewriting \n\nMitigation: Update to Apache Shiro 1.13.0+ or 2.0.0-alpha-4+, or ensure `blockSemicolon` is enabled (this is the default).",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -65,6 +65,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/mdv7ftz7k4488rzloxo2fb0p9shnp9wm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0002"
     }
   ],
   "database_specific": {
