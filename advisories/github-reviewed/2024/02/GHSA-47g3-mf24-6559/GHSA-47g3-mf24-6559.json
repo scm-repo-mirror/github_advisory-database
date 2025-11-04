@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47g3-mf24-6559",
-  "modified": "2024-04-01T23:56:59Z",
+  "modified": "2025-11-04T22:13:39Z",
   "published": "2024-02-17T03:30:29Z",
   "aliases": [
     "CVE-2024-20925"
@@ -82,6 +82,10 @@
     {
       "type": "WEB",
       "url": "https://openjdk.org/groups/vulnerability/advisories/2024-01-16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240201-0002"
     },
     {
       "type": "WEB",
