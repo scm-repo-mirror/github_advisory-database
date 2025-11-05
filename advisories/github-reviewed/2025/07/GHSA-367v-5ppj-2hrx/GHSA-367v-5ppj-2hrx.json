@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-367v-5ppj-2hrx",
-  "modified": "2025-07-09T20:44:31Z",
+  "modified": "2025-11-05T19:58:40Z",
   "published": "2025-07-09T18:30:45Z",
   "aliases": [
     "CVE-2025-53651"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://www.jenkins.io/security/advisory/2025-07-09/#SECURITY-3547"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/09/4"
     }
   ],
   "database_specific": {
