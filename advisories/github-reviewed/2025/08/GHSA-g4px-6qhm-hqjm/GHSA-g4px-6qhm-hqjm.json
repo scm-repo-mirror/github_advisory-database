@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4px-6qhm-hqjm",
-  "modified": "2025-08-08T16:44:10Z",
+  "modified": "2025-11-05T20:34:29Z",
   "published": "2025-08-08T12:32:17Z",
   "aliases": [
     "CVE-2025-48913"
@@ -89,6 +89,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/f1nv488ztc0js4g5ml2v88mzkzslyh83"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/07/2"
     }
   ],
   "database_specific": {

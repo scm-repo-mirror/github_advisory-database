@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g358-g2pq-c46j",
-  "modified": "2025-08-08T16:50:05Z",
+  "modified": "2025-11-05T20:34:52Z",
   "published": "2025-08-08T12:32:17Z",
   "aliases": [
     "CVE-2025-53606"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/ggfd72vvvxjozs81zbcls45zxg64pphx"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/07/1"
     }
   ],
   "database_specific": {
