@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr7g-g7q3-wvpx",
-  "modified": "2025-11-03T21:33:42Z",
+  "modified": "2025-11-05T18:14:25Z",
   "published": "2025-05-01T15:31:41Z",
   "aliases": [
     "CVE-2025-23157"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: venus: hfi_parser: add check to avoid out of bound access\n\nThere is a possibility that init_codecs is invoked multiple times during\nmanipulated payload from video firmware. In such case, if codecs_count\ncan get incremented to value more than MAX_CODEC_NUM, there can be OOB\naccess. Reset the count so that it always starts from beginning.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T13:15:51Z"

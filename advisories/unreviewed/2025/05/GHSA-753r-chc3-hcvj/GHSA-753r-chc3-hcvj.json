@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-753r-chc3-hcvj",
-  "modified": "2025-11-03T21:33:45Z",
+  "modified": "2025-11-05T18:14:27Z",
   "published": "2025-05-01T15:31:44Z",
   "aliases": [
     "CVE-2025-37773"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvirtiofs: add filesystem context source name check\n\nIn certain scenarios, for example, during fuzz testing, the source\nname may be NULL, which could lead to a kernel panic. Therefore, an\nextra check for the source name should be added.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T14:15:40Z"

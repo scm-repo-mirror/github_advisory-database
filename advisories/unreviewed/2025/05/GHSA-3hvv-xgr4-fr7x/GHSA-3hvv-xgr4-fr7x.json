@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hvv-xgr4-fr7x",
-  "modified": "2025-11-03T21:33:42Z",
+  "modified": "2025-11-05T18:14:26Z",
   "published": "2025-05-01T15:31:41Z",
   "aliases": [
     "CVE-2025-23159"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: venus: hfi: add a check to handle OOB in sfr region\n\nsfr->buf_size is in shared memory and can be modified by malicious user.\nOOB write is possible when the size is made higher than actual sfr data\nbuffer. Cap the size to allocated size for such cases.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T13:15:51Z"
