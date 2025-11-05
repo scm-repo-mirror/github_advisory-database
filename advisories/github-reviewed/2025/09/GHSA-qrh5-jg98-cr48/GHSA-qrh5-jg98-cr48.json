@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrh5-jg98-cr48",
-  "modified": "2025-09-17T20:35:34Z",
+  "modified": "2025-11-05T20:45:10Z",
   "published": "2025-09-17T15:30:37Z",
   "aliases": [
     "CVE-2025-59476"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://www.jenkins.io/security/advisory/2025-09-17/#SECURITY-3424"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/17/1"
     }
   ],
   "database_specific": {

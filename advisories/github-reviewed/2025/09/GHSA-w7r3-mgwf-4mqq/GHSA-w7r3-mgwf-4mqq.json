@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7r3-mgwf-4mqq",
-  "modified": "2025-09-17T19:07:53Z",
+  "modified": "2025-11-05T20:44:42Z",
   "published": "2025-09-17T00:31:11Z",
   "aliases": [
     "CVE-2025-9708"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/g/kubernetes-security-announce/c/rLopt2Msvbw/m/rK6XeNw2CgAJ"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/16/1"
     }
   ],
   "database_specific": {

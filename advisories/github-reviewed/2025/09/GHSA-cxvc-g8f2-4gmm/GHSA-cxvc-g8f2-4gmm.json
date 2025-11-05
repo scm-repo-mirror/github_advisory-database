@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxvc-g8f2-4gmm",
-  "modified": "2025-09-09T15:14:38Z",
+  "modified": "2025-11-05T20:43:58Z",
   "published": "2025-09-08T09:31:09Z",
   "aliases": [
     "CVE-2025-58782"
@@ -74,6 +74,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/t4wdrost6dh17dh406g792j9wq6xmy6v"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/06/3"
     }
   ],
   "database_specific": {
