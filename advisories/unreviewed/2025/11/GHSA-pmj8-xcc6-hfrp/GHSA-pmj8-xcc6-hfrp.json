@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmj8-xcc6-hfrp",
-  "modified": "2025-11-05T15:31:06Z",
+  "modified": "2025-11-05T17:48:28Z",
   "published": "2025-11-05T15:31:06Z",
   "aliases": [
     "CVE-2025-46705"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2196"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2196"
     }
   ],
   "database_specific": {

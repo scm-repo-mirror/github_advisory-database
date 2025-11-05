@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3c4-4h69-w2fp",
-  "modified": "2025-11-05T03:30:23Z",
+  "modified": "2025-11-05T17:48:21Z",
   "published": "2022-05-24T17:12:02Z",
   "aliases": [
     "CVE-2019-18860"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/11/05/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/05/7"
     }
   ],
   "database_specific": {
