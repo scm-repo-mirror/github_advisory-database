@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p84v-gxvw-73pf",
-  "modified": "2025-10-14T18:00:30Z",
+  "modified": "2025-11-05T22:10:23Z",
   "published": "2025-10-14T18:00:30Z",
   "aliases": [
     "CVE-2025-62156"
@@ -78,6 +78,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/argoproj/argo-workflows/blob/946a2d6b9ac3309371fe47f49ae94c33ca7d488d/workflow/executor/executor.go#L993"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4023"
     }
   ],
   "database_specific": {

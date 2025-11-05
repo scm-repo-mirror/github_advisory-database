@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwvp-r38j-9rgg",
-  "modified": "2025-10-11T00:32:44Z",
+  "modified": "2025-11-05T22:09:47Z",
   "published": "2025-10-10T12:30:57Z",
   "aliases": [
     "CVE-2025-11579"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/nwaples/rardecode"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4020"
     }
   ],
   "database_specific": {

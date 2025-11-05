@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2hv-4pfj-mm2r",
-  "modified": "2025-10-14T18:43:01Z",
+  "modified": "2025-11-05T22:10:52Z",
   "published": "2025-10-14T18:43:01Z",
   "aliases": [
     "CVE-2025-62157"
@@ -74,6 +74,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/argoproj/argo-workflows"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4024"
     }
   ],
   "database_specific": {
