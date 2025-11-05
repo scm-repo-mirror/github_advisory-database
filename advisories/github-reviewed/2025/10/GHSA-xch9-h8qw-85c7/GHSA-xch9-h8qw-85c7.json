@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xch9-h8qw-85c7",
-  "modified": "2025-10-02T21:15:46Z",
+  "modified": "2025-11-05T22:07:56Z",
   "published": "2025-10-02T21:15:46Z",
   "aliases": [
     "CVE-2025-54291"
@@ -89,6 +89,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/canonical/lxd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4005"
     }
   ],
   "database_specific": {

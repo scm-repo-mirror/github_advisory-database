@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4p3p-cr38-v5xp",
-  "modified": "2025-10-13T22:09:25Z",
+  "modified": "2025-11-05T22:07:29Z",
   "published": "2025-10-13T19:59:17Z",
   "aliases": [
     "CVE-2025-59836"
@@ -80,6 +80,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/siderolabs/omni"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4021"
     }
   ],
   "database_specific": {

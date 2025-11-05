@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8j9-34qf-7vq7",
-  "modified": "2025-10-29T14:47:34Z",
+  "modified": "2025-11-05T22:05:52Z",
   "published": "2025-10-28T17:31:32Z",
   "aliases": [
     "CVE-2025-27093"
@@ -36,6 +36,25 @@
       "database_specific": {
         "last_known_affected_version_range": "<= 1.5.43"
       }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/bishopfox/sliver"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.44"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -58,6 +77,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/BishopFox/sliver"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-4079"
     }
   ],
   "database_specific": {
