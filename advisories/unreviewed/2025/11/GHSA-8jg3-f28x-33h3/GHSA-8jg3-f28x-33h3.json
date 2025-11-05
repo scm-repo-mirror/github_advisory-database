@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jg3-f28x-33h3",
-  "modified": "2025-11-05T06:30:25Z",
+  "modified": "2025-11-05T21:31:01Z",
   "published": "2025-11-05T06:30:25Z",
   "aliases": [
     "CVE-2025-10567"
   ],
   "details": "The FunnelKit  WordPress plugin before 3.12.0.1 does not sanitize user input before echoing it back in some of its checkout-related AJAX actions, allowing attackers to conduct reflected XSS attacks against logged-in users.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-05T06:15:32Z"

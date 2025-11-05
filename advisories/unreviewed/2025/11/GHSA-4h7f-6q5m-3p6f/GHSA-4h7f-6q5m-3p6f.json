@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4h7f-6q5m-3p6f",
+  "modified": "2025-11-05T21:31:02Z",
+  "published": "2025-11-05T21:31:01Z",
+  "aliases": [
+    "CVE-2025-63418"
+  ],
+  "details": "A DOM-based Cross-Site Scripting (XSS) vulnerability in the SelfBest platform 2023.3 allows attackers to execute arbitrary JavaScript in the context of a logged-in user's session by injecting payloads via the browser's developer console. The vulnerability arises from the application's client-side code being susceptible to direct DOM manipulation without adequate sanitization or a Content Security Policy (CSP), potentially leading to account takeover and data theft.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63418"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rohitchaudhary045.medium.com/cve-2025-63418-weaponizing-the-browser-console-a-dom-based-xss-deep-dive-25ed3ac9cb53"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-05T19:16:04Z"
+  }
+}

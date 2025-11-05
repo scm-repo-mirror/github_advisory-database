@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqqj-hmq5-9gmp",
-  "modified": "2025-11-04T18:31:53Z",
+  "modified": "2025-11-05T21:31:00Z",
   "published": "2025-11-04T03:30:29Z",
   "aliases": [
     "CVE-2025-43495"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125632"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125633"
     }
   ],
   "database_specific": {

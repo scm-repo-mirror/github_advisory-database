@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mv5-ch6p-7g97",
-  "modified": "2025-11-05T18:31:31Z",
+  "modified": "2025-11-05T21:31:01Z",
   "published": "2025-11-05T18:31:31Z",
   "aliases": [
     "CVE-2025-56231"
   ],
   "details": "Tonec Internet Download Manager 6.42.41.1 and earlier suffers from Missing SSL Certificate Validation, which allows attackers to bypass update protections.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-295"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-05T18:15:33Z"
