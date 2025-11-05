@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gqp3-2cvr-x8m3",
-  "modified": "2025-11-04T16:19:46Z",
+  "modified": "2025-11-05T20:38:38Z",
   "published": "2025-08-13T15:30:34Z",
   "aliases": [
     "CVE-2025-48989"
@@ -170,6 +170,10 @@
     {
       "type": "WEB",
       "url": "https://www.kb.cert.org/vuls/id/767506"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/13/2"
     }
   ],
   "database_specific": {

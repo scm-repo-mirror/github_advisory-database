@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxgf-3xh6-m2pp",
-  "modified": "2025-08-14T17:36:27Z",
+  "modified": "2025-11-05T20:39:31Z",
   "published": "2025-08-14T15:30:44Z",
   "aliases": [
     "CVE-2025-55674"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/cn49ps15ny3g2b1qzdg5mj7hp47p5jdo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/14/5"
     }
   ],
   "database_specific": {

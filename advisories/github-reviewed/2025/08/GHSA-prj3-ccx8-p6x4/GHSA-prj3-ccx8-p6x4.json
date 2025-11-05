@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prj3-ccx8-p6x4",
-  "modified": "2025-11-04T16:21:03Z",
+  "modified": "2025-11-05T20:38:22Z",
   "published": "2025-08-13T19:06:56Z",
   "aliases": [
     "CVE-2025-55163"
@@ -107,6 +107,10 @@
     {
       "type": "WEB",
       "url": "https://www.kb.cert.org/vuls/id/767506"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/16/1"
     }
   ],
   "database_specific": {

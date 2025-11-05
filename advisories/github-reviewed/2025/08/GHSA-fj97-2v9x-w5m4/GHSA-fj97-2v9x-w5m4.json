@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj97-2v9x-w5m4",
-  "modified": "2025-08-14T17:31:23Z",
+  "modified": "2025-11-05T20:39:11Z",
   "published": "2025-08-14T15:30:44Z",
   "aliases": [
     "CVE-2025-55672"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/rvh7fdjfzxzjhcfwoz7twc2brhvochdj"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/14/4"
     }
   ],
   "database_specific": {
