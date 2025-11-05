@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gp3-m447-gw2v",
-  "modified": "2025-07-09T21:46:57Z",
+  "modified": "2025-11-05T20:13:09Z",
   "published": "2025-07-09T18:30:47Z",
   "aliases": [
     "CVE-2025-53669"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://www.jenkins.io/security/advisory/2025-07-09/#SECURITY-3527"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/09/4"
     }
   ],
   "database_specific": {

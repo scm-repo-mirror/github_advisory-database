@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j3c-42xv-3f84",
-  "modified": "2025-11-03T21:34:05Z",
+  "modified": "2025-11-05T20:14:29Z",
   "published": "2025-07-10T21:31:52Z",
   "aliases": [
     "CVE-2025-52434"
@@ -78,6 +78,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/07/msg00009.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/10/11"
     }
   ],
   "database_specific": {

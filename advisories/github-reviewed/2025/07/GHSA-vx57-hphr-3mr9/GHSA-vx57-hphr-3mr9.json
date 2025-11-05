@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx57-hphr-3mr9",
-  "modified": "2025-07-09T22:31:35Z",
+  "modified": "2025-11-05T20:13:25Z",
   "published": "2025-07-09T18:30:46Z",
   "aliases": [
     "CVE-2025-53674"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://www.jenkins.io/security/advisory/2025-07-09/#SECURITY-3551"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/07/09/4"
     }
   ],
   "database_specific": {
