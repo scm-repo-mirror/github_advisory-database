@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv78-c8hc-438r",
-  "modified": "2025-11-03T20:24:10Z",
+  "modified": "2025-11-06T23:13:18Z",
   "published": "2025-11-03T20:24:10Z",
   "aliases": [
     "CVE-2025-64174"
@@ -41,6 +41,10 @@
       "url": "https://github.com/OpenMage/magento-lts/security/advisories/GHSA-qv78-c8hc-438r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64174"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/OpenMage/magento-lts/commit/9d604f5489851c54a96fca31b0e13c414b0fb20a"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-03T20:24:10Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-06T21:15:43Z"
   }
 }
