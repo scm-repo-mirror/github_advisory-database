@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-399j-vxmf-hjvr",
-  "modified": "2025-11-06T17:28:29Z",
+  "modified": "2025-11-06T22:36:27Z",
   "published": "2025-11-03T18:31:52Z",
   "aliases": [
     "CVE-2025-11953"
@@ -25,10 +25,67 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "20.0.0-alpha.0"
             },
             {
               "fixed": "20.0.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@react-native-community/cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "19.0.0-alpha.0"
+            },
+            {
+              "fixed": "19.1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@react-native-community/cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "18.0.0"
+            },
+            {
+              "fixed": "18.0.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@react-native-community/cli"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "17.0.1"
             }
           ]
         }
@@ -42,7 +99,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/react-native-community/cli/pull/1615"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/react-native-community/cli/commit/15089907d1f1301b22c72d7f68846a2ef20df547"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/react-native-community/cli/commit/5a792169d9883e0b0fb1ddf1ea46778f21510d18"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/react-native-community/cli/commit/9e1fa8cc633e5dcf32244ffa60a871880be56722"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/react-native-community/cli/commit/a8293dc29425f56249753507bc24d87b698d46e1"
     },
     {
       "type": "PACKAGE",
@@ -54,7 +127,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/react-native-community/cli?tab=readme-ov-file#compatibility"
+    },
+    {
+      "type": "WEB",
       "url": "https://jfrog.com/blog/cve-2025-11953-critical-react-native-community-cli-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://x.com/SzymonRybczak/status/1986199665000566848"
     }
   ],
   "database_specific": {
