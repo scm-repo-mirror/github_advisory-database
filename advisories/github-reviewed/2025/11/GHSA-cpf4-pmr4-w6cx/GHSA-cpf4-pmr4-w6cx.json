@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpf4-pmr4-w6cx",
-  "modified": "2025-11-05T20:55:44Z",
+  "modified": "2025-11-07T21:55:43Z",
   "published": "2025-11-05T19:52:01Z",
   "aliases": [
     "CVE-2025-64431"
@@ -63,6 +63,10 @@
       "url": "https://github.com/zitadel/zitadel/security/advisories/GHSA-cpf4-pmr4-w6cx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64431"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/zitadel/zitadel/commit/8dcfff97ed52a8b9fc77ecb1f972744f42cff3ed"
     },
@@ -82,6 +86,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-05T19:52:01Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-07T19:16:26Z"
   }
 }
