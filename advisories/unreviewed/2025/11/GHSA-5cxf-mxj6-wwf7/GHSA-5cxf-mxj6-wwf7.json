@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cxf-mxj6-wwf7",
-  "modified": "2025-11-07T00:30:30Z",
+  "modified": "2025-11-07T15:31:29Z",
   "published": "2025-11-07T00:30:30Z",
   "aliases": [
     "CVE-2025-11215"
   ],
   "details": "Off by one error in V8 in Google Chrome prior to 141.0.7390.54 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-193"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-06T22:15:39Z"
