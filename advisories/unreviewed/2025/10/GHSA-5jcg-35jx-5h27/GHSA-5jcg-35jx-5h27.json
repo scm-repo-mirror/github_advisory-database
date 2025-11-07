@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jcg-35jx-5h27",
-  "modified": "2025-11-06T18:32:47Z",
+  "modified": "2025-11-07T21:31:19Z",
   "published": "2025-10-31T00:30:33Z",
   "aliases": [
     "CVE-2023-7319"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7319"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.nagios.com/changelog/#network-analyzer"
     },
     {
       "type": "WEB",

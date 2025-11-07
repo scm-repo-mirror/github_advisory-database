@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgh7-45p9-8c23",
-  "modified": "2025-05-01T15:31:48Z",
+  "modified": "2025-11-07T21:31:19Z",
   "published": "2025-05-01T15:31:48Z",
   "aliases": [
     "CVE-2022-49809"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/x25: Fix skb leak in x25_lapb_receive_frame()\n\nx25_lapb_receive_frame() using skb_copy() to get a private copy of\nskb, the new skb should be freed in the undersized/fragmented skb\nerror handling path. Otherwise there is a memory leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:04Z"

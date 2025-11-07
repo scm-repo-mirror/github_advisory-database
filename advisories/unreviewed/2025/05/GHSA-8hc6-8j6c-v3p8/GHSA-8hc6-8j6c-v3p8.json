@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8hc6-8j6c-v3p8",
-  "modified": "2025-05-01T15:31:46Z",
+  "modified": "2025-11-07T21:31:16Z",
   "published": "2025-05-01T15:31:46Z",
   "aliases": [
     "CVE-2022-49777"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nInput: i8042 - fix leaking of platform device on module removal\n\nAvoid resetting the module-wide i8042_platform_device pointer in\ni8042_probe() or i8042_remove(), so that the device can be properly\ndestroyed by i8042_exit() on module unload.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:00Z"

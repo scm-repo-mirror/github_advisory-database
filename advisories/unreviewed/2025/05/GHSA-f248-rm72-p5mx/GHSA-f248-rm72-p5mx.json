@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f248-rm72-p5mx",
-  "modified": "2025-05-01T15:31:47Z",
+  "modified": "2025-11-07T21:31:17Z",
   "published": "2025-05-01T15:31:46Z",
   "aliases": [
     "CVE-2022-49787"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmmc: sdhci-pci: Fix possible memory leak caused by missing pci_dev_put()\n\npci_get_device() will increase the reference count for the returned\npci_dev. We need to use pci_dev_put() to decrease the reference count\nbefore amd_probe() returns. There is no problem for the 'smbus_dev ==\nNULL' branch because pci_dev_put() can also handle the NULL input\nparameter case.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:01Z"
