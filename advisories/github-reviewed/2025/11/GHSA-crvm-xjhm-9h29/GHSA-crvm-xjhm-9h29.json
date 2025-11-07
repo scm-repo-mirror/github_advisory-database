@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crvm-xjhm-9h29",
-  "modified": "2025-11-04T15:42:48Z",
+  "modified": "2025-11-07T16:42:35Z",
   "published": "2025-11-04T15:42:48Z",
   "aliases": [
     "CVE-2025-64187"
@@ -44,6 +44,10 @@
       "url": "https://github.com/OctoPrint/OctoPrint/security/advisories/GHSA-crvm-xjhm-9h29"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64187"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/OctoPrint/OctoPrint/commit/9112e07b1085f4c1ee9eefc67985809251057a44"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-04T15:42:48Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-07T04:15:47Z"
   }
 }
