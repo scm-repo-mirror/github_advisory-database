@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4qj-2f4q-r4rx",
-  "modified": "2025-11-05T20:55:36Z",
+  "modified": "2025-11-07T20:31:43Z",
   "published": "2025-11-05T19:52:27Z",
   "aliases": [
     "CVE-2025-64430"
@@ -63,6 +63,10 @@
       "url": "https://github.com/parse-community/parse-server/security/advisories/GHSA-x4qj-2f4q-r4rx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64430"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/parse-community/parse-server/pull/9903"
     },
@@ -84,10 +88,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-918"
+    ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-05T19:52:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-07T18:15:37Z"
   }
 }
