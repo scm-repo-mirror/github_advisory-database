@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32wm-p53q-684m",
-  "modified": "2025-11-04T12:30:19Z",
+  "modified": "2025-11-10T15:31:04Z",
   "published": "2025-11-04T12:30:19Z",
   "aliases": [
     "CVE-2025-11690"
