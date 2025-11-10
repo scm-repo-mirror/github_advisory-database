@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m44g-hq47-38xw",
-  "modified": "2025-11-03T21:33:55Z",
+  "modified": "2025-11-10T21:30:30Z",
   "published": "2025-05-20T18:30:55Z",
   "aliases": [
     "CVE-2025-37930"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()\n\nNouveau is mostly designed in a way that it's expected that fences only\never get signaled through nouveau_fence_signal(). However, in at least\none other place, nouveau_fence_done(), can signal fences, too. If that\nhappens (race) a signaled fence remains in the pending list for a while,\nuntil it gets removed by nouveau_fence_update().\n\nShould nouveau_fence_context_kill() run in the meantime, this would be\na bug because the function would attempt to set an error code on an\nalready signaled fence.\n\nHave nouveau_fence_context_kill() check for a fence being signaled.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-617"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T16:15:29Z"

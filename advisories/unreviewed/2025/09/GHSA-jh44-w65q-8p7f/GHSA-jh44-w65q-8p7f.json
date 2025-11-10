@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh44-w65q-8p7f",
-  "modified": "2025-09-12T09:30:30Z",
+  "modified": "2025-11-10T21:30:31Z",
   "published": "2025-09-12T09:30:30Z",
   "aliases": [
     "CVE-2025-21042"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://security.samsungmobile.com/securityUpdate.smsb?year=2025&month=04"
+    },
+    {
+      "type": "WEB",
+      "url": "https://unit42.paloaltonetworks.com/landfall-is-new-commercial-grade-android-spyware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-21042"
     }
   ],
   "database_specific": {

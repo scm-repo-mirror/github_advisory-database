@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxw3-8hp5-fg86",
-  "modified": "2025-11-06T18:32:54Z",
+  "modified": "2025-11-10T21:30:34Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-53349"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Laborator Kalium kalium allows Reflected XSS.This issue affects Kalium: from n/a through <= 3.18.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-06T16:15:56Z"

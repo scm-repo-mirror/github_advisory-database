@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmgm-p3v6-4gvh",
-  "modified": "2025-11-06T18:32:51Z",
+  "modified": "2025-11-10T21:30:32Z",
   "published": "2025-11-06T18:32:51Z",
   "aliases": [
     "CVE-2025-39467"
   ],
   "details": "Path Traversal: '.../...//' vulnerability in Mikado-Themes Wanderland wanderland allows PHP Local File Inclusion.This issue affects Wanderland: from n/a through <= 1.7.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-35"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-06T16:15:51Z"

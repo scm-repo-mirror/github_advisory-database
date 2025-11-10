@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6chx-4cx4-vrw4",
-  "modified": "2025-05-01T15:31:50Z",
+  "modified": "2025-11-10T21:30:28Z",
   "published": "2025-05-01T15:31:50Z",
   "aliases": [
     "CVE-2022-49858"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocteontx2-pf: Fix SQE threshold checking\n\nCurrent way of checking available SQE count which is based on\nHW updated SQB count could result in driver submitting an SQE\neven before CQE for the previously transmitted SQE at the same\nindex is processed in NAPI resulting losing SKB pointers,\nhence a leak. Fix this by checking a consumer index which\nis updated once CQE is processed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:09Z"
