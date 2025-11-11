@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-943j-4893-6rfq",
-  "modified": "2025-10-27T15:30:21Z",
+  "modified": "2025-11-11T15:31:20Z",
   "published": "2025-10-14T18:30:36Z",
   "aliases": [
     "CVE-2025-59287"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-59287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-59287-detection-script-rce-vulnerability-in-windows-server-update-service"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-59287-mitigation-script-rce-vulnerability-in-windows-server-update-service"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hh67-847q-q3h9",
-  "modified": "2025-11-05T00:31:29Z",
+  "modified": "2025-11-11T15:31:19Z",
   "published": "2025-10-06T21:30:45Z",
   "aliases": [
     "CVE-2025-61984"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2025/10/06/1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-61984-detection-script-remote-code-execution-vulnerability-affecting-openssh"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-61984-mitigation-script-remote-code-execution-vulnerability-affecting-openssh"
     },
     {
       "type": "WEB",
