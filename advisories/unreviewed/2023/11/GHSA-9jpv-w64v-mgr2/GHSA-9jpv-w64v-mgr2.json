@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9jpv-w64v-mgr2",
-  "modified": "2024-02-15T06:31:32Z",
+  "modified": "2025-11-12T09:30:26Z",
   "published": "2023-11-02T09:30:18Z",
   "aliases": [
     "CVE-2023-46595"
   ],
-  "details": "Net-NTLM leak in Fireflow A32.20 and A32.50 allows an attacker to obtain victim’s domain credentials and Net-NTLM hash which can lead to relay domain attacks.\n\n",
+  "details": "Net-NTLM leak in Fireflow A32.20 and A32.50 allows an attacker to obtain victim’s domain credentials and Net-NTLM hash which can lead to relay domain attacks.",
   "severity": [
     {
       "type": "CVSS_V3",
