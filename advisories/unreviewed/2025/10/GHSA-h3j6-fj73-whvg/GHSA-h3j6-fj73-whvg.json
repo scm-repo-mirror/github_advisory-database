@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3j6-fj73-whvg",
-  "modified": "2025-10-22T21:31:29Z",
+  "modified": "2025-11-13T12:31:22Z",
   "published": "2025-10-22T15:31:15Z",
   "aliases": [
     "CVE-2025-52737"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-store-locator/vulnerability/wordpress-wp-store-locator-plugin-2-2-260-php-object-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-store-locator/vulnerability/wordpress-wp-store-locator-plugin-2-2-260-php-object-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

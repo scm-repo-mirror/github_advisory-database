@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh3j-f688-h5r4",
-  "modified": "2025-11-06T18:32:55Z",
+  "modified": "2025-11-13T12:31:39Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-59556"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/gostore/vulnerability/wordpress-gostore-theme-1-6-4-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/gostore/vulnerability/wordpress-gostore-theme-1-6-4-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

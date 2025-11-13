@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g59v-7qwj-gwx2",
-  "modified": "2025-10-23T18:31:11Z",
+  "modified": "2025-11-13T12:31:22Z",
   "published": "2025-10-22T15:31:15Z",
   "aliases": [
     "CVE-2025-52748"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/directory-pro/vulnerability/wordpress-directory-pro-plugin-2-5-5-cross-site-scripting-xss-vulnerability-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/directory-pro/vulnerability/wordpress-directory-pro-plugin-2-5-5-cross-site-scripting-xss-vulnerability-2?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxr2-m2mh-wpx6",
-  "modified": "2025-10-27T15:30:36Z",
+  "modified": "2025-11-13T12:31:32Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62981"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/gf-zoho/vulnerability/wordpress-wp-gravity-forms-zoho-crm-and-bigin-plugin-1-2-8-open-redirection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/gf-zoho/vulnerability/wordpress-wp-gravity-forms-zoho-crm-and-bigin-plugin-1-2-8-open-redirection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

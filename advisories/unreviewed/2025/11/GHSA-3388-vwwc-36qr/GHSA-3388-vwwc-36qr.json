@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3388-vwwc-36qr",
-  "modified": "2025-11-10T21:30:32Z",
+  "modified": "2025-11-13T12:31:35Z",
   "published": "2025-11-06T18:32:51Z",
   "aliases": [
     "CVE-2025-47588"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/aco-woo-dynamic-pricing/vulnerability/wordpress-dynamic-pricing-with-discount-rules-for-woocommerce-plugin-4-5-9-arbitrary-code-execution-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/aco-woo-dynamic-pricing/vulnerability/wordpress-dynamic-pricing-with-discount-rules-for-woocommerce-plugin-4-5-9-arbitrary-code-execution-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

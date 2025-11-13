@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2pc-r36h-f9fx",
-  "modified": "2025-11-06T18:32:57Z",
+  "modified": "2025-11-13T12:31:41Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62064"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/search-and-go/vulnerability/wordpress-search-go-theme-2-7-broken-authentication-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/search-and-go/vulnerability/wordpress-search-go-theme-2-7-broken-authentication-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg44-32v7-gm39",
-  "modified": "2025-10-23T15:30:31Z",
+  "modified": "2025-11-13T12:31:21Z",
   "published": "2025-10-22T15:31:14Z",
   "aliases": [
     "CVE-2025-49947"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/extendons-registration-fields/vulnerability/wordpress-woocommerce-registration-fields-plugin-custom-signup-fields-plugin-3-2-3-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/extendons-registration-fields/vulnerability/wordpress-woocommerce-registration-fields-plugin-custom-signup-fields-plugin-3-2-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

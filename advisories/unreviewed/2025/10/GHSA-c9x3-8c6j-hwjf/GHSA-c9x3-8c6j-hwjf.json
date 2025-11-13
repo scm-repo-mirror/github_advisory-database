@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9x3-8c6j-hwjf",
-  "modified": "2025-10-22T21:31:27Z",
+  "modified": "2025-11-13T12:31:19Z",
   "published": "2025-10-22T15:31:12Z",
   "aliases": [
     "CVE-2025-48096"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/custom-css-editor/vulnerability/wordpress-custom-css-plugin-1-4-0-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/custom-css-editor/vulnerability/wordpress-custom-css-plugin-1-4-0-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

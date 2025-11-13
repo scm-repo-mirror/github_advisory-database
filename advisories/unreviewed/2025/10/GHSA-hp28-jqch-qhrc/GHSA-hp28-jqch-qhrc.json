@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp28-jqch-qhrc",
-  "modified": "2025-10-31T21:31:00Z",
+  "modified": "2025-11-13T12:31:34Z",
   "published": "2025-10-31T12:30:22Z",
   "aliases": [
     "CVE-2025-64353"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/polylang/vulnerability/wordpress-polylang-plugin-3-7-3-deserialization-of-untrusted-data-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/polylang/vulnerability/wordpress-polylang-plugin-3-7-3-deserialization-of-untrusted-data-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

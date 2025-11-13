@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prfw-pc69-2jpq",
-  "modified": "2025-10-23T15:30:31Z",
+  "modified": "2025-11-13T12:31:22Z",
   "published": "2025-10-22T15:31:14Z",
   "aliases": [
     "CVE-2025-49960"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/leadbi/vulnerability/wordpress-leadbi-plugin-for-wordpress-plugin-1-7-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/leadbi/vulnerability/wordpress-leadbi-plugin-for-wordpress-plugin-1-7-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

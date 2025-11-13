@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w747-9m2v-9c7f",
-  "modified": "2025-11-07T00:30:29Z",
+  "modified": "2025-11-13T12:31:41Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62051"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/u-design-core/vulnerability/wordpress-udesign-core-plugin-4-14-1-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/u-design-core/vulnerability/wordpress-udesign-core-plugin-4-14-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

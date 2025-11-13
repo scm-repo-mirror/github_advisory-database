@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmjg-8wgr-32f6",
-  "modified": "2025-11-06T18:32:57Z",
+  "modified": "2025-11-13T12:31:41Z",
   "published": "2025-11-06T18:32:57Z",
   "aliases": [
     "CVE-2025-64196"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/woocommerce-jetpack/vulnerability/wordpress-booster-for-woocommerce-plugin-7-2-5-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/woocommerce-jetpack/vulnerability/wordpress-booster-for-woocommerce-plugin-7-2-5-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

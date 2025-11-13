@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hghp-rpcc-wp2c",
-  "modified": "2025-11-06T18:32:57Z",
+  "modified": "2025-11-13T12:31:41Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62067"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/savory/vulnerability/wordpress-savory-theme-2-5-local-file-inclusion-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/savory/vulnerability/wordpress-savory-theme-2-5-local-file-inclusion-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

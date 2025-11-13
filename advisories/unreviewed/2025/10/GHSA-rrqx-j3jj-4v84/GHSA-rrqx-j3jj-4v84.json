@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrqx-j3jj-4v84",
-  "modified": "2025-10-23T15:30:34Z",
+  "modified": "2025-11-13T12:31:27Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62072"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/front-end-only-users/vulnerability/wordpress-front-end-users-plugin-3-2-33-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/front-end-only-users/vulnerability/wordpress-front-end-users-plugin-3-2-33-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

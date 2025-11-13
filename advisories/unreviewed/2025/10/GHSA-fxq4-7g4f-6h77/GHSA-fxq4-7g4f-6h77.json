@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxq4-7g4f-6h77",
-  "modified": "2025-10-22T21:31:29Z",
+  "modified": "2025-11-13T12:31:25Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-59593"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/colibri-page-builder/vulnerability/wordpress-colibri-page-builder-plugin-1-0-334-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/colibri-page-builder/vulnerability/wordpress-colibri-page-builder-plugin-1-0-334-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

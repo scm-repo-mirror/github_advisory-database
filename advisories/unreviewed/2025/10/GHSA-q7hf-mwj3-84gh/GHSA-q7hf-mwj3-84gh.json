@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7hf-mwj3-84gh",
-  "modified": "2025-10-29T15:31:56Z",
+  "modified": "2025-11-13T12:31:33Z",
   "published": "2025-10-29T09:30:24Z",
   "aliases": [
     "CVE-2025-64284"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/majestic-support/vulnerability/wordpress-majestic-support-plugin-1-1-1-local-file-inclusion-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/majestic-support/vulnerability/wordpress-majestic-support-plugin-1-1-1-local-file-inclusion-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

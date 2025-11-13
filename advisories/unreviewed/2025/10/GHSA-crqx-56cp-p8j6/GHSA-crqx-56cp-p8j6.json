@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crqx-56cp-p8j6",
-  "modified": "2025-10-28T15:30:42Z",
+  "modified": "2025-11-13T12:31:31Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62956"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/reloadly-topup-widget/vulnerability/wordpress-reloadly-plugin-2-0-1-cross-site-request-forgery-csrf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/reloadly-topup-widget/vulnerability/wordpress-reloadly-plugin-2-0-1-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

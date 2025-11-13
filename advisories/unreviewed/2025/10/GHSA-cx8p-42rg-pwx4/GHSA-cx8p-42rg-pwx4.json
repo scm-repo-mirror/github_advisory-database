@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx8p-42rg-pwx4",
-  "modified": "2025-10-31T18:31:14Z",
+  "modified": "2025-11-13T12:31:34Z",
   "published": "2025-10-31T12:30:22Z",
   "aliases": [
     "CVE-2025-64358"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wt-smart-coupons-for-woocommerce/vulnerability/wordpress-smart-coupons-for-woocommerce-plugin-2-2-3-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wt-smart-coupons-for-woocommerce/vulnerability/wordpress-smart-coupons-for-woocommerce-plugin-2-2-3-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

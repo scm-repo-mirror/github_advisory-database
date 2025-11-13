@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfr6-c3mm-p2gm",
-  "modified": "2025-11-10T21:30:34Z",
+  "modified": "2025-11-13T12:31:39Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-5803"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/vikbooking/vulnerability/wordpress-vikbooking-hotel-booking-engine-pms-plugin-1-8-2-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/vikbooking/vulnerability/wordpress-vikbooking-hotel-booking-engine-pms-plugin-1-8-2-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

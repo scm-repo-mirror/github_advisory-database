@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9vx-vgp6-7v2f",
-  "modified": "2025-10-22T21:31:29Z",
+  "modified": "2025-11-13T12:31:20Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49378"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/hydra-booking/vulnerability/wordpress-hydra-booking-plugin-1-1-10-sql-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/hydra-booking/vulnerability/wordpress-hydra-booking-plugin-1-1-10-sql-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

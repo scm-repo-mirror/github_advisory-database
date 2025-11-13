@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh59-6j7x-fwhp",
-  "modified": "2025-11-10T21:30:33Z",
+  "modified": "2025-11-13T12:31:35Z",
   "published": "2025-11-06T18:32:52Z",
   "aliases": [
     "CVE-2025-49398"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/easy-appointments/vulnerability/wordpress-easy-appointments-plugin-3-12-14-content-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/easy-appointments/vulnerability/wordpress-easy-appointments-plugin-3-12-14-content-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

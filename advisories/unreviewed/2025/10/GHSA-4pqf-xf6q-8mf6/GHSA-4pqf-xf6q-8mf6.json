@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4pqf-xf6q-8mf6",
-  "modified": "2025-10-22T21:31:30Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60217"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/pt-luxa-addons/vulnerability/wordpress-pt-luxa-addons-plugin-1-2-2-arbitrary-file-deletion-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/pt-luxa-addons/vulnerability/wordpress-pt-luxa-addons-plugin-1-2-2-arbitrary-file-deletion-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

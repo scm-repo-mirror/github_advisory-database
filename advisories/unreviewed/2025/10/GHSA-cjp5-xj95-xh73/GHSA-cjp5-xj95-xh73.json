@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjp5-xj95-xh73",
-  "modified": "2025-10-28T15:30:41Z",
+  "modified": "2025-11-13T12:31:30Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62937"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/post-list-featured-image/vulnerability/wordpress-post-list-featured-image-plugin-0-5-9-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/post-list-featured-image/vulnerability/wordpress-post-list-featured-image-plugin-0-5-9-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

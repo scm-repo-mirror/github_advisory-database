@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2ff9-pfjh-8587",
-  "modified": "2025-11-06T21:31:28Z",
+  "modified": "2025-11-13T12:31:41Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62038"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/meetinghub/vulnerability/wordpress-meetinghub-plugin-1-23-9-sensitive-data-exposure-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/meetinghub/vulnerability/wordpress-meetinghub-plugin-1-23-9-sensitive-data-exposure-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

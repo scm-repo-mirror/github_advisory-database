@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f647-c8g3-5cgm",
-  "modified": "2025-10-29T15:31:55Z",
+  "modified": "2025-11-13T12:31:33Z",
   "published": "2025-10-29T09:30:22Z",
   "aliases": [
     "CVE-2025-58939"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/superstorefinder-wp/vulnerability/wordpress-super-store-finder-plugin-7-5-cross-site-request-forgery-csrf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/superstorefinder-wp/vulnerability/wordpress-super-store-finder-plugin-7-5-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

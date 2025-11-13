@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79pg-9535-j68v",
-  "modified": "2025-10-28T15:30:41Z",
+  "modified": "2025-11-13T12:31:29Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62916"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/adiaha-hotel/vulnerability/wordpress-flights-hotels-booking-wp-plugin-plugin-3-1-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/adiaha-hotel/vulnerability/wordpress-flights-hotels-booking-wp-plugin-plugin-3-1-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

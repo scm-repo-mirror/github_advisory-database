@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8fw-gf62-v77w",
-  "modified": "2025-10-29T15:31:56Z",
+  "modified": "2025-11-13T12:31:33Z",
   "published": "2025-10-29T09:30:24Z",
   "aliases": [
     "CVE-2025-64234"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/evergreen-content-poster/vulnerability/wordpress-evergreen-content-poster-plugin-1-4-5-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/evergreen-content-poster/vulnerability/wordpress-evergreen-content-poster-plugin-1-4-5-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

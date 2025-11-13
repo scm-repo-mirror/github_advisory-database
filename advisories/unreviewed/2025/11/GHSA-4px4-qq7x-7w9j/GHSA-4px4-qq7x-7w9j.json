@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4px4-qq7x-7w9j",
-  "modified": "2025-11-06T21:31:26Z",
+  "modified": "2025-11-13T12:31:39Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-60192"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/premmerce-woocommerce-wholesale-pricing/vulnerability/wordpress-premmerce-wholesale-pricing-for-woocommerce-plugin-1-1-10-local-file-inclusion-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/premmerce-woocommerce-wholesale-pricing/vulnerability/wordpress-premmerce-wholesale-pricing-for-woocommerce-plugin-1-1-10-local-file-inclusion-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

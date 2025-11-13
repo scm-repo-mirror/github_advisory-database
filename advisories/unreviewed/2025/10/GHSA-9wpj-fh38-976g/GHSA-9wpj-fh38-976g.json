@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9wpj-fh38-976g",
-  "modified": "2025-10-28T15:30:41Z",
+  "modified": "2025-11-13T12:31:30Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62931"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/microsoft-start/vulnerability/wordpress-msn-partner-hub-plugin-2-8-7-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/microsoft-start/vulnerability/wordpress-msn-partner-hub-plugin-2-8-7-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vpqx-2jhq-wrpw",
-  "modified": "2025-11-07T15:31:28Z",
+  "modified": "2025-11-13T12:31:36Z",
   "published": "2025-11-06T18:32:53Z",
   "aliases": [
     "CVE-2025-53283"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/drop-uploader-for-contact-form-7-dragdrop-file-uploader-addon/vulnerability/wordpress-drop-uploader-for-cf7-drag-drop-file-uploader-addon-plugin-2-4-1-arbitrary-file-upload-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/drop-uploader-for-contact-form-7-dragdrop-file-uploader-addon/vulnerability/wordpress-drop-uploader-for-cf7-drag-drop-file-uploader-addon-plugin-2-4-1-arbitrary-file-upload-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwq4-m3ff-5w2g",
-  "modified": "2025-10-27T15:30:36Z",
+  "modified": "2025-11-13T12:31:32Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62985"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/simple-pull-quote/vulnerability/wordpress-simple-pull-quote-plugin-1-6-3-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/simple-pull-quote/vulnerability/wordpress-simple-pull-quote-plugin-1-6-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

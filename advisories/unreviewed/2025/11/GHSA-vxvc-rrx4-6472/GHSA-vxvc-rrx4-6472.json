@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxvc-rrx4-6472",
-  "modified": "2025-11-06T21:31:28Z",
+  "modified": "2025-11-13T12:31:41Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62037"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/togo/vulnerability/wordpress-togo-theme-1-0-4-broken-access-control-vulnerability-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/togo/vulnerability/wordpress-togo-theme-1-0-4-broken-access-control-vulnerability-2?_s_id=cve"
     }
   ],
   "database_specific": {

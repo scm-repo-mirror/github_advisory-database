@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxw3-8hp5-fg86",
-  "modified": "2025-11-10T21:30:34Z",
+  "modified": "2025-11-13T12:31:36Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-53349"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/kalium/vulnerability/wordpress-kalium-theme-3-18-3-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/kalium/vulnerability/wordpress-kalium-theme-3-18-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

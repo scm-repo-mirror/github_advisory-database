@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76pq-58pj-cgrv",
-  "modified": "2025-11-06T18:32:54Z",
+  "modified": "2025-11-13T12:31:37Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-54737"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/noo-jobmonster/vulnerability/wordpress-jobmonster-theme-4-7-8-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/noo-jobmonster/vulnerability/wordpress-jobmonster-theme-4-7-8-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

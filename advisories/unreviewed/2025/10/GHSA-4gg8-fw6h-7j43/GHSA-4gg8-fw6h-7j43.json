@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4gg8-fw6h-7j43",
-  "modified": "2025-10-22T21:31:29Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-60168"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/hotelrunner/vulnerability/wordpress-hotelrunner-booking-widget-plugin-1-6-cross-site-request-forgery-csrf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/hotelrunner/vulnerability/wordpress-hotelrunner-booking-widget-plugin-1-6-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

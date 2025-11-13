@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgmp-pq3m-qjc3",
-  "modified": "2025-10-23T18:31:14Z",
+  "modified": "2025-11-13T12:31:27Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62027"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/event-tickets/vulnerability/wordpress-event-tickets-plugin-5-26-3-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/event-tickets/vulnerability/wordpress-event-tickets-plugin-5-26-3-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

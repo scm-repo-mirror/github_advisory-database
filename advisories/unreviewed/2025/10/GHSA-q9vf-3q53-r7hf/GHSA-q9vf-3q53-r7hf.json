@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9vf-3q53-r7hf",
-  "modified": "2025-10-23T15:30:33Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60246"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/simple-finance-calculator/vulnerability/wordpress-simple-finance-calculator-plugin-1-0-reflected-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/simple-finance-calculator/vulnerability/wordpress-simple-finance-calculator-plugin-1-0-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

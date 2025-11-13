@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r7m-vcjq-ppc7",
-  "modified": "2025-10-23T15:30:33Z",
+  "modified": "2025-11-13T12:31:25Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-59571"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/workscout-core/vulnerability/wordpress-workscout-core-plugin-1-7-06-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/workscout-core/vulnerability/wordpress-workscout-core-plugin-1-7-06-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

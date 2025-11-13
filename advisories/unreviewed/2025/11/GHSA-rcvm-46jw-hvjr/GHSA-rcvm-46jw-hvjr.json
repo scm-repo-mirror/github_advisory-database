@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcvm-46jw-hvjr",
-  "modified": "2025-11-06T18:32:55Z",
+  "modified": "2025-11-13T12:31:40Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-60244"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/posts-table-filterable/vulnerability/wordpress-tableon-plugin-1-0-4-2-content-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/posts-table-filterable/vulnerability/wordpress-tableon-plugin-1-0-4-2-content-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

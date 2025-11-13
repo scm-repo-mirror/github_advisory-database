@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jmq-66c3-gmj4",
-  "modified": "2025-10-23T18:31:12Z",
+  "modified": "2025-11-13T12:31:23Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-52756"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-last-modified-info/vulnerability/wordpress-wp-last-modified-info-plugin-1-9-2-remote-code-execution-rce-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-last-modified-info/vulnerability/wordpress-wp-last-modified-info-plugin-1-9-2-remote-code-execution-rce-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

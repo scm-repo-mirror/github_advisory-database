@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66xg-mp3j-p8c5",
-  "modified": "2025-10-23T15:30:32Z",
+  "modified": "2025-11-13T12:31:23Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-52757"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/sumomemberships/vulnerability/wordpress-sumo-memberships-for-woocommerce-plugin-7-6-0-arbitrary-content-deletion-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/sumomemberships/vulnerability/wordpress-sumo-memberships-for-woocommerce-plugin-7-6-0-arbitrary-content-deletion-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c46-q76w-cjrp",
-  "modified": "2025-10-22T21:31:29Z",
+  "modified": "2025-11-13T12:31:19Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49376"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/delucks-seo/vulnerability/wordpress-delucks-seo-plugin-2-5-9-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/delucks-seo/vulnerability/wordpress-delucks-seo-plugin-2-5-9-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

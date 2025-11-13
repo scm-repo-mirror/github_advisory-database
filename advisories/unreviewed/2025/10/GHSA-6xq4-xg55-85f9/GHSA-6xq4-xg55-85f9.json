@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xq4-xg55-85f9",
-  "modified": "2025-10-23T15:30:32Z",
+  "modified": "2025-11-13T12:31:23Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-53297"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wooenvato/vulnerability/wordpress-woocommerce-envato-affiliates-plugin-1-2-1-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wooenvato/vulnerability/wordpress-woocommerce-envato-affiliates-plugin-1-2-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

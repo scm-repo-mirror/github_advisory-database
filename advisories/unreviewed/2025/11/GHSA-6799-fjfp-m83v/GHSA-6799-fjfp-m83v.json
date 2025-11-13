@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6799-fjfp-m83v",
-  "modified": "2025-11-06T18:32:55Z",
+  "modified": "2025-11-13T12:31:40Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-60207"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/user-registration-plugin-for-woocommerce/vulnerability/wordpress-custom-user-registration-fields-for-woocommerce-plugin-2-1-2-arbitrary-file-upload-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/user-registration-plugin-for-woocommerce/vulnerability/wordpress-custom-user-registration-fields-for-woocommerce-plugin-2-1-2-arbitrary-file-upload-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

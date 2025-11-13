@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5wc-wh24-wmj3",
-  "modified": "2025-10-27T18:31:08Z",
+  "modified": "2025-11-13T12:31:28Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62881"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-lister-for-ebay/vulnerability/wordpress-wp-lister-lite-for-ebay-plugin-3-8-3-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-lister-for-ebay/vulnerability/wordpress-wp-lister-lite-for-ebay-plugin-3-8-3-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

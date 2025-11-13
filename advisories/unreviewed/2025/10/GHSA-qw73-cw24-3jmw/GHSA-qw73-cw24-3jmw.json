@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qw73-cw24-3jmw",
-  "modified": "2025-10-31T21:31:01Z",
+  "modified": "2025-11-13T12:31:34Z",
   "published": "2025-10-31T12:30:23Z",
   "aliases": [
     "CVE-2025-64367"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/groundhogg/vulnerability/wordpress-groundhogg-plugin-4-2-6-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/groundhogg/vulnerability/wordpress-groundhogg-plugin-4-2-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

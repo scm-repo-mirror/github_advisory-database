@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6jh-rjjw-8j6w",
-  "modified": "2025-10-27T18:31:08Z",
+  "modified": "2025-11-13T12:31:28Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62897"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-recipe-maker/vulnerability/wordpress-wp-recipe-maker-plugin-10-1-1-content-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-recipe-maker/vulnerability/wordpress-wp-recipe-maker-plugin-10-1-1-content-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

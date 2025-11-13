@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7848-668p-fhjf",
-  "modified": "2025-10-28T15:30:40Z",
+  "modified": "2025-11-13T12:31:29Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62899"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/photospace-responsive/vulnerability/wordpress-photospace-responsive-plugin-2-2-0-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/photospace-responsive/vulnerability/wordpress-photospace-responsive-plugin-2-2-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

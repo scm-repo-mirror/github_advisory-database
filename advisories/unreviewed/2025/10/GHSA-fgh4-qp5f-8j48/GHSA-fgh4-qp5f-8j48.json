@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgh4-qp5f-8j48",
-  "modified": "2025-10-27T15:30:34Z",
+  "modified": "2025-11-13T12:31:32Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62969"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/woo-thank-you-page-nextmove-lite/vulnerability/wordpress-nextmove-lite-plugin-2-21-0-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/woo-thank-you-page-nextmove-lite/vulnerability/wordpress-nextmove-lite-plugin-2-21-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

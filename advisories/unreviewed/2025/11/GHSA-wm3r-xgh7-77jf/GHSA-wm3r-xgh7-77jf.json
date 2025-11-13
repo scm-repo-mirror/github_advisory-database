@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wm3r-xgh7-77jf",
-  "modified": "2025-11-10T21:30:34Z",
+  "modified": "2025-11-13T12:31:36Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-53324"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/gutenify/vulnerability/wordpress-gutenify-plugin-1-5-6-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/gutenify/vulnerability/wordpress-gutenify-plugin-1-5-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

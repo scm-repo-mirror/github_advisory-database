@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43f2-jmwh-r66h",
-  "modified": "2025-11-10T21:30:34Z",
+  "modified": "2025-11-13T12:31:37Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-58595"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/change-wp-admin-login/vulnerability/wordpress-all-in-one-login-plugin-2-0-8-bypass-vulnerability-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/change-wp-admin-login/vulnerability/wordpress-all-in-one-login-plugin-2-0-8-bypass-vulnerability-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

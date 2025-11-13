@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgf5-wqhv-47jj",
-  "modified": "2025-10-23T15:30:32Z",
+  "modified": "2025-11-13T12:31:22Z",
   "published": "2025-10-22T15:31:15Z",
   "aliases": [
     "CVE-2025-52736"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/finale-woocommerce-sales-countdown-timer-discount/vulnerability/wordpress-finale-lite-plugin-2-20-0-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/finale-woocommerce-sales-countdown-timer-discount/vulnerability/wordpress-finale-lite-plugin-2-20-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

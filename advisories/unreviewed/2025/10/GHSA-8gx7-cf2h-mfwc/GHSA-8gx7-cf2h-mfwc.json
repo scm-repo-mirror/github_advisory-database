@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gx7-cf2h-mfwc",
-  "modified": "2025-10-29T15:31:55Z",
+  "modified": "2025-11-13T12:31:33Z",
   "published": "2025-10-29T09:30:24Z",
   "aliases": [
     "CVE-2025-64228"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/affs/vulnerability/wordpress-sumo-affiliates-pro-plugin-11-0-0-sensitive-data-exposure-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/affs/vulnerability/wordpress-sumo-affiliates-pro-plugin-11-0-0-sensitive-data-exposure-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

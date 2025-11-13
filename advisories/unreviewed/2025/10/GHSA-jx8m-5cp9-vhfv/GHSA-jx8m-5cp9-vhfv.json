@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx8m-5cp9-vhfv",
-  "modified": "2025-10-28T15:30:40Z",
+  "modified": "2025-11-13T12:31:28Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62890"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/premmerce-woocommerce-brands/vulnerability/wordpress-premmerce-brands-for-woocommerce-plugin-1-2-13-cross-site-request-forgery-csrf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/premmerce-woocommerce-brands/vulnerability/wordpress-premmerce-brands-for-woocommerce-plugin-1-2-13-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

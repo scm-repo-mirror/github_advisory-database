@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rpr-5rmh-668h",
-  "modified": "2025-10-22T21:31:30Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60211"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/extendons-registration-fields/vulnerability/wordpress-woocommerce-registration-fields-plugin-custom-signup-fields-plugin-3-2-3-privilege-escalation-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/extendons-registration-fields/vulnerability/wordpress-woocommerce-registration-fields-plugin-custom-signup-fields-plugin-3-2-3-privilege-escalation-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

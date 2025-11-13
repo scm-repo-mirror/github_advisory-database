@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfgw-2cm5-3rc9",
-  "modified": "2025-11-06T21:31:27Z",
+  "modified": "2025-11-13T12:31:40Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62031"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/td-composer/vulnerability/wordpress-tagdiv-composer-plugin-5-4-1-cross-site-scripting-xss-vulnerability-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/td-composer/vulnerability/wordpress-tagdiv-composer-plugin-5-4-1-cross-site-scripting-xss-vulnerability-2?_s_id=cve"
     }
   ],
   "database_specific": {

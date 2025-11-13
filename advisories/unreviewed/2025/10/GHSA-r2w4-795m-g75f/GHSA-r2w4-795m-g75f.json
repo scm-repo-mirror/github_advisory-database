@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r2w4-795m-g75f",
-  "modified": "2025-11-03T18:31:51Z",
+  "modified": "2025-11-13T12:31:34Z",
   "published": "2025-10-31T12:30:23Z",
   "aliases": [
     "CVE-2025-64365"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/ohio-extra/vulnerability/wordpress-ohio-extra-plugin-3-6-0-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/ohio-extra/vulnerability/wordpress-ohio-extra-plugin-3-6-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

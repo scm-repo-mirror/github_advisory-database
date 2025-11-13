@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrj4-vcrc-2hch",
-  "modified": "2025-11-07T21:31:20Z",
+  "modified": "2025-11-13T12:31:37Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-54711"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/info-cards/vulnerability/wordpress-info-cards-plugin-1-0-11-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/info-cards/vulnerability/wordpress-info-cards-plugin-1-0-11-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

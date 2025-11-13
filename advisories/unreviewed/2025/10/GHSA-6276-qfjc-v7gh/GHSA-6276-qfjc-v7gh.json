@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6276-qfjc-v7gh",
-  "modified": "2025-10-24T15:31:24Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62019"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/recipe-card-blocks-by-wpzoom/vulnerability/wordpress-recipe-card-blocks-for-gutenberg-elementor-plugin-3-4-8-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/recipe-card-blocks-by-wpzoom/vulnerability/wordpress-recipe-card-blocks-for-gutenberg-elementor-plugin-3-4-8-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

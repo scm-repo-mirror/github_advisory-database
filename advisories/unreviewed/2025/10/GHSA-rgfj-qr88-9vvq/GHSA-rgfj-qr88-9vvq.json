@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgfj-qr88-9vvq",
-  "modified": "2025-10-23T18:31:09Z",
+  "modified": "2025-11-13T12:31:20Z",
   "published": "2025-10-22T15:31:14Z",
   "aliases": [
     "CVE-2025-49927"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/jet-woo-builder/vulnerability/wordpress-jetwoobuilder-plugin-2-1-20-1-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/jet-woo-builder/vulnerability/wordpress-jetwoobuilder-plugin-2-1-20-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

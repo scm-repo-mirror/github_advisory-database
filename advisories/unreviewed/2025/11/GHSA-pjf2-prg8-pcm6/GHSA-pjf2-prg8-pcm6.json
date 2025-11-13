@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjf2-prg8-pcm6",
-  "modified": "2025-11-10T21:30:32Z",
+  "modified": "2025-11-13T12:31:35Z",
   "published": "2025-11-06T18:32:50Z",
   "aliases": [
     "CVE-2025-39465"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-google-map-gold/vulnerability/wordpress-advanced-google-maps-plugin-5-8-4-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-google-map-gold/vulnerability/wordpress-advanced-google-maps-plugin-5-8-4-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

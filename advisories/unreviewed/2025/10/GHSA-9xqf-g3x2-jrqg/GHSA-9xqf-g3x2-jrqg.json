@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9xqf-g3x2-jrqg",
-  "modified": "2025-10-23T15:30:33Z",
+  "modified": "2025-11-13T12:31:25Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-59579"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/simple-job-board/vulnerability/wordpress-simple-job-board-plugin-2-13-7-sensitive-data-exposure-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/simple-job-board/vulnerability/wordpress-simple-job-board-plugin-2-13-7-sensitive-data-exposure-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

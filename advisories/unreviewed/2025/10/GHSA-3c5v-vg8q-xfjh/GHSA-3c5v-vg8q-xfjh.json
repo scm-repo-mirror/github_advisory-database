@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3c5v-vg8q-xfjh",
-  "modified": "2025-10-23T15:30:31Z",
+  "modified": "2025-11-13T12:31:22Z",
   "published": "2025-10-22T15:31:14Z",
   "aliases": [
     "CVE-2025-49959"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/bbp-move-topics/vulnerability/wordpress-bbpress-move-topics-plugin-1-1-6-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/bbp-move-topics/vulnerability/wordpress-bbpress-move-topics-plugin-1-1-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

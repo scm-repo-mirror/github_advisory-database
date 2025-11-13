@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qvpv-xh75-74pw",
-  "modified": "2025-10-27T15:30:34Z",
+  "modified": "2025-11-13T12:31:32Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62968"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-last-modified-info/vulnerability/wordpress-wp-last-modified-info-plugin-1-9-2-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-last-modified-info/vulnerability/wordpress-wp-last-modified-info-plugin-1-9-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

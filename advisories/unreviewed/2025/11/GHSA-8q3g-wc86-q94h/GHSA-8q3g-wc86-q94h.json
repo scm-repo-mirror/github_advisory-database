@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8q3g-wc86-q94h",
-  "modified": "2025-11-10T21:30:34Z",
+  "modified": "2025-11-13T12:31:36Z",
   "published": "2025-11-06T18:32:53Z",
   "aliases": [
     "CVE-2025-53316"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-gdpr-cookie-consent/vulnerability/wordpress-wp-gdpr-cookie-consent-plugin-1-0-0-cross-site-request-forgery-csrf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-gdpr-cookie-consent/vulnerability/wordpress-wp-gdpr-cookie-consent-plugin-1-0-0-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

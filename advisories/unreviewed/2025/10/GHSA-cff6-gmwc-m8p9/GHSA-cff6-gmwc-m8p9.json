@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cff6-gmwc-m8p9",
-  "modified": "2025-10-23T18:31:11Z",
+  "modified": "2025-11-13T12:31:23Z",
   "published": "2025-10-22T15:31:15Z",
   "aliases": [
     "CVE-2025-52753"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/contact-form-by-supsystic/vulnerability/wordpress-contact-form-by-supsystic-plugin-1-7-35-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/contact-form-by-supsystic/vulnerability/wordpress-contact-form-by-supsystic-plugin-1-7-35-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

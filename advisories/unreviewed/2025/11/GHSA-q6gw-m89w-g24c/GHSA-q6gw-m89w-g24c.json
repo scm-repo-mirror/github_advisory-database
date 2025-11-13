@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q6gw-m89w-g24c",
-  "modified": "2025-11-07T15:31:29Z",
+  "modified": "2025-11-13T12:31:40Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62012"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/thegem-elementor/vulnerability/wordpress-thegem-elementor-theme-5-10-5-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/thegem-elementor/vulnerability/wordpress-thegem-elementor-theme-5-10-5-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

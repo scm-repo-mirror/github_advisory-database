@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8w7x-rpx6-rgj9",
-  "modified": "2025-11-10T21:30:32Z",
+  "modified": "2025-11-13T12:31:35Z",
   "published": "2025-11-06T18:32:51Z",
   "aliases": [
     "CVE-2025-48078"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/slick-google-map/vulnerability/wordpress-slick-google-map-plugin-0-3-cross-site-request-forgery-csrf-to-stored-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/slick-google-map/vulnerability/wordpress-slick-google-map-plugin-0-3-cross-site-request-forgery-csrf-to-stored-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

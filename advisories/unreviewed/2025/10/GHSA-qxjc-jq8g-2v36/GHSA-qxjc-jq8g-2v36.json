@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxjc-jq8g-2v36",
-  "modified": "2025-10-22T21:31:29Z",
+  "modified": "2025-11-13T12:31:25Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-60134"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-media-categories/vulnerability/wordpress-wp-media-categories-plugin-2-1-0-cross-site-request-forgery-csrf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-media-categories/vulnerability/wordpress-wp-media-categories-plugin-2-1-0-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

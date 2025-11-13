@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwgh-gfm4-665g",
-  "modified": "2025-10-22T21:31:29Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-60151"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/gf-hubspot/vulnerability/wordpress-wp-gravity-forms-hubspot-plugin-1-2-5-open-redirection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/gf-hubspot/vulnerability/wordpress-wp-gravity-forms-hubspot-plugin-1-2-5-open-redirection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4gh8-cr63-898j",
-  "modified": "2025-11-06T18:32:54Z",
+  "modified": "2025-11-13T12:31:39Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-58972"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/barcode-scanner-lite-pos-to-manage-products-inventory-and-orders/vulnerability/wordpress-barcode-scanner-with-inventory-order-manager-plugin-1-10-4-path-traversal-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/barcode-scanner-lite-pos-to-manage-products-inventory-and-orders/vulnerability/wordpress-barcode-scanner-with-inventory-order-manager-plugin-1-10-4-path-traversal-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

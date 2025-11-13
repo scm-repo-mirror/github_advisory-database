@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9646-9fg9-g9g9",
-  "modified": "2025-10-23T15:30:32Z",
+  "modified": "2025-11-13T12:31:24Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-58961"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/CF7-autoresponder-addon/vulnerability/wordpress-cf7-auto-responder-addon-plugin-2-4-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/CF7-autoresponder-addon/vulnerability/wordpress-cf7-auto-responder-addon-plugin-2-4-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

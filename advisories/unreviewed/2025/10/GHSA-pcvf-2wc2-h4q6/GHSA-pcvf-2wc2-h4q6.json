@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcvf-2wc2-h4q6",
-  "modified": "2025-10-31T18:31:14Z",
+  "modified": "2025-11-13T12:31:34Z",
   "published": "2025-10-31T12:30:22Z",
   "aliases": [
     "CVE-2025-64361"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/consulting-elementor-widgets/vulnerability/wordpress-consulting-elementor-widgets-plugin-1-4-2-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/consulting-elementor-widgets/vulnerability/wordpress-consulting-elementor-widgets-plugin-1-4-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

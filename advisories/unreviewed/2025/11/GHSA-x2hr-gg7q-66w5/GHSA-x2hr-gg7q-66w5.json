@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2hr-gg7q-66w5",
-  "modified": "2025-11-06T18:32:57Z",
+  "modified": "2025-11-13T12:31:41Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62074"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wpappninja/vulnerability/wordpress-wpmobile-app-plugin-11-71-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wpappninja/vulnerability/wordpress-wpmobile-app-plugin-11-71-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x7r-f4jf-gfj5",
-  "modified": "2025-11-06T18:32:54Z",
+  "modified": "2025-11-13T12:31:37Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-58207"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/ai-image-alt-text-generator-for-wp/vulnerability/wordpress-ai-image-alt-text-generator-for-wp-plugin-1-1-5-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/ai-image-alt-text-generator-for-wp/vulnerability/wordpress-ai-image-alt-text-generator-for-wp-plugin-1-1-5-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-63x7-86mp-j45m",
-  "modified": "2025-11-03T18:31:51Z",
+  "modified": "2025-11-13T12:31:34Z",
   "published": "2025-10-31T12:30:23Z",
   "aliases": [
     "CVE-2025-64363"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/kleo/vulnerability/wordpress-kleo-theme-5-5-0-local-file-inclusion-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/kleo/vulnerability/wordpress-kleo-theme-5-5-0-local-file-inclusion-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

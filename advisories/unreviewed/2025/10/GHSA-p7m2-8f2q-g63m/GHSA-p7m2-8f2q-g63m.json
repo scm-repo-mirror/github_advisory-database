@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7m2-8f2q-g63m",
-  "modified": "2025-10-22T21:31:29Z",
+  "modified": "2025-11-13T12:31:22Z",
   "published": "2025-10-22T15:31:15Z",
   "aliases": [
     "CVE-2025-52741"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/post-connector/vulnerability/wordpress-post-connector-plugin-1-0-11-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/post-connector/vulnerability/wordpress-post-connector-plugin-1-0-11-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

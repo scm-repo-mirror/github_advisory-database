@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wx23-gjgp-3rgc",
-  "modified": "2025-10-23T18:31:13Z",
+  "modified": "2025-11-13T12:31:25Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-59557"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/learts-addons/vulnerability/wordpress-learts-addons-plugin-1-7-5-sql-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/learts-addons/vulnerability/wordpress-learts-addons-plugin-1-7-5-sql-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

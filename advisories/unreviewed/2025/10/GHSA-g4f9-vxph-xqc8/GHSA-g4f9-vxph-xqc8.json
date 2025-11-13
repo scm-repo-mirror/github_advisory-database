@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4f9-vxph-xqc8",
-  "modified": "2025-10-23T18:31:10Z",
+  "modified": "2025-11-13T12:31:21Z",
   "published": "2025-10-22T15:31:14Z",
   "aliases": [
     "CVE-2025-49953"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/sharebang/vulnerability/wordpress-sharebang-ultimate-social-share-buttons-for-wordpress-plugin-1-4-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/sharebang/vulnerability/wordpress-sharebang-ultimate-social-share-buttons-for-wordpress-plugin-1-4-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

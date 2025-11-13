@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87qw-788g-jv7c",
-  "modified": "2025-11-10T21:30:32Z",
+  "modified": "2025-11-13T12:31:35Z",
   "published": "2025-11-06T18:32:51Z",
   "aliases": [
     "CVE-2025-48077"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/block-country/vulnerability/wordpress-block-country-plugin-1-0-cross-site-request-forgery-csrf-to-stored-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/block-country/vulnerability/wordpress-block-country-plugin-1-0-cross-site-request-forgery-csrf-to-stored-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

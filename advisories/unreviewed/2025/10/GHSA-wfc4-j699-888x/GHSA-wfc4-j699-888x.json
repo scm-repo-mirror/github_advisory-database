@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfc4-j699-888x",
-  "modified": "2025-10-28T15:30:41Z",
+  "modified": "2025-11-13T12:31:29Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62924"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/post-grid/vulnerability/wordpress-post-grid-and-gutenberg-blocks-plugin-2-3-17-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/post-grid/vulnerability/wordpress-post-grid-and-gutenberg-blocks-plugin-2-3-17-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

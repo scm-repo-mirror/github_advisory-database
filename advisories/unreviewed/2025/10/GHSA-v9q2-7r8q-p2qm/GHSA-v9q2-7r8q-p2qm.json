@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9q2-7r8q-p2qm",
-  "modified": "2025-10-28T15:30:40Z",
+  "modified": "2025-11-13T12:31:29Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62908"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/podlove-web-player/vulnerability/wordpress-podlove-web-player-plugin-5-9-1-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/podlove-web-player/vulnerability/wordpress-podlove-web-player-plugin-5-9-1-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

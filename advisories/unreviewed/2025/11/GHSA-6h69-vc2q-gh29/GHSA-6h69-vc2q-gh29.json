@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h69-vc2q-gh29",
-  "modified": "2025-11-10T21:30:32Z",
+  "modified": "2025-11-13T12:31:35Z",
   "published": "2025-11-06T18:32:51Z",
   "aliases": [
     "CVE-2025-48086"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/ajax-search-lite/vulnerability/wordpress-ajax-search-lite-plugin-4-13-3-php-object-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/ajax-search-lite/vulnerability/wordpress-ajax-search-lite-plugin-4-13-3-php-object-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

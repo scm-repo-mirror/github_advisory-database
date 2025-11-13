@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26qv-cc62-952x",
-  "modified": "2025-11-03T15:30:29Z",
+  "modified": "2025-11-13T12:31:34Z",
   "published": "2025-11-03T15:30:29Z",
   "aliases": [
     "CVE-2025-64294"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/wordpress/plugin/wp-snow-effect/vulnerability/wordpress-wp-snow-effect-plugin-1-1-15-broken-access-control-to-notice-dismissal-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/wordpress/plugin/wp-snow-effect/vulnerability/wordpress-wp-snow-effect-plugin-1-1-15-broken-access-control-to-notice-dismissal-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

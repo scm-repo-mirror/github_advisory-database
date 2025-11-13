@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvh9-4236-xcvj",
-  "modified": "2025-10-22T21:31:30Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60209"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-gravity-forms-spreadsheets/vulnerability/wordpress-connector-for-gravity-forms-and-google-sheets-plugin-1-2-5-php-object-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-gravity-forms-spreadsheets/vulnerability/wordpress-connector-for-gravity-forms-and-google-sheets-plugin-1-2-5-php-object-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9fc-5f3m-4xpv",
-  "modified": "2025-11-06T21:31:27Z",
+  "modified": "2025-11-13T12:31:41Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62032"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/td-cloud-library/vulnerability/wordpress-tagdiv-cloud-library-plugin-3-9-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/td-cloud-library/vulnerability/wordpress-tagdiv-cloud-library-plugin-3-9-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

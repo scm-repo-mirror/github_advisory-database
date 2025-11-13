@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92vr-85r4-9j46",
-  "modified": "2025-10-23T18:31:12Z",
+  "modified": "2025-11-13T12:31:23Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-52755"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/child-themes/vulnerability/wordpress-child-themes-plugin-1-0-1-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/child-themes/vulnerability/wordpress-child-themes-plugin-1-0-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

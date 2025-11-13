@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7whr-6g3c-2m6g",
-  "modified": "2025-10-22T21:31:30Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60224"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/subscribe-to-download/vulnerability/wordpress-subscribe-to-download-plugin-2-0-9-php-object-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/subscribe-to-download/vulnerability/wordpress-subscribe-to-download-plugin-2-0-9-php-object-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

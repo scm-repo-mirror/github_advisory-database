@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4ch-j254-ph76",
-  "modified": "2025-10-28T15:30:41Z",
+  "modified": "2025-11-13T12:31:29Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62925"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/enhanced-e-commerce-for-woocommerce-store/vulnerability/wordpress-conversios-io-plugin-7-2-10-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/enhanced-e-commerce-for-woocommerce-store/vulnerability/wordpress-conversios-io-plugin-7-2-10-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cq2-cm9p-4m4h",
-  "modified": "2025-10-23T15:30:31Z",
+  "modified": "2025-11-13T12:31:20Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49917"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/email-subscribers-premium/vulnerability/wordpress-icegram-express-pro-plugin-5-9-5-server-side-request-forgery-ssrf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/email-subscribers-premium/vulnerability/wordpress-icegram-express-pro-plugin-5-9-5-server-side-request-forgery-ssrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

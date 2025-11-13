@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jhj-3m5p-2g94",
-  "modified": "2025-10-22T21:31:29Z",
+  "modified": "2025-11-13T12:31:19Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49374"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/captcha-eu/vulnerability/wordpress-captcha-eu-plugin-1-0-61-server-side-request-forgery-ssrf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/captcha-eu/vulnerability/wordpress-captcha-eu-plugin-1-0-61-server-side-request-forgery-ssrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

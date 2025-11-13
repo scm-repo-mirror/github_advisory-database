@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhjp-6pj9-669q",
-  "modified": "2025-11-10T21:30:32Z",
+  "modified": "2025-11-13T12:31:35Z",
   "published": "2025-11-06T18:32:52Z",
   "aliases": [
     "CVE-2025-48089"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/histudy/vulnerability/wordpress-education-wordpress-theme-histudy-theme-3-1-0-sql-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/histudy/vulnerability/wordpress-education-wordpress-theme-histudy-theme-3-1-0-sql-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

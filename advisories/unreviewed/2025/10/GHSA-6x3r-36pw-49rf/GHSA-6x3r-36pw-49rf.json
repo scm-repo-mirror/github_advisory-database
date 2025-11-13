@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x3r-36pw-49rf",
-  "modified": "2025-10-23T15:30:34Z",
+  "modified": "2025-11-13T12:31:27Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62068"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/e2pdf/vulnerability/wordpress-e2pdf-plugin-1-28-09-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/e2pdf/vulnerability/wordpress-e2pdf-plugin-1-28-09-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

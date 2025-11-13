@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vh3j-4vp2-x7m2",
-  "modified": "2025-10-28T15:30:41Z",
+  "modified": "2025-11-13T12:31:30Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62942"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-mapbox-gl-js/vulnerability/wordpress-wp-mapbox-gl-js-maps-plugin-3-0-1-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-mapbox-gl-js/vulnerability/wordpress-wp-mapbox-gl-js-maps-plugin-3-0-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

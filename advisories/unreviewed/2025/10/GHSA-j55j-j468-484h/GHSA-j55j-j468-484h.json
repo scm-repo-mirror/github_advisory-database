@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j55j-j468-484h",
-  "modified": "2025-10-24T15:31:23Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62005"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/sumomemberships/vulnerability/wordpress-sumo-memberships-for-woocommerce-plugin-7-8-0-cross-site-request-forgery-csrf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/sumomemberships/vulnerability/wordpress-sumo-memberships-for-woocommerce-plugin-7-8-0-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

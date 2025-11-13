@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fv2-3r3p-ghgm",
-  "modified": "2025-10-23T15:30:33Z",
+  "modified": "2025-11-13T12:31:27Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62024"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/pie-calendar/vulnerability/wordpress-pie-calendar-plugin-1-2-9-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/pie-calendar/vulnerability/wordpress-pie-calendar-plugin-1-2-9-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82m2-w5q8-xfh9",
-  "modified": "2025-10-23T18:31:14Z",
+  "modified": "2025-11-13T12:31:27Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62023"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/s2member/vulnerability/wordpress-s2member-plugin-250905-remote-code-execution-rce-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/s2member/vulnerability/wordpress-s2member-plugin-250905-remote-code-execution-rce-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

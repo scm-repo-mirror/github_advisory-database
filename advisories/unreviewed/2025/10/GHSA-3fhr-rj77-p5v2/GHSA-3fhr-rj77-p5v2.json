@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fhr-rj77-p5v2",
-  "modified": "2025-10-22T21:31:27Z",
+  "modified": "2025-11-13T12:31:19Z",
   "published": "2025-10-22T15:31:12Z",
   "aliases": [
     "CVE-2025-48093"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/password-only-login/vulnerability/wordpress-password-only-login-plugin-0-2-reflected-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/password-only-login/vulnerability/wordpress-password-only-login-plugin-0-2-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

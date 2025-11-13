@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9pc6-xgvc-2w25",
-  "modified": "2025-10-29T15:31:55Z",
+  "modified": "2025-11-13T12:31:33Z",
   "published": "2025-10-29T09:30:23Z",
   "aliases": [
     "CVE-2025-64204"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/smart-mag/vulnerability/wordpress-smartmag-theme-10-3-1-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/smart-mag/vulnerability/wordpress-smartmag-theme-10-3-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rqc-w9x8-8v7p",
-  "modified": "2025-10-23T15:30:31Z",
+  "modified": "2025-11-13T12:31:21Z",
   "published": "2025-10-22T15:31:14Z",
   "aliases": [
     "CVE-2025-49937"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/custom-facebook-feed/vulnerability/wordpress-smash-balloon-social-post-feed-plugin-4-3-2-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/custom-facebook-feed/vulnerability/wordpress-smash-balloon-social-post-feed-plugin-4-3-2-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

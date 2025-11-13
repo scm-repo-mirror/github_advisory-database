@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6cw-fgf7-59qc",
-  "modified": "2025-10-23T18:31:09Z",
+  "modified": "2025-11-13T12:31:20Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49926"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/kalium/vulnerability/wordpress-kalium-theme-3-25-arbitrary-code-execution-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/kalium/vulnerability/wordpress-kalium-theme-3-25-arbitrary-code-execution-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

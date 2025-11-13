@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7chw-hhvh-5rp9",
-  "modified": "2025-10-27T15:30:36Z",
+  "modified": "2025-11-13T12:31:32Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62976"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/official-sendle-shipping-method/vulnerability/wordpress-sendle-shipping-plugin-6-02-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/official-sendle-shipping-method/vulnerability/wordpress-sendle-shipping-plugin-6-02-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

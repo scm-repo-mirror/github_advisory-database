@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83hv-h643-r92h",
-  "modified": "2025-11-06T18:32:55Z",
+  "modified": "2025-11-13T12:31:39Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-60189"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wc-polo-payments/vulnerability/wordpress-polopag-pix-automatico-para-woocommerce-plugin-2-0-9-local-file-inclusion-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wc-polo-payments/vulnerability/wordpress-polopag-pix-automatico-para-woocommerce-plugin-2-0-9-local-file-inclusion-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

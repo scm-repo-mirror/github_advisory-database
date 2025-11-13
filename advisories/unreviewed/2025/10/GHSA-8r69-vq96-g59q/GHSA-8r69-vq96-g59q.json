@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r69-vq96-g59q",
-  "modified": "2025-10-23T18:31:14Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60227"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-pipes/vulnerability/wordpress-wp-pipes-plugin-1-4-3-arbitrary-file-deletion-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-pipes/vulnerability/wordpress-wp-pipes-plugin-1-4-3-arbitrary-file-deletion-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

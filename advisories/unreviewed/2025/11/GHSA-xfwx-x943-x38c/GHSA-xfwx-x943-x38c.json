@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfwx-x943-x38c",
-  "modified": "2025-11-10T18:30:33Z",
+  "modified": "2025-11-13T12:31:34Z",
   "published": "2025-11-06T18:32:50Z",
   "aliases": [
     "CVE-2025-28953"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/smartSEO/vulnerability/wordpress-smart-seo-4-0-sql-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/smartSEO/vulnerability/wordpress-smart-seo-4-0-sql-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

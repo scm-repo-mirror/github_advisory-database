@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22f2-jv6w-6ggr",
-  "modified": "2025-10-23T15:30:33Z",
+  "modified": "2025-11-13T12:31:27Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62052"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/one-page-express-companion/vulnerability/wordpress-one-page-express-companion-plugin-1-6-43-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/one-page-express-companion/vulnerability/wordpress-one-page-express-companion-plugin-1-6-43-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

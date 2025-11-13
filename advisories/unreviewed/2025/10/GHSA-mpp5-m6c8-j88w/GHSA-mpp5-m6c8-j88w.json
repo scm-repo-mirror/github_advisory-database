@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpp5-m6c8-j88w",
-  "modified": "2025-10-28T15:30:40Z",
+  "modified": "2025-11-13T12:31:28Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62887"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/king-addons/vulnerability/wordpress-king-addons-for-elementor-plugin-51-1-37-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/king-addons/vulnerability/wordpress-king-addons-for-elementor-plugin-51-1-37-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9x25-566j-qh74",
-  "modified": "2025-10-22T21:31:30Z",
+  "modified": "2025-11-13T12:31:26Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60215"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/kriya/vulnerability/wordpress-kriya-theme-3-4-php-object-injection-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/kriya/vulnerability/wordpress-kriya-theme-3-4-php-object-injection-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

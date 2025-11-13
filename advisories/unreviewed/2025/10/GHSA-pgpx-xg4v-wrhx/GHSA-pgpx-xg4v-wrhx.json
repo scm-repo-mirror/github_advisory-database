@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgpx-xg4v-wrhx",
-  "modified": "2025-10-29T15:31:56Z",
+  "modified": "2025-11-13T12:31:33Z",
   "published": "2025-10-29T09:30:24Z",
   "aliases": [
     "CVE-2025-64285"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/premmerce-woocommerce-wholesale-pricing/vulnerability/wordpress-premmerce-wholesale-pricing-for-woocommerce-plugin-1-1-10-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/premmerce-woocommerce-wholesale-pricing/vulnerability/wordpress-premmerce-wholesale-pricing-for-woocommerce-plugin-1-1-10-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

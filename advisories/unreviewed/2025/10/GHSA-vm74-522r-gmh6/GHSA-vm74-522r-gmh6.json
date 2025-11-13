@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm74-522r-gmh6",
-  "modified": "2025-10-23T15:30:31Z",
+  "modified": "2025-11-13T12:31:20Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49910"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wpguppy-lite/vulnerability/wordpress-wpguppy-plugin-1-1-4-broken-access-control-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wpguppy-lite/vulnerability/wordpress-wpguppy-plugin-1-1-4-broken-access-control-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

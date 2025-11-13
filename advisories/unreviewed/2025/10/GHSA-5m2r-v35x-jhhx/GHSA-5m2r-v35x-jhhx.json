@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m2r-v35x-jhhx",
-  "modified": "2025-10-28T15:30:40Z",
+  "modified": "2025-11-13T12:31:28Z",
   "published": "2025-10-27T03:30:37Z",
   "aliases": [
     "CVE-2025-62893"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/mediavine-create/vulnerability/wordpress-create-by-mediavine-plugin-1-9-14-insecure-direct-object-references-idor-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/mediavine-create/vulnerability/wordpress-create-by-mediavine-plugin-1-9-14-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

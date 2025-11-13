@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98j2-54cf-wrqp",
-  "modified": "2025-10-23T18:31:11Z",
+  "modified": "2025-11-13T12:31:22Z",
   "published": "2025-10-22T15:31:15Z",
   "aliases": [
     "CVE-2025-52742"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/pets/vulnerability/wordpress-pets-plugin-1-4-1-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/pets/vulnerability/wordpress-pets-plugin-1-4-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

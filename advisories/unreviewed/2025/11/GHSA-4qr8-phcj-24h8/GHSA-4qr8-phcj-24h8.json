@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qr8-phcj-24h8",
-  "modified": "2025-11-06T21:31:26Z",
+  "modified": "2025-11-13T12:31:37Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-54718"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://vdp.patchstack.com/database/Wordpress/Theme/noo-yogi/vulnerability/wordpress-yogi-health-beauty-yoga-theme-2-9-2-cross-site-scripting-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/noo-yogi/vulnerability/wordpress-yogi-health-beauty-yoga-theme-2-9-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {
