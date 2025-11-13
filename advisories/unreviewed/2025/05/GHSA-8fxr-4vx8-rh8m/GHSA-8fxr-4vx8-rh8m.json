@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8fxr-4vx8-rh8m",
-  "modified": "2025-11-03T21:33:47Z",
+  "modified": "2025-11-13T00:30:16Z",
   "published": "2025-05-08T09:30:25Z",
   "aliases": [
     "CVE-2025-37830"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncpufreq: scmi: Fix null-ptr-deref in scmi_cpufreq_get_rate()\n\ncpufreq_cpu_get_raw() can return NULL when the target CPU is not present\nin the policy->cpus mask. scmi_cpufreq_get_rate() does not check for\nthis case, which results in a NULL pointer dereference.\n\nAdd NULL check after cpufreq_cpu_get_raw() to prevent this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-08T07:15:54Z"

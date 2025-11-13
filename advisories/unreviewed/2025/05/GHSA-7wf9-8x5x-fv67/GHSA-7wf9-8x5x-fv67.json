@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wf9-8x5x-fv67",
-  "modified": "2025-11-03T21:33:47Z",
+  "modified": "2025-11-13T00:30:16Z",
   "published": "2025-05-08T09:30:24Z",
   "aliases": [
     "CVE-2025-37811"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: chipidea: ci_hdrc_imx: fix usbmisc handling\n\nusbmisc is an optional device property so it is totally valid for the\ncorresponding data->usbmisc_data to have a NULL value.\n\nCheck that before dereferencing the pointer.\n\nFound by Linux Verification Center (linuxtesting.org) with Svace static\nanalysis tool.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-08T07:15:52Z"

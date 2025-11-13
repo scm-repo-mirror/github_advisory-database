@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2qv-w894-wvxx",
-  "modified": "2025-11-03T21:33:47Z",
+  "modified": "2025-11-13T00:30:16Z",
   "published": "2025-05-08T09:30:24Z",
   "aliases": [
     "CVE-2025-37812"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: cdns3: Fix deadlock when using NCM gadget\n\nThe cdns3 driver has the same NCM deadlock as fixed in cdnsp by commit\n58f2fcb3a845 (\"usb: cdnsp: Fix deadlock issue during using NCM gadget\").\n\nUnder PREEMPT_RT the deadlock can be readily triggered by heavy network\ntraffic, for example using \"iperf --bidir\" over NCM ethernet link.\n\nThe deadlock occurs because the threaded interrupt handler gets\npreempted by a softirq, but both are protected by the same spinlock.\nPrevent deadlock by disabling softirq during threaded irq handler.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-08T07:15:52Z"

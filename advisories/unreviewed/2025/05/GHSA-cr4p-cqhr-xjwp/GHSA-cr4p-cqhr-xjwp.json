@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr4p-cqhr-xjwp",
-  "modified": "2025-05-08T09:30:25Z",
+  "modified": "2025-11-13T00:30:16Z",
   "published": "2025-05-08T09:30:25Z",
   "aliases": [
     "CVE-2025-37826"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: ufs: core: Add NULL check in ufshcd_mcq_compl_pending_transfer()\n\nAdd a NULL check for the returned hwq pointer by ufshcd_mcq_req_to_hwq().\n\nThis is similar to the fix in commit 74736103fb41 (\"scsi: ufs: core: Fix\nufshcd_abort_one racing issue\").",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-08T07:15:53Z"
