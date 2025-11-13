@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8f6-4vff-jw8w",
-  "modified": "2025-06-18T12:30:45Z",
+  "modified": "2025-11-13T18:31:00Z",
   "published": "2025-06-18T12:30:45Z",
   "aliases": [
     "CVE-2022-50060"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocteontx2-af: Fix mcam entry resource leak\n\nThe teardown sequence in FLR handler returns if no NIX LF\nis attached to PF/VF because it indicates that graceful\nshutdown of resources already happened. But there is a\nchance of all allocated MCAM entries not being freed by\nPF/VF. Hence free mcam entries even in case of detached LF.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:34Z"

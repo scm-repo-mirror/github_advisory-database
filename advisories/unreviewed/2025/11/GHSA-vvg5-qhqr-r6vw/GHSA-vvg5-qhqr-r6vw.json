@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvg5-qhqr-r6vw",
-  "modified": "2025-11-09T09:30:15Z",
+  "modified": "2025-11-13T18:31:01Z",
   "published": "2025-11-09T09:30:15Z",
   "aliases": [
     "CVE-2025-12917"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.679507"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.youtube.com/watch?v=3Me3wlH5cfU"
     },
     {
       "type": "WEB",
