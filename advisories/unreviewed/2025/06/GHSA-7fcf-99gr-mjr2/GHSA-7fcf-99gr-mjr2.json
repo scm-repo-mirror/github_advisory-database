@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fcf-99gr-mjr2",
-  "modified": "2025-06-18T12:30:43Z",
+  "modified": "2025-11-13T21:31:18Z",
   "published": "2025-06-18T12:30:43Z",
   "aliases": [
     "CVE-2022-50034"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: cdns3 fix use-after-free at workaround 2\n\nBUG: KFENCE: use-after-free read in __list_del_entry_valid+0x10/0xac\n\ncdns3_wa2_remove_old_request()\n{\n\t...\n\tkfree(priv_req->request.buf);\n\tcdns3_gadget_ep_free_request(&priv_ep->endpoint, &priv_req->request);\n\tlist_del_init(&priv_req->list);\n\t^^^ use after free\n\t...\n}\n\ncdns3_gadget_ep_free_request() free the space pointed by priv_req,\nbut priv_req is used in the following list_del_init().\n\nThis patch move list_del_init() before cdns3_gadget_ep_free_request().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:31Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhx5-crr2-8g8p",
-  "modified": "2025-06-18T12:30:42Z",
+  "modified": "2025-11-13T21:31:17Z",
   "published": "2025-06-18T12:30:42Z",
   "aliases": [
     "CVE-2022-50020"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: avoid resizing to a partial cluster size\n\nThis patch avoids an attempt to resize the filesystem to an\nunaligned cluster boundary.  An online resize to a size that is not\nintegral to cluster size results in the last iteration attempting to\ngrow the fs by a negative amount, which trips a BUG_ON and leaves the fs\nwith a corrupted in-memory superblock.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-1284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:30Z"

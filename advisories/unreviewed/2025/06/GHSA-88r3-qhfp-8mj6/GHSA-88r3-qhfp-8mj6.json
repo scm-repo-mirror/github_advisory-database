@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88r3-qhfp-8mj6",
-  "modified": "2025-06-18T12:30:42Z",
+  "modified": "2025-11-13T21:31:17Z",
   "published": "2025-06-18T12:30:42Z",
   "aliases": [
     "CVE-2022-50022"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrivers:md:fix a potential use-after-free bug\n\nIn line 2884, \"raid5_release_stripe(sh);\" drops the reference to sh and\nmay cause sh to be released. However, sh is subsequently used in lines\n2886 \"if (sh->batch_head && sh != sh->batch_head)\". This may result in an\nuse-after-free bug.\n\nIt can be fixed by moving \"raid5_release_stripe(sh);\" to the bottom of\nthe function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:30Z"

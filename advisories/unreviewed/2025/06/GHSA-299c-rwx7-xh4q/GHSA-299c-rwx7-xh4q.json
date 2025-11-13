@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-299c-rwx7-xh4q",
-  "modified": "2025-06-18T12:30:38Z",
+  "modified": "2025-11-13T21:31:17Z",
   "published": "2025-06-18T12:30:38Z",
   "aliases": [
     "CVE-2022-49971"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/pm: Fix a potential gpu_metrics_table memory leak\n\nMemory is allocated for gpu_metrics_table in\nsmu_v13_0_4_init_smc_tables(), but not freed in\nsmu_v13_0_4_fini_smc_tables(). This may cause memory leaks, fix it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:24Z"

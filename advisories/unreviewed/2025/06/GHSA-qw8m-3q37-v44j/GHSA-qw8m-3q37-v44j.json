@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qw8m-3q37-v44j",
-  "modified": "2025-06-18T12:30:44Z",
+  "modified": "2025-11-13T21:31:18Z",
   "published": "2025-06-18T12:30:44Z",
   "aliases": [
     "CVE-2022-50038"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/meson: Fix refcount bugs in meson_vpu_has_available_connectors()\n\nIn this function, there are two refcount leak bugs:\n(1) when breaking out of for_each_endpoint_of_node(), we need call\nthe of_node_put() for the 'ep';\n(2) we should call of_node_put() for the reference returned by\nof_graph_get_remote_port() when it is not used anymore.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:32Z"

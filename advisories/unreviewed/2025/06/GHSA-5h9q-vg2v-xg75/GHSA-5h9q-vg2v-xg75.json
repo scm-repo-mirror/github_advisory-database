@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h9q-vg2v-xg75",
-  "modified": "2025-06-18T12:30:38Z",
+  "modified": "2025-11-13T21:31:17Z",
   "published": "2025-06-18T12:30:38Z",
   "aliases": [
     "CVE-2022-49972"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxsk: Fix corrupted packets for XDP_SHARED_UMEM\n\nFix an issue in XDP_SHARED_UMEM mode together with aligned mode where\npackets are corrupted for the second and any further sockets bound to\nthe same umem. In other words, this does not affect the first socket\nbound to the umem. The culprit for this bug is that the initialization\nof the DMA addresses for the pre-populated xsk buffer pool entries was\nnot performed for any socket but the first one bound to the umem. Only\nthe linear array of DMA addresses was populated. Fix this by populating\nthe DMA addresses in the xsk buffer pool for every socket bound to the\nsame umem.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:24Z"

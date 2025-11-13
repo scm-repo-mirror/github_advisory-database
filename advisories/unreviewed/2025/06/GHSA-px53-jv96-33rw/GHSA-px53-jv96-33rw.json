@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px53-jv96-33rw",
-  "modified": "2025-06-18T12:30:43Z",
+  "modified": "2025-11-13T21:31:17Z",
   "published": "2025-06-18T12:30:43Z",
   "aliases": [
     "CVE-2022-50026"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhabanalabs/gaudi: fix shift out of bounds\n\nWhen validating NIC queues, queue offset calculation must be\nperformed only for NIC queues.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:30Z"
