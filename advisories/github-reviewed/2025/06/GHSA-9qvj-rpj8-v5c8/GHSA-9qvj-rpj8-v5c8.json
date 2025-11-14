@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qvj-rpj8-v5c8",
-  "modified": "2025-06-06T15:33:33Z",
+  "modified": "2025-11-14T16:17:00Z",
   "published": "2025-06-03T15:31:27Z",
   "aliases": [
     "CVE-2025-46548"
   ],
-  "summary": "Pekko Management may not properly apply authenticator when Basic Authentication enabled",
-  "details": "If you enable Basic Authentication in Pekko Management using the Java DSL, the authenticator may not be properly applied.\n\n\nUsers that rely on authentication instead of making sure the Management API ports are only available to trusted users are recommended to upgrade to version 1.1.1, which fixes this issue.",
+  "summary": "Pekko Management may not properly apply authenticator when Basic Authentication is enabled",
+  "details": "If you enable Basic Authentication in Pekko Management using the Java DSL, the authenticator may not be properly applied.\n\n\nUsers that rely on authentication instead of making sure the Management API ports are only available to trusted users are recommended to upgrade to version 1.1.1, which fixes this issue. Akka was affected by the same issue and has released the fix in version 1.6.1.",
   "severity": [
     {
       "type": "CVSS_V3",
