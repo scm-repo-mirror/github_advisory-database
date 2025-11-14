@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx5q-4m37-mp7p",
-  "modified": "2025-11-14T03:30:54Z",
+  "modified": "2025-11-14T15:30:36Z",
   "published": "2025-11-14T03:30:54Z",
   "aliases": [
     "CVE-2025-9479"
   ],
   "details": "Out of bounds read in V8 in Google Chrome prior to 133.0.6943.141 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-125"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-14T03:15:57Z"
