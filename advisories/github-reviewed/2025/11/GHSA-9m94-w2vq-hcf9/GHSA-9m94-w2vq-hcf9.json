@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m94-w2vq-hcf9",
-  "modified": "2025-11-07T18:12:14Z",
+  "modified": "2025-11-15T02:02:28Z",
   "published": "2025-11-06T23:35:24Z",
   "aliases": [
     "CVE-2025-64435"
@@ -41,6 +41,10 @@
       "url": "https://github.com/kubevirt/kubevirt/security/advisories/GHSA-9m94-w2vq-hcf9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64435"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/kubevirt/kubevirt/commit/9a6f4a3a707992038ef705da4cb3bba8c89d36ba"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-06T23:35:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-07T23:15:45Z"
   }
 }
