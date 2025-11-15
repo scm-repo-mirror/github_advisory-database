@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frmv-pr5f-9mcr",
-  "modified": "2025-11-05T19:55:43Z",
+  "modified": "2025-11-15T02:10:38Z",
   "published": "2025-11-05T15:31:07Z",
   "aliases": [
     "CVE-2025-64459"
@@ -105,6 +105,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/g/django-announce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://shivasurya.me/security/django/2025/11/07/django-sql-injection-CVE-2025-64459.html"
     },
     {
       "type": "WEB",
