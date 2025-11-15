@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv2r-r8mp-pg48",
-  "modified": "2025-11-06T23:48:12Z",
+  "modified": "2025-11-15T02:09:02Z",
   "published": "2025-11-06T23:48:12Z",
   "aliases": [
     "CVE-2025-64494"
@@ -44,6 +44,10 @@
       "url": "https://github.com/charmbracelet/soft-serve/security/advisories/GHSA-fv2r-r8mp-pg48"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64494"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/charmbracelet/soft-serve/commit/d9639320b8d0ccd76fe6836a042c042b0ebde549"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-06T23:48:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-08T02:15:35Z"
   }
 }
