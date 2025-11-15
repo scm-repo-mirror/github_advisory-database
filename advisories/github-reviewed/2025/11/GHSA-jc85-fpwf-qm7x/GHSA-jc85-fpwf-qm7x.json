@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc85-fpwf-qm7x",
-  "modified": "2025-11-10T19:06:03Z",
+  "modified": "2025-11-15T03:15:08Z",
   "published": "2025-11-05T03:30:23Z",
   "aliases": [
     "CVE-2025-12735"
@@ -71,6 +71,10 @@
       "url": "https://github.com/jorenbroekema/expr-eval/commit/1d71bb2ca8f98df8de00e9cc4de8fdd468a7ad43"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-jc85-fpwf-qm7x"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/jorenbroekema/expr-eval"
     },
@@ -81,6 +85,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/silentmatt/expr-eval"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.cert.org/vuls/id/263614"
     },
     {
       "type": "WEB",
