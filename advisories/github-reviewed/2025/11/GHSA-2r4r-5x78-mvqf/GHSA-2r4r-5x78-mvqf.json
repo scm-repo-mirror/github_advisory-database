@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2r4r-5x78-mvqf",
-  "modified": "2025-11-17T13:47:18Z",
+  "modified": "2025-11-17T21:41:52Z",
   "published": "2025-11-06T23:36:39Z",
   "aliases": [
     "CVE-2025-64437"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/kubevirt/kubevirt"
+        "name": "kubevirt.io/kubevirt"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/kubevirt/kubevirt"
+        "name": "kubevirt.io/kubevirt"
       },
       "ranges": [
         {
@@ -47,7 +47,7 @@
               "introduced": "1.6.0-alpha.0"
             },
             {
-              "fixed": "1.6.0-beta.0.0.20250801202148-3ce9f41c54d0"
+              "fixed": "1.6.1"
             }
           ]
         }
