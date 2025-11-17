@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gf93-xccm-5g6j",
-  "modified": "2025-11-06T15:30:15Z",
+  "modified": "2025-11-17T21:36:00Z",
   "published": "2025-11-04T15:43:52Z",
   "aliases": [
     "CVE-2025-64171"
