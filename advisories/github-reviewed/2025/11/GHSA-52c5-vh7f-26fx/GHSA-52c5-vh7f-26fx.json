@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52c5-vh7f-26fx",
-  "modified": "2025-11-15T02:10:59Z",
+  "modified": "2025-11-17T17:31:31Z",
   "published": "2025-11-06T15:44:35Z",
   "aliases": [
     "CVE-2025-64501"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/etaminstudio/prosemirror_to_html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/prosemirror_to_html/CVE-2025-64501.yml"
     }
   ],
   "database_specific": {
