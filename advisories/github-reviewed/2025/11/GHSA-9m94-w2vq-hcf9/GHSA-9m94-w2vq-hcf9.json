@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m94-w2vq-hcf9",
-  "modified": "2025-11-15T02:02:28Z",
+  "modified": "2025-11-17T21:43:42Z",
   "published": "2025-11-06T23:35:24Z",
   "aliases": [
     "CVE-2025-64435"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/kubevirt/kubevirt"
+        "name": "kubevirt.io/kubevirt"
       },
       "ranges": [
         {
