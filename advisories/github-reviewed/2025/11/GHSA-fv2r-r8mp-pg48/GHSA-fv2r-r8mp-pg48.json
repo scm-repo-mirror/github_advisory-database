@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv2r-r8mp-pg48",
-  "modified": "2025-11-15T02:09:02Z",
+  "modified": "2025-11-17T21:49:09Z",
   "published": "2025-11-06T23:48:12Z",
   "aliases": [
     "CVE-2025-64494"
