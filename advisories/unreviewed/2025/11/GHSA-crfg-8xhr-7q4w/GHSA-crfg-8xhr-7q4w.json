@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crfg-8xhr-7q4w",
-  "modified": "2025-11-13T00:30:16Z",
+  "modified": "2025-11-17T09:30:26Z",
   "published": "2025-11-12T18:31:25Z",
   "aliases": [
     "CVE-2025-59088"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:21142"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21448"
     },
     {
       "type": "WEB",
