@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5qr-9w5g-63j5",
-  "modified": "2025-07-10T09:32:30Z",
+  "modified": "2025-11-18T15:30:40Z",
   "published": "2025-07-10T09:32:30Z",
   "aliases": [
     "CVE-2025-38316"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mt76: mt7996: avoid NULL pointer dereference in mt7996_set_monitor()\n\nThe function mt7996_set_monitor() dereferences phy before\nthe NULL sanity check.\n\nFix this to avoid NULL pointer dereference by moving the\ndereference after the check.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T08:15:30Z"

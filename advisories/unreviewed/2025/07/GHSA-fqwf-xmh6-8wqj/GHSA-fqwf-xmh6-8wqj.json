@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqwf-xmh6-8wqj",
-  "modified": "2025-07-10T09:32:30Z",
+  "modified": "2025-11-18T15:30:40Z",
   "published": "2025-07-10T09:32:30Z",
   "aliases": [
     "CVE-2025-38308"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: Intel: avs: Fix possible null-ptr-deref when initing hw\n\nSearch result of avs_dai_find_path_template() shall be verified before\nbeing used. As 'template' is already known when\navs_hw_constraints_init() is fired, drop the search entirely.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T08:15:29Z"

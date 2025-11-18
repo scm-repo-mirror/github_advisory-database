@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f37-h5g7-77g4",
-  "modified": "2025-07-10T09:32:30Z",
+  "modified": "2025-11-18T15:30:40Z",
   "published": "2025-07-10T09:32:30Z",
   "aliases": [
     "CVE-2025-38309"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/xe/vm: move xe_svm_init() earlier\n\nIn xe_vm_close_and_put() we need to be able to call xe_svm_fini(),\nhowever during vm creation we can call this on the error path, before\nhaving actually initialised the svm state, leading to various splats\nfollowed by a fatal NPD.\n\n(cherry picked from commit 4f296d77cf49fcb5f90b4674123ad7f3a0676165)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T08:15:29Z"
