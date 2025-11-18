@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jx7-g6pm-43wc",
-  "modified": "2025-08-16T12:30:33Z",
+  "modified": "2025-11-18T18:32:49Z",
   "published": "2025-08-16T12:30:33Z",
   "aliases": [
     "CVE-2025-38545"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ethernet: ti: am65-cpsw-nuss: Fix skb size by accounting for skb_shared_info\n\nWhile transitioning from netdev_alloc_ip_align() to build_skb(), memory\nfor the \"skb_shared_info\" member of an \"skb\" was not allocated. Fix this\nby allocating \"PAGE_SIZE\" as the skb length, accounting for the packet\nlength, headroom and tailroom, thereby including the required memory space\nfor skb_shared_info.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-16T12:15:30Z"

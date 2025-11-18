@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2x9-qg6q-8wg7",
-  "modified": "2025-08-16T15:30:30Z",
+  "modified": "2025-11-18T18:32:49Z",
   "published": "2025-08-16T15:30:30Z",
   "aliases": [
     "CVE-2023-4515"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: validate command request size\n\nIn commit 2b9b8f3b68ed (\"ksmbd: validate command payload size\"), except\nfor SMB2_OPLOCK_BREAK_HE command, the request size of other commands\nis not checked, it's not expected. Fix it by add check for request\nsize of other commands.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-16T14:15:27Z"

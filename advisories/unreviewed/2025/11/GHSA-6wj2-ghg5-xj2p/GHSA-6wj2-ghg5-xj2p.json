@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6wj2-ghg5-xj2p",
+  "modified": "2025-11-18T18:32:55Z",
+  "published": "2025-11-18T18:32:54Z",
+  "aliases": [
+    "CVE-2025-63694"
+  ],
+  "details": "DzzOffice v2.3.7 and before is vulnerable to SQL Injection in explorer/groupmanage.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63694"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zyx0814/dzzoffice/issues/364"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Yohane-Mashiro/dzzoffice_sql"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-18T18:16:13Z"
+  }
+}

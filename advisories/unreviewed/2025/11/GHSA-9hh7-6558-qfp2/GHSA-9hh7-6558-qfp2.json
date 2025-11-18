@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9hh7-6558-qfp2",
+  "modified": "2025-11-18T18:32:52Z",
+  "published": "2025-11-18T18:32:52Z",
+  "aliases": [
+    "CVE-2025-55074"
+  ],
+  "details": "Mattermost versions 10.11.x <= 10.11.3, 10.5.x <= 10.5.11 fail to enforce access permissions on the Agents plugin which allows other users to determine when users had read channels via channel member objects",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-18T16:15:44Z"
+  }
+}

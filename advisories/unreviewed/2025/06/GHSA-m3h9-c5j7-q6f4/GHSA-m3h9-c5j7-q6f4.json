@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3h9-c5j7-q6f4",
-  "modified": "2025-06-18T12:30:50Z",
+  "modified": "2025-11-18T18:32:46Z",
   "published": "2025-06-18T12:30:49Z",
   "aliases": [
     "CVE-2022-50132"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: cdns3: change place of 'priv_ep' assignment in cdns3_gadget_ep_dequeue(), cdns3_gadget_ep_enable()\n\nIf 'ep' is NULL, result of ep_to_cdns3_ep(ep) is invalid pointer\nand its dereference with priv_ep->cdns3_dev may cause panic.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:43Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcg7-5fjh-vh6m",
-  "modified": "2025-06-18T12:30:49Z",
+  "modified": "2025-11-18T18:32:45Z",
   "published": "2025-06-18T12:30:49Z",
   "aliases": [
     "CVE-2022-50119"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nrpmsg: Fix possible refcount leak in rpmsg_register_device_override()\n\nrpmsg_register_device_override need to call put_device to free vch when\ndriver_set_override fails.\n\nFix this by adding a put_device() to the error path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:41Z"

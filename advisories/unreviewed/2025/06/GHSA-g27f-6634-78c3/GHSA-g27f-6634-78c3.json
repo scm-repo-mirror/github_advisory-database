@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g27f-6634-78c3",
-  "modified": "2025-06-18T12:30:50Z",
+  "modified": "2025-11-18T18:32:46Z",
   "published": "2025-06-18T12:30:49Z",
   "aliases": [
     "CVE-2022-50127"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/rxe: Fix error unwind in rxe_create_qp()\n\nIn the function rxe_create_qp(), rxe_qp_from_init() is called to\ninitialize qp, internally things like the spin locks are not setup until\nrxe_qp_init_req().\n\nIf an error occures before this point then the unwind will call\nrxe_cleanup() and eventually to rxe_qp_do_cleanup()/rxe_cleanup_task()\nwhich will oops when trying to access the uninitialized spinlock.\n\nMove the spinlock initializations earlier before any failures.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:42Z"

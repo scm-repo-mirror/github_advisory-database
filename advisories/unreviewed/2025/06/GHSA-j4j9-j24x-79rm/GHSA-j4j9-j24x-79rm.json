@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4j9-j24x-79rm",
-  "modified": "2025-06-18T12:30:50Z",
+  "modified": "2025-11-18T18:32:46Z",
   "published": "2025-06-18T12:30:50Z",
   "aliases": [
     "CVE-2022-50134"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/hfi1: fix potential memory leak in setup_base_ctxt()\n\nsetup_base_ctxt() allocates a memory chunk for uctxt->groups with\nhfi1_alloc_ctxt_rcv_groups(). When init_user_ctxt() fails, uctxt->groups\nis not released, which will lead to a memory leak.\n\nWe should release the uctxt->groups with hfi1_free_ctxt_rcv_groups()\nwhen init_user_ctxt() fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:43Z"

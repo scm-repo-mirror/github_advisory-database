@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4568-46j5-889r",
+  "modified": "2025-11-18T18:32:54Z",
+  "published": "2025-11-18T18:32:54Z",
+  "aliases": [
+    "CVE-2025-63513"
+  ],
+  "details": "kishan0725 Hospital Management System v4 has an Insecure Direct Object Reference (IDOR) vulnerability in the appointment cancellation functionality.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63513"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kishan0725/Hospital-Management-System/issues/55"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NicatAliyevh/Zero-Days/blob/main/Hospital_Management_System_IDOR.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-18T17:16:10Z"
+  }
+}

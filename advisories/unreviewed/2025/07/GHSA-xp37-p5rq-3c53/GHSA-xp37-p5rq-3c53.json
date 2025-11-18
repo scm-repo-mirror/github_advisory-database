@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp37-p5rq-3c53",
-  "modified": "2025-07-04T15:31:09Z",
+  "modified": "2025-11-18T18:32:47Z",
   "published": "2025-07-04T15:31:09Z",
   "aliases": [
     "CVE-2025-38208"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: add NULL check in automount_fullpath\n\npage is checked for null in __build_path_from_dentry_optional_prefix\nwhen tcon->origin_fullpath is not set. However, the check is missing when\nit is set.\nAdd a check to prevent a potential NULL pointer dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-04T14:15:28Z"

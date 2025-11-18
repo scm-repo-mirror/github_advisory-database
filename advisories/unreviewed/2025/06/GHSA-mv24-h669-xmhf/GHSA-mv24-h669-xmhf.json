@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mv24-h669-xmhf",
-  "modified": "2025-06-18T12:30:49Z",
+  "modified": "2025-11-18T18:32:46Z",
   "published": "2025-06-18T12:30:49Z",
   "aliases": [
     "CVE-2022-50130"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nstaging: fbtft: core: set smem_len before fb_deferred_io_init call\n\nThe fbtft_framebuffer_alloc() calls fb_deferred_io_init() before\ninitializing info->fix.smem_len.  It is set to zero by the\nframebuffer_alloc() function.  It will trigger a WARN_ON() at the\nstart of fb_deferred_io_init() and the function will not do anything.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:42Z"

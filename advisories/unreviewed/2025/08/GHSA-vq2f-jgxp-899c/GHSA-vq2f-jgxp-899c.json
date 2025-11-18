@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq2f-jgxp-899c",
-  "modified": "2025-08-16T12:30:33Z",
+  "modified": "2025-11-18T18:32:48Z",
   "published": "2025-08-16T12:30:33Z",
   "aliases": [
     "CVE-2025-38541"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mt76: mt7925: Fix null-ptr-deref in mt7925_thermal_init()\n\ndevm_kasprintf() returns NULL on error. Currently, mt7925_thermal_init()\ndoes not check for this case, which results in a NULL pointer\ndereference.\n\nAdd NULL check after devm_kasprintf() to prevent this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-16T12:15:29Z"
