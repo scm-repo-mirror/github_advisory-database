@@ -1,14 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xcv-9j6c-2fmc",
-  "modified": "2025-11-18T21:32:31Z",
+  "modified": "2025-11-18T22:08:39Z",
   "published": "2025-11-18T21:32:31Z",
   "aliases": [
     "CVE-2025-60455"
   ],
+  "summary": "Modular Max Serve has Unsafe Deserialization vulnerability",
   "details": "Unsafe Deserialization vulnerability in Modular Max Serve before 25.6, specifically when the \"--experimental-enable-kvcache-agent\" feature is used allowing attackers to execute arbitrary code.",
-  "severity": [],
-  "affected": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "modular"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "25.6.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -31,6 +57,10 @@
       "url": "https://github.com/modular/modular/commit/ee9c4ab02345dd30bed8b79771b6909ff1b930a1"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/modular/modular"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/modular/modular/blame/main/max/serve/kvcache_agent/kvcache_agent.py#L220"
     },
@@ -40,10 +70,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-11-18T22:08:39Z",
     "nvd_published_at": "2025-11-18T19:15:49Z"
   }
 }
