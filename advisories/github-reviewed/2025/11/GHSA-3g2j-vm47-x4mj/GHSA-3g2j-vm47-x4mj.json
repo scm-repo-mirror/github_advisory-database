@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3g2j-vm47-x4mj",
-  "modified": "2025-11-13T23:01:44Z",
+  "modified": "2025-11-18T18:40:12Z",
   "published": "2025-11-13T23:01:44Z",
   "aliases": [],
   "summary": "LXD vulnerable to a local privilege escalation through custom storage volumes",
@@ -16,7 +16,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "lxd"
+        "name": "github.com/canonical/lxd"
       },
       "ranges": [
         {
@@ -26,7 +26,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "6.18.0"
+              "fixed": "0.0.0-20251110144034-698854d0164f"
             }
           ]
         }
