@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfvg-pvv5-35g8",
-  "modified": "2025-06-18T12:30:57Z",
+  "modified": "2025-11-19T15:31:31Z",
   "published": "2025-06-18T12:30:56Z",
   "aliases": [
     "CVE-2022-50226"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: ccp - Use kzalloc for sev ioctl interfaces to prevent kernel memory leak\n\nFor some sev ioctl interfaces, input may be passed that is less than or\nequal to SEV_FW_BLOB_MAX_SIZE, but larger than the data that PSP\nfirmware returns. In this case, kmalloc will allocate memory that is the\nsize of the input rather than the size of the data. Since PSP firmware\ndoesn't fully overwrite the buffer, the sev ioctl interfaces with the\nissue may return uninitialized slab memory.\n\nCurrently, all of the ioctl interfaces in the ccp driver are safe, but\nto prevent future problems, change all ioctl interfaces that allocate\nmemory with kmalloc to use kzalloc and memset the data buffer to zero\nin sev_ioctl_do_platform_status.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:53Z"

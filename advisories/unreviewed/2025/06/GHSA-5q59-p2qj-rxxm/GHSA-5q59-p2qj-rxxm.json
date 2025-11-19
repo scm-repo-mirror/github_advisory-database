@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5q59-p2qj-rxxm",
-  "modified": "2025-06-18T12:30:54Z",
+  "modified": "2025-11-19T15:31:29Z",
   "published": "2025-06-18T12:30:54Z",
   "aliases": [
     "CVE-2022-50190"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: Fix simplification of devm_spi_register_controller\n\nThis reverts commit 59ebbe40fb51 (\"spi: simplify\ndevm_spi_register_controller\").\n\nIf devm_add_action() fails in devm_add_action_or_reset(),\ndevm_spi_unregister() will be called, it decreases the\nrefcount of 'ctlr->dev' to 0, then it will cause uaf in\nthe drivers that calling spi_put_controller() in error path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:49Z"

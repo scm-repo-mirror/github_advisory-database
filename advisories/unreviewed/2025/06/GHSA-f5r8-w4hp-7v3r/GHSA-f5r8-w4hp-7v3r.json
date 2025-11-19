@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5r8-w4hp-7v3r",
-  "modified": "2025-06-18T12:30:56Z",
+  "modified": "2025-11-19T15:31:31Z",
   "published": "2025-06-18T12:30:56Z",
   "aliases": [
     "CVE-2022-50217"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfuse: write inode in fuse_release()\n\nA race between write(2) and close(2) allows pages to be dirtied after\nfuse_flush -> write_inode_now().  If these pages are not flushed from\nfuse_release(), then there might not be a writable open file later.  So any\nremaining dirty pages must be written back before the file is released.\n\nThis is a partial revert of the blamed commit.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:52Z"

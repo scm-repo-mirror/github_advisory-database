@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26mj-55wj-fjpq",
-  "modified": "2025-06-18T12:30:55Z",
+  "modified": "2025-11-19T15:31:30Z",
   "published": "2025-06-18T12:30:55Z",
   "aliases": [
     "CVE-2022-50200"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nselinux: Add boundary check in put_entry()\n\nJust like next_entry(), boundary check is necessary to prevent memory\nout-of-bound access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:50Z"

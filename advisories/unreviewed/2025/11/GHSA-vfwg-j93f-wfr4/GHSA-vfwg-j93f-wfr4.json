@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfwg-j93f-wfr4",
-  "modified": "2025-11-18T18:32:54Z",
+  "modified": "2025-11-19T15:31:38Z",
   "published": "2025-11-18T18:32:54Z",
   "aliases": [
     "CVE-2025-56526"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/HanTul/Kotaemon-CVE-2025-56526-56527-disclosure"
+    },
+    {
+      "type": "WEB",
+      "url": "https://harvest-sink-590.notion.site/Stored-XSS-via-Unsanitized-PDF-Content-Rendering-and-Plaintext-Credential-Exposure-in-LocalStorage-236770c3fe1e80f6a1aef381fb1c8f73"
     },
     {
       "type": "WEB",

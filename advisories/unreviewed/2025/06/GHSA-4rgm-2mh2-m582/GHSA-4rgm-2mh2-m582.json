@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rgm-2mh2-m582",
-  "modified": "2025-06-18T12:30:55Z",
+  "modified": "2025-11-19T15:31:30Z",
   "published": "2025-06-18T12:30:54Z",
   "aliases": [
     "CVE-2022-50199"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nARM: OMAP2+: Fix refcount leak in omapdss_init_of\n\nomapdss_find_dss_of_node() calls of_find_compatible_node() to get device\nnode. of_find_compatible_node() returns a node pointer with refcount\nincremented, we should use of_node_put() on it when done.\nAdd missing of_node_put() in later error path and normal path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:50Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7p63-w6x9-6gr7",
-  "modified": "2025-11-18T20:38:31Z",
+  "modified": "2025-11-19T15:32:28Z",
   "published": "2025-11-18T18:32:51Z",
   "aliases": [
     "CVE-2025-12383"
@@ -25,13 +25,16 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.45"
             },
             {
               "fixed": "2.46"
             }
           ]
         }
+      ],
+      "versions": [
+        "2.45"
       ]
     },
     {
@@ -44,13 +47,16 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "3.0.0-M1"
+              "introduced": "3.0.16"
             },
             {
               "fixed": "3.0.17"
             }
           ]
         }
+      ],
+      "versions": [
+        "3.0.16"
       ]
     },
     {
@@ -63,35 +69,16 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "3.1.0-M1"
+              "introduced": "3.1.9"
             },
             {
               "fixed": "3.1.10"
             }
           ]
         }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.glassfish.jersey.core:jersey-client"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.0.0-M1"
-            },
-            {
-              "fixed": "4.0.0-M2"
-            }
-          ]
-        }
       ],
       "versions": [
-        "4.0.0-M1"
+        "3.1.9"
       ]
     }
   ],
@@ -107,6 +94,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/eclipse-ee4j/jersey/pull/5794"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/eclipse-ee4j/jersey/commit/425bc883d8d623ef8d3c448fafd36729f7741bcb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/eclipse-ee4j/jersey/commit/b2c7ba6d388cb9722f39073d7e82aa818fec49d5"
     },
     {
       "type": "WEB",

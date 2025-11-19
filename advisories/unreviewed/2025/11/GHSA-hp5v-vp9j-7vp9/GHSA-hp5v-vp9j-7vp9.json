@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp5v-vp9j-7vp9",
-  "modified": "2025-11-14T18:31:39Z",
+  "modified": "2025-11-19T15:31:33Z",
   "published": "2025-11-14T18:31:39Z",
   "aliases": [
     "CVE-2025-64446"
@@ -25,11 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/nu11secur1ty/CVE-mitre/tree/main/2025/CVE-2025-64446/8.0.0"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/watchtowrlabs/watchTowr-vs-Fortiweb-AuthBypass"
     },
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-64446"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.patreon.com/posts/cve-2025-64446-8-143791801"
     }
   ],
   "database_specific": {

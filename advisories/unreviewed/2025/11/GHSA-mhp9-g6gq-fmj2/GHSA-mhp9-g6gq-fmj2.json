@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhp9-g6gq-fmj2",
-  "modified": "2025-11-19T00:31:24Z",
+  "modified": "2025-11-19T15:31:38Z",
   "published": "2025-11-19T00:31:24Z",
   "aliases": [
     "CVE-2025-63216"
   ],
   "details": "The Itel DAB Gateway (IDGat build c041640a) is vulnerable to Authentication Bypass due to improper JWT validation across devices. Attackers can reuse a valid JWT token obtained from one device to authenticate and gain administrative access to any other device running the same firmware, even if the passwords and networks are different. This allows full compromise of affected devices.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-287"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-18T22:15:51Z"

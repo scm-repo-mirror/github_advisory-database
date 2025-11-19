@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvvg-4vj4-874r",
-  "modified": "2025-11-14T18:31:34Z",
+  "modified": "2025-11-19T15:31:32Z",
   "published": "2025-11-13T21:31:19Z",
   "aliases": [
     "CVE-2025-63406"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63406"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WinDyAlphA/CVE-2025-63406-PoC"
     },
     {
       "type": "WEB",

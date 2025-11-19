@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j95h-gr5v-mg6j",
-  "modified": "2025-06-18T12:30:56Z",
+  "modified": "2025-11-19T15:31:30Z",
   "published": "2025-06-18T12:30:55Z",
   "aliases": [
     "CVE-2022-50213"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_tables: do not allow SET_ID to refer to another table\n\nWhen doing lookups for sets on the same batch by using its ID, a set from a\ndifferent table can be used.\n\nThen, when the table is removed, a reference to the set may be kept after\nthe set is freed, leading to a potential use-after-free.\n\nWhen looking for sets by ID, use the table that was used for the lookup by\nname, and only return sets belonging to that same table.\n\nThis fixes CVE-2022-2586, also reported as ZDI-CAN-17470.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:52Z"

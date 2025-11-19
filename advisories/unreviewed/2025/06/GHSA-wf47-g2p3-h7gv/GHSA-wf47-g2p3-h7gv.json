@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf47-g2p3-h7gv",
-  "modified": "2025-06-18T12:30:55Z",
+  "modified": "2025-11-19T15:31:30Z",
   "published": "2025-06-18T12:30:54Z",
   "aliases": [
     "CVE-2022-50197"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncpufreq: zynq: Fix refcount leak in zynq_get_revision\n\nof_find_compatible_node() returns a node pointer with refcount\nincremented, we should use of_node_put() on it when done.\nAdd missing of_node_put() to avoid refcount leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:50Z"

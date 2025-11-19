@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhpm-97gw-pcv3",
-  "modified": "2025-06-18T12:30:55Z",
+  "modified": "2025-11-19T15:31:30Z",
   "published": "2025-06-18T12:30:55Z",
   "aliases": [
     "CVE-2022-50201"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nselinux: fix memleak in security_read_state_kernel()\n\nIn this function, it directly returns the result of __security_read_policy\nwithout freeing the allocated memory in *data, cause memory leak issue,\nso free the memory if __security_read_policy failed.\n\n[PM: subject line tweak]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:50Z"

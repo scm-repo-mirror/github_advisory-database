@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wg36-23g4-v8g6",
-  "modified": "2025-06-18T12:30:57Z",
+  "modified": "2025-11-19T15:31:31Z",
   "published": "2025-06-18T12:30:57Z",
   "aliases": [
     "CVE-2022-50221"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/fb-helper: Fix out-of-bounds access\n\nClip memory range to screen-buffer size to avoid out-of-bounds access\nin fbdev deferred I/O's damage handling.\n\nFbdev's deferred I/O can only track pages. From the range of pages, the\ndamage handler computes the clipping rectangle for the display update.\nIf the fbdev screen buffer ends near the beginning of a page, that page\ncould contain more scanlines. The damage handler would then track these\nnon-existing scanlines as dirty and provoke an out-of-bounds access\nduring the screen update. Hence, clip the maximum memory range to the\nsize of the screen buffer.\n\nWhile at it, rename the variables min/max to min_off/max_off in\ndrm_fb_helper_deferred_io(). This avoids confusion with the macros of\nthe same name.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:53Z"

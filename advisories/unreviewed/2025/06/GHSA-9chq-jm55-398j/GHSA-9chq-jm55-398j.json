@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9chq-jm55-398j",
-  "modified": "2025-06-18T12:30:48Z",
+  "modified": "2025-11-19T15:31:29Z",
   "published": "2025-06-18T12:30:48Z",
   "aliases": [
     "CVE-2022-50109"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvideo: fbdev: amba-clcd: Fix refcount leak bugs\n\nIn clcdfb_of_init_display(), we should call of_node_put() for the\nreferences returned by of_graph_get_next_endpoint() and\nof_graph_get_remote_port_parent() which have increased the refcount.\n\nBesides, we should call of_node_put() both in fail path or when\nthe references are not used anymore.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:40Z"
