@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7r8-8p5c-h4xw",
-  "modified": "2025-11-18T17:42:53Z",
+  "modified": "2025-11-19T14:22:45Z",
   "published": "2025-11-18T17:42:53Z",
   "aliases": [
     "CVE-2025-54990"
@@ -41,6 +41,10 @@
       "url": "https://github.com/xwikisas/application-admintools/security/advisories/GHSA-v7r8-8p5c-h4xw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54990"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/xwikisas/application-admintools"
     }
@@ -52,6 +56,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-18T17:42:53Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-18T23:15:48Z"
   }
 }

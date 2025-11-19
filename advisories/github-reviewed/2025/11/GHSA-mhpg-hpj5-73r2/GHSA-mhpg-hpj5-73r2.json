@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhpg-hpj5-73r2",
-  "modified": "2025-11-18T21:56:20Z",
+  "modified": "2025-11-19T14:23:33Z",
   "published": "2025-11-18T18:32:53Z",
   "aliases": [
     "CVE-2025-13083"
@@ -10,8 +10,12 @@
   "details": "Use of Web Browser Cache Containing Sensitive Information vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Drupal core: from 8.0.0 before 10.4.9, from 10.5.0 before 10.5.6, from 11.0.0 before 11.1.9, from 11.2.0 before 11.2.8.",
   "severity": [
     {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    },
+    {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
