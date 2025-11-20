@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29w5-38m7-2w8p",
-  "modified": "2025-11-11T18:30:21Z",
+  "modified": "2025-11-20T21:30:31Z",
   "published": "2025-11-11T18:30:20Z",
   "aliases": [
     "CVE-2025-59512"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-59512-detection-script-eop-vulnerability-affecting-ceip-by-microsoft"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-59512-mitigation-script-eop-vulnerability-affecting-ceip-by-microsoft"
     }
   ],
   "database_specific": {

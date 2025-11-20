@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7958-2fhp-vvxf",
-  "modified": "2025-07-03T09:30:34Z",
+  "modified": "2025-11-20T21:30:30Z",
   "published": "2025-07-03T09:30:34Z",
   "aliases": [
     "CVE-2025-38156"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mt76: mt7996: Fix null-ptr-deref in mt7996_mmio_wed_init()\n\ndevm_ioremap() returns NULL on error. Currently, mt7996_mmio_wed_init()\ndoes not check for this case, which results in a NULL pointer\ndereference.\n\nPrevent null pointer dereference in mt7996_mmio_wed_init()",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:30Z"
