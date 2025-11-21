@@ -8,6 +8,10 @@ on:
       - "advisories/**"
   workflow_dispatch:
 
+permissions:
+  contents: write        # Required to create and push branches
+  pull-requests: write   # Required to edit PR base branch
+
 jobs:
   ensure-base-is-staging:
     runs-on: ubuntu-latest
