@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqm9-qqwf-gq9r",
-  "modified": "2025-11-03T21:33:41Z",
+  "modified": "2025-11-21T12:32:23Z",
   "published": "2025-04-23T21:30:36Z",
   "aliases": [
     "CVE-2025-46397"
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-120",
       "CWE-121"
     ],
     "severity": "HIGH",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62rm-vcwg-chv2",
-  "modified": "2025-06-16T12:30:25Z",
+  "modified": "2025-11-21T12:32:23Z",
   "published": "2025-06-16T12:30:25Z",
   "aliases": [
     "CVE-2025-25265"
