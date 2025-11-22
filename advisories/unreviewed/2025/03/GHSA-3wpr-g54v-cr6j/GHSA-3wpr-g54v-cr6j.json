@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wpr-g54v-cr6j",
-  "modified": "2025-03-23T18:30:28Z",
+  "modified": "2025-11-22T18:30:16Z",
   "published": "2025-03-23T18:30:28Z",
   "aliases": [
     "CVE-2025-2655"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.520017"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.696635"
     },
     {
       "type": "WEB",
