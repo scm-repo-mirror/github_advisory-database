@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m494-w24q-6f7w",
-  "modified": "2025-11-05T17:26:14Z",
+  "modified": "2025-11-24T17:38:55Z",
   "published": "2025-10-14T18:30:35Z",
   "aliases": [
     "CVE-2025-59250"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0.2.0-SNAPSHOT.jre11-preview"
+              "introduced": "8.3.0.jre11-preview"
             },
             {
               "fixed": "10.2.4.jre11"
@@ -179,12 +179,20 @@
       "url": "https://github.com/microsoft/mssql-jdbc/pull/2807"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/microsoft/mssql-jdbc/commit/9732e1bbc6ec44166fda2cddab31ce1c86c873dd#diff-45367b99a1951943bfecfc7765e80df687967aa56286a5b2e039f77cd9a0e118"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/microsoft/mssql-jdbc"
     },
     {
       "type": "WEB",
       "url": "https://github.com/microsoft/mssql-jdbc/blob/main/CHANGELOG.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://learn.microsoft.com/en-us/sql/connect/jdbc/microsoft-jdbc-driver-for-sql-server-support-matrix"
     },
     {
       "type": "WEB",
