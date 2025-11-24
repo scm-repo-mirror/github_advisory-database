@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqg8-m35q-jh7j",
-  "modified": "2025-11-24T15:30:29Z",
+  "modified": "2025-11-24T18:31:11Z",
   "published": "2025-11-24T15:30:29Z",
   "aliases": [
     "CVE-2025-65998"
   ],
   "details": "Apache Syncope can be configured to store the user password values in the internal database with AES encryption, though this is not the default option.\n\nWhen AES is configured, the default key value, hard-coded in the source code, is always used. This allows a malicious attacker, once obtained access to the internal database content, to reconstruct the original cleartext password values.\nThis is not affecting encrypted plain attributes, whose values are also stored using AES encryption.\n\nUsers are recommended to upgrade to version 3.0.15 / 4.0.3, which fix this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-321"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-24T14:15:48Z"

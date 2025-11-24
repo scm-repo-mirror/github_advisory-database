@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vgq7-9r5r-j9v3",
+  "modified": "2025-11-24T18:31:12Z",
+  "published": "2025-11-24T18:31:12Z",
+  "aliases": [
+    "CVE-2025-60632"
+  ],
+  "details": "An issue was discovered in Free5GC v4.0.0 and v4.0.1 allowing an attacker to cause a denial of service via crafted POST request to the Npcf_BDTPolicyControl API.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60632"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/free5gc/free5gc/issues/705"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/free5gc/free5gc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-24T16:15:49Z"
+  }
+}

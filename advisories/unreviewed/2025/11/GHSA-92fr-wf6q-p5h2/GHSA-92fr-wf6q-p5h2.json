@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92fr-wf6q-p5h2",
-  "modified": "2025-11-24T15:30:28Z",
+  "modified": "2025-11-24T18:31:10Z",
   "published": "2025-11-24T15:30:28Z",
   "aliases": [
     "CVE-2025-12628"
   ],
   "details": "The WP 2FA WordPress plugin does not generate backup codes with enough entropy, which could allow attackers to bypass the second factor by brute forcing them",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-24T13:16:01Z"

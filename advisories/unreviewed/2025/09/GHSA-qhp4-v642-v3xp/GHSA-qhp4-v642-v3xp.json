@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhp4-v642-v3xp",
-  "modified": "2025-09-15T15:31:21Z",
+  "modified": "2025-11-24T18:31:08Z",
   "published": "2025-09-15T15:31:21Z",
   "aliases": [
     "CVE-2022-50234"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring/af_unix: defer registered files gc to io_uring release\n\nInstead of putting io_uring's registered files in unix_gc() we want it\nto be done by io_uring itself. The trick here is to consider io_uring\nregistered files for cycle detection but not actually putting them down.\nBecause io_uring can't register other ring instances, this will remove\nall refs to the ring file triggering the ->release path and clean up\nwith io_ring_ctx_free().\n\n[axboe: add kerneldoc comment to skb, fold in skb leak fix]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T14:15:33Z"

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3j9f-7w24-pcqg",
+  "modified": "2025-11-24T18:31:12Z",
+  "published": "2025-11-24T18:31:12Z",
+  "aliases": [
+    "CVE-2025-60633"
+  ],
+  "details": "An issue was discovered in Free5GC v4.0.0 and v4.0.1 allowing an attacker to cause a denial of service via the Nudm_SubscriberDataManagement API.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60633"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/free5gc/free5gc/issues/700"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/free5gc/free5gc/issues/701"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/free5gc/free5gc/issues/702"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/free5gc/free5gc/issues/703"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/free5gc/free5gc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-11-24T16:15:50Z"
+  }
+}
