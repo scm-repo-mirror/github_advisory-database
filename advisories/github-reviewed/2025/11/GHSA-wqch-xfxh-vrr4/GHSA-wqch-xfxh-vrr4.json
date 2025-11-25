@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqch-xfxh-vrr4",
-  "modified": "2025-11-25T14:20:21Z",
+  "modified": "2025-11-25T18:09:52Z",
   "published": "2025-11-25T14:20:21Z",
   "aliases": [
     "CVE-2025-13466"
@@ -29,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.2.0"
             },
             {
               "fixed": "2.2.1"
