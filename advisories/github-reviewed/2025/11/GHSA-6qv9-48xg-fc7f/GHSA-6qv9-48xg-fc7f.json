@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qv9-48xg-fc7f",
-  "modified": "2025-11-20T18:25:32Z",
+  "modified": "2025-11-25T19:47:02Z",
   "published": "2025-11-20T17:42:12Z",
   "aliases": [
     "CVE-2025-65106"
@@ -66,6 +66,10 @@
       "url": "https://github.com/langchain-ai/langchain/security/advisories/GHSA-6qv9-48xg-fc7f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65106"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/langchain-ai/langchain/commit/c4b6ba254e1a49ed91f2e268e6484011c540542a"
     },
@@ -85,6 +89,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-11-20T17:42:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-11-21T22:16:32Z"
   }
 }
