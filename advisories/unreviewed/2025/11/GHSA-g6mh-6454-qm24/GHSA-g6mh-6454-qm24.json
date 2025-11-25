@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6mh-6454-qm24",
-  "modified": "2025-11-25T00:31:41Z",
+  "modified": "2025-11-25T15:31:33Z",
   "published": "2025-11-25T00:31:41Z",
   "aliases": [
     "CVE-2024-47856"
   ],
   "details": "In RSA Authentication Agent before 7.4.7, service paths and shortcut paths may be vulnerable to path interception if the path has one or more spaces and is not surrounded by quotation marks. An adversary can place an executable in a higher-level directory of the path, and Windows will resolve that executable instead of the intended executable.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-23"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-24T22:15:46Z"

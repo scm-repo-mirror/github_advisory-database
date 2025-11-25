@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x485-rhg3-cqr4",
-  "modified": "2025-09-24T00:30:41Z",
+  "modified": "2025-11-25T15:31:33Z",
   "published": "2025-08-20T18:30:21Z",
   "aliases": [
     "CVE-2011-10026"

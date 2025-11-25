@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwcc-2364-w9p4",
-  "modified": "2025-06-18T12:30:52Z",
+  "modified": "2025-11-25T15:31:32Z",
   "published": "2025-06-18T12:30:51Z",
   "aliases": [
     "CVE-2022-50156"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: cp2112: prevent a buffer overflow in cp2112_xfer()\n\nSmatch warnings:\ndrivers/hid/hid-cp2112.c:793 cp2112_xfer() error: __memcpy()\n'data->block[1]' too small (33 vs 255)\ndrivers/hid/hid-cp2112.c:793 cp2112_xfer() error: __memcpy() 'buf' too\nsmall (64 vs 255)\n\nThe 'read_length' variable is provided by 'data->block[0]' which comes\nfrom user and it(read_length) can take a value between 0-255. Add an\nupper bound to 'read_length' variable to prevent a buffer overflow in\nmemcpy().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:45Z"

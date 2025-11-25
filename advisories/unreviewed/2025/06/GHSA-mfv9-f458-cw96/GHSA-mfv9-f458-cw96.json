@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfv9-f458-cw96",
-  "modified": "2025-06-18T12:30:51Z",
+  "modified": "2025-11-25T15:31:32Z",
   "published": "2025-06-18T12:30:51Z",
   "aliases": [
     "CVE-2022-50157"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: microchip: Fix refcount leak in mc_pcie_init_irq_domains()\n\nof_get_next_child() returns a node pointer with refcount incremented, so we\nshould use of_node_put() on it when we don't need it anymore.\n\nmc_pcie_init_irq_domains() only calls of_node_put() in the normal path,\nmissing it in some error paths.  Add missing of_node_put() to avoid\nrefcount leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T11:15:45Z"
