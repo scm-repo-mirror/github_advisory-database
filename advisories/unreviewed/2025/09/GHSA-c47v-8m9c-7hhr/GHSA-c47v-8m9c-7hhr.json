@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c47v-8m9c-7hhr",
-  "modified": "2025-09-05T18:31:17Z",
+  "modified": "2025-11-26T00:30:16Z",
   "published": "2025-09-05T18:31:16Z",
   "aliases": [
     "CVE-2025-38710"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngfs2: Validate i_depth for exhash directories\n\nA fuzzer test introduced corruption that ends up with a depth of 0 in\ndir_e_read(), causing an undefined shift by 32 at:\n\n  index = hash >> (32 - dip->i_depth);\n\nAs calculated in an open-coded way in dir_make_exhash(), the minimum\ndepth for an exhash directory is ilog2(sdp->sd_hash_ptrs) and 0 is\ninvalid as sdp->sd_hash_ptrs is fixed as sdp->bsize / 16 at mount time.\n\nSo we can avoid the undefined behaviour by checking for depth values\nlower than the minimum in gfs2_dinode_in(). Values greater than the\nmaximum are already being checked for there.\n\nAlso switch the calculation in dir_make_exhash() to use ilog2() to\nclarify how the depth is calculated.\n\nTested with the syzkaller repro.c and xfstests '-g quick'.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:40Z"
