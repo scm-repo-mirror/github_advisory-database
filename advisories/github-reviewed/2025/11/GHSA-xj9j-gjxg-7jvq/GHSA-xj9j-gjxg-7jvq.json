@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xj9j-gjxg-7jvq",
-  "modified": "2025-11-25T18:32:22Z",
+  "modified": "2025-11-26T22:00:29Z",
   "published": "2025-11-25T18:32:22Z",
   "aliases": [
     "CVE-2025-64050"
   ],
+  "summary": "REDAXO CMS is vulnerable to RCE attack through its template management component",
   "details": "A Remote Code Execution (RCE) vulnerability in the template management component in REDAXO CMS 5.20.0 allows remote authenticated administrators to execute arbitrary operating system commands by injecting PHP code into an active template. The payload is executed when visitors access frontend pages using the compromised template.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "redaxo/source"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.20.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,10 +42,14 @@
     },
     {
       "type": "WEB",
-      "url": "https://drive.google.com/drive/folders/1Via4r4wn5zCcBllWmHpxYweCPgcbN0bz?usp=sharing"
+      "url": "https://github.com/redaxo/redaxo/pull/6372/commits/bc96462e20f7e651b2e6c3bb59d141d5cb09af0f"
     },
     {
       "type": "WEB",
+      "url": "https://drive.google.com/drive/folders/1Via4r4wn5zCcBllWmHpxYweCPgcbN0bz?usp=sharing"
+    },
+    {
+      "type": "PACKAGE",
       "url": "https://github.com/redaxo/redaxo"
     },
     {
@@ -37,8 +62,8 @@
       "CWE-94"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-11-26T22:00:29Z",
     "nvd_published_at": "2025-11-25T16:16:07Z"
   }
 }
