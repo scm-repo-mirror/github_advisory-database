@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frmv-pr5f-9mcr",
-  "modified": "2025-11-15T02:10:38Z",
+  "modified": "2025-11-27T08:50:16Z",
   "published": "2025-11-05T15:31:07Z",
   "aliases": [
     "CVE-2025-64459"
@@ -101,6 +101,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/django/django"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/omarkurt/django-connector-CVE-2025-64459-testbed"
     },
     {
       "type": "WEB",

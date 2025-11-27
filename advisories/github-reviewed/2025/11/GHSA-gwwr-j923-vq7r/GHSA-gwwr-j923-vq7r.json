@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwwr-j923-vq7r",
-  "modified": "2025-11-17T19:56:30Z",
+  "modified": "2025-11-27T08:47:42Z",
   "published": "2025-11-17T06:30:15Z",
   "aliases": [
     "CVE-2025-13262"
   ],
-  "summary": "lsFusion Platform has Path Traversal vulnerability",
+  "summary": "lsFusion Platform has a Path Traversal vulnerability",
   "details": "A vulnerability was determined in lsfusion platform up to 6.1. Affected by this vulnerability is the function UploadFileRequestHandler of the file platform/web-client/src/main/java/lsfusion/http/controller/file/UploadFileRequestHandler.java. Executing manipulation of the argument sid can lead to path traversal. The attack can be executed remotely. The exploit has been publicly disclosed and may be utilized.",
   "severity": [
     {
