@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w73-x38p-26g5",
-  "modified": "2025-11-06T03:30:24Z",
+  "modified": "2025-11-27T03:30:25Z",
   "published": "2025-10-22T15:31:09Z",
   "aliases": [
     "CVE-2025-11411"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.nlnetlabs.nl/downloads/unbound/CVE-2025-11411.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/11/26/4"
     }
   ],
   "database_specific": {
