@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8wv-vv58-468h",
-  "modified": "2025-09-12T21:10:17Z",
+  "modified": "2025-11-27T08:11:32Z",
   "published": "2025-09-11T21:31:54Z",
   "aliases": [
     "CVE-2025-56556"
   ],
   "summary": "Subrion CMS: Authenticated administrators are able to gain escalated access through Run SQL Query tool",
-  "details": "An issue was discovered in Subrion CMS 4.2.1, allowing authenticated adminitrators or moderators with access to the built-in Run SQL Query feature under the SQL Tool admin panel - to gain escalated privileges in the context of the SQL query tool.",
+  "details": "An issue was discovered in Subrion CMS 4.2.1, allowing authenticated adminitrators or moderators with access to the built-in Run SQL Query feature under the SQL Tool admin panel — to gain escalated privileges in the context of the SQL query tool.",
   "severity": [
     {
       "type": "CVSS_V3",
