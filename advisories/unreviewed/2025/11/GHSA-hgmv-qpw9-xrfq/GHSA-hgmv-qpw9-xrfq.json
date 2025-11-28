@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgmv-qpw9-xrfq",
-  "modified": "2025-11-27T15:31:25Z",
+  "modified": "2025-11-28T15:30:30Z",
   "published": "2025-11-27T12:30:29Z",
   "aliases": [
     "CVE-2025-59302"
   ],
   "details": "In  Apache CloudStack improper control of generation of code ('Code Injection') vulnerability is found in the following APIs which are accessible only to admins.\n\n  *  quotaTariffCreate\n  *  quotaTariffUpdate\n  *  createSecondaryStorageSelector\n  *  updateSecondaryStorageSelector\n  *  updateHost\n  *  updateStorage\n\n\nThis issue affects Apache CloudStack: from 4.18.0 before 4.20.2, from 4.21.0 before 4.22.0. Users are recommended to upgrade to versions 4.20.2 or 4.22.0, which contain the fix.\n\nThe fix introduces a new global configuration flag, js.interpretation.enabled, allowing administrators to control the interpretation of JavaScript expressions in these APIs, thereby mitigating the code injection risk.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-94"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-27T12:15:47Z"
