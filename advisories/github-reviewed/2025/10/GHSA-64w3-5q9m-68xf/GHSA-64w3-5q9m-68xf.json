@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64w3-5q9m-68xf",
-  "modified": "2025-10-23T19:24:48Z",
+  "modified": "2025-11-28T06:32:05Z",
   "published": "2025-10-23T15:30:34Z",
   "aliases": [
     "CVE-2025-11429"
@@ -51,6 +51,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/commit/bda0e2a67c8cf41d1b3d9010e6dfcddaf79bf59b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22088"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22089"
     },
     {
       "type": "WEB",
