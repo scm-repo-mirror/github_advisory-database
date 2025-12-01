@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j75f-w639-68hc",
-  "modified": "2025-11-10T18:30:33Z",
+  "modified": "2025-12-01T18:30:25Z",
   "published": "2025-11-05T17:48:28Z",
   "aliases": [
     "CVE-2025-63601"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://dappsec.substack.com/p/snipe-it-post-authenticated-remote"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fptcloud.com/en/cve-2025-63601-proof-of-concept"
     },
     {
       "type": "WEB",

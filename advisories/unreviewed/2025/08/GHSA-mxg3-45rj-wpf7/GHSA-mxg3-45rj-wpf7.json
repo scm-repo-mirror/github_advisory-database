@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxg3-45rj-wpf7",
-  "modified": "2025-08-01T18:31:17Z",
+  "modified": "2025-12-01T18:30:24Z",
   "published": "2025-08-01T18:31:17Z",
   "aliases": [
     "CVE-2025-45778"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-45778"
+    },
+    {
+      "type": "WEB",
+      "url": "https://languagesloth.com"
     },
     {
       "type": "WEB",
