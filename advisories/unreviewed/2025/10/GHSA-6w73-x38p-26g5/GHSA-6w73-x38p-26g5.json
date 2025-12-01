@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w73-x38p-26g5",
-  "modified": "2025-11-27T03:30:25Z",
+  "modified": "2025-12-01T03:30:25Z",
   "published": "2025-10-22T15:31:09Z",
   "aliases": [
     "CVE-2025-11411"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/11/msg00008.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/11/msg00032.html"
     },
     {
       "type": "WEB",
