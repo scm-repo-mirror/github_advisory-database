@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw57-63xv-7mx2",
-  "modified": "2025-11-02T15:30:12Z",
+  "modified": "2025-12-01T12:30:28Z",
   "published": "2025-08-22T18:31:22Z",
   "aliases": [
     "CVE-2025-38643"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7022df2248c08c6f75a01714163ac902333bf3db"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b3d24038eb775f2f7a1dfef58d8e1dc444a12820"
     },
     {
       "type": "WEB",
