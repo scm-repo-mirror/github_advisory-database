@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qjp8-x59x-9g4h",
+  "modified": "2025-12-02T18:30:36Z",
+  "published": "2025-12-02T18:30:36Z",
+  "aliases": [
+    "CVE-2025-65881"
+  ],
+  "details": "Sourcecodester Zoo Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in /classes/Login.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65881"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/MMAKINGDOM/17b85a6e077f08134ee96850f162ed8f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MMAKINGDOM/CVE-2025-65881"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-02T18:15:49Z"
+  }
+}

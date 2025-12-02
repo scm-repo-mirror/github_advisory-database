@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vrcr-9hj9-jcg6",
+  "modified": "2025-12-02T18:30:35Z",
+  "published": "2025-12-02T18:30:35Z",
+  "aliases": [
+    "CVE-2025-64460"
+  ],
+  "details": "An issue was discovered in 5.2 before 5.2.9, 5.1 before 5.1.15, and 4.2 before 4.2.27.\nAlgorithmic complexity in `django.core.serializers.xml_serializer.getInnerText()` allows a remote attacker to cause a potential denial-of-service attack triggering CPU and memory exhaustion via specially crafted XML input processed by the XML `Deserializer`.\nEarlier, unsupported Django series (such as 5.0.x, 4.1.x, and 3.2.x) were not evaluated and may also be affected.\nDjango would like to thank Seokchan Yoon for reporting this issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64460"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.djangoproject.com/en/dev/releases/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/g/django-announce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.djangoproject.com/weblog/2025/dec/02/security-releases"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-407"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-02T16:15:56Z"
+  }
+}
