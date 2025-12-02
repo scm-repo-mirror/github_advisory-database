@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cxp-vv37-hxmm",
-  "modified": "2025-11-21T15:31:28Z",
+  "modified": "2025-12-02T15:30:29Z",
   "published": "2025-11-21T15:31:28Z",
   "aliases": [
     "CVE-2025-66109"
   ],
   "details": "Missing Authorization vulnerability in octolize Cart Weight for WooCommerce woo-cart-weight allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Cart Weight for WooCommerce: from n/a through <= 1.9.11.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-21T13:15:52Z"

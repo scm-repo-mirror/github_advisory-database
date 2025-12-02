@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q93v-5jjx-7797",
-  "modified": "2025-12-02T06:30:25Z",
+  "modified": "2025-12-02T15:30:31Z",
   "published": "2025-12-02T06:30:25Z",
   "aliases": [
     "CVE-2025-13000"
   ],
   "details": "The db-access WordPress plugin through 0.8.7 does not have authorization in an AJAX action, allowing any authenticated users, such as subscriber to perform SQLI attacks",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-02T06:15:45Z"

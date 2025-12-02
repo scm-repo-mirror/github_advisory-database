@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pc5g-j9j7-p4q3",
+  "modified": "2025-12-02T15:30:33Z",
+  "published": "2025-12-02T15:30:32Z",
+  "aliases": [
+    "CVE-2025-65858"
+  ],
+  "details": "A Stored Cross-Site Scripting (XSS) vulnerability in Calibre-Web v0.6.25 allows attackers to inject malicious JavaScript into the 'username' field during user creation. The payload is stored unsanitized and later executed when the /ajax/listusers endpoint is accessed.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/KhanhDuy155/calibre-web-CVE-2025-65858/blob/main/CVE-2025-65858.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-02T14:16:25Z"
+  }
+}
