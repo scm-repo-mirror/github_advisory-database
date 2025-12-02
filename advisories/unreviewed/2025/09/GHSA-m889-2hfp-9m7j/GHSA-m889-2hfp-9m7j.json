@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m889-2hfp-9m7j",
-  "modified": "2025-09-16T18:31:26Z",
+  "modified": "2025-12-02T00:31:10Z",
   "published": "2025-09-16T18:31:26Z",
   "aliases": [
     "CVE-2022-50349"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmisc: tifm: fix possible memory leak in tifm_7xx1_switch_media()\n\nIf device_register() returns error in tifm_7xx1_switch_media(),\nname of kobject which is allocated in dev_set_name() called in device_add()\nis leaked.\n\nNever directly free @dev after calling device_register(), even\nif it returned an error! Always use put_device() to give up the\nreference initialized.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-16T17:15:34Z"
