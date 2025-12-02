@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w33j-4mrg-pgc3",
-  "modified": "2022-08-06T00:00:36Z",
+  "modified": "2025-12-02T21:31:24Z",
   "published": "2022-08-02T00:00:26Z",
   "aliases": [
     "CVE-2022-2509"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/08/msg00002.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6FL27JS3VM74YEQU7PGB62USO3KSBYZX"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3h3-6f9f-6q98",
-  "modified": "2025-09-15T15:31:25Z",
+  "modified": "2025-12-02T21:31:25Z",
   "published": "2025-09-15T15:31:25Z",
   "aliases": [
     "CVE-2022-50264"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: socfpga: Fix memory leak in socfpga_gate_init()\n\nFree @socfpga_clk and @ops on the error path to avoid memory leak issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:36Z"

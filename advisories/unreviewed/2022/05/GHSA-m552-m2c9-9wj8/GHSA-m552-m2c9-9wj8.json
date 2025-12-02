@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m552-m2c9-9wj8",
-  "modified": "2022-06-09T00:00:29Z",
+  "modified": "2025-12-02T21:31:24Z",
   "published": "2022-05-27T00:00:49Z",
   "aliases": [
     "CVE-2022-30789"
@@ -33,6 +33,22 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/7JPX6OUCQKZX4PN5DQPVDUFZCOOZUX7Z"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ECDCISL24TYH4CTDFCUVF24WAKRSYF7F"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FAXFYIJWT5SHHRNPOJETM77EIMJ6ZP6I"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UEXHDCUSLJD2HSPMAAVZ5AWMPUOG6UI7"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/7JPX6OUCQKZX4PN5DQPVDUFZCOOZUX7Z"
     },
     {
@@ -58,6 +74,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-787"
     ],
     "severity": "MODERATE",

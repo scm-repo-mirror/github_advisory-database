@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhxp-853r-966x",
-  "modified": "2025-09-16T15:32:33Z",
+  "modified": "2025-12-02T21:31:27Z",
   "published": "2025-09-16T15:32:33Z",
   "aliases": [
     "CVE-2023-53302"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwl4965: Add missing check for create_singlethread_workqueue()\n\nAdd the check for the return value of the create_singlethread_workqueue()\nin order to avoid NULL pointer dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-16T08:15:39Z"

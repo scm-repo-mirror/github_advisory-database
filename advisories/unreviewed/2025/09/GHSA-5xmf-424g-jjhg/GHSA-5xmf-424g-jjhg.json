@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xmf-424g-jjhg",
-  "modified": "2025-09-16T15:32:35Z",
+  "modified": "2025-12-02T21:31:27Z",
   "published": "2025-09-16T15:32:35Z",
   "aliases": [
     "CVE-2025-39822"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring/kbuf: fix signedness in this_len calculation\n\nWhen importing and using buffers, buf->len is considered unsigned.\nHowever, buf->len is converted to signed int when committing. This can\nlead to unexpected behavior if the buffer is large enough to be\ninterpreted as a negative value. Make min_t calculation unsigned.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-16T13:15:59Z"

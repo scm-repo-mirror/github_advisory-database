@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jg3v-4f9w-62x2",
-  "modified": "2025-09-16T15:32:33Z",
+  "modified": "2025-12-02T21:31:26Z",
   "published": "2025-09-16T15:32:33Z",
   "aliases": [
     "CVE-2023-53298"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc: fix memory leak of se_io context in nfc_genl_se_io\n\nThe callback context for sending/receiving APDUs to/from the selected\nsecure element is allocated inside nfc_genl_se_io and supposed to be\neventually freed in se_io_cb callback function. However, there are several\nerror paths where the bwi_timer is not charged to call se_io_cb later, and\nthe cb_context is leaked.\n\nThe patch proposes to free the cb_context explicitly on those error paths.\n\nAt the moment we can't simply check 'dev->ops->se_io()' return value as it\nmay be negative in both cases: when the timer was charged and was not.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-16T08:15:39Z"

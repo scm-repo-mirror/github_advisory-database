@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mcxq-54f4-mmx5",
+  "modified": "2025-12-02T21:31:31Z",
+  "published": "2025-12-02T21:31:31Z",
+  "aliases": [
+    "CVE-2025-65657"
+  ],
+  "details": "FeehiCMS version 2.1.1 has a Remote Code Execution via Unrestricted File Upload in Ad Management. FeehiCMS version 2.1.1 allows authenticated remote attackers to upload files that the server later executes (or stores in an executable location) without sufficient validation, sanitization, or execution restrictions. An authenticated remote attacker can upload a crafted PHP file and cause the application or web server to execute it, resulting in remote code execution (RCE).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65657"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/liufee/cms/issues/78"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kiwi865/CVEs/blob/main/CVE-2025-65657.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-02T21:15:53Z"
+  }
+}

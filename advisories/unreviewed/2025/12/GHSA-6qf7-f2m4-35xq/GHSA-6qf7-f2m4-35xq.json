@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qf7-f2m4-35xq",
-  "modified": "2025-12-02T18:30:35Z",
+  "modified": "2025-12-02T21:31:28Z",
   "published": "2025-12-02T18:30:35Z",
   "aliases": [
     "CVE-2025-63872"
   ],
   "details": "DeepSeek V3.2 has a Cross Site Scripting (XSS) vulnerability, which allows JavaScript execution through model-generated SVG content.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-02T16:15:55Z"
