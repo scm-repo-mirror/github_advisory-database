@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99fr-mxgj-j98p",
-  "modified": "2025-12-01T21:30:25Z",
+  "modified": "2025-12-02T03:31:36Z",
   "published": "2025-11-20T21:30:32Z",
   "aliases": [
     "CVE-2025-55128"

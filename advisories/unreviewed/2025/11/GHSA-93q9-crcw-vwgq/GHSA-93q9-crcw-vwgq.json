@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93q9-crcw-vwgq",
-  "modified": "2025-11-28T09:30:17Z",
+  "modified": "2025-12-02T03:31:41Z",
   "published": "2025-11-28T09:30:17Z",
   "aliases": [
     "CVE-2025-66382"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/issues/1076"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/12/02/1"
     }
   ],
   "database_specific": {

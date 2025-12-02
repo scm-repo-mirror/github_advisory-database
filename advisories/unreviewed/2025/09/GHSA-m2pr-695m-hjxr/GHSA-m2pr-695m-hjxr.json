@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2pr-695m-hjxr",
-  "modified": "2025-09-15T15:31:24Z",
+  "modified": "2025-12-02T03:31:36Z",
   "published": "2025-09-15T15:31:24Z",
   "aliases": [
     "CVE-2023-53191"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nirqchip/alpine-msi: Fix refcount leak in alpine_msix_init_domains\n\nof_irq_find_parent() returns a node pointer with refcount incremented,\nWe should use of_node_put() on it when not needed anymore.\nAdd missing of_node_put() to avoid refcount leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T14:15:41Z"

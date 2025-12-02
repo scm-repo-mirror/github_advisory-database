@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3pr-pqpr-2f83",
-  "modified": "2025-09-15T15:31:23Z",
+  "modified": "2025-12-02T03:31:32Z",
   "published": "2025-09-15T15:31:23Z",
   "aliases": [
     "CVE-2023-53171"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio/type1: prevent underflow of locked_vm via exec()\n\nWhen a vfio container is preserved across exec, the task does not change,\nbut it gets a new mm with locked_vm=0, and loses the count from existing\ndma mappings.  If the user later unmaps a dma mapping, locked_vm underflows\nto a large unsigned value, and a subsequent dma map request fails with\nENOMEM in __account_locked_vm.\n\nTo avoid underflow, grab and save the mm at the time a dma is mapped.\nUse that mm when adjusting locked_vm, rather than re-acquiring the saved\ntask's mm, which may have changed.  If the saved mm is dead, do nothing.\n\nlocked_vm is incremented for existing mappings in a subsequent patch.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T14:15:38Z"
