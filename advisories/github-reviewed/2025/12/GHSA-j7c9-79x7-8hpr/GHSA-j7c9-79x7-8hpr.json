@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7c9-79x7-8hpr",
-  "modified": "2025-12-03T16:27:59Z",
+  "modified": "2025-12-03T16:52:09Z",
   "published": "2025-12-03T16:27:59Z",
   "aliases": [
     "CVE-2025-66406"
@@ -42,14 +42,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/smallstep/certificates/security/advisories/GHSA-j7c9-79x7-8hpr"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/smallstep/certificates/commit/1011f5f5408b470a636f583bf74c0d7bbaf75d72"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/smallstep/certificates/commit/992ff696e95b424a99140bd7edb2144013975059"
     },
     {
       "type": "PACKAGE",
