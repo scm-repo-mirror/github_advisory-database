@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mjw-j4c8-cfgq",
-  "modified": "2025-09-15T15:31:30Z",
+  "modified": "2025-12-03T18:30:20Z",
   "published": "2025-09-15T15:31:29Z",
   "aliases": [
     "CVE-2023-53251"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: pcie: fix NULL pointer dereference in iwl_pcie_irq_rx_msix_handler()\n\nrxq can be NULL only when trans_pcie->rxq is NULL and entry->entry\nis zero. For the case when entry->entry is not equal to 0, rxq\nwon't be NULL even if trans_pcie->rxq is NULL. Modify checker to\ncheck for trans_pcie->rxq.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:52Z"

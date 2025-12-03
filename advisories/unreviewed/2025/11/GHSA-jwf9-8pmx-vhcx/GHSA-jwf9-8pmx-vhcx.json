@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwf9-8pmx-vhcx",
-  "modified": "2025-11-30T06:30:13Z",
+  "modified": "2025-12-03T18:30:23Z",
   "published": "2025-11-30T06:30:13Z",
   "aliases": [
     "CVE-2025-13783"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.yuque.com/shangu-vvuup/ydpg69/dd5zpygt7w5w4d19?singleDoc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.yuque.com/shangu-vvuup/ydpg69/dd5zpygt7w5w4d19?singleDoc#"
     }
   ],
   "database_specific": {

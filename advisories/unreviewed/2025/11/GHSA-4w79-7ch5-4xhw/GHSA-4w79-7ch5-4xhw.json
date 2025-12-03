@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4w79-7ch5-4xhw",
-  "modified": "2025-12-01T15:30:16Z",
+  "modified": "2025-12-03T18:30:22Z",
   "published": "2025-11-26T18:31:03Z",
   "aliases": [
     "CVE-2025-45311"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://packetstorm.news/files/id/189989"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/12/03/2"
     }
   ],
   "database_specific": {

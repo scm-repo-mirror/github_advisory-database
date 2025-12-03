@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x77f-2wpm-x48r",
-  "modified": "2025-09-15T15:31:25Z",
+  "modified": "2025-12-03T18:30:20Z",
   "published": "2025-09-15T15:31:25Z",
   "aliases": [
     "CVE-2022-50274"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: dvbdev: adopts refcnt to avoid UAF\n\ndvb_unregister_device() is known that prone to use-after-free.\nThat is, the cleanup from dvb_unregister_device() releases the dvb_device\neven if there are pointers stored in file->private_data still refer to it.\n\nThis patch adds a reference counter into struct dvb_device and delays its\ndeallocation until no pointer refers to the object.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:38Z"

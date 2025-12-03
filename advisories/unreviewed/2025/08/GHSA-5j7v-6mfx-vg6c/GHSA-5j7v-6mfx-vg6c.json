@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j7v-6mfx-vg6c",
-  "modified": "2025-08-19T21:30:36Z",
+  "modified": "2025-12-03T18:30:19Z",
   "published": "2025-08-19T21:30:36Z",
   "aliases": [
     "CVE-2024-44373"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44373"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gh0stmezh.wordpress.com/2024/08/25/cve-2024-44373"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmp6-j4f4-vm9f",
-  "modified": "2025-12-03T15:30:29Z",
+  "modified": "2025-12-03T18:30:24Z",
   "published": "2025-12-03T15:30:28Z",
   "aliases": [
     "CVE-2025-13390"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/d0n601/CVE-2025-13390"
+    },
+    {
+      "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/3400599/wpdirectorykit"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ryankozak.com/posts/cve-2025-13390"
     },
     {
       "type": "WEB",
