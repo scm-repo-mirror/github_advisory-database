@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9p5-p7h5-p2wg",
-  "modified": "2022-05-24T19:04:21Z",
+  "modified": "2025-12-03T15:30:27Z",
   "published": "2022-05-24T19:04:21Z",
   "aliases": [
     "CVE-2021-33560"
@@ -41,6 +41,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BKKTOIGFW2SGN3DO2UHHVZ7MJSYN4AAB"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/R7OAPCUGPF3VLA7QAJUQSL255D4ITVTL"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BKKTOIGFW2SGN3DO2UHHVZ7MJSYN4AAB"
     },
     {
@@ -70,7 +78,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-203"
+      "CWE-203",
+      "CWE-325"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
