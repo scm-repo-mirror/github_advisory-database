@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j77f-3hf7-7rvg",
+  "modified": "2025-12-03T12:30:14Z",
+  "published": "2025-12-03T12:30:14Z",
+  "aliases": [
+    "CVE-2025-13947"
+  ],
+  "details": "A flaw was found in WebKitGTK. This vulnerability allows remote, user-assisted information disclosure that can reveal any file the user is permitted to read via abusing the file drag-and-drop mechanism where WebKitGTK does not verify that drag operations originate from outside the browser.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-13947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2418576"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-03T10:15:47Z"
+  }
+}
