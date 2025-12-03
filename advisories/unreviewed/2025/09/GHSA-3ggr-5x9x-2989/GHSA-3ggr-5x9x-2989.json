@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ggr-5x9x-2989",
-  "modified": "2025-09-15T15:31:25Z",
+  "modified": "2025-12-03T21:30:59Z",
   "published": "2025-09-15T15:31:25Z",
   "aliases": [
     "CVE-2022-50276"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npower: supply: fix null pointer dereferencing in power_supply_get_battery_info\n\nwhen kmalloc() fail to allocate memory in kasprintf(), propname\nwill be NULL, strcmp() called by of_get_property() will cause\nnull pointer dereference.\n\nSo return ENOMEM if kasprintf() return NULL pointer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:38Z"

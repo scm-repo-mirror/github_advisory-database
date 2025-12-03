@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4m7p-8mq4-h9jm",
-  "modified": "2025-09-15T15:31:25Z",
+  "modified": "2025-12-03T21:30:58Z",
   "published": "2025-09-15T15:31:25Z",
   "aliases": [
     "CVE-2022-50275"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/radeon: Add the missed acpi_put_table() to fix memory leak\n\nWhen the radeon driver reads the bios information from ACPI\ntable in radeon_acpi_vfct_bios(), it misses to call acpi_put_table()\nto release the ACPI memory after the init, so add acpi_put_table()\nproperly to fix the memory leak.\n\nv2: fix text formatting (Alex)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:38Z"

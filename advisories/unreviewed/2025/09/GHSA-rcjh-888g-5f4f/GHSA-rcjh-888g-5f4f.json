@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcjh-888g-5f4f",
-  "modified": "2025-09-15T15:31:29Z",
+  "modified": "2025-12-03T21:31:00Z",
   "published": "2025-09-15T15:31:29Z",
   "aliases": [
     "CVE-2023-53242"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nthermal/drivers/hisi: Drop second sensor hi3660\n\nThe commit 74c8e6bffbe1 (\"driver core: Add __alloc_size hint to devm\nallocators\") exposes a panic \"BRK handler: Fatal exception\" on the\nhi3660_thermal_probe funciton.\nThis is because the function allocates memory for only one\nsensors array entry, but tries to fill up a second one.\n\nFix this by removing the unneeded second access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:51Z"

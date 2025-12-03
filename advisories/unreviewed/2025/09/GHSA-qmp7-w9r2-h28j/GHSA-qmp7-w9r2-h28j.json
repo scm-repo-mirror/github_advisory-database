@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmp7-w9r2-h28j",
-  "modified": "2025-09-15T15:31:26Z",
+  "modified": "2025-12-03T21:30:59Z",
   "published": "2025-09-15T15:31:25Z",
   "aliases": [
     "CVE-2022-50287"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915/bios: fix a memory leak in generate_lfp_data_ptrs\n\nWhen (size != 0 || ptrs->lvds_ entries != 3), the program tries to\nfree() the ptrs. However, the ptrs is not created by calling kzmalloc(),\nbut is obtained by pointer offset operation.\nThis may lead to memory leaks or undefined behavior.\n\nFix this by replacing the arguments of kfree() with ptrs_block.\n\n(cherry picked from commit 7674cd0b7d28b952151c3df26bbfa7e07eb2b4ec)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:39Z"

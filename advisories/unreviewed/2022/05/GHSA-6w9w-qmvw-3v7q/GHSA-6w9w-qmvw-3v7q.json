@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w9w-qmvw-3v7q",
-  "modified": "2022-05-13T01:30:25Z",
+  "modified": "2025-12-03T21:30:55Z",
   "published": "2022-05-13T01:30:25Z",
   "aliases": [
     "CVE-2018-16151"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2018/dsa-4305"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.strongswan.org/blog/2018/09/24/strongswan-vulnerability-%28cve-2018-16151%2C-cve-2018-16152%29.html"
     },
     {
       "type": "WEB",

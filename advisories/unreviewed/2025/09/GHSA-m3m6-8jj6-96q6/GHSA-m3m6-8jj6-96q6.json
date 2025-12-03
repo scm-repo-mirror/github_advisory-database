@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3m6-8jj6-96q6",
-  "modified": "2025-09-15T15:31:27Z",
+  "modified": "2025-12-03T21:30:59Z",
   "published": "2025-09-15T15:31:27Z",
   "aliases": [
     "CVE-2022-50321"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: brcmfmac: fix potential memory leak in brcmf_netdev_start_xmit()\n\nThe brcmf_netdev_start_xmit() returns NETDEV_TX_OK without freeing skb\nin case of pskb_expand_head() fails, add dev_kfree_skb() to fix it.\nCompile tested only.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:44Z"
