@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v973-fxgf-6xhp",
-  "modified": "2024-09-30T16:59:53Z",
+  "modified": "2025-12-03T15:11:43Z",
   "published": "2022-09-16T17:20:25Z",
   "aliases": [
     "CVE-2022-40023"
@@ -71,6 +71,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/09/msg00026.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/12/msg00004.html"
     },
     {
       "type": "WEB",
