@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvf4-c8p4-89v5",
-  "modified": "2022-10-27T19:00:40Z",
+  "modified": "2025-12-03T03:31:20Z",
   "published": "2022-05-24T17:47:02Z",
   "aliases": [
     "CVE-2021-3448"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1939368"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CVTJUOFFFHINLKWAOC2ZSC5MOPD4SJ24"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FHG7GWSQWKF7JXIMLOGJBKZWBB4VIAJ7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GHURNEHHUBSW45KMIZ4FNBCSUPWPGV5V"
     },
     {
       "type": "WEB",
