@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpxx-2fwx-f5qj",
-  "modified": "2025-12-03T21:31:04Z",
+  "modified": "2025-12-04T00:30:58Z",
   "published": "2025-12-03T21:31:04Z",
   "aliases": [
     "CVE-2025-12819"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.pgbouncer.org/changelog.html#pgbouncer-124x"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.pgbouncer.org/changelog.html#pgbouncer-125x"
     }
   ],
   "database_specific": {

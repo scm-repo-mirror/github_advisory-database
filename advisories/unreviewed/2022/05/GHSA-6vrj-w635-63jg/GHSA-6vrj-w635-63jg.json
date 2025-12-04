@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vrj-w635-63jg",
-  "modified": "2022-05-13T01:02:39Z",
+  "modified": "2025-12-04T00:30:57Z",
   "published": "2022-05-13T01:02:39Z",
   "aliases": [
     "CVE-2017-5130"
@@ -66,6 +66,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-190",
       "CWE-787"
     ],
     "severity": "HIGH",
