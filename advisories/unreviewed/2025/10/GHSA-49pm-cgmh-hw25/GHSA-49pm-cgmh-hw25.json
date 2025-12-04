@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49pm-cgmh-hw25",
-  "modified": "2025-12-03T18:30:21Z",
+  "modified": "2025-12-04T09:31:26Z",
   "published": "2025-10-30T06:30:53Z",
   "aliases": [
     "CVE-2025-62229"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-62229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22729"
     },
     {
       "type": "WEB",
