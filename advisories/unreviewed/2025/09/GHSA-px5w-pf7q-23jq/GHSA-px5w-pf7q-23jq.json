@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px5w-pf7q-23jq",
-  "modified": "2025-09-15T15:31:28Z",
+  "modified": "2025-12-04T15:30:31Z",
   "published": "2025-09-15T15:31:28Z",
   "aliases": [
     "CVE-2023-53206"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhwmon: (pmbus_core) Fix NULL pointer dereference\n\nPass i2c_client to _pmbus_is_enabled to drop the assumption\nthat a regulator device is passed in.\n\nThis will fix the issue of a NULL pointer dereference when called from\n_pmbus_get_flags.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:47Z"

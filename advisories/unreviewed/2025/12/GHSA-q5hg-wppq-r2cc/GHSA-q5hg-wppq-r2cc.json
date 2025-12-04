@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q5hg-wppq-r2cc",
+  "modified": "2025-12-04T15:30:33Z",
+  "published": "2025-12-04T15:30:33Z",
+  "aliases": [
+    "CVE-2025-65346"
+  ],
+  "details": "alexusmai laravel-file-manager 3.3.1 and below is vulnerable to Directory Traversal. The unzip/extraction functionality improperly allows archive contents to be written to arbitrary locations on the filesystem due to insufficient validation of extraction paths.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Theethat-Thamwasin/CVE-2025-65346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/alexusmai/laravel-file-manager"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-04T15:15:59Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g78-vc7q-c4j6",
-  "modified": "2025-09-15T15:31:27Z",
+  "modified": "2025-12-04T15:30:30Z",
   "published": "2025-09-15T15:31:26Z",
   "aliases": [
     "CVE-2022-50308"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: qcom: Add checks for devm_kcalloc\n\nAs the devm_kcalloc may return NULL, the return value needs to be checked\nto avoid NULL poineter dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:42Z"

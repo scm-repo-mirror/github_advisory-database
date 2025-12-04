@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8w2v-rqc9-m6rw",
-  "modified": "2025-09-15T15:31:27Z",
+  "modified": "2025-12-04T15:30:30Z",
   "published": "2025-09-15T15:31:27Z",
   "aliases": [
     "CVE-2022-50313"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nerofs: fix order >= MAX_ORDER warning due to crafted negative i_size\n\nAs syzbot reported [1], the root cause is that i_size field is a\nsigned type, and negative i_size is also less than EROFS_BLKSIZ.\nAs a consequence, it's handled as fast symlink unexpectedly.\n\nLet's fall back to the generic path to deal with such unusual i_size.\n\n[1] https://lore.kernel.org/r/000000000000ac8efa05e7feaa1f@google.com",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:43Z"

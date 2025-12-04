@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9w8v-7p4r-hqf4",
-  "modified": "2025-09-15T15:31:29Z",
+  "modified": "2025-12-04T15:30:32Z",
   "published": "2025-09-15T15:31:29Z",
   "aliases": [
     "CVE-2023-53226"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mwifiex: Fix OOB and integer underflow when rx packets\n\nMake sure mwifiex_process_mgmt_packet,\nmwifiex_process_sta_rx_packet and mwifiex_process_uap_rx_packet,\nmwifiex_uap_queue_bridged_pkt and mwifiex_process_rx_packet\nnot out-of-bounds access the skb->data buffer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-191"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:49Z"

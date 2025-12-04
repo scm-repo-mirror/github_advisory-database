@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x4v-vqfc-g9gj",
-  "modified": "2025-09-15T15:31:27Z",
+  "modified": "2025-12-04T15:30:30Z",
   "published": "2025-09-15T15:31:27Z",
   "aliases": [
     "CVE-2022-50311"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncxl: Fix refcount leak in cxl_calc_capp_routing\n\nof_get_next_parent() returns a node pointer with refcount incremented,\nwe should use of_node_put() on it when not need anymore.\nThis function only calls of_node_put() in normal path,\nmissing it in the error path.\nAdd missing of_node_put() to avoid refcount leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:42Z"

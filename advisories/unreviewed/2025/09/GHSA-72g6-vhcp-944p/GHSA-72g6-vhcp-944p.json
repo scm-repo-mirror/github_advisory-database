@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-72g6-vhcp-944p",
-  "modified": "2025-09-15T15:31:27Z",
+  "modified": "2025-12-04T15:30:31Z",
   "published": "2025-09-15T15:31:27Z",
   "aliases": [
     "CVE-2022-50328"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njbd2: fix potential use-after-free in jbd2_fc_wait_bufs\n\nIn 'jbd2_fc_wait_bufs' use 'bh' after put buffer head reference count\nwhich may lead to use-after-free.\nSo judge buffer if uptodate before put buffer head reference count.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:44Z"
