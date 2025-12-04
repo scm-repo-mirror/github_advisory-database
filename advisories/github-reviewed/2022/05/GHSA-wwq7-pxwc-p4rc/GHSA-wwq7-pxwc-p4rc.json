@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwq7-pxwc-p4rc",
-  "modified": "2022-07-12T22:27:16Z",
+  "modified": "2025-12-04T22:13:34Z",
   "published": "2022-05-17T01:38:56Z",
   "aliases": [
     "CVE-2012-5785"
   ],
-  "summary": "Improper Input Validation in Apache Axis2",
-  "details": "Apache Axis2/Java 1.6.2 and earlier does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+  "summary": "Apache Axis2 has Improper Input Validation",
+  "details": "Apache Axis2/Java 1.7.9 and earlier does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
   "severity": [],
   "affected": [
     {
@@ -27,10 +27,26 @@
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 1.6.2"
-      }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.axis2:axis2-transport-http"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.0"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
