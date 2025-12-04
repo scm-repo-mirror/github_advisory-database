@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj7r-jvv5-837p",
-  "modified": "2025-09-15T15:31:26Z",
+  "modified": "2025-12-04T18:30:36Z",
   "published": "2025-09-15T15:31:26Z",
   "aliases": [
     "CVE-2022-50302"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlockd: set other missing fields when unlocking files\n\nvfs_lock_file() expects the struct file_lock to be fully initialised by\nthe caller. Re-exported NFSv3 has been seen to Oops if the fl_file field\nis NULL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:41Z"

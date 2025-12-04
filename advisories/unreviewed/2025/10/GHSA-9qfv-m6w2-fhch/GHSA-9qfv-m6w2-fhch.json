@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qfv-m6w2-fhch",
-  "modified": "2025-10-29T15:31:54Z",
+  "modified": "2025-12-04T18:30:37Z",
   "published": "2025-10-28T18:30:30Z",
   "aliases": [
     "CVE-2025-61155"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pollotherunner/CVE-2025-61155/blob/main/advisory.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.hotta.com.tw"
     },
     {
       "type": "WEB",
