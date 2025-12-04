@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cq8-42w3-9m79",
-  "modified": "2025-09-15T15:31:25Z",
+  "modified": "2025-12-04T21:31:01Z",
   "published": "2025-09-15T15:31:25Z",
   "aliases": [
     "CVE-2022-50281"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nMIPS: SGI-IP27: Fix platform-device leak in bridge_platform_create()\n\nIn error case in bridge_platform_create after calling\nplatform_device_add()/platform_device_add_data()/\nplatform_device_add_resources(), release the failed\n'pdev' or it will be leak, call platform_device_put()\nto fix this problem.\n\nBesides, 'pdev' is divided into 'pdev_wd' and 'pdev_bd',\nuse platform_device_unregister() to release sgi_w1\nresources when xtalk-bridge registration fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:39Z"
