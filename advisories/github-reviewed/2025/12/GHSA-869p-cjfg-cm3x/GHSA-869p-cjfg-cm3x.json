@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-869p-cjfg-cm3x",
-  "modified": "2025-12-04T16:54:15Z",
+  "modified": "2025-12-04T22:50:03Z",
   "published": "2025-12-04T16:54:15Z",
   "aliases": [
     "CVE-2025-65945"
@@ -63,6 +63,10 @@
       "url": "https://github.com/auth0/node-jws/security/advisories/GHSA-869p-cjfg-cm3x"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65945"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/auth0/node-jws/commit/34c45b2c04434f925b638de6a061de9339c0ea2e"
     },
@@ -90,6 +94,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-04T16:54:15Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-04T19:16:05Z"
   }
 }
