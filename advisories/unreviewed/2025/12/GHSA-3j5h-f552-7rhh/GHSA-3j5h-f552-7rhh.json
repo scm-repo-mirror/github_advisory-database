@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3j5h-f552-7rhh",
-  "modified": "2025-12-05T12:30:13Z",
+  "modified": "2025-12-05T21:30:23Z",
   "published": "2025-12-05T12:30:13Z",
   "aliases": [
     "CVE-2025-55753"
   ],
   "details": "An integer overflow in the case of failed ACME certificate renewal leads, after a number of failures (~30 days in default configurations), to the backoff timer becoming 0. Attempts to renew the certificate then are repeated without delays until it succeeds.\n\nThis issue affects Apache HTTP Server: from 2.4.30 before 2.4.66.\n\n\nUsers are recommended to upgrade to version 2.4.66, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-190"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-05T11:15:51Z"

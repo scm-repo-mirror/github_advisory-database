@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27fc-mjrp-6g7x",
-  "modified": "2025-12-03T21:31:05Z",
+  "modified": "2025-12-05T21:30:22Z",
   "published": "2025-12-03T21:31:05Z",
   "aliases": [
     "CVE-2025-65868"
   ],
   "details": "XML external entity (XXE) injection in eyoucms v1.7.1 allows remote attackers to cause a denial of service via crafted body of a POST request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-611"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-03T21:15:52Z"

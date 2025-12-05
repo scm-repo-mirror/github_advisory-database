@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42m6-m7p8-vqwv",
-  "modified": "2025-12-04T15:30:33Z",
+  "modified": "2025-12-05T21:30:22Z",
   "published": "2025-12-04T15:30:33Z",
   "aliases": [
     "CVE-2025-54306"
   ],
   "details": "An issue was discovered in the Thermo Fisher Torrent Suite Django application 5.18.1. A remote code execution vulnerability exists in the network configuration functionality, stemming from insufficient input validation when processing network configuration parameters through administrative endpoints. The application allows administrators to modify the server's network configuration through the Django application. This configuration is processed by Bash scripts (TSsetnoproxy and TSsetproxy) that write user-controlled data directly to environment variables without proper sanitization. After updating environment variables, the scripts execute a source command on /etc/environment; if an attacker injects malicious data into environment variables, this command can enable arbitrary command execution. The vulnerability begins with the /admin/network endpoint, which passes user-supplied form data as arguments to subprocess.Popen calls. The user-supplied input is then used to update environment variables in TSsetnoproxy and TSsetproxy, and finally source $environment is executed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-04T15:15:59Z"
