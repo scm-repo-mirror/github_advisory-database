@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v432-65m6-c4x6",
-  "modified": "2024-01-04T15:30:22Z",
+  "modified": "2025-12-05T18:31:06Z",
   "published": "2024-01-04T15:30:22Z",
   "aliases": [
     "CVE-2023-49666"
   ],
-  "details": "Billing Software v1.0 is vulnerable to multiple Unauthenticated SQL Injection vulnerabilities. The 'custmer_details' parameter of the submit_material_list.php resource does not validate the characters received and they are sent unfiltered to the database.\n\n",
+  "details": "Billing Software v1.0 is vulnerable to multiple Unauthenticated SQL Injection vulnerabilities. The 'custmer_details' parameter of the submit_material_list.php resource does not validate the characters received and they are sent unfiltered to the database.",
   "severity": [
     {
       "type": "CVSS_V3",

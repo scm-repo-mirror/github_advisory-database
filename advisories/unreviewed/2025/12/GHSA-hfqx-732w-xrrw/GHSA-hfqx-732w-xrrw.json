@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfqx-732w-xrrw",
-  "modified": "2025-12-03T21:31:04Z",
+  "modified": "2025-12-05T18:31:08Z",
   "published": "2025-12-03T21:31:04Z",
   "aliases": [
     "CVE-2025-12084"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/ddcd2acd85d891a53e281c773b3093f9db953964"
     }
   ],
   "database_specific": {

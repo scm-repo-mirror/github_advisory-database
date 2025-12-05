@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pmj-xjxp-p8g9",
-  "modified": "2025-11-19T14:24:56Z",
+  "modified": "2025-12-05T18:31:51Z",
   "published": "2025-11-18T18:48:01Z",
   "aliases": [
     "CVE-2025-65093"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "25.10.0"
+              "fixed": "25.11.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 25.10.0"
+      }
     }
   ],
   "references": [

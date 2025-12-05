@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f357-4jg5-3c72",
-  "modified": "2024-03-28T09:31:12Z",
+  "modified": "2025-12-05T18:31:07Z",
   "published": "2024-03-28T09:31:12Z",
   "aliases": [
     "CVE-2024-25599"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Castos Seriously Simple Podcasting allows Reflected XSS.This issue affects Seriously Simple Podcasting: from n/a through 3.0.2.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Castos Seriously Simple Podcasting allows Reflected XSS.This issue affects Seriously Simple Podcasting: from n/a through 3.0.2.",
   "severity": [
     {
       "type": "CVSS_V3",
