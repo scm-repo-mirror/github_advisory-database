@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h722-7q5c-h273",
+  "modified": "2025-12-05T15:30:27Z",
+  "published": "2025-12-05T15:30:27Z",
+  "aliases": [
+    "CVE-2025-64057"
+  ],
+  "details": "Directory traversal vulnerability in Fanvil x210 V2 2.12.20 allows unauthenticated attackers on the local network to store files in arbitrary locations and potentially modify the system configuration or other unspecified impacts.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64057"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SpikeReply/advisories/blob/main/cve/fanvil/cve-2025-64057.md"
+    },
+    {
+      "type": "WEB",
+      "url": "http://fanvil.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-05T15:15:51Z"
+  }
+}
