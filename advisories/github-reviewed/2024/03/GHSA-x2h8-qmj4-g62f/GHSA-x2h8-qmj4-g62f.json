@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2h8-qmj4-g62f",
-  "modified": "2024-03-19T18:29:23Z",
+  "modified": "2025-12-05T18:32:40Z",
   "published": "2024-03-18T17:21:46Z",
   "aliases": [
     "CVE-2024-28862"
   ],
   "summary": "ROTP 6.2.2 and 6.2.1 has 0666 permissions for the .rb files.",
-  "details": "The Ruby One Time Password library (ROTP) is an open source library for generating and validating one time passwords. Affected versions had overly permissive default permissions. Users should patch to version 6.3.0. Users unable to patch may correct file permissions after installation.\n",
+  "details": "The Ruby One Time Password library (ROTP) is an open source library for generating and validating one time passwords. Affected versions had overly permissive default permissions. Users should patch to version 6.3.0. Users unable to patch may correct file permissions after installation.",
   "severity": [
     {
       "type": "CVSS_V3",

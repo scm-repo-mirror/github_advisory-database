@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xpw-w6gg-jr37",
-  "modified": "2025-12-05T18:15:54Z",
+  "modified": "2025-12-05T18:33:07Z",
   "published": "2025-12-05T18:15:54Z",
   "aliases": [
     "CVE-2025-66471"
@@ -41,6 +41,10 @@
       "url": "https://github.com/urllib3/urllib3/security/advisories/GHSA-2xpw-w6gg-jr37"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66471"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/urllib3/urllib3/commit/c19571de34c47de3a766541b041637ba5f716ed7"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-05T18:15:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-05T17:16:04Z"
   }
 }
