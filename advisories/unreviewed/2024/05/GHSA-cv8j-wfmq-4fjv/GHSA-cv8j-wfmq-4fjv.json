@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cv8j-wfmq-4fjv",
-  "modified": "2024-07-03T18:42:45Z",
+  "modified": "2025-12-06T06:30:15Z",
   "published": "2024-05-21T15:31:42Z",
   "aliases": [
     "CVE-2021-47295"
@@ -18,6 +18,34 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47295"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/01d0d2b8b4e3cf2110baba9371c0c3d04ad5c77b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/18c3fa7a7fdbb4d21dafc8a7710ae2c1680930f6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/372ae77cf11d11fb118cbe2d37def9dd5f826abd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3abebc503a5148072052c229c6b04b329a420ecd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/53af9c793f644d5841d84d8e0ad83bd7ab47f3e0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7a6fb69bbcb21e9ce13bdf18c008c268874f0480"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7c183dc0af472dec33d2c0786a5e356baa8cad19"
     },
     {
       "type": "WEB",
