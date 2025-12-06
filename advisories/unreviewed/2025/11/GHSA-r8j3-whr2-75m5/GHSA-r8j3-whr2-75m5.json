@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8j3-whr2-75m5",
-  "modified": "2025-11-26T06:31:28Z",
+  "modified": "2025-12-06T03:30:15Z",
   "published": "2025-11-26T06:31:28Z",
   "aliases": [
     "CVE-2025-59820"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://kde.org/info/security/advisory-20250929-1.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/12/msg00006.html"
     }
   ],
   "database_specific": {
