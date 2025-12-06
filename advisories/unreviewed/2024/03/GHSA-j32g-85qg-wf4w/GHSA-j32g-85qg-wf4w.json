@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j32g-85qg-wf4w",
-  "modified": "2024-03-08T18:30:28Z",
+  "modified": "2025-12-06T00:31:33Z",
   "published": "2024-03-08T18:30:28Z",
   "aliases": [
     "CVE-2023-32969"
   ],
-  "details": "A cross-site scripting (XSS) vulnerability has been reported to affect Network & Virtual Switch. If exploited, the vulnerability could allow authenticated administrators to inject malicious code via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQuTScloud c5.1.5.2651 and later\nQTS 5.1.4.2596 build 20231128 and later\nQuTS hero h5.1.4.2596 build 20231128 and later\n",
+  "details": "A cross-site scripting (XSS) vulnerability has been reported to affect Network & Virtual Switch. If exploited, the vulnerability could allow authenticated administrators to inject malicious code via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQuTScloud c5.1.5.2651 and later\nQTS 5.1.4.2596 build 20231128 and later\nQuTS hero h5.1.4.2596 build 20231128 and later",
   "severity": [
     {
       "type": "CVSS_V3",
