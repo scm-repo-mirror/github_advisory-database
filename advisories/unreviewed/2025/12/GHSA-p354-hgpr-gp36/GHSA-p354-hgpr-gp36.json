@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p354-hgpr-gp36",
-  "modified": "2025-12-04T18:30:53Z",
+  "modified": "2025-12-07T00:30:56Z",
   "published": "2025-12-04T18:30:53Z",
   "aliases": [
     "CVE-2025-40254"
@@ -24,7 +24,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3d2e7d3b28469081ccf08301df07cc411a1cc5e9"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4689ba45296dbb3a47e70a1bc2ed0328263e48f3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/87d2429381ddcf8cbd30c8c36793a4f7916d5f99"
     },
     {
       "type": "WEB",
@@ -33,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/dfe28c4167a9259fc0c372d9f9473e1ac95cff67"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f95bef5ba0b88d971b02c776f24bd17544930a3a"
     }
   ],
   "database_specific": {

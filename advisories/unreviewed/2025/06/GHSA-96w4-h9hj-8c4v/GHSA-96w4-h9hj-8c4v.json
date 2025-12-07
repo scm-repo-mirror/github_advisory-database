@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96w4-h9hj-8c4v",
-  "modified": "2025-11-14T18:31:22Z",
+  "modified": "2025-12-07T00:30:55Z",
   "published": "2025-06-18T12:30:33Z",
   "aliases": [
     "CVE-2025-38073"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38073"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/311427c9384d93ce01f6375a83f93c1c18f7cabe"
     },
     {
       "type": "WEB",

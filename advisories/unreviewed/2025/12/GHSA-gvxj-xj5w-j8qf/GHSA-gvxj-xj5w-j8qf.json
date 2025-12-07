@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvxj-xj5w-j8qf",
-  "modified": "2025-12-04T18:30:53Z",
+  "modified": "2025-12-07T00:30:56Z",
   "published": "2025-12-04T18:30:53Z",
   "aliases": [
     "CVE-2025-40264"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40264"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/012ee5882b1830db469194466a210768ed207388"
     },
     {
       "type": "WEB",
@@ -28,11 +32,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/630360c6724e27f1aa494ba3fffe1e38c4205284"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7d277a7a58578dd62fd546ddaef459ec24ccae36"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ce0a3699244aca3acb659f143c9cb1327b210f89"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f499dfa5c98e92e72dd454eb95a1000a448f3405"
     }
   ],
   "database_specific": {

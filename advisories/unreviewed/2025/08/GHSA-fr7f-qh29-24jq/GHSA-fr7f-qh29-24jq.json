@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr7f-qh29-24jq",
-  "modified": "2025-11-18T18:32:50Z",
+  "modified": "2025-12-07T00:30:55Z",
   "published": "2025-08-19T18:31:32Z",
   "aliases": [
     "CVE-2025-38556"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38556"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3c86548a20d7bc2861aa4de044991a327bebad1a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/810189546cb6c8f36443ed091d91f1f5d2fc2ec7"
     },
     {
       "type": "WEB",

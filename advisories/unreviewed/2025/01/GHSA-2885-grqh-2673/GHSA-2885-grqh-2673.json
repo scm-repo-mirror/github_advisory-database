@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2885-grqh-2673",
-  "modified": "2025-10-15T15:30:21Z",
+  "modified": "2025-12-07T00:30:55Z",
   "published": "2025-01-23T15:31:05Z",
   "aliases": [
     "CVE-2024-57947"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/69b6a67f7052905e928d75a0c5871de50e686986"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/77bf0c4ab928ca4c9a99311f4f70ba0c17fecba9"
     },
     {
       "type": "WEB",

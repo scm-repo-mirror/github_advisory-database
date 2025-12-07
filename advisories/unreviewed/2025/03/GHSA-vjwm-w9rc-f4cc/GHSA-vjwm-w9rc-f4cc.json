@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjwm-w9rc-f4cc",
-  "modified": "2025-11-03T21:33:13Z",
+  "modified": "2025-12-07T00:30:54Z",
   "published": "2025-03-27T15:31:12Z",
   "aliases": [
     "CVE-2025-21887"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c84e125fff2615b4d9c259e762596134eddd2f27"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f77618291836168eca99e89cd175256f928f5e64"
     },
     {
       "type": "WEB",
