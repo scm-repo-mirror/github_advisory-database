@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32gj-59h5-4jf2",
-  "modified": "2025-11-06T21:31:29Z",
+  "modified": "2025-12-08T18:30:24Z",
   "published": "2025-11-06T21:31:29Z",
   "aliases": [
     "CVE-2022-50593"
   ],
   "details": "Advantech iView versions prior to v5.7.04 build 6425 contain a vulnerability within the SNMP management tool that allows for remote attackers to bypass authentication checks and reach a SQL injection vulnerability within the ‘search_term’ parameter to the ‘NetworkServlet’ endpoint. Successful exploitation allows for remote code execution with administrator privileges.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

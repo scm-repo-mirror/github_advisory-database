@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpgr-mp84-gp92",
-  "modified": "2025-10-22T00:31:37Z",
+  "modified": "2025-12-08T18:30:24Z",
   "published": "2022-05-13T01:02:54Z",
   "aliases": [
     "CVE-2019-9082"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/46488"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/151967/zzzphp-CMS-1.6.1-Cross-Site-Request-Forgery.html"
     },
     {
       "type": "WEB",

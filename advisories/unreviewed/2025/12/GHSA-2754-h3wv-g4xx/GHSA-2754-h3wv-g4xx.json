@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2754-h3wv-g4xx",
+  "modified": "2025-12-08T18:30:43Z",
+  "published": "2025-12-08T18:30:43Z",
+  "aliases": [
+    "CVE-2025-48592"
+  ],
+  "details": "In initDecoder of C2SoftDav1dDec.cpp, there is a possible out of bounds read due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48592"
+    },
+    {
+      "type": "WEB",
+      "url": "https://android.googlesource.com/platform/frameworks/av/+/8febdebcb5e8736ec013a7d64e70f50e87649b52"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2025-12-01"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-08T17:16:16Z"
+  }
+}

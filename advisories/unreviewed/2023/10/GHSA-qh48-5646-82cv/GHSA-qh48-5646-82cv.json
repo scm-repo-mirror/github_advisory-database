@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh48-5646-82cv",
-  "modified": "2024-04-04T08:57:43Z",
+  "modified": "2025-12-08T18:30:24Z",
   "published": "2023-10-27T21:30:23Z",
   "aliases": [
     "CVE-2023-40130"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://android.googlesource.com/platform/packages/services/Telecomm/+/a43a880beaa6a64348a1d0c821e8c7e98d741a79"
+    },
+    {
+      "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2023-10-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2025-12-01"
     }
   ],
   "database_specific": {

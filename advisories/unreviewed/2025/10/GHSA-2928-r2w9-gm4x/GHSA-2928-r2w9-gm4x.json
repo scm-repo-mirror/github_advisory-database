@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2928-r2w9-gm4x",
-  "modified": "2025-10-21T18:30:35Z",
+  "modified": "2025-12-08T18:30:24Z",
   "published": "2025-10-21T18:30:35Z",
   "aliases": [
     "CVE-2025-62763"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/10.1.12"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/10.1.12#Security_Fixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
     }
   ],
   "database_specific": {

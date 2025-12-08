@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xgv-g9h7-chvc",
-  "modified": "2025-12-05T18:31:11Z",
+  "modified": "2025-12-08T18:30:31Z",
   "published": "2025-12-05T18:31:11Z",
   "aliases": [
     "CVE-2025-65730"
   ],
   "details": "Authentication Bypass via Hardcoded Credentials GoAway up to v0.62.18, fixed in 0.62.19, uses a hardcoded secret for signing JWT tokens used for authentication.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-798"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-05T16:15:50Z"

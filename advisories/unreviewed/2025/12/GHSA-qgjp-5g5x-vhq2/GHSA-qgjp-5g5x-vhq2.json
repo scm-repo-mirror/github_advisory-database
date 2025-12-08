@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qgjp-5g5x-vhq2",
+  "modified": "2025-12-08T18:30:44Z",
+  "published": "2025-12-08T18:30:44Z",
+  "aliases": [
+    "CVE-2025-65799"
+  ],
+  "details": "A lack of file name validation or verification in the Attachment service of usememos memos v0.25.2 allows attackers to execute a path traversal.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65799"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/usememos/memos/pull/5218"
+    },
+    {
+      "type": "WEB",
+      "url": "https://herolab.usd.de/security-advisories/usd-2025-0056"
+    },
+    {
+      "type": "WEB",
+      "url": "http://memos.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://usememos.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-73"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-08T17:16:21Z"
+  }
+}
