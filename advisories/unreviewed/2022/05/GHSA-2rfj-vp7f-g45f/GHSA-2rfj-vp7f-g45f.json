@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rfj-vp7f-g45f",
-  "modified": "2022-10-06T18:52:05Z",
+  "modified": "2025-12-08T09:30:17Z",
   "published": "2022-05-24T19:04:14Z",
   "aliases": [
     "CVE-2021-20699"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-20699"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sharp-displays.jp.sharp/global/support/info/A5-1_vulnerability.html"
     },
     {
       "type": "WEB",
