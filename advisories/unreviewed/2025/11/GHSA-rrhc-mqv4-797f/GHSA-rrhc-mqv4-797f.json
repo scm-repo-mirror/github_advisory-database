@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrhc-mqv4-797f",
-  "modified": "2025-11-27T06:31:26Z",
+  "modified": "2025-12-08T06:30:20Z",
   "published": "2025-11-27T06:31:26Z",
   "aliases": [
     "CVE-2025-3784"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/vu/JVNVU95288056"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-338-01"
     },
     {
       "type": "WEB",
