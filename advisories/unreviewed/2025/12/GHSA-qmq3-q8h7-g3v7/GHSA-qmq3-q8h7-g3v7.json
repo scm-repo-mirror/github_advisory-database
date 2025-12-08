@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmq3-q8h7-g3v7",
-  "modified": "2025-12-02T15:30:33Z",
+  "modified": "2025-12-08T21:30:19Z",
   "published": "2025-12-02T15:30:33Z",
   "aliases": [
     "CVE-2025-59700"
   ],
   "details": "Entrust nShield Connect XC, nShield 5c, and nShield HSMi through 13.6.11, or 13.7, allow a physically proximate attacker with root access to modify the Recovery Partition (because of a lack of integrity protection).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-345"
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-02T15:15:55Z"

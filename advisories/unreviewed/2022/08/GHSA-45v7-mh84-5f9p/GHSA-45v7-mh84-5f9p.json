@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45v7-mh84-5f9p",
-  "modified": "2025-01-06T15:30:58Z",
+  "modified": "2025-12-08T21:30:17Z",
   "published": "2022-08-29T00:00:33Z",
   "aliases": [
     "CVE-2022-37055"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2022-37055"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.dlink.com/en/security-bulletin"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.fortiguard.com/outbreak-alert/d-link-multiple-devices-attack"
     }
   ],
   "database_specific": {

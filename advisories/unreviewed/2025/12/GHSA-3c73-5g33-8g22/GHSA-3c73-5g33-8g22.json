@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3c73-5g33-8g22",
-  "modified": "2025-12-02T18:30:35Z",
+  "modified": "2025-12-08T21:30:19Z",
   "published": "2025-12-02T18:30:35Z",
   "aliases": [
     "CVE-2025-59704"
   ],
   "details": "Entrust nShield Connect XC, nShield 5c, and nShield HSMi through 13.6.11, or 13.7, allow an attacker to gain access the the BIOS menu because is has no password.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-02T16:15:55Z"

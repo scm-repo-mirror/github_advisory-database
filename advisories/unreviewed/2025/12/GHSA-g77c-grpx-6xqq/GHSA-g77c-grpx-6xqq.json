@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g77c-grpx-6xqq",
-  "modified": "2025-12-08T18:30:45Z",
+  "modified": "2025-12-08T21:30:22Z",
   "published": "2025-12-08T18:30:44Z",
   "aliases": [
     "CVE-2025-48606"
   ],
   "details": "In preparePackage of InstallPackageHelper.java, there is a possible way for an app to appear hidden upon installation without a mechanism to uninstall it due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-08T18:15:51Z"
