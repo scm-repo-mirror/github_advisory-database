@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p754-4xmg-g83j",
+  "modified": "2025-12-09T21:31:47Z",
+  "published": "2025-12-09T21:31:47Z",
+  "aliases": [
+    "CVE-2025-9613"
+  ],
+  "details": "A vulnerability was discovered in the PCI Express (PCIe) Integrity and Data Encryption (IDE) specification, where insufficient guidance on tag reuse after completion timeouts may allow multiple outstanding Non-Posted Requests to share the same tag. This tag aliasing condition can result in completions being delivered to the wrong security context, potentially compromising data integrity and confidentiality.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9613"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pcisig.com/PCIeIDEStandardVulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pcisig.com/specifications"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-09T19:15:50Z"
+  }
+}

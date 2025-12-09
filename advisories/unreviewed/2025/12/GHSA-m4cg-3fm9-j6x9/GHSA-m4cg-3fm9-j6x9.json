@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4cg-3fm9-j6x9",
-  "modified": "2025-12-09T18:30:42Z",
+  "modified": "2025-12-09T21:31:41Z",
   "published": "2025-12-09T18:30:42Z",
   "aliases": [
     "CVE-2025-67541"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Lester Chan WP-ShowHide wp-showhide allows Stored XSS.This issue affects WP-ShowHide: from n/a through <= 1.05.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:29Z"

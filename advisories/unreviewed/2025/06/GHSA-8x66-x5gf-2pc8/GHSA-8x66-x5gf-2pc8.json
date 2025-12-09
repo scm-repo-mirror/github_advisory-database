@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x66-x5gf-2pc8",
-  "modified": "2025-06-23T21:31:49Z",
+  "modified": "2025-12-09T21:31:29Z",
   "published": "2025-06-23T21:31:49Z",
   "aliases": [
     "CVE-2025-6218"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6218"
+    },
+    {
+      "type": "WEB",
+      "url": "https://foresiet.com/blog/apt-c-08-winrar-directory-traversal-exploit"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-6218"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.secpod.com/blog/archive-terror-dissecting-the-winrar-cve-2025-6218-exploit-apt-c-08s-stealth-move"
     },
     {
       "type": "WEB",

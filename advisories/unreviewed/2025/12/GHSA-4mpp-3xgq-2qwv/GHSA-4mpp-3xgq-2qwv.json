@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mpp-3xgq-2qwv",
-  "modified": "2025-12-09T18:30:44Z",
+  "modified": "2025-12-09T21:31:43Z",
   "published": "2025-12-09T18:30:44Z",
   "aliases": [
     "CVE-2025-12945"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12945"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.netgear.com/000070416/December-2025-NETGEAR-Security-Advisory"
     },
     {
       "type": "WEB",
