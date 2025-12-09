@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m98w-cqp3-qcqr",
-  "modified": "2025-12-08T17:57:26Z",
+  "modified": "2025-12-09T19:18:48Z",
   "published": "2025-12-08T17:57:26Z",
   "aliases": [
     "CVE-2025-66565"
@@ -63,6 +63,10 @@
       "url": "https://github.com/gofiber/utils/security/advisories/GHSA-m98w-cqp3-qcqr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66565"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/gofiber/utils/commit/6c6cf047032b9c8dff43d29f990b4b10e9b02d47"
     },
@@ -80,6 +84,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-08T17:57:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-09T16:18:21Z"
   }
 }
