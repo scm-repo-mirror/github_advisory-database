@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gqfv-g4v7-m366",
-  "modified": "2025-12-09T17:18:04Z",
+  "modified": "2025-12-09T21:37:49Z",
   "published": "2025-12-09T17:18:04Z",
   "aliases": [
     "CVE-2025-67488"
@@ -41,6 +41,10 @@
       "url": "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-gqfv-g4v7-m366"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67488"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/siyuan-note/siyuan"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-09T17:18:04Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-09T21:16:00Z"
   }
 }
