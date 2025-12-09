@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgjp-5g5x-vhq2",
-  "modified": "2025-12-08T18:30:44Z",
+  "modified": "2025-12-09T14:25:43Z",
   "published": "2025-12-08T18:30:44Z",
   "aliases": [
     "CVE-2025-65799"
   ],
+  "summary": "memos lacks file name validation or verification",
   "details": "A lack of file name validation or verification in the Attachment service of usememos memos v0.25.2 allows attackers to execute a path traversal.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/usememos/memos"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.25.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/usememos/memos/pull/5218"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/usememos/memos/commit/5f57f48673e2054f404b2c5b497a8eaa3690591d"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/usememos/memos"
     },
     {
       "type": "WEB",
@@ -41,8 +70,8 @@
       "CWE-73"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-09T14:25:42Z",
     "nvd_published_at": "2025-12-08T17:16:21Z"
   }
 }

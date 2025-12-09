@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jcj-g9f4-qx42",
-  "modified": "2025-12-08T18:30:42Z",
+  "modified": "2025-12-09T14:25:29Z",
   "published": "2025-12-08T18:30:42Z",
   "aliases": [
     "CVE-2025-65796"
   ],
+  "summary": "memos vulnerability allows arbitrarily reactions deletion",
   "details": "Incorrect access control in usememos memos v0.25.2 allows attackers with low-level privileges to arbitrarily delete reactions made to other users' Memos.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/usememos/memos"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.25.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/usememos/memos/pull/5217"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/usememos/memos/commit/769dcd0cf9be83d472829f6e7903b201e42f6b3c"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/usememos/memos"
     },
     {
       "type": "WEB",
@@ -41,8 +70,8 @@
       "CWE-284"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-09T14:25:29Z",
     "nvd_published_at": "2025-12-08T16:15:53Z"
   }
 }
