@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7mp9-5ggg-p6pp",
+  "modified": "2025-12-09T18:30:39Z",
+  "published": "2025-12-09T18:30:39Z",
+  "aliases": [
+    "CVE-2025-63025"
+  ],
+  "details": "Missing Authorization vulnerability in Xagio SEO Xagio SEO xagio-seo allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Xagio SEO: from n/a through <= 7.1.0.29.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63025"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/xagio-seo/vulnerability/wordpress-xagio-seo-plugin-7-1-0-29-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-09T16:18:08Z"
+  }
+}

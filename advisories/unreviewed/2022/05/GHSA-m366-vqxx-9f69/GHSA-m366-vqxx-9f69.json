@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m366-vqxx-9f69",
-  "modified": "2022-06-03T00:01:44Z",
+  "modified": "2025-12-09T18:30:27Z",
   "published": "2022-05-21T00:01:07Z",
   "aliases": [
     "CVE-2022-29882"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29882"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-165073.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-471761.html"
     },
     {
       "type": "WEB",

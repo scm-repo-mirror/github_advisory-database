@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2hgv-qvvq-63hq",
+  "modified": "2025-12-09T18:30:42Z",
+  "published": "2025-12-09T18:30:42Z",
+  "aliases": [
+    "CVE-2025-67549"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in bobbingwide oik oik allows DOM-Based XSS.This issue affects oik: from n/a through <= 4.15.3.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67549"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/oik/vulnerability/wordpress-oik-plugin-4-15-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-09T16:18:30Z"
+  }
+}

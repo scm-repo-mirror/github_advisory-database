@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wmh4-8rcg-2qqf",
+  "modified": "2025-12-09T18:30:43Z",
+  "published": "2025-12-09T18:30:42Z",
+  "aliases": [
+    "CVE-2025-67557"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Rhys Wynne WP eBay Product Feeds ebay-feeds-for-wordpress allows Stored XSS.This issue affects WP eBay Product Feeds: from n/a through <= 3.4.9.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67557"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/ebay-feeds-for-wordpress/vulnerability/wordpress-wp-ebay-product-feeds-plugin-3-4-9-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-09T16:18:32Z"
+  }
+}

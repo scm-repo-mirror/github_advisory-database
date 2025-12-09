@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2q3h-7f53-9q6j",
+  "modified": "2025-12-09T18:30:38Z",
+  "published": "2025-12-09T18:30:38Z",
+  "aliases": [
+    "CVE-2025-62103"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in wpmediadownload Media Library File Download media-download allows Cross Site Request Forgery.This issue affects Media Library File Download: from n/a through <= 1.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62103"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/media-download/vulnerability/wordpress-media-library-file-download-plugin-1-4-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-09T16:18:01Z"
+  }
+}

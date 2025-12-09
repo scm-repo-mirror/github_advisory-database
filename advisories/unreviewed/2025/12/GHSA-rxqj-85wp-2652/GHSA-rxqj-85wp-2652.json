@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rxqj-85wp-2652",
+  "modified": "2025-12-09T18:30:38Z",
+  "published": "2025-12-09T18:30:38Z",
+  "aliases": [
+    "CVE-2025-62872"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in JK Social Photo Fetcher facebook-photo-fetcher allows Cross Site Request Forgery.This issue affects Social Photo Fetcher: from n/a through <= 3.0.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62872"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/facebook-photo-fetcher/vulnerability/wordpress-social-photo-fetcher-plugin-3-0-4-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-09T16:18:04Z"
+  }
+}

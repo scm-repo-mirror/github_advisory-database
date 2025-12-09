@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v9m3-xwx3-whrw",
+  "modified": "2025-12-09T18:30:38Z",
+  "published": "2025-12-09T18:30:38Z",
+  "aliases": [
+    "CVE-2025-62865"
+  ],
+  "details": "Missing Authorization vulnerability in Evan Herman Post Cloner post-cloner allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Post Cloner: from n/a through <= 1.0.0.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62865"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/post-cloner/vulnerability/wordpress-post-cloner-plugin-1-0-0-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-09T16:18:03Z"
+  }
+}

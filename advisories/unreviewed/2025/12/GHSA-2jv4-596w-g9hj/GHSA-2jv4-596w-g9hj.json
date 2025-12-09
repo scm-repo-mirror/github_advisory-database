@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2jv4-596w-g9hj",
-  "modified": "2025-12-08T21:30:22Z",
+  "modified": "2025-12-09T18:30:30Z",
   "published": "2025-12-08T18:30:44Z",
   "aliases": [
     "CVE-2025-48633"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2025-12-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-48633"
     }
   ],
   "database_specific": {

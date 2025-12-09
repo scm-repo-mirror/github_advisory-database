@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj8w-fgm6-wx7w",
-  "modified": "2022-11-09T19:02:23Z",
+  "modified": "2025-12-09T18:30:28Z",
   "published": "2022-11-08T12:00:17Z",
   "aliases": [
     "CVE-2022-43439"
@@ -18,6 +18,22 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43439"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-471761.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-570294.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-572005.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-887249.html"
     },
     {
       "type": "WEB",

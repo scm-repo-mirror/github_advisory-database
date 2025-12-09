@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vpv6-mfhw-5xw2",
+  "modified": "2025-12-09T18:30:38Z",
+  "published": "2025-12-09T18:30:38Z",
+  "aliases": [
+    "CVE-2025-62997"
+  ],
+  "details": "Insertion of Sensitive Information Into Sent Data vulnerability in levelfourdevelopment WP EasyCart wp-easycart allows Retrieve Embedded Sensitive Data.This issue affects WP EasyCart: from n/a through <= 5.8.11.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62997"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-easycart/vulnerability/wordpress-wp-easycart-plugin-5-8-11-sensitive-data-exposure-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-201"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-09T16:18:05Z"
+  }
+}

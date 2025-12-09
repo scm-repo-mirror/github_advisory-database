@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc4x-vgmq-9jch",
-  "modified": "2024-07-21T03:30:49Z",
+  "modified": "2025-12-09T18:30:28Z",
   "published": "2024-07-21T03:30:49Z",
   "aliases": [
     "CVE-2024-6933"
@@ -29,6 +29,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/LimeSurvey/LimeSurvey/commit/d656d2c7980b7642560977f4780e64533a68e13d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://community.limesurvey.org/downloads"
+    },
+    {
+      "type": "WEB",
       "url": "https://vuldb.com/?ctiid.271988"
     },
     {
@@ -42,6 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-74",
       "CWE-89"
     ],
     "severity": "MODERATE",
