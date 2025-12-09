@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj6p-3m75-g2p3",
-  "modified": "2025-12-08T22:07:47Z",
+  "modified": "2025-12-09T19:17:14Z",
   "published": "2025-12-08T22:07:47Z",
   "aliases": [
     "CVE-2025-66622"
@@ -41,6 +41,10 @@
       "url": "https://github.com/matrix-org/matrix-rust-sdk/security/advisories/GHSA-jj6p-3m75-g2p3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66622"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/matrix-org/matrix-rust-sdk/pull/5924"
     },
@@ -64,6 +68,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-08T22:07:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-09T16:18:21Z"
   }
 }

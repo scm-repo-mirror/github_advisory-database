@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-459f-x8vq-xjjm",
-  "modified": "2025-12-08T22:18:00Z",
+  "modified": "2025-12-09T19:17:06Z",
   "published": "2025-12-08T22:18:00Z",
   "aliases": [
     "CVE-2025-67487"
@@ -44,6 +44,10 @@
       "url": "https://github.com/static-web-server/static-web-server/security/advisories/GHSA-459f-x8vq-xjjm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67487"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/static-web-server/static-web-server/commit/308f0d26ceb9c2c8bd219315d0f53914763357f2"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-08T22:18:00Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-09T16:18:24Z"
   }
 }

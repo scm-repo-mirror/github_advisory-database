@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-898v-775g-777c",
-  "modified": "2025-12-09T17:19:42Z",
+  "modified": "2025-12-09T19:16:37Z",
   "published": "2025-12-09T17:19:42Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2025-67510"
+  ],
   "summary": "Neuron MySQLWriteTool allows arbitrary/destructive SQL when exposed to untrusted prompts (agent “footgun”)",
   "details": "### Impact\n\n`MySQLWriteTool` executes arbitrary SQL provided by the caller using `PDO::prepare()` + `execute()` without semantic restrictions.  \n\nThis is consistent with the name (“write tool”), but in an LLM/agent context it becomes a high-risk capability: prompt injection or indirect prompt manipulation can cause execution of destructive queries such as `DROP TABLE`, `TRUNCATE`, `DELETE`, `ALTER`, or privilege-related statements (subject to DB permissions).\n\n\n\n**Who is impacted:** Deployments that expose an agent with `MySQLWriteTool` enabled to untrusted input and/or run the tool with a DB user that has broad privileges.\n\n### Patches\n\n**Not patched in:** 2.8.11  \n\nRecommended improvements (even if keeping the tool intentionally powerful):\n\n- Provide a safer API that supports only constrained operations (e.g., `insertRecord`, `updateRecord`) with allowlisted tables/columns.\n\n- Add a policy/allowlist layer (e.g., allow only `INSERT`/`UPDATE` on selected tables; forbid `DROP/TRUNCATE/ALTER/GRANT`).\n\n- Add optional review workflow: log + require human approval for high-risk statements; or “dry-run” mode.\n\n- Document strongly that the tool must not be exposed to untrusted prompts without additional safeguards.\n\n\n\n### Workarounds\n\n- Do not enable `MySQLWriteTool` for public/untrusted agents.\n\n- Use a dedicated DB user with **least privilege**:\n\n  - no `DROP`, no `ALTER`, no `GRANT`, no access to sensitive tables unless necessary\n\n- Add an application-layer policy rejecting high-risk statements (`DROP`, `TRUNCATE`, `ALTER`, `GRANT`, `REVOKE`, `CREATE USER`, etc.).\n\n- Implement authorization gating for tool calls (RBAC, allow tool use only for trusted operators).",
   "severity": [
