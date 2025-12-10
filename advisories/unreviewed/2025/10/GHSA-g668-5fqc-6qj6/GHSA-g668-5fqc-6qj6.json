@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g668-5fqc-6qj6",
-  "modified": "2025-10-23T06:31:00Z",
+  "modified": "2025-12-10T09:30:24Z",
   "published": "2025-10-23T06:31:00Z",
   "aliases": [
     "CVE-2025-61865"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.iodata.jp/support/information/2025/10_NarSuS_App"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.iodata.jp/support/information/2025/12_CloneforWindows"
     }
   ],
   "database_specific": {
