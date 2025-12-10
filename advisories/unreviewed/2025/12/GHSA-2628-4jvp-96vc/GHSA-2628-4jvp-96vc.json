@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2628-4jvp-96vc",
-  "modified": "2025-12-09T18:30:35Z",
+  "modified": "2025-12-10T15:31:22Z",
   "published": "2025-12-09T18:30:35Z",
   "aliases": [
     "CVE-2025-14326"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-92"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-95"
     }
   ],
   "database_specific": {

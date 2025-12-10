@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxvx-cxrx-x52j",
-  "modified": "2025-12-09T18:30:35Z",
+  "modified": "2025-12-10T15:31:23Z",
   "published": "2025-12-09T18:30:35Z",
   "aliases": [
     "CVE-2025-14329"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-94"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-95"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-96"
     }
   ],
   "database_specific": {
