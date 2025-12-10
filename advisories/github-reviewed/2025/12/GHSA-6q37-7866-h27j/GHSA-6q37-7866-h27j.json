@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q37-7866-h27j",
-  "modified": "2025-12-10T09:30:25Z",
+  "modified": "2025-12-10T17:21:00Z",
   "published": "2025-12-10T09:30:24Z",
   "aliases": [
     "CVE-2025-14082"
   ],
+  "summary": "Keycloak Admin REST (Representational State Transfer) API does not properly enforce permissions",
   "details": "A flaw was found in Keycloak Admin REST (Representational State Transfer) API. This vulnerability allows information disclosure of sensitive role metadata via insufficient authorization checks on the /admin/realms/{realm}/roles endpoint.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-services"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "26.4.7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14082"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/89a8cddfd669178565ae50989c49216a945d1371"
     },
     {
       "type": "WEB",
@@ -26,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2419078"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/keycloak/keycloak"
     }
   ],
   "database_specific": {
@@ -33,8 +62,8 @@
       "CWE-284"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-10T17:21:00Z",
     "nvd_published_at": "2025-12-10T09:15:46Z"
   }
 }
