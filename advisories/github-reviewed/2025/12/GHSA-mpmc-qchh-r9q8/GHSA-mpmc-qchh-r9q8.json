@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpmc-qchh-r9q8",
-  "modified": "2025-12-09T14:26:12Z",
+  "modified": "2025-12-10T14:41:02Z",
   "published": "2025-12-08T21:30:22Z",
   "aliases": [
     "CVE-2025-65849"
@@ -25,10 +25,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.8.0"
             },
             {
-              "last_affected": "0.8.0"
+              "last_affected": "2.2.4"
             }
           ]
         }
