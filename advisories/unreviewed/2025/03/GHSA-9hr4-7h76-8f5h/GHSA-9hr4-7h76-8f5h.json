@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hr4-7h76-8f5h",
-  "modified": "2025-03-20T21:31:47Z",
+  "modified": "2025-12-10T21:31:28Z",
   "published": "2025-03-20T21:31:47Z",
   "aliases": [
     "CVE-2025-2538"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2538"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.esri.com/en-us/patches-updates/2025/portal-for-arcgis-security-2025-update-3-patch"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2jmq-pwpx-v2pq",
-  "modified": "2025-12-03T15:30:29Z",
+  "modified": "2025-12-10T21:31:29Z",
   "published": "2025-12-03T15:30:29Z",
   "aliases": [
     "CVE-2025-53841"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://techdocs.akamai.com/guardicore-platform-agent/changelog"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.akamai.com/blog/security/advisory-cve-2025-53841-guardicore-local-privilege-escalation"
     },
     {
       "type": "WEB",

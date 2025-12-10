@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m6h-q36w-xvg7",
-  "modified": "2024-11-25T21:30:48Z",
+  "modified": "2025-12-10T21:31:28Z",
   "published": "2024-02-15T09:30:35Z",
   "aliases": [
     "CVE-2024-0353"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://support.eset.com/en/ca8612-eset-customer-advisory-link-following-local-privilege-escalation-vulnerability-in-eset-products-for-windows-fixed"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/51351"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/51964"
     }
   ],
   "database_specific": {

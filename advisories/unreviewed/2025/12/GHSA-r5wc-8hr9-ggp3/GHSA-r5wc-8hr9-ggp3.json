@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r5wc-8hr9-ggp3",
-  "modified": "2025-12-10T18:30:25Z",
+  "modified": "2025-12-10T21:31:31Z",
   "published": "2025-12-10T18:30:25Z",
   "aliases": [
     "CVE-2025-34392"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://download.mw-rmm.barracudamsp.com/PDF/2025.1.1/RN_BRMM_2025.1.1_EN.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/soapwn-pwning-net-framework-applications-through-http-client-proxies-and-wsdl"
     },
     {
       "type": "WEB",

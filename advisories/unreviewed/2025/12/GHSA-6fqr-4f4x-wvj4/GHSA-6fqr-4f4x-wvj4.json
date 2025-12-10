@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6fqr-4f4x-wvj4",
+  "modified": "2025-12-10T21:31:37Z",
+  "published": "2025-12-10T21:31:37Z",
+  "aliases": [
+    "CVE-2025-63895"
+  ],
+  "details": "An issue in the Bluetooth firmware of JXL 9 Inch Car Android Double Din Player Android v12.0 allows attackers to cause a Denial of Service (DoS) via sending a crafted Link Manager Protocol (LMP) packet.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63895"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/thorat-shubham/JXL_Infotainment_CVE-2025-63895/blob/main/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "http://jxl.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-10T20:16:21Z"
+  }
+}
