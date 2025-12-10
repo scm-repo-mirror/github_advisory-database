@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x93p-w2ch-fg67",
-  "modified": "2025-12-10T18:20:55Z",
+  "modified": "2025-12-10T20:02:47Z",
   "published": "2025-12-10T18:20:55Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2025-67719"
+  ],
   "summary": "Ibexa User Bundle is missing password change validation",
   "details": "### Impact\nThe vulnerability is in the password change dialog in the back office. During the transition from v4 to v5 a mistake was made in the validation code which caused the validation of the previous password to not run as expected. This made it possible for a logged in user to change password in the back office without knowing the previous password. For example if someone logs in, leaves their workstation unlocked, and another person uses the same machine.\n\n### Credit\nThe issue was reported to us by Code-Rhapsodie. We thank them for their responsible disclosure!\nhttps://www.code-rhapsodie.fr/\n\n### Patches\n- See \"Patched versions\".\n- https://github.com/ibexa/user/commit/9d485bf385e6401c9f7ee80287d8ccd00f73dcf4\n\n### Workarounds\nNone.",
   "severity": [
