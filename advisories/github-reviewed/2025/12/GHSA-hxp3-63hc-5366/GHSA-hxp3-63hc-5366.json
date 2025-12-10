@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxp3-63hc-5366",
-  "modified": "2025-12-09T14:25:16Z",
+  "modified": "2025-12-10T15:46:17Z",
   "published": "2025-12-09T14:25:15Z",
   "aliases": [
     "CVE-2025-66645"
@@ -41,6 +41,10 @@
       "url": "https://github.com/zauberzeug/nicegui/security/advisories/GHSA-hxp3-63hc-5366"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66645"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/zauberzeug/nicegui/commit/a1b89e2a24e1911a40389ace2153a37f4eea92a9"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-09T14:25:15Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-09T22:16:15Z"
   }
 }
