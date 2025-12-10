@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjfm-hc6q-wr8h",
-  "modified": "2025-09-17T15:30:37Z",
+  "modified": "2025-12-10T18:30:21Z",
   "published": "2025-09-17T15:30:37Z",
   "aliases": [
     "CVE-2022-50353"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmmc: wmt-sdmmc: fix return value check of mmc_add_host()\n\nmmc_add_host() may return error, if we ignore its return value, the memory\nthat allocated in mmc_alloc_host() will be leaked and it will lead a kernel\ncrash because of deleting not added device in the remove path.\n\nSo fix this by checking the return value and goto error path which will call\nmmc_free_host(), besides, clk_disable_unprepare() also needs be called.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-17T15:15:33Z"

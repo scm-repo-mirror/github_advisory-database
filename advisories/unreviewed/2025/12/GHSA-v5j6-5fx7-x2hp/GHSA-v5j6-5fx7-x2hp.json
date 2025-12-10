@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5j6-5fx7-x2hp",
-  "modified": "2025-12-09T18:30:39Z",
+  "modified": "2025-12-10T18:30:24Z",
   "published": "2025-12-09T18:30:39Z",
   "aliases": [
     "CVE-2025-63024"
   ],
   "details": "Missing Authorization vulnerability in tychesoftwares Order Delivery Date for WooCommerce order-delivery-date-for-woocommerce allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Order Delivery Date for WooCommerce: from n/a through <= 4.3.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:07Z"

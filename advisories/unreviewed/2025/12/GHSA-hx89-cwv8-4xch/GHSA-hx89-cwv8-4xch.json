@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx89-cwv8-4xch",
-  "modified": "2025-12-09T21:31:48Z",
+  "modified": "2025-12-10T18:30:25Z",
   "published": "2025-12-09T21:31:48Z",
   "aliases": [
     "CVE-2021-47705"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/cncctrl-dllunregisterserver-access-violation"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/commax-ums-client-activex-control-cnc-ctrl-dll-heap-buffer-overflow"
     },
     {
       "type": "WEB",

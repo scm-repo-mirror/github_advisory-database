@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvwj-2m48-hxq3",
-  "modified": "2025-09-17T15:30:38Z",
+  "modified": "2025-12-10T18:30:21Z",
   "published": "2025-09-17T15:30:37Z",
   "aliases": [
     "CVE-2022-50366"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npowercap: intel_rapl: fix UBSAN shift-out-of-bounds issue\n\nWhen value < time_unit, the parameter of ilog2() will be zero and\nthe return value is -1. u64(-1) is too large for shift exponent\nand then will trigger shift-out-of-bounds:\n\nshift exponent 18446744073709551615 is too large for 32-bit type 'int'\nCall Trace:\n rapl_compute_time_window_core\n rapl_write_data_raw\n set_time_window\n store_constraint_time_window_us",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-17T15:15:35Z"

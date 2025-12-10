@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4jh-8v4q-hpv4",
-  "modified": "2025-12-09T18:30:39Z",
+  "modified": "2025-12-10T18:30:25Z",
   "published": "2025-12-09T18:30:39Z",
   "aliases": [
     "CVE-2025-63033"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Riyadh Ahmed Make Section &amp; Column Clickable For Elementor make-section-column-clickable-elementor allows Stored XSS.This issue affects Make Section &amp; Column Clickable For Elementor: from n/a through <= 2.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:08Z"

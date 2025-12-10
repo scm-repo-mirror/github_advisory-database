@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr2q-27gw-cc9r",
-  "modified": "2025-12-09T18:30:47Z",
+  "modified": "2025-12-10T18:30:25Z",
   "published": "2025-12-09T18:30:47Z",
   "aliases": [
     "CVE-2025-64086"
   ],
   "details": "A NULL pointer dereference vulnerability in the util.readFileIntoStream component of PDF-XChange Editor v10.7.3.401 allows attackers to cause a Denial of Service (DoS) via a crafted input.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T18:16:04Z"
