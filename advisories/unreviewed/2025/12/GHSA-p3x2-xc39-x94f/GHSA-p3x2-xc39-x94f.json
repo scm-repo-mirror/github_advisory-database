@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3x2-xc39-x94f",
-  "modified": "2025-12-09T18:30:44Z",
+  "modified": "2025-12-10T00:30:22Z",
   "published": "2025-12-09T18:30:43Z",
   "aliases": [
     "CVE-2025-67599"
   ],
   "details": "Missing Authorization vulnerability in WebToffee WebToffee eCommerce Marketing Automation decorator-woocommerce-email-customizer allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WebToffee eCommerce Marketing Automation: from n/a through <= 2.1.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:38Z"

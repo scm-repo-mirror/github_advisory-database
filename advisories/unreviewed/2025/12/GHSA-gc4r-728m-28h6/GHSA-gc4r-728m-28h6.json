@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc4r-728m-28h6",
-  "modified": "2025-12-09T18:30:43Z",
+  "modified": "2025-12-10T00:30:22Z",
   "published": "2025-12-09T18:30:43Z",
   "aliases": [
     "CVE-2025-67595"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in Ays Pro Quiz Maker quiz-maker allows Cross Site Request Forgery.This issue affects Quiz Maker: from n/a through <= 6.7.0.82.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:37Z"

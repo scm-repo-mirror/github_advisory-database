@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9jr-64x4-g2h8",
-  "modified": "2025-12-09T18:30:40Z",
+  "modified": "2025-12-10T00:30:21Z",
   "published": "2025-12-09T18:30:40Z",
   "aliases": [
     "CVE-2025-63069"
   ],
   "details": "Missing Authorization vulnerability in Vinod Dalvi Ivory Search add-search-to-menu allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Ivory Search: from n/a through <= 5.5.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:12Z"

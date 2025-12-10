@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw35-9xmg-v8xw",
-  "modified": "2025-10-13T09:30:24Z",
+  "modified": "2025-12-10T00:30:20Z",
   "published": "2025-06-17T15:31:09Z",
   "aliases": [
     "CVE-2025-49177"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2369955"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.freedesktop.org/xorg/xserver/-/commit/ab02fb96b1c701c3bb47617d965522c34befa6af"
     }
   ],
   "database_specific": {

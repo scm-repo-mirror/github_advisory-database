@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pfq-v66h-xmh2",
-  "modified": "2025-12-09T18:30:40Z",
+  "modified": "2025-12-10T00:30:21Z",
   "published": "2025-12-09T18:30:40Z",
   "aliases": [
     "CVE-2025-63070"
   ],
   "details": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Shahjada Download Manager download-manager allows Retrieve Embedded Sensitive Data.This issue affects Download Manager: from n/a through <= 3.3.32.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-497"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:12Z"
