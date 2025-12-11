@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rwj-6rc7-p77c",
-  "modified": "2025-12-10T18:43:24Z",
+  "modified": "2025-12-11T15:49:44Z",
   "published": "2025-12-10T00:02:21Z",
   "aliases": [
     "CVE-2025-67644"
@@ -41,6 +41,10 @@
       "url": "https://github.com/langchain-ai/langgraph/security/advisories/GHSA-9rwj-6rc7-p77c"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67644"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/langchain-ai/langgraph/commit/297242913f8ad2143ee3e2f72e67db0911d48e2a"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-10T00:02:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-11T00:16:23Z"
   }
 }

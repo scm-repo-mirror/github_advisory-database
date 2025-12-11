@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m654-769v-qjv7",
-  "modified": "2025-12-10T20:11:40Z",
+  "modified": "2025-12-11T15:51:30Z",
   "published": "2025-12-10T20:11:40Z",
   "aliases": [
     "CVE-2025-67718"
@@ -60,8 +60,16 @@
       "url": "https://github.com/formio/formio/security/advisories/GHSA-m654-769v-qjv7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67718"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/formio/formio/commit/1665b7c99e3cf3246db7ff0b4ff732231dc6903b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/formio/formio/commit/1836bdd9f55f5888ff397c257b2108c09d3de478"
     },
     {
       "type": "PACKAGE",
@@ -75,6 +83,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-10T20:11:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-11T01:16:01Z"
   }
 }

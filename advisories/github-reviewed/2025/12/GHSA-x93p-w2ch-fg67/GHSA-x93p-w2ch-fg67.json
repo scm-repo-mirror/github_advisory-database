@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x93p-w2ch-fg67",
-  "modified": "2025-12-10T20:02:47Z",
+  "modified": "2025-12-11T15:50:05Z",
   "published": "2025-12-10T18:20:55Z",
   "aliases": [
     "CVE-2025-67719"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ibexa/user/security/advisories/GHSA-x93p-w2ch-fg67"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67719"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ibexa/user/commit/9d485bf385e6401c9f7ee80287d8ccd00f73dcf4"
     },
@@ -60,6 +64,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-10T18:20:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-11T02:16:18Z"
   }
 }
