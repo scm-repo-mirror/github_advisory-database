@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjf5-xgmq-5525",
-  "modified": "2025-11-27T08:59:10Z",
+  "modified": "2025-12-11T21:55:34Z",
   "published": "2025-11-25T19:07:05Z",
   "aliases": [
     "CVE-2025-58360"
@@ -108,6 +108,10 @@
     {
       "type": "WEB",
       "url": "https://osgeo-org.atlassian.net/browse/GEOS-11682"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-58360"
     }
   ],
   "database_specific": {
