@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq8m-42gh-wq7r",
-  "modified": "2025-12-11T18:43:18Z",
+  "modified": "2025-12-11T22:02:18Z",
   "published": "2025-12-10T15:31:24Z",
   "aliases": [
     "CVE-2025-8110"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/12/11/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/12/11/4"
     }
   ],
   "database_specific": {
