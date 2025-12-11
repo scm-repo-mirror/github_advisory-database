@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qjh2-vwwm-cqj6",
-  "modified": "2025-09-18T18:30:28Z",
+  "modified": "2025-12-11T18:30:34Z",
   "published": "2025-09-18T18:30:28Z",
   "aliases": [
     "CVE-2023-53435"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncassini: Fix a memory leak in the error handling path of cas_init_one()\n\ncas_saturn_firmware_init() allocates some memory using vmalloc(). This\nmemory is freed in the .remove() function but not it the error handling\npath of the probe.\n\nAdd the missing vfree() to avoid a memory leak, should an error occur.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T16:15:47Z"

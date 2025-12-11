@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw35-9xmg-v8xw",
-  "modified": "2025-12-10T00:30:20Z",
+  "modified": "2025-12-11T18:30:31Z",
   "published": "2025-06-17T15:31:09Z",
   "aliases": [
     "CVE-2025-49177"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.freedesktop.org/xorg/xserver/-/commit/ab02fb96b1c701c3bb47617d965522c34befa6af"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.x.org/wiki/Development/Security"
     }
   ],
   "database_specific": {

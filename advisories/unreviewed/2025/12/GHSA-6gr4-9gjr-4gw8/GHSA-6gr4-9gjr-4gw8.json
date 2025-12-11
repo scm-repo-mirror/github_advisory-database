@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6gr4-9gjr-4gw8",
+  "modified": "2025-12-11T18:30:45Z",
+  "published": "2025-12-11T18:30:45Z",
+  "aliases": [
+    "CVE-2025-65471"
+  ],
+  "details": "An arbitrary file upload vulnerability in the /admin/manager.php component of EasyImages 2.0 v2.8.6 and below allows attackers to execute arbitrary code via uploading a crafted PHP file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65471"
+    },
+    {
+      "type": "WEB",
+      "url": "https://congsec.cn/?id=20251102153546-i712jss"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/CongSec/cd3d3ee57b8e6f83c7038e2263c15120"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-11T17:15:57Z"
+  }
+}

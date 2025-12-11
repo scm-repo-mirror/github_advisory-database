@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9wm-ppg2-pc92",
-  "modified": "2025-10-01T09:30:25Z",
+  "modified": "2025-12-11T18:30:35Z",
   "published": "2025-10-01T09:30:25Z",
   "aliases": [
     "CVE-2025-39926"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngenetlink: fix genl_bind() invoking bind() after -EPERM\n\nPer family bind/unbind callbacks were introduced to allow families\nto track multicast group consumer presence, e.g. to start or stop\nproducing events depending on listeners.\n\nHowever, in genl_bind() the bind() callback was invoked even if\ncapability checks failed and ret was set to -EPERM. This means that\ncallbacks could run on behalf of unauthorized callers while the\nsyscall still returned failure to user space.\n\nFix this by only invoking bind() after \"if (ret) break;\" check\ni.e. after permission checks have succeeded.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T08:15:35Z"

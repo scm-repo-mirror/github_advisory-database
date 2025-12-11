@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfp4-h3mc-c4hv",
-  "modified": "2025-12-09T18:30:37Z",
+  "modified": "2025-12-11T18:30:42Z",
   "published": "2025-12-09T18:30:37Z",
   "aliases": [
     "CVE-2025-62102"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in apasionados DoFollow Case by Case dofollow-case-by-case allows Cross Site Request Forgery.This issue affects DoFollow Case by Case: from n/a through <= 3.5.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:01Z"

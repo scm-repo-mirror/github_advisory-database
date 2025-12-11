@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jhfh-g9jf-gfpv",
-  "modified": "2025-09-18T15:30:34Z",
+  "modified": "2025-12-11T18:30:34Z",
   "published": "2025-09-18T15:30:34Z",
   "aliases": [
     "CVE-2023-53384"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mwifiex: avoid possible NULL skb pointer dereference\n\nIn 'mwifiex_handle_uap_rx_forward()', always check the value\nreturned by 'skb_copy()' to avoid potential NULL pointer\ndereference in 'mwifiex_uap_queue_bridged_pkt()', and drop\noriginal skb in case of copying failure.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T14:15:41Z"

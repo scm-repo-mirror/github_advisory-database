@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m38w-46xg-v336",
-  "modified": "2025-09-18T15:30:34Z",
+  "modified": "2025-12-11T18:30:34Z",
   "published": "2025-09-18T15:30:34Z",
   "aliases": [
     "CVE-2023-53386"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: Fix potential use-after-free when clear keys\n\nSimilar to commit c5d2b6fa26b5 (\"Bluetooth: Fix use-after-free in\nhci_remove_ltk/hci_remove_irk\"). We can not access k after kfree_rcu()\ncall.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T14:15:41Z"

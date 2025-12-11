@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm7p-qhqq-3564",
-  "modified": "2025-09-18T18:30:28Z",
+  "modified": "2025-12-11T18:30:34Z",
   "published": "2025-09-18T18:30:28Z",
   "aliases": [
     "CVE-2023-53436"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: snic: Fix possible memory leak if device_add() fails\n\nIf device_add() returns error, the name allocated by dev_set_name() needs\nbe freed. As the comment of device_add() says, put_device() should be used\nto give up the reference in the error path. So fix this by calling\nput_device(), then the name can be freed in kobject_cleanp().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T16:15:47Z"

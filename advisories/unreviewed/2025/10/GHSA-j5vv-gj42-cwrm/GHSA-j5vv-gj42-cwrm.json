@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5vv-gj42-cwrm",
-  "modified": "2025-10-01T12:30:27Z",
+  "modified": "2025-12-11T18:30:36Z",
   "published": "2025-10-01T12:30:27Z",
   "aliases": [
     "CVE-2022-50422"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: libsas: Fix use-after-free bug in smp_execute_task_sg()\n\nWhen executing SMP task failed, the smp_execute_task_sg() calls del_timer()\nto delete \"slow_task->timer\". However, if the timer handler\nsas_task_internal_timedout() is running, the del_timer() in\nsmp_execute_task_sg() will not stop it and a UAF will happen. The process\nis shown below:\n\n      (thread 1)               |        (thread 2)\nsmp_execute_task_sg()          | sas_task_internal_timedout()\n ...                           |\n del_timer()                   |\n ...                           |  ...\n sas_free_task(task)           |\n  kfree(task->slow_task) //FREE|\n                               |  task->slow_task->... //USE\n\nFix by calling del_timer_sync() in smp_execute_task_sg(), which makes sure\nthe timer handler have finished before the \"task->slow_task\" is\ndeallocated.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:33Z"

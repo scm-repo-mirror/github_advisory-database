@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr9x-3gv2-g88h",
-  "modified": "2022-08-29T20:06:48Z",
+  "modified": "2025-12-11T18:30:31Z",
   "published": "2022-08-27T00:00:41Z",
   "aliases": [
     "CVE-2022-36548"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/HashenUdara/edoc-doctor-appointment-system"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/onEpAth936/cve/blob/master/bug_e/edoc-doctor-appointment-system/Stored%20Cross%20Site%20Scripting%20%28XSS%29.md"
     },
     {
       "type": "WEB",

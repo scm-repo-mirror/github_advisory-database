@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx4q-q596-qrmv",
-  "modified": "2025-10-01T09:30:25Z",
+  "modified": "2025-12-11T18:30:35Z",
   "published": "2025-10-01T09:30:25Z",
   "aliases": [
     "CVE-2025-39924"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nerofs: fix invalid algorithm for encoded extents\n\nThe current algorithm sanity checks do not properly apply to new\nencoded extents.\n\nUnify the algorithm check with Z_EROFS_COMPRESSION(_RUNTIME)_MAX\nand ensure consistency with sbi->available_compr_algs.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T08:15:35Z"
