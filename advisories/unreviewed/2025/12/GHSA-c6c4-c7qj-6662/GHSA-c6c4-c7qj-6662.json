@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6c4-c7qj-6662",
-  "modified": "2025-12-09T18:30:41Z",
+  "modified": "2025-12-11T21:31:27Z",
   "published": "2025-12-09T18:30:41Z",
   "aliases": [
     "CVE-2025-66532"
   ],
   "details": "Missing Authorization vulnerability in Mikado-Themes Powerlift powerlift allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Powerlift: from n/a through < 3.2.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:20Z"

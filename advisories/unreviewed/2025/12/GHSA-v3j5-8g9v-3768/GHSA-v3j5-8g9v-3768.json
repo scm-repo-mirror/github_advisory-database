@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3j5-8g9v-3768",
-  "modified": "2025-12-09T18:30:42Z",
+  "modified": "2025-12-11T21:31:27Z",
   "published": "2025-12-09T18:30:42Z",
   "aliases": [
     "CVE-2025-67519"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Shahjahan Jewel Ninja Tables ninja-tables allows SQL Injection.This issue affects Ninja Tables: from n/a through <= 5.2.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:25Z"

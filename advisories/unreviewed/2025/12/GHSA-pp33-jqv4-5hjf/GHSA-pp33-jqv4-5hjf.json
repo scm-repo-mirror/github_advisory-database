@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp33-jqv4-5hjf",
-  "modified": "2025-12-09T18:30:41Z",
+  "modified": "2025-12-11T21:31:27Z",
   "published": "2025-12-09T18:30:41Z",
   "aliases": [
     "CVE-2025-67518"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in LambertGroup Accordion Slider PRO accordion_slider_pro allows Blind SQL Injection.This issue affects Accordion Slider PRO: from n/a through <= 1.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:25Z"
