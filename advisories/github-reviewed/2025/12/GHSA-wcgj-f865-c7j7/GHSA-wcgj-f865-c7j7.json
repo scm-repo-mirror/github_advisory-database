@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcgj-f865-c7j7",
-  "modified": "2025-12-10T21:54:41Z",
+  "modified": "2025-12-11T15:48:10Z",
   "published": "2025-12-10T21:31:24Z",
   "aliases": [
     "CVE-2025-67490"
@@ -60,6 +60,10 @@
       "url": "https://github.com/auth0/nextjs-auth0/security/advisories/GHSA-wcgj-f865-c7j7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67490"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/auth0/nextjs-auth0/commit/26cc8a7c60f4b134700912736f991a25bd6bbf0b"
     },
@@ -75,6 +79,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-10T21:31:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-10T23:15:48Z"
   }
 }

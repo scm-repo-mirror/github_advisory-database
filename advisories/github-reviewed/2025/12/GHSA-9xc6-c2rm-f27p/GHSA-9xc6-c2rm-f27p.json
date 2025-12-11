@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9xc6-c2rm-f27p",
-  "modified": "2025-12-10T15:47:12Z",
+  "modified": "2025-12-11T15:48:01Z",
   "published": "2025-12-10T15:47:12Z",
   "aliases": [
     "CVE-2025-66474"
@@ -79,6 +79,10 @@
       "url": "https://github.com/xwiki/xwiki-rendering/security/advisories/GHSA-9xc6-c2rm-f27p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66474"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/xwiki/xwiki-platform/commit/12b780ccd5bca5fc8f74f46648d7e02fa04fbc11"
     },
@@ -114,6 +118,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-10T15:47:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-10T22:16:28Z"
   }
 }

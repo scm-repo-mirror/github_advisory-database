@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhr6-6cgv-6638",
-  "modified": "2025-12-10T21:30:55Z",
+  "modified": "2025-12-11T15:47:30Z",
   "published": "2025-12-10T21:30:55Z",
   "aliases": [
     "CVE-2025-66033"
@@ -44,6 +44,10 @@
       "url": "https://github.com/okta/okta-sdk-java/security/advisories/GHSA-qhr6-6cgv-6638"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66033"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/okta/okta-sdk-java/commit/1daa9229a70fc38fb252aeaa637f82d0b0729b3f"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-10T21:30:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-10T22:16:27Z"
   }
 }
