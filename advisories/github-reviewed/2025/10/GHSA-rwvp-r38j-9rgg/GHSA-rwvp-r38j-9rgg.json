@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwvp-r38j-9rgg",
-  "modified": "2025-11-05T22:09:47Z",
+  "modified": "2025-12-11T19:44:54Z",
   "published": "2025-10-10T12:30:57Z",
   "aliases": [
     "CVE-2025-11579"
@@ -29,6 +29,25 @@
             },
             {
               "fixed": "2.2.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/nwaples/rardecode"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.1.3"
             }
           ]
         }
