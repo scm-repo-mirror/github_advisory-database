@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7v9-55p9-h53q",
-  "modified": "2025-12-09T18:30:38Z",
+  "modified": "2025-12-11T00:30:29Z",
   "published": "2025-12-09T18:30:38Z",
   "aliases": [
     "CVE-2025-62734"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in Michael Revellin-Clerc Media Library Downloader media-library-downloader allows Cross Site Request Forgery.This issue affects Media Library Downloader: from n/a through <= 1.4.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:02Z"

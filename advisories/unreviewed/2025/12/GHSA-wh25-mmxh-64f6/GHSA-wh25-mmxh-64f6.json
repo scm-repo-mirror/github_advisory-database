@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh25-mmxh-64f6",
-  "modified": "2025-12-09T18:30:43Z",
+  "modified": "2025-12-11T00:30:32Z",
   "published": "2025-12-09T18:30:43Z",
   "aliases": [
     "CVE-2025-67568"
   ],
   "details": "Missing Authorization vulnerability in xtemos Basel basel allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Basel: from n/a through <= 5.9.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:33Z"

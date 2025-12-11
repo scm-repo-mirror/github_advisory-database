@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3662-gvg6-j9xx",
-  "modified": "2025-12-09T18:30:42Z",
+  "modified": "2025-12-11T00:30:32Z",
   "published": "2025-12-09T18:30:42Z",
   "aliases": [
     "CVE-2025-67545"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in FirePlugins FireBox firebox allows Stored XSS.This issue affects FireBox: from n/a through <= 3.1.0-free.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:18:30Z"

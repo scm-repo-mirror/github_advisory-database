@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jrx-v69h-fw3c",
-  "modified": "2025-12-09T18:30:37Z",
+  "modified": "2025-12-11T00:30:28Z",
   "published": "2025-12-09T18:30:37Z",
   "aliases": [
     "CVE-2025-49348"
   ],
   "details": "Missing Authorization vulnerability in Hype Hype pico allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Hype: from n/a through <= 1.0.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T16:17:58Z"

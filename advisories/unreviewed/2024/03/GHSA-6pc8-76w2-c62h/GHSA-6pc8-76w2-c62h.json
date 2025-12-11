@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pc8-76w2-c62h",
-  "modified": "2024-03-08T18:30:30Z",
+  "modified": "2025-12-11T00:30:26Z",
   "published": "2024-03-08T18:30:30Z",
   "aliases": [
     "CVE-2023-34980"
   ],
-  "details": "An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow authenticated administrators to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 4.5.4.2627 build 20231225 and later\nQuTS hero h4.5.4.2626 build 20231225 and later\n",
+  "details": "An OS command injection vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow authenticated administrators to execute commands via a network.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 4.5.4.2627 build 20231225 and later\nQuTS hero h4.5.4.2626 build 20231225 and later",
   "severity": [
     {
       "type": "CVSS_V3",
