@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mj94-g7gv-r97m",
-  "modified": "2025-09-18T18:30:26Z",
+  "modified": "2025-12-11T15:30:30Z",
   "published": "2025-09-18T18:30:26Z",
   "aliases": [
     "CVE-2022-50404"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbdev: fbcon: release buffer when fbcon_do_set_font() failed\n\nsyzbot is reporting memory leak at fbcon_do_set_font() [1], for\ncommit a5a923038d70 (\"fbdev: fbcon: Properly revert changes when\nvc_resize() failed\") missed that the buffer might be newly allocated\nby fbcon_set_font().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T16:15:43Z"

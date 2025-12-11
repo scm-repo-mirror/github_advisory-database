@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvh4-4hm5-gx4x",
-  "modified": "2025-12-09T03:31:08Z",
+  "modified": "2025-12-11T15:30:31Z",
   "published": "2025-12-09T03:31:08Z",
   "aliases": [
     "CVE-2013-10031"
   ],
   "details": "Plack-Middleware-Session versions before 0.17 may be vulnerable to HMAC comparison timing attacks",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-1254"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-09T01:16:42Z"

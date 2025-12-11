@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c3f-fwwh-c3v4",
-  "modified": "2025-09-18T18:30:27Z",
+  "modified": "2025-12-11T15:30:30Z",
   "published": "2025-09-18T18:30:27Z",
   "aliases": [
     "CVE-2023-53423"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nobjtool: Fix memory leak in create_static_call_sections()\n\nstrdup() allocates memory for key_name. We need to release the memory in\nthe following error paths. Add free() to avoid memory leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T16:15:46Z"

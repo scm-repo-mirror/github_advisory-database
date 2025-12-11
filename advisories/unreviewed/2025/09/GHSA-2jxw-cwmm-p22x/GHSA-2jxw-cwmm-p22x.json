@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2jxw-cwmm-p22x",
-  "modified": "2025-09-18T18:30:27Z",
+  "modified": "2025-12-11T15:30:30Z",
   "published": "2025-09-18T18:30:27Z",
   "aliases": [
     "CVE-2023-53422"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: fw: fix memory leak in debugfs\n\nFix a memory leak that occurs when reading the fw_info\nfile all the way, since we return NULL indicating no\nmore data, but don't free the status tracking object.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T16:15:46Z"

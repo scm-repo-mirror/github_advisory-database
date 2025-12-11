@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhg5-4g62-qm2x",
-  "modified": "2025-09-17T15:30:39Z",
+  "modified": "2025-12-11T15:30:30Z",
   "published": "2025-09-17T15:30:38Z",
   "aliases": [
     "CVE-2023-53357"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmd/raid10: check slab-out-of-bounds in md_bitmap_get_counter\n\nIf we write a large number to md/bitmap_set_bits, md_bitmap_checkpage()\nwill return -EINVAL because 'page >= bitmap->pages', but the return value\nwas not checked immediately in md_bitmap_get_counter() in order to set\n*blocks value and slab-out-of-bounds occurs.\n\nMove check of 'page >= bitmap->pages' to md_bitmap_get_counter() and\nreturn directly if true.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-17T15:15:39Z"
