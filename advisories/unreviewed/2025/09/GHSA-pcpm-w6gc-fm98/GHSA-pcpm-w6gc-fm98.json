@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcpm-w6gc-fm98",
-  "modified": "2025-09-18T18:30:27Z",
+  "modified": "2025-12-12T21:31:31Z",
   "published": "2025-09-18T18:30:27Z",
   "aliases": [
     "CVE-2022-50418"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath11k: mhi: fix potential memory leak in ath11k_mhi_register()\n\nmhi_alloc_controller() allocates a memory space for mhi_ctrl. When gets\nsome error, mhi_ctrl should be freed with mhi_free_controller(). But\nwhen ath11k_mhi_read_addr_from_dt() fails, the function returns without\ncalling mhi_free_controller(), which will lead to a memory leak.\n\nWe can fix it by calling mhi_free_controller() when\nath11k_mhi_read_addr_from_dt() fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T16:15:45Z"

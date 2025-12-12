@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x732-54q6-pv67",
-  "modified": "2025-09-22T21:30:18Z",
+  "modified": "2025-12-12T21:31:32Z",
   "published": "2025-09-22T21:30:18Z",
   "aliases": [
     "CVE-2025-39858"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\neth: mlx4: Fix IS_ERR() vs NULL check bug in mlx4_en_create_rx_ring\n\nReplace NULL check with IS_ERR() check after calling page_pool_create()\nsince this function returns error pointers (ERR_PTR).\nUsing NULL check could lead to invalid pointer dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-19T16:15:44Z"

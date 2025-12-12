@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9rq-5qw9-8hw2",
-  "modified": "2025-09-29T12:30:26Z",
+  "modified": "2025-12-12T21:31:31Z",
   "published": "2025-09-18T15:30:33Z",
   "aliases": [
     "CVE-2022-50399"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: atomisp: prevent integer overflow in sh_css_set_black_frame()\n\nThe \"height\" and \"width\" values come from the user so the \"height * width\"\nmultiplication can overflow.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T14:15:39Z"

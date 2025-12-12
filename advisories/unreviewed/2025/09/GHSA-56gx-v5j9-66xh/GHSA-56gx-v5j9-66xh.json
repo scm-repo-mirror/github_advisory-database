@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56gx-v5j9-66xh",
-  "modified": "2025-09-18T18:30:28Z",
+  "modified": "2025-12-12T21:31:31Z",
   "published": "2025-09-18T18:30:28Z",
   "aliases": [
     "CVE-2023-53443"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmfd: arizona: Use pm_runtime_resume_and_get() to prevent refcnt leak\n\nIn arizona_clk32k_enable(), we should use pm_runtime_resume_and_get()\nas pm_runtime_get_sync() will increase the refcnt even when it\nreturns an error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T16:15:48Z"

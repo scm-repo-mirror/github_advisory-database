@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96pr-35f4-cf4c",
-  "modified": "2024-04-04T00:29:35Z",
+  "modified": "2025-12-12T21:31:27Z",
   "published": "2022-05-24T16:45:12Z",
   "aliases": [
     "CVE-2018-4063"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2018-0748"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-4063"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.forescout.com/blog/ot-network-security-threats-industrial-routers-under-attack"
     },
     {
       "type": "WEB",
