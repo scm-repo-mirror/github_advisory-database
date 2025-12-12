@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxr7-4mfg-37c7",
-  "modified": "2025-09-18T15:30:33Z",
+  "modified": "2025-12-12T18:30:28Z",
   "published": "2025-09-18T15:30:33Z",
   "aliases": [
     "CVE-2023-53373"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: seqiv - Handle EBUSY correctly\n\nAs it is seqiv only handles the special return value of EINPROGERSS,\nwhich means that in all other cases it will free data related to the\nrequest.\n\nHowever, as the caller of seqiv may specify MAY_BACKLOG, we also need\nto expect EBUSY and treat it in the same way.  Otherwise backlogged\nrequests will trigger a use-after-free.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T14:15:39Z"

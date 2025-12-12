@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr9x-wvq6-fxmc",
-  "modified": "2025-09-18T18:30:27Z",
+  "modified": "2025-12-12T18:30:28Z",
   "published": "2025-09-18T18:30:27Z",
   "aliases": [
     "CVE-2022-50414"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: fcoe: Fix transport not deattached when fcoe_if_init() fails\n\nfcoe_init() calls fcoe_transport_attach(&fcoe_sw_transport), but when\nfcoe_if_init() fails, &fcoe_sw_transport is not detached and leaves freed\n&fcoe_sw_transport on fcoe_transports list. This causes panic when\nreinserting module.\n\n BUG: unable to handle page fault for address: fffffbfff82e2213\n RIP: 0010:fcoe_transport_attach+0xe1/0x230 [libfcoe]\n Call Trace:\n  <TASK>\n  do_one_initcall+0xd0/0x4e0\n  load_module+0x5eee/0x7210\n  ...",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T16:15:44Z"

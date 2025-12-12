@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27hr-9v6h-xmx3",
-  "modified": "2025-04-18T15:31:35Z",
+  "modified": "2025-12-12T18:30:27Z",
   "published": "2025-03-03T03:31:18Z",
   "aliases": [
     "CVE-2025-25952"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/VvV1per/Vulnerability-Research-CVEs/tree/main/CVE-2025-25952"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/el-viper/cve-research/tree/main/CVEs/CVE-2025-25952"
     }
   ],
   "database_specific": {

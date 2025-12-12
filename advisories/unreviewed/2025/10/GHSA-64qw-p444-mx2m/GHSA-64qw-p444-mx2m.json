@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64qw-p444-mx2m",
-  "modified": "2025-10-01T09:30:25Z",
+  "modified": "2025-12-12T18:30:28Z",
   "published": "2025-10-01T09:30:25Z",
   "aliases": [
     "CVE-2025-39918"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mt76: fix linked list corruption\n\nNever leave scheduled wcid entries on the temporary on-stack list",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T08:15:35Z"

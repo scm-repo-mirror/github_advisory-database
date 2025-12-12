@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j88-p9vm-9wrx",
-  "modified": "2025-09-18T15:30:32Z",
+  "modified": "2025-12-12T18:30:28Z",
   "published": "2025-09-18T15:30:32Z",
   "aliases": [
     "CVE-2022-50384"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nstaging: vme_user: Fix possible UAF in tsi148_dma_list_add\n\nSmatch report warning as follows:\n\ndrivers/staging/vme_user/vme_tsi148.c:1757 tsi148_dma_list_add() warn:\n  '&entry->list' not removed from list\n\nIn tsi148_dma_list_add(), the error path \"goto err_dma\" will not\nremove entry->list from list->entries, but entry will be freed,\nthen list traversal may cause UAF.\n\nFix by removeing it from list->entries before free().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T14:15:37Z"

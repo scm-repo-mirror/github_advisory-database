@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8wr-29h3-4xqr",
-  "modified": "2025-09-17T15:30:39Z",
+  "modified": "2025-12-12T18:30:27Z",
   "published": "2025-09-17T15:30:39Z",
   "aliases": [
     "CVE-2023-53358"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix racy issue under cocurrent smb2 tree disconnect\n\nThere is UAF issue under cocurrent smb2 tree disconnect.\nThis patch introduce TREE_CONN_EXPIRE flags for tcon to avoid cocurrent\naccess.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-17T15:15:39Z"

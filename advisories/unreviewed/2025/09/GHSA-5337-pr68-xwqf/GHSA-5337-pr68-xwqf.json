@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5337-pr68-xwqf",
-  "modified": "2025-09-18T15:30:33Z",
+  "modified": "2025-12-12T18:30:28Z",
   "published": "2025-09-18T15:30:33Z",
   "aliases": [
     "CVE-2023-53371"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/mlx5e: fix memory leak in mlx5e_fs_tt_redirect_any_create\n\nThe memory pointed to by the fs->any pointer is not freed in the error\npath of mlx5e_fs_tt_redirect_any_create, which can lead to a memory leak.\nFix by freeing the memory in the error path, thereby making the error path\nidentical to mlx5e_fs_tt_redirect_any_destroy().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T14:15:39Z"

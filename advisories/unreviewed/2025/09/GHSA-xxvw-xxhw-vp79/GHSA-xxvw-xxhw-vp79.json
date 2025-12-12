@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxvw-xxhw-vp79",
-  "modified": "2025-09-17T15:30:39Z",
+  "modified": "2025-12-12T18:30:27Z",
   "published": "2025-09-17T15:30:39Z",
   "aliases": [
     "CVE-2023-53361"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nLoongArch: mm: Add p?d_leaf() definitions\n\nWhen I do LTP test, LTP test case ksm06 caused panic at\n\tbreak_ksm_pmd_entry\n\t  -> pmd_leaf (Huge page table but False)\n\t  -> pte_present (panic)\n\nThe reason is pmd_leaf() is not defined, So like commit 501b81046701\n(\"mips: mm: add p?d_leaf() definitions\") add p?d_leaf() definition for\nLoongArch.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-17T15:15:40Z"

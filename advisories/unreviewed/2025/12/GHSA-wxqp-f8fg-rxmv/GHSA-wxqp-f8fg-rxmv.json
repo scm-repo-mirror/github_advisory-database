@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxqp-f8fg-rxmv",
-  "modified": "2025-12-04T18:30:53Z",
+  "modified": "2025-12-12T18:30:29Z",
   "published": "2025-12-04T18:30:53Z",
   "aliases": [
     "CVE-2025-40256"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d6fe5c740c573af10943b8353992e1325cdb2715"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f7d879c19d306512c2e260f37e8a3e5c85e37c50"
     }
   ],
   "database_specific": {

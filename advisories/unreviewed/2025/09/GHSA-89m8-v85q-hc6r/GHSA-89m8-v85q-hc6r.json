@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89m8-v85q-hc6r",
-  "modified": "2025-09-18T18:30:27Z",
+  "modified": "2025-12-12T18:30:28Z",
   "published": "2025-09-18T18:30:27Z",
   "aliases": [
     "CVE-2022-50416"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nirqchip/wpcm450: Fix memory leak in wpcm450_aic_of_init()\n\nIf of_iomap() failed, 'aic' should be freed before return. Otherwise\nthere is a memory leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-18T16:15:44Z"
