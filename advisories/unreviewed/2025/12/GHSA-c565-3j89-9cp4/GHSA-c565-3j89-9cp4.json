@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c565-3j89-9cp4",
+  "modified": "2025-12-12T12:30:25Z",
+  "published": "2025-12-12T12:30:25Z",
+  "aliases": [
+    "CVE-2025-12841"
+  ],
+  "details": "The Bookit WordPress plugin before 2.5.1 has a publicly accessible REST endpoint that allows unauthenticated update of the plugins Stripe payment options.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12841"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/60cb3d5f-1aa5-4858-ab84-07fe7c023fdd"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-12T11:15:51Z"
+  }
+}
