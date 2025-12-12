@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4h9-gwv3-r4m4",
-  "modified": "2025-12-09T19:18:27Z",
+  "modified": "2025-12-12T21:52:40Z",
   "published": "2025-12-08T22:03:19Z",
   "aliases": [
     "CVE-2025-66568"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/SAML-Toolkits/ruby-saml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-saml/CVE-2025-66568.yml"
     }
   ],
   "database_specific": {
