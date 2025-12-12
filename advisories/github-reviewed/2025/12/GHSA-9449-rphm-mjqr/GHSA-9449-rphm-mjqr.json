@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9449-rphm-mjqr",
-  "modified": "2025-12-11T21:48:14Z",
+  "modified": "2025-12-12T16:11:59Z",
   "published": "2025-12-11T17:01:13Z",
   "aliases": [
     "CVE-2025-67737"
@@ -44,6 +44,10 @@
       "url": "https://github.com/AzuraCast/AzuraCast/security/advisories/GHSA-9449-rphm-mjqr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67737"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/AzuraCast/AzuraCast/commit/34620dbad93f6cd8e209a4220e3e53c7c5fea844"
     },
@@ -59,6 +63,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-11T17:01:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-12T07:15:45Z"
   }
 }
