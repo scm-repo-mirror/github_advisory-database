@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2853-mpq7-6f9j",
-  "modified": "2025-12-06T15:30:16Z",
+  "modified": "2025-12-12T15:30:26Z",
   "published": "2025-12-06T15:30:16Z",
   "aliases": [
     "CVE-2025-14139"
@@ -46,7 +46,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-120"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
