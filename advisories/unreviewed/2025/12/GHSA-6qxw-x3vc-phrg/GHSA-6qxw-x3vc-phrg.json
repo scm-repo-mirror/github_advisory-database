@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qxw-x3vc-phrg",
-  "modified": "2025-12-14T06:30:23Z",
+  "modified": "2025-12-14T15:30:17Z",
   "published": "2025-12-14T06:30:23Z",
   "aliases": [
     "CVE-2025-67896"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2025/12/11/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/12/14/1"
     }
   ],
   "database_specific": {
