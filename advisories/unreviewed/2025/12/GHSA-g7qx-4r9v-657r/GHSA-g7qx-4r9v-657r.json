@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7qx-4r9v-657r",
-  "modified": "2025-12-12T21:31:39Z",
+  "modified": "2025-12-15T21:30:30Z",
   "published": "2025-12-12T21:31:39Z",
   "aliases": [
     "CVE-2025-43516"
   ],
   "details": "A session management issue was addressed with improved checks. This issue is fixed in macOS Sonoma 14.8.3, macOS Sequoia 15.7.3. A user with Voice Control enabled may be able to transcribe another user's activity.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-384"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-12T21:15:56Z"

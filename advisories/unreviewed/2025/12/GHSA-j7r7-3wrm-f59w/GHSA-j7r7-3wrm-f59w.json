@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7r7-3wrm-f59w",
-  "modified": "2025-12-12T21:31:38Z",
+  "modified": "2025-12-15T21:30:29Z",
   "published": "2025-12-12T21:31:38Z",
   "aliases": [
     "CVE-2025-14611"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14611"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-14611"
     },
     {
       "type": "WEB",

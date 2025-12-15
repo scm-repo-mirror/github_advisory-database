@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w6jm-4gmf-c963",
-  "modified": "2024-06-27T15:30:39Z",
+  "modified": "2025-12-15T21:30:27Z",
   "published": "2024-05-17T15:31:10Z",
   "aliases": [
     "CVE-2024-35815"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/aio: Check IOCB_AIO_RW before the struct aio_kiocb conversion\n\nThe first kiocb_set_cancel_fn() argument may point at a struct kiocb\nthat is not embedded inside struct aio_kiocb. With the current code,\ndepending on the compiler, the req->ki_ctx read happens either before\nthe IOCB_AIO_RW test or after that test. Move the req->ki_ctx read such\nthat it is guaranteed that the IOCB_AIO_RW test happens first.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T14:15:16Z"
