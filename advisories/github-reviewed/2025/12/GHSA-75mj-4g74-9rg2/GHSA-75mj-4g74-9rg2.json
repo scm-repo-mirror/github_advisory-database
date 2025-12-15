@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75mj-4g74-9rg2",
-  "modified": "2025-12-13T18:30:21Z",
+  "modified": "2025-12-15T23:55:42Z",
   "published": "2025-12-13T18:30:21Z",
   "aliases": [
     "CVE-2025-14542"
   ],
+  "summary": "Universal Tool Calling Protocol (UTCP) client library for Python vulnerable to Trust Boundary Violation through Manual JSON specification",
   "details": "The vulnerability arises when a client fetches a tools’ JSON specification, known as a Manual, from a remote Manual Endpoint. While a provider may initially serve a benign manual (e.g., one defining an HTTP tool call), earning the clients’ trust, a malicious provider can later change the manual to exploit the client.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "utcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -25,6 +46,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/universal-tool-calling-protocol/python-utcp"
+    },
+    {
+      "type": "WEB",
       "url": "https://research.jfrog.com/vulnerabilities/python-utcp-untrusted-manual-command-execution-jfsa-2025-001648329"
     }
   ],
@@ -33,8 +58,8 @@
       "CWE-501"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-15T23:55:42Z",
     "nvd_published_at": "2025-12-13T16:16:51Z"
   }
 }
