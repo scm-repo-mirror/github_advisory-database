@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4444-xfvc-v5mv",
-  "modified": "2025-12-12T21:31:39Z",
+  "modified": "2025-12-15T15:30:30Z",
   "published": "2025-12-12T21:31:39Z",
   "aliases": [
     "CVE-2025-43494"
   ],
   "details": "A mail header parsing issue was addressed with improved checks. This issue is fixed in watchOS 26.1, iOS 18.7.2 and iPadOS 18.7.2, macOS Tahoe 26.1, visionOS 26.1, macOS Sonoma 14.8.2, macOS Sequoia 15.7.2, iOS 26.1 and iPadOS 26.1. An attacker may be able to cause a persistent denial-of-service.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-12T21:15:55Z"
