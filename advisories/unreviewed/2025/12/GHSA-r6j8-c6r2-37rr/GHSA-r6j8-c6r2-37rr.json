@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-r6j8-c6r2-37rr",
+  "modified": "2025-12-15T00:30:25Z",
+  "published": "2025-12-15T00:30:25Z",
+  "aliases": [
+    "CVE-2025-13281"
+  ],
+  "details": "A half-blind Server Side Request Forgery (SSRF) vulnerability exists in kube-controller-manager when using the in-tree Portworx StorageClass. This vulnerability allows authorized users to leak arbitrary information from unprotected endpoints in the control plane’s host network (including link-local or loopback services).",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13281"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kubernetes/kubernetes/issues/135525"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/g/kubernetes-security-announce/c/EORqZg0k1l4/m/TtD-q0v7AgAJ"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/12/01/4"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-918"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-14T22:15:36Z"
+  }
+}
