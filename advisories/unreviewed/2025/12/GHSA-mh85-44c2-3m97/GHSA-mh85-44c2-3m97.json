@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mh85-44c2-3m97",
+  "modified": "2025-12-15T18:30:40Z",
+  "published": "2025-12-15T18:30:39Z",
+  "aliases": [
+    "CVE-2025-66843"
+  ],
+  "details": "grav before v1.7.49.5 has a Stored Cross-Site Scripting (Stored XSS) vulnerability in the page editing functionality. An authenticated low-privileged user with permission to edit content can inject malicious JavaScript payloads into editable fields. The payload is stored on the server and later executed when any other user views or edits the affected page.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66843"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Yohane-Mashiro/grav_cve/issues/1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-15T16:15:53Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-926h-7qf4-c3hq",
-  "modified": "2025-11-03T18:31:26Z",
+  "modified": "2025-12-15T18:30:16Z",
   "published": "2025-07-25T15:30:52Z",
   "aliases": [
     "CVE-2025-38382"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: fix iteration of extrefs during log replay\n\nAt __inode_add_ref() when processing extrefs, if we jump into the next\nlabel we have an undefined value of victim_name.len, since we haven't\ninitialized it before we did the goto. This results in an invalid memory\naccess in the next iteration of the loop since victim_name.len was not\ninitialized to the length of the name of the current extref.\n\nFix this by initializing victim_name.len with the current extref's name\nlength.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T13:15:27Z"

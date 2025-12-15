@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x84j-v2j2-g9v8",
-  "modified": "2025-12-15T06:31:15Z",
+  "modified": "2025-12-15T18:30:38Z",
   "published": "2025-12-15T06:31:15Z",
   "aliases": [
     "CVE-2025-67906"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/MISP/MISP/compare/v2.5.27...v2.5.28"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/franckferman/CVE-2025-67906"
     },
     {
       "type": "WEB",
