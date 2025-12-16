@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f8c-8h8v-p54h",
-  "modified": "2025-12-14T18:31:30Z",
+  "modified": "2025-12-16T00:45:18Z",
   "published": "2025-12-14T18:31:30Z",
   "aliases": [
     "CVE-2025-14674"
   ],
+  "summary": "snail-job is vulnerable to Code Injection through QLExpressEngine.doEval function",
   "details": "A vulnerability was found in aizuda snail-job up to 1.6.0. Affected by this vulnerability is the function QLExpressEngine.doEval of the file snail-job-common/snail-job-common-core/src/main/java/com/aizuda/snailjob/common/core/expression/strategy/QLExpressEngine.java. The manipulation results in injection. The attack can be launched remotely. Upgrading to version 1.7.0-beta1 addresses this issue. The patch is identified as 978f316c38b3d68bb74d2489b5e5f721f6675e86. The affected component should be upgraded.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.aizuda:snail-job"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.0-beta1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,6 +61,10 @@
       "url": "https://gitee.com/aizuda/snail-job/releases/tag/vsj1.7.0-beta1"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/aizuda/snail-job"
+    },
+    {
       "type": "WEB",
       "url": "https://vuldb.com/?ctiid.336403"
     },
@@ -53,8 +78,8 @@
       "CWE-74"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-16T00:45:18Z",
     "nvd_published_at": "2025-12-14T18:15:43Z"
   }
 }
