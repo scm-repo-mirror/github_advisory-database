@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-x92w-9xj8-2283",
+  "modified": "2025-12-16T09:31:10Z",
+  "published": "2025-12-16T09:31:10Z",
+  "aliases": [
+    "CVE-2025-68082"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in SEMrush CY LTD Semrush Content Toolkit semrush-contentshake allows Cross Site Request Forgery.This issue affects Semrush Content Toolkit: from n/a through <= 1.1.32.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68082"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/semrush-contentshake/vulnerability/wordpress-semrush-content-toolkit-plugin-1-1-32-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-16T09:16:03Z"
+  }
+}

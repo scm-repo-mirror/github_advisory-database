@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c8ph-2xvf-c9p9",
+  "modified": "2025-12-16T09:31:10Z",
+  "published": "2025-12-16T09:31:10Z",
+  "aliases": [
+    "CVE-2025-68087"
+  ],
+  "details": "Missing Authorization vulnerability in merkulove Modalier for Elementor modalier-elementor allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Modalier for Elementor: from n/a through <= 1.0.6.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68087"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/modalier-elementor/vulnerability/wordpress-modalier-for-elementor-plugin-1-0-6-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-16T09:16:03Z"
+  }
+}
