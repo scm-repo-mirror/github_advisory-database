@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2wh-w7w6-m2cj",
-  "modified": "2025-11-03T18:31:26Z",
+  "modified": "2025-12-16T15:30:25Z",
   "published": "2025-07-25T15:30:51Z",
   "aliases": [
     "CVE-2025-38362"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Add null pointer check for get_first_active_display()\n\nThe function mod_hdcp_hdcp1_enable_encryption() calls the function\nget_first_active_display(), but does not check its return value.\nThe return value is a null pointer if the display list is empty.\nThis will lead to a null pointer dereference in\nmod_hdcp_hdcp2_enable_encryption().\n\nAdd a null pointer check for get_first_active_display() and return\nMOD_HDCP_STATUS_DISPLAY_NOT_FOUND if the function return null.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T13:15:25Z"

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-prq3-3cx6-vrj4",
+  "modified": "2025-12-16T15:30:47Z",
+  "published": "2025-12-16T15:30:47Z",
+  "aliases": [
+    "CVE-2025-68255"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nstaging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing\n\nThe Supported Rates IE length from an incoming Association Request frame\nwas used directly as the memcpy() length when copying into a fixed-size\n16-byte stack buffer (supportRate). A malicious station can advertise an\nIE length larger than 16 bytes, causing a stack buffer overflow.\n\nClamp ie_len to the buffer size before copying the Supported Rates IE,\nand correct the bounds check when merging Extended Supported Rates to\nprevent a second potential overflow.\n\nThis prevents kernel stack corruption triggered by malformed association\nrequests.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68255"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/25411f5fcf5743131158f337c99c2bbf3f8477f5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/61871c83259a511980ec2664964cecc69005398b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6ef0e1c10455927867cac8f0ed6b49f328f8cf95"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e841d8ea722315b781c4fc5bf4f7670fbca88875"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-16T15:15:54Z"
+  }
+}

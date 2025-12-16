@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcxf-rh2w-2m9p",
-  "modified": "2025-11-03T18:31:26Z",
+  "modified": "2025-12-16T15:30:25Z",
   "published": "2025-07-25T15:30:51Z",
   "aliases": [
     "CVE-2025-38363"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/tegra: Fix a possible null pointer dereference\n\nIn tegra_crtc_reset(), new memory is allocated with kzalloc(), but\nno check is performed. Before calling __drm_atomic_helper_crtc_reset,\nstate should be checked to prevent possible null pointer dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T13:15:25Z"

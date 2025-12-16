@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6vv-4wpw-vqfc",
-  "modified": "2025-12-15T21:30:32Z",
+  "modified": "2025-12-16T15:30:34Z",
   "published": "2025-12-15T21:30:32Z",
   "aliases": [
     "CVE-2025-55895"
   ],
   "details": "TOTOLINK A3300R V17.0.0cu.557_B20221024 and N200RE V9.3.5u.6448_B20240521 and V9.3.5u.6437_B20230519 are vulnerable to Incorrect Access Control. Attackers can send payloads to the interface without logging in (remote).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-15T21:15:59Z"

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gxvv-45f6-3ch8",
+  "modified": "2025-12-16T15:30:42Z",
+  "published": "2025-12-16T15:30:42Z",
+  "aliases": [
+    "CVE-2025-14443"
+  ],
+  "details": "A flaw was found in ose-openshift-apiserver. This vulnerability allows internal network enumeration, service discovery, limited information disclosure, and potential denial-of-service (DoS) through Server-Side Request Forgery (SSRF) due to missing IP address and network-range validation when processing user-supplied image references.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-14443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2420964"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tuxerrante/openshift-ssrf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-918"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-16T13:15:56Z"
+  }
+}
