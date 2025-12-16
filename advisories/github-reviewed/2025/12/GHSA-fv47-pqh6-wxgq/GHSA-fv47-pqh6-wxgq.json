@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv47-pqh6-wxgq",
-  "modified": "2025-12-15T21:30:30Z",
+  "modified": "2025-12-16T17:50:22Z",
   "published": "2025-12-15T12:30:27Z",
   "aliases": [
     "CVE-2025-66388"
   ],
+  "summary": "Apache Airflow exposes secret values to authenticated UI users via rendered templates",
   "details": "A vulnerability in Apache Airflow allowed authenticated UI users to view secret values in rendered templates due to secrets not being properly redacted, potentially exposing secrets to users without the appropriate authorization.\n\nUsers are recommended to upgrade to version 3.1.4, which fixes this issue.",
   "severity": [
     {
@@ -13,7 +14,30 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "apache-airflow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.1.0"
+            },
+            {
+              "fixed": "3.1.5"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 3.1.4"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,7 +45,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/apache/airflow/pull/58767"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/apache/airflow/pull/58772"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/airflow"
     },
     {
       "type": "WEB",
@@ -37,8 +69,8 @@
       "CWE-201"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-16T17:50:22Z",
     "nvd_published_at": "2025-12-15T12:15:40Z"
   }
 }
