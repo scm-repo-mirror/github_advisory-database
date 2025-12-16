@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vjc-vqf8-m223",
-  "modified": "2025-12-16T09:31:10Z",
+  "modified": "2025-12-16T21:30:53Z",
   "published": "2025-12-16T09:31:10Z",
   "aliases": [
     "CVE-2025-68054"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in LambertGroup CountDown With Image or Video Background countdown_with_background allows Blind SQL Injection.This issue affects CountDown With Image or Video Background: from n/a through <= 1.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-16T09:16:01Z"

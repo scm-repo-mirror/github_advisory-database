@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74hf-26w7-48xj",
-  "modified": "2025-11-03T21:33:56Z",
+  "modified": "2025-12-16T21:30:49Z",
   "published": "2025-05-20T18:30:58Z",
   "aliases": [
     "CVE-2025-37985"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nUSB: wdm: close race between wdm_open and wdm_wwan_port_stop\n\nClearing WDM_WWAN_IN_USE must be the last action or\nwe can open a chardev whose URBs are still poisoned",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T18:15:45Z"

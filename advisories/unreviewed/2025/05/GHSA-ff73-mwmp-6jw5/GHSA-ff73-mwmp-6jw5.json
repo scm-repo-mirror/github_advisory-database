@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ff73-mwmp-6jw5",
-  "modified": "2025-11-03T21:33:56Z",
+  "modified": "2025-12-16T21:30:49Z",
   "published": "2025-05-20T18:30:58Z",
   "aliases": [
     "CVE-2025-37989"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: phy: leds: fix memory leak\n\nA network restart test on a router led to an out-of-memory condition,\nwhich was traced to a memory leak in the PHY LED trigger code.\n\nThe root cause is misuse of the devm API. The registration function\n(phy_led_triggers_register) is called from phy_attach_direct, not\nphy_probe, and the unregister function (phy_led_triggers_unregister)\nis called from phy_detach, not phy_remove. This means the register and\nunregister functions can be called multiple times for the same PHY\ndevice, but devm-allocated memory is not freed until the driver is\nunbound.\n\nThis also prevents kmemleak from detecting the leak, as the devm API\ninternally stores the allocated pointer.\n\nFix this by replacing devm_kzalloc/devm_kcalloc with standard\nkzalloc/kcalloc, and add the corresponding kfree calls in the unregister\npath.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T18:15:45Z"

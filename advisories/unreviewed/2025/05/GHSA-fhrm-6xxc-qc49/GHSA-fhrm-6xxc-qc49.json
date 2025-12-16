@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhrm-6xxc-qc49",
-  "modified": "2025-11-03T21:33:56Z",
+  "modified": "2025-12-16T21:30:49Z",
   "published": "2025-05-20T18:30:58Z",
   "aliases": [
     "CVE-2025-37990"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()\n\nThe function brcmf_usb_dl_writeimage() calls the function\nbrcmf_usb_dl_cmd() but dose not check its return value. The\n'state.state' and the 'state.bytes' are uninitialized if the\nfunction brcmf_usb_dl_cmd() fails. It is dangerous to use\nuninitialized variables in the conditions.\n\nAdd error handling for brcmf_usb_dl_cmd() to jump to error\nhandling path if the brcmf_usb_dl_cmd() fails and the\n'state.state' and the 'state.bytes' are uninitialized.\n\nImprove the error message to report more detailed error\ninformation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T18:15:45Z"

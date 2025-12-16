@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8x8-x32m-fh4m",
-  "modified": "2025-11-03T21:33:56Z",
+  "modified": "2025-12-16T21:30:49Z",
   "published": "2025-05-20T18:30:56Z",
   "aliases": [
     "CVE-2025-37963"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\narm64: bpf: Only mitigate cBPF programs loaded by unprivileged users\n\nSupport for eBPF programs loaded by unprivileged users is typically\ndisabled. This means only cBPF programs need to be mitigated for BHB.\n\nIn addition, only mitigate cBPF programs that were loaded by an\nunprivileged user. Privileged users can also load the same program\nvia eBPF, making the mitigation pointless.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T16:15:34Z"

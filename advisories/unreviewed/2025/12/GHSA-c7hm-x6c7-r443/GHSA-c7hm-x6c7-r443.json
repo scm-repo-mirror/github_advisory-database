@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7hm-x6c7-r443",
-  "modified": "2025-12-16T09:31:07Z",
+  "modified": "2025-12-16T21:30:53Z",
   "published": "2025-12-16T09:31:07Z",
   "aliases": [
     "CVE-2025-64244"
   ],
   "details": "Missing Authorization vulnerability in Codexpert, Inc Restrict Elementor Widgets, Columns and Sections restrict-elementor-widgets allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Restrict Elementor Widgets, Columns and Sections: from n/a through <= 1.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-16T09:15:54Z"

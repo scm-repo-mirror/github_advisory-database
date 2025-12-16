@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jv8-gwwx-wwrw",
-  "modified": "2025-11-03T21:33:56Z",
+  "modified": "2025-12-16T21:30:49Z",
   "published": "2025-05-20T18:30:58Z",
   "aliases": [
     "CVE-2025-37982"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: wl1251: fix memory leak in wl1251_tx_work\n\nThe skb dequeued from tx_queue is lost when wl1251_ps_elp_wakeup fails\nwith a -ETIMEDOUT error. Fix that by queueing the skb back to tx_queue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T17:15:48Z"
