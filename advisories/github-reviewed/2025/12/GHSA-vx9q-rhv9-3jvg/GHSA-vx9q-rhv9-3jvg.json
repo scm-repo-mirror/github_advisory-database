@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx9q-rhv9-3jvg",
-  "modified": "2025-12-12T22:12:22Z",
+  "modified": "2025-12-16T23:17:11Z",
   "published": "2025-12-12T22:12:22Z",
   "aliases": [
     "CVE-2025-67721"
@@ -41,6 +41,10 @@
       "url": "https://github.com/airlift/aircompressor/security/advisories/GHSA-vx9q-rhv9-3jvg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67721"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/airlift/aircompressor/commit/f2b489b398779b40c1ee29ddb11d7edef54ddc15"
     },
@@ -55,11 +59,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-125",
       "CWE-201"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-12T22:12:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-12T23:15:42Z"
   }
 }
