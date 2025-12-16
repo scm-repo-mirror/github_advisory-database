@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh5r-crhr-qrrq",
-  "modified": "2025-02-18T22:30:06Z",
+  "modified": "2025-12-16T23:29:48Z",
   "published": "2025-01-21T12:30:47Z",
   "aliases": [
     "CVE-2025-23184"
@@ -101,6 +101,14 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250214-0003"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-23184-detect-apache-cxf-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-23184-mitigate-apache-cxf-vulnerability"
     },
     {
       "type": "WEB",
