@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpq4-r87v-g246",
-  "modified": "2025-10-24T15:31:23Z",
+  "modified": "2025-12-16T12:30:27Z",
   "published": "2025-10-17T21:31:17Z",
   "aliases": [
     "CVE-2025-34281"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/thingsboard/thingsboard/pull/13927"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/thingsboard/thingsboard/commit/b2ae6f92d12206ea185a2e882945a6b69234bf03"
+    },
+    {
+      "type": "WEB",
+      "url": "https://advisory.checkmarx.net/advisory/CVE-2025-3261"
     },
     {
       "type": "WEB",
