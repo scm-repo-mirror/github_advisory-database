@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q59c-3x85-f94g",
-  "modified": "2025-11-03T21:34:05Z",
+  "modified": "2025-12-16T18:31:28Z",
   "published": "2025-07-03T09:30:32Z",
   "aliases": [
     "CVE-2025-38095"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndma-buf: insert memory barrier before updating num_fences\n\nsmp_store_mb() inserts memory barrier after storing operation.\nIt is different with what the comment is originally aiming so Null\npointer dereference can be happened if memory update is reordered.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T08:15:26Z"

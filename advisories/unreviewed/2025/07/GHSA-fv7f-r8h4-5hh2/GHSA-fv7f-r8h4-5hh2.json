@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv7f-r8h4-5hh2",
-  "modified": "2025-11-03T21:34:05Z",
+  "modified": "2025-12-16T18:31:28Z",
   "published": "2025-07-03T09:30:32Z",
   "aliases": [
     "CVE-2025-38094"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: cadence: macb: Fix a possible deadlock in macb_halt_tx.\n\nThere is a situation where after THALT is set high, TGO stays high as\nwell. Because jiffies are never updated, as we are in a context with\ninterrupts disabled, we never exit that loop and have a deadlock.\n\nThat deadlock was noticed on a sama5d4 device that stayed locked for days.\n\nUse retries instead of jiffies so that the timeout really works and we do\nnot have a deadlock anymore.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T08:15:25Z"

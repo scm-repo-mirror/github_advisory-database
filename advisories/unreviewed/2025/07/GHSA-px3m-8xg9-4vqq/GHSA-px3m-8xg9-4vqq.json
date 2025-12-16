@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px3m-8xg9-4vqq",
-  "modified": "2025-11-03T18:31:25Z",
+  "modified": "2025-12-16T18:31:29Z",
   "published": "2025-07-10T09:32:31Z",
   "aliases": [
     "CVE-2025-38342"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoftware node: Correct a OOB check in software_node_get_reference_args()\n\nsoftware_node_get_reference_args() wants to get @index-th element, so\nthe property value requires at least '(index + 1) * sizeof(*ref)' bytes\nbut that can not be guaranteed by current OOB check, and may cause OOB\nfor malformed property.\n\nFix by using as OOB check '((index + 1) * sizeof(*ref) > prop->length)'.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T09:15:29Z"

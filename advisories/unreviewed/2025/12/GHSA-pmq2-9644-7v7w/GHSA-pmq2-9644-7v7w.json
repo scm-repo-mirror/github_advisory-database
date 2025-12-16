@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmq2-9644-7v7w",
-  "modified": "2025-12-15T21:30:30Z",
+  "modified": "2025-12-16T18:31:31Z",
   "published": "2025-12-15T21:30:30Z",
   "aliases": [
     "CVE-2023-36337"
   ],
   "details": "A reflected cross-site scripting (XSS) vulnerability in the component /index.php/cuzh4 of PHP Inventory Management System 1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-15T19:16:00Z"

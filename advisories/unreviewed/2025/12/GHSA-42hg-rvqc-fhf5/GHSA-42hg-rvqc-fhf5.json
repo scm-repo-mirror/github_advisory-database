@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42hg-rvqc-fhf5",
-  "modified": "2025-12-16T09:31:08Z",
+  "modified": "2025-12-16T18:31:31Z",
   "published": "2025-12-16T09:31:08Z",
   "aliases": [
     "CVE-2025-64251"
   ],
   "details": "Missing Authorization vulnerability in azzaroco Ultimate Learning Pro indeed-learning-pro allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Ultimate Learning Pro: from n/a through <= 3.9.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-16T09:15:54Z"

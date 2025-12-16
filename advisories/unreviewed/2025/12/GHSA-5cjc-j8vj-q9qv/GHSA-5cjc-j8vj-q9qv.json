@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cjc-j8vj-q9qv",
-  "modified": "2025-12-16T09:31:07Z",
+  "modified": "2025-12-16T18:31:31Z",
   "published": "2025-12-16T09:31:07Z",
   "aliases": [
     "CVE-2025-54045"
   ],
   "details": "Missing Authorization vulnerability in CreativeMindsSolutions CM On Demand Search And Replace cm-on-demand-search-and-replace allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects CM On Demand Search And Replace: from n/a through <= 1.5.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-16T09:15:52Z"

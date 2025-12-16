@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r357-mp92-7297",
-  "modified": "2025-11-05T00:31:27Z",
+  "modified": "2025-12-16T18:31:31Z",
   "published": "2025-09-16T00:30:25Z",
   "aliases": [
     "CVE-2025-43343"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43343"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19946"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security-tracker.debian.org/tracker/CVE-2025-43343"
     },
     {
       "type": "WEB",
@@ -42,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ubuntu.com/security/CVE-2025-43343"
     },
     {
       "type": "WEB",

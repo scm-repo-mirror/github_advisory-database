@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmfc-6cfw-wmrf",
-  "modified": "2025-09-08T21:30:58Z",
+  "modified": "2025-12-16T18:31:30Z",
   "published": "2025-09-08T21:30:58Z",
   "aliases": [
     "CVE-2025-45805"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mhsinj/CVE-2025-45805"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mohammed-alsaqqaf/CVE-2025-45805"
     },
     {
       "type": "WEB",

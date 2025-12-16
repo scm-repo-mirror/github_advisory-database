@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f75j-r62m-hxmw",
-  "modified": "2025-11-03T18:31:26Z",
+  "modified": "2025-12-16T18:31:30Z",
   "published": "2025-07-25T15:30:51Z",
   "aliases": [
     "CVE-2025-38375"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvirtio-net: ensure the received length does not exceed allocated size\n\nIn xdp_linearize_page, when reading the following buffers from the ring,\nwe forget to check the received length with the true allocate size. This\ncan lead to an out-of-bound read. This commit adds that missing check.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T13:15:26Z"

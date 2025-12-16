@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqj9-q7v2-h4gf",
-  "modified": "2025-11-11T18:30:21Z",
+  "modified": "2025-12-16T18:31:31Z",
   "published": "2025-11-11T18:30:21Z",
   "aliases": [
     "CVE-2025-60707"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60707"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-60707-detection-script-eop-vulnerability-in-multimedia-class-scheduler-service-by-microsoft"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-60707-mitigation-script-eop-vulnerability-in-multimedia-class-scheduler-service-by-microsoft"
     }
   ],
   "database_specific": {
