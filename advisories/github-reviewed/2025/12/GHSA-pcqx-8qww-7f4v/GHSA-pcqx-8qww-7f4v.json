@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcqx-8qww-7f4v",
-  "modified": "2025-12-15T21:30:30Z",
+  "modified": "2025-12-16T20:11:05Z",
   "published": "2025-12-15T18:30:39Z",
   "aliases": [
     "CVE-2025-13888"
   ],
+  "summary": "OpenShift GitOps authenticated attackers can obtain cluster root access through forged ArgoCD custom resources",
   "details": "A flaw was found in OpenShift GitOps. Namespace admins can create ArgoCD Custom Resources (CRs) that trick the system into granting them elevated permissions in other namespaces, including privileged namespaces. An authenticated attacker can then use these elevated permissions to create privileged workloads that run on master nodes, effectively giving them root access to the entire cluster.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/redhat-developer/gitops-operator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.17.0-rc5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -38,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2418361"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/redhat-developer/gitops-operator"
     }
   ],
   "database_specific": {
@@ -45,8 +70,8 @@
       "CWE-266"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-16T20:11:04Z",
     "nvd_published_at": "2025-12-15T16:15:50Z"
   }
 }
