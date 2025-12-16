@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2vr-rqqp-xv8m",
-  "modified": "2025-12-15T00:30:25Z",
+  "modified": "2025-12-16T00:30:29Z",
   "published": "2025-12-15T00:30:25Z",
   "aliases": [
     "CVE-2025-67899"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/uriparser/uriparser/pull/284"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/12/15/1"
     }
   ],
   "database_specific": {

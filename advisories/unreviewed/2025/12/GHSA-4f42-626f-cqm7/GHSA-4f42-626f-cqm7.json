@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4f42-626f-cqm7",
-  "modified": "2025-12-12T21:31:38Z",
+  "modified": "2025-12-16T00:30:28Z",
   "published": "2025-12-12T21:31:38Z",
   "aliases": [
     "CVE-2025-43406"
   ],
   "details": "A logic issue was addressed with improved restrictions. This issue is fixed in macOS Tahoe 26.1. An app may be able to access sensitive user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-12T21:15:54Z"

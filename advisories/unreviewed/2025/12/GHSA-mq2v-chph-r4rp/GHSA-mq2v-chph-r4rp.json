@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq2v-chph-r4rp",
-  "modified": "2025-12-12T21:31:39Z",
+  "modified": "2025-12-16T00:30:28Z",
   "published": "2025-12-12T21:31:39Z",
   "aliases": [
     "CVE-2025-43470"
   ],
   "details": "A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Tahoe 26.1. A standard user may be able to view files made from a disk image belonging to an administrator.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-732"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-12T21:15:55Z"
