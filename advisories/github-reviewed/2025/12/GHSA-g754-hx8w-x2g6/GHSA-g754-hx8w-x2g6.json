@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g754-hx8w-x2g6",
-  "modified": "2025-12-11T22:04:23Z",
+  "modified": "2025-12-17T00:36:27Z",
   "published": "2025-12-11T16:48:27Z",
   "aliases": [
     "CVE-2025-64702"
@@ -32,10 +32,7 @@
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 0.56.0"
-      }
+      ]
     }
   ],
   "references": [
