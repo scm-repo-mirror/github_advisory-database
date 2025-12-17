@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-483v-mfx2-pvhx",
-  "modified": "2024-06-26T00:31:43Z",
+  "modified": "2025-12-17T06:31:23Z",
   "published": "2024-05-19T09:34:47Z",
   "aliases": [
     "CVE-2024-35897"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_tables: discard table flag update with pending basechain deletion\n\nHook unregistration is deferred to the commit phase, same occurs with\nhook updates triggered by the table dormant flag. When both commands are\ncombined, this results in deleting a basechain while leaving its hook\nstill registered in the core.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-19T09:15:10Z"

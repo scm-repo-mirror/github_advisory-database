@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c363-rc2q-jqjx",
-  "modified": "2024-06-27T12:30:46Z",
+  "modified": "2025-12-17T06:31:23Z",
   "published": "2024-05-17T15:31:11Z",
   "aliases": [
     "CVE-2023-52693"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPI: video: check for error while searching for backlight device parent\n\nIf acpi_get_parent() called in acpi_video_dev_register_backlight()\nfails, for example, because acpi_ut_acquire_mutex() fails inside\nacpi_get_parent), this can lead to incorrect (uninitialized)\nacpi_parent handle being passed to acpi_get_pci_dev() for detecting\nthe parent pci device.\n\nCheck acpi_get_parent() result and set parent device only in case of success.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T15:15:20Z"
