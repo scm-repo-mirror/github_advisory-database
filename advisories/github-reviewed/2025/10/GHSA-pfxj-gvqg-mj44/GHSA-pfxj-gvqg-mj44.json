@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfxj-gvqg-mj44",
-  "modified": "2025-10-07T22:06:10Z",
+  "modified": "2025-12-17T00:11:39Z",
   "published": "2025-10-07T00:31:11Z",
   "aliases": [
     "CVE-2025-43824"
   ],
   "summary": "Liferay Profile Widget does not prevent vCard extension spoofing",
-  "details": "The Profile widget in Liferay Portal 7.4.0 through 7.4.3.111, and older unsupported versions, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.8, 7.4 GA through update 92, and older unsupported versions uses a user’s name in the “Content-Disposition” header, which allows remote authenticated users to change the file extension when a vCard file is downloaded.",
+  "details": "The Profile Widget in Liferay Portal 7.4.0 through 7.4.3.111, and older unsupported versions, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.8, 7.4 GA through update 92, and older unsupported versions uses a user’s name in the “Content-Disposition” header, which allows remote authenticated users to change the file extension when a vCard file is downloaded.",
   "severity": [
     {
       "type": "CVSS_V4",
