@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7gw-975p-jwfj",
-  "modified": "2024-06-27T12:30:47Z",
+  "modified": "2025-12-17T03:30:13Z",
   "published": "2024-06-03T09:30:48Z",
   "aliases": [
     "CVE-2024-36964"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/9p: only translate RWX permissions for plain 9P2000\n\nGarbage in plain 9P2000's perm bits is allowed through, which causes it\nto be able to set (among others) the suid bit. This was presumably not\nthe intent since the unix extended bits are handled explicitly and\nconditionally on .u.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-03T08:15:09Z"
