@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99m2-qwx6-2w6f",
-  "modified": "2025-12-09T17:18:37Z",
+  "modified": "2025-12-17T01:11:40Z",
   "published": "2025-12-08T18:30:44Z",
   "aliases": [
     "CVE-2025-65797"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/usememos/memos/commit/769dcd0cf9be83d472829f6e7903b201e42f6b3c"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-99m2-qwx6-2w6f"
     },
     {
       "type": "PACKAGE",

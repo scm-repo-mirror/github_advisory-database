@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jcj-g9f4-qx42",
-  "modified": "2025-12-09T14:25:29Z",
+  "modified": "2025-12-17T01:10:46Z",
   "published": "2025-12-08T18:30:42Z",
   "aliases": [
     "CVE-2025-65796"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/usememos/memos/commit/769dcd0cf9be83d472829f6e7903b201e42f6b3c"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-8jcj-g9f4-qx42"
     },
     {
       "type": "PACKAGE",
