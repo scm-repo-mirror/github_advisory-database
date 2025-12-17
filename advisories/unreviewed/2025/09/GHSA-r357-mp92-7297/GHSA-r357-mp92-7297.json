@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r357-mp92-7297",
-  "modified": "2025-12-16T18:31:31Z",
+  "modified": "2025-12-17T15:34:51Z",
   "published": "2025-09-16T00:30:25Z",
   "aliases": [
     "CVE-2025-43343"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://ubuntu.com/security/CVE-2025-43343"
+    },
+    {
+      "type": "WEB",
+      "url": "https://webkitgtk.org/security/WSA-2025-0007.html"
     },
     {
       "type": "WEB",

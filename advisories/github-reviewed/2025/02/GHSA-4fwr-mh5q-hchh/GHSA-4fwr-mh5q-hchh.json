@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fwr-mh5q-hchh",
-  "modified": "2025-08-01T21:30:57Z",
+  "modified": "2025-12-17T15:34:51Z",
   "published": "2025-02-26T18:30:39Z",
   "aliases": [
     "CVE-2025-1634"
@@ -84,23 +84,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/quarkusio/quarkus/pull/46425"
-    },
-    {
-      "type": "WEB",
       "url": "https://github.com/quarkusio/quarkus/pull/46426"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/quarkusio/quarkus/commit/291296befabf659b71acbfc6e03a12bd09a920f8"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/quarkusio/quarkus/commit/30d949a4c54ba1057738849a804d2329c09e57be"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/quarkusio/quarkus/commit/70ffbd00d71d43afa7eade32d6ed586cf927c237"
+      "url": "https://github.com/quarkusio/quarkus/pull/46425"
     },
     {
       "type": "WEB",
@@ -108,23 +96,23 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:12511"
+      "url": "https://github.com/quarkusio/quarkus/commit/70ffbd00d71d43afa7eade32d6ed586cf927c237"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:1884"
+      "url": "https://github.com/quarkusio/quarkus/commit/30d949a4c54ba1057738849a804d2329c09e57be"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:1885"
+      "url": "https://github.com/quarkusio/quarkus/commit/291296befabf659b71acbfc6e03a12bd09a920f8"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/quarkusio/quarkus"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:2067"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:9922"
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2347319"
     },
     {
       "type": "WEB",
@@ -132,11 +120,27 @@
     },
     {
       "type": "WEB",
-      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2347319"
+      "url": "https://access.redhat.com/errata/RHSA-2025:9922"
     },
     {
-      "type": "PACKAGE",
-      "url": "https://github.com/quarkusio/quarkus"
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:23417"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2067"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:1885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:1884"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:12511"
     }
   ],
   "database_specific": {

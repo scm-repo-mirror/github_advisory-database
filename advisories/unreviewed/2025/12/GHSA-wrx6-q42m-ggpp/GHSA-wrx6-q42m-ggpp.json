@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrx6-q42m-ggpp",
-  "modified": "2025-12-16T09:31:10Z",
+  "modified": "2025-12-17T15:34:52Z",
   "published": "2025-12-16T09:31:10Z",
   "aliases": [
     "CVE-2025-68078"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in ThemeNectar Salient Portfolio salient-portfolio allows Stored XSS.This issue affects Salient Portfolio: from n/a through <= 1.8.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-16T09:16:02Z"

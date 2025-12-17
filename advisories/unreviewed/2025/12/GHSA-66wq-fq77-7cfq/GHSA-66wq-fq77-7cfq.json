@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66wq-fq77-7cfq",
-  "modified": "2025-12-16T18:31:35Z",
+  "modified": "2025-12-17T15:34:53Z",
   "published": "2025-12-16T18:31:35Z",
   "aliases": [
     "CVE-2025-62864"
   ],
   "details": "Ampere AmpereOne AC03 devices before 3.5.9.3, AmpereOne AC04 devices before 4.4.5.2, and AmpereOne M devices before 5.4.5.1 allow an incorrectly formed SMC call to UEFI-MM MMCommunicate service that could result in an out-of-bounds write within the UEFI-MM Secure Partition context.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-16T18:16:13Z"
