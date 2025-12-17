@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjrp-77f3-43xj",
-  "modified": "2025-10-09T15:33:32Z",
+  "modified": "2025-12-17T00:14:26Z",
   "published": "2025-10-08T15:32:26Z",
   "aliases": [
     "CVE-2025-43821"
   ],
-  "summary": "Liferay Portal is vulnerable to XXS through its Commerce Product's Name text field",
-  "details": "Cross-site scripting (XSS) vulnerability in the Commerce Product Comparison Table widget in Liferay Portal 7.4.0 through 7.4.3.111, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.8, and 7.4 GA through update 92 allows remote attackers to inject arbitrary web script or HTML via a crafted payload injected into a Commerce Product's Name text field.",
+  "summary": "Liferay Portal is vulnerable to XSS through its Commerce Product's Name text field",
+  "details": "Cross-site Scripting (XSS) vulnerability in the Commerce Product Comparison Table widget in Liferay Portal 7.4.0 through 7.4.3.111, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.8, and 7.4 GA through update 92 allows remote attackers to inject arbitrary web script or HTML via a crafted payload injected into a Commerce Product's Name text field.",
   "severity": [
     {
       "type": "CVSS_V4",

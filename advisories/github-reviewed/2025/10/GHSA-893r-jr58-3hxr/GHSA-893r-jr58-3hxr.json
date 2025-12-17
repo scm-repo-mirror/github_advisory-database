@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-893r-jr58-3hxr",
-  "modified": "2025-10-09T15:32:05Z",
+  "modified": "2025-12-17T00:15:50Z",
   "published": "2025-10-08T15:32:27Z",
   "aliases": [
     "CVE-2025-43829"
   ],
   "summary": "Liferay Portal Commerce Shop is vulnerable to Stored XSS through SVG file",
-  "details": "Stored Cross-Site Scripting (XSS) vulnerability in diagram type products in Commerce in Liferay Portal 7.4.3.18 through 7.4.3.111, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.8, and 7.4 update 18 through update 92. This vulnerability allows remote attackers to inject arbitrary web script or HTML via a crafted payload injected into a SVG file.",
+  "details": "There is a Stored Cross-Site Scripting (XSS) vulnerability in diagram type products in Commerce in Liferay Portal 7.4.3.18 through 7.4.3.111, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.8, and 7.4 update 18 through update 92. This vulnerability allows remote attackers to inject arbitrary web script or HTML via a crafted payload injected into a SVG file.",
   "severity": [
     {
       "type": "CVSS_V4",
