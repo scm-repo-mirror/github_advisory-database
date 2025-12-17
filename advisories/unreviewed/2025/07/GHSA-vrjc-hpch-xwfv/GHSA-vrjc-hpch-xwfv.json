@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrjc-hpch-xwfv",
-  "modified": "2025-11-03T18:31:21Z",
+  "modified": "2025-12-17T18:31:32Z",
   "published": "2025-07-03T09:30:34Z",
   "aliases": [
     "CVE-2025-38131"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncoresight: prevent deactivate active config while enabling the config\n\nWhile enable active config via cscfg_csdev_enable_active_config(),\nactive config could be deactivated via configfs' sysfs interface.\nThis could make UAF issue in below scenario:\n\nCPU0                                          CPU1\n(sysfs enable)                                load module\n                                              cscfg_load_config_sets()\n                                              activate config. // sysfs\n                                              (sys_active_cnt == 1)\n...\ncscfg_csdev_enable_active_config()\nlock(csdev->cscfg_csdev_lock)\n// here load config activate by CPU1\nunlock(csdev->cscfg_csdev_lock)\n\n                                              deactivate config // sysfs\n                                              (sys_activec_cnt == 0)\n                                              cscfg_unload_config_sets()\n                                              unload module\n\n// access to config_desc which freed\n// while unloading module.\ncscfg_csdev_enable_config\n\nTo address this, use cscfg_config_desc's active_cnt as a reference count\n which will be holded when\n    - activate the config.\n    - enable the activated config.\nand put the module reference when config_active_cnt == 0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:27Z"

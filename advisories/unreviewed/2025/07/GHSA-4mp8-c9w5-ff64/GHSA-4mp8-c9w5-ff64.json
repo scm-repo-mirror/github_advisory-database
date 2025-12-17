@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mp8-c9w5-ff64",
-  "modified": "2025-11-03T18:31:20Z",
+  "modified": "2025-12-17T18:31:31Z",
   "published": "2025-07-03T09:30:33Z",
   "aliases": [
     "CVE-2025-38112"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: Fix TOCTOU issue in sk_is_readable()\n\nsk->sk_prot->sock_is_readable is a valid function pointer when sk resides\nin a sockmap. After the last sk_psock_put() (which usually happens when\nsocket is removed from sockmap), sk->sk_prot gets restored and\nsk->sk_prot->sock_is_readable becomes NULL.\n\nThis makes sk_is_readable() racy, if the value of sk->sk_prot is reloaded\nafter the initial check. Which in turn may lead to a null pointer\ndereference.\n\nEnsure the function pointer does not turn NULL after the check.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-367"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:24Z"

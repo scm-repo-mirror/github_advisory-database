@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-784q-w3gc-8rm2",
-  "modified": "2025-12-11T18:30:37Z",
+  "modified": "2025-12-17T18:31:32Z",
   "published": "2025-12-05T18:31:12Z",
   "aliases": [
     "CVE-2025-34259"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34259"
+    },
+    {
+      "type": "WEB",
+      "url": "https://advcloudfiles.advantech.com/cms/2ca1b071-fd78-4d7f-8a2a-7b4537a95d19/Security%20Advisory%20PDF%20File/SECURITY-ADVISORY----DeviceOn-20251208-2.pdf"
     },
     {
       "type": "WEB",

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3677-xxcr-wjqv",
+  "modified": "2025-12-17T18:31:33Z",
+  "published": "2025-12-17T18:31:33Z",
+  "aliases": [
+    "CVE-2024-29371"
+  ],
+  "details": "In jose4j before 0.9.5, an attacker can cause a Denial-of-Service (DoS) condition by crafting a malicious JSON Web Encryption (JWE) token with an exceptionally high compression ratio. When this token is processed by the server, it results in significant memory allocation and processing time during decompression.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-29371"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bitbucket.org/b_c/jose4j/issues/220/vuln-zip-bomb-attack"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-17T16:16:04Z"
+  }
+}

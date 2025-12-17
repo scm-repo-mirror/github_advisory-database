@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pxg-rrcr-gqm5",
-  "modified": "2025-11-03T18:31:20Z",
+  "modified": "2025-12-17T18:31:32Z",
   "published": "2025-07-03T09:30:33Z",
   "aliases": [
     "CVE-2025-38122"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngve: add missing NULL check for gve_alloc_pending_packet() in TX DQO\n\ngve_alloc_pending_packet() can return NULL, but gve_tx_add_skb_dqo()\ndid not check for this case before dereferencing the returned pointer.\n\nAdd a missing NULL check to prevent a potential NULL pointer\ndereference when allocation fails.\n\nThis improves robustness in low-memory scenarios.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:26Z"

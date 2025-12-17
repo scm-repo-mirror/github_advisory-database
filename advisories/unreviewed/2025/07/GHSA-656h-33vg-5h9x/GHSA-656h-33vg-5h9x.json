@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-656h-33vg-5h9x",
-  "modified": "2025-11-03T18:31:20Z",
+  "modified": "2025-12-17T18:31:31Z",
   "published": "2025-07-03T09:30:33Z",
   "aliases": [
     "CVE-2025-38113"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPI: CPPC: Fix NULL pointer dereference when nosmp is used\n\nWith nosmp in cmdline, other CPUs are not brought up, leaving\ntheir cpc_desc_ptr NULL. CPU0's iteration via for_each_possible_cpu()\ndereferences these NULL pointers, causing panic.\n\nPanic backtrace:\n\n[    0.401123] Unable to handle kernel NULL pointer dereference at virtual address 00000000000000b8\n...\n[    0.403255] [<ffffffff809a5818>] cppc_allow_fast_switch+0x6a/0xd4\n...\nKernel panic - not syncing: Attempted to kill init!\n\n[ rjw: New subject ]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:25Z"

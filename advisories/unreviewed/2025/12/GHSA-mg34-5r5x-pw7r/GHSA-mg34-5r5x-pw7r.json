@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mg34-5r5x-pw7r",
+  "modified": "2025-12-17T18:31:33Z",
+  "published": "2025-12-17T18:31:33Z",
+  "aliases": [
+    "CVE-2025-65185"
+  ],
+  "details": "There is a username enumeration via local user login in Entrinsik Informer v5.10.1 which allows malicious users to enumerate users by entering an OTP code and new password then reviewing application responses.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.triaxiomsecurity.com/entrinsik-informer-username-enumeration-cve-2025-65185"
+    },
+    {
+      "type": "WEB",
+      "url": "http://entrinsik.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://informer.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-17T17:15:50Z"
+  }
+}
