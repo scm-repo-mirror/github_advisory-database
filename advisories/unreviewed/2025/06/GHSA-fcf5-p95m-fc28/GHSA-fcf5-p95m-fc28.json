@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcf5-p95m-fc28",
-  "modified": "2025-11-03T18:31:19Z",
+  "modified": "2025-12-17T21:30:31Z",
   "published": "2025-06-18T12:30:33Z",
   "aliases": [
     "CVE-2025-38071"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/mm: Check return value from memblock_phys_alloc_range()\n\nAt least with CONFIG_PHYSICAL_START=0x100000, if there is < 4 MiB of\ncontiguous free memory available at this point, the kernel will crash\nand burn because memblock_phys_alloc_range() returns 0 on failure,\nwhich leads memblock_phys_free() to throw the first 4 MiB of physical\nmemory to the wolves.\n\nAt a minimum it should fail gracefully with a meaningful diagnostic,\nbut in fact everything seems to work fine without the weird reserve\nallocation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T10:15:40Z"

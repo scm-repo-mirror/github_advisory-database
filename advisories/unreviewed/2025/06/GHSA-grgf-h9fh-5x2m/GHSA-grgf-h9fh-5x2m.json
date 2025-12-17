@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grgf-h9fh-5x2m",
-  "modified": "2025-11-03T21:34:04Z",
+  "modified": "2025-12-17T21:30:30Z",
   "published": "2025-06-18T12:30:30Z",
   "aliases": [
     "CVE-2025-38007"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: uclogic: Add NULL check in uclogic_input_configured()\n\ndevm_kasprintf() returns NULL when memory allocation fails. Currently,\nuclogic_input_configured() does not check for this case, which results\nin a NULL pointer dereference.\n\nAdd NULL check after devm_kasprintf() to prevent this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T10:15:31Z"

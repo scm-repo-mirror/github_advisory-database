@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6q6-cgpm-5wr2",
-  "modified": "2025-12-16T21:30:51Z",
+  "modified": "2025-12-17T21:30:43Z",
   "published": "2025-12-12T21:31:39Z",
   "aliases": [
     "CVE-2025-43512"
@@ -21,6 +21,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://support.apple.com/en-us/125885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125886"
+    },
+    {
+      "type": "WEB",
       "url": "https://support.apple.com/en-us/125887"
     },
     {
@@ -29,7 +37,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-269"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

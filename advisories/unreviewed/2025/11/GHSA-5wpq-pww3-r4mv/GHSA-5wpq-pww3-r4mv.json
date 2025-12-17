@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wpq-pww3-r4mv",
-  "modified": "2025-11-14T18:31:35Z",
+  "modified": "2025-12-17T21:30:40Z",
   "published": "2025-11-13T21:31:19Z",
   "aliases": [
     "CVE-2025-47222"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.keyfactor.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.keyfactor.com/hc/en-us/articles/37639174814235-SignServer-CVE-2025-47222-Class-name-enumeration"
     }
   ],
   "database_specific": {

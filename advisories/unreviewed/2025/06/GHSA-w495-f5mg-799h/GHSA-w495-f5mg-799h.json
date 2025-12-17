@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w495-f5mg-799h",
-  "modified": "2025-11-03T18:31:18Z",
+  "modified": "2025-12-17T21:30:29Z",
   "published": "2025-06-08T12:30:32Z",
   "aliases": [
     "CVE-2025-38003"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncan: bcm: add missing rcu read protection for procfs content\n\nWhen the procfs content is generated for a bcm_op which is in the process\nto be removed the procfs output might show unreliable data (UAF).\n\nAs the removal of bcm_op's is already implemented with rcu handling this\npatch adds the missing rcu_read_lock() and makes sure the list entries\nare properly removed under rcu protection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-08T11:15:20Z"

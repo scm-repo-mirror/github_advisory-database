@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q9m-rgvw-p592",
-  "modified": "2025-12-15T03:30:17Z",
+  "modified": "2025-12-17T21:30:44Z",
   "published": "2025-12-12T21:31:39Z",
   "aliases": [
     "CVE-2025-43532"
@@ -21,11 +21,35 @@
     },
     {
       "type": "WEB",
+      "url": "https://support.apple.com/en-us/125884"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125886"
+    },
+    {
+      "type": "WEB",
       "url": "https://support.apple.com/en-us/125887"
     },
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125889"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125890"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125891"
     }
   ],
   "database_specific": {

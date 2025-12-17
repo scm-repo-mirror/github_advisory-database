@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crqv-f66m-8q78",
-  "modified": "2025-12-16T09:31:10Z",
+  "modified": "2025-12-17T21:30:45Z",
   "published": "2025-12-16T09:31:10Z",
   "aliases": [
     "CVE-2025-67999"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Stefano Lissa Newsletter newsletter allows Blind SQL Injection.This issue affects Newsletter: from n/a through <= 9.0.9.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-16T09:16:00Z"

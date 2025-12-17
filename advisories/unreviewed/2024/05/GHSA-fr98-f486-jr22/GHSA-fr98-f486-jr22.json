@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr98-f486-jr22",
-  "modified": "2024-06-27T12:30:46Z",
+  "modified": "2025-12-17T21:30:28Z",
   "published": "2024-05-17T15:31:10Z",
   "aliases": [
     "CVE-2024-35830"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: tc358743: register v4l2 async device only after successful setup\n\nEnsure the device has been setup correctly before registering the v4l2\nasync device, thus allowing userspace to access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -61,7 +66,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T14:15:19Z"

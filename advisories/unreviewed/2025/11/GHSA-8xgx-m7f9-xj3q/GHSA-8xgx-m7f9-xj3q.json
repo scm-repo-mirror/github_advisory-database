@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xgx-m7f9-xj3q",
-  "modified": "2025-11-04T15:31:31Z",
+  "modified": "2025-12-17T21:30:32Z",
   "published": "2025-11-04T03:30:27Z",
   "aliases": [
     "CVE-2025-43379"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125632"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125634"
     },
     {
       "type": "WEB",

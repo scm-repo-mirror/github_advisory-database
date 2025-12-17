@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gf8-fqww-vr2c",
-  "modified": "2025-11-04T15:31:32Z",
+  "modified": "2025-12-17T21:30:35Z",
   "published": "2025-11-04T03:30:28Z",
   "aliases": [
     "CVE-2025-43426"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/125632"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/125634"
     }
   ],
   "database_specific": {

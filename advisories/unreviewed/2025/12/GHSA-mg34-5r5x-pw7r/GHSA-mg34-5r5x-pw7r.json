@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg34-5r5x-pw7r",
-  "modified": "2025-12-17T18:31:33Z",
+  "modified": "2025-12-17T21:30:46Z",
   "published": "2025-12-17T18:31:33Z",
   "aliases": [
     "CVE-2025-65185"
   ],
   "details": "There is a username enumeration via local user login in Entrinsik Informer v5.10.1 which allows malicious users to enumerate users by entering an OTP code and new password then reviewing application responses.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-203"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-17T17:15:50Z"

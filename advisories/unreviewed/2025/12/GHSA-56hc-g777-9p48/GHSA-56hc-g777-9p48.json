@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56hc-g777-9p48",
-  "modified": "2025-12-17T18:31:33Z",
+  "modified": "2025-12-17T21:30:46Z",
   "published": "2025-12-17T18:31:33Z",
   "aliases": [
     "CVE-2025-66921"
   ],
   "details": "A Cross-site scripting (XSS) vulnerability in Create/Update Item(s) Module in Open Source Point of Sale v3.4.1 allows remote attackers to inject arbitrary web script or HTML via the \"name\" parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-17T17:15:50Z"

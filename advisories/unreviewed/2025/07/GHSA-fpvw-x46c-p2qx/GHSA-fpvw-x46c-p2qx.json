@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpvw-x46c-p2qx",
-  "modified": "2025-12-07T00:30:55Z",
+  "modified": "2025-12-17T21:30:31Z",
   "published": "2025-07-03T09:30:33Z",
   "aliases": [
     "CVE-2025-38120"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_set_pipapo_avx2: fix initial map fill\n\nIf the first field doesn't cover the entire start map, then we must zero\nout the remainder, else we leak those bits into the next match round map.\n\nThe early fix was incomplete and did only fix up the generic C\nimplementation.\n\nA followup patch adds a test case to nft_concat_range.sh.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:26Z"
