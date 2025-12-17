@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3x39-62h4-f8j6",
-  "modified": "2025-12-01T23:56:56Z",
+  "modified": "2025-12-17T00:41:08Z",
   "published": "2025-11-27T18:30:25Z",
   "aliases": [
     "CVE-2025-12419"
@@ -139,6 +139,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mattermost/mattermost/commit/d3ed703dc8330684952eb8d49a375bac6ea7b0c6"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-3x39-62h4-f8j6"
     },
     {
       "type": "PACKAGE",
