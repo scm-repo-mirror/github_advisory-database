@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqjj-9hc3-x3q4",
-  "modified": "2025-11-19T18:31:19Z",
+  "modified": "2025-12-18T00:34:05Z",
   "published": "2025-11-19T18:31:19Z",
   "aliases": [
     "CVE-2025-63221"
   ],
   "details": "The Axel Technology puma devices (firmware versions 0.8.5 to 1.0.3) are vulnerable to Broken Access Control due to missing authentication on the /cgi-bin/gstFcgi.fcgi endpoint. Unauthenticated remote attackers can list user accounts, create new administrative users, delete users, and modify system settings, leading to full compromise of the device.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-11-19T16:15:48Z"
