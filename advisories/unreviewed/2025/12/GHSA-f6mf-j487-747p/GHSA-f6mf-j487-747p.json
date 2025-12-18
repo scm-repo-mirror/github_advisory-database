@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6mf-j487-747p",
-  "modified": "2025-12-17T15:34:51Z",
+  "modified": "2025-12-18T12:30:27Z",
   "published": "2025-12-04T18:30:53Z",
   "aliases": [
     "CVE-2025-66287"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:23452"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:23583"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:23591"
     },
     {
       "type": "WEB",
