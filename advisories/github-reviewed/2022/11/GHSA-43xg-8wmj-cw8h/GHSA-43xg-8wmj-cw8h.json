@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43xg-8wmj-cw8h",
-  "modified": "2024-10-15T16:11:42Z",
+  "modified": "2025-12-18T15:59:36Z",
   "published": "2022-11-01T19:00:29Z",
   "aliases": [
     "CVE-2022-31777"
@@ -17,47 +17,6 @@
   "affected": [
     {
       "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.spark:spark-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.2.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.spark:spark-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.3.0"
-            },
-            {
-              "fixed": "3.3.1"
-            }
-          ]
-        }
-      ],
-      "versions": [
-        "3.3.0"
-      ]
-    },
-    {
-      "package": {
         "ecosystem": "PyPI",
         "name": "pyspark"
       },
@@ -96,6 +55,145 @@
       "versions": [
         "3.3.0"
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.spark:spark-core_2.9.3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 3.2.2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.spark:spark-core_2.13"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.spark:spark-core_2.13"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.3.0"
+            },
+            {
+              "fixed": "3.3.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.3.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.spark:spark-core_2.12"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.spark:spark-core_2.12"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.3.0"
+            },
+            {
+              "fixed": "3.3.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.3.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.spark:spark-core_2.11"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 3.2.2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.spark:spark-core_2.10"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 3.2.2"
+      }
     }
   ],
   "references": [
