@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm7x-hx5c-9v29",
-  "modified": "2025-12-18T09:30:29Z",
+  "modified": "2025-12-18T15:30:40Z",
   "published": "2025-12-18T09:30:29Z",
   "aliases": [
     "CVE-2025-60084"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in add-ons.org PDF for Elementor Forms + Drag And Drop Template Builder pdf-for-elementor-forms allows Object Injection.This issue affects PDF for Elementor Forms + Drag And Drop Template Builder: from n/a through <= 6.3.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:16:08Z"

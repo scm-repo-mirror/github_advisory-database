@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66mx-93rr-rg39",
-  "modified": "2022-05-24T17:43:22Z",
+  "modified": "2025-12-18T15:30:24Z",
   "published": "2022-05-24T17:43:22Z",
   "aliases": [
     "CVE-2021-27803"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2021/03/msg00003.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IZGUR5XFHATVXTRAEJMODS7ROYHA56NX"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KOGP2VIVVXXQ6CZ2HU4DKGPDB4WR24XF"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SEHS2CFGH3KCSNPHBHNGN5SGV6QPMLZ4"
     },
     {
       "type": "WEB",

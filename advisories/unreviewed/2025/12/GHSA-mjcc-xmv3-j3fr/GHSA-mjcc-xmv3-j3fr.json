@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjcc-xmv3-j3fr",
-  "modified": "2025-12-18T09:30:29Z",
+  "modified": "2025-12-18T15:30:41Z",
   "published": "2025-12-18T09:30:29Z",
   "aliases": [
     "CVE-2025-64231"
   ],
   "details": "Unrestricted Upload of File with Dangerous Type vulnerability in RedefiningTheWeb WordPress Contact Form 7 PDF, Google Sheet & Database rtwwcfp-wordpress-contact-form-7-pdf allows Using Malicious Files.This issue affects WordPress Contact Form 7 PDF, Google Sheet & Database: from n/a through <= 3.0.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-434"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:16:12Z"
