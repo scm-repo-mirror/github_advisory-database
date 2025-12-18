@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4542-8w7g-25qw",
-  "modified": "2025-11-03T18:31:23Z",
+  "modified": "2025-12-18T18:30:28Z",
   "published": "2025-07-09T12:31:35Z",
   "aliases": [
     "CVE-2025-38259"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: codecs: wcd9335: Fix missing free of regulator supplies\n\nDriver gets and enables all regulator supplies in probe path\n(wcd9335_parse_dt() and wcd9335_power_on_reset()), but does not cleanup\nin final error paths and in unbind (missing remove() callback).  This\nleads to leaked memory and unbalanced regulator enable count during\nprobe errors or unbind.\n\nFix this by converting entire code into devm_regulator_bulk_get_enable()\nwhich also greatly simplifies the code.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-09T11:15:28Z"

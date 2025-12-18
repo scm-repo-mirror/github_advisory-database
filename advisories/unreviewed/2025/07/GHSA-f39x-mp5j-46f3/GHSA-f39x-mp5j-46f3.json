@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f39x-mp5j-46f3",
-  "modified": "2025-11-03T18:31:21Z",
+  "modified": "2025-12-18T18:30:28Z",
   "published": "2025-07-04T15:31:08Z",
   "aliases": [
     "CVE-2025-38191"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix null pointer dereference in destroy_previous_session\n\nIf client set ->PreviousSessionId on kerberos session setup stage,\nNULL pointer dereference error will happen. Since sess->user is not\nset yet, It can pass the user argument as NULL to destroy_previous_session.\nsess->user will be set in ksmbd_krb5_authenticate(). So this patch move\ncalling destroy_previous_session() after ksmbd_krb5_authenticate().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-04T14:15:26Z"

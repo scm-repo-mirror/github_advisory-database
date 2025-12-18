@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj2f-9jr9-m7x9",
-  "modified": "2025-12-18T09:30:30Z",
+  "modified": "2025-12-18T18:30:30Z",
   "published": "2025-12-18T09:30:30Z",
   "aliases": [
     "CVE-2025-66070"
   ],
   "details": "Missing Authorization vulnerability in Tomdever wpForo Forum wpforo allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects wpForo Forum: from n/a through <= 2.4.10.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:16:15Z"

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-96g3-r54f-fx2v",
+  "modified": "2025-12-18T18:30:30Z",
+  "published": "2025-12-18T18:30:30Z",
+  "aliases": [
+    "CVE-2025-63388"
+  ],
+  "details": "A Cross-Origin Resource Sharing (CORS) misconfiguration vulnerability exists in Dify v1.9.1 in the /console/api/system-features endpoint. The endpoint implements an overly permissive CORS policy that reflects arbitrary Origin headers and sets Access-Control-Allow-Credentials: true, allowing any external domain to make authenticated cross-origin requests.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63388"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Cristliu/5ded6d03e41d7d66ecb1b568bae3ff6c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/langgenius/dify/discussions"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T16:15:54Z"
+  }
+}

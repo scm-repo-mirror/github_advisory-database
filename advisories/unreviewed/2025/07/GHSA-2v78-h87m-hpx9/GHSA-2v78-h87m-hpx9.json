@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2v78-h87m-hpx9",
-  "modified": "2025-11-03T18:31:26Z",
+  "modified": "2025-12-18T18:30:28Z",
   "published": "2025-07-25T15:30:51Z",
   "aliases": [
     "CVE-2025-38377"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nrose: fix dangling neighbour pointers in rose_rt_device_down()\n\nThere are two bugs in rose_rt_device_down() that can cause\nuse-after-free:\n\n1. The loop bound `t->count` is modified within the loop, which can\n   cause the loop to terminate early and miss some entries.\n\n2. When removing an entry from the neighbour array, the subsequent entries\n   are moved up to fill the gap, but the loop index `i` is still\n   incremented, causing the next entry to be skipped.\n\nFor example, if a node has three neighbours (A, A, B) with count=3 and A\nis being removed, the second A is not checked.\n\n    i=0: (A, A, B) -> (A, B) with count=2\n          ^ checked\n    i=1: (A, B)    -> (A, B) with count=2\n             ^ checked (B, not A!)\n    i=2: (doesn't occur because i < count is false)\n\nThis leaves the second A in the array with count=2, but the rose_neigh\nstructure has been freed. Code that accesses these entries assumes that\nthe first `count` entries are valid pointers, causing a use-after-free\nwhen it accesses the dangling pointer.\n\nFix both issues by iterating over the array in reverse order with a fixed\nloop bound. This ensures that all entries are examined and that the removal\nof an entry doesn't affect subsequent iterations.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T13:15:26Z"

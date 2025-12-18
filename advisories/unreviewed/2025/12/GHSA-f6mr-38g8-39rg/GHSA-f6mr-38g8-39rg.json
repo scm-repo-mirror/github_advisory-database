@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f6mr-38g8-39rg",
+  "modified": "2025-12-18T18:30:30Z",
+  "published": "2025-12-18T18:30:30Z",
+  "aliases": [
+    "CVE-2025-63389"
+  ],
+  "details": "A critical authentication bypass vulnerability exists in Ollama platform's API endpoints in versions prior to and including v0.12.3. The platform exposes multiple API endpoints without requiring authentication, enabling remote attackers to perform unauthorized model management operations.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63389"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Cristliu/48dae561696374744d9fced07a544ecd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ollama/ollama/issues"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T16:15:54Z"
+  }
+}

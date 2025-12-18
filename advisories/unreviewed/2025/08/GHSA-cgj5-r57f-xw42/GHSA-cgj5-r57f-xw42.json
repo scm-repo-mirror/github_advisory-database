@@ -35,6 +35,7 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-214",
+      "CWE-522",
       "CWE-532"
     ],
     "severity": "CRITICAL",

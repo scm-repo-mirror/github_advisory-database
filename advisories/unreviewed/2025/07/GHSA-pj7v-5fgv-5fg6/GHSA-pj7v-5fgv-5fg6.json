@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj7v-5fgv-5fg6",
-  "modified": "2025-11-03T18:31:21Z",
+  "modified": "2025-12-18T18:30:28Z",
   "published": "2025-07-04T15:31:09Z",
   "aliases": [
     "CVE-2025-38190"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\natm: Revert atm_account_tx() if copy_from_iter_full() fails.\n\nIn vcc_sendmsg(), we account skb->truesize to sk->sk_wmem_alloc by\natm_account_tx().\n\nIt is expected to be reverted by atm_pop_raw() later called by\nvcc->dev->ops->send(vcc, skb).\n\nHowever, vcc_sendmsg() misses the same revert when copy_from_iter_full()\nfails, and then we will leak a socket.\n\nLet's factorise the revert part as atm_return_tx() and call it in\nthe failure path.\n\nNote that the corresponding sk_wmem_alloc operation can be found in\nalloc_tx() as of the blamed commit.\n\n  $ git blame -L:alloc_tx net/atm/common.c c55fa3cccbc2c~",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-04T14:15:26Z"

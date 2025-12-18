@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pr3-cx3j-4949",
-  "modified": "2025-12-16T18:31:35Z",
+  "modified": "2025-12-18T18:30:28Z",
   "published": "2025-12-16T18:31:35Z",
   "aliases": [
     "CVE-2025-37164"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37164"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04985en_us&docLocale=en_US#vulnerability-summary-1"
     },
     {
       "type": "WEB",

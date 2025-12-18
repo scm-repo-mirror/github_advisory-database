@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-363f-897q-jph9",
-  "modified": "2025-12-18T09:30:30Z",
+  "modified": "2025-12-18T18:30:30Z",
   "published": "2025-12-18T09:30:30Z",
   "aliases": [
     "CVE-2025-66102"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in FolioVision FV Antispam fv-antispam allows Reflected XSS.This issue affects FV Antispam: from n/a through <= 2.7.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:16:15Z"
