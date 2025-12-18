@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rj66-hjxf-452x",
-  "modified": "2025-12-17T21:30:49Z",
+  "modified": "2025-12-18T21:31:36Z",
   "published": "2025-12-17T21:30:49Z",
   "aliases": [
     "CVE-2025-43428"
   ],
   "details": "A configuration issue was addressed with additional restrictions. This issue is fixed in visionOS 26.2, iOS 26.2 and iPadOS 26.2, macOS Tahoe 26.2. Photos in the Hidden Photos Album may be viewed without authentication.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-306"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-17T21:16:01Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xxr-4wwq-4pgv",
-  "modified": "2025-12-18T09:30:25Z",
+  "modified": "2025-12-18T21:31:40Z",
   "published": "2025-12-18T09:30:25Z",
   "aliases": [
     "CVE-2025-49919"
   ],
   "details": "Insertion of Sensitive Information Into Sent Data vulnerability in WPCenter eRoom eroom-zoom-meetings-webinar allows Retrieve Embedded Sensitive Data.This issue affects eRoom: from n/a through <= 1.5.6.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-201"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:15:52Z"

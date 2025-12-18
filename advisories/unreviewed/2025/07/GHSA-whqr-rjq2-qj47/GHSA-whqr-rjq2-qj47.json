@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whqr-rjq2-qj47",
-  "modified": "2025-11-03T18:31:22Z",
+  "modified": "2025-12-18T21:31:34Z",
   "published": "2025-07-08T09:31:29Z",
   "aliases": [
     "CVE-2025-38237"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: platform: exynos4-is: Add hardware sync wait to fimc_is_hw_change_mode()\n\nIn fimc_is_hw_change_mode(), the function changes camera modes without\nwaiting for hardware completion, risking corrupted data or system hangs\nif subsequent operations proceed before the hardware is ready.\n\nAdd fimc_is_hw_wait_intmsr0_intmsd0() after mode configuration, ensuring\nhardware state synchronization and stable interrupt handling.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-08T08:15:21Z"

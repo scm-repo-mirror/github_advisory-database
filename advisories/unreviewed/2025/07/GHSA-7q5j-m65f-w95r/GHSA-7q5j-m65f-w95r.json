@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q5j-m65f-w95r",
-  "modified": "2025-11-03T18:31:22Z",
+  "modified": "2025-12-18T21:31:34Z",
   "published": "2025-07-04T15:31:10Z",
   "aliases": [
     "CVE-2025-38231"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfsd: Initialize ssc before laundromat_work to prevent NULL dereference\n\nIn nfs4_state_start_net(), laundromat_work may access nfsd_ssc through\nnfs4_laundromat -> nfsd4_ssc_expire_umount. If nfsd_ssc isn't initialized,\nthis can cause NULL pointer dereference.\n\nNormally the delayed start of laundromat_work allows sufficient time for\nnfsd_ssc initialization to complete. However, when the kernel waits too\nlong for userspace responses (e.g. in nfs4_state_start_net ->\nnfsd4_end_grace -> nfsd4_record_grace_done -> nfsd4_cld_grace_done ->\ncld_pipe_upcall -> __cld_pipe_upcall -> wait_for_completion path), the\ndelayed work may start before nfsd_ssc initialization finishes.\n\nFix this by moving nfsd_ssc initialization before starting laundromat_work.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-04T14:15:32Z"

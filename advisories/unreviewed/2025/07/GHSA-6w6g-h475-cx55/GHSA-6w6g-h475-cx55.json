@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w6g-h475-cx55",
-  "modified": "2025-11-03T18:31:22Z",
+  "modified": "2025-12-18T21:31:33Z",
   "published": "2025-07-04T15:31:09Z",
   "aliases": [
     "CVE-2025-38200"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni40e: fix MMIO write access to an invalid page in i40e_clear_hw\n\nWhen the device sends a specific input, an integer underflow can occur, leading\nto MMIO write access to an invalid page.\n\nPrevent the integer underflow by changing the type of related variables.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-191"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-04T14:15:27Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fm6-3wmj-6h3q",
-  "modified": "2025-11-03T18:31:21Z",
+  "modified": "2025-12-18T21:31:32Z",
   "published": "2025-07-03T09:30:34Z",
   "aliases": [
     "CVE-2025-38145"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoc: aspeed: Add NULL check in aspeed_lpc_enable_snoop()\n\ndevm_kasprintf() returns NULL when memory allocation fails. Currently,\naspeed_lpc_enable_snoop() does not check for this case, which results in a\nNULL pointer dereference.\n\nAdd NULL check after devm_kasprintf() to prevent this issue.\n\n[arj: Fix Fixes: tag to use subject from 3772e5da4454]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:29Z"

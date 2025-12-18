@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c97-mqhv-6q84",
-  "modified": "2025-12-18T09:30:24Z",
+  "modified": "2025-12-18T21:31:38Z",
   "published": "2025-12-18T09:30:24Z",
   "aliases": [
     "CVE-2025-14314"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Roxnor PopupKit popup-builder-block allows Blind SQL Injection.This issue affects PopupKit: from n/a through <= 2.1.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:15:49Z"

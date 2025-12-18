@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jg4-8pc3-8qw9",
-  "modified": "2025-12-18T09:30:25Z",
+  "modified": "2025-12-18T21:31:40Z",
   "published": "2025-12-18T09:30:25Z",
   "aliases": [
     "CVE-2025-49379"
   ],
   "details": "Incorrect Privilege Assignment vulnerability in silverplugins217 Custom Fields Account Registration For Woocommerce custom-fields-account-registration-for-woocommerce allows Privilege Escalation.This issue affects Custom Fields Account Registration For Woocommerce: from n/a through <= 1.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-266"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:15:51Z"

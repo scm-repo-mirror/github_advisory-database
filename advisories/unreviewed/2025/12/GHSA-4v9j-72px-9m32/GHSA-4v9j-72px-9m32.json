@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v9j-72px-9m32",
-  "modified": "2025-12-17T21:30:50Z",
+  "modified": "2025-12-18T21:31:37Z",
   "published": "2025-12-17T21:30:50Z",
   "aliases": [
     "CVE-2025-67792"
   ],
   "details": "An issue was discovered in DriveLock 24.1 before 24.1.6, 24.2 before 24.2.7, and 25.1 before 25.1.5. Local unprivileged users can manipulate a DriveLock process to execute arbitrary commands on Windows computers.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-269"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-17T21:16:16Z"

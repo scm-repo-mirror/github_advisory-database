@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fjh-2rcv-9cfc",
-  "modified": "2025-11-03T18:31:22Z",
+  "modified": "2025-12-18T21:31:34Z",
   "published": "2025-07-04T15:31:10Z",
   "aliases": [
     "CVE-2025-38225"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: imx-jpeg: Cleanup after an allocation error\n\nWhen allocation failures are not cleaned up by the driver, further\nallocation errors will be false-positives, which will cause buffers to\nremain uninitialized and cause NULL pointer dereferences.\nEnsure proper cleanup of failed allocations to prevent these issues.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-04T14:15:31Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7rh-fj9w-v2f9",
-  "modified": "2025-12-18T09:30:25Z",
+  "modified": "2025-12-18T21:31:40Z",
   "published": "2025-12-18T09:30:25Z",
   "aliases": [
     "CVE-2025-49918"
   ],
   "details": "Insertion of Sensitive Information Into Sent Data vulnerability in e4jvikwp VikBooking Hotel Booking Engine & PMS vikbooking allows Retrieve Embedded Sensitive Data.This issue affects VikBooking Hotel Booking Engine & PMS: from n/a through <= 1.8.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-201"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:15:52Z"

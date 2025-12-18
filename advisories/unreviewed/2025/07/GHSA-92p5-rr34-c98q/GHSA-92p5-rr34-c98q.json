@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92p5-rr34-c98q",
-  "modified": "2025-11-03T18:31:21Z",
+  "modified": "2025-12-18T21:31:33Z",
   "published": "2025-07-03T09:30:35Z",
   "aliases": [
     "CVE-2025-38159"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: rtw88: fix the 'para' buffer size to avoid reading out of bounds\n\nSet the size to 6 instead of 2, since 'para' array is passed to\n'rtw_fw_bt_wifi_control(rtwdev, para[0], &para[1])', which reads\n5 bytes:\n\nvoid rtw_fw_bt_wifi_control(struct rtw_dev *rtwdev, u8 op_code, u8 *data)\n{\n    ...\n    SET_BT_WIFI_CONTROL_DATA1(h2c_pkt, *data);\n    SET_BT_WIFI_CONTROL_DATA2(h2c_pkt, *(data + 1));\n    ...\n    SET_BT_WIFI_CONTROL_DATA5(h2c_pkt, *(data + 4));\n\nDetected using the static analysis tool - Svace.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-03T09:15:31Z"

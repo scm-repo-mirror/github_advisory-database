@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hrf9-jmwr-6222",
+  "modified": "2025-12-18T21:31:42Z",
+  "published": "2025-12-18T21:31:42Z",
+  "aliases": [
+    "CVE-2025-63387"
+  ],
+  "details": "Dify v1.9.1 is vulnerable to Insecure Permissions. An unauthenticated attacker can directly send HTTP GET requests to the /console/api/system-features endpoint without any authentication credentials or session tokens. The endpoint fails to implement proper authorization checks, allowing anonymous access to sensitive system configuration data.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63387"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Cristliu/cddc0cbbf354de51106ab63a11be94af"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/langgenius/dify/discussions"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T19:16:33Z"
+  }
+}

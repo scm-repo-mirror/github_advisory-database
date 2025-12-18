@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jj5-5wqc-h9g2",
-  "modified": "2025-12-18T09:30:25Z",
+  "modified": "2025-12-18T21:31:40Z",
   "published": "2025-12-18T09:30:25Z",
   "aliases": [
     "CVE-2025-53433"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in AncoraThemes EasyEat easyeat allows PHP Local File Inclusion.This issue affects EasyEat: from n/a through <= 1.9.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:15:53Z"

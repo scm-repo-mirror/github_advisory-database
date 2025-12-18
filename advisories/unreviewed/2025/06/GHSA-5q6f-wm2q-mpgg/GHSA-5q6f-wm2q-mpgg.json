@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5q6f-wm2q-mpgg",
-  "modified": "2025-11-03T18:31:19Z",
+  "modified": "2025-12-18T21:31:32Z",
   "published": "2025-06-28T09:30:23Z",
   "aliases": [
     "CVE-2025-38085"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/hugetlb: fix huge_pmd_unshare() vs GUP-fast race\n\nhuge_pmd_unshare() drops a reference on a page table that may have\npreviously been shared across processes, potentially turning it into a\nnormal page table used in another process in which unrelated VMAs can\nafterwards be installed.\n\nIf this happens in the middle of a concurrent gup_fast(), gup_fast() could\nend up walking the page tables of another process.  While I don't see any\nway in which that immediately leads to kernel memory corruption, it is\nreally weird and unexpected.\n\nFix it with an explicit broadcast IPI through tlb_remove_table_sync_one(),\njust like we do in khugepaged when removing page tables for a THP\ncollapse.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-28T08:15:24Z"

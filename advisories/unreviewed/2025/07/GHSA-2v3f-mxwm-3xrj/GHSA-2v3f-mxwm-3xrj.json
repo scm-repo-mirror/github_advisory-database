@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2v3f-mxwm-3xrj",
-  "modified": "2025-11-03T18:31:21Z",
+  "modified": "2025-12-18T21:31:33Z",
   "published": "2025-07-04T15:31:09Z",
   "aliases": [
     "CVE-2025-38197"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86: dell_rbu: Fix list usage\n\nPass the correct list head to list_for_each_entry*() when looping through\nthe packet list.\n\nWithout this patch, reading the packet data via sysfs will show the data\nincorrectly (because it starts at the wrong packet), and clearing the\npacket list will result in a NULL pointer dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-04T14:15:26Z"

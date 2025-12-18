@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2rj-px8j-567v",
-  "modified": "2025-12-18T09:30:29Z",
+  "modified": "2025-12-18T21:31:42Z",
   "published": "2025-12-18T09:30:29Z",
   "aliases": [
     "CVE-2025-64214"
   ],
   "details": "Missing Authorization vulnerability in StylemixThemes MasterStudy LMS Pro masterstudy-lms-learning-management-system-pro allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects MasterStudy LMS Pro: from n/a through < 4.7.16.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:16:11Z"

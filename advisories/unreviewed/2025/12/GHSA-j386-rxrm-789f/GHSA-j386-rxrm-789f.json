@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j386-rxrm-789f",
-  "modified": "2025-12-18T09:30:26Z",
+  "modified": "2025-12-18T21:31:41Z",
   "published": "2025-12-18T09:30:26Z",
   "aliases": [
     "CVE-2025-54751"
   ],
   "details": "Missing Authorization vulnerability in WPXPO PostX ultimate-post allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects PostX: from n/a through <= 4.1.36.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:15:56Z"

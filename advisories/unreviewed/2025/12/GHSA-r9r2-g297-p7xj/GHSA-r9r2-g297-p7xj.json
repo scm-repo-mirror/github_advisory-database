@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9r2-g297-p7xj",
-  "modified": "2025-12-18T09:30:27Z",
+  "modified": "2025-12-18T21:31:41Z",
   "published": "2025-12-18T09:30:27Z",
   "aliases": [
     "CVE-2025-58936"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in axiomthemes Catamaran catamaran allows PHP Local File Inclusion.This issue affects Catamaran: from n/a through <= 1.15.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-18T08:16:01Z"

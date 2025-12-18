@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3g6h-mcpv-p279",
-  "modified": "2025-11-03T21:33:55Z",
+  "modified": "2025-12-18T21:31:32Z",
   "published": "2025-05-20T18:30:56Z",
   "aliases": [
     "CVE-2025-37948"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\narm64: bpf: Add BHB mitigation to the epilogue for cBPF programs\n\nA malicious BPF program may manipulate the branch history to influence\nwhat the hardware speculates will happen next.\n\nOn exit from a BPF program, emit the BHB mititgation sequence.\n\nThis is only applied for 'classic' cBPF programs that are loaded by\nseccomp.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T16:15:32Z"
