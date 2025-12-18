@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2ffc-fhcm-rq53",
+  "modified": "2025-12-18T09:30:26Z",
+  "published": "2025-12-18T09:30:26Z",
+  "aliases": [
+    "CVE-2025-54748"
+  ],
+  "details": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in RomanCode MapSVG mapsvg allows Path Traversal.This issue affects MapSVG: from n/a through < 8.6.12.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54748"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/mapsvg/vulnerability/wordpress-mapsvg-plugin-8-6-12-arbitrary-file-download-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:15:56Z"
+  }
+}

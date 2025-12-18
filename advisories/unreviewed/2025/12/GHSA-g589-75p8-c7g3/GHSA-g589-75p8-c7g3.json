@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-g589-75p8-c7g3",
+  "modified": "2025-12-18T09:30:29Z",
+  "published": "2025-12-18T09:30:29Z",
+  "aliases": [
+    "CVE-2025-60178"
+  ],
+  "details": "Deserialization of Untrusted Data vulnerability in CRM Perks WP Gravity Forms HubSpot gf-hubspot allows Object Injection.This issue affects WP Gravity Forms HubSpot: from n/a through <= 1.2.6.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60178"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/gf-hubspot/vulnerability/wordpress-wp-gravity-forms-hubspot-plugin-1-2-6-deserialization-of-untrusted-data-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:16:09Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cvfv-fcrr-4w22",
+  "modified": "2025-12-18T09:30:29Z",
+  "published": "2025-12-18T09:30:29Z",
+  "aliases": [
+    "CVE-2025-64213"
+  ],
+  "details": "Insertion of Sensitive Information Into Sent Data vulnerability in StylemixThemes MasterStudy LMS Pro masterstudy-lms-learning-management-system-pro allows Retrieve Embedded Sensitive Data.This issue affects MasterStudy LMS Pro: from n/a through < 4.7.16.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64213"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/masterstudy-lms-learning-management-system-pro/vulnerability/wordpress-masterstudy-lms-pro-plugin-4-7-16-sensitive-data-exposure-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-201"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:16:11Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pqqw-32ff-9fw8",
+  "modified": "2025-12-18T09:30:29Z",
+  "published": "2025-12-18T09:30:29Z",
+  "aliases": [
+    "CVE-2025-60174"
+  ],
+  "details": "Deserialization of Untrusted Data vulnerability in CRM Perks WP Gravity Forms Constant Contact Plugin gf-constant-contact allows Object Injection.This issue affects WP Gravity Forms Constant Contact Plugin: from n/a through <= 1.1.2.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60174"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/gf-constant-contact/vulnerability/wordpress-wp-gravity-forms-constant-contact-plugin-plugin-1-1-2-deserialization-of-untrusted-data-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:16:09Z"
+  }
+}

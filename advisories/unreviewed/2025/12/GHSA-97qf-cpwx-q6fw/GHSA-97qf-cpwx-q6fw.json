@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-97qf-cpwx-q6fw",
+  "modified": "2025-12-18T09:30:27Z",
+  "published": "2025-12-18T09:30:27Z",
+  "aliases": [
+    "CVE-2025-59134"
+  ],
+  "details": "Incorrect Privilege Assignment vulnerability in Jthemes Sale! Immigration law, Visa services support, Migration Agent Consulting immiex allows Privilege Escalation.This issue affects Sale! Immigration law, Visa services support, Migration Agent Consulting: from n/a through <= 1.5.8.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59134"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/immiex/vulnerability/wordpress-sale-immigration-law-visa-services-support-migration-agent-consulting-theme-1-5-8-privilege-escalation-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-266"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:16:03Z"
+  }
+}

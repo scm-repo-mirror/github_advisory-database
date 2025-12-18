@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6cww-qhvw-jff7",
+  "modified": "2025-12-18T09:30:30Z",
+  "published": "2025-12-18T09:30:30Z",
+  "aliases": [
+    "CVE-2025-66116"
+  ],
+  "details": "Insertion of Sensitive Information Into Sent Data vulnerability in UserElements Ultimate Member Widgets for Elementor ultimate-member-widgets-for-elementor allows Retrieve Embedded Sensitive Data.This issue affects Ultimate Member Widgets for Elementor: from n/a through <= 2.3.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/ultimate-member-widgets-for-elementor/vulnerability/wordpress-ultimate-member-widgets-for-elementor-plugin-2-3-sensitive-data-exposure-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-201"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:16:16Z"
+  }
+}

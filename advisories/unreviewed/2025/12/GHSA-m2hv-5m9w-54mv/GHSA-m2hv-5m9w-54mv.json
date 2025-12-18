@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-m2hv-5m9w-54mv",
+  "modified": "2025-12-18T09:30:28Z",
+  "published": "2025-12-18T09:30:28Z",
+  "aliases": [
+    "CVE-2025-60052"
+  ],
+  "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in AncoraThemes W&D wd allows PHP Local File Inclusion.This issue affects W&D: from n/a through <= 1.0.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60052"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/wd/vulnerability/wordpress-w-d-theme-1-0-local-file-inclusion-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-98"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:16:04Z"
+  }
+}

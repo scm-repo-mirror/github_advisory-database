@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hf35-jqfj-m86h",
+  "modified": "2025-12-18T09:30:24Z",
+  "published": "2025-12-18T09:30:24Z",
+  "aliases": [
+    "CVE-2025-49041"
+  ],
+  "details": "Missing Authorization vulnerability in The African Boss Get Cash get-cash allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Get Cash: from n/a through <= 3.2.3.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49041"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/get-cash/vulnerability/wordpress-get-cash-plugin-3-2-3-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:15:49Z"
+  }
+}

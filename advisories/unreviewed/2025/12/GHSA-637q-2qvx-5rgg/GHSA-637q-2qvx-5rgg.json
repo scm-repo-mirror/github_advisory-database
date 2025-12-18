@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-637q-2qvx-5rgg",
+  "modified": "2025-12-18T09:30:29Z",
+  "published": "2025-12-18T09:30:29Z",
+  "aliases": [
+    "CVE-2025-60086"
+  ],
+  "details": "Missing Authorization vulnerability in Matt WP Voting Contest wp-voting-contest allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WP Voting Contest: from n/a through <= 5.8.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/wp-voting-contest/vulnerability/wordpress-wp-voting-contest-plugin-5-8-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:16:08Z"
+  }
+}

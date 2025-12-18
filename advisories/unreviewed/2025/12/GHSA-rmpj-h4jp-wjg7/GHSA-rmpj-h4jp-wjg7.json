@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rmpj-h4jp-wjg7",
+  "modified": "2025-12-18T09:30:30Z",
+  "published": "2025-12-18T09:30:30Z",
+  "aliases": [
+    "CVE-2025-66104"
+  ],
+  "details": "Missing Authorization vulnerability in Anton Vanyukov Offload, AI &amp; Optimize with Cloudflare Images cf-images allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Offload, AI &amp; Optimize with Cloudflare Images: from n/a through <= 1.9.5.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66104"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/cf-images/vulnerability/wordpress-offload-ai-optimize-with-cloudflare-images-plugin-1-9-5-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T08:16:16Z"
+  }
+}
