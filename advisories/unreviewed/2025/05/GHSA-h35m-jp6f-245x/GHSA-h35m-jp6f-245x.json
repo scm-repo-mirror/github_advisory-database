@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h35m-jp6f-245x",
-  "modified": "2025-11-03T21:33:55Z",
+  "modified": "2025-12-19T18:31:05Z",
   "published": "2025-05-20T18:30:55Z",
   "aliases": [
     "CVE-2025-37932"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsch_htb: make htb_qlen_notify() idempotent\n\nhtb_qlen_notify() always deactivates the HTB class and in fact could\ntrigger a warning if it is already deactivated. Therefore, it is not\nidempotent and not friendly to its callers, like fq_codel_dequeue().\n\nLet's make it idempotent to ease qdisc_tree_reduce_backlog() callers'\nlife.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T16:15:29Z"

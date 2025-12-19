@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx26-cqvh-gprg",
-  "modified": "2025-12-19T03:31:18Z",
+  "modified": "2025-12-19T18:31:17Z",
   "published": "2025-12-19T03:31:18Z",
   "aliases": [
     "CVE-2025-67842"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/hackermondev/5e2cdc32849405fff6b46957747a2d28"
+    },
+    {
+      "type": "WEB",
+      "url": "https://heartbreak.ing"
     },
     {
       "type": "WEB",

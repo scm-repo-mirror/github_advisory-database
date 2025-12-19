@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qjhc-7f62-c8xv",
-  "modified": "2025-11-03T18:31:24Z",
+  "modified": "2025-12-19T18:31:05Z",
   "published": "2025-07-10T09:32:30Z",
   "aliases": [
     "CVE-2025-38312"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbdev: core: fbcvt: avoid division by 0 in fb_cvt_hperiod()\n\nIn fb_find_mode_cvt(), iff mode->refresh somehow happens to be 0x80000000,\ncvt.f_refresh will become 0 when multiplying it by 2 due to overflow. It's\nthen passed to fb_cvt_hperiod(), where it's used as a divider -- division\nby 0 will result in kernel oops. Add a sanity check for cvt.f_refresh to\navoid such overflow...\n\nFound by Linux Verification Center (linuxtesting.org) with the Svace static\nanalysis tool.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T08:15:30Z"
