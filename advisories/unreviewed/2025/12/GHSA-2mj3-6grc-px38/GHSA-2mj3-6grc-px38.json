@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2mj3-6grc-px38",
+  "modified": "2025-12-19T00:31:42Z",
+  "published": "2025-12-19T00:31:42Z",
+  "aliases": [
+    "CVE-2025-68383"
+  ],
+  "details": "Improper Validation of Specified Index, Position, or Offset in Input (CWE-1285) in Filebeat Syslog parser and the Libbeat Dissect processor can allow a user to trigger a Buffer Overflow (CAPEC-100) and cause a denial of service (panic/crash) of the Filebeat process via either a malformed Syslog message or a malicious tokenizer pattern in the Dissect configuration.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68383"
+    },
+    {
+      "type": "WEB",
+      "url": "https://discuss.elastic.co/t/filebeat-8-19-9-9-1-9-and-9-2-3-security-update-esa-2025-32/384180"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1284"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-18T22:16:02Z"
+  }
+}

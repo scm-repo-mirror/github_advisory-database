@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8m6-q237-vh9r",
-  "modified": "2025-12-15T21:30:32Z",
+  "modified": "2025-12-19T00:31:41Z",
   "published": "2025-12-15T21:30:32Z",
   "aliases": [
     "CVE-2023-53879"
   ],
   "details": "NVClient 5.0 contains a stack buffer overflow vulnerability in the user configuration contact field that allows attackers to crash the application. Attackers can overwrite 846 bytes of memory by pasting a crafted payload into the contact box, causing a denial of service condition.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
@@ -34,7 +38,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-121"
+      "CWE-121",
+      "CWE-787"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
