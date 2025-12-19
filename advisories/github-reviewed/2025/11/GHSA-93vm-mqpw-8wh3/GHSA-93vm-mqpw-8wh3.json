@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93vm-mqpw-8wh3",
-  "modified": "2025-11-26T22:01:36Z",
+  "modified": "2025-12-19T21:27:08Z",
   "published": "2025-11-25T18:32:22Z",
-  "aliases": [
-    "CVE-2025-13467"
-  ],
-  "summary": "Keycloak LDAP User Federation provider enables admin-triggered untrusted Java deserialization",
-  "details": "A flaw was found in the Keycloak LDAP User Federation provider. This vulnerability allows an authenticated realm administrator to trigger deserialization of untrusted Java objects via a malicious LDAP server configuration.",
+  "withdrawn": "2025-12-19T21:27:08Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Keycloak LDAP User Federation provider enables admin-triggered untrusted Java deserialization",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-4hx9-48xh-5mxr. This link is maintained to preserve external references.\n\n### Original Description\n\nA flaw was found in the Keycloak LDAP User Federation provider. This vulnerability allows an authenticated realm administrator to trigger deserialization of untrusted Java objects via a malicious LDAP server configuration.",
   "severity": [
     {
       "type": "CVSS_V3",
