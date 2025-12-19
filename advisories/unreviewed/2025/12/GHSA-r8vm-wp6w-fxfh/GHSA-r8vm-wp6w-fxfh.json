@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8vm-wp6w-fxfh",
-  "modified": "2025-12-18T21:31:36Z",
+  "modified": "2025-12-19T21:30:17Z",
   "published": "2025-12-17T21:30:49Z",
   "aliases": [
     "CVE-2025-34438"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/WWBN/AVideo/commit/c2feaf25cb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://chocapikk.com/posts/2025/avideo-security-vulnerabilities"
     },
     {
       "type": "WEB",

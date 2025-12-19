@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq89-6j7c-j6fv",
-  "modified": "2022-01-14T00:02:34Z",
+  "modified": "2025-12-19T21:30:14Z",
   "published": "2022-01-11T00:01:02Z",
   "aliases": [
     "CVE-2021-46163"
   ],
   "details": "Kentico Xperience 13.0.44 allows XSS via an XML document to the Media Libraries subsystem.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

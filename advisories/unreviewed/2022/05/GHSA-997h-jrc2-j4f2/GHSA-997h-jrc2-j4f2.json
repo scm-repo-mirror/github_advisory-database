@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-997h-jrc2-j4f2",
-  "modified": "2022-05-24T17:02:29Z",
+  "modified": "2025-12-19T21:30:14Z",
   "published": "2022-05-24T17:02:29Z",
   "aliases": [
     "CVE-2019-19493"
   ],
   "details": "Kentico before 12.0.50 allows file uploads in which the Content-Type header is inconsistent with the file extension, leading to XSS.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
