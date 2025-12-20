@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhp6-vp7c-g7xp",
-  "modified": "2025-04-17T18:31:15Z",
+  "modified": "2025-12-20T03:06:05Z",
   "published": "2025-04-17T15:32:35Z",
   "aliases": [
     "CVE-2025-3760"
@@ -266,6 +266,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3760"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/liferay/liferay-portal"
     },
     {
       "type": "WEB",
