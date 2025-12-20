@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6cm-5gc7-c3f4",
-  "modified": "2025-12-02T01:21:25Z",
+  "modified": "2025-12-20T05:38:46Z",
   "published": "2025-10-28T06:31:05Z",
   "withdrawn": "2025-12-02T01:21:25Z",
   "aliases": [],
@@ -38,6 +38,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10939"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/issues/43763"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/pull/43765"
     },
     {
       "type": "WEB",
