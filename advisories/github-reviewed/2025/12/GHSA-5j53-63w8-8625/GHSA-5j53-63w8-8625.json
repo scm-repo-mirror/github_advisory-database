@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j53-63w8-8625",
-  "modified": "2025-12-19T21:10:40Z",
+  "modified": "2025-12-20T05:46:19Z",
   "published": "2025-12-19T21:10:40Z",
   "aliases": [
     "CVE-2025-68481"
@@ -41,6 +41,10 @@
       "url": "https://github.com/fastapi-users/fastapi-users/security/advisories/GHSA-5j53-63w8-8625"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68481"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/fastapi-users/fastapi-users/commit/7cf413cd766b9cb0ab323ce424ddab2c0d235932"
     },
@@ -65,6 +69,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-19T21:10:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-19T21:15:54Z"
   }
 }
