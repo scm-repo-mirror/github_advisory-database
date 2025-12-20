@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7m9g-pmxf-m9m8",
-  "modified": "2025-12-02T00:34:31Z",
+  "modified": "2025-12-20T05:40:50Z",
   "published": "2025-11-13T18:31:05Z",
   "withdrawn": "2025-12-02T00:34:30Z",
   "aliases": [],
@@ -38,6 +38,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11538"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/pull/43574"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/9e98f2bf961f68853cea6fbec58b512ed8be7ca9"
     },
     {
       "type": "WEB",
