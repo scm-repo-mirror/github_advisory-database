@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88g3-pv3w-5wmr",
-  "modified": "2025-09-11T13:32:49Z",
+  "modified": "2025-12-20T02:52:39Z",
   "published": "2025-09-09T21:30:26Z",
   "aliases": [
     "CVE-2025-43775"
   ],
   "summary": "Liferay Portal is vulnerable to XSS attacks via its remote app title field",
-  "details": "Stored cross-site scripting (XSS) vulnerability in Liferay Portal 7.4.0 through 7.4.3.128, and Liferay DXP 2024.Q3.0 through 2024.Q3.5, 2024.Q2.0 through 2024.Q2.12, 2024.Q1.1 through 2024.Q1.12, and 7.4 GA through update 92 allows remote attackers to inject arbitrary web script or HTML via remote app title field.",
+  "details": "A stored cross-site scripting (XSS) vulnerability in Liferay Portal 7.4.0 through 7.4.3.128, and Liferay DXP 2024.Q3.0 through 2024.Q3.5, 2024.Q2.0 through 2024.Q2.12, 2024.Q1.1 through 2024.Q1.12, and 7.4 GA through update 92 allows remote attackers to inject arbitrary web script or HTML via remote app title field.",
   "severity": [
     {
       "type": "CVSS_V4",
