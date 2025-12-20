@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wgj-66m2-xxp2",
-  "modified": "2025-09-30T18:19:55Z",
+  "modified": "2025-12-20T05:01:40Z",
   "published": "2023-11-28T09:30:26Z",
   "aliases": [
     "CVE-2023-48022"
@@ -61,6 +61,10 @@
       "url": "https://docs.ray.io/en/latest/ray-security/index.html"
     },
     {
+      "type": "WEB",
+      "url": "https://docs.ray.io/en/latest/ray-security/token-auth.html"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://github.com/advisories/GHSA-xg2h-7cxj-3gvh"
     },
@@ -83,6 +87,10 @@
     {
       "type": "WEB",
       "url": "https://www.vicarius.io/vsociety/posts/shadowray-cve-2023-48022-exploit"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/the-story-of-shadowray-cve-2023-48022"
     },
     {
       "type": "WEB",
