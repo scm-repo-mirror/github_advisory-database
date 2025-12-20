@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3pmh-24wp-xpf4",
-  "modified": "2025-12-15T22:32:03Z",
+  "modified": "2025-12-20T02:29:58Z",
   "published": "2025-12-15T22:32:03Z",
   "aliases": [
     "CVE-2025-67715"
@@ -41,6 +41,10 @@
       "url": "https://github.com/WeblateOrg/weblate/security/advisories/GHSA-3pmh-24wp-xpf4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67715"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/WeblateOrg/weblate/pull/17256"
     },
@@ -57,6 +61,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-15T22:32:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-16T01:15:52Z"
   }
 }
