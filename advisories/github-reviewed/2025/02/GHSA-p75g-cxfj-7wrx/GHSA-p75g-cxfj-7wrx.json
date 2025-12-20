@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p75g-cxfj-7wrx",
-  "modified": "2025-02-28T19:45:03Z",
+  "modified": "2025-12-20T05:32:46Z",
   "published": "2025-02-28T19:45:03Z",
   "aliases": [
     "CVE-2025-1686"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/PebbleTemplates/pebble/issues/688"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/PebbleTemplates/pebble/pull/715"
     },
     {
       "type": "PACKAGE",
