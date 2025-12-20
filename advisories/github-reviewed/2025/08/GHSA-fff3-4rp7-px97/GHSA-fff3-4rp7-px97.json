@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fff3-4rp7-px97",
-  "modified": "2025-08-25T15:54:52Z",
+  "modified": "2025-12-20T05:19:59Z",
   "published": "2025-08-25T15:54:51Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2025-68469"
+  ],
   "summary": "ImageMagick has a heap-buffer-overflow",
   "details": "### Summary\nWhile Processing a crafted TIFF file, imagemagick crashes.\n\n### Details\nFollowing is the imagemagick version:\n```\nimagemagick_git/build_26jun23/bin/magick --version\nVersion: ImageMagick 7.1.1-13 (Beta) Q16-HDRI x86_64 56f478940:20230625 https://imagemagick.org\nCopyright: (C) 1999 ImageMagick Studio LLC\nLicense: https://imagemagick.org/script/license.php\nFeatures: Cipher DPC HDRI \nDelegates (built-in): fontconfig freetype jbig jng jpeg lcms lzma pangocairo png tiff webp x xml zlib\nCompiler: gcc (4.2)\n```\n### PoC\nissue can be replicated with following command with provided POC file(sent over email):\n```bash\nmagick poc.tiff /dev/null\n```\n### Impact\nThis can lead to application crash.\n\n### Credits\nPlease give credits to Hardik shah of Vehere (Dawn Treaders team)",
   "severity": [
@@ -362,6 +364,10 @@
       "url": "https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-fff3-4rp7-px97"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68469"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/ImageMagick/ImageMagick"
     }
@@ -373,6 +379,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-25T15:54:51Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-18T16:15:57Z"
   }
 }
