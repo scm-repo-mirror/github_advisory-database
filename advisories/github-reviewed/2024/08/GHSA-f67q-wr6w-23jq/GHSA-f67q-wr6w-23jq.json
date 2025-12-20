@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f67q-wr6w-23jq",
-  "modified": "2024-08-15T21:37:57Z",
+  "modified": "2025-12-20T05:28:05Z",
   "published": "2024-08-14T20:49:51Z",
   "aliases": [
     "CVE-2024-43367"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/boa-dev/boa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2024-0444.html"
     }
   ],
   "database_specific": {
