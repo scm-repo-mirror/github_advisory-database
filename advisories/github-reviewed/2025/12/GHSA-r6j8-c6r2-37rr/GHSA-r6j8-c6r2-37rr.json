@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6j8-c6r2-37rr",
-  "modified": "2025-12-16T00:48:31Z",
+  "modified": "2025-12-20T03:27:50Z",
   "published": "2025-12-15T00:30:25Z",
   "aliases": [
     "CVE-2025-13281"
@@ -93,6 +93,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/kubernetes/kubernetes/commit/dbe17dfe7773563eac95534040f413ada6d2b421"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-r6j8-c6r2-37rr"
     },
     {
       "type": "PACKAGE",
