@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cm8-v4mc-gppg",
-  "modified": "2023-09-20T21:09:18Z",
+  "modified": "2025-12-20T02:33:01Z",
   "published": "2023-01-26T21:30:20Z",
   "aliases": [
     "CVE-2022-4510"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ReFirmLabs/binwalk"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/12/msg00022.html"
     },
     {
       "type": "WEB",
