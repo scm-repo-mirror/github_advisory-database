@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78xx-mv96-jm4q",
-  "modified": "2025-12-20T06:30:12Z",
+  "modified": "2025-12-21T18:30:16Z",
   "published": "2025-12-20T06:30:12Z",
   "aliases": [
     "CVE-2025-12820"
   ],
   "details": "The Pure WC Variation Swatches WordPress plugin through 1.1.7 does not have an authorization check when updating its settings, which could allow any authenticated users to update them.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-20T06:15:50Z"
