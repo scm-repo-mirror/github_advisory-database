@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9623-mj7j-p9v4",
-  "modified": "2025-06-27T23:05:27Z",
+  "modified": "2025-12-22T18:38:56Z",
   "published": "2025-06-23T18:53:22Z",
   "aliases": [
     "CVE-2025-49574"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "3.15.5"
+              "fixed": "3.15.6"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 3.15.5"
+      }
     },
     {
       "package": {
@@ -47,11 +50,14 @@
               "introduced": "3.16.0.CR1"
             },
             {
-              "last_affected": "3.20.1"
+              "fixed": "3.20.2"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 3.20.1"
+      }
     },
     {
       "package": {
@@ -66,11 +72,14 @@
               "introduced": "3.21.0.CR1"
             },
             {
-              "fixed": "3.24.0"
+              "fixed": "3.24.1"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 3.24.0"
+      }
     }
   ],
   "references": [
@@ -88,11 +97,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/pull/48486"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/quarkusio/quarkus/commit/2b58f59f4bf0bae7d35b1abb585b65f2a66787d1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/commit/31e8a3bfcf4e223788615d5ce25eb929ca251275"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/commit/d1ee57e7b826872b6355cfec0ae13465840e232c"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/quarkusio/quarkus"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/releases/tag/3.24.1"
     }
   ],
   "database_specific": {
