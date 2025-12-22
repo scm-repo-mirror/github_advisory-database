@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6mr-38g8-39rg",
-  "modified": "2025-12-18T22:49:16Z",
+  "modified": "2025-12-20T05:37:50Z",
   "published": "2025-12-18T18:30:30Z",
   "aliases": [
     "CVE-2025-63389"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "0.13.5"
+              "last_affected": "0.12.3"
             }
           ]
         }
