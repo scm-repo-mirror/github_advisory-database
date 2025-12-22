@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7rr9-q3x5-6c5c",
-  "modified": "2025-09-12T15:31:17Z",
+  "modified": "2025-12-22T21:30:32Z",
   "published": "2025-09-09T21:30:30Z",
   "aliases": [
     "CVE-2025-7635"
   ],
   "details": "Unauthenticated Telnet access vulnerability in Calix GigaCenter ONT allows root access.This issue affects GigaCenter ONT: 844E, 844G, 844GE, 854GE.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-399h-rrqc-rpgv",
-  "modified": "2025-12-05T18:31:07Z",
+  "modified": "2025-12-22T21:30:32Z",
   "published": "2025-12-01T18:30:38Z",
   "aliases": [
     "CVE-2025-13836"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/pull/119454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628"
     },
     {
       "type": "WEB",
