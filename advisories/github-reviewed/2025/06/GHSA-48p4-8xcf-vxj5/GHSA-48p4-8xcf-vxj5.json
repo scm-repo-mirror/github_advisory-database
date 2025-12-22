@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48p4-8xcf-vxj5",
-  "modified": "2025-06-30T19:02:21Z",
+  "modified": "2025-12-22T18:43:35Z",
   "published": "2025-06-18T17:50:11Z",
   "aliases": [
     "CVE-2025-50182"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/urllib3/urllib3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/urllib3/urllib3/releases/tag/2.5.0"
     }
   ],
   "database_specific": {
