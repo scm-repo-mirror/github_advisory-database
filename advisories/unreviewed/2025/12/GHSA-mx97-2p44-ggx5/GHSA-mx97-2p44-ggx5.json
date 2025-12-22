@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mx97-2p44-ggx5",
-  "modified": "2025-12-20T18:30:12Z",
+  "modified": "2025-12-22T18:30:24Z",
   "published": "2025-12-20T06:30:12Z",
   "aliases": [
     "CVE-2025-14591"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-200"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
