@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2v9-p3x8-4hp5",
-  "modified": "2025-11-03T18:31:29Z",
+  "modified": "2025-12-23T00:30:30Z",
   "published": "2025-07-25T18:30:39Z",
   "aliases": [
     "CVE-2025-38448"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: u_serial: Fix race condition in TTY wakeup\n\nA race condition occurs when gs_start_io() calls either gs_start_rx() or\ngs_start_tx(), as those functions briefly drop the port_lock for\nusb_ep_queue(). This allows gs_close() and gserial_disconnect() to clear\nport.tty and port_usb, respectively.\n\nUse the null-safe TTY Port helper function to wake up TTY.\n\nExample\n  CPU1:\t\t\t      CPU2:\n  gserial_connect() // lock\n  \t\t\t      gs_close() // await lock\n  gs_start_rx()     // unlock\n  usb_ep_queue()\n  \t\t\t      gs_close() // lock, reset port.tty and unlock\n  gs_start_rx()     // lock\n  tty_wakeup()      // NPE",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T16:15:30Z"

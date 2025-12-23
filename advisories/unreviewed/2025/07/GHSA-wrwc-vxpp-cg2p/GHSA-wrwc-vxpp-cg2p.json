@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrwc-vxpp-cg2p",
-  "modified": "2025-11-03T18:31:30Z",
+  "modified": "2025-12-23T00:30:30Z",
   "published": "2025-07-25T18:30:40Z",
   "aliases": [
     "CVE-2025-38462"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvsock: Fix transport_{g2h,h2g} TOCTOU\n\nvsock_find_cid() and vsock_dev_do_ioctl() may race with module unload.\ntransport_{g2h,h2g} may become NULL after the NULL check.\n\nIntroduce vsock_transport_local_cid() to protect from a potential\nnull-ptr-deref.\n\nKASAN: null-ptr-deref in range [0x0000000000000118-0x000000000000011f]\nRIP: 0010:vsock_find_cid+0x47/0x90\nCall Trace:\n __vsock_bind+0x4b2/0x720\n vsock_bind+0x90/0xe0\n __sys_bind+0x14d/0x1e0\n __x64_sys_bind+0x6e/0xc0\n do_syscall_64+0x92/0x1c0\n entry_SYSCALL_64_after_hwframe+0x4b/0x53\n\nKASAN: null-ptr-deref in range [0x0000000000000118-0x000000000000011f]\nRIP: 0010:vsock_dev_do_ioctl.isra.0+0x58/0xf0\nCall Trace:\n __x64_sys_ioctl+0x12d/0x190\n do_syscall_64+0x92/0x1c0\n entry_SYSCALL_64_after_hwframe+0x4b/0x53",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-367"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T16:15:32Z"

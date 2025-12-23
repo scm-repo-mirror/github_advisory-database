@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vpj-fwmm-xmcm",
-  "modified": "2025-12-22T21:30:33Z",
+  "modified": "2025-12-23T00:30:31Z",
   "published": "2025-12-22T21:30:33Z",
   "aliases": [
     "CVE-2025-66736"
   ],
   "details": "youlai-boot V2.21.1 is vulnerable to Incorrect Access Control. The importUsers function in SysUserController.java does not perform a permission check on the current user's identity, which may allow regular users to import user data into the database, resulting in an authorization bypass vulnerability.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-22T21:15:44Z"
