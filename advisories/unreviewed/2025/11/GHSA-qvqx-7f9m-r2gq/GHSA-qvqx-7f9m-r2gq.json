@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qvqx-7f9m-r2gq",
-  "modified": "2025-11-21T03:31:15Z",
+  "modified": "2025-12-23T03:30:18Z",
   "published": "2025-11-21T03:31:15Z",
   "aliases": [
     "CVE-2025-64310"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/vu/JVNVU95021911"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.epson.co.uk/en_GB/faq/KA-02041/contents?loc=en-us"
     },
     {
       "type": "WEB",
