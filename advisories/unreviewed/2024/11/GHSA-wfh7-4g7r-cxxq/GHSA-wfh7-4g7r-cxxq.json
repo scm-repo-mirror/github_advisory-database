@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfh7-4g7r-cxxq",
-  "modified": "2025-11-03T21:31:36Z",
+  "modified": "2025-12-23T15:30:25Z",
   "published": "2024-11-14T21:32:03Z",
   "aliases": [
     "CVE-2024-10397"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://openafs.org/pages/security/OPENAFS-SA-2024-003.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openafs.org/pages/security/OPENAFS-SA-2024-003.txt"
     }
   ],
   "database_specific": {
