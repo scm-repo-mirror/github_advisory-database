@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-733g-xvvm-2g6j",
-  "modified": "2025-11-03T18:31:28Z",
+  "modified": "2025-12-23T18:30:20Z",
   "published": "2025-07-25T15:30:54Z",
   "aliases": [
     "CVE-2025-38428"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nInput: ims-pcu - check record size in ims_pcu_flash_firmware()\n\nThe \"len\" variable comes from the firmware and we generally do\ntrust firmware, but it's always better to double check.  If the \"len\"\nis too large it could result in memory corruption when we do\n\"memcpy(fragment->data, rec->data, len);\"",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T15:15:27Z"

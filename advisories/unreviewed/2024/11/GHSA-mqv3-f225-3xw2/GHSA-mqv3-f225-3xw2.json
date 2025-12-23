@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqv3-f225-3xw2",
-  "modified": "2025-11-03T21:31:36Z",
+  "modified": "2025-12-23T18:30:19Z",
   "published": "2024-11-14T21:32:03Z",
   "aliases": [
     "CVE-2024-10396"
@@ -30,11 +30,20 @@
     {
       "type": "WEB",
       "url": "https://openafs.org/pages/security/OPENAFS-SA-2024-002.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openafs.org/pages/security/OPENAFS-SA-2024-002.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openafs.org/security"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1286"
+      "CWE-1286",
+      "CWE-772"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
