@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4m7-9hjr-rhx2",
-  "modified": "2025-11-03T18:31:27Z",
+  "modified": "2025-12-23T21:30:21Z",
   "published": "2025-07-25T15:30:53Z",
   "aliases": [
     "CVE-2025-38403"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvsock/vmci: Clear the vmci transport packet properly when initializing it\n\nIn vmci_transport_packet_init memset the vmci_transport_packet before\npopulating the fields to avoid any uninitialised data being left in the\nstructure.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T14:15:31Z"

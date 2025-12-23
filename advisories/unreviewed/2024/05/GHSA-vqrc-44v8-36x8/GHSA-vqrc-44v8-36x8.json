@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqrc-44v8-36x8",
-  "modified": "2024-06-26T00:31:42Z",
+  "modified": "2025-12-23T21:30:17Z",
   "published": "2024-05-17T12:31:00Z",
   "aliases": [
     "CVE-2024-27417"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: fix potential \"struct net\" leak in inet6_rtm_getaddr()\n\nIt seems that if userspace provides a correct IFA_TARGET_NETNSID value\nbut no IFA_ADDRESS and IFA_LOCAL attributes, inet6_rtm_getaddr()\nreturns -EINVAL with an elevated \"struct net\" refcount.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T12:15:13Z"

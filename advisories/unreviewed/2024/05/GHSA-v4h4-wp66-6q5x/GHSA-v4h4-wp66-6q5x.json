@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4h4-wp66-6q5x",
-  "modified": "2024-06-27T12:30:46Z",
+  "modified": "2025-12-23T21:30:18Z",
   "published": "2024-05-17T15:31:08Z",
   "aliases": [
     "CVE-2024-35789"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mac80211: check/clear fast rx for non-4addr sta VLAN changes\n\nWhen moving a station out of a VLAN and deleting the VLAN afterwards, the\nfast_rx entry still holds a pointer to the VLAN's netdev, which can cause\nuse-after-free bugs. Fix this by immediately calling ieee80211_check_fast_rx\nafter the VLAN change.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T13:15:58Z"

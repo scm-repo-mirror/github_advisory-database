@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95jp-3qwq-rj66",
-  "modified": "2024-06-27T12:30:46Z",
+  "modified": "2025-12-23T21:30:19Z",
   "published": "2024-05-19T12:30:39Z",
   "aliases": [
     "CVE-2024-35935"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: send: handle path ref underflow in header iterate_inode_ref()\n\nChange BUG_ON to proper error handling if building the path buffer\nfails. The pointers are not printed so we don't accidentally leak kernel\naddresses.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-209"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-19T11:15:49Z"

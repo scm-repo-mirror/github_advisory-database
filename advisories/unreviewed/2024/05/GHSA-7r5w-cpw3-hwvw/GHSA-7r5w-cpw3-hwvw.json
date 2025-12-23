@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7r5w-cpw3-hwvw",
-  "modified": "2025-02-02T12:30:23Z",
+  "modified": "2025-12-23T21:30:19Z",
   "published": "2024-05-20T12:30:28Z",
   "aliases": [
     "CVE-2024-35967"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: SCO: Fix not validating setsockopt user input\n\nsyzbot reported sco_sock_setsockopt() is copying data without\nchecking user input length.\n\nBUG: KASAN: slab-out-of-bounds in copy_from_sockptr_offset\ninclude/linux/sockptr.h:49 [inline]\nBUG: KASAN: slab-out-of-bounds in copy_from_sockptr\ninclude/linux/sockptr.h:55 [inline]\nBUG: KASAN: slab-out-of-bounds in sco_sock_setsockopt+0xc0b/0xf90\nnet/bluetooth/sco.c:893\nRead of size 4 at addr ffff88805f7b15a3 by task syz-executor.5/12578",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-20T10:15:11Z"

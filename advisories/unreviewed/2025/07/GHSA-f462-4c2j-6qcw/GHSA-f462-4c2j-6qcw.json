@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f462-4c2j-6qcw",
-  "modified": "2025-11-03T18:31:27Z",
+  "modified": "2025-12-23T21:30:20Z",
   "published": "2025-07-25T15:30:52Z",
   "aliases": [
     "CVE-2025-38391"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: altmodes/displayport: do not index invalid pin_assignments\n\nA poorly implemented DisplayPort Alt Mode port partner can indicate\nthat its pin assignment capabilities are greater than the maximum\nvalue, DP_PIN_ASSIGN_F. In this case, calls to pin_assignment_show\nwill cause a BRK exception due to an out of bounds array access.\n\nPrevent for loop in pin_assignment_show from accessing\ninvalid values in pin_assignments by adding DP_PIN_ASSIGN_MAX\nvalue in typec_dp.h and using i < DP_PIN_ASSIGN_MAX as a loop\ncondition.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T13:15:28Z"
