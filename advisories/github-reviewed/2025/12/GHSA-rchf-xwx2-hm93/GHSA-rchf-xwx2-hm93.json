@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rchf-xwx2-hm93",
-  "modified": "2025-12-22T21:36:55Z",
+  "modified": "2025-12-23T16:01:12Z",
   "published": "2025-12-22T21:36:55Z",
   "aliases": [
     "CVE-2025-68475"
@@ -98,6 +98,10 @@
       "url": "https://github.com/fedify-dev/fedify/security/advisories/GHSA-rchf-xwx2-hm93"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68475"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/fedify-dev/fedify/commit/2bdcb24d7d6d5886e0214ed504b63a6dc5488779"
     },
@@ -133,6 +137,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-22T21:36:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-22T22:16:09Z"
   }
 }
