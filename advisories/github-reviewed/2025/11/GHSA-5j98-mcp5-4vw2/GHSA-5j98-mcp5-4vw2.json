@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j98-mcp5-4vw2",
-  "modified": "2025-11-19T02:30:52Z",
+  "modified": "2025-11-19T02:30:53Z",
   "published": "2025-11-17T17:38:56Z",
   "aliases": [
     "CVE-2025-64756"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "11.0.0"
+              "introduced": "11.1.0"
             },
             {
               "fixed": "11.1.0"
@@ -44,7 +44,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "10.2.0"
+              "introduced": "10.5.0"
             },
             {
               "fixed": "10.5.0"
