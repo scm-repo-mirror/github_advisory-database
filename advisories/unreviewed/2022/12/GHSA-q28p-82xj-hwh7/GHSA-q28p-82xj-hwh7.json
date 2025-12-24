@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q28p-82xj-hwh7",
-  "modified": "2022-12-31T03:30:26Z",
+  "modified": "2025-12-24T06:30:25Z",
   "published": "2022-12-24T00:30:19Z",
   "aliases": [
     "CVE-2022-40011"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/wangking1/61bdd1967367301a950ffbb3d10386f3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://typora.io/releases/all"
     },
     {
       "type": "WEB",
