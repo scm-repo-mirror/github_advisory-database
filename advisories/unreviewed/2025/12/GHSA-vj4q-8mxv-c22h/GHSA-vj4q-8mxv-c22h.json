@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vj4q-8mxv-c22h",
-  "modified": "2025-12-24T15:30:40Z",
+  "modified": "2025-12-24T21:30:28Z",
   "published": "2025-12-24T15:30:40Z",
   "aliases": [
     "CVE-2025-67625"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in tmtraderunner Trade Runner traderunner allows Cross Site Request Forgery.This issue affects Trade Runner: from n/a through <= 3.14.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-24T13:16:18Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wm8-ph73-r7q9",
-  "modified": "2025-12-24T15:30:41Z",
+  "modified": "2025-12-24T21:30:28Z",
   "published": "2025-12-24T15:30:41Z",
   "aliases": [
     "CVE-2025-68509"
   ],
   "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Jeff Starr User Submitted Posts user-submitted-posts allows Phishing.This issue affects User Submitted Posts: from n/a through <= 20251121.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-601"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-24T13:16:20Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6r9j-fpr7-g9xg",
-  "modified": "2025-12-24T15:30:42Z",
+  "modified": "2025-12-24T21:30:29Z",
   "published": "2025-12-24T15:30:42Z",
   "aliases": [
     "CVE-2025-68584"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in Constantin Boiangiu Vimeotheque codeflavors-vimeo-video-post-lite allows Cross Site Request Forgery.This issue affects Vimeotheque: from n/a through <= 2.3.5.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-24T13:16:25Z"

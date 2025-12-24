@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22vc-cp5h-m3m9",
-  "modified": "2025-12-24T15:30:41Z",
+  "modified": "2025-12-24T21:30:28Z",
   "published": "2025-12-24T15:30:40Z",
   "aliases": [
     "CVE-2025-68494"
   ],
   "details": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Leap13 Premium Addons for Elementor premium-addons-for-elementor allows Retrieve Embedded Sensitive Data.This issue affects Premium Addons for Elementor: from n/a through <= 4.11.53.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-497"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-24T13:16:19Z"

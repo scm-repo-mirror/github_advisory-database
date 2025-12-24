@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pxg-x55c-fqhx",
-  "modified": "2025-12-24T15:30:42Z",
+  "modified": "2025-12-24T21:30:29Z",
   "published": "2025-12-24T15:30:42Z",
   "aliases": [
     "CVE-2025-68574"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in voidcoders WPBakery Visual Composer WHMCS Elements void-visual-whmcs-element allows DOM-Based XSS.This issue affects WPBakery Visual Composer WHMCS Elements: from n/a through <= 1.0.4.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-24T13:16:24Z"

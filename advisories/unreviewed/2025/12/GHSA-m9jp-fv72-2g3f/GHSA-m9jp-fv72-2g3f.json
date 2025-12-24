@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9jp-fv72-2g3f",
-  "modified": "2025-12-24T15:30:42Z",
+  "modified": "2025-12-24T21:30:29Z",
   "published": "2025-12-24T15:30:42Z",
   "aliases": [
     "CVE-2025-68578"
   ],
   "details": "Missing Authorization vulnerability in Addonify Addonify addonify-quick-view allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Addonify: from n/a through <= 2.0.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-24T13:16:24Z"

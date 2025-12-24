@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7mr-v7hp-8j95",
-  "modified": "2025-12-24T15:30:43Z",
+  "modified": "2025-12-24T21:30:30Z",
   "published": "2025-12-24T15:30:43Z",
   "aliases": [
     "CVE-2025-68601"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in Rustaurius Five Star Restaurant Reservations restaurant-reservations allows Cross Site Request Forgery.This issue affects Five Star Restaurant Reservations: from n/a through <= 2.7.7.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-24T13:16:27Z"
