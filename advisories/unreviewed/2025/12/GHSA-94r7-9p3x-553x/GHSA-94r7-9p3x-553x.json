@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-94r7-9p3x-553x",
+  "modified": "2025-12-24T15:30:41Z",
+  "published": "2025-12-24T15:30:41Z",
+  "aliases": [
+    "CVE-2025-68519"
+  ],
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in BeRocket Brands for WooCommerce brands-for-woocommerce allows Blind SQL Injection.This issue affects Brands for WooCommerce: from n/a through <= 3.8.6.3.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68519"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/brands-for-woocommerce/vulnerability/wordpress-brands-for-woocommerce-plugin-3-8-6-3-sql-injection-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-24T13:16:21Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vpjm-cvm6-jj7r",
+  "modified": "2025-12-24T15:30:40Z",
+  "published": "2025-12-24T15:30:40Z",
+  "aliases": [
+    "CVE-2025-67628"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in AMP-MODE Review Disclaimer review-disclaimer allows Stored XSS.This issue affects Review Disclaimer: from n/a through <= 2.0.3.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67628"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/review-disclaimer/vulnerability/wordpress-review-disclaimer-plugin-2-0-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-24T13:16:18Z"
+  }
+}

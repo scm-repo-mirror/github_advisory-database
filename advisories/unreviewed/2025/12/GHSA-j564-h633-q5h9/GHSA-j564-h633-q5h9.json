@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j564-h633-q5h9",
+  "modified": "2025-12-24T15:30:43Z",
+  "published": "2025-12-24T15:30:43Z",
+  "aliases": [
+    "CVE-2025-68608"
+  ],
+  "details": "Missing Authorization vulnerability in DeluxeThemes Userpro userpro allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Userpro: from n/a through <= 5.1.9.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68608"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/userpro/vulnerability/wordpress-userpro-plugin-5-1-9-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-24T13:16:28Z"
+  }
+}

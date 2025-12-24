@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6mmw-6jqx-8w6x",
+  "modified": "2025-12-24T15:30:43Z",
+  "published": "2025-12-24T15:30:43Z",
+  "aliases": [
+    "CVE-2025-68592"
+  ],
+  "details": "Missing Authorization vulnerability in Liton Arefin WP Adminify adminify allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WP Adminify: from n/a through <= 4.0.6.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68592"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/adminify/vulnerability/wordpress-wp-adminify-plugin-4-0-6-1-broken-access-control-vulnerability-2?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-24T13:16:26Z"
+  }
+}

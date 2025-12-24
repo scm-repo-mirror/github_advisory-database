@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-887g-3m9f-p55c",
+  "modified": "2025-12-24T15:30:42Z",
+  "published": "2025-12-24T15:30:42Z",
+  "aliases": [
+    "CVE-2025-68581"
+  ],
+  "details": "Missing Authorization vulnerability in YITHEMES YITH Slider for page builders yith-slider-for-page-builders allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects YITH Slider for page builders: from n/a through <= 1.0.11.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68581"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/yith-slider-for-page-builders/vulnerability/wordpress-yith-slider-for-page-builders-plugin-1-0-11-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-24T13:16:25Z"
+  }
+}

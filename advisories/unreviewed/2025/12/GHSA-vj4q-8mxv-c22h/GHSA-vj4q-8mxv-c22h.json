@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vj4q-8mxv-c22h",
+  "modified": "2025-12-24T15:30:40Z",
+  "published": "2025-12-24T15:30:40Z",
+  "aliases": [
+    "CVE-2025-67625"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in tmtraderunner Trade Runner traderunner allows Cross Site Request Forgery.This issue affects Trade Runner: from n/a through <= 3.14.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67625"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/traderunner/vulnerability/wordpress-trade-runner-plugin-3-14-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-24T13:16:18Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwrx-fp3h-w29g",
-  "modified": "2025-12-09T18:30:46Z",
+  "modified": "2025-12-24T15:30:28Z",
   "published": "2025-12-09T18:30:46Z",
   "aliases": [
     "CVE-2025-62549"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-62549"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-62549-detection-script-rce-vulnerability-in-windows-routing-and-remote-access-service"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-62549-mitigation-script-rce-vulnerability-in-windows-routing-and-remote-access-service"
     }
   ],
   "database_specific": {

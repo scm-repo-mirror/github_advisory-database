@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g829-2387-h324",
-  "modified": "2025-11-07T00:30:28Z",
+  "modified": "2025-12-24T15:30:28Z",
   "published": "2025-09-30T18:30:25Z",
   "aliases": [
     "CVE-2025-10725"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10725"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/opendatahub-io/opendatahub-operator/pull/2571"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/opendatahub-io/opendatahub-operator/commit/070057ebd0882be0e397bee1daa18c36374a03c0"
     },
     {
       "type": "WEB",
