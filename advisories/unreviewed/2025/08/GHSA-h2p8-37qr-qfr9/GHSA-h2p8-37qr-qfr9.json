@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2p8-37qr-qfr9",
-  "modified": "2025-08-20T18:30:22Z",
+  "modified": "2025-12-24T00:30:12Z",
   "published": "2025-08-20T18:30:22Z",
   "aliases": [
     "CVE-2025-8415"
@@ -21,11 +21,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/cryostatio/cryostat/pull/1001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:14919"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-8415"
     },
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2385773"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cryostatio/cryostat/releases/tag/v4.0.2"
     }
   ],
   "database_specific": {
