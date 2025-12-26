@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w832-gg5g-x44m",
-  "modified": "2025-11-07T21:56:19Z",
+  "modified": "2025-12-26T21:51:43Z",
   "published": "2025-11-06T15:13:33Z",
   "aliases": [
     "CVE-2025-64481"
@@ -10,8 +10,8 @@
   "details": "### Impact\n\nDeployed instances of Datasette prior to `0.65.2` and `1.0a21` include an open redirect vulnerability.\n\nHits to the path `//example.com/foo/bar/` (the trailing slash is required) will redirect the user to `https://example.com/foo/bar`.\n\n### Patches\n\nThis problem has been patched in both Datasette `0.65.2` and `1.0a21`.\n\n### Workarounds\n\nIf Datasette is running behind a proxy that proxy could be configured to replace `//` with `/` in incoming request URLs.",
   "severity": [
     {
-      "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
