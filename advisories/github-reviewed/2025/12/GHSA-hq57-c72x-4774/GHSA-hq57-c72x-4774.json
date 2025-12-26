@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hq57-c72x-4774",
-  "modified": "2025-12-26T06:30:27Z",
+  "modified": "2025-12-26T19:46:52Z",
   "published": "2025-12-26T06:30:27Z",
   "aliases": [
     "CVE-2025-68946"
   ],
+  "summary": "Gitea vulnerable to Cross-site Scripting",
   "details": "In Gitea before 1.20.1, a forbidden URL scheme such as javascript: can be used for a link, aka XSS.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "code.gitea.io/gitea"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +49,10 @@
       "url": "https://blog.gitea.com/release-of-1.20.1"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/go-gitea/gitea"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/go-gitea/gitea/releases/tag/v1.20.1"
     }
@@ -37,8 +62,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-26T19:46:52Z",
     "nvd_published_at": "2025-12-26T05:16:11Z"
   }
 }
