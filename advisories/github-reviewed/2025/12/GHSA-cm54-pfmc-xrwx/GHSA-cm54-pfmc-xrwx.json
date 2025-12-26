@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm54-pfmc-xrwx",
-  "modified": "2025-12-26T03:30:15Z",
+  "modified": "2025-12-26T19:00:21Z",
   "published": "2025-12-26T03:30:15Z",
   "aliases": [
     "CVE-2025-68938"
   ],
+  "summary": "Gitea mishandles authorization for deletion of releases",
   "details": "Gitea before 1.25.2 mishandles authorization for deletion of releases.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "code.gitea.io/gitea"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +49,10 @@
       "url": "https://blog.gitea.com/release-of-1.25.2"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/go-gitea/gitea"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/go-gitea/gitea/releases/tag/v1.25.2"
     }
@@ -37,8 +62,8 @@
       "CWE-863"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-26T19:00:21Z",
     "nvd_published_at": "2025-12-26T02:15:42Z"
   }
 }
