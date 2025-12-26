@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xq4-mwcp-q8fx",
-  "modified": "2025-12-26T06:30:27Z",
+  "modified": "2025-12-26T19:36:13Z",
   "published": "2025-12-26T06:30:27Z",
   "aliases": [
     "CVE-2025-68945"
   ],
+  "summary": "Gitea: anonymous user can visit private user's project",
   "details": "In Gitea before 1.21.2, an anonymous user can visit a private user's project.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "code.gitea.io/gitea"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +49,10 @@
       "url": "https://blog.gitea.com/release-of-1.21.2"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/go-gitea/gitea"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/go-gitea/gitea/releases/tag/v1.21.2"
     }
@@ -37,8 +62,8 @@
       "CWE-359"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-12-26T19:36:13Z",
     "nvd_published_at": "2025-12-26T04:15:41Z"
   }
 }
