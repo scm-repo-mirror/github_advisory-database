@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qxv4-g9hq-r87f",
+  "modified": "2025-12-26T18:30:27Z",
+  "published": "2025-12-26T18:30:27Z",
+  "aliases": [
+    "CVE-2024-44065"
+  ],
+  "details": "Time-based blind SQL Injection vulnerability in Cloudlog v2.6.15 at the endpoint /index.php/logbookadvanced/search in the qsoresults parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jacopo1223/jacopo.github/tree/main/CVE-2024-44065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/magicbug/Cloudlog"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-26T17:15:42Z"
+  }
+}
