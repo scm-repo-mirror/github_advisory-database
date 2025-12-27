@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpxx-2fwx-f5qj",
-  "modified": "2025-12-04T00:30:58Z",
+  "modified": "2025-12-27T18:30:23Z",
   "published": "2025-12-03T21:31:04Z",
   "aliases": [
     "CVE-2025-12819"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12819"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/12/msg00033.html"
     },
     {
       "type": "WEB",
