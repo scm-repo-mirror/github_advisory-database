@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvwq-p5fc-r88c",
-  "modified": "2025-12-19T21:30:19Z",
+  "modified": "2025-12-27T21:30:11Z",
   "published": "2025-12-19T21:30:19Z",
   "aliases": [
     "CVE-2025-14965"
@@ -29,6 +29,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/zyhzheng500-maker/cve/blob/main/yougou-mall%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%88%A0%E9%99%A4.md"
+    },
+    {
+      "type": "WEB",
       "url": "https://vuldb.com/?ctiid.337600"
     },
     {
@@ -38,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.717732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.721081"
     }
   ],
   "database_specific": {
