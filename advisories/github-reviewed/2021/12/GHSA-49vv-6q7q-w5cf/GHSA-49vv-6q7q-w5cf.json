@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49vv-6q7q-w5cf",
-  "modified": "2025-12-22T19:29:09Z",
+  "modified": "2025-12-29T15:34:37Z",
   "published": "2021-12-10T17:22:12Z",
-  "aliases": [
-    "CVE-2019-19609"
-  ],
-  "summary": "OS Command Injection in Strapi",
-  "details": "The Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Execution in the Install and Uninstall Plugin components of the Admin panel, because it does not sanitize the plugin name, and attackers can inject arbitrary shell commands to be executed by the execa function.",
+  "withdrawn": "2025-12-29T15:34:37Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: OS Command Injection in Strapi",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-9p2w-rmx4-9mw7. This link is maintained to preserve external references.\n\n### Original Description\nThe Strapi framework before 3.0.0-beta.17.8 is vulnerable to Remote Code Execution in the Install and Uninstall Plugin components of the Admin panel, because it does not sanitize the plugin name, and attackers can inject arbitrary shell commands to be executed by the execa function.",
   "severity": [
     {
       "type": "CVSS_V3",
