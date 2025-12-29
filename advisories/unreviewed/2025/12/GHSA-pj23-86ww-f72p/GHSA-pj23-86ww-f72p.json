@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj23-86ww-f72p",
-  "modified": "2025-12-28T18:30:26Z",
+  "modified": "2025-12-29T18:30:49Z",
   "published": "2025-12-28T18:30:26Z",
   "aliases": [
     "CVE-2025-68973"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/gpg/gnupg/blob/ff30683418695f5d2cc9e6cf8c9418e09378ebe4/g10/armor.c#L1305-L1306"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gpg/gnupg/compare/gnupg-2.2.50...gnupg-2.2.51"
     },
     {
       "type": "WEB",
