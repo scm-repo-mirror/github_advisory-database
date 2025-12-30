@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p89v-2q8p-pq5c",
-  "modified": "2025-12-30T12:30:27Z",
+  "modified": "2025-12-30T18:30:17Z",
   "published": "2025-12-30T12:30:27Z",
   "aliases": [
     "CVE-2025-68993"
   ],
   "details": "Missing Authorization vulnerability in XforWooCommerce Share, Print and PDF Products for WooCommerce share-print-pdf-woocommerce allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Share, Print and PDF Products for WooCommerce: from n/a through <= 3.1.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-30T11:15:58Z"

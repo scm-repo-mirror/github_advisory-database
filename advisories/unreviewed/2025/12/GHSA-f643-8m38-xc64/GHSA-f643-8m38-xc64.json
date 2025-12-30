@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f643-8m38-xc64",
+  "modified": "2025-12-30T18:30:20Z",
+  "published": "2025-12-30T18:30:20Z",
+  "aliases": [
+    "CVE-2025-65409"
+  ],
+  "details": "A divide-by-zero in the encryption/decryption routines of GNU Recutils v1.9 allows attackers to cause a Denial of Service (DoS) via inputting an empty value as a password.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65409"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MAXEUR5/Vulnerability_Disclosures/blob/main/2025/CVE-2025-65409.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.gnu.org/archive/html/bug-recutils/2025-10/msg00004.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gnu.org/software/recutils"
+    },
+    {
+      "type": "WEB",
+      "url": "http://ftp.gnu.org/gnu/recutils"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-30T18:15:47Z"
+  }
+}
