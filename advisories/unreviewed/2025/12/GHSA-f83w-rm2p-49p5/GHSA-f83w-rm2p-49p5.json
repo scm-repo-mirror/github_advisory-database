@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f83w-rm2p-49p5",
+  "modified": "2025-12-30T12:30:28Z",
+  "published": "2025-12-30T12:30:28Z",
+  "aliases": [
+    "CVE-2025-69027"
+  ],
+  "details": "Missing Authorization vulnerability in tychesoftwares Product Delivery Date for WooCommerce – Lite product-delivery-date-for-woocommerce-lite allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Product Delivery Date for WooCommerce – Lite: from n/a through <= 3.2.0.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69027"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/product-delivery-date-for-woocommerce-lite/vulnerability/wordpress-product-delivery-date-for-woocommerce-lite-plugin-3-2-0-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-30T11:16:01Z"
+  }
+}

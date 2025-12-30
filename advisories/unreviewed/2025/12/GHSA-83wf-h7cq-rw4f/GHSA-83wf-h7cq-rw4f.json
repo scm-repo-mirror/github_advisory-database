@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-83wf-h7cq-rw4f",
+  "modified": "2025-12-30T12:30:27Z",
+  "published": "2025-12-30T12:30:27Z",
+  "aliases": [
+    "CVE-2025-69006"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Atte Moisio AM Events am-events allows Stored XSS.This issue affects AM Events: from n/a through <= 1.13.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/am-events/vulnerability/wordpress-am-events-plugin-1-13-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-30T11:15:58Z"
+  }
+}

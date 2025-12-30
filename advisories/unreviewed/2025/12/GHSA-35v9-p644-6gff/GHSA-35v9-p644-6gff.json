@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-35v9-p644-6gff",
+  "modified": "2025-12-30T12:30:28Z",
+  "published": "2025-12-30T12:30:28Z",
+  "aliases": [
+    "CVE-2025-69016"
+  ],
+  "details": "Missing Authorization vulnerability in averta Shortcodes and extra features for Phlox theme auxin-elements allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Shortcodes and extra features for Phlox theme: from n/a through <= 2.17.12.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69016"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/auxin-elements/vulnerability/wordpress-shortcodes-and-extra-features-for-phlox-theme-plugin-2-17-12-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-12-30T11:15:59Z"
+  }
+}
