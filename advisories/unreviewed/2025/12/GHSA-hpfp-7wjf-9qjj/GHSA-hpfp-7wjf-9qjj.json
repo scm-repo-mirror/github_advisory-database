@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpfp-7wjf-9qjj",
-  "modified": "2025-12-30T12:30:27Z",
+  "modified": "2025-12-30T15:30:25Z",
   "published": "2025-12-30T12:30:27Z",
   "aliases": [
     "CVE-2025-69007"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in OTWthemes Popping Sidebars and Widgets Light popping-sidebars-and-widgets-light allows Stored XSS.This issue affects Popping Sidebars and Widgets Light: from n/a through <= 1.27.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-30T11:15:58Z"
