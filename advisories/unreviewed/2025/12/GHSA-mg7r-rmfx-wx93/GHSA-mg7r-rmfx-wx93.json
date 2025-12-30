@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg7r-rmfx-wx93",
-  "modified": "2025-12-30T03:30:17Z",
+  "modified": "2025-12-30T21:30:32Z",
   "published": "2025-12-30T03:30:17Z",
   "aliases": [
     "CVE-2025-15217"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15217"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lavender-bicycle-a5a.notion.site/Tenda-AC23-formSetPPTPUserList-2d753a41781f8091b772cf9e66a687f1"
     },
     {
       "type": "WEB",
