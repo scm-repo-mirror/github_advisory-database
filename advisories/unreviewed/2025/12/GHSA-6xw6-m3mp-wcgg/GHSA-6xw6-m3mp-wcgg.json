@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xw6-m3mp-wcgg",
-  "modified": "2025-12-30T12:30:27Z",
+  "modified": "2025-12-31T00:31:09Z",
   "published": "2025-12-30T12:30:27Z",
   "aliases": [
     "CVE-2025-68984"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in thembay Puca puca allows PHP Local File Inclusion.This issue affects Puca: from n/a through <= 2.6.39.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-30T11:15:57Z"

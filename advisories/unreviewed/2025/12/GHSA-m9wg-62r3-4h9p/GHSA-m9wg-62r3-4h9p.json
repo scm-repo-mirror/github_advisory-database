@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9wg-62r3-4h9p",
-  "modified": "2025-12-30T12:30:27Z",
+  "modified": "2025-12-31T00:31:09Z",
   "published": "2025-12-30T12:30:27Z",
   "aliases": [
     "CVE-2025-68989"
   ],
   "details": "Insertion of Sensitive Information Into Sent Data vulnerability in Renzo Johnson Contact Form 7 Extension For Mailchimp contact-form-7-mailchimp-extension allows Retrieve Embedded Sensitive Data.This issue affects Contact Form 7 Extension For Mailchimp: from n/a through <= 0.9.49.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-201"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-30T11:15:57Z"
