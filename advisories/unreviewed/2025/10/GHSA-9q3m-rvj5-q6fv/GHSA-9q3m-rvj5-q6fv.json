@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q3m-rvj5-q6fv",
-  "modified": "2025-10-22T15:31:12Z",
+  "modified": "2025-12-31T15:30:23Z",
   "published": "2025-10-22T15:31:12Z",
   "aliases": [
     "CVE-2016-15048"
   ],
   "details": "AMTT Hotel Broadband Operation System (HiBOS) contains an unauthenticated command injection vulnerability in the /manager/radius/server_ping.php endpoint. The application constructs a shell command that includes the user-supplied ip parameter and executes it without proper validation or escaping. An attacker can insert shell metacharacters into the ip parameter to inject and execute arbitrary system commands as the web server user. The initial third-party disclosure in 2016 recommended contacting the vendor for remediation guidance. Additionally, this product may have been rebranded under a different name. VulnCheck has observed this vulnerability being exploited in the wild as of 2025-10-14 at 04:45:53.510819 UTC.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
