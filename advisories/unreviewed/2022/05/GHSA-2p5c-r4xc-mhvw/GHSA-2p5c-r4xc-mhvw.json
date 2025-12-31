@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p5c-r4xc-mhvw",
-  "modified": "2022-05-24T19:14:36Z",
+  "modified": "2025-12-31T21:30:22Z",
   "published": "2022-05-24T19:14:36Z",
   "aliases": [
     "CVE-2021-40965"
   ],
   "details": "A Cross-Site Request Forgery (CSRF) vulnerability exists in TinyFileManager all version up to and including 2.4.6 that allows attackers to upload files and run OS commands by inducing the Administrator user to browse a URL controlled by an attacker.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

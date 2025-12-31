@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ff49-f5c2-ggcq",
-  "modified": "2025-12-26T00:30:12Z",
+  "modified": "2025-12-31T21:30:29Z",
   "published": "2025-12-26T00:30:12Z",
   "aliases": [
     "CVE-2025-15091"
@@ -46,7 +46,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-120"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
