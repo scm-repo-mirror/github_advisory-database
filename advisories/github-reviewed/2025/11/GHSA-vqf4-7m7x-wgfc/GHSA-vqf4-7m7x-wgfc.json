@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqf4-7m7x-wgfc",
-  "modified": "2025-12-03T14:00:28Z",
+  "modified": "2025-12-31T22:00:12Z",
   "published": "2025-11-28T18:30:23Z",
   "aliases": [
     "CVE-2025-12183"
@@ -108,6 +108,14 @@
     {
       "type": "WEB",
       "url": "https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sonatype.com/security-advisories/cve-2025-12183"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/12/01/5"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx83-cxmq-x89m",
-  "modified": "2024-12-13T20:37:17Z",
+  "modified": "2025-12-31T22:00:42Z",
   "published": "2024-12-13T00:30:50Z",
   "aliases": [
     "CVE-2024-12289"
@@ -51,7 +51,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-460"
+      "CWE-460",
+      "CWE-665"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
