@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6xg-3mr4-3226",
-  "modified": "2025-12-29T15:30:22Z",
+  "modified": "2025-12-31T18:30:22Z",
   "published": "2025-12-29T15:30:22Z",
   "aliases": [
     "CVE-2025-65570"
   ],
   "details": "A type confusion in jsish 2.0 allows incorrect control flow during execution of the OP_NEXT opcode. When an “instanceof” expression uses an array element access as the left-hand operand inside a for-in loop, the instructions implementation leaves an additional array reference on the stack rather than consuming it during OP_INSTANCEOF. As a result, OP_NEXT interprets the array as an iterator object and reads the iterCmd function pointer from an invalid structure, potentially causing a crash or enabling code execution depending on heap layout.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-843"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-29T15:16:01Z"
