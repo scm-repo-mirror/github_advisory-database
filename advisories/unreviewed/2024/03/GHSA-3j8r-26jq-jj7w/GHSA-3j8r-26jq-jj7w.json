@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3j8r-26jq-jj7w",
-  "modified": "2024-08-05T15:30:50Z",
+  "modified": "2025-12-31T03:30:32Z",
   "published": "2024-03-18T00:30:44Z",
   "aliases": [
     "CVE-2024-23138"
   ],
-  "details": "A maliciously crafted DWG file when parsed through Autodesk DWG TrueView can be used to cause a Stack-based Overflow. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.\n",
+  "details": "A maliciously crafted DWG file when parsed through Autodesk DWG TrueView can be used to cause a Stack-based Overflow. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-121"
+      "CWE-121",
+      "CWE-787"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
