@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4p8-h8mh-rh8q",
-  "modified": "2025-12-27T01:08:47Z",
+  "modified": "2025-12-31T00:20:06Z",
   "published": "2025-12-26T18:26:38Z",
   "aliases": [
     "CVE-2025-68697"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.2.1"
             },
             {
               "fixed": "2.0.0"
