@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpj7-7xpf-5v66",
-  "modified": "2024-04-24T12:30:42Z",
+  "modified": "2026-01-01T00:31:23Z",
   "published": "2024-04-24T12:30:42Z",
   "aliases": [
     "CVE-2023-23985"
   ],
-  "details": "Missing Authorization vulnerability in Quiz Maker team Quiz Maker.This issue affects Quiz Maker: from n/a through 6.3.9.4.\n\n",
+  "details": "Missing Authorization vulnerability in Quiz Maker team Quiz Maker.This issue affects Quiz Maker: from n/a through 6.3.9.4.",
   "severity": [
     {
       "type": "CVSS_V3",
