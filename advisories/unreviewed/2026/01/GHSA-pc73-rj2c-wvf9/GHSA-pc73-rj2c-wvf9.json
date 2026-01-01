@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pc73-rj2c-wvf9",
+  "modified": "2026-01-01T06:30:23Z",
+  "published": "2026-01-01T06:30:23Z",
+  "aliases": [
+    "CVE-2025-69413"
+  ],
+  "details": "In Gitea before 1.25.2, /api/v1/user has different responses for failed authentication depending on whether a username exists.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69413"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/go-gitea/gitea/issues/35984"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/go-gitea/gitea/pull/36002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.gitea.com/release-of-1.25.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/go-gitea/gitea/releases/tag/v1.25.2"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-204"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-01T05:16:03Z"
+  }
+}
