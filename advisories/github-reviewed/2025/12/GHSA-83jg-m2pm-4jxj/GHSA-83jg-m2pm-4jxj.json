@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83jg-m2pm-4jxj",
-  "modified": "2025-12-31T21:38:56Z",
+  "modified": "2026-01-01T00:35:12Z",
   "published": "2025-12-20T17:42:07Z",
   "aliases": [
     "CVE-2025-34469"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:L"
     }
   ],
   "affected": [
@@ -39,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/cowrie/cowrie/security/advisories/GHSA-83jg-m2pm-4jxj"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34469"
     },
     {
       "type": "WEB",
@@ -69,9 +77,9 @@
     "cwe_ids": [
       "CWE-918"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-12-20T17:42:07Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-12-31T22:15:49Z"
   }
 }
