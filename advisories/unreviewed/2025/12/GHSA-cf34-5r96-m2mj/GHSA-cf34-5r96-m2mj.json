@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cf34-5r96-m2mj",
-  "modified": "2025-12-30T03:30:16Z",
+  "modified": "2026-01-01T09:30:14Z",
   "published": "2025-12-30T03:30:16Z",
   "aliases": [
     "CVE-2025-15214"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.725104"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.728898"
     },
     {
       "type": "WEB",
