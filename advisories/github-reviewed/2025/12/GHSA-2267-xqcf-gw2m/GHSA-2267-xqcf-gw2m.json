@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2267-xqcf-gw2m",
-  "modified": "2025-12-31T22:18:28Z",
+  "modified": "2026-01-02T22:51:51Z",
   "published": "2025-12-30T20:52:21Z",
   "aliases": [
     "CVE-2025-69210"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "2025.4"
+              "fixed": "2025.7"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 2025.4"
+      }
     },
     {
       "package": {
