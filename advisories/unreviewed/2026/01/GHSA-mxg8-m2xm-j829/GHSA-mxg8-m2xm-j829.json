@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mxg8-m2xm-j829",
+  "modified": "2026-01-02T18:30:55Z",
+  "published": "2026-01-02T18:30:55Z",
+  "aliases": [
+    "CVE-2025-67158"
+  ],
+  "details": "An authentication bypass in the /cgi-bin/jvsweb.cgi endpoint of Revotech I6032W-FHW v1.0.0014 - 20210517 allows attackers to access sensitive information and escalate privileges via a crafted HTTP request.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67158"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Remenis/CVE-2025-67158"
+    },
+    {
+      "type": "WEB",
+      "url": "http://i6032w-fhw.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://revotech.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-02T17:16:23Z"
+  }
+}

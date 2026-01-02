@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p4c-m632-jv39",
-  "modified": "2025-12-30T18:30:20Z",
+  "modified": "2026-01-02T18:30:22Z",
   "published": "2025-12-30T18:30:20Z",
   "aliases": [
     "CVE-2025-56332"
   ],
   "details": "Authentication Bypass in fosrl/pangolin v1.6.2 and before allows attackers to access Pangolin resource via Insecure Default Configuration",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-1188"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-30T18:15:46Z"

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rqxx-v2c9-cxcp",
+  "modified": "2026-01-02T18:30:55Z",
+  "published": "2026-01-02T18:30:55Z",
+  "aliases": [
+    "CVE-2025-67160"
+  ],
+  "details": "An issue in Vatilon v1.12.37-20240124 allows attackers to access sensitive directories and files via a directory traversal.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67160"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Remenis/CVE-2025-67160"
+    },
+    {
+      "type": "WEB",
+      "url": "http://vatilon.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-02T17:16:23Z"
+  }
+}

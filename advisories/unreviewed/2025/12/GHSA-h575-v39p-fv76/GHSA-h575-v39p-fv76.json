@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h575-v39p-fv76",
-  "modified": "2025-12-30T18:30:18Z",
+  "modified": "2026-01-02T18:30:22Z",
   "published": "2025-12-30T18:30:18Z",
   "aliases": [
     "CVE-2025-61557"
   ],
   "details": "nixseparatedebuginfod before v0.4.1 is vulnerable to Directory Traversal.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-30T16:15:45Z"

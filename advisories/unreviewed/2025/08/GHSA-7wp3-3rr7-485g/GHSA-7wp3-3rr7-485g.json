@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wp3-3rr7-485g",
-  "modified": "2025-08-28T06:30:56Z",
+  "modified": "2026-01-02T18:30:19Z",
   "published": "2025-08-21T15:30:35Z",
   "aliases": [
     "CVE-2025-34158"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://forums.plex.tv/t/plex-media-server-security-update/928341"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/lufinkey/vulnerability-research/blob/main/CVE-2025-34158/README.md"
     },
     {
       "type": "WEB",
