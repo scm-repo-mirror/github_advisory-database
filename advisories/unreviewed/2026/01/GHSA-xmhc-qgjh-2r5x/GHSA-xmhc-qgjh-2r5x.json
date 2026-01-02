@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xmhc-qgjh-2r5x",
+  "modified": "2026-01-02T06:30:26Z",
+  "published": "2026-01-02T06:30:26Z",
+  "aliases": [
+    "CVE-2025-13456"
+  ],
+  "details": "The ShopBuilder  WordPress plugin before 3.2.2 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13456"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/5872ece6-52cb-4306-b7ee-41282815a243"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-02T06:15:53Z"
+  }
+}

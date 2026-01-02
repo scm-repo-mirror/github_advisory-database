@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6w96-gvjq-xh8h",
+  "modified": "2026-01-02T06:30:26Z",
+  "published": "2026-01-02T06:30:26Z",
+  "aliases": [
+    "CVE-2025-12685"
+  ],
+  "details": "The WPBookit WordPress plugin through 1.0.7 lacks a CSRF check when deleting customers. This could allow an unauthenticated attacker to delete any customer through a CSRF attack.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12685"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/e5ba488a-b43d-4c5f-9716-4b24701999f3"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-02T06:15:53Z"
+  }
+}
