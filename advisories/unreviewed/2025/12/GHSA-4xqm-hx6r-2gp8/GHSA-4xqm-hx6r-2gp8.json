@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xqm-hx6r-2gp8",
-  "modified": "2025-12-31T06:30:17Z",
+  "modified": "2026-01-02T15:30:27Z",
   "published": "2025-12-31T06:30:17Z",
   "aliases": [
     "CVE-2025-13029"
   ],
   "details": "The Knowband Mobile App Builder WordPress plugin before 3.0.0 does not have authorisation when deleting users via its REST API, allowing unauthenticated attackers to delete arbitrary users.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-31T06:15:40Z"
