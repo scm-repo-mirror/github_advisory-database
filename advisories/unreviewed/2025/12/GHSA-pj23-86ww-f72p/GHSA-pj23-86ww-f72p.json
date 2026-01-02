@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj23-86ww-f72p",
-  "modified": "2025-12-29T21:30:24Z",
+  "modified": "2026-01-02T21:30:27Z",
   "published": "2025-12-28T18:30:26Z",
   "aliases": [
     "CVE-2025-68973"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://gpg.fail/memcpy"
+    },
+    {
+      "type": "WEB",
+      "url": "https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i"
     },
     {
       "type": "WEB",
