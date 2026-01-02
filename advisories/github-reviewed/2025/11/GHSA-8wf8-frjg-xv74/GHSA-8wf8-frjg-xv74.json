@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8wf8-frjg-xv74",
-  "modified": "2025-11-26T22:02:07Z",
+  "modified": "2026-01-02T14:39:16Z",
   "published": "2025-11-17T06:30:15Z",
   "aliases": [
     "CVE-2025-13265"
@@ -50,7 +50,7 @@
     },
     {
       "type": "PACKAGE",
-      "url": "https://github.com/lsfusion/platformx"
+      "url": "https://github.com/lsfusion/platform"
     },
     {
       "type": "WEB",
