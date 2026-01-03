@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h3h-vpf4-f727",
-  "modified": "2025-12-30T12:30:28Z",
+  "modified": "2026-01-03T00:31:25Z",
   "published": "2025-12-30T12:30:28Z",
   "aliases": [
     "CVE-2025-69026"
   ],
   "details": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Roxnor PopupKit popup-builder-block allows Retrieve Embedded Sensitive Data.This issue affects PopupKit: from n/a through <= 2.1.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-497"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-30T11:16:01Z"

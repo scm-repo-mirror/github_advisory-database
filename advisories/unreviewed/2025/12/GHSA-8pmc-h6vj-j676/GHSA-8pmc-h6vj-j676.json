@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pmc-h6vj-j676",
-  "modified": "2025-12-30T12:30:28Z",
+  "modified": "2026-01-03T00:31:25Z",
   "published": "2025-12-30T12:30:28Z",
   "aliases": [
     "CVE-2025-69028"
   ],
   "details": "Missing Authorization vulnerability in BoldGrid weForms weforms allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects weForms: from n/a through <= 1.6.25.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-30T11:16:01Z"

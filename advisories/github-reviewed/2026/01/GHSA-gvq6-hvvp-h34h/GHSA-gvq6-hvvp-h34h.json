@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvq6-hvvp-h34h",
-  "modified": "2026-01-02T18:58:32Z",
+  "modified": "2026-01-03T00:32:09Z",
   "published": "2026-01-02T18:58:32Z",
   "aliases": [
     "CVE-2026-21440"
@@ -60,6 +60,10 @@
       "url": "https://github.com/adonisjs/core/security/advisories/GHSA-gvq6-hvvp-h34h"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21440"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/adonisjs/bodyparser/commit/143a16f35602be8561215611582211dec280cae6"
     },
@@ -87,6 +91,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-02T18:58:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-02T19:15:48Z"
   }
 }
