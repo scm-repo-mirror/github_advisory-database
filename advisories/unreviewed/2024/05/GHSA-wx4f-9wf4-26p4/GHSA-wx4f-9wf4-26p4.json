@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wx4f-9wf4-26p4",
-  "modified": "2024-07-03T18:40:48Z",
+  "modified": "2026-01-05T18:30:20Z",
   "published": "2024-05-14T18:30:49Z",
   "aliases": [
     "CVE-2024-34199"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/maximmasiutin/TinyWeb/commit/2584082"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/maximmasiutin/TinyWeb/commit/d49c3da"
     },
     {
       "type": "WEB",
