@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mv9-562j-33vp",
-  "modified": "2025-12-07T15:30:26Z",
+  "modified": "2026-01-05T21:30:27Z",
   "published": "2025-12-07T15:30:26Z",
   "aliases": [
     "CVE-2025-14191"
@@ -46,7 +46,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-120"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gh2-xjvw-7rh4",
-  "modified": "2026-01-05T18:30:22Z",
+  "modified": "2026-01-05T21:30:32Z",
   "published": "2026-01-05T18:30:22Z",
   "aliases": [
     "CVE-2025-65328"
   ],
   "details": "Mega-Fence (webgate-lib.*) 25.1.914 and prior trusts the first value of the X-Forwarded-For (XFF) header as the client IP without validating a trusted proxy chain. An attacker can supply an arbitrary XFF value in a remote request to spoof the client IP, which is then propagated to security-relevant state (e.g., WG_CLIENT_IP cookie). Deployments that rely on this value for IP allowlists may be bypassed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-807"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-05T16:15:42Z"

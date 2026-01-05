@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vp8w-wj4m-3r7j",
+  "modified": "2026-01-05T21:30:33Z",
+  "published": "2026-01-05T21:30:33Z",
+  "aliases": [
+    "CVE-2025-67427"
+  ],
+  "details": "A Blind Server-Side Request Forgery (SSRF) vulnerability in evershop 2.1.0 and prior allows unauthenticated attackers to force the server to initiate an HTTP request via the \"GET /images\" API. The vulnerability occurs due to insufficient validation of the \"src\" query parameter, which permits arbitrary HTTP or HTTPS URIs, resulting in unexpected requests against internal and external networks.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67427"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dos-m0nk3y/CVE/tree/main/CVE-2025-67427"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/evershopcommerce/evershop"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-05T20:16:03Z"
+  }
+}

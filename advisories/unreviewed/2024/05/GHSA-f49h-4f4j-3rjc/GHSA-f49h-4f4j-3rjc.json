@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f49h-4f4j-3rjc",
-  "modified": "2025-06-23T15:31:33Z",
+  "modified": "2026-01-05T21:30:26Z",
   "published": "2024-05-22T12:32:27Z",
   "aliases": [
     "CVE-2024-5193"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/maximmasiutin/TinyWeb/commit/d49c3da6a97e950975b18626878f3ee1f082358e"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/DMCERTCE/CRLF_Tiny"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/maximmasiutin/TinyWeb/releases/tag/v1.99"
     },
     {
       "type": "WEB",
@@ -38,10 +46,15 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.333059"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.masiutin.net/tinyweb-cve-2024-5193.html"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-74",
       "CWE-93"
     ],
     "severity": "MODERATE",

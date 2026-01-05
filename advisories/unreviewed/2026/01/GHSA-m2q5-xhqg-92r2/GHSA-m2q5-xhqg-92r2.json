@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-m2q5-xhqg-92r2",
+  "modified": "2026-01-05T21:30:33Z",
+  "published": "2026-01-05T21:30:33Z",
+  "aliases": [
+    "CVE-2025-67419"
+  ],
+  "details": "A Denial of Service (DoS) vulnerability in evershop 2.1.0 and prior allows unauthenticated attackers to exhaust the application server's resources via the \"GET /images\" API. The application fails to limit the height of the use-element shadow tree or the dimensions of pattern tiles during the processing of SVG files, resulting in unbounded resource consumption and system-wide denial of service.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67419"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dos-m0nk3y/CVE/tree/main/CVE-2025-67419"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/evershopcommerce/evershop"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1050"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-05T20:16:03Z"
+  }
+}
