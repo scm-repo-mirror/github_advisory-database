@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwr9-mwqr-4wq5",
-  "modified": "2025-12-22T12:30:21Z",
+  "modified": "2026-01-05T12:30:28Z",
   "published": "2025-12-22T12:30:21Z",
   "aliases": [
     "CVE-2025-12514"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/centreon/centreon/releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://thewatch.centreon.com/latest-security-bulletins-64/cve-2025-12514-centreon-open-tickets-high-severity-5343"
     }
   ],
   "database_specific": {
