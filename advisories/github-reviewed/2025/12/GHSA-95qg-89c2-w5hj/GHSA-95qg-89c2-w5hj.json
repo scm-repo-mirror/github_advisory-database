@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95qg-89c2-w5hj",
-  "modified": "2026-01-02T14:36:12Z",
+  "modified": "2026-01-05T14:55:05Z",
   "published": "2025-12-30T23:45:51Z",
   "aliases": [
     "CVE-2025-69257"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/AsfhtgkDavid/theshit"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0139.html"
     }
   ],
   "database_specific": {
