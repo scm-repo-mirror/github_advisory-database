@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v64r-7wg9-23pr",
-  "modified": "2026-01-05T18:49:56Z",
+  "modified": "2026-01-06T15:52:22Z",
   "published": "2026-01-05T18:49:56Z",
   "aliases": [
     "CVE-2025-68456"
@@ -66,6 +66,10 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-v64r-7wg9-23pr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68456"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/commit/f83d4e0c6b906743206b4747db4abf8164b8da39"
     },
@@ -86,6 +90,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-05T18:49:56Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-05T22:15:52Z"
   }
 }

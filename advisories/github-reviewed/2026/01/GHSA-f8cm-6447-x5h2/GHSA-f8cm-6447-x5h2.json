@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8cm-6447-x5h2",
-  "modified": "2026-01-05T17:35:30Z",
+  "modified": "2026-01-06T15:51:57Z",
   "published": "2026-01-05T17:35:29Z",
   "aliases": [
     "CVE-2025-68428"
@@ -44,6 +44,10 @@
       "url": "https://github.com/parallax/jsPDF/security/advisories/GHSA-f8cm-6447-x5h2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68428"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/parallax/jsPDF/commit/a688c8f479929b24a6543b1fa2d6364abb03066d"
     },
@@ -64,6 +68,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-05T17:35:29Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-05T22:15:51Z"
   }
 }
