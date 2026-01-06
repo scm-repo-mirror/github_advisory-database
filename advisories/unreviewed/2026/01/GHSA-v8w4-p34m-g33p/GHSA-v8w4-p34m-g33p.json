@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8w4-p34m-g33p",
-  "modified": "2026-01-06T18:31:36Z",
+  "modified": "2026-01-06T21:30:34Z",
   "published": "2026-01-06T18:31:36Z",
   "aliases": [
     "CVE-2025-69354"
   ],
   "details": "Missing Authorization vulnerability in BBR Plugins Better Business Reviews better-business-reviews allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Better Business Reviews: from n/a through <= 0.1.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-06T17:15:47Z"

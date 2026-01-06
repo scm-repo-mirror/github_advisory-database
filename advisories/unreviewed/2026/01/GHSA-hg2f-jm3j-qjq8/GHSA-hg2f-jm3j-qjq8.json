@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg2f-jm3j-qjq8",
-  "modified": "2026-01-06T18:31:34Z",
+  "modified": "2026-01-06T21:30:34Z",
   "published": "2026-01-06T18:31:34Z",
   "aliases": [
     "CVE-2020-36923"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/sony-bravia-digital-signage-client-side-protection-bypass-via-idor"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zeroscience.mk/codes/sonybravia_idor.txt"
     },
     {
       "type": "WEB",
