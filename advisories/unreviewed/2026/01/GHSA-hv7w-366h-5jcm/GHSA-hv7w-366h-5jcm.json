@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hv7w-366h-5jcm",
+  "modified": "2026-01-06T18:31:36Z",
+  "published": "2026-01-06T18:31:36Z",
+  "aliases": [
+    "CVE-2025-69352"
+  ],
+  "details": "Missing Authorization vulnerability in StellarWP The Events Calendar the-events-calendar allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects The Events Calendar: from n/a through <= 6.15.12.2.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69352"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/the-events-calendar/vulnerability/wordpress-the-events-calendar-plugin-6-15-12-2-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-06T17:15:47Z"
+  }
+}

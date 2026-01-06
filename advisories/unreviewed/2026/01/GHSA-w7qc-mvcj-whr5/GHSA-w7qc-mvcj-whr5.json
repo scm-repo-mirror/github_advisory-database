@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7qc-mvcj-whr5",
-  "modified": "2026-01-02T15:30:28Z",
+  "modified": "2026-01-06T18:31:31Z",
   "published": "2026-01-02T15:30:28Z",
   "aliases": [
     "CVE-2024-55374"
   ],
   "details": "REDCap 14.3.13 allows an attacker to enumerate usernames due to an observable discrepancy between login attempts.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-203"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-02T15:15:56Z"
