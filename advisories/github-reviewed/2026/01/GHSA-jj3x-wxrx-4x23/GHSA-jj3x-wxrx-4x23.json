@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj3x-wxrx-4x23",
-  "modified": "2026-01-05T23:10:15Z",
+  "modified": "2026-01-06T16:06:51Z",
   "published": "2026-01-05T23:10:15Z",
   "aliases": [
     "CVE-2025-69227"
@@ -44,6 +44,10 @@
       "url": "https://github.com/aio-libs/aiohttp/security/advisories/GHSA-jj3x-wxrx-4x23"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69227"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/aio-libs/aiohttp/commit/bc1319ec3cbff9438a758951a30907b072561259"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-05T23:10:15Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-06T00:15:48Z"
   }
 }
