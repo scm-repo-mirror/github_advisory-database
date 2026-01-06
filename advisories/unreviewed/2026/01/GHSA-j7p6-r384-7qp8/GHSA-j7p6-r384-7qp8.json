@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j7p6-r384-7qp8",
+  "modified": "2026-01-06T15:30:27Z",
+  "published": "2026-01-06T15:30:27Z",
+  "aliases": [
+    "CVE-2025-14026"
+  ],
+  "details": "Forcepoint One DLP Client, version 23.04.5642 (and possibly newer versions), includes a restricted version of Python 2.5.4 that prevents use of the ctypes library. ctypes is a foreign function interface (FFI) for Python, enabling calls to DLLs/shared libraries, memory allocation, and direct code execution. It was demonstrated that these restrictions could be bypassed.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14026"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.cert.org/vuls/id/420440"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.forcepoint.com/s/article/000042256"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-06T15:15:42Z"
+  }
+}
