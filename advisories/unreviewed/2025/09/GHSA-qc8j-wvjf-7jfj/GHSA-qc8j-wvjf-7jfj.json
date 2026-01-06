@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc8j-wvjf-7jfj",
-  "modified": "2026-01-05T18:30:21Z",
+  "modified": "2026-01-06T09:30:29Z",
   "published": "2025-09-23T18:30:24Z",
   "aliases": [
     "CVE-2025-9900"
@@ -18,10 +18,6 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9900"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:21506"
     },
     {
       "type": "WEB",
@@ -50,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2026:0001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0076"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0077"
     },
     {
       "type": "WEB",
@@ -150,6 +154,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:21407"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21506"
     },
     {
       "type": "WEB",
