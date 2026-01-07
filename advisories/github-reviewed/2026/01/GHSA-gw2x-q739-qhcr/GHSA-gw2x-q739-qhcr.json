@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gw2x-q739-qhcr",
-  "modified": "2026-01-07T18:36:23Z",
+  "modified": "2026-01-07T21:34:37Z",
   "published": "2026-01-07T18:36:23Z",
   "aliases": [
     "CVE-2025-69255"
@@ -44,6 +44,10 @@
       "url": "https://github.com/rustfs/rustfs/security/advisories/GHSA-gw2x-q739-qhcr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69255"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rustfs/rustfs/commit/eb33e82b56ed11fd12bb39416359d8d60737dc7a"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-07T18:36:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-07T21:16:00Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq29-69jg-9mxc",
-  "modified": "2026-01-07T18:15:30Z",
+  "modified": "2026-01-07T21:34:33Z",
   "published": "2026-01-07T18:15:29Z",
   "aliases": [
     "CVE-2025-68705"
@@ -44,6 +44,10 @@
       "url": "https://github.com/rustfs/rustfs/security/advisories/GHSA-pq29-69jg-9mxc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68705"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rustfs/rustfs/commit/ab752458ce431c6397175d167beee2ea00507d3e"
     },
@@ -59,6 +63,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-07T18:15:29Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-07T21:15:59Z"
   }
 }
