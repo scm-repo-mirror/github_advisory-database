@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc85-5h45-qhc8",
-  "modified": "2025-11-03T18:31:33Z",
+  "modified": "2026-01-07T18:30:19Z",
   "published": "2025-08-11T18:31:09Z",
   "aliases": [
     "CVE-2025-38499"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclone_private_mnt(): make sure that caller has CAP_SYS_ADMIN in the right userns\n\nWhat we want is to verify there is that clone won't expose something\nhidden by a mount we wouldn't be able to undo.  \"Wouldn't be able to undo\"\nmay be a result of MNT_LOCKED on a child, but it may also come from\nlacking admin rights in the userns of the namespace mount belongs to.\n\nclone_private_mnt() checks the former, but not the latter.\n\nThere's a number of rather confusing CAP_SYS_ADMIN checks in various\nuserns during the mount, especially with the new mount API; they serve\ndifferent purposes and in case of clone_private_mnt() they usually,\nbut not always end up covering the missing check mentioned above.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-11T16:15:30Z"

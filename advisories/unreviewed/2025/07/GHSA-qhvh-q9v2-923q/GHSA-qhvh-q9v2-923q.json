@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhvh-q9v2-923q",
-  "modified": "2025-11-03T18:31:32Z",
+  "modified": "2026-01-07T18:30:19Z",
   "published": "2025-07-28T12:30:36Z",
   "aliases": [
     "CVE-2025-38497"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: configfs: Fix OOB read on empty string write\n\nWhen writing an empty string to either 'qw_sign' or 'landingPage'\nsysfs attributes, the store functions attempt to access page[l - 1]\nbefore validating that the length 'l' is greater than zero.\n\nThis patch fixes the vulnerability by adding a check at the beginning\nof os_desc_qw_sign_store() and webusb_landingPage_store() to handle\nthe zero-length input case gracefully by returning immediately.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-28T12:15:31Z"

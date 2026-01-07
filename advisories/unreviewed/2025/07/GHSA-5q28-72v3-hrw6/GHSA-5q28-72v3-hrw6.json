@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5q28-72v3-hrw6",
-  "modified": "2025-11-03T18:31:33Z",
+  "modified": "2026-01-07T18:30:19Z",
   "published": "2025-07-30T06:31:29Z",
   "aliases": [
     "CVE-2025-38498"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndo_change_type(): refuse to operate on unmounted/not ours mounts\n\nEnsure that propagation settings can only be changed for mounts located\nin the caller's mount namespace. This change aligns permission checking\nwith the rest of mount(2).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-30T06:15:27Z"

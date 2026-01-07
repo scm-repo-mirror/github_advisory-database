@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6xr-fxvq-ffp4",
-  "modified": "2025-11-03T18:31:34Z",
+  "modified": "2026-01-07T18:30:20Z",
   "published": "2025-08-22T15:33:05Z",
   "aliases": [
     "CVE-2025-38617"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/packet: fix a race in packet_set_ring() and packet_notifier()\n\nWhen packet_set_ring() releases po->bind_lock, another thread can\nrun packet_notifier() and process an NETDEV_UP event.\n\nThis race and the fix are both similar to that of commit 15fe076edea7\n(\"net/packet: fix a race in packet_bind() and packet_notifier()\").\n\nThere too the packet_notifier NETDEV_UP event managed to run while a\npo->bind_lock critical section had to be temporarily released. And\nthe fix was similarly to temporarily set po->num to zero to keep\nthe socket unhooked until the lock is retaken.\n\nThe po->bind_lock in packet_set_ring and packet_notifier precede the\nintroduction of git history.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-22T14:15:46Z"

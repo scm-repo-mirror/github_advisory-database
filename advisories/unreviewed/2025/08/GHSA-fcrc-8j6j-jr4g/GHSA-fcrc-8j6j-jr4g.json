@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcrc-8j6j-jr4g",
-  "modified": "2025-11-03T18:31:35Z",
+  "modified": "2026-01-07T18:30:21Z",
   "published": "2025-08-22T18:31:22Z",
   "aliases": [
     "CVE-2025-38644"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mac80211: reject TDLS operations when station is not associated\n\nsyzbot triggered a WARN in ieee80211_tdls_oper() by sending\nNL80211_TDLS_ENABLE_LINK immediately after NL80211_CMD_CONNECT,\nbefore association completed and without prior TDLS setup.\n\nThis left internal state like sdata->u.mgd.tdls_peer uninitialized,\nleading to a WARN_ON() in code paths that assumed it was valid.\n\nReject the operation early if not in station mode or not associated.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-22T16:15:38Z"

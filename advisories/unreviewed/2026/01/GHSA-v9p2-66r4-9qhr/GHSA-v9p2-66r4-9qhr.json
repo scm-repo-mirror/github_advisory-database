@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9p2-66r4-9qhr",
-  "modified": "2026-01-06T00:30:23Z",
+  "modified": "2026-01-07T18:30:25Z",
   "published": "2026-01-06T00:30:23Z",
   "aliases": [
     "CVE-2026-0625"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10068"
+    },
+    {
+      "type": "WEB",
+      "url": "https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10488"
     },
     {
       "type": "WEB",

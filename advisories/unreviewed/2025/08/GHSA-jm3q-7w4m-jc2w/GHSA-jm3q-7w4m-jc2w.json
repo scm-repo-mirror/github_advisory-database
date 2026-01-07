@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm3q-7w4m-jc2w",
-  "modified": "2025-11-03T18:31:34Z",
+  "modified": "2026-01-07T18:30:20Z",
   "published": "2025-08-22T18:31:21Z",
   "aliases": [
     "CVE-2025-38623"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: pnv_php: Fix surprise plug detection and recovery\n\nThe existing PowerNV hotplug code did not handle surprise plug events\ncorrectly, leading to a complete failure of the hotplug system after device\nremoval and a required reboot to detect new devices.\n\nThis comes down to two issues:\n\n 1) When a device is surprise removed, often the bridge upstream\n    port will cause a PE freeze on the PHB.  If this freeze is not\n    cleared, the MSI interrupts from the bridge hotplug notification\n    logic will not be received by the kernel, stalling all plug events\n    on all slots associated with the PE.\n\n 2) When a device is removed from a slot, regardless of surprise or\n    programmatic removal, the associated PHB/PE ls left frozen.\n    If this freeze is not cleared via a fundamental reset, skiboot\n    is unable to clear the freeze and cannot retrain / rescan the\n    slot.  This also requires a reboot to clear the freeze and redetect\n    the device in the slot.\n\nIssue the appropriate unfreeze and rescan commands on hotplug events,\nand don't oops on hotplug if pci_bus_to_OF_node() returns NULL.\n\n[bhelgaas: tidy comments]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-22T16:15:35Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrfv-m5wm-5w6w",
-  "modified": "2026-01-06T18:40:50Z",
+  "modified": "2026-01-07T18:30:24Z",
   "published": "2025-12-31T06:30:18Z",
   "aliases": [
     "CVE-2025-69277"
@@ -140,6 +140,10 @@
     {
       "type": "WEB",
       "url": "https://ianix.com/pub/ed25519-deployment.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/01/msg00004.html"
     },
     {
       "type": "WEB",

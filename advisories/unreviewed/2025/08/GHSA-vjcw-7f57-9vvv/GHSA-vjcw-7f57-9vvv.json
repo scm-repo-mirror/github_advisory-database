@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjcw-7f57-9vvv",
-  "modified": "2025-11-03T18:31:33Z",
+  "modified": "2026-01-07T18:30:19Z",
   "published": "2025-08-16T12:30:32Z",
   "aliases": [
     "CVE-2025-38510"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nkasan: remove kasan_find_vm_area() to prevent possible deadlock\n\nfind_vm_area() couldn't be called in atomic_context.  If find_vm_area() is\ncalled to reports vm area information, kasan can trigger deadlock like:\n\nCPU0                                CPU1\nvmalloc();\n alloc_vmap_area();\n  spin_lock(&vn->busy.lock)\n                                    spin_lock_bh(&some_lock);\n   <interrupt occurs>\n   <in softirq>\n   spin_lock(&some_lock);\n                                    <access invalid address>\n                                    kasan_report();\n                                     print_report();\n                                      print_address_description();\n                                       kasan_find_vm_area();\n                                        find_vm_area();\n                                         spin_lock(&vn->busy.lock) // deadlock!\n\nTo prevent possible deadlock while kasan reports, remove kasan_find_vm_area().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-16T11:15:44Z"
