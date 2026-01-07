@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr4j-mh66-4679",
-  "modified": "2025-11-03T18:31:25Z",
+  "modified": "2026-01-07T15:30:13Z",
   "published": "2025-07-22T09:30:30Z",
   "aliases": [
     "CVE-2025-38352"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f90fff1e152dedf52b932240ebbd670d83330eca"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/farazsth98/chronomaly"
     },
     {
       "type": "WEB",
