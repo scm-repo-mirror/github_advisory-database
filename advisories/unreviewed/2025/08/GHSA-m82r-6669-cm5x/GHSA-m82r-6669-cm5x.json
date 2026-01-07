@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m82r-6669-cm5x",
-  "modified": "2025-11-03T18:31:33Z",
+  "modified": "2026-01-07T21:31:38Z",
   "published": "2025-08-16T12:30:33Z",
   "aliases": [
     "CVE-2025-38542"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: appletalk: Fix device refcount leak in atrtr_create()\n\nWhen updating an existing route entry in atrtr_create(), the old device\nreference was not being released before assigning the new device,\nleading to a device refcount leak. Fix this by calling dev_put() to\nrelease the old device reference before holding the new one.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-16T12:15:30Z"

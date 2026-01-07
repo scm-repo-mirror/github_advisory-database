@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pr3-cx3j-4949",
-  "modified": "2025-12-23T12:30:17Z",
+  "modified": "2026-01-07T21:31:40Z",
   "published": "2025-12-16T18:31:35Z",
   "aliases": [
     "CVE-2025-37164"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn4985en_us&docLocale=en_US"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-37164"
     }
   ],
   "database_specific": {

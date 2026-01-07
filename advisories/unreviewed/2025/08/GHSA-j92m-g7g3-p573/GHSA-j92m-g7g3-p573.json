@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j92m-g7g3-p573",
-  "modified": "2025-11-03T18:31:34Z",
+  "modified": "2026-01-07T21:31:39Z",
   "published": "2025-08-19T18:31:34Z",
   "aliases": [
     "CVE-2025-38608"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf, ktls: Fix data corruption when using bpf_msg_pop_data() in ktls\n\nWhen sending plaintext data, we initially calculated the corresponding\nciphertext length. However, if we later reduced the plaintext data length\nvia socket policy, we failed to recalculate the ciphertext length.\n\nThis results in transmitting buffers containing uninitialized data during\nciphertext transmission.\n\nThis causes uninitialized bytes to be appended after a complete\n\"Application Data\" packet, leading to errors on the receiving end when\nparsing TLS record.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-19T17:15:39Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whrv-v478-pw4q",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-07T21:31:40Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39715"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nparisc: Revise gateway LWS calls to probe user read access\n\nWe use load and stbys,e instructions to trigger memory reference\ninterruptions without writing to memory. Because of the way read\naccess support is implemented, read access interruptions are only\ntriggered at privilege levels 2 and 3. The kernel and gateway\npage execute at privilege level 0, so this code never triggers\na read access interruption. Thus, it is currently possible for\nuser code to execute a LWS compare and swap operation at an\naddress that is read protected at privilege level 3 (PRIV_USER).\n\nFix this by probing read access rights at privilege level 3 and\nbranching to lws_fault if access isn't allowed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:48Z"

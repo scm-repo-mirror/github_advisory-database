@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxfj-mrv6-qf72",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-07T21:31:39Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39694"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/sclp: Fix SCCB present check\n\nTracing code called by the SCLP interrupt handler contains early exits\nif the SCCB address associated with an interrupt is NULL. This check is\nperformed after physical to virtual address translation.\n\nIf the kernel identity mapping does not start at address zero, the\nresulting virtual address is never zero, so that the NULL checks won't\nwork. Subsequently this may result in incorrect accesses to the first\npage of the identity mapping.\n\nFix this by introducing a function that handles the NULL case before\naddress translation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:46Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w25v-2mf8-86hr",
-  "modified": "2022-05-02T03:16:37Z",
+  "modified": "2026-01-07T21:31:35Z",
   "published": "2022-05-02T03:16:36Z",
   "aliases": [
     "CVE-2009-0556"
   ],
   "details": "Microsoft Office PowerPoint 2000 SP3, 2002 SP3, and 2003 SP3, and PowerPoint in Microsoft Office 2004 for Mac, allows remote attackers to execute arbitrary code via a PowerPoint file with an OutlineTextRefAtom containing an an invalid index value that triggers memory corruption, as exploited in the wild in April 2009 by Exploit:Win32/Apptom.gen, aka \"Memory Corruption Vulnerability.\"",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A6279"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2009-0556"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-646r-2h84-3p3v",
-  "modified": "2025-11-03T18:31:33Z",
+  "modified": "2026-01-07T21:31:38Z",
   "published": "2025-08-16T12:30:33Z",
   "aliases": [
     "CVE-2025-38538"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: nbpfaxi: Fix memory corruption in probe()\n\nThe nbpf->chan[] array is allocated earlier in the nbpf_probe() function\nand it has \"num_channels\" elements.  These three loops iterate one\nelement farther than they should and corrupt memory.\n\nThe changes to the second loop are more involved.  In this case, we're\ncopying data from the irqbuf[] array into the nbpf->chan[] array.  If\nthe data in irqbuf[i] is the error IRQ then we skip it, so the iterators\nare not in sync.  I added a check to ensure that we don't go beyond the\nend of the irqbuf[] array.  I'm pretty sure this can't happen, but it\nseemed harmless to add a check.\n\nOn the other hand, after the loop has ended there is a check to ensure\nthat the \"chan\" iterator is where we expect it to be.  In the original\ncode we went one element beyond the end of the array so the iterator\nwasn't in the correct place and it would always return -EINVAL.  However,\nnow it will always be in the correct place.  I deleted the check since\nwe know the result.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-16T12:15:29Z"

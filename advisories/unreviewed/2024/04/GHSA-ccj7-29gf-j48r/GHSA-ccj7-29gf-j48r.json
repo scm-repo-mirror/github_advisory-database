@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccj7-29gf-j48r",
-  "modified": "2024-04-26T15:30:30Z",
+  "modified": "2026-01-07T21:31:36Z",
   "published": "2024-04-26T15:30:30Z",
   "aliases": [
     "CVE-2024-33688"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Extend Themes Teluro.This issue affects Teluro: from n/a through 1.0.31.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Extend Themes Teluro.This issue affects Teluro: from n/a through 1.0.31.",
   "severity": [
     {
       "type": "CVSS_V3",

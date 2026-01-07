@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p52-pvr6-5x2c",
-  "modified": "2026-01-07T18:30:27Z",
+  "modified": "2026-01-07T21:31:55Z",
   "published": "2026-01-07T18:30:27Z",
   "aliases": [
     "CVE-2026-0668"
   ],
   "details": "Inefficient Regular Expression Complexity vulnerability in Wikimedia Foundation MediaWiki - VisualData Extension allows Regular Expression Exponential Blowup.This issue affects MediaWiki - VisualData Extension: 1.45.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -39,7 +44,7 @@
     "cwe_ids": [
       "CWE-1333"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-07T18:15:52Z"

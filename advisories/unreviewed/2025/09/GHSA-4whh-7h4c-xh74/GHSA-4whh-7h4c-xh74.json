@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4whh-7h4c-xh74",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-07T21:31:40Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39718"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvsock/virtio: Validate length in packet header before skb_put()\n\nWhen receiving a vsock packet in the guest, only the virtqueue buffer\nsize is validated prior to virtio_vsock_skb_rx_put(). Unfortunately,\nvirtio_vsock_skb_rx_put() uses the length from the packet header as the\nlength argument to skb_put(), potentially resulting in SKB overflow if\nthe host has gone wonky.\n\nValidate the length as advertised by the packet header before calling\nvirtio_vsock_skb_rx_put().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:49Z"
