@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcj4-jw5j-44wh",
-  "modified": "2025-12-31T22:01:38Z",
+  "modified": "2026-01-07T15:18:22Z",
   "published": "2025-12-31T22:01:38Z",
   "aliases": [
     "CVE-2025-68131"
@@ -46,7 +46,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/agronholm/cbor2/pull/268"
+      "url": "https://github.com/agronholm/cbor2/commit/f1d701cd2c411ee40bb1fe383afe7f365f35abf0"
     },
     {
       "type": "PACKAGE",
