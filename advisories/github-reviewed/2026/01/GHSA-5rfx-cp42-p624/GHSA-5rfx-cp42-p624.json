@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rfx-cp42-p624",
-  "modified": "2026-01-07T18:09:56Z",
+  "modified": "2026-01-07T20:37:40Z",
   "published": "2026-01-07T18:09:56Z",
   "aliases": [
     "CVE-2025-66560"
@@ -79,6 +79,10 @@
       "url": "https://github.com/quarkusio/quarkus/security/advisories/GHSA-5rfx-cp42-p624"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66560"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/quarkusio/quarkus"
     }
@@ -90,6 +94,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-07T18:09:56Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-07T18:15:52Z"
   }
 }
