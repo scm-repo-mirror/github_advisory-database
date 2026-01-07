@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f5f-xgrj-97pf",
-  "modified": "2025-12-16T22:35:40Z",
+  "modified": "2026-01-07T14:54:59Z",
   "published": "2025-12-16T22:35:40Z",
   "aliases": [
     "CVE-2025-68150"
@@ -28,7 +28,7 @@
               "introduced": "9.0.0"
             },
             {
-              "fixed": "9.1.1.alpha.1"
+              "fixed": "9.1.1-alpha.1"
             }
           ]
         }
