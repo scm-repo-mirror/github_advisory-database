@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjrh-7rvq-8ghw",
-  "modified": "2025-07-11T06:30:30Z",
+  "modified": "2026-01-07T12:31:19Z",
   "published": "2025-07-11T06:30:30Z",
   "aliases": [
     "CVE-2025-30025"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.axis.com/dam/public/40/0e/03/cve-2025-30025pdf-en-US-485736.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.axis.com/dam/public/f2/28/d2/cve-2025-30025pdf-en-US-517962.pdf"
     }
   ],
   "database_specific": {
