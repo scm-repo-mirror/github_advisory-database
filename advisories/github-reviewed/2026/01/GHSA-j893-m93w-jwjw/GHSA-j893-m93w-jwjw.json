@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j893-m93w-jwjw",
-  "modified": "2026-01-07T18:30:26Z",
+  "modified": "2026-01-08T17:18:26Z",
   "published": "2026-01-07T18:30:26Z",
   "aliases": [
     "CVE-2025-67364"
   ],
+  "summary": "fast-filesystem-mcp has a Path Traversal vulnerability",
   "details": "fast-filesystem-mcp version 3.4.0 contains a critical path traversal vulnerability in its file operation tools including fast_read_file. This vulnerability arises from improper path validation that fails to resolve symbolic links to their actual physical paths. The safePath and isPathAllowed functions use path.resolve() which does not handle symlinks, allowing attackers to bypass directory access restrictions by creating symlinks within allowed directories that point to restricted system paths. When these symlinks are accessed through valid path references, the validation checks are circumvented, enabling access to unauthorized files.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "fast-filesystem-mcp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "3.4.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,7 +45,7 @@
       "url": "https://github.com/efforthye/fast-filesystem-mcp/issues/10"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/efforthye/fast-filesystem-mcp"
     }
   ],
@@ -33,8 +54,8 @@
       "CWE-24"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-08T17:18:26Z",
     "nvd_published_at": "2026-01-07T17:16:01Z"
   }
 }
