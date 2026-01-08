@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4rf-624j-gj33",
-  "modified": "2026-01-07T21:31:55Z",
+  "modified": "2026-01-08T17:32:50Z",
   "published": "2026-01-07T18:30:26Z",
   "aliases": [
     "CVE-2025-61492"
   ],
+  "summary": "terminal-controller-mcp vulnerable to Command Injection",
   "details": "A command injection vulnerability in the execute_command function of terminal-controller-mcp 0.1.7 allows attackers to execute arbitrary commands via a crafted input.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "terminal-controller"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.1.7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,7 +49,7 @@
       "url": "https://github.com/cfdude/super-shell-mcp/issues/19"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/GongRzhe/terminal-controller-mcp"
     }
   ],
@@ -37,8 +58,8 @@
       "CWE-77"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-08T17:32:50Z",
     "nvd_published_at": "2026-01-07T18:15:51Z"
   }
 }
