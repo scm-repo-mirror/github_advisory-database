@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6jm8-x3g6-r33j",
-  "modified": "2026-01-08T21:01:54Z",
+  "modified": "2026-01-08T21:37:08Z",
   "published": "2026-01-08T21:01:54Z",
   "aliases": [
     "CVE-2026-22253"
@@ -41,6 +41,10 @@
       "url": "https://github.com/charmbracelet/soft-serve/security/advisories/GHSA-6jm8-x3g6-r33j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22253"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/charmbracelet/soft-serve/commit/000ab5164f0be68cf1ea6b6e7227f11c0e388a42"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-08T21:01:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-08T19:15:59Z"
   }
 }
