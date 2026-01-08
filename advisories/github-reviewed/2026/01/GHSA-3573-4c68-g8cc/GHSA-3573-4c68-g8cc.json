@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3573-4c68-g8cc",
-  "modified": "2026-01-07T15:10:28Z",
+  "modified": "2026-01-08T21:19:04Z",
   "published": "2026-01-06T19:22:38Z",
   "aliases": [
     "CVE-2026-22032"
@@ -60,6 +60,10 @@
       "url": "https://github.com/directus/directus/security/advisories/GHSA-3573-4c68-g8cc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22032"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/directus/directus/commit/dad9576ea9362905cc4de8028d3877caff36dc23"
     },
@@ -75,6 +79,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-06T19:22:38Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-08T15:15:45Z"
   }
 }
