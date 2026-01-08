@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q68-7vw9-jpj7",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T00:31:09Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39693"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Avoid a NULL pointer dereference\n\n[WHY]\nAlthough unlikely drm_atomic_get_new_connector_state() or\ndrm_atomic_get_old_connector_state() can return NULL.\n\n[HOW]\nCheck returns before dereference.\n\n(cherry picked from commit 1e5e8d672fec9f2ab352be121be971877bff2af9)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:46Z"
