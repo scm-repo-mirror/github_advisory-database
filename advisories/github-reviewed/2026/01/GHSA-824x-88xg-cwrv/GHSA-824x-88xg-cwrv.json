@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-824x-88xg-cwrv",
-  "modified": "2026-01-07T22:32:46Z",
+  "modified": "2026-01-08T20:07:42Z",
   "published": "2026-01-05T20:02:58Z",
   "aliases": [
     "CVE-2026-21857"
@@ -44,6 +44,10 @@
       "url": "https://github.com/redaxo/redaxo/security/advisories/GHSA-824x-88xg-cwrv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21857"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/redaxo/redaxo"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-05T20:02:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-07T23:15:50Z"
   }
 }

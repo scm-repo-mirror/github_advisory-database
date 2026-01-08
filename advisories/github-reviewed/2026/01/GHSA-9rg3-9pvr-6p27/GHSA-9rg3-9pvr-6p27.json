@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rg3-9pvr-6p27",
-  "modified": "2026-01-06T17:32:52Z",
+  "modified": "2026-01-08T20:07:38Z",
   "published": "2026-01-06T17:32:52Z",
   "aliases": [
     "CVE-2026-21851"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Project-MONAI/MONAI/security/advisories/GHSA-9rg3-9pvr-6p27"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21851"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Project-MONAI/MONAI/commit/4014c8475626f20f158921ae0cf98ed259ae4d59"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-06T17:32:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-07T23:15:50Z"
   }
 }
