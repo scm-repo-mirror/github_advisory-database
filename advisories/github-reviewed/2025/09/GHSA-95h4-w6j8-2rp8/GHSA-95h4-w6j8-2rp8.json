@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95h4-w6j8-2rp8",
-  "modified": "2025-12-12T15:41:28Z",
+  "modified": "2026-01-08T21:21:07Z",
   "published": "2025-09-02T15:31:08Z",
   "aliases": [
     "CVE-2025-9784"
@@ -85,6 +85,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0384"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0386"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-9784"
     },
     {
@@ -106,6 +114,10 @@
     {
       "type": "WEB",
       "url": "https://kb.cert.org/vuls/id/767506"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/767506"
     }
   ],
   "database_specific": {
