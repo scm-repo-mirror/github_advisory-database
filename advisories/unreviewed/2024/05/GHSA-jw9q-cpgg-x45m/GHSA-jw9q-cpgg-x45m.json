@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jw9q-cpgg-x45m",
-  "modified": "2024-05-18T00:30:42Z",
+  "modified": "2026-01-08T21:30:28Z",
   "published": "2024-05-18T00:30:42Z",
   "aliases": [
     "CVE-2024-23554"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) on Session Token vulnerability that could potentially lead to Remote Code Execution (RCE). \n",
+  "details": "Cross-Site Request Forgery (CSRF) on Session Token vulnerability that could potentially lead to Remote Code Execution (RCE).",
   "severity": [
     {
       "type": "CVSS_V3",

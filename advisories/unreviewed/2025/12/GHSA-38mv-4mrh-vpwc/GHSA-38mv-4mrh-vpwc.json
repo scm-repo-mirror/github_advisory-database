@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-38mv-4mrh-vpwc",
-  "modified": "2025-12-20T03:31:35Z",
+  "modified": "2026-01-08T21:30:28Z",
   "published": "2025-12-20T03:31:35Z",
   "aliases": [
     "CVE-2025-14300"
   ],
   "details": "The HTTPS service on Tapo C200 V3 exposes a connectAP interface without proper authentication. An unauthenticated attacker on the same local network segment can exploit this to modify the device’s Wi-Fi configuration, resulting in loss of connectivity and denial-of-service (DoS).",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p244-phj2-hfp4",
-  "modified": "2025-12-30T12:30:28Z",
+  "modified": "2026-01-08T21:30:28Z",
   "published": "2025-12-30T12:30:28Z",
   "aliases": [
     "CVE-2025-69092"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPDeveloper Essential Addons for Elementor essential-addons-for-elementor-lite allows DOM-Based XSS.This issue affects Essential Addons for Elementor: from n/a through <= 6.5.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-12-30T11:16:02Z"
