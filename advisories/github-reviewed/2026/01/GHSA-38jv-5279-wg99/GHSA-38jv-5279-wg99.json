@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-38jv-5279-wg99",
-  "modified": "2026-01-07T19:18:14Z",
+  "modified": "2026-01-08T20:05:41Z",
   "published": "2026-01-07T19:18:14Z",
   "aliases": [
     "CVE-2026-21441"
@@ -41,6 +41,10 @@
       "url": "https://github.com/urllib3/urllib3/security/advisories/GHSA-38jv-5279-wg99"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21441"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/urllib3/urllib3/commit/8864ac407bba8607950025e0979c4c69bc7abc7b"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-07T19:18:14Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-07T22:15:44Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-379q-355j-w6rj",
-  "modified": "2026-01-07T19:07:43Z",
+  "modified": "2026-01-08T20:05:37Z",
   "published": "2026-01-07T19:07:43Z",
   "aliases": [
     "CVE-2025-69264"
@@ -41,6 +41,14 @@
       "url": "https://github.com/pnpm/pnpm/security/advisories/GHSA-379q-355j-w6rj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69264"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pnpm/pnpm/commit/73cc63504d9bc360c43e4b2feb9080677f03c5b5"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/pnpm/pnpm"
     }
@@ -52,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-07T19:07:43Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-07T22:15:43Z"
   }
 }
