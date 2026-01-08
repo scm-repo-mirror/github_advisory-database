@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8pm-49m7-8863",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T15:31:25Z",
   "published": "2025-09-05T18:31:26Z",
   "aliases": [
     "CVE-2025-39689"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nftrace: Also allocate and copy hash for reading of filter files\n\nCurrently the reader of set_ftrace_filter and set_ftrace_notrace just adds\nthe pointer to the global tracer hash to its iterator. Unlike the writer\nthat allocates a copy of the hash, the reader keeps the pointer to the\nfilter hashes. This is problematic because this pointer is static across\nfunction calls that release the locks that can update the global tracer\nhashes. This can cause UAF and similar bugs.\n\nAllocate and copy the hash for reading the filter files like it is done\nfor the writers. This not only fixes UAF bugs, but also makes the code a\nbit simpler as it doesn't have to differentiate when to free the\niterator's hash between writers and readers.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:45Z"
