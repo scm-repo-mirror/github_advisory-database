@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpg2-262c-j98f",
-  "modified": "2025-11-18T18:32:47Z",
+  "modified": "2026-01-08T12:30:28Z",
   "published": "2025-07-04T15:31:10Z",
   "aliases": [
     "CVE-2025-38234"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/690e47d1403e90b7f2366f03b52ed3304194c793"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/debfbc047196df1f6bfd52f2d028c21dce67f0de"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6998-95jp-6xx2",
-  "modified": "2025-12-24T12:30:29Z",
+  "modified": "2026-01-08T12:30:29Z",
   "published": "2025-12-24T12:30:29Z",
   "aliases": [
     "CVE-2025-68357"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68357"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/51297686e00f4d5d941b0f20f12b2f12879d753c"
     },
     {
       "type": "WEB",

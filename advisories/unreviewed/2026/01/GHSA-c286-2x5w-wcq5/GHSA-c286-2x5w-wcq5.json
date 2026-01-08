@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c286-2x5w-wcq5",
+  "modified": "2026-01-08T12:30:30Z",
+  "published": "2026-01-08T12:30:30Z",
+  "aliases": [
+    "CVE-2025-67914"
+  ],
+  "details": "Path Traversal: '.../...//' vulnerability in beeteam368 VidMov vidmov allows Path Traversal.This issue affects VidMov: from n/a through <= 2.3.8.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67914"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Theme/vidmov/vulnerability/wordpress-vidmov-theme-2-3-8-path-traversal-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-35"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-08T10:15:50Z"
+  }
+}

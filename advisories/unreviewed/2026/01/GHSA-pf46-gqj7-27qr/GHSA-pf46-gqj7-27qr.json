@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pf46-gqj7-27qr",
+  "modified": "2026-01-08T12:30:31Z",
+  "published": "2026-01-08T12:30:30Z",
+  "aliases": [
+    "CVE-2025-67931"
+  ],
+  "details": "Insertion of Sensitive Information Into Sent Data vulnerability in AITpro BulletProof Security bulletproof-security allows Retrieve Embedded Sensitive Data.This issue affects BulletProof Security: from n/a through <= 6.9.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67931"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/bulletproof-security/vulnerability/wordpress-bulletproof-security-plugin-6-9-sensitive-data-exposure-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-201"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-08T10:15:52Z"
+  }
+}

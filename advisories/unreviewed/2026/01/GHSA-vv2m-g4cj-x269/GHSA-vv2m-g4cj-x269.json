@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vv2m-g4cj-x269",
+  "modified": "2026-01-08T12:30:30Z",
+  "published": "2026-01-08T12:30:30Z",
+  "aliases": [
+    "CVE-2025-67926"
+  ],
+  "details": "Missing Authorization vulnerability in Shahjahan Jewel Fluent Support fluent-support allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Fluent Support: from n/a through <= 1.10.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vdp.patchstack.com/database/Wordpress/Plugin/fluent-support/vulnerability/wordpress-fluent-support-plugin-1-10-4-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-08T10:15:51Z"
+  }
+}

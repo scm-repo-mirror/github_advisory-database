@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vr4-gx8q-4fgg",
-  "modified": "2025-11-12T12:30:28Z",
+  "modified": "2026-01-08T12:30:28Z",
   "published": "2025-11-12T12:30:28Z",
   "aliases": [
     "CVE-2025-40170"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40170"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5d1be493d1110c9e720b4c51a6e587bb2fb4ac12"
     },
     {
       "type": "WEB",

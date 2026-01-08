@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmm9-rxc2-w4wp",
-  "modified": "2025-12-12T21:31:32Z",
+  "modified": "2026-01-08T12:30:28Z",
   "published": "2025-09-23T06:30:27Z",
   "aliases": [
     "CVE-2025-39872"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/847748fc66d08a89135a74e29362a66ba4e3ab15"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9433ba79c2ec3ec7c9a711748701549339c3438c"
     }
   ],
   "database_specific": {
