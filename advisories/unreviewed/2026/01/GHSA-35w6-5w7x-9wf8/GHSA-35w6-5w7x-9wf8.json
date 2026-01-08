@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35w6-5w7x-9wf8",
-  "modified": "2026-01-08T12:30:30Z",
+  "modified": "2026-01-08T18:30:48Z",
   "published": "2026-01-08T12:30:30Z",
   "aliases": [
     "CVE-2025-67913"
   ],
   "details": "Missing Authorization vulnerability in Aruba.it Dev Aruba HiSpeed Cache aruba-hispeed-cache allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Aruba HiSpeed Cache: from n/a through < 3.0.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-08T10:15:50Z"

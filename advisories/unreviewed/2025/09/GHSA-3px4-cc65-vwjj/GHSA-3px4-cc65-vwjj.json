@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3px4-cc65-vwjj",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T18:30:27Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39709"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: venus: protect against spurious interrupts during probe\n\nMake sure the interrupt handler is initialized before the interrupt is\nregistered.\n\nIf the IRQ is registered before hfi_create(), it's possible that an\ninterrupt fires before the handler setup is complete, leading to a NULL\ndereference.\n\nThis error condition has been observed during system boot on Rb3Gen2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:48Z"

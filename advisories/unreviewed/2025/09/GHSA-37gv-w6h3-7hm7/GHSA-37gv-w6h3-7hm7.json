@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37gv-w6h3-7hm7",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T18:30:27Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39702"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: sr: Fix MAC comparison to be constant-time\n\nTo prevent timing attacks, MACs need to be compared in constant time.\nUse the appropriate helper function for this.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-203"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:47Z"

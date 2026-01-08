@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24qf-fgjm-mfxj",
-  "modified": "2026-01-08T12:30:31Z",
+  "modified": "2026-01-08T18:30:49Z",
   "published": "2026-01-08T12:30:31Z",
   "aliases": [
     "CVE-2025-68890"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in hands01 e-shops e-shops-cart2 allows DOM-Based XSS.This issue affects e-shops: from n/a through <= 1.0.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-08T10:15:54Z"

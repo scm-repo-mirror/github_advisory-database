@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fr6-pgc4-qmrv",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T18:30:27Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39697"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFS: Fix a race when updating an existing write\n\nAfter nfs_lock_and_join_requests() tests for whether the request is\nstill attached to the mapping, nothing prevents a call to\nnfs_inode_remove_request() from succeeding until we actually lock the\npage group.\nThe reason is that whoever called nfs_inode_remove_request() doesn't\nnecessarily have a lock on the page group head.\n\nSo in order to avoid races, let's take the page group lock earlier in\nnfs_lock_and_join_requests(), and hold it across the removal of the\nrequest in nfs_inode_remove_request().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:46Z"

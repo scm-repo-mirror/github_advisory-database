@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hh9x-rr36-2f2w",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T18:30:26Z",
   "published": "2025-09-05T18:31:17Z",
   "aliases": [
     "CVE-2025-38729"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: usb-audio: Validate UAC3 power domain descriptors, too\n\nUAC3 power domain descriptors need to be verified with its variable\nbLength for avoiding the unexpected OOB accesses by malicious\nfirmware, too.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:43Z"

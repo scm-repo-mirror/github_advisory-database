@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3wf-mwj4-x8c7",
-  "modified": "2026-01-08T12:30:30Z",
+  "modified": "2026-01-08T18:30:48Z",
   "published": "2026-01-08T12:30:30Z",
   "aliases": [
     "CVE-2025-22715"
   ],
   "details": "Missing Authorization vulnerability in loopus WP Attractive Donations System - Easy Stripe & Paypal donations WP_AttractiveDonationsSystem allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WP Attractive Donations System - Easy Stripe & Paypal donations: from n/a through <= 1.25.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-08T10:15:47Z"

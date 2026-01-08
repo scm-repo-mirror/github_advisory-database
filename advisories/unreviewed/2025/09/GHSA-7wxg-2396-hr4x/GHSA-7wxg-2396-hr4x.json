@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wxg-2396-hr4x",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T18:30:27Z",
   "published": "2025-09-05T18:31:26Z",
   "aliases": [
     "CVE-2025-38735"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngve: prevent ethtool ops after shutdown\n\nA crash can occur if an ethtool operation is invoked\nafter shutdown() is called.\n\nshutdown() is invoked during system shutdown to stop DMA operations\nwithout performing expensive deallocations. It is discouraged to\nunregister the netdev in this path, so the device may still be visible\nto userspace and kernel helpers.\n\nIn gve, shutdown() tears down most internal data structures. If an\nethtool operation is dispatched after shutdown(), it will dereference\nfreed or NULL pointers, leading to a kernel panic. While graceful\nshutdown normally quiesces userspace before invoking the reboot\nsyscall, forced shutdowns (as observed on GCP VMs) can still trigger\nthis path.\n\nFix by calling netif_device_detach() in shutdown().\nThis marks the device as detached so the ethtool ioctl handler\nwill skip dispatching operations to the driver.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:42Z"

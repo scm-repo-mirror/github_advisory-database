@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85gx-xr6w-3xw9",
-  "modified": "2026-01-05T12:30:30Z",
+  "modified": "2026-01-08T18:30:33Z",
   "published": "2026-01-05T12:30:30Z",
   "aliases": [
     "CVE-2025-13056"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/centreon/centreon/releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://thewatch.centreon.com/latest-security-bulletins-64/cve-2025-13056-centreon-web-medium-severity-5358"
     }
   ],
   "database_specific": {

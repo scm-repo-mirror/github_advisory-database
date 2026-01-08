@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9p2-66r4-9qhr",
-  "modified": "2026-01-07T18:30:25Z",
+  "modified": "2026-01-08T18:30:33Z",
   "published": "2026-01-06T00:30:23Z",
   "aliases": [
     "CVE-2026-0625"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10118"
+    },
+    {
+      "type": "WEB",
       "url": "https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10488"
     },
     {
@@ -34,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-306",
       "CWE-78"
     ],
     "severity": "CRITICAL",

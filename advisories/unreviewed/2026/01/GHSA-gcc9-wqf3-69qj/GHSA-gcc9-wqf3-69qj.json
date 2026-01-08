@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcc9-wqf3-69qj",
-  "modified": "2026-01-07T21:31:56Z",
+  "modified": "2026-01-08T18:30:43Z",
   "published": "2026-01-07T21:31:56Z",
   "aliases": [
     "CVE-2026-22185"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.openldap.org/show_bug.cgi?id=10421"
     },
     {
       "type": "WEB",

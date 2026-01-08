@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5w4-4xvq-qx5c",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T18:30:27Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39701"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPI: pfr_update: Fix the driver update version check\n\nThe security-version-number check should be used rather\nthan the runtime version check for driver updates.\n\nOtherwise, the firmware update would fail when the update binary had\na lower runtime version number than the current one.\n\n[ rjw: Changelog edits ]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:47Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f37x-5j3m-j64v",
-  "modified": "2026-01-08T12:30:30Z",
+  "modified": "2026-01-08T18:30:48Z",
   "published": "2026-01-08T12:30:30Z",
   "aliases": [
     "CVE-2025-67915"
   ],
   "details": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Arraytics Timetics timetics allows Authentication Abuse.This issue affects Timetics: from n/a through <= 1.0.46.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-288"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-08T10:15:50Z"

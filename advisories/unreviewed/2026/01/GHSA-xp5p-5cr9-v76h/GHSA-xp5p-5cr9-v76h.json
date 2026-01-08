@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xp5p-5cr9-v76h",
+  "modified": "2026-01-08T18:30:50Z",
+  "published": "2026-01-08T18:30:50Z",
+  "aliases": [
+    "CVE-2025-61549"
+  ],
+  "details": "Cross-Site Scripting (XSS) is present on the LoginID parameter on the /PSP/app/web/reg/reg_display.asp endpoint in edu Business Solutions Print Shop Pro WebDesk version 18.34. Unsanitized user input is reflected in HTTP responses without proper HTML encoding or escaping. This allows attackers to execute arbitrary JavaScript in the context of a victim s browser session",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61549"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/chndlrx/vulnerability-disclosures/tree/main/CVE-2025-61549"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-08T17:15:48Z"
+  }
+}

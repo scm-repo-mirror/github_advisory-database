@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8v4r-83gc-j76m",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T18:30:27Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39706"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdkfd: Destroy KFD debugfs after destroy KFD wq\n\nSince KFD proc content was moved to kernel debugfs, we can't destroy KFD\ndebugfs before kfd_process_destroy_wq. Move kfd_process_destroy_wq prior\nto kfd_debugfs_fini to fix a kernel NULL pointer problem. It happens\nwhen /sys/kernel/debug/kfd was already destroyed in kfd_debugfs_fini but\nkfd_process_destroy_wq calls kfd_debugfs_remove_process. This line\n    debugfs_remove_recursive(entry->proc_dentry);\ntries to remove /sys/kernel/debug/kfd/proc/<pid> while\n/sys/kernel/debug/kfd is already gone. It hangs the kernel by kernel\nNULL pointer.\n\n(cherry picked from commit 0333052d90683d88531558dcfdbf2525cc37c233)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:47Z"

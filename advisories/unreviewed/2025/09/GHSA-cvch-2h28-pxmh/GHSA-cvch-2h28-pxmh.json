@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvch-2h28-pxmh",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-08T18:30:26Z",
   "published": "2025-09-05T18:31:17Z",
   "aliases": [
     "CVE-2025-38725"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: asix_devices: add phy_mask for ax88772 mdio bus\n\nWithout setting phy_mask for ax88772 mdio bus, current driver may create\nat most 32 mdio phy devices with phy address range from 0x00 ~ 0x1f.\nDLink DUB-E100 H/W Ver B1 is such a device. However, only one main phy\ndevice will bind to net phy driver. This is creating issue during system\nsuspend/resume since phy_polling_mode() in phy_state_machine() will\ndirectly deference member of phydev->drv for non-main phy devices. Then\nNULL pointer dereference issue will occur. Due to only external phy or\ninternal phy is necessary, add phy_mask for ax88772 mdio bus to workarnoud\nthe issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:42Z"
