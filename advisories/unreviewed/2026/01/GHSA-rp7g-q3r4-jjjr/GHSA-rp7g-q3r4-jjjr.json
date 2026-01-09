@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp7g-q3r4-jjjr",
-  "modified": "2026-01-09T00:30:28Z",
+  "modified": "2026-01-09T12:32:23Z",
   "published": "2026-01-09T00:30:28Z",
   "aliases": [
     "CVE-2026-0733"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://note-hxlab.wetolink.com/share/Tma34bofeB2L"
+    },
+    {
+      "type": "WEB",
       "url": "https://note-hxlab.wetolink.com/share/cU33RBoPPAF0"
     },
     {
@@ -42,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.733328"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.733331"
     }
   ],
   "database_specific": {
