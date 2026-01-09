@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7c3f-cg9x-f3gr",
+  "modified": "2026-01-09T19:55:24Z",
+  "published": "2025-09-16T18:31:27Z",
+  "aliases": [
+    "CVE-2025-10492"
+  ],
+  "summary": "JasperReports has a Java deserialisation vulnerability",
+  "details": "A Java deserialisation vulnerability has been discovered in the Jaspersoft Library. Improper handling of externally supplied data may allow attackers to execute arbitrary code remotely on systems that use the affected library.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "net.sf.jasperreports:jasperreports"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "7.0.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10492"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Jaspersoft/jasperreports/issues/542"
+    },
+    {
+      "type": "WEB",
+      "url": "https://community.jaspersoft.com/advisories/jaspersoft-security-advisory-september-16-2025-jaspersoft-library-cve-2025-10492-r6"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/Jaspersoft/jasperreports"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-09T19:55:24Z",
+    "nvd_published_at": "2025-09-16T17:15:40Z"
+  }
+}
