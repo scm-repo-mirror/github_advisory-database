@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4gp-qv48-5jc9",
-  "modified": "2022-07-28T00:00:41Z",
+  "modified": "2026-01-09T06:31:04Z",
   "published": "2022-07-21T00:00:27Z",
   "aliases": [
     "CVE-2022-33317"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/vu/JVNVU96480474/index.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-22-202-04"
     },
     {
       "type": "WEB",
