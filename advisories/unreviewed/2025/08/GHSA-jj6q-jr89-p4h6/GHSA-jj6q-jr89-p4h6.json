@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj6q-jr89-p4h6",
-  "modified": "2025-11-03T18:31:36Z",
+  "modified": "2026-01-09T00:30:27Z",
   "published": "2025-08-22T18:31:23Z",
   "aliases": [
     "CVE-2025-38668"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nregulator: core: fix NULL dereference on unbind due to stale coupling data\n\nFailing to reset coupling_desc.n_coupled after freeing coupled_rdevs can\nlead to NULL pointer dereference when regulators are accessed post-unbind.\n\nThis can happen during runtime PM or other regulator operations that rely\non coupling metadata.\n\nFor example, on ridesx4, unbinding the 'reg-dummy' platform device triggers\na panic in regulator_lock_recursive() due to stale coupling state.\n\nEnsure n_coupled is set to 0 to prevent access to invalid pointers.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-22T16:15:42Z"

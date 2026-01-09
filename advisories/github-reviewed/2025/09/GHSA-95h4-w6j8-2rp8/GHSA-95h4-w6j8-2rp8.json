@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95h4-w6j8-2rp8",
-  "modified": "2026-01-08T21:21:07Z",
+  "modified": "2026-01-09T00:30:27Z",
   "published": "2025-09-02T15:31:08Z",
   "aliases": [
     "CVE-2025-9784"
@@ -61,6 +61,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/pull/1805"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/pull/1804"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/undertow-io/undertow/pull/1778"
     },
     {
@@ -73,43 +81,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/undertow-io/undertow/pull/1804"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/undertow-io/undertow/pull/1805"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:23143"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:0384"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:0386"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/security/cve/CVE-2025-9784"
-    },
-    {
-      "type": "WEB",
-      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2392306"
-    },
-    {
-      "type": "PACKAGE",
-      "url": "https://github.com/undertow-io/undertow"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/undertow-io/undertow/releases/tag/2.2.38.Final"
-    },
-    {
-      "type": "WEB",
-      "url": "https://issues.redhat.com/browse/UNDERTOW-2598"
+      "url": "https://www.kb.cert.org/vuls/id/767506"
     },
     {
       "type": "WEB",
@@ -117,7 +89,39 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.kb.cert.org/vuls/id/767506"
+      "url": "https://issues.redhat.com/browse/UNDERTOW-2598"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/releases/tag/2.2.38.Final"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/undertow-io/undertow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2392306"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-9784"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0386"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0384"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0383"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:23143"
     }
   ],
   "database_specific": {

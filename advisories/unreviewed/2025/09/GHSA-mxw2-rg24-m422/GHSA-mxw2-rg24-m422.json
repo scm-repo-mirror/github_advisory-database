@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxw2-rg24-m422",
-  "modified": "2025-11-03T18:31:37Z",
+  "modified": "2026-01-09T00:30:27Z",
   "published": "2025-09-05T18:31:15Z",
   "aliases": [
     "CVE-2025-38680"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: uvcvideo: Fix 1-byte out-of-bounds read in uvc_parse_format()\n\nThe buffer length check before calling uvc_parse_format() only ensured\nthat the buffer has at least 3 bytes (buflen > 2), buf the function\naccesses buffer[3], requiring at least 4 bytes.\n\nThis can lead to an out-of-bounds read if the buffer has exactly 3 bytes.\n\nFix it by checking that the buffer has at least 4 bytes in\nuvc_parse_format().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:35Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmc7-frwx-fp3p",
-  "modified": "2025-11-03T18:31:36Z",
+  "modified": "2026-01-09T00:30:27Z",
   "published": "2025-08-22T18:31:23Z",
   "aliases": [
     "CVE-2025-38671"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni2c: qup: jump out of the loop in case of timeout\n\nOriginal logic only sets the return value but doesn't jump out of the\nloop if the bus is kept active by a client. This is not expected. A\nmalicious or buggy i2c client can hang the kernel in this case and\nshould be avoided. This is observed during a long time test with a\nPCA953x GPIO extender.\n\nFix it by changing the logic to not only sets the return value, but also\njumps out of the loop and return to the caller with -ETIMEDOUT.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-22T16:15:42Z"
