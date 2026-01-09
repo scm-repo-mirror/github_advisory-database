@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2q77-jcrx-vvrf",
-  "modified": "2025-11-03T18:31:37Z",
+  "modified": "2026-01-09T18:31:31Z",
   "published": "2025-09-05T18:31:16Z",
   "aliases": [
     "CVE-2025-38695"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: lpfc: Check for hdwq null ptr when cleaning up lpfc_vport structure\n\nIf a call to lpfc_sli4_read_rev() from lpfc_sli4_hba_setup() fails, the\nresultant cleanup routine lpfc_sli4_vport_delete_fcp_xri_aborted() may\noccur before sli4_hba.hdwqs are allocated.  This may result in a null\npointer dereference when attempting to take the abts_io_buf_list_lock for\nthe first hardware queue.  Fix by adding a null ptr check on\nphba->sli4_hba.hdwq and early return because this situation means there\nmust have been an error during port initialization.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:37Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5pp-p43c-5wxv",
-  "modified": "2025-11-03T18:31:38Z",
+  "modified": "2026-01-09T18:31:31Z",
   "published": "2025-09-05T18:31:16Z",
   "aliases": [
     "CVE-2025-38707"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Add sanity check for file name\n\nThe length of the file name should be smaller than the directory entry size.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:39Z"

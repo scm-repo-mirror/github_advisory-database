@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qgg6-hj2r-3x43",
+  "modified": "2026-01-09T18:31:36Z",
+  "published": "2026-01-09T18:31:36Z",
+  "aliases": [
+    "CVE-2025-56225"
+  ],
+  "details": "fluidsynth-2.4.6 and earlier versions is vulnerable to Null pointer dereference in fluid_synth_monopoly.c, that can be triggered when loading an invalid midi file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56225"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FluidSynth/fluidsynth/issues/1602"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FluidSynth/fluidsynth/pull/1607"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-09T16:16:06Z"
+  }
+}

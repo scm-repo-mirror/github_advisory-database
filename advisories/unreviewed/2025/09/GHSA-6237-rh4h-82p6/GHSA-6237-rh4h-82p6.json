@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6237-rh4h-82p6",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-09T18:31:31Z",
   "published": "2025-09-05T18:31:17Z",
   "aliases": [
     "CVE-2025-38721"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ctnetlink: fix refcount leak on table dump\n\nThere is a reference count leak in ctnetlink_dump_table():\n      if (res < 0) {\n                nf_conntrack_get(&ct->ct_general); // HERE\n                cb->args[1] = (unsigned long)ct;\n                ...\n\nWhile its very unlikely, its possible that ct == last.\nIf this happens, then the refcount of ct was already incremented.\nThis 2nd increment is never undone.\n\nThis prevents the conntrack object from being released, which in turn\nkeeps prevents cnet->count from dropping back to 0.\n\nThis will then block the netns dismantle (or conntrack rmmod) as\nnf_conntrack_cleanup_net_list() will wait forever.\n\nThis can be reproduced by running conntrack_resize.sh selftest in a loop.\nIt takes ~20 minutes for me on a preemptible kernel on average before\nI see a runaway kworker spinning in nf_conntrack_cleanup_net_list.\n\nOne fix would to change this to:\n        if (res < 0) {\n\t\tif (ct != last)\n\t                nf_conntrack_get(&ct->ct_general);\n\nBut this reference counting isn't needed in the first place.\nWe can just store a cookie value instead.\n\nA followup patch will do the same for ctnetlink_exp_dump_table,\nit looks to me as if this has the same problem and like\nctnetlink_dump_table, we only need a 'skip hint', not the actual\nobject so we can apply the same cookie strategy there as well.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -61,7 +66,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:41Z"

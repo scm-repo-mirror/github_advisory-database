@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3j4-c39c-w5r2",
-  "modified": "2025-11-03T18:31:38Z",
+  "modified": "2026-01-09T18:31:31Z",
   "published": "2025-09-05T18:31:16Z",
   "aliases": [
     "CVE-2025-38711"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb/server: avoid deadlock when linking with ReplaceIfExists\n\nIf smb2_create_link() is called with ReplaceIfExists set and the name\ndoes exist then a deadlock will happen.\n\nksmbd_vfs_kern_path_locked() will return with success and the parent\ndirectory will be locked.  ksmbd_vfs_remove_file() will then remove the\nfile.  ksmbd_vfs_link() will then be called while the parent is still\nlocked.  It will try to lock the same parent and will deadlock.\n\nThis patch moves the ksmbd_vfs_kern_path_unlock() call to *before*\nksmbd_vfs_link() and then simplifies the code, removing the file_present\nflag variable.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:40Z"

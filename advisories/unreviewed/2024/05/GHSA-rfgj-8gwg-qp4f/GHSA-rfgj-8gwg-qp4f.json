@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfgj-8gwg-qp4f",
-  "modified": "2024-05-08T12:30:33Z",
+  "modified": "2026-01-09T18:31:30Z",
   "published": "2024-05-08T12:30:33Z",
   "aliases": [
     "CVE-2022-40218"
   ],
-  "details": "Missing Authorization vulnerability in ThemeHunk Advance WordPress Search Plugin.This issue affects Advance WordPress Search Plugin: from n/a through 1.1.4.\n\n",
+  "details": "Missing Authorization vulnerability in ThemeHunk Advance WordPress Search Plugin.This issue affects Advance WordPress Search Plugin: from n/a through 1.1.4.",
   "severity": [
     {
       "type": "CVSS_V3",

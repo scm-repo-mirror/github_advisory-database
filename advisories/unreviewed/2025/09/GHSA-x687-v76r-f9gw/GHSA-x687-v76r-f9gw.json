@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x687-v76r-f9gw",
-  "modified": "2025-11-03T18:31:38Z",
+  "modified": "2026-01-09T18:31:31Z",
   "published": "2025-09-05T18:31:16Z",
   "aliases": [
     "CVE-2025-38701"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: do not BUG when INLINE_DATA_FL lacks system.data xattr\n\nA syzbot fuzzed image triggered a BUG_ON in ext4_update_inline_data()\nwhen an inode had the INLINE_DATA_FL flag set but was missing the\nsystem.data extended attribute.\n\nSince this can happen due to a maiciouly fuzzed file system, we\nshouldn't BUG, but rather, report it as a corrupted file system.\n\nAdd similar replacements of BUG_ON with EXT4_ERROR_INODE() ii\next4_create_inline_data() and ext4_inline_data_truncate().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-617"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:38Z"
