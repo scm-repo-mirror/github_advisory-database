@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96xf-fhqr-wqvv",
-  "modified": "2025-11-03T18:31:33Z",
+  "modified": "2026-01-09T15:30:22Z",
   "published": "2025-08-19T18:31:33Z",
   "aliases": [
     "CVE-2025-38576"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npowerpc/eeh: Make EEH driver device hotplug safe\n\nMultiple race conditions existed between the PCIe hotplug driver and the\nEEH driver, leading to a variety of kernel oopses of the same general\nnature:\n\n<pcie device unplug>\n<eeh driver trigger>\n<hotplug removal trigger>\n<pcie tree reconfiguration>\n<eeh recovery next step>\n<oops in EEH driver bus iteration loop>\n\nA second class of oops is also seen when the underlying bus disappears\nduring device recovery.\n\nRefactor the EEH module to be PCI rescan and remove safe.  Also clean\nup a few minor formatting / readability issues.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-19T17:15:34Z"

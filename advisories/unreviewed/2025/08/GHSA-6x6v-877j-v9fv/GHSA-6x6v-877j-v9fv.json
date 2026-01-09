@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x6v-877j-v9fv",
-  "modified": "2025-11-03T18:31:33Z",
+  "modified": "2026-01-09T15:30:22Z",
   "published": "2025-08-19T18:31:33Z",
   "aliases": [
     "CVE-2025-38579"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: fix KMSAN uninit-value in extent_info usage\n\nKMSAN reported a use of uninitialized value in `__is_extent_mergeable()`\n and `__is_back_mergeable()` via the read extent tree path.\n\nThe root cause is that `get_read_extent_info()` only initializes three\nfields (`fofs`, `blk`, `len`) of `struct extent_info`, leaving the\nremaining fields uninitialized. This leads to undefined behavior\nwhen those fields are accessed later, especially during\nextent merging.\n\nFix it by zero-initializing the `extent_info` struct before population.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-19T17:15:35Z"
