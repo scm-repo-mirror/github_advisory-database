@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2v8h-5826-r95p",
+  "modified": "2026-01-09T21:31:35Z",
+  "published": "2026-01-09T21:31:35Z",
+  "aliases": [
+    "CVE-2025-66715"
+  ],
+  "details": "A DLL hijacking vulnerability in Axtion ODISSAAS ODIS v1.8.4 allows attackers to execute arbitrary code via a crafted DLL file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66715"
+    },
+    {
+      "type": "WEB",
+      "url": "https://b1tsec.gitbook.io/offensive-repo/cve-repository/cve-2025-66715"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.axtion.nl/odis"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-09T20:15:51Z"
+  }
+}

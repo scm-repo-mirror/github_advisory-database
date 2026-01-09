@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrpg-g4vf-p4hw",
-  "modified": "2025-11-03T18:31:40Z",
+  "modified": "2026-01-09T21:31:32Z",
   "published": "2025-09-11T18:35:51Z",
   "aliases": [
     "CVE-2025-39757"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: usb-audio: Validate UAC3 cluster segment descriptors\n\nUAC3 class segment descriptors need to be verified whether their sizes\nmatch with the declared lengths and whether they fit with the\nallocated buffer sizes, too.  Otherwise malicious firmware may lead to\nthe unexpected OOB accesses.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:39Z"

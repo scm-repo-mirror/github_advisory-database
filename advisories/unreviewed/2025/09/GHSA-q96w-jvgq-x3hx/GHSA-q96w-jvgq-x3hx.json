@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q96w-jvgq-x3hx",
-  "modified": "2025-11-03T18:31:40Z",
+  "modified": "2026-01-09T21:31:32Z",
   "published": "2025-09-11T18:35:51Z",
   "aliases": [
     "CVE-2025-39743"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njfs: truncate good inode pages when hard link is 0\n\nThe fileset value of the inode copy from the disk by the reproducer is\nAGGR_RESERVED_I. When executing evict, its hard link number is 0, so its\ninode pages are not truncated. This causes the bugon to be triggered when\nexecuting clear_inode() because nrpages is greater than 0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -61,7 +66,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:37Z"

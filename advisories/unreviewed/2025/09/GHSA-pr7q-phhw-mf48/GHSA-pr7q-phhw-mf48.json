@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr7q-phhw-mf48",
-  "modified": "2025-11-03T18:31:40Z",
+  "modified": "2026-01-09T21:31:32Z",
   "published": "2025-09-11T18:35:51Z",
   "aliases": [
     "CVE-2025-39752"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nARM: rockchip: fix kernel hang during smp initialization\n\nIn order to bring up secondary CPUs main CPU write trampoline\ncode to SRAM. The trampoline code is written while secondary\nCPUs are powered on (at least that true for RK3188 CPU).\nSometimes that leads to kernel hang. Probably because secondary\nCPU execute trampoline code while kernel doesn't expect.\n\nThe patch moves SRAM initialization step to the point where all\nsecondary CPUs are powered down.\n\nThat fixes rarely hangs on RK3188:\n[    0.091568] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000\n[    0.091996] rockchip_smp_prepare_cpus: ncores 4",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -61,7 +66,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:38Z"

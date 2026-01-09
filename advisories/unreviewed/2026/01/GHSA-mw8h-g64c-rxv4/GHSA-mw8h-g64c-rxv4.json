@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mw8h-g64c-rxv4",
+  "modified": "2026-01-09T21:31:35Z",
+  "published": "2026-01-09T21:31:35Z",
+  "aliases": [
+    "CVE-2025-60538"
+  ],
+  "details": "A lack of rate limiting in the login page of shiori v1.7.4 and below allows attackers to bypass authentication via a brute force attack.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60538"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/go-shiori/shiori/issues/1138"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/go-shiori/shiori"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-09T21:16:13Z"
+  }
+}
