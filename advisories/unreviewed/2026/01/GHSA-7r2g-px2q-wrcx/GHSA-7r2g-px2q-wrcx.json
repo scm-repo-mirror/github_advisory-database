@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7r2g-px2q-wrcx",
-  "modified": "2026-01-09T21:31:35Z",
+  "modified": "2026-01-10T00:30:29Z",
   "published": "2026-01-09T21:31:35Z",
   "aliases": [
     "CVE-2025-67810"
   ],
   "details": "In Area9 Rhapsode 1.47.3, an authenticated attacker can exploit the operation, url, and filename parameters via POST request to read arbitrary files from the server filesystem. Fixed in 1.47.4 (#7254) and further versions.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-09T20:15:51Z"
