@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3pp-fgmq-x8x8",
-  "modified": "2025-12-24T12:30:29Z",
+  "modified": "2026-01-11T18:30:28Z",
   "published": "2025-12-24T12:30:29Z",
   "aliases": [
     "CVE-2025-68354"
@@ -16,6 +16,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/09811a83b214cc15521e0d818e43ae9043e9a28d"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0cc15a10c3b4ab14cd71b779fd5c9ca0cb2bc30d"
     },
     {
@@ -25,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/64099b5c0aeb70bc7cd5556eb7f59c5b4a5010bf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a63fbc07d1b34a9821ea3b31ff4e6456f9d0aa61"
     },
     {
       "type": "WEB",

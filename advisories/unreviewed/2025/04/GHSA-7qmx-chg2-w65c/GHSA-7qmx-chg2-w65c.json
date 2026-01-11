@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qmx-chg2-w65c",
-  "modified": "2025-10-30T21:30:40Z",
+  "modified": "2026-01-11T18:30:27Z",
   "published": "2025-04-01T18:30:53Z",
   "aliases": [
     "CVE-2025-21946"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d6e13e19063db24f94b690159d0633aaf72a0f03"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f4ee19528664777af8b842f8f001be98345aa973"
     }
   ],
   "database_specific": {

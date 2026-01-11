@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x75j-gc7f-rqjc",
-  "modified": "2024-11-07T21:31:38Z",
+  "modified": "2026-01-11T18:30:26Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49968"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49968"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/11bd1c279bac701ba91119875796ffff3b98250e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/52c4538a92da6f3242d4140c03ddc5ee71b39ba8"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghqp-926m-7jrx",
-  "modified": "2025-01-06T21:30:50Z",
+  "modified": "2026-01-11T18:30:26Z",
   "published": "2024-12-27T15:31:55Z",
   "aliases": [
     "CVE-2024-56646"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/01f95357e47219a9c4b29e177b717edbfab721b4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/90f7d995b861fd77ae4885cc58e26a6a4e5ccdb9"
     },
     {
       "type": "WEB",

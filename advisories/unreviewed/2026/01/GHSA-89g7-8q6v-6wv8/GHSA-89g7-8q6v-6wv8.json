@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89g7-8q6v-6wv8",
-  "modified": "2026-01-05T12:30:29Z",
+  "modified": "2026-01-11T18:30:29Z",
   "published": "2026-01-05T12:30:29Z",
   "aliases": [
     "CVE-2025-68757"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68757"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1026d1b0bd55e1be7ba0f9e9b1c9f6e02448f25a"
     },
     {
       "type": "WEB",
@@ -29,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/78b4d6463e9e69e5103f98b367f8984ad12cdc6f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9dc3c78d21e16f5af1a9c3d11b4bd5276f891fe0"
     }
   ],
   "database_specific": {

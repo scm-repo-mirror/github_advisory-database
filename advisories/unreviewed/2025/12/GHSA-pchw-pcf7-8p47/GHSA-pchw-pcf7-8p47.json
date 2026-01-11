@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pchw-pcf7-8p47",
-  "modified": "2025-12-24T12:30:29Z",
+  "modified": "2026-01-11T18:30:28Z",
   "published": "2025-12-24T12:30:29Z",
   "aliases": [
     "CVE-2025-68349"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68349"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/104080582ae0aa6dce6c6d75ff89062efe84673b"
     },
     {
       "type": "WEB",
@@ -29,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e0f8058f2cb56de0b7572f51cd563ca5debce746"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f718f9ea6094843b8c059b073af49ad61e9f49bb"
     }
   ],
   "database_specific": {

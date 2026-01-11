@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg49-cm53-vpfx",
-  "modified": "2026-01-05T12:30:28Z",
+  "modified": "2026-01-11T18:30:29Z",
   "published": "2026-01-05T12:30:28Z",
   "aliases": [
     "CVE-2025-68753"
@@ -24,11 +24,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6d4f17782ce4facf3197e79707df411ee3d7b30a"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8f9e51cf2a2a43d0cd72d3dc0b5ccea3f639c187"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/df692cf2b601a54b34edfdb9e683d67483aa8ce1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ea2c921d9de6e32ca50cb817b9d57bb881be70de"
     }
   ],
   "database_specific": {

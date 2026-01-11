@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvhg-r77c-vccf",
-  "modified": "2025-12-24T15:30:43Z",
+  "modified": "2026-01-11T18:30:29Z",
   "published": "2025-12-24T15:30:43Z",
   "aliases": [
     "CVE-2025-68742"
@@ -29,6 +29,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7dc211c1159d991db609bdf4b0fb9033c04adcbc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/93d1964773ff513c9bd530f7686d3e48b786fa6b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bf2c990b012100610c0f1ec5c4ea434da2d080c2"
     }
   ],
   "database_specific": {

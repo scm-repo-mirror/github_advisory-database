@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxr5-v2qf-8828",
-  "modified": "2025-03-07T15:31:42Z",
+  "modified": "2026-01-11T18:30:27Z",
   "published": "2025-02-27T03:33:59Z",
   "aliases": [
     "CVE-2024-57982"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a16871c7832ea6435abb6e0b58289ae7dcb7e4fc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b86dc510308d7a8955f3f47a4fea4bef887653e4"
     },
     {
       "type": "WEB",

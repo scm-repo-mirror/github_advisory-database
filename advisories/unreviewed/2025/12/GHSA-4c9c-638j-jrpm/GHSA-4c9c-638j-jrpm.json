@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c9c-638j-jrpm",
-  "modified": "2025-12-24T12:30:30Z",
+  "modified": "2026-01-11T18:30:28Z",
   "published": "2025-12-24T12:30:30Z",
   "aliases": [
     "CVE-2025-68732"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4aeaece518fa4436af93d1d8b786200d9656ff4b"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4e6e07ce0197aecfb6c4a62862acc93b3efedeb7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6245cce711e2cdb2cc75c0bb8632952e36f8c972"
     },
     {
       "type": "WEB",

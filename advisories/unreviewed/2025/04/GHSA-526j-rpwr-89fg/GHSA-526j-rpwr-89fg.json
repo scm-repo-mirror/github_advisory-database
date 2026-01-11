@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-526j-rpwr-89fg",
-  "modified": "2025-10-31T21:30:56Z",
+  "modified": "2026-01-11T18:30:27Z",
   "published": "2025-04-16T15:34:44Z",
   "aliases": [
     "CVE-2025-22090"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8d6373f83f367dbed316ddeb178130a3a64b5b67"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a6623712ba8449876f0b3de9462831523fb851e4"
     },
     {
       "type": "WEB",

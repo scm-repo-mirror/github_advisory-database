@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55hf-cr49-h3r7",
-  "modified": "2026-01-05T12:30:29Z",
+  "modified": "2026-01-11T18:30:29Z",
   "published": "2026-01-05T12:30:29Z",
   "aliases": [
     "CVE-2025-68759"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a4fb7cca9837378878e6c94d9e7af019c8fdfcdb"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a813a74570212cb5f3a7d3b05c0cb0cd00bace1d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bf8513dfa31ea015c9cf415796dca2113d293840"
     },
     {
       "type": "WEB",

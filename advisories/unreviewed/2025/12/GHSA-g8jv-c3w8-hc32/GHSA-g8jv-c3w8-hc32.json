@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8jv-c3w8-hc32",
-  "modified": "2025-12-22T18:30:25Z",
+  "modified": "2026-01-11T18:30:28Z",
   "published": "2025-12-22T18:30:25Z",
   "aliases": [
     "CVE-2025-68332"
@@ -24,11 +24,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/72b3627b0d3b819de49b29c2c8cb1c64d54536b9"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/888f7e2847bcb9df8257e656e1e837828942c53b"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9fd8c8ad35c8d2390ce5ca2eb523c044bebdc072"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e8110402b0c24d822b0b933d87d50870d59667ef"
     }
   ],
   "database_specific": {
