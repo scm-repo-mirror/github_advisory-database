@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cvc-h2w8-phrp",
-  "modified": "2026-01-09T18:56:21Z",
+  "modified": "2026-01-11T14:56:00Z",
   "published": "2026-01-09T18:56:21Z",
   "aliases": [
     "CVE-2026-22611"
@@ -41,6 +41,10 @@
       "url": "https://github.com/aws/aws-sdk-net/security/advisories/GHSA-9cvc-h2w8-phrp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22611"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/aws/aws-sdk-net"
     }
@@ -52,6 +56,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-09T18:56:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-10T06:15:51Z"
   }
 }

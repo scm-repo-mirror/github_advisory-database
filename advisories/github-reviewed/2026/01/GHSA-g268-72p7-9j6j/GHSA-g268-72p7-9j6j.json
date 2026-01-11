@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g268-72p7-9j6j",
-  "modified": "2026-01-08T21:37:21Z",
+  "modified": "2026-01-11T14:57:07Z",
   "published": "2026-01-08T21:27:03Z",
   "aliases": [
     "CVE-2026-22588"
@@ -116,6 +116,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/spree/spree/commit/d3f961c442e0015661535cbd6eb22475f76d2dc7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/spree_api/CVE-2026-22588.yml"
     },
     {
       "type": "PACKAGE",
