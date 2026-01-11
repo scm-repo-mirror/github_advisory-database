@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5cw-625j-3rxh",
-  "modified": "2026-01-08T20:57:09Z",
+  "modified": "2026-01-11T14:54:18Z",
   "published": "2026-01-08T20:57:09Z",
   "aliases": [
     "CVE-2026-22030"
@@ -66,6 +66,10 @@
       "url": "https://github.com/remix-run/react-router/security/advisories/GHSA-h5cw-625j-3rxh"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22030"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/remix-run/react-router"
     }
@@ -78,6 +82,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-08T20:57:09Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-10T03:15:49Z"
   }
 }

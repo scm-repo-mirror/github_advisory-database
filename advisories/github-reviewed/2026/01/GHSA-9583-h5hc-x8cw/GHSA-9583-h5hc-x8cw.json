@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9583-h5hc-x8cw",
-  "modified": "2026-01-08T20:45:07Z",
+  "modified": "2026-01-11T14:53:54Z",
   "published": "2026-01-08T20:45:07Z",
   "aliases": [
     "CVE-2025-61686"
@@ -88,6 +88,10 @@
       "url": "https://github.com/remix-run/react-router/security/advisories/GHSA-9583-h5hc-x8cw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61686"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/remix-run/react-router"
     }
@@ -99,6 +103,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-08T20:45:07Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-10T03:15:48Z"
   }
 }

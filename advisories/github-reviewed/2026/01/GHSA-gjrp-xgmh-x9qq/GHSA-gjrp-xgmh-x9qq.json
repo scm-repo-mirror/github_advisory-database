@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjrp-xgmh-x9qq",
-  "modified": "2026-01-08T21:36:37Z",
+  "modified": "2026-01-11T14:54:35Z",
   "published": "2026-01-08T21:36:37Z",
   "aliases": [
     "CVE-2026-22596"
@@ -66,6 +66,10 @@
       "url": "https://github.com/TryGhost/Ghost/security/advisories/GHSA-gjrp-xgmh-x9qq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22596"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/TryGhost/Ghost/commit/cda236e455a7a30e828b6cba3c430e5796ded955"
     },
@@ -85,6 +89,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-08T21:36:37Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-10T03:15:50Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fp7-g646-ccf4",
-  "modified": "2026-01-08T21:29:47Z",
+  "modified": "2026-01-11T14:54:23Z",
   "published": "2026-01-08T21:29:47Z",
   "aliases": [
     "CVE-2026-22594"
@@ -66,6 +66,10 @@
       "url": "https://github.com/TryGhost/Ghost/security/advisories/GHSA-5fp7-g646-ccf4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22594"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/TryGhost/Ghost/commit/b59f707f670e6f175b669977724ccf16c718430b"
     },
@@ -85,6 +89,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-08T21:29:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-10T03:15:50Z"
   }
 }
