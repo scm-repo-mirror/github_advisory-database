@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prwh-7838-xf82",
-  "modified": "2025-06-12T21:52:50Z",
+  "modified": "2026-01-12T14:43:59Z",
   "published": "2025-06-12T21:52:50Z",
   "aliases": [
     "CVE-2024-56158"
@@ -81,6 +81,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56158"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/xwiki/xwiki-platform/commit/ce855aae38eefd8ee3fc86353d51ac03d6cb7f8d"
     },
     {
       "type": "PACKAGE",
