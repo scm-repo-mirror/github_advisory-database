@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p25m-jpj4-qcrr",
-  "modified": "2024-04-22T18:55:19Z",
+  "modified": "2026-01-12T19:17:00Z",
   "published": "2023-09-13T18:31:26Z",
   "aliases": [
     "CVE-2023-4785"
