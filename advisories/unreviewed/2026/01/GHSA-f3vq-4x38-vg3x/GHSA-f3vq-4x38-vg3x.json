@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3vq-4x38-vg3x",
-  "modified": "2026-01-10T00:30:30Z",
+  "modified": "2026-01-12T18:30:30Z",
   "published": "2026-01-10T00:30:30Z",
   "aliases": [
     "CVE-2025-46297"
   ],
   "details": "A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Tahoe 26.2. An app may be able to access protected files within an App Sandbox container.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-09T22:15:59Z"

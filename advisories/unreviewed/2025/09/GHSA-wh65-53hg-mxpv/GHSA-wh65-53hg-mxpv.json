@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh65-53hg-mxpv",
-  "modified": "2025-11-03T18:31:40Z",
+  "modified": "2026-01-12T18:30:19Z",
   "published": "2025-09-07T18:31:27Z",
   "aliases": [
     "CVE-2025-39734"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRevert \"fs/ntfs3: Replace inode_trylock with inode_lock\"\n\nThis reverts commit 69505fe98f198ee813898cbcaf6770949636430b.\n\nInitially, conditional lock acquisition was removed to fix an xfstest bug\nthat was observed during internal testing. The deadlock reported by syzbot\nis resolved by reintroducing conditional acquisition. The xfstest bug no\nlonger occurs on kernel version 6.16-rc1 during internal testing. I\nassume that changes in other modules may have contributed to this.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-07T16:15:50Z"

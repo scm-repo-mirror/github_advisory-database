@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxg2-gp53-m88h",
-  "modified": "2026-01-09T18:31:36Z",
+  "modified": "2026-01-12T18:30:29Z",
   "published": "2026-01-09T18:31:36Z",
   "aliases": [
     "CVE-2025-66744"
   ],
   "details": "In Yonyou YonBIP v3 and before, the LoginWithV8 interface in the series data application service system is vulnerable to path traversal, allowing unauthorized access to sensitive information within the system",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-09T17:15:52Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6phw-p8vc-q8gp",
-  "modified": "2026-01-10T12:30:16Z",
+  "modified": "2026-01-12T18:30:30Z",
   "published": "2026-01-10T12:30:16Z",
   "aliases": [
     "CVE-2025-53477"
   ],
   "details": "NULL Pointer Dereference vulnerability in Apache Nimble.\n\nMissing validation of HCI connection complete or HCI command TX buffer could lead to NULL pointer dereference.\nThis issue requires disabled asserts and broken or bogus Bluetooth controller and thus severity is considered low.\n\nThis issue affects Apache NimBLE: through 1.8.0.\n\nUsers are recommended to upgrade to version 1.9.0, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -35,7 +40,7 @@
     "cwe_ids": [
       "CWE-476"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-10T10:15:50Z"

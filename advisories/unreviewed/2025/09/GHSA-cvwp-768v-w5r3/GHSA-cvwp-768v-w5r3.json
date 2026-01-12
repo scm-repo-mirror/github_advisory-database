@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvwp-768v-w5r3",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-12T18:30:19Z",
   "published": "2025-09-05T18:31:27Z",
   "aliases": [
     "CVE-2025-39710"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: venus: Add a check for packet size after reading from shared memory\n\nAdd a check to ensure that the packet size does not exceed the number of\navailable words after reading the packet header from shared memory. This\nensures that the size provided by the firmware is safe to process and\nprevent potential out-of-bounds memory access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-05T18:15:48Z"

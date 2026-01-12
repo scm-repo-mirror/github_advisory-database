@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2cj-whwv-wjfw",
-  "modified": "2026-01-10T00:30:30Z",
+  "modified": "2026-01-12T18:30:30Z",
   "published": "2026-01-10T00:30:30Z",
   "aliases": [
     "CVE-2025-46298"
   ],
   "details": "The issue was addressed with improved memory handling. This issue is fixed in tvOS 26.2, Safari 26.2, watchOS 26.2, visionOS 26.2, iOS 26.2 and iPadOS 26.2, macOS Tahoe 26.2. Processing maliciously crafted web content may lead to an unexpected process crash.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-119"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-09T22:15:59Z"
