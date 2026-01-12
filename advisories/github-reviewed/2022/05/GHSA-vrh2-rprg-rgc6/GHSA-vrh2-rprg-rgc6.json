@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrh2-rprg-rgc6",
-  "modified": "2026-01-12T18:13:10Z",
+  "modified": "2026-01-12T18:16:42Z",
   "published": "2022-05-24T17:21:05Z",
   "aliases": [
     "CVE-2017-18891"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.0.5-0.20170907191613-722fb1947a2e"
+              "fixed": "4.0.5"
             }
           ]
         }
