@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grxq-cfv6-jw9w",
-  "modified": "2024-03-08T18:30:27Z",
+  "modified": "2026-01-12T12:30:27Z",
   "published": "2023-10-13T21:30:21Z",
   "aliases": [
     "CVE-2023-34975"
   ],
-  "details": "A SQL injection vulnerability has been reported to affect Video Station. If exploited, the vulnerability could allow authenticated users to inject malicious code via a network.\n\nWe have already fixed the vulnerability in the following version:\nVideo Station 5.7.0 ( 2023/07/27 ) and later\n",
+  "details": "A SQL injection vulnerability has been reported to affect Video Station. If exploited, the vulnerability could allow authenticated users to inject malicious code via a network.\n\nWe have already fixed the vulnerability in the following version:\nVideo Station 5.7.0 ( 2023/07/27 ) and later",
   "severity": [
     {
       "type": "CVSS_V3",
