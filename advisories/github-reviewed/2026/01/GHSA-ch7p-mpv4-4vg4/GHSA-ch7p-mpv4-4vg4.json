@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch7p-mpv4-4vg4",
-  "modified": "2026-01-08T20:03:39Z",
+  "modified": "2026-01-12T20:06:21Z",
   "published": "2026-01-07T19:29:50Z",
   "aliases": [
     "CVE-2026-22242"
@@ -58,7 +58,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-564"
+      "CWE-564",
+      "CWE-89"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
