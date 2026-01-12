@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c5p-g26h-xx2f",
-  "modified": "2026-01-10T12:30:15Z",
+  "modified": "2026-01-12T21:30:34Z",
   "published": "2026-01-10T12:30:15Z",
   "aliases": [
     "CVE-2025-52435"
   ],
   "details": "J2EE Misconfiguration: Data Transmission Without Encryption vulnerability in Apache NimBLE.\n\nImproper handling of Pause Encryption procedure on Link Layer results in a previously encrypted connection being left in un-encrypted state allowing an eavesdropper to observe the remainder of the exchange.\nThis issue affects Apache NimBLE: through <= 1.8.0.\n\nUsers are recommended to upgrade to version 1.9.0, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-5"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-10T10:15:50Z"

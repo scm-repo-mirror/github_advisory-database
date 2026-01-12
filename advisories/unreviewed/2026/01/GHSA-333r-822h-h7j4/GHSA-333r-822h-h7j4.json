@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-333r-822h-h7j4",
-  "modified": "2026-01-08T12:30:31Z",
+  "modified": "2026-01-12T21:30:34Z",
   "published": "2026-01-08T12:30:31Z",
   "aliases": [
     "CVE-2025-69169"
   ],
   "details": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Noor Alam Easy Media Download easy-media-download allows Reflection Injection.This issue affects Easy Media Download: from n/a through <= 1.1.11.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-80"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-08T10:15:54Z"
