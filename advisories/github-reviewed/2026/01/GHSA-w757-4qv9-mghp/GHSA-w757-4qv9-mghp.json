@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w757-4qv9-mghp",
-  "modified": "2026-01-13T19:01:49Z",
+  "modified": "2026-01-13T21:40:37Z",
   "published": "2026-01-13T19:01:49Z",
   "aliases": [
     "CVE-2025-68271"
@@ -41,6 +41,10 @@
       "url": "https://github.com/OpenC3/cosmos/security/advisories/GHSA-w757-4qv9-mghp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68271"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/OpenC3/cosmos/commit/01e9fbc5e66e9a2500b71a75a44775dd1fc2d1de"
     },
@@ -56,6 +60,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-13T19:01:49Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-13T19:16:14Z"
   }
 }

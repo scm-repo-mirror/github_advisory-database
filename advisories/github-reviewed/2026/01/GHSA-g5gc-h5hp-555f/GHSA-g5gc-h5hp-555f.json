@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5gc-h5hp-555f",
-  "modified": "2026-01-13T20:37:09Z",
+  "modified": "2026-01-13T21:41:38Z",
   "published": "2026-01-13T20:37:09Z",
   "aliases": [
     "CVE-2026-22814"
@@ -63,6 +63,10 @@
       "url": "https://github.com/adonisjs/lucid/security/advisories/GHSA-g5gc-h5hp-555f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22814"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/adonisjs/lucid"
     }
@@ -74,6 +78,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-13T20:37:09Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-13T20:16:11Z"
   }
 }
