@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgqp-8h46-6x4j",
-  "modified": "2026-01-12T09:30:31Z",
+  "modified": "2026-01-13T20:30:03Z",
   "published": "2026-01-12T09:30:31Z",
   "aliases": [
     "CVE-2025-14279"
   ],
+  "summary": "MLFlow is vulnerable to DNS rebinding attacks due to a lack of Origin header validation",
   "details": "MLFlow versions up to and including 3.4.0 are vulnerable to DNS rebinding attacks due to a lack of Origin header validation in the MLFlow REST server. This vulnerability allows malicious websites to bypass Same-Origin Policy protections and execute unauthorized calls against REST endpoints. An attacker can query, update, and delete experiments via the affected endpoints, leading to potential data exfiltration, destruction, or manipulation. The issue is resolved in version 3.5.0.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "mlflow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.5.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,7 +42,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/mlflow/mlflow/pull/17910"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/mlflow/mlflow/commit/b0ffd289e9b0d0cc32c9e3a9b9f3843ae83dbec3"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/mlflow/mlflow"
     },
     {
       "type": "WEB",
@@ -33,8 +62,8 @@
       "CWE-346"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-13T20:30:03Z",
     "nvd_published_at": "2026-01-12T09:15:50Z"
   }
 }
