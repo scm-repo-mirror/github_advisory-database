@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfch-762x-q3v9",
-  "modified": "2022-02-08T00:00:41Z",
+  "modified": "2026-01-13T18:31:01Z",
   "published": "2022-02-08T00:00:41Z",
   "aliases": [
     "CVE-2021-36193"
   ],
   "details": "Multiple stack-based buffer overflows in the command line interpreter of FortiWeb before 6.4.2 may allow an authenticated attacker to achieve arbitrary code execution via specially crafted commands.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-121",
       "CWE-787"
     ],
     "severity": "HIGH",

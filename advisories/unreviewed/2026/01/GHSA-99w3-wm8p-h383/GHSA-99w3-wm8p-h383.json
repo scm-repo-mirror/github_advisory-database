@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-99w3-wm8p-h383",
+  "modified": "2026-01-13T18:31:05Z",
+  "published": "2026-01-13T18:31:05Z",
+  "aliases": [
+    "CVE-2025-69990"
+  ],
+  "details": "phpgurukul News Portal Project V4.1 has an Arbitrary File Deletion Vulnerability in remove_file.php. The parameter file can cause any file to be deleted.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69990"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Y4y17/CVE/blob/main/News%20Portal%20Project/File%20deletion%20vulnerability.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-13T16:16:04Z"
+  }
+}
