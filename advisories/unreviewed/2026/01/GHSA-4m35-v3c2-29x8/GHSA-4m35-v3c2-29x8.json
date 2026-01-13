@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4m35-v3c2-29x8",
+  "modified": "2026-01-13T15:37:04Z",
+  "published": "2026-01-13T15:37:04Z",
+  "aliases": [
+    "CVE-2026-0889"
+  ],
+  "details": "Denial-of-service in the DOM: Service Workers component. This vulnerability affects Firefox < 147.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0889"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1999084"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-01"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-13T14:16:39Z"
+  }
+}

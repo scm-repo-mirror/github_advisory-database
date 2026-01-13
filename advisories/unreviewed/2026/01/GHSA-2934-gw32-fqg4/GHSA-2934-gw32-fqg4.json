@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2934-gw32-fqg4",
-  "modified": "2026-01-06T18:31:36Z",
+  "modified": "2026-01-13T15:36:48Z",
   "published": "2026-01-06T18:31:36Z",
   "aliases": [
     "CVE-2025-69356"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in CodexThemes TheGem Theme Elements (for Elementor) thegem-elements-elementor allows PHP Local File Inclusion.This issue affects TheGem Theme Elements (for Elementor): from n/a through <= 5.11.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-06T17:15:48Z"

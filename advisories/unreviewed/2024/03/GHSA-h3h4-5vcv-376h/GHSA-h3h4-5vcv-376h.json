@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3h4-5vcv-376h",
-  "modified": "2024-03-15T15:30:43Z",
+  "modified": "2026-01-13T15:36:46Z",
   "published": "2024-03-15T15:30:43Z",
   "aliases": [
     "CVE-2024-27189"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in catchsquare WP Social Widget allows Stored XSS.This issue affects WP Social Widget: from n/a through 2.2.5.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in catchsquare WP Social Widget allows Stored XSS.This issue affects WP Social Widget: from n/a through 2.2.5.",
   "severity": [
     {
       "type": "CVSS_V3",
