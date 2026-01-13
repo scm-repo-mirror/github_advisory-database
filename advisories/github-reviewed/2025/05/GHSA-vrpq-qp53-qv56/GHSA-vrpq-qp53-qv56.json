@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrpq-qp53-qv56",
-  "modified": "2025-11-27T09:12:49Z",
+  "modified": "2026-01-13T22:47:14Z",
   "published": "2025-05-21T21:31:37Z",
   "aliases": [
     "CVE-2025-4949"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:A/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N/S:N/AU:Y/R:U/V:D/RE:L/U:Green"
+      "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:A/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -101,7 +101,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "5.13.5.202508271544-r"
+              "introduced": "6.0.0.202110060947-m1"
             },
             {
               "fixed": "6.0.0.202111291000-r"
@@ -150,6 +150,10 @@
     {
       "type": "WEB",
       "url": "https://projects.eclipse.org/projects/technology.jgit/releases/5.13.4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://projects.eclipse.org/projects/technology.jgit/releases/5.13.5"
     },
     {
       "type": "WEB",
