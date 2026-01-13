@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4pr-fm98-w9pg",
-  "modified": "2026-01-08T20:10:17Z",
+  "modified": "2026-01-13T15:04:59Z",
   "published": "2026-01-07T19:20:19Z",
   "aliases": [
     "CVE-2026-21858"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cyera.com/research-labs/ni8mare-unauthenticated-remote-code-execution-in-n8n-cve-2026-21858"
     }
   ],
   "database_specific": {
