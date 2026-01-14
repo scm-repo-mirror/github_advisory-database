@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-648j-fchv-3hrv",
-  "modified": "2025-11-17T18:30:26Z",
+  "modified": "2026-01-14T00:31:24Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-60188"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/m4sh-wacker/CVE-2025-60188-Atarim-Plugin-Exploit"
     },
     {
       "type": "WEB",
