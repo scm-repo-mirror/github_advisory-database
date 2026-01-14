@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w757-4qv9-mghp",
-  "modified": "2026-01-13T21:40:37Z",
+  "modified": "2026-01-14T21:44:52Z",
   "published": "2026-01-13T19:01:49Z",
   "aliases": [
     "CVE-2025-68271"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/OpenC3/cosmos"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/openc3/CVE-2025-68271.yml"
     }
   ],
   "database_specific": {

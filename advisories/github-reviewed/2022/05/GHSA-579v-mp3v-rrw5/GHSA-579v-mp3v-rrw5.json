@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-579v-mp3v-rrw5",
-  "modified": "2022-09-12T14:46:34Z",
+  "modified": "2026-01-14T21:43:52Z",
   "published": "2022-05-14T01:09:51Z",
   "aliases": [
     "CVE-2011-4969"
@@ -99,6 +99,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/jquery/jquery"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/jquery-rails/CVE-2011-4969.yml"
     },
     {
       "type": "WEB",

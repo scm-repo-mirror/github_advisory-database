@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4whc-pp4x-9pf3",
-  "modified": "2023-01-20T22:28:49Z",
+  "modified": "2026-01-14T21:44:14Z",
   "published": "2017-10-24T18:33:36Z",
   "aliases": [
     "CVE-2015-1840"
@@ -91,6 +91,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/jquery-rails/CVE-2015-1840.yml"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/jquery-ujs/CVE-2015-1840.yml"
     },
     {
@@ -129,6 +133,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2020-06-16T20:59:28Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2015-07-26T22:59:00Z"
   }
 }
