@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4jrw-64vr-7g8m",
+  "modified": "2026-01-14T12:31:38Z",
+  "published": "2026-01-14T12:31:38Z",
+  "aliases": [
+    "CVE-2025-66169"
+  ],
+  "details": "Cypher Injection vulnerability in Apache Camel camel-neo4j component.\n\nThis issue affects Apache Camel: from 4.10.0 before 4.10.8, from 4.14.0 before 4.14.3, from 4.15.0 before 4.17.0\n\nUsers are recommended to upgrade to version 4.10.8 for 4.10.x LTS and 4.14.3 for 4.14.x LTS and 4.17.0.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66169"
+    },
+    {
+      "type": "WEB",
+      "url": "https://camel.apache.org/security/CVE-2025-66169.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-14T12:16:32Z"
+  }
+}
