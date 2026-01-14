@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2pg-vqh3-373c",
-  "modified": "2025-07-07T09:30:26Z",
+  "modified": "2026-01-14T15:32:57Z",
   "published": "2025-07-07T09:30:26Z",
   "aliases": [
     "CVE-2025-7116"
@@ -46,7 +46,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-120"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

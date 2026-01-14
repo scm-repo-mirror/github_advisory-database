@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8w6-x833-p4x4",
-  "modified": "2025-09-26T21:30:28Z",
+  "modified": "2026-01-14T15:32:58Z",
   "published": "2025-09-25T21:30:25Z",
   "aliases": [
     "CVE-2025-57632"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57632"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sahlberg/libsmb2/commit/5e75eebf922b338cdb548d60cffb3b997d2a12e8"
     },
     {
       "type": "WEB",
