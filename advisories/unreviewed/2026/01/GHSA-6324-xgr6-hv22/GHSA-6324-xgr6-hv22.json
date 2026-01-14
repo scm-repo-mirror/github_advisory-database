@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6324-xgr6-hv22",
-  "modified": "2026-01-14T18:31:38Z",
+  "modified": "2026-01-14T21:34:10Z",
   "published": "2026-01-14T18:31:38Z",
   "aliases": [
     "CVE-2025-70747"
   ],
   "details": "Tenda AX-1806 v1.0.0.1 was discovered to contain a stack overflow in the serviceName parameter of the sub_65A28 function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-14T18:16:41Z"

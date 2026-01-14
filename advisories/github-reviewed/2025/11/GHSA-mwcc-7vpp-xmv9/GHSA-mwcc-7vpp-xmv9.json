@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwcc-7vpp-xmv9",
-  "modified": "2025-11-19T18:54:37Z",
+  "modified": "2026-01-14T21:34:03Z",
   "published": "2025-11-19T00:31:24Z",
   "aliases": [
     "CVE-2025-12119"
@@ -67,6 +67,10 @@
     {
       "type": "WEB",
       "url": "https://jira.mongodb.org/browse/PHPC-2637"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/01/msg00009.html"
     }
   ],
   "database_specific": {

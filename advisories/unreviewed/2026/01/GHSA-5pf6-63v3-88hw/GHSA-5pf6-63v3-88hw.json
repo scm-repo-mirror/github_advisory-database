@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5pf6-63v3-88hw",
+  "modified": "2026-01-14T21:34:10Z",
+  "published": "2026-01-14T21:34:10Z",
+  "aliases": [
+    "CVE-2026-0861"
+  ],
+  "details": "Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc, valloc, pvalloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0861"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=33796"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-14T21:15:52Z"
+  }
+}
