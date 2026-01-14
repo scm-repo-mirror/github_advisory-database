@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r7f-qp73-wrxq",
-  "modified": "2024-03-26T21:30:46Z",
+  "modified": "2026-01-14T18:31:11Z",
   "published": "2024-03-26T21:30:46Z",
   "aliases": [
     "CVE-2023-27459"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in WPEverest User Registration.This issue affects User Registration: from n/a through 2.3.2.1.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in WPEverest User Registration.This issue affects User Registration: from n/a through 2.3.2.1.",
   "severity": [
     {
       "type": "CVSS_V3",
