@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cw6-7h3h-v8pf",
-  "modified": "2026-01-14T16:54:27Z",
+  "modified": "2026-01-14T21:46:46Z",
   "published": "2026-01-14T16:54:27Z",
   "aliases": [
     "CVE-2026-23498"
@@ -61,6 +61,14 @@
     },
     {
       "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23498"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/shopware/shopware/commit/3966b05590e29432b8485ba47b4fcd14dd0b8475"
+    },
+    {
+      "type": "ADVISORY",
       "url": "https://github.com/advisories/GHSA-7v2v-9rm4-7m8f"
     },
     {
@@ -75,6 +83,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-14T16:54:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-14T19:16:48Z"
   }
 }

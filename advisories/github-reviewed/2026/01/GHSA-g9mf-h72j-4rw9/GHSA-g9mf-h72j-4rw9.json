@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9mf-h72j-4rw9",
-  "modified": "2026-01-14T21:06:08Z",
+  "modified": "2026-01-14T21:46:26Z",
   "published": "2026-01-14T21:06:08Z",
   "aliases": [
     "CVE-2026-22036"
@@ -60,6 +60,10 @@
       "url": "https://github.com/nodejs/undici/security/advisories/GHSA-g9mf-h72j-4rw9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22036"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nodejs/undici/commit/b04e3cbb569c1596f86c108e9b52c79d8475dcb3"
     },
@@ -75,6 +79,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-14T21:06:08Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-14T19:16:47Z"
   }
 }
