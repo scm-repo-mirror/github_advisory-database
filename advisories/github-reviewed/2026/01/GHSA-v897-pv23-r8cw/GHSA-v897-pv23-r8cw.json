@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v897-pv23-r8cw",
-  "modified": "2026-01-15T15:31:17Z",
+  "modified": "2026-01-15T23:10:39Z",
   "published": "2026-01-15T15:31:17Z",
   "aliases": [
     "CVE-2026-0976"
   ],
+  "summary": "Keycloak has an improper input validation vulnerability",
   "details": "A flaw was found in Keycloak. This improper input validation vulnerability occurs because Keycloak accepts RFC-compliant matrix parameters in URL path segments, while common reverse proxy configurations may ignore or mishandle them. A remote attacker can craft requests to mask path segments, potentially bypassing proxy-level path filtering. This could expose administrative or sensitive endpoints that operators believe are not externally reachable.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-quarkus-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "26.2.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2429869"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/keycloak/keycloak"
     }
   ],
   "database_specific": {
@@ -33,8 +58,8 @@
       "CWE-20"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-15T23:10:39Z",
     "nvd_published_at": "2026-01-15T13:16:04Z"
   }
 }
