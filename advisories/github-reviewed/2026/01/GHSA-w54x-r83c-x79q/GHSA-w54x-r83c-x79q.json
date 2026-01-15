@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-w54x-r83c-x79q",
+  "modified": "2026-01-15T20:14:31Z",
+  "published": "2026-01-15T20:14:31Z",
+  "aliases": [],
+  "summary": "Pepr Has Overly Permissive RBAC ClusterRole in Admin Mode",
+  "details": "Severity: LOW\nTarget: /workspace/pepr/src/lib/assets/rbac.ts\nEndpoint: Kubernetes RBAC configuration\nMethod: Deployment\n\n## Response / Rationale\nPepr defaults to `rbacMode: \"admin\"` because the initial experience is designed to be frictionless for new users. This mode ensures that users can deploy and run the default `hello-pepr.ts` module without needing to understand or pre-configure RBAC rules.\n\nIt’s important to note that `hello-pepr.ts` is intended strictly as a demo to showcase Pepr features and workflow. It is not intended for production use, and the documentation explicitly calls out that admin RBAC should not be used in production environments.\n\nThat said, if a user skips the documentation and does not review the `npx pepr build` options, they could deploy a module with broader privileges than necessary.\n\nWe consider this low severity because Pepr is a framework: the module author is ultimately responsible for selecting the appropriate RBAC scope for their module and environment as each module has different RBAC needs and requirements. \n\nOur security focus is on ensuring the Pepr controller and runtime components operate securely within Kubernetes, while still allowing developers the flexibility to build modules with the access they require.\n\nIn order to fix this we will warn the user in logs that the default `ClusterRole` is `cluster-admin` and that it is not recommended for production.\n\n## How this can be exploited\n\nThis vulnerability can be exploited by doing a build and deploying your Pepr module with cluster-admin role instead of using `npx pepr build --rbac-mode=scoped`.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N/E:U"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "pepr"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.0"
+            },
+            {
+              "fixed": "1.0.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/defenseunicorns/pepr/security/advisories/GHSA-w54x-r83c-x79q"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/defenseunicorns/pepr"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/defenseunicorns/pepr/releases/tag/v1.0.4"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-276"
+    ],
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-15T20:14:31Z",
+    "nvd_published_at": null
+  }
+}
