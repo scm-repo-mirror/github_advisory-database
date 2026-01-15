@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7fw-vjjm-2rwp",
-  "modified": "2025-06-28T00:11:00Z",
+  "modified": "2026-01-15T17:48:08Z",
   "published": "2025-06-26T21:12:45Z",
   "aliases": [
     "CVE-2025-52890"
@@ -25,16 +25,16 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "6.12"
+              "introduced": "6.12.0"
             },
             {
-              "fixed": "6.14"
+              "fixed": "6.14.0"
             }
           ]
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "<= 6.13"
+        "last_known_affected_version_range": "<= 6.13.0"
       }
     }
   ],
