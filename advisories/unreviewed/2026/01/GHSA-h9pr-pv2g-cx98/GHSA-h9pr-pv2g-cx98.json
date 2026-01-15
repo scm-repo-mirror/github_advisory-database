@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h9pr-pv2g-cx98",
+  "modified": "2026-01-15T18:31:32Z",
+  "published": "2026-01-15T18:31:32Z",
+  "aliases": [
+    "CVE-2025-67078"
+  ],
+  "details": "Cross site scripting (XSS) vulnerability in Omnispace Agora Project before 25.10 allowing attackers to execute arbitrary code via the notify parameter of the file controller used to display errors.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67078"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.agora-project.net"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.helx.io/blog/advisory-agora-project"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-15T16:16:11Z"
+  }
+}
