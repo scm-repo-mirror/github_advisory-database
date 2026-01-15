@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp2g-9vg9-f4cg",
-  "modified": "2026-01-15T20:10:51Z",
+  "modified": "2026-01-15T22:34:08Z",
   "published": "2026-01-15T20:10:51Z",
   "aliases": [
     "CVE-2026-23527"
@@ -44,6 +44,14 @@
       "url": "https://github.com/h3js/h3/security/advisories/GHSA-mp2g-9vg9-f4cg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23527"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/h3js/h3/commit/618ccf4f37b8b6148bea7f36040471af45bfb097"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/h3js/h3"
     },
@@ -59,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-15T20:10:51Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-15T20:16:05Z"
   }
 }

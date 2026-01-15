@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6738-r8g5-qwp3",
-  "modified": "2026-01-15T20:13:33Z",
+  "modified": "2026-01-15T22:34:22Z",
   "published": "2026-01-15T20:13:33Z",
   "aliases": [
     "CVE-2025-15265"
@@ -44,8 +44,16 @@
       "url": "https://github.com/sveltejs/svelte/security/advisories/GHSA-6738-r8g5-qwp3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15265"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/sveltejs/svelte/commit/ef81048e238844b729942441541d6dcfe6c8ccca"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fluidattacks.com/advisories/lydian"
     },
     {
       "type": "PACKAGE",
@@ -63,6 +71,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-15T20:13:33Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-15T20:16:03Z"
   }
 }

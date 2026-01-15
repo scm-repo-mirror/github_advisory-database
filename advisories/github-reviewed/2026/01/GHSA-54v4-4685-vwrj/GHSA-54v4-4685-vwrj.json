@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54v4-4685-vwrj",
-  "modified": "2026-01-15T20:11:23Z",
+  "modified": "2026-01-15T22:34:15Z",
   "published": "2026-01-15T20:11:23Z",
   "aliases": [
     "CVE-2026-23622"
@@ -41,6 +41,10 @@
       "url": "https://github.com/alextselegidis/easyappointments/security/advisories/GHSA-54v4-4685-vwrj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23622"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/alextselegidis/easyappointments"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-15T20:11:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-15T20:16:05Z"
   }
 }

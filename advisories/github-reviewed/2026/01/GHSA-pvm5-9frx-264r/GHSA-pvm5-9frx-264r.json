@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvm5-9frx-264r",
-  "modified": "2026-01-15T18:17:06Z",
+  "modified": "2026-01-15T22:33:49Z",
   "published": "2026-01-15T18:17:06Z",
   "aliases": [
     "CVE-2026-23511"
@@ -66,12 +66,20 @@
       "url": "https://github.com/zitadel/zitadel/security/advisories/GHSA-pvm5-9frx-264r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23511"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/zitadel/zitadel/commit/0bb00dd9fc4e5e965f8e14fa2161a5076f3c308d"
     },
     {
       "type": "WEB",
       "url": "https://github.com/zitadel/zitadel/commit/b85ab69e4679b0268e2b0e9b4cd04e934af10dd2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zitadel/zitadel/commit/c300d4cc6a2775ab17ddfe76492f24170f8b858d"
     },
     {
       "type": "PACKAGE",
@@ -88,11 +96,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-203"
+      "CWE-203",
+      "CWE-204"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-15T18:17:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-15T20:16:05Z"
   }
 }
