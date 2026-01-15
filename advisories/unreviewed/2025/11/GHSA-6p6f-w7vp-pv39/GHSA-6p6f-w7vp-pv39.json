@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p6f-w7vp-pv39",
-  "modified": "2025-11-28T06:32:06Z",
+  "modified": "2026-01-15T09:33:22Z",
   "published": "2025-11-28T06:32:06Z",
   "aliases": [
     "CVE-2025-66370"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/kivitendo/kivitendo-erp/blob/fd3f993fc731cbcaa5eb87d55df7c82df4df9c09/doc/changelog"
+    },
+    {
+      "type": "WEB",
+      "url": "https://invoice.secvuln.info"
     }
   ],
   "database_specific": {
