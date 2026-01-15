@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4wg4-p27p-5q2r",
-  "modified": "2026-01-15T18:14:17Z",
+  "modified": "2026-01-15T20:18:09Z",
   "published": "2026-01-15T18:14:17Z",
   "aliases": [
     "CVE-2026-23496"
@@ -66,6 +66,10 @@
       "url": "https://github.com/pimcore/pimcore/security/advisories/GHSA-4wg4-p27p-5q2r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23496"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/pimcore/web2print-tools/pull/108"
     },
@@ -93,6 +97,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-15T18:14:17Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-15T17:16:08Z"
   }
 }

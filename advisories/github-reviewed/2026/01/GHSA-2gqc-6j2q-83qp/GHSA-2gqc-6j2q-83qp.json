@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gqc-6j2q-83qp",
-  "modified": "2026-01-15T18:17:15Z",
+  "modified": "2026-01-15T20:17:32Z",
   "published": "2026-01-15T18:17:15Z",
   "aliases": [
     "CVE-2026-23519"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/RustCrypto/utils"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0003.html"
     }
   ],
   "database_specific": {

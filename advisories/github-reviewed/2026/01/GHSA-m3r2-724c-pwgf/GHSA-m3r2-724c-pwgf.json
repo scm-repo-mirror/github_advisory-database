@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3r2-724c-pwgf",
-  "modified": "2026-01-15T18:12:49Z",
+  "modified": "2026-01-15T20:17:47Z",
   "published": "2026-01-15T18:12:49Z",
   "aliases": [
     "CVE-2026-23494"
@@ -66,6 +66,10 @@
       "url": "https://github.com/pimcore/pimcore/security/advisories/GHSA-m3r2-724c-pwgf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23494"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/pimcore/pimcore/pull/18893"
     },
@@ -89,6 +93,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-15T18:12:49Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-15T17:16:08Z"
   }
 }
