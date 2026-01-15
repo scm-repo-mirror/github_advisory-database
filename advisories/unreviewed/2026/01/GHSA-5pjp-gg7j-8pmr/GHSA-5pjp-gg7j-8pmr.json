@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5pjp-gg7j-8pmr",
+  "modified": "2026-01-15T21:31:47Z",
+  "published": "2026-01-15T21:31:47Z",
+  "aliases": [
+    "CVE-2025-67025"
+  ],
+  "details": "Cross Site Scripting vulnerability in Anycomment anycomment.io 0.4.4 allows a remote attacker to execute arbitrary code via the Anycomment comment section",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67025"
+    },
+    {
+      "type": "WEB",
+      "url": "https://anycomment.io/site/changelog"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bdu.fstec.ru/vul/2023-08900"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-15T21:16:04Z"
+  }
+}

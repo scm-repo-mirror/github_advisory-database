@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9jw-93wv-fj7v",
-  "modified": "2026-01-05T18:30:21Z",
+  "modified": "2026-01-15T21:31:42Z",
   "published": "2025-12-12T18:30:35Z",
   "aliases": [
     "CVE-2025-13733"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.drbuho.com/buhontfs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.drbuho.com/download/buhontfs.dmg"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rx6-3q6g-vr7j",
-  "modified": "2026-01-15T18:31:33Z",
+  "modified": "2026-01-15T21:31:46Z",
   "published": "2026-01-15T18:31:32Z",
   "aliases": [
     "CVE-2025-62193"
@@ -25,7 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/NOAA-PMEL/LAS/commit/de5f9237bfd4ac5085bcc49a6e30bbc9507ddb29"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NOAA-PMEL/LAS/commit/e69afb1898ae7e69f3e047513fc1e5570373912b"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/NOAA-PMEL/LAS/blob/main/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NOAA-PMEL/LAS/compare/b4b7306..de5f923"
     },
     {
       "type": "WEB",
