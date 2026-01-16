@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vx9w-5cx4-9796",
+  "modified": "2026-01-16T20:59:08Z",
+  "published": "2026-01-16T20:58:51Z",
+  "aliases": [],
+  "summary": "Crawl4AI Has Local File Inclusion in Docker API via file:// URLs",
+  "details": "A local file inclusion vulnerability exists in the Crawl4AI Docker API. The /execute_js, /screenshot, /pdf, and /html endpoints accept file:// URLs, allowing attackers to read arbitrary files from the server filesystem.\n\nAttack Vector:\n```json\nPOST /execute_js\n{\n    \"url\": \"file:///etc/passwd\",\n    \"scripts\": [\"document.body.innerText\"]\n}\n```\nImpact\n\nAn unauthenticated attacker can:\n- Read sensitive files (/etc/passwd, /etc/shadow, application configs)\n- Access environment variables via /proc/self/environ\n- Discover internal application structure\n- Potentially read credentials and API keys\n\nWorkarounds\n\n1. Disable the Docker API\n2. Add authentication to the API\n3. Use network-level filtering",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "Crawl4AI"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.8.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/unclecode/crawl4ai/security/advisories/GHSA-vx9w-5cx4-9796"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/unclecode/crawl4ai"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/unclecode/crawl4ai/blob/release/v0.8.0/docs/blog/release-v0.8.0.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/unclecode/crawl4ai/blob/release/v0.8.0/docs/migration/v0.8.0-upgrade-guide.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-16T20:58:51Z",
+    "nvd_published_at": null
+  }
+}
