@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5fj6-q8x2-56g8",
+  "modified": "2026-01-16T18:31:33Z",
+  "published": "2026-01-16T18:31:33Z",
+  "aliases": [
+    "CVE-2025-51602"
+  ],
+  "details": "mmstu.c in VideoLAN VLC media player before 3.0.22 allows an out-of-bounds read and denial of service via a crafted 0x01 response from an MMS server.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-51602"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.videolan.org/videolan/vlc/-/issues/29146"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.videolan.org/security/sb-vlc3022.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-16T18:16:08Z"
+  }
+}

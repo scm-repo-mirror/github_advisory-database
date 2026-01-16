@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh4h-2cg6-889h",
-  "modified": "2026-01-08T12:30:29Z",
+  "modified": "2026-01-16T18:31:22Z",
   "published": "2026-01-08T12:30:29Z",
   "aliases": [
     "CVE-2025-14017"
   ],
   "details": "When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,\nchanging TLS options in one thread would inadvertently change them globally\nand therefore possibly also affect other concurrently setup transfers.\n\nDisabling certificate verification for a specific transfer could\nunintentionally disable the feature for other threads as well.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-08T10:15:45Z"

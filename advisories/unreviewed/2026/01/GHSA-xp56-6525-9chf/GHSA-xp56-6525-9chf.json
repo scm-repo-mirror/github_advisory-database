@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp56-6525-9chf",
-  "modified": "2026-01-16T00:30:54Z",
+  "modified": "2026-01-16T18:31:28Z",
   "published": "2026-01-16T00:30:54Z",
   "aliases": [
     "CVE-2026-0915"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=33802"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/16/6"
     }
   ],
   "database_specific": {
