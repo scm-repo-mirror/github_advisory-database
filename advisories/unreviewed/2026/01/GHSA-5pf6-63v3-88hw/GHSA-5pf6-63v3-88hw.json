@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pf6-63v3-88hw",
-  "modified": "2026-01-15T00:31:38Z",
+  "modified": "2026-01-16T15:31:23Z",
   "published": "2026-01-14T21:34:10Z",
   "aliases": [
     "CVE-2026-0861"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=33796"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001"
     }
   ],
   "database_specific": {

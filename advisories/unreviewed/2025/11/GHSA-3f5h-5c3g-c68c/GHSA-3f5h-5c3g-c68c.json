@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f5h-5c3g-c68c",
-  "modified": "2025-11-25T06:33:11Z",
+  "modified": "2026-01-16T15:31:22Z",
   "published": "2025-11-25T06:33:11Z",
   "aliases": [
     "CVE-2025-13558"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/blog2social/trunk/includes/Ajax/Post.php?rev=3401934#L1867"
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.cleantalk.org/cve-2025-13558"
     },
     {
       "type": "WEB",

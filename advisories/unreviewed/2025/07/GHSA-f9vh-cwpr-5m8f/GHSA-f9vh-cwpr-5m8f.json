@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9vh-cwpr-5m8f",
-  "modified": "2025-11-05T00:31:22Z",
+  "modified": "2026-01-16T15:31:22Z",
   "published": "2025-07-28T18:31:29Z",
   "aliases": [
     "CVE-2025-43023"
   ],
   "details": "A potential security vulnerability has been identified in the HP Linux Imaging and Printing Software documentation. This potential vulnerability is due to the use of a weak code signing key, Digital Signature Algorithm (DSA).",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:H/UI:N/VC:N/VI:H/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
