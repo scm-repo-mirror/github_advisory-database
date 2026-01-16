@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c2f-r6gc-h92h",
-  "modified": "2026-01-16T18:31:33Z",
+  "modified": "2026-01-16T21:00:10Z",
   "published": "2026-01-16T12:30:25Z",
   "aliases": [
     "CVE-2025-68675"
   ],
+  "summary": "Apache Airflow proxy credentials for various providers might leak in task logs",
   "details": "In Apache Airflow versions before 3.1.6, the proxies and proxy fields within a Connection may include proxy URLs containing embedded authentication information. These fields were not treated as sensitive by default and therefore were not automatically masked in log output. As a result, when such connections are rendered or printed to logs, proxy credentials embedded in these fields could be exposed.\n\nUsers are recommended to upgrade to 3.1.6 or later, which fixes this issue",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "apache-airflow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68675"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/airflow"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-532"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-16T21:00:10Z",
     "nvd_published_at": "2026-01-16T11:16:03Z"
   }
 }

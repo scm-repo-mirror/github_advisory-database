@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qmm-r55x-hpxx",
-  "modified": "2026-01-16T18:31:32Z",
+  "modified": "2026-01-16T20:59:54Z",
   "published": "2026-01-16T12:30:25Z",
   "aliases": [
     "CVE-2025-68438"
   ],
+  "summary": "Apache Airflow secrets in rendered templates could contain parts of sensitive values when truncated",
   "details": "In Apache Airflow versions before 3.1.6, when rendered template fields in a Dag exceed [core] max_templated_field_length, sensitive values could be exposed in cleartext in the Rendered Templates UI. This occurred because serialization of those fields used a secrets masker instance that did not include user-registered mask_secret() patterns, so secrets were not reliably masked before truncation and display.\n\nUsers are recommended to upgrade to 3.1.6 or later, which fixes this issue",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "apache-airflow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.1.0"
+            },
+            {
+              "fixed": "3.1.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68438"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/airflow"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-200"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-16T20:59:54Z",
     "nvd_published_at": "2026-01-16T11:16:03Z"
   }
 }
