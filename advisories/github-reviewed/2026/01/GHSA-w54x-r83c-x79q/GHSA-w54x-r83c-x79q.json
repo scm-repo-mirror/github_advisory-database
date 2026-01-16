@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w54x-r83c-x79q",
-  "modified": "2026-01-16T15:21:14Z",
+  "modified": "2026-01-16T21:56:18Z",
   "published": "2026-01-15T20:14:31Z",
   "aliases": [
     "CVE-2026-23634"
@@ -45,6 +45,10 @@
       "url": "https://github.com/defenseunicorns/pepr/security/advisories/GHSA-w54x-r83c-x79q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23634"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/defenseunicorns/pepr/pull/2883"
     },
@@ -63,11 +67,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-272",
       "CWE-276"
     ],
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-15T20:14:31Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-16T20:15:49Z"
   }
 }

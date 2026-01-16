@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmwx-79f6-67jg",
-  "modified": "2026-01-16T16:58:26Z",
+  "modified": "2026-01-16T21:56:08Z",
   "published": "2026-01-16T16:58:26Z",
   "aliases": [
     "CVE-2026-23535"
@@ -41,6 +41,10 @@
       "url": "https://github.com/WeblateOrg/wlc/security/advisories/GHSA-mmwx-79f6-67jg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23535"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/WeblateOrg/wlc/pull/1128"
     },
@@ -51,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/WeblateOrg/wlc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WeblateOrg/wlc/releases/tag/1.17.2"
     }
   ],
   "database_specific": {
@@ -60,6 +68,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-16T16:58:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-16T19:16:19Z"
   }
 }
