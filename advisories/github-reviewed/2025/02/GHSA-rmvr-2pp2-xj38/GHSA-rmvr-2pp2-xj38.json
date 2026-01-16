@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmvr-2pp2-xj38",
-  "modified": "2025-02-18T19:17:40Z",
+  "modified": "2026-01-16T17:29:36Z",
   "published": "2025-02-14T18:00:18Z",
   "aliases": [
     "CVE-2025-25290"
@@ -68,12 +68,24 @@
       "url": "https://github.com/octokit/request.js/commit/34ff07ee86fc5c20865982d77391bc910ef19c68"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/octokit/request.js/commit/356411e3217019aa9fc8a68f4236af82490873c2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/octokit/request.js/commit/6bb29ba92a52f7bf94469c3433707c682c17126c"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/octokit/request.js"
     },
     {
       "type": "WEB",
       "url": "https://github.com/octokit/request.js/releases/tag/v8.4.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/octokit/request.js/releases/tag/v9.2.1"
     }
   ],
   "database_specific": {
