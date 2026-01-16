@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2ph-gc9m-q55f",
-  "modified": "2026-01-15T21:14:55Z",
+  "modified": "2026-01-16T15:20:36Z",
   "published": "2026-01-15T21:14:55Z",
   "aliases": [
     "CVE-2025-68671"
@@ -41,6 +41,10 @@
       "url": "https://github.com/treeverse/lakeFS/security/advisories/GHSA-f2ph-gc9m-q55f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68671"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/treeverse/lakeFS/issues/9599"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-15T21:14:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-15T23:15:49Z"
   }
 }
