@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cphf-4846-3xx9",
-  "modified": "2026-01-15T22:51:27Z",
+  "modified": "2026-01-16T20:20:55Z",
   "published": "2026-01-15T21:31:48Z",
   "aliases": [
     "CVE-2026-1002"
@@ -33,6 +33,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.vertx:vertx-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.0.CR1"
+            },
+            {
+              "fixed": "5.0.7"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -42,7 +61,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/vert-x3/vertx-web/issues/2836"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/eclipse-vertx/vert.x/pull/5894"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/eclipse-vertx/vert.x/pull/5895"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/eclipse-vertx/vert.x/commit/5b67f5d17788b2483d277c760f3f8154f9b2fed0"
     },
     {
       "type": "WEB",
