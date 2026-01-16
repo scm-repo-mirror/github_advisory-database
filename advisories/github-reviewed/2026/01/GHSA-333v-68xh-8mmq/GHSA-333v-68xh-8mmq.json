@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-333v-68xh-8mmq",
-  "modified": "2026-01-16T15:48:58Z",
+  "modified": "2026-01-16T19:10:59Z",
   "published": "2026-01-16T15:48:58Z",
   "aliases": [
     "CVE-2026-22782"
@@ -44,6 +44,10 @@
       "url": "https://github.com/rustfs/rustfs/security/advisories/GHSA-333v-68xh-8mmq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22782"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rustfs/rustfs/commit/6b2eebee1d07399ef02c0863bd515b4412a5a560"
     },
@@ -63,6 +67,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-16T15:48:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-16T17:15:54Z"
   }
 }
