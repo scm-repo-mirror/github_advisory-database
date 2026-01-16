@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcfx-jchh-3334",
-  "modified": "2025-10-01T12:30:29Z",
+  "modified": "2026-01-16T21:30:29Z",
   "published": "2025-10-01T12:30:29Z",
   "aliases": [
     "CVE-2022-50465"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: fix leaking uninitialized memory in fast-commit journal\n\nWhen space at the end of fast-commit journal blocks is unused, make sure\nto zero it out so that uninitialized memory is not leaked to disk.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:40Z"

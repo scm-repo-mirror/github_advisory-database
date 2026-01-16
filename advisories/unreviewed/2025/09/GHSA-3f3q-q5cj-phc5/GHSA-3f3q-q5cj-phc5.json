@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f3q-q5cj-phc5",
-  "modified": "2025-11-03T18:31:41Z",
+  "modified": "2026-01-16T21:30:27Z",
   "published": "2025-09-16T15:32:35Z",
   "aliases": [
     "CVE-2025-39825"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix race with concurrent opens in rename(2)\n\nBesides sending the rename request to the server, the rename process\nalso involves closing any deferred close, waiting for outstanding I/O\nto complete as well as marking all existing open handles as deleted to\nprevent them from deferring closes, which increases the race window\nfor potential concurrent opens on the target file.\n\nFix this by unhashing the dentry in advance to prevent any concurrent\nopens on the target.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-16T13:16:01Z"

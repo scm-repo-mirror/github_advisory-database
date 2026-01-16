@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68gc-6j2c-jr3m",
-  "modified": "2022-05-24T19:14:17Z",
+  "modified": "2026-01-16T21:30:25Z",
   "published": "2022-05-24T19:14:17Z",
   "aliases": [
     "CVE-2021-24727"
   ],
   "details": "The StopBadBots WordPress plugin before 6.60 did not validate or escape the order and orderby GET parameter in some of its admin dashboard pages, leading to Authenticated SQL Injections",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

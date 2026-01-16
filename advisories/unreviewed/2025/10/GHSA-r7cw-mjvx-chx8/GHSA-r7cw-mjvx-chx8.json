@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7cw-mjvx-chx8",
-  "modified": "2025-10-01T12:30:29Z",
+  "modified": "2026-01-16T21:30:29Z",
   "published": "2025-10-01T12:30:29Z",
   "aliases": [
     "CVE-2023-53449"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/dasd: Fix potential memleak in dasd_eckd_init()\n\n`dasd_reserve_req` is allocated before `dasd_vol_info_req`, and it\nalso needs to be freed before the error returns, just like the other\ncases in this function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:41Z"

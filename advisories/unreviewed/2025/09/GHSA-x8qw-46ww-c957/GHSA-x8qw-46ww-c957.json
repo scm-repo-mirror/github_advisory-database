@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8qw-46ww-c957",
-  "modified": "2025-11-17T18:30:24Z",
+  "modified": "2026-01-16T21:30:26Z",
   "published": "2025-09-11T18:35:53Z",
   "aliases": [
     "CVE-2025-40300"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/vmscape: Add conditional IBPB mitigation\n\nVMSCAPE is a vulnerability that exploits insufficient branch predictor\nisolation between a guest and a userspace hypervisor (like QEMU). Existing\nmitigations already protect kernel/KVM from a malicious guest. Userspace\ncan additionally be protected by flushing the branch predictors after a\nVMexit.\n\nSince it is the userspace that consumes the poisoned branch predictors,\nconditionally issue an IBPB after a VMexit and before returning to\nuserspace. Workloads that frequently switch between hypervisor and\nuserspace will incur the most overhead from the new IBPB.\n\nThis new IBPB is not integrated with the existing IBPB sites. For\ninstance, a task can use the existing speculation control prctl() to\nget an IBPB at context switch time. With this implementation, the\nIBPB is doubled up: one at context switch and another before running\nuserspace.\n\nThe intent is to integrate and optimize these cases post-embargo.\n\n[ dhansen: elaborate on suboptimal IBPB solution ]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -97,7 +102,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:45Z"

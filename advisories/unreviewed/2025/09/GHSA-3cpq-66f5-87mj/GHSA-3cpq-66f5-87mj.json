@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cpq-66f5-87mj",
-  "modified": "2025-11-03T18:31:40Z",
+  "modified": "2026-01-16T21:30:26Z",
   "published": "2025-09-12T18:31:10Z",
   "aliases": [
     "CVE-2025-39798"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFS: Fix the setting of capabilities when automounting a new filesystem\n\nCapabilities cannot be inherited when we cross into a new filesystem.\nThey need to be reset to the minimal defaults, and then probed for\nagain.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -61,7 +66,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-12T16:15:34Z"

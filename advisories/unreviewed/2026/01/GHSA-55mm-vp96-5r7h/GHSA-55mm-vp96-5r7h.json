@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55mm-vp96-5r7h",
-  "modified": "2026-01-16T18:31:33Z",
+  "modified": "2026-01-16T21:30:36Z",
   "published": "2026-01-16T18:31:33Z",
   "aliases": [
     "CVE-2025-31510"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.ow2.org/lemonldap-ng/lemonldap-ng/-/issues/3341"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00017.html"
     }
   ],
   "database_specific": {

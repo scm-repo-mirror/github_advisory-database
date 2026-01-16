@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56xj-4g9m-2pgr",
-  "modified": "2025-10-29T15:31:51Z",
+  "modified": "2026-01-16T21:30:30Z",
   "published": "2025-10-01T12:30:30Z",
   "aliases": [
     "CVE-2023-53498"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix potential null dereference\n\nThe adev->dm.dc pointer can be NULL and dereferenced in amdgpu_dm_fini()\nwithout checking.\n\nAdd a NULL pointer check before calling dc_dmub_srv_destroy().\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:53Z"

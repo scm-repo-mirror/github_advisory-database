@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrjh-fhfj-xhfm",
-  "modified": "2026-01-16T18:31:33Z",
+  "modified": "2026-01-16T21:30:36Z",
   "published": "2026-01-16T18:31:33Z",
   "aliases": [
     "CVE-2025-24528"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/krb5/krb5/compare/krb5-1.21.3-final...krb5-1.22-final"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00029.html"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xpj-qhg8-8h28",
-  "modified": "2025-11-03T18:31:40Z",
+  "modified": "2026-01-16T21:30:26Z",
   "published": "2025-09-15T15:31:27Z",
   "aliases": [
     "CVE-2022-50327"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPI: processor: idle: Check acpi_fetch_acpi_dev() return value\n\nThe return value of acpi_fetch_acpi_dev() could be NULL, which would\ncause a NULL pointer dereference to occur in acpi_device_hid().\n\n[ rjw: Subject and changelog edits, added empty line after if () ]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-15T15:15:44Z"
