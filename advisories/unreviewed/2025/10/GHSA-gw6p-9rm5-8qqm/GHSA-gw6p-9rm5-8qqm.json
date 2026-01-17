@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gw6p-9rm5-8qqm",
-  "modified": "2025-10-01T12:30:28Z",
+  "modified": "2026-01-17T00:30:23Z",
   "published": "2025-10-01T12:30:28Z",
   "aliases": [
     "CVE-2022-50443"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/rockchip: lvds: fix PM usage counter unbalance in poweron\n\npm_runtime_get_sync will increment pm usage counter even it failed.\nForgetting to putting operation will result in reference leak here.\nWe fix it by replacing it with the newest pm_runtime_resume_and_get\nto keep usage counter balanced.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:36Z"
