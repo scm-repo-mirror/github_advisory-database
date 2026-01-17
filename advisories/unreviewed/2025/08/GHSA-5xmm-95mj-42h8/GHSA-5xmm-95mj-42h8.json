@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xmm-95mj-42h8",
-  "modified": "2025-11-05T00:31:24Z",
+  "modified": "2026-01-17T21:30:27Z",
   "published": "2025-08-11T21:31:40Z",
   "aliases": [
     "CVE-2025-40920"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/perl-catalyst/Catalyst-Authentication-Credential-HTTP/pull/1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/perl-catalyst/Catalyst-Authentication-Credential-HTTP/commit/ad2c03aad95406db4ce35dfb670664ebde004c18"
     },
     {
       "type": "WEB",
