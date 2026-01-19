@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f22g-qgpg-jxxv",
-  "modified": "2026-01-13T18:31:05Z",
+  "modified": "2026-01-19T15:30:36Z",
   "published": "2026-01-13T18:31:04Z",
   "aliases": [
     "CVE-2025-68821"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bd5603eaae0aabf527bfb3ce1bb07e979ce5bd50"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cbbf3f1bb9f834bb2acbb61ddca74363456e19cd"
     },
     {
       "type": "WEB",

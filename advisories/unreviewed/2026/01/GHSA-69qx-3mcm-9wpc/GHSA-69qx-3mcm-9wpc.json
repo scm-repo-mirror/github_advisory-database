@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69qx-3mcm-9wpc",
-  "modified": "2026-01-17T18:30:19Z",
+  "modified": "2026-01-19T15:30:35Z",
   "published": "2026-01-13T18:31:04Z",
   "aliases": [
     "CVE-2025-68803"
@@ -28,11 +28,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/75f91534f9acdfef77f8fa094313b7806f801725"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/913f7cf77bf14c13cfea70e89bcb6d0b22239562"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bf4e671c651534a307ab2fabba4926116beef8c3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c182e1e0b7640f6bcc0c5ca8d473f7c57199ea3d"
     }
   ],
   "database_specific": {

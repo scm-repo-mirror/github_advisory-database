@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8jv-c3w8-hc32",
-  "modified": "2026-01-11T18:30:28Z",
+  "modified": "2026-01-19T15:30:33Z",
   "published": "2025-12-22T18:30:25Z",
   "aliases": [
     "CVE-2025-68332"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68332"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/407b25bb9284d69c27309e691ab1e02f9e1c46ac"
     },
     {
       "type": "WEB",
@@ -37,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e8110402b0c24d822b0b933d87d50870d59667ef"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f7fa1f4670c3c358a451546f0b80b9231952912d"
     }
   ],
   "database_specific": {

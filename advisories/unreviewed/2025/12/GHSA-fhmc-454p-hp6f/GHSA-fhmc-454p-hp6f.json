@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhmc-454p-hp6f",
-  "modified": "2026-01-11T18:30:28Z",
+  "modified": "2026-01-19T15:30:34Z",
   "published": "2025-12-24T12:30:30Z",
   "aliases": [
     "CVE-2025-68724"
@@ -20,11 +20,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/60a7be5ee74408147e439164ac067e418ca74bb4"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6af753ac5205115e6c310c8c4236c01b59a1c44f"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b7090a5c153105b9fd221a5a81459ee8cd5babd6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c13c6e9de91d7f1dd7df756b1fa5a1f968839d76"
     },
     {
       "type": "WEB",

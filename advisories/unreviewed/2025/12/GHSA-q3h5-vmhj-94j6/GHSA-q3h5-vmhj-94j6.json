@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3h5-vmhj-94j6",
-  "modified": "2026-01-11T18:30:28Z",
+  "modified": "2026-01-19T15:30:34Z",
   "published": "2025-12-24T12:30:29Z",
   "aliases": [
     "CVE-2025-68372"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68372"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/198aa230a6f8c1f6af7ed26b29180749c3e79e4d"
     },
     {
       "type": "WEB",
@@ -37,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9517b82d8d422d426a988b213fdd45c6b417b86d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d3ba312675911ff9e3fefefd551751e153a9f0a9"
     }
   ],
   "database_specific": {

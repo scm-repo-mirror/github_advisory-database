@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c243-x575-hcmp",
-  "modified": "2026-01-11T18:30:28Z",
+  "modified": "2026-01-19T15:30:34Z",
   "published": "2025-12-24T12:30:30Z",
   "aliases": [
     "CVE-2025-68727"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/53f4d6cb97096590410f3719f75cdf9fc5120f37"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/90e23db1a85956026999c18e76f402542cb004da"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfqp-957r-4xp3",
-  "modified": "2026-01-11T18:30:28Z",
+  "modified": "2026-01-19T15:30:34Z",
   "published": "2025-12-24T12:30:29Z",
   "aliases": [
     "CVE-2025-68364"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68364"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/08b93c1c12c66989316883d733475c64d14de5d2"
     },
     {
       "type": "WEB",
@@ -29,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bcb94288d95cfc52f4d7cead260f4db54c8c741a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cb34a55f552960c74e26b3699c84745b96e3131a"
     },
     {
       "type": "WEB",

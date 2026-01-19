@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv49-mrx3-2jvj",
-  "modified": "2026-01-13T18:31:04Z",
+  "modified": "2026-01-19T15:30:35Z",
   "published": "2026-01-13T18:31:04Z",
   "aliases": [
     "CVE-2025-68795"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3df375a1e75483b7d973c3cc2e46aa374db8428b"
     },
     {
       "type": "WEB",
@@ -33,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ca9983bc3a1189bd72f9ae449d925a66b2616326"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f9dc0f45d2cd0189ce666288a29d2cc32c2e44d5"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83h3-pmwm-wj9j",
-  "modified": "2025-10-30T15:32:20Z",
+  "modified": "2026-01-19T15:30:32Z",
   "published": "2025-03-27T18:31:23Z",
   "aliases": [
     "CVE-2022-49743"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49743"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/012cdef22000f3104e4fa8224ad29fde509b8caf"
     },
     {
       "type": "WEB",

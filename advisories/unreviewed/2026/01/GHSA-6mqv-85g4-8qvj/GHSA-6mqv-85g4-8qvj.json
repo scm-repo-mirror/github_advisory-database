@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mqv-85g4-8qvj",
-  "modified": "2026-01-14T15:33:01Z",
+  "modified": "2026-01-19T15:30:36Z",
   "published": "2026-01-14T15:33:01Z",
   "aliases": [
     "CVE-2025-71116"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/145d140abda80e33331c5781d6603014fa75d258"
     },
     {
       "type": "WEB",
@@ -29,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c82e39ff67353a5a6cbc07b786b8690bd2c45aaa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d061be4c8040ffb1110d537654a038b8b6ad39d2"
     },
     {
       "type": "WEB",

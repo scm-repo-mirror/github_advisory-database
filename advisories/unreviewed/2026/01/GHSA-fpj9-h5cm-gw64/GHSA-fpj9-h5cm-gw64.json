@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpj9-h5cm-gw64",
-  "modified": "2026-01-13T18:31:06Z",
+  "modified": "2026-01-19T15:30:36Z",
   "published": "2026-01-13T18:31:06Z",
   "aliases": [
     "CVE-2025-71094"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f5f4f30f3811d37e1aa48667c36add74e5a8d99f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fc96018f09f8d30586ca6582c5045a84eafef146"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8ccp-78hm-hx73",
-  "modified": "2026-01-13T18:31:04Z",
+  "modified": "2026-01-19T15:30:35Z",
   "published": "2026-01-13T18:31:04Z",
   "aliases": [
     "CVE-2025-68801"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8b0e69763ef948fb872a7767df4be665d18f5fd4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9e0a0d9eeb0dbeba2c83fa837885b19b8b9230fc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a2dfe6758fc63e542105bee8b17a3a7485684db0"
     },
     {
       "type": "WEB",

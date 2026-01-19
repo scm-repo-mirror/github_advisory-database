@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55hf-cr49-h3r7",
-  "modified": "2026-01-11T18:30:29Z",
+  "modified": "2026-01-19T15:30:34Z",
   "published": "2026-01-05T12:30:29Z",
   "aliases": [
     "CVE-2025-68759"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68759"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3677c01891fb0239361e444afee8398868e34bdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/89caaeee8dd95fae8bb4f4964e6fe3ca688500c4"
     },
     {
       "type": "WEB",

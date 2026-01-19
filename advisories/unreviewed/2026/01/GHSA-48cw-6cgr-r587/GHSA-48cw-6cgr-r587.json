@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48cw-6cgr-r587",
-  "modified": "2026-01-13T18:31:03Z",
+  "modified": "2026-01-19T15:30:35Z",
   "published": "2026-01-13T18:31:03Z",
   "aliases": [
     "CVE-2025-68771"
@@ -20,6 +20,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1f77e5cd563e6387fdf3bb714fcda36cd88ac5e7"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7acc0390e0dd7474c4451d05465a677d55ad4268"
     },
     {
@@ -29,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b08a33d5f80efe6979a6e8f905c1a898910c21dd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d0fd1f732ea8063cecd07a3879b7d815c7ee71ed"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrfv-x882-24r3",
-  "modified": "2026-01-13T18:31:03Z",
+  "modified": "2026-01-19T15:30:35Z",
   "published": "2026-01-13T18:31:03Z",
   "aliases": [
     "CVE-2025-68773"
@@ -32,7 +32,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9c34a4a2ead00979d203a8c16bea87f0ef5291d8"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/be0b613198e6bfa104ad520397cab82ad3ec1771"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c8f1d35076b78df61ace737e41cc1f4b7b63236c"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6prc-rrx9-j93r",
-  "modified": "2026-01-13T18:31:03Z",
+  "modified": "2026-01-19T15:30:35Z",
   "published": "2026-01-13T18:31:03Z",
   "aliases": [
     "CVE-2025-68787"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68787"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/09efbf54eeaecebe882af603c9939a4b1bb9567e"
     },
     {
       "type": "WEB",
@@ -33,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8d1ccba4b171cd504ecfa47349cb9864fc9d687c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f77e538ac4e3adb1882d5bccb7bfdc111b5963d3"
     }
   ],
   "database_specific": {

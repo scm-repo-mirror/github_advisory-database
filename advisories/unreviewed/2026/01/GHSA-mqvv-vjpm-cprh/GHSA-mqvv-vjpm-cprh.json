@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqvv-vjpm-cprh",
-  "modified": "2026-01-13T18:31:06Z",
+  "modified": "2026-01-19T15:30:36Z",
   "published": "2026-01-13T18:31:06Z",
   "aliases": [
     "CVE-2025-71086"
@@ -24,6 +24,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/819fb41ae54960f66025802400c9d3935eef4042"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/92d900aac3a5721fb54f3328f1e089b44a861c38"
     },
     {
@@ -33,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b409ba9e1e63ccf3ab4cc061e33c1f804183543e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ed2639414d43ba037f798eaf619e878309310451"
     }
   ],
   "database_specific": {

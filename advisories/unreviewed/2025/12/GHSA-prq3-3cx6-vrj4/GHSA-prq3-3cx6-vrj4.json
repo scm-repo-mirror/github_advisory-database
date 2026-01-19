@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prq3-3cx6-vrj4",
-  "modified": "2026-01-11T18:30:27Z",
+  "modified": "2026-01-19T15:30:33Z",
   "published": "2025-12-16T15:30:47Z",
   "aliases": [
     "CVE-2025-68255"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/34620eb602aa432f090b2b784ee5c5070fb16cf9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4445adedae770037078803d1ce41f9e88a1944b6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/49b7806851f93fd342838c93f4f765e0cc5029b0"
     },
     {
       "type": "WEB",

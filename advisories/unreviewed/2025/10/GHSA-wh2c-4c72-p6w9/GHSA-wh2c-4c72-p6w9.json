@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh2c-4c72-p6w9",
-  "modified": "2025-10-21T12:31:24Z",
+  "modified": "2026-01-19T15:30:32Z",
   "published": "2025-10-21T12:31:24Z",
   "aliases": [
     "CVE-2022-49267"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49267"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0f55ac683b2722714016f16daae9cab3f7f7b9f9"
     },
     {
       "type": "WEB",
