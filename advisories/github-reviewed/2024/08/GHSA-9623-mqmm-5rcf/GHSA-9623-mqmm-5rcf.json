@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9623-mqmm-5rcf",
-  "modified": "2025-09-26T16:28:47Z",
+  "modified": "2026-01-19T06:30:27Z",
   "published": "2024-08-21T15:30:54Z",
   "aliases": [
     "CVE-2024-7885"
@@ -65,51 +65,19 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/undertow-io/undertow/commit/80c125e09068ac52ed0a9acde266ef12f8ed7ae1"
-    },
-    {
-      "type": "WEB",
       "url": "https://github.com/undertow-io/undertow/commit/ce5182c37376982ef0abee34fce0d8c0aab0fab8"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:11023"
+      "url": "https://github.com/undertow-io/undertow/commit/80c125e09068ac52ed0a9acde266ef12f8ed7ae1"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:6508"
+      "url": "https://security.netapp.com/advisory/ntap-20241011-0004"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:6883"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:7441"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:7442"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:7735"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:7736"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:16667"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/security/cve/CVE-2024-7885"
-    },
-    {
-      "type": "WEB",
-      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2305290"
+      "url": "https://github.com/undertow-io/undertow/blob/182e4ca1543c52f438b0244c930dca3d8b6e68e3/core/src/main/java/io/undertow/server/protocol/proxy/ProxyProtocolReadListener.java"
     },
     {
       "type": "PACKAGE",
@@ -117,11 +85,51 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/undertow-io/undertow/blob/182e4ca1543c52f438b0244c930dca3d8b6e68e3/core/src/main/java/io/undertow/server/protocol/proxy/ProxyProtocolReadListener.java"
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2305290"
     },
     {
       "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20241011-0004"
+      "url": "https://access.redhat.com/security/cve/CVE-2024-7885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0743"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:16667"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8080"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:7736"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:7735"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:7442"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:7441"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6883"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6508"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:11023"
     }
   ],
   "database_specific": {
