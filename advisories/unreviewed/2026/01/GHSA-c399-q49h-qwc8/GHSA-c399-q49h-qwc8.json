@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c399-q49h-qwc8",
-  "modified": "2026-01-19T09:30:27Z",
+  "modified": "2026-01-19T12:30:23Z",
   "published": "2026-01-19T09:30:27Z",
   "aliases": [
     "CVE-2025-29847"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/03l5rfkgdt022o75jp8x4tzpqxz8g057"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/19/2"
     }
   ],
   "database_specific": {

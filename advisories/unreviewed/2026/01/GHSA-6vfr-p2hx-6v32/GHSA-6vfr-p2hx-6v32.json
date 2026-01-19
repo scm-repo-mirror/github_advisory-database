@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vfr-p2hx-6v32",
-  "modified": "2026-01-19T09:30:28Z",
+  "modified": "2026-01-19T12:30:23Z",
   "published": "2026-01-19T09:30:28Z",
   "aliases": [
     "CVE-2025-59355"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/75z7vhftw6w1mllndgpkfmcj0fzo4lbj"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/19/1"
     }
   ],
   "database_specific": {
