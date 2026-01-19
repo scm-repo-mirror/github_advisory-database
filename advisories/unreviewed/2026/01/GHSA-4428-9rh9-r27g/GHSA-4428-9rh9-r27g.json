@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4428-9rh9-r27g",
-  "modified": "2026-01-19T18:30:28Z",
+  "modified": "2026-01-19T21:33:11Z",
   "published": "2026-01-19T18:30:28Z",
   "aliases": [
     "CVE-2026-22797"
@@ -26,6 +26,22 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2026/01/16/9"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/15/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/16/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/16/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/16/9"
     }
   ],
   "database_specific": {
