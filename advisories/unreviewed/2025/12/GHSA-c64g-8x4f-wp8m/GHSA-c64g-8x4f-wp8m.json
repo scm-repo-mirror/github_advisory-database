@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c64g-8x4f-wp8m",
-  "modified": "2025-12-31T09:30:19Z",
+  "modified": "2026-01-20T15:32:54Z",
   "published": "2025-12-31T09:30:19Z",
   "aliases": [
     "CVE-2025-62136"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62136"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/theme/melos/vulnerability/wordpress-melos-theme-1-6-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

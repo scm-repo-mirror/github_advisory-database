@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf42-mr6f-fxjw",
-  "modified": "2026-01-05T12:30:30Z",
+  "modified": "2026-01-20T15:33:05Z",
   "published": "2026-01-05T12:30:30Z",
   "aliases": [
     "CVE-2025-31048"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31048"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/theme/shopo/vulnerability/wordpress-shopo-1-1-4-arbitrary-file-upload-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

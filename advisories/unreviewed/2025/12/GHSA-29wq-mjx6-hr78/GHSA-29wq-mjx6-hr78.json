@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29wq-mjx6-hr78",
-  "modified": "2025-12-31T09:30:19Z",
+  "modified": "2026-01-20T15:32:53Z",
   "published": "2025-12-31T09:30:19Z",
   "aliases": [
     "CVE-2025-62137"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62137"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/theme/shuttle/vulnerability/wordpress-shuttle-theme-1-5-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

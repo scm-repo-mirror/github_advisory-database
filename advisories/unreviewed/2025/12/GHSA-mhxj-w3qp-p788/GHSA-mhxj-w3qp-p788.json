@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhxj-w3qp-p788",
-  "modified": "2025-12-31T18:30:24Z",
+  "modified": "2026-01-20T15:33:00Z",
   "published": "2025-12-31T18:30:24Z",
   "aliases": [
     "CVE-2025-62078"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62078"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/easy-upload-files-during-checkout/vulnerability/wordpress-easy-upload-files-during-checkout-plugin-3-0-0-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

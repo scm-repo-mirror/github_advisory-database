@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5qr-hv4h-xr6g",
-  "modified": "2026-01-06T18:31:35Z",
+  "modified": "2026-01-20T15:33:06Z",
   "published": "2026-01-06T18:31:35Z",
   "aliases": [
     "CVE-2025-69331"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69331"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/theatre/vulnerability/wordpress-theater-for-wordpress-plugin-0-19-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

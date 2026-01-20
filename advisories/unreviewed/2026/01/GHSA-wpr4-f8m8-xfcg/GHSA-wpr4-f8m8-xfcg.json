@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpr4-f8m8-xfcg",
-  "modified": "2026-01-06T18:31:36Z",
+  "modified": "2026-01-20T15:33:07Z",
   "published": "2026-01-06T18:31:36Z",
   "aliases": [
     "CVE-2025-69362"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69362"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/uichemy/vulnerability/wordpress-uichemy-plugin-4-4-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

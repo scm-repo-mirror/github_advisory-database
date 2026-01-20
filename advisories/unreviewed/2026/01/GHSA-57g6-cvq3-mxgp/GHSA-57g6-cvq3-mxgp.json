@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57g6-cvq3-mxgp",
-  "modified": "2026-01-12T21:30:34Z",
+  "modified": "2026-01-20T15:33:11Z",
   "published": "2026-01-08T12:30:31Z",
   "aliases": [
     "CVE-2026-0674"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0674"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/forms-for-campaign-monitor/vulnerability/wordpress-campaign-monitor-for-wordpress-plugin-2-9-0-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

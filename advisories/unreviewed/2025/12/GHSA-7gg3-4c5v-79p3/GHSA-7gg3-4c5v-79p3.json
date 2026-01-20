@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7gg3-4c5v-79p3",
-  "modified": "2025-12-31T15:30:25Z",
+  "modified": "2026-01-20T15:32:59Z",
   "published": "2025-12-31T15:30:25Z",
   "aliases": [
     "CVE-2025-62097"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62097"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/seo-slider/vulnerability/wordpress-seo-slider-plugin-1-1-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

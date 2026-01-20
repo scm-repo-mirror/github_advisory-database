@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92wj-rg23-6rqg",
-  "modified": "2026-01-06T21:30:34Z",
+  "modified": "2026-01-20T15:33:06Z",
   "published": "2026-01-06T18:31:35Z",
   "aliases": [
     "CVE-2025-69345"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69345"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/post-and-page-builder/vulnerability/wordpress-post-and-page-builder-by-boldgrid-plugin-1-27-9-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

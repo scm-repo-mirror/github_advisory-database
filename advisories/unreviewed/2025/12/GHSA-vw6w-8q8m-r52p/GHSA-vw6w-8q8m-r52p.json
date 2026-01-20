@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vw6w-8q8m-r52p",
-  "modified": "2025-12-24T21:30:29Z",
+  "modified": "2026-01-20T15:32:40Z",
   "published": "2025-12-24T15:30:42Z",
   "aliases": [
     "CVE-2025-68585"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68585"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-document-revisions/vulnerability/wordpress-wp-document-revisions-plugin-3-7-2-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

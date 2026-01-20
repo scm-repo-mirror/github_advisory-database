@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hghr-9h74-29qx",
-  "modified": "2025-12-18T21:31:42Z",
+  "modified": "2026-01-20T15:32:31Z",
   "published": "2025-12-18T09:30:30Z",
   "aliases": [
     "CVE-2025-64375"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64375"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-social-reviews/vulnerability/wordpress-wp-social-ninja-plugin-3-20-1-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

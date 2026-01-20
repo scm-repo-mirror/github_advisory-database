@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx87-w5c7-xwff",
-  "modified": "2026-01-05T18:30:22Z",
+  "modified": "2026-01-20T15:33:06Z",
   "published": "2026-01-05T18:30:22Z",
   "aliases": [
     "CVE-2024-53735"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53735"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/iphone-webclip-manager/vulnerability/wordpress-iphone-webclip-manager-plugin-0-5-csrf-to-stored-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h3h-vpf4-f727",
-  "modified": "2026-01-03T00:31:25Z",
+  "modified": "2026-01-20T15:32:46Z",
   "published": "2025-12-30T12:30:28Z",
   "aliases": [
     "CVE-2025-69026"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69026"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/popup-builder-block/vulnerability/wordpress-popupkit-plugin-2-1-5-sensitive-data-exposure-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmpp-wmx8-8xhj",
-  "modified": "2025-12-30T18:30:17Z",
+  "modified": "2026-01-20T15:32:43Z",
   "published": "2025-12-30T12:30:27Z",
   "aliases": [
     "CVE-2025-68992"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/bwl-kb-manager/vulnerability/wordpress-bwl-knowledge-base-manager-plugin-1-6-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v895-7m89-39v8",
-  "modified": "2025-12-18T15:30:41Z",
+  "modified": "2026-01-20T15:32:31Z",
   "published": "2025-12-18T09:30:29Z",
   "aliases": [
     "CVE-2025-64233"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64233"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/codiqa/vulnerability/wordpress-codiqa-theme-1-2-8-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

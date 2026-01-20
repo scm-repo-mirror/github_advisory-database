@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q75q-9cxv-r2h2",
-  "modified": "2025-12-31T12:31:20Z",
+  "modified": "2026-01-20T15:32:59Z",
   "published": "2025-12-31T12:31:20Z",
   "aliases": [
     "CVE-2025-62756"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62756"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/the-moneytizer/vulnerability/wordpress-the-moneytizer-plugin-10-0-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

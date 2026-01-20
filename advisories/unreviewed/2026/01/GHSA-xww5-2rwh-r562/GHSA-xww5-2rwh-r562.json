@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xww5-2rwh-r562",
-  "modified": "2026-01-08T18:30:48Z",
+  "modified": "2026-01-20T15:33:08Z",
   "published": "2026-01-08T12:30:30Z",
   "aliases": [
     "CVE-2025-27004"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27004"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/famous_grid_image_and_video_gallery/vulnerability/wordpress-famous-responsive-image-and-video-grid-gallery-wordpress-plugin-plugin-1-4-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

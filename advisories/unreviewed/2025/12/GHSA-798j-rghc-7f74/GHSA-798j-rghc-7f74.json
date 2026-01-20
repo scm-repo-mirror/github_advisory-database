@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-798j-rghc-7f74",
-  "modified": "2026-01-05T15:32:13Z",
+  "modified": "2026-01-20T15:32:47Z",
   "published": "2025-12-30T12:30:28Z",
   "aliases": [
     "CVE-2025-69032"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69032"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/fivestar/vulnerability/wordpress-fivestar-theme-1-7-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw86-26g8-jx37",
-  "modified": "2026-01-05T12:30:30Z",
+  "modified": "2026-01-20T15:33:06Z",
   "published": "2026-01-05T12:30:30Z",
   "aliases": [
     "CVE-2025-68850"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68850"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/sell-downloads/vulnerability/wordpress-sell-downloads-plugin-1-1-12-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

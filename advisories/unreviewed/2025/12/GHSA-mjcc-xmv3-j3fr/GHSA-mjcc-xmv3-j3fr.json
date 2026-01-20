@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjcc-xmv3-j3fr",
-  "modified": "2025-12-18T15:30:41Z",
+  "modified": "2026-01-20T15:32:31Z",
   "published": "2025-12-18T09:30:29Z",
   "aliases": [
     "CVE-2025-64231"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64231"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/rtwwcfp-wordpress-contact-form-7-pdf/vulnerability/wordpress-wordpress-contact-form-7-pdf-google-sheet-database-plugin-3-0-0-arbitrary-file-upload-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

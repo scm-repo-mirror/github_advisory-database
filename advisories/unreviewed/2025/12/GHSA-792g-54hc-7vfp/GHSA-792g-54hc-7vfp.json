@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-792g-54hc-7vfp",
-  "modified": "2025-12-18T18:30:31Z",
+  "modified": "2026-01-20T15:32:32Z",
   "published": "2025-12-18T18:30:31Z",
   "aliases": [
     "CVE-2025-66058"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66058"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/post-grid/vulnerability/wordpress-post-grid-and-gutenberg-blocks-plugin-2-3-17-broken-access-control-vulnerability-2?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfhh-rqgc-59cw",
-  "modified": "2025-12-31T21:30:58Z",
+  "modified": "2026-01-20T15:33:03Z",
   "published": "2025-12-31T21:30:58Z",
   "aliases": [
     "CVE-2025-30628"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30628"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/azon-addon-js-composer/vulnerability/wordpress-amazon-affiliates-addon-for-wpbakery-page-builder-formerly-visual-composer-1-2-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

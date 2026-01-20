@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqrx-xj77-j7v9",
-  "modified": "2026-01-03T00:31:25Z",
+  "modified": "2026-01-20T15:32:46Z",
   "published": "2025-12-30T12:30:28Z",
   "aliases": [
     "CVE-2025-69029"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69029"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/struktur/vulnerability/wordpress-struktur-theme-2-5-1-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

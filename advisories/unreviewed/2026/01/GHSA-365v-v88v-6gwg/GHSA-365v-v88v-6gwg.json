@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-365v-v88v-6gwg",
-  "modified": "2026-01-08T18:30:49Z",
+  "modified": "2026-01-20T15:33:11Z",
   "published": "2026-01-08T12:30:31Z",
   "aliases": [
     "CVE-2025-68892"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68892"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/scroll-rss-excerpt/vulnerability/wordpress-scroll-rss-excerpt-plugin-5-0-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

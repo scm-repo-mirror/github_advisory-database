@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8hrf-667w-43rm",
-  "modified": "2025-12-31T00:31:08Z",
+  "modified": "2026-01-20T15:32:43Z",
   "published": "2025-12-30T12:30:27Z",
   "aliases": [
     "CVE-2025-68979"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68979"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/google-calendar-events/vulnerability/wordpress-google-calendar-events-plugin-3-5-9-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

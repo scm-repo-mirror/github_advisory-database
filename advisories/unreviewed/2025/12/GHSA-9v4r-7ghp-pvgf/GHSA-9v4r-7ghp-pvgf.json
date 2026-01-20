@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v4r-7ghp-pvgf",
-  "modified": "2025-12-31T15:30:25Z",
+  "modified": "2026-01-20T15:32:59Z",
   "published": "2025-12-31T15:30:25Z",
   "aliases": [
     "CVE-2025-62149"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62149"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/add-custom-codes/vulnerability/wordpress-add-custom-codes-plugin-4-80-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

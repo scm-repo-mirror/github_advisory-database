@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv2m-g4cj-x269",
-  "modified": "2026-01-08T18:30:48Z",
+  "modified": "2026-01-20T15:33:09Z",
   "published": "2026-01-08T12:30:30Z",
   "aliases": [
     "CVE-2025-67926"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/fluent-support/vulnerability/wordpress-fluent-support-plugin-1-10-4-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

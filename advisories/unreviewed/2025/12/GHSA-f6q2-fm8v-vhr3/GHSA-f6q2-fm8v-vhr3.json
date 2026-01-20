@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6q2-fm8v-vhr3",
-  "modified": "2025-12-31T18:30:25Z",
+  "modified": "2026-01-20T15:33:01Z",
   "published": "2025-12-31T18:30:25Z",
   "aliases": [
     "CVE-2025-62115"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62115"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/hide-plugins/vulnerability/wordpress-hide-plugins-plugin-1-0-4-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

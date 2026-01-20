@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr96-49c7-2pfc",
-  "modified": "2025-12-31T18:30:23Z",
+  "modified": "2026-01-20T15:33:00Z",
   "published": "2025-12-31T18:30:23Z",
   "aliases": [
     "CVE-2025-62079"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62079"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/wp-export-categories-taxonomies/vulnerability/wordpress-wp-export-categories-taxonomies-plugin-1-0-3-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

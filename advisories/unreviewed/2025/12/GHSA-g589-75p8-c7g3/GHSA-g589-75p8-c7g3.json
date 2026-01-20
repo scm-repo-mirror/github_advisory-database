@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g589-75p8-c7g3",
-  "modified": "2025-12-18T18:30:30Z",
+  "modified": "2026-01-20T15:32:30Z",
   "published": "2025-12-18T09:30:29Z",
   "aliases": [
     "CVE-2025-60178"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60178"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/gf-hubspot/vulnerability/wordpress-wp-gravity-forms-hubspot-plugin-1-2-6-deserialization-of-untrusted-data-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

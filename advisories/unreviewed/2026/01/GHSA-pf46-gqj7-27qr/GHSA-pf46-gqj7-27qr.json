@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf46-gqj7-27qr",
-  "modified": "2026-01-08T18:30:48Z",
+  "modified": "2026-01-20T15:33:10Z",
   "published": "2026-01-08T12:30:30Z",
   "aliases": [
     "CVE-2025-67931"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67931"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/bulletproof-security/vulnerability/wordpress-bulletproof-security-plugin-6-9-sensitive-data-exposure-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

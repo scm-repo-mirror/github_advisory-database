@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrhx-85fj-369h",
-  "modified": "2026-01-02T21:30:27Z",
+  "modified": "2026-01-20T15:32:45Z",
   "published": "2025-12-30T12:30:28Z",
   "aliases": [
     "CVE-2025-69022"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69022"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/hr-management-lite/vulnerability/wordpress-hr-management-lite-plugin-3-5-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

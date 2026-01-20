@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gm6f-w7px-9f8g",
-  "modified": "2025-12-31T18:30:25Z",
+  "modified": "2026-01-20T15:33:02Z",
   "published": "2025-12-31T18:30:25Z",
   "aliases": [
     "CVE-2025-62989"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/cooked/vulnerability/wordpress-cooked-plugin-1-11-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

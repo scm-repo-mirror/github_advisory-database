@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmj9-79r3-8qw2",
-  "modified": "2026-01-05T15:32:14Z",
+  "modified": "2026-01-20T15:32:48Z",
   "published": "2025-12-30T12:30:28Z",
   "aliases": [
     "CVE-2025-69033"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69033"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/blog-filter/vulnerability/wordpress-blog-filter-plugin-1-7-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

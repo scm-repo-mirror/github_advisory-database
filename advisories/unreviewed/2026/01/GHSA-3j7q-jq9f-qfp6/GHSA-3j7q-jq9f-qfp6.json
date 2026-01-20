@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3j7q-jq9f-qfp6",
-  "modified": "2026-01-05T12:30:30Z",
+  "modified": "2026-01-20T15:33:05Z",
   "published": "2026-01-05T12:30:30Z",
   "aliases": [
     "CVE-2025-31047"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31047"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/theme/edmin/vulnerability/wordpress-themify-edmin-2-0-0-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

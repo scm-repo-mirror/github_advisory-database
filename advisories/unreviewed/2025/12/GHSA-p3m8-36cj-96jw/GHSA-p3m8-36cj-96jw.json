@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3m8-36cj-96jw",
-  "modified": "2025-12-18T21:31:42Z",
+  "modified": "2026-01-20T15:32:32Z",
   "published": "2025-12-18T09:30:30Z",
   "aliases": [
     "CVE-2025-6324"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6324"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/easy-invoice/vulnerability/wordpress-easy-invoice-plugin-2-0-9-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

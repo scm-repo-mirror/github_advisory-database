@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-786g-jpf2-55wg",
-  "modified": "2025-12-30T00:32:59Z",
+  "modified": "2026-01-20T15:32:42Z",
   "published": "2025-12-30T00:32:58Z",
   "aliases": [
     "CVE-2025-23458"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23458"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/wp-ad-management/vulnerability/wordpress-ads24-lite-plugin-1-0-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

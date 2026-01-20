@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf72-xqxp-785c",
-  "modified": "2026-01-20T06:30:26Z",
+  "modified": "2026-01-20T15:33:12Z",
   "published": "2026-01-20T06:30:26Z",
   "aliases": [
     "CVE-2025-12573"
   ],
   "details": "The Bookingor  WordPress plugin through 1.0.12 exposes authenticated AJAX actions without capability or nonce checks, allowing low-privileged users to delete Bookingor  WordPress plugin through 1.0.12 data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-20T06:16:00Z"

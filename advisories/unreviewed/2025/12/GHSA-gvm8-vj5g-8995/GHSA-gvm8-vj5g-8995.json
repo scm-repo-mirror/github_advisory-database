@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvm8-vj5g-8995",
-  "modified": "2025-12-30T15:30:25Z",
+  "modified": "2026-01-20T15:32:44Z",
   "published": "2025-12-30T12:30:27Z",
   "aliases": [
     "CVE-2025-68997"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68997"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wpdiscuz/vulnerability/wordpress-wpdiscuz-plugin-7-6-40-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

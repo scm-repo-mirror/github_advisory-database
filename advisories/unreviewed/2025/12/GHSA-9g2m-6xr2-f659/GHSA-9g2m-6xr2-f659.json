@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g2m-6xr2-f659",
-  "modified": "2025-12-29T18:30:54Z",
+  "modified": "2026-01-20T15:32:42Z",
   "published": "2025-12-29T18:30:54Z",
   "aliases": [
     "CVE-2025-68877"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68877"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/ced-good-market-integration/vulnerability/wordpress-cedcommerce-integration-for-good-market-plugin-1-0-6-local-file-inclusion-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

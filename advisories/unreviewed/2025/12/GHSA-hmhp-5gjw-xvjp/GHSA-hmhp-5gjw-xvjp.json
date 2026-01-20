@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmhp-5gjw-xvjp",
-  "modified": "2026-01-02T21:30:27Z",
+  "modified": "2026-01-20T15:32:45Z",
   "published": "2025-12-30T12:30:28Z",
   "aliases": [
     "CVE-2025-69021"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/ays-popup-box/vulnerability/wordpress-popup-box-plugin-6-0-7-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

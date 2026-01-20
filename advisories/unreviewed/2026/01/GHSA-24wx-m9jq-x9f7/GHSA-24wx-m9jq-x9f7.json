@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24wx-m9jq-x9f7",
-  "modified": "2026-01-08T18:30:48Z",
+  "modified": "2026-01-20T15:33:08Z",
   "published": "2026-01-08T12:30:30Z",
   "aliases": [
     "CVE-2025-67911"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67911"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/newsletters-lite/vulnerability/wordpress-newsletters-plugin-4-11-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

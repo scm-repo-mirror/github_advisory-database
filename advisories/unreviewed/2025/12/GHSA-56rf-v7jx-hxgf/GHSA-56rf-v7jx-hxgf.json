@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56rf-v7jx-hxgf",
-  "modified": "2025-12-31T15:30:26Z",
+  "modified": "2026-01-20T15:32:59Z",
   "published": "2025-12-31T15:30:26Z",
   "aliases": [
     "CVE-2025-63053"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63053"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/master-addons/vulnerability/wordpress-master-addons-for-elementor-plugin-2-0-9-9-4-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

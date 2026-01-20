@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jg6-956h-x8gj",
-  "modified": "2025-12-31T18:30:24Z",
+  "modified": "2026-01-20T15:33:00Z",
   "published": "2025-12-31T18:30:24Z",
   "aliases": [
     "CVE-2025-62143"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62143"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/video-playlist-and-gallery-plugin/vulnerability/wordpress-post-video-players-plugin-1-163-sensitive-data-exposure-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

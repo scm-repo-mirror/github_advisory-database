@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8r3-25j5-pg42",
-  "modified": "2026-01-08T18:30:49Z",
+  "modified": "2026-01-20T15:33:10Z",
   "published": "2026-01-08T12:30:31Z",
   "aliases": [
     "CVE-2025-68874"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68874"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/visitor-stats-widget/vulnerability/wordpress-visitor-stats-widget-plugin-1-5-0-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

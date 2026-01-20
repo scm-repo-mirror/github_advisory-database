@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwpr-fqq9-fcq8",
-  "modified": "2025-12-18T15:30:42Z",
+  "modified": "2026-01-20T15:32:32Z",
   "published": "2025-12-18T09:30:30Z",
   "aliases": [
     "CVE-2025-67546"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67546"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/erp/vulnerability/wordpress-wp-erp-plugin-1-16-6-sensitive-data-exposure-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

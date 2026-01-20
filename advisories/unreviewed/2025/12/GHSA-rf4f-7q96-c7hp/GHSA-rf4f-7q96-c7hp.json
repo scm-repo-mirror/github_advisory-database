@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf4f-7q96-c7hp",
-  "modified": "2025-12-31T15:30:25Z",
+  "modified": "2026-01-20T15:32:59Z",
   "published": "2025-12-31T15:30:25Z",
   "aliases": [
     "CVE-2025-62134"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62134"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/new-contact-form-widget/vulnerability/wordpress-contact-form-widget-plugin-1-5-1-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",
