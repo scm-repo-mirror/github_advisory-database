@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3f5-89cx-rxg5",
-  "modified": "2025-11-03T18:31:42Z",
+  "modified": "2026-01-20T21:31:30Z",
   "published": "2025-09-23T06:30:27Z",
   "aliases": [
     "CVE-2025-39870"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: idxd: Fix double free in idxd_setup_wqs()\n\nThe clean up in idxd_setup_wqs() has had a couple bugs because the error\nhandling is a bit subtle.  It's simpler to just re-write it in a cleaner\nway.  The issues here are:\n\n1) If \"idxd->max_wqs\" is <= 0 then we call put_device(conf_dev) when\n   \"conf_dev\" hasn't been initialized.\n2) If kzalloc_node() fails then again \"conf_dev\" is invalid.  It's\n   either uninitialized or it points to the \"conf_dev\" from the\n   previous iteration so it leads to a double free.\n\nIt's better to free partial loop iterations within the loop and then\nthe unwinding at the end can handle whole loop iterations.  I also\nrenamed the labels to describe what the goto does and not where the goto\nwas located.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-23T06:15:46Z"

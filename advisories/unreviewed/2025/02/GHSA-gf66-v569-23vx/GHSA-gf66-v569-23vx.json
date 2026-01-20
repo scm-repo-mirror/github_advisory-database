@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gf66-v569-23vx",
-  "modified": "2025-02-04T18:30:48Z",
+  "modified": "2026-01-20T21:31:29Z",
   "published": "2025-02-03T21:31:50Z",
   "aliases": [
     "CVE-2025-22978"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/elunez/eladmin/issues/863"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/elunez/eladmin/commit/d6a16e9afc0a3b96a56f1a24ed167e1beec6ce2f"
     }
   ],
   "database_specific": {

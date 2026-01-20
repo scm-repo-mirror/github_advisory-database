@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g59-m95p-pgfq",
-  "modified": "2026-01-20T00:30:28Z",
+  "modified": "2026-01-20T21:31:34Z",
   "published": "2026-01-20T00:30:28Z",
   "aliases": [
     "CVE-2026-22219"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/chainlit-sqlalchemy-data-layer-ssrf-via-project-element"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zafran.io/resources/chainleak-critical-ai-framework-vulnerabilities-expose-data-enable-cloud-takeover"
     }
   ],
   "database_specific": {
