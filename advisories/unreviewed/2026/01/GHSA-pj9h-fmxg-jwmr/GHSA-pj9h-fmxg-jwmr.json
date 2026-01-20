@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pj9h-fmxg-jwmr",
+  "modified": "2026-01-20T06:30:26Z",
+  "published": "2026-01-20T06:30:26Z",
+  "aliases": [
+    "CVE-2026-0904"
+  ],
+  "details": "Incorrect security UI in Digital Credentials in Google Chrome prior to 144.0.7559.59 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Medium)",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0904"
+    },
+    {
+      "type": "WEB",
+      "url": "https://chromereleases.googleblog.com/2026/01/stable-channel-update-for-desktop_13.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/452209495"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-20T05:16:15Z"
+  }
+}

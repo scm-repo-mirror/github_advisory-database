@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-m5g9-928c-q4jg",
+  "modified": "2026-01-20T06:30:26Z",
+  "published": "2026-01-20T06:30:26Z",
+  "aliases": [
+    "CVE-2026-0907"
+  ],
+  "details": "Incorrect security UI in Split View in Google Chrome prior to 144.0.7559.59 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Low)",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0907"
+    },
+    {
+      "type": "WEB",
+      "url": "https://chromereleases.googleblog.com/2026/01/stable-channel-update-for-desktop_13.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/444653104"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-20T05:16:16Z"
+  }
+}
