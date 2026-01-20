@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8v65-47jx-7mfr",
-  "modified": "2026-01-08T20:11:35Z",
+  "modified": "2026-01-20T19:03:27Z",
   "published": "2026-01-06T17:44:29Z",
   "aliases": [
     "CVE-2026-21859"
@@ -54,6 +54,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/axllent/mailpit"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4284"
     }
   ],
   "database_specific": {
