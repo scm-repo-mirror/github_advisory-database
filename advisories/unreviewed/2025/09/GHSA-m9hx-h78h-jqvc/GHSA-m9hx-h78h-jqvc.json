@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9hx-h78h-jqvc",
-  "modified": "2025-11-03T21:34:26Z",
+  "modified": "2026-01-20T18:31:51Z",
   "published": "2025-09-09T18:31:24Z",
   "aliases": [
     "CVE-2025-10198"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/LizardByte/Sunshine/pull/3971"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/LizardByte/Sunshine/commit/9db11a906167bd962e57896223d7b9718058aeb2"
     },
     {
       "type": "WEB",

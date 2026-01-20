@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hcq-q3qf-q453",
-  "modified": "2026-01-15T21:31:46Z",
+  "modified": "2026-01-20T18:31:54Z",
   "published": "2026-01-12T21:30:34Z",
   "aliases": [
     "CVE-2026-22200"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/osTicket/osTicket"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osTicket/osTicket/releases/tag/v1.17.7"
     },
     {
       "type": "WEB",

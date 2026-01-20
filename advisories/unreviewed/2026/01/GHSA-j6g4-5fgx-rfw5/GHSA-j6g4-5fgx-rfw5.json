@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6g4-5fgx-rfw5",
-  "modified": "2026-01-19T15:30:37Z",
+  "modified": "2026-01-20T18:31:56Z",
   "published": "2026-01-19T15:30:37Z",
   "aliases": [
     "CVE-2026-0610"
   ],
   "details": "SQL Injection vulnerability in remote-sessions in Devolutions Server.This issue affects Devolutions Server 2025.3.1 through 2025.3.12",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-19T15:15:50Z"

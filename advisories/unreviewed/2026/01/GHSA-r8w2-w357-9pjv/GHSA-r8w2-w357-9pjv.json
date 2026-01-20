@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-r8w2-w357-9pjv",
+  "modified": "2026-01-20T18:31:57Z",
+  "published": "2026-01-20T18:31:57Z",
+  "aliases": [
+    "CVE-2025-64087"
+  ],
+  "details": "A Server-Side Template Injection (SSTI) vulnerability in the FreeMarker component of opensagres XDocReport v1.0.0 to v2.1.0 allows attackers to execute arbitrary code via injecting crafted template expressions.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64087"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/opensagres/xdocreport/pull/705"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/AT190510-Cuong/CVE-2025-64087-SSTI-"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/opensagres/xdocreport"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@cuongnh/BJEnw7SAlg"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@cuongnh/SkQvhEf0lx"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-20T16:16:06Z"
+  }
+}

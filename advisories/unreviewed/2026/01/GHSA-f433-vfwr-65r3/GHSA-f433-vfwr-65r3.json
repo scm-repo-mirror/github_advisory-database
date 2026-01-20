@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f433-vfwr-65r3",
-  "modified": "2026-01-08T21:30:33Z",
+  "modified": "2026-01-20T18:31:53Z",
   "published": "2026-01-08T00:31:12Z",
   "aliases": [
     "CVE-2025-13151"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/gnutls/libtasn1/-/merge_requests/121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/271649"
     },
     {
       "type": "WEB",

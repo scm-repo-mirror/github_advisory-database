@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcf3-3w7x-r6cg",
-  "modified": "2026-01-20T15:33:14Z",
+  "modified": "2026-01-20T18:31:56Z",
   "published": "2026-01-20T15:33:14Z",
   "aliases": [
     "CVE-2025-55071"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2259"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2259"
     }
   ],
   "database_specific": {

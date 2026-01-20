@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xvq-93jj-7c4r",
-  "modified": "2025-10-02T21:31:18Z",
+  "modified": "2026-01-20T18:31:52Z",
   "published": "2025-10-02T18:30:59Z",
   "aliases": [
     "CVE-2025-56154"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/danpros/htmly/releases/tag/v3.0.9#:~:text=Security%20fixes%20found%20in%20version%203.0.8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pastebin.com/dVityKmU"
     }
   ],
   "database_specific": {

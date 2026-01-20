@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxhx-7292-7rv8",
-  "modified": "2026-01-15T21:31:46Z",
+  "modified": "2026-01-20T18:31:55Z",
   "published": "2026-01-14T12:31:38Z",
   "aliases": [
     "CVE-2025-0647"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://developer.arm.com/documentation/111546"
+    },
+    {
+      "type": "WEB",
+      "url": "https://graph.volerion.com/view?ID=CVE-2025-0647"
     }
   ],
   "database_specific": {

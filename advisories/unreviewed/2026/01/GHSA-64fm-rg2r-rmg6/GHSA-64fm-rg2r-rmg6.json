@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64fm-rg2r-rmg6",
-  "modified": "2026-01-20T15:33:13Z",
+  "modified": "2026-01-20T18:31:56Z",
   "published": "2026-01-20T15:33:13Z",
   "aliases": [
     "CVE-2025-54495"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2255"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2255"
     }
   ],
   "database_specific": {

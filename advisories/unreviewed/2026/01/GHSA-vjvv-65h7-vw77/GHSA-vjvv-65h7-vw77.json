@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjvv-65h7-vw77",
-  "modified": "2026-01-20T15:33:13Z",
+  "modified": "2026-01-20T18:31:56Z",
   "published": "2026-01-20T15:33:13Z",
   "aliases": [
     "CVE-2025-36556"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2025-2272"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2272"
     }
   ],
   "database_specific": {

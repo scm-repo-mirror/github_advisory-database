@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvhh-fvm4-vqqj",
-  "modified": "2026-01-13T21:31:43Z",
+  "modified": "2026-01-20T18:31:54Z",
   "published": "2026-01-13T18:31:07Z",
   "aliases": [
     "CVE-2025-64155"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/horizon3ai/CVE-2025-64155"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/purehate/CVE-2025-64155-hunter"
     }
   ],
   "database_specific": {
