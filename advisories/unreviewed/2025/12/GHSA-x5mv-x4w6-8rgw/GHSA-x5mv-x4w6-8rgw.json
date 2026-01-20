@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5mv-x4w6-8rgw",
-  "modified": "2025-12-09T18:30:39Z",
+  "modified": "2026-01-20T15:32:04Z",
   "published": "2025-12-09T18:30:39Z",
   "aliases": [
     "CVE-2025-63065"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/media-library-assistant/vulnerability/wordpress-media-library-assistant-plugin-3-30-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

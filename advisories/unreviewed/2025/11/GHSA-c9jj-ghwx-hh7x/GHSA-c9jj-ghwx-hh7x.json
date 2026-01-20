@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9jj-ghwx-hh7x",
-  "modified": "2025-11-13T12:31:35Z",
+  "modified": "2026-01-20T15:31:48Z",
   "published": "2025-11-06T18:32:53Z",
   "aliases": [
     "CVE-2025-49905"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49905"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/range-slider-addon-for-gravity-forms/vulnerability/wordpress-range-slider-addon-for-gravity-forms-plugin-1-1-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

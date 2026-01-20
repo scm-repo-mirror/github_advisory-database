@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5v3v-f25w-2f2w",
-  "modified": "2025-11-22T00:31:20Z",
+  "modified": "2026-01-20T15:31:56Z",
   "published": "2025-11-21T15:31:26Z",
   "aliases": [
     "CVE-2025-66066"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66066"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/envo-extra/vulnerability/wordpress-envo-extra-plugin-1-9-11-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

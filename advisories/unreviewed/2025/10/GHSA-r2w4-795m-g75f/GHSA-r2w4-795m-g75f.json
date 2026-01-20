@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r2w4-795m-g75f",
-  "modified": "2025-11-13T12:31:34Z",
+  "modified": "2026-01-20T15:31:43Z",
   "published": "2025-10-31T12:30:23Z",
   "aliases": [
     "CVE-2025-64365"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64365"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/ohio-extra/vulnerability/wordpress-ohio-extra-plugin-3-6-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4pcx-m3hv-2jw5",
-  "modified": "2025-11-13T12:31:41Z",
+  "modified": "2026-01-20T15:31:54Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62049"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62049"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/cost-calculator-builder/vulnerability/wordpress-cost-calculator-builder-plugin-3-5-32-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

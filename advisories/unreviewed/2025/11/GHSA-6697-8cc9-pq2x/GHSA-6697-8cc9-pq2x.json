@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6697-8cc9-pq2x",
-  "modified": "2025-11-24T18:31:10Z",
+  "modified": "2026-01-20T15:31:57Z",
   "published": "2025-11-21T15:31:28Z",
   "aliases": [
     "CVE-2025-66113"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/better-chat-support/vulnerability/wordpress-better-chat-support-for-messenger-plugin-1-2-18-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

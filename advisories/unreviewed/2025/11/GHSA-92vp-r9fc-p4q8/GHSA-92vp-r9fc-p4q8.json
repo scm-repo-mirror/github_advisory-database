@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92vp-r9fc-p4q8",
-  "modified": "2025-11-13T12:31:41Z",
+  "modified": "2026-01-20T15:31:54Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62057"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62057"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/houzez-theme-functionality/vulnerability/wordpress-houzez-theme-functionality-plugin-4-2-0-cross-site-scripting-xss-vulnerability-2?_s_id=cve"
     },
     {
       "type": "WEB",

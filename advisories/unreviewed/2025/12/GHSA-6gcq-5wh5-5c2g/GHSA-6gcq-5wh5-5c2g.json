@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gcq-5wh5-5c2g",
-  "modified": "2025-12-10T18:30:25Z",
+  "modified": "2026-01-20T15:32:03Z",
   "published": "2025-12-09T18:30:39Z",
   "aliases": [
     "CVE-2025-63035"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63035"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wplms_plugin/vulnerability/wordpress-wplms-plugin-1-9-9-5-4-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6w9-xw9v-7737",
-  "modified": "2025-11-22T00:31:20Z",
+  "modified": "2026-01-20T15:31:56Z",
   "published": "2025-11-21T15:31:26Z",
   "aliases": [
     "CVE-2025-66079"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66079"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/gutenverse-form/vulnerability/wordpress-gutenverse-form-plugin-2-2-0-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

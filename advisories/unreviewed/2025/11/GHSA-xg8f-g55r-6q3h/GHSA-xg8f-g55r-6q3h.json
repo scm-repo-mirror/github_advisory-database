@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xg8f-g55r-6q3h",
-  "modified": "2025-11-13T12:31:36Z",
+  "modified": "2026-01-20T15:31:48Z",
   "published": "2025-11-06T18:32:53Z",
   "aliases": [
     "CVE-2025-53242"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53242"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/seil/vulnerability/wordpress-seil-theme-1-7-1-deserialization-of-untrusted-data-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

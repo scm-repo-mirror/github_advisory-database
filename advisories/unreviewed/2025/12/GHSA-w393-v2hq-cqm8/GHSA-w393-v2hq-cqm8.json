@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w393-v2hq-cqm8",
-  "modified": "2025-12-18T21:31:41Z",
+  "modified": "2026-01-20T15:32:21Z",
   "published": "2025-12-18T09:30:26Z",
   "aliases": [
     "CVE-2025-54743"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54743"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/download-after-email/vulnerability/wordpress-download-after-email-plugin-2-1-5-2-1-6-other-vulnerability-type-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

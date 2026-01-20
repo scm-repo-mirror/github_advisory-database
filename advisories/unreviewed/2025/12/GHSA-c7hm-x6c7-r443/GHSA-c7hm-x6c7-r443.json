@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7hm-x6c7-r443",
-  "modified": "2025-12-16T21:30:53Z",
+  "modified": "2026-01-20T15:32:13Z",
   "published": "2025-12-16T09:31:07Z",
   "aliases": [
     "CVE-2025-64244"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64244"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/restrict-elementor-widgets/vulnerability/wordpress-restrict-elementor-widgets-columns-and-sections-plugin-1-12-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmj6-wrgg-4jjx",
-  "modified": "2025-11-13T12:31:35Z",
+  "modified": "2026-01-20T15:31:47Z",
   "published": "2025-11-06T18:32:51Z",
   "aliases": [
     "CVE-2025-48083"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48083"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wpnamedusers/vulnerability/wordpress-wpnamedusers-plugin-0-5-cross-site-request-forgery-csrf-to-stored-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmvv-55wg-g897",
-  "modified": "2025-11-13T12:31:27Z",
+  "modified": "2026-01-20T15:31:33Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62062"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62062"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/easy-post-submission/vulnerability/wordpress-easy-post-submission-plugin-1-7-0-sensitive-data-exposure-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6g6-j52p-pg8h",
-  "modified": "2025-11-03T18:31:42Z",
+  "modified": "2026-01-20T15:31:21Z",
   "published": "2025-09-22T21:30:17Z",
   "aliases": [
     "CVE-2025-39848"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nax25: properly unshare skbs in ax25_kiss_rcv()\n\nBernard Pidoux reported a regression apparently caused by commit\nc353e8983e0d (\"net: introduce per netns packet chains\").\n\nskb->dev becomes NULL and we crash in __netif_receive_skb_core().\n\nBefore above commit, different kind of bugs or corruptions could happen\nwithout a major crash.\n\nBut the root cause is that ax25_kiss_rcv() can queue/mangle input skb\nwithout checking if this skb is shared or not.\n\nMany thanks to Bernard Pidoux for his help, diagnosis and tests.\n\nWe had a similar issue years ago fixed with commit 7aaed57c5c28\n(\"phonet: properly unshare skbs in phonet_rcv()\").",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-19T16:15:43Z"

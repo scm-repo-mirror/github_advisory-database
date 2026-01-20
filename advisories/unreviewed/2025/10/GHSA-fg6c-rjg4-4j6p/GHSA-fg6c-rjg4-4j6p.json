@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg6c-rjg4-4j6p",
-  "modified": "2025-11-13T12:31:30Z",
+  "modified": "2026-01-20T15:31:36Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62940"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/blox-lite/vulnerability/wordpress-blox-lite-plugin-1-2-8-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

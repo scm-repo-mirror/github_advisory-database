@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cjc-j8vj-q9qv",
-  "modified": "2025-12-16T18:31:31Z",
+  "modified": "2026-01-20T15:32:12Z",
   "published": "2025-12-16T09:31:07Z",
   "aliases": [
     "CVE-2025-54045"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54045"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/cm-on-demand-search-and-replace/vulnerability/wordpress-cm-on-demand-search-and-replace-plugin-1-5-4-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

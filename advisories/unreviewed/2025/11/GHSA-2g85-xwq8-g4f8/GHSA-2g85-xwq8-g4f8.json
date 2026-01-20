@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g85-xwq8-g4f8",
-  "modified": "2025-11-21T15:31:26Z",
+  "modified": "2026-01-20T15:31:56Z",
   "published": "2025-11-21T15:31:26Z",
   "aliases": [
     "CVE-2025-66056"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66056"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/uncanny-automator/vulnerability/wordpress-uncanny-automator-plugin-6-10-0-sensitive-data-exposure-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

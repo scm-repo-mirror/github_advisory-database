@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9wm-m2fc-3vmp",
-  "modified": "2025-12-18T15:30:24Z",
+  "modified": "2026-01-20T15:32:14Z",
   "published": "2025-12-16T09:31:09Z",
   "aliases": [
     "CVE-2025-66121"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/sg-security/vulnerability/wordpress-siteground-security-plugin-1-5-8-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

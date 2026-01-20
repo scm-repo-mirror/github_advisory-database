@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vh3j-4vp2-x7m2",
-  "modified": "2025-11-13T12:31:30Z",
+  "modified": "2026-01-20T15:31:36Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62942"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62942"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-mapbox-gl-js/vulnerability/wordpress-wp-mapbox-gl-js-maps-plugin-3-0-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

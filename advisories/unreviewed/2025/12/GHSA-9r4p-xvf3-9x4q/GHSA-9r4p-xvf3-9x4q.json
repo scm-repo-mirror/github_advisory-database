@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r4p-xvf3-9x4q",
-  "modified": "2025-12-11T00:30:32Z",
+  "modified": "2026-01-20T15:32:11Z",
   "published": "2025-12-09T18:30:42Z",
   "aliases": [
     "CVE-2025-67548"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67548"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/delicious-recipes/vulnerability/wordpress-wp-delicious-plugin-1-9-1-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

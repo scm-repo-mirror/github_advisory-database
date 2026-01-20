@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2rh-m6wf-pp65",
-  "modified": "2025-12-16T21:30:53Z",
+  "modified": "2026-01-20T15:32:18Z",
   "published": "2025-12-16T09:31:10Z",
   "aliases": [
     "CVE-2025-68077"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/stockholm/vulnerability/wordpress-stockholm-theme-9-14-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

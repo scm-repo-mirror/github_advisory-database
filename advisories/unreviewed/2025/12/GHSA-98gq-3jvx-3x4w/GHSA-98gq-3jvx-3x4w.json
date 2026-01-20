@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98gq-3jvx-3x4w",
-  "modified": "2025-12-11T00:30:31Z",
+  "modified": "2026-01-20T15:32:04Z",
   "published": "2025-12-09T18:30:41Z",
   "aliases": [
     "CVE-2025-66525"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66525"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/elastic-email-sender/vulnerability/wordpress-elastic-email-sender-plugin-1-2-20-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

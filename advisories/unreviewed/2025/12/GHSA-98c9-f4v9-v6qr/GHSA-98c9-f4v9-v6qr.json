@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98c9-f4v9-v6qr",
-  "modified": "2025-12-09T21:31:41Z",
+  "modified": "2026-01-20T15:32:11Z",
   "published": "2025-12-09T18:30:42Z",
   "aliases": [
     "CVE-2025-67539"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67539"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/select-core/vulnerability/wordpress-select-core-plugin-2-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

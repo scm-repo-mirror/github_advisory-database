@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62m2-79cv-f29w",
-  "modified": "2025-11-17T18:30:24Z",
+  "modified": "2026-01-20T15:31:48Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-58627"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58627"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/miraculouscore/vulnerability/wordpress-miraculous-core-plugin-plugin-2-0-9-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

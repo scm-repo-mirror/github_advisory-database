@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r86c-4hwv-x6mg",
-  "modified": "2025-11-13T12:31:21Z",
+  "modified": "2026-01-20T15:31:24Z",
   "published": "2025-10-22T15:31:14Z",
   "aliases": [
     "CVE-2025-49950"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49950"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/billingo/vulnerability/wordpress-official-integration-for-billingo-plugin-4-2-5-privilege-escalation-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

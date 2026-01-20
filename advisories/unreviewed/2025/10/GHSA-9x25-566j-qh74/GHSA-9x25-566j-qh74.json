@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9x25-566j-qh74",
-  "modified": "2025-11-13T12:31:26Z",
+  "modified": "2026-01-20T15:31:30Z",
   "published": "2025-10-22T15:31:18Z",
   "aliases": [
     "CVE-2025-60215"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60215"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/kriya/vulnerability/wordpress-kriya-theme-3-4-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwrg-545v-m46r",
-  "modified": "2025-11-13T12:31:34Z",
+  "modified": "2026-01-20T15:31:45Z",
   "published": "2025-11-06T18:32:50Z",
   "aliases": [
     "CVE-2025-22288"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22288"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-smushit/vulnerability/wordpress-smush-image-compression-and-optimization-plugin-3-17-0-directory-traversal-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

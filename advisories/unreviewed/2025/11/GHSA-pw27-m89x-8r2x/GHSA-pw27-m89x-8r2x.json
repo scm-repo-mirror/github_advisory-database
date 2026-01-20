@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw27-m89x-8r2x",
-  "modified": "2025-11-13T18:31:03Z",
+  "modified": "2026-01-20T15:31:55Z",
   "published": "2025-11-13T12:31:42Z",
   "aliases": [
     "CVE-2025-64264"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64264"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/popup-addon-for-ninja-forms/vulnerability/wordpress-popup-addon-for-ninja-forms-plugin-3-5-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

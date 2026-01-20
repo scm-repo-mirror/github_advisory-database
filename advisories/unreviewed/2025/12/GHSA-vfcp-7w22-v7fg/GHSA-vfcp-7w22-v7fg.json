@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfcp-7w22-v7fg",
-  "modified": "2025-12-17T21:30:45Z",
+  "modified": "2026-01-20T15:32:16Z",
   "published": "2025-12-16T09:31:09Z",
   "aliases": [
     "CVE-2025-67976"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67976"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/watu/vulnerability/wordpress-watu-quiz-plugin-3-4-5-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

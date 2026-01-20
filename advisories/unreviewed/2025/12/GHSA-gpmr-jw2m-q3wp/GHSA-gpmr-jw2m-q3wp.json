@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpmr-jw2m-q3wp",
-  "modified": "2025-12-11T00:30:29Z",
+  "modified": "2026-01-20T15:31:59Z",
   "published": "2025-12-09T18:30:37Z",
   "aliases": [
     "CVE-2025-62093"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62093"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/lbg_fullscreen_fullwidth_slider/vulnerability/wordpress-image-video-fullscreen-background-plugin-1-6-7-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

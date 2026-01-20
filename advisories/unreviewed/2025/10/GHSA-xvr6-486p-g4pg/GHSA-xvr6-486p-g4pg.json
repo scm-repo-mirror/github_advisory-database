@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvr6-486p-g4pg",
-  "modified": "2025-11-13T12:31:24Z",
+  "modified": "2026-01-20T15:31:28Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-58921"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58921"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-tactical-popup/vulnerability/wordpress-wp-tactical-popup-plugin-1-1-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

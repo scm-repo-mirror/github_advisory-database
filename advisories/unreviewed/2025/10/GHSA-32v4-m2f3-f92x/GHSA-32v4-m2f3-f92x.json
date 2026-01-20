@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32v4-m2f3-f92x",
-  "modified": "2025-11-13T12:31:20Z",
+  "modified": "2026-01-20T15:31:23Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49901"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49901"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/qc-simple-link-directory/vulnerability/wordpress-simple-link-directory-plugin-14-8-1-broken-authentication-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

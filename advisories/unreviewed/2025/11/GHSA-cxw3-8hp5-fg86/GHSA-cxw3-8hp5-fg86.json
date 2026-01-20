@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxw3-8hp5-fg86",
-  "modified": "2025-11-13T12:31:36Z",
+  "modified": "2026-01-20T15:31:48Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-53349"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53349"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/kalium/vulnerability/wordpress-kalium-theme-3-18-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

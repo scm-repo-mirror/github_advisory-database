@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfhx-j544-rw6j",
-  "modified": "2025-12-11T00:30:32Z",
+  "modified": "2026-01-20T15:32:12Z",
   "published": "2025-12-09T18:30:43Z",
   "aliases": [
     "CVE-2025-67571"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67571"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wpfunnels/vulnerability/wordpress-wpfunnels-plugin-3-6-2-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

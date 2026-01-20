@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v544-8m2p-8j2r",
-  "modified": "2025-11-13T12:31:25Z",
+  "modified": "2026-01-20T15:31:29Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-60131"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60131"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/werk-aan-de-muur/vulnerability/wordpress-werk-aan-de-muur-plugin-1-5-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

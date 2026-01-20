@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj4q-gpcg-gvvm",
-  "modified": "2025-11-13T12:31:35Z",
+  "modified": "2026-01-20T15:31:47Z",
   "published": "2025-11-06T18:32:52Z",
   "aliases": [
     "CVE-2025-49372"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49372"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/happy-helpdesk-support-ticket-system/vulnerability/wordpress-happy-plugin-1-0-7-remote-code-execution-rce-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

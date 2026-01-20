@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g56q-p85p-h6p8",
-  "modified": "2025-12-09T18:30:40Z",
+  "modified": "2026-01-20T15:32:04Z",
   "published": "2025-12-09T18:30:40Z",
   "aliases": [
     "CVE-2025-63071"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63071"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/auxin-elements/vulnerability/wordpress-shortcodes-and-extra-features-for-phlox-theme-plugin-2-17-12-sensitive-data-exposure-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

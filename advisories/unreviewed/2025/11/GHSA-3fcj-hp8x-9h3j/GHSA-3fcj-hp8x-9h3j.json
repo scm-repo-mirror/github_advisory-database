@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fcj-hp8x-9h3j",
-  "modified": "2025-11-13T12:31:40Z",
+  "modified": "2026-01-20T15:31:52Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62018"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/kallyas/vulnerability/wordpress-kallyas-theme-4-22-0-broken-access-control-vulnerability-2?_s_id=cve"
     },
     {
       "type": "WEB",

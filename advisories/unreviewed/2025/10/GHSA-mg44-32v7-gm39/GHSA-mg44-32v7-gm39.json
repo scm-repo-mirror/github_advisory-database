@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg44-32v7-gm39",
-  "modified": "2025-11-13T12:31:21Z",
+  "modified": "2026-01-20T15:31:24Z",
   "published": "2025-10-22T15:31:14Z",
   "aliases": [
     "CVE-2025-49947"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/extendons-registration-fields/vulnerability/wordpress-woocommerce-registration-fields-plugin-custom-signup-fields-plugin-3-2-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

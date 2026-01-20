@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc8p-jp3g-x9hm",
-  "modified": "2025-11-13T12:31:32Z",
+  "modified": "2026-01-20T15:31:38Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62980"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62980"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/persian-admin-fonts/vulnerability/wordpress-persian-admnin-fonts-plugin-4-1-03-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

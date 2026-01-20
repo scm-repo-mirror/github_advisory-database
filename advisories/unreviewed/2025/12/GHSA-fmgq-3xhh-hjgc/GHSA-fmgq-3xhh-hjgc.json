@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmgq-3xhh-hjgc",
-  "modified": "2025-12-16T18:31:31Z",
+  "modified": "2026-01-20T15:32:14Z",
   "published": "2025-12-16T09:31:08Z",
   "aliases": [
     "CVE-2025-64633"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64633"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/norebro-extra/vulnerability/wordpress-norebro-extra-plugin-1-6-8-content-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

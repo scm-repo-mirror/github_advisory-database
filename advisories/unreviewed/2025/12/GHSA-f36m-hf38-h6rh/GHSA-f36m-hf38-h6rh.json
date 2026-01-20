@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f36m-hf38-h6rh",
-  "modified": "2025-12-09T21:31:42Z",
+  "modified": "2026-01-20T15:32:11Z",
   "published": "2025-12-09T18:30:43Z",
   "aliases": [
     "CVE-2025-67562"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67562"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/image-caption-hover-pro/vulnerability/wordpress-image-caption-hover-pro-plugin-20-0-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

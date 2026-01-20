@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq9q-6fj5-84pm",
-  "modified": "2025-11-13T12:31:27Z",
+  "modified": "2026-01-20T15:31:33Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62048"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62048"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/smartcrawl-seo/vulnerability/wordpress-smartcrawl-plugin-3-14-3-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp33-jqv4-5hjf",
-  "modified": "2025-12-11T21:31:27Z",
+  "modified": "2026-01-20T15:32:05Z",
   "published": "2025-12-09T18:30:41Z",
   "aliases": [
     "CVE-2025-67518"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67518"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/accordion_slider_pro/vulnerability/wordpress-accordion-slider-pro-plugin-1-2-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

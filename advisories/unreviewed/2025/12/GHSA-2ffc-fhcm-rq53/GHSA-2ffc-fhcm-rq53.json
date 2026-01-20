@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2ffc-fhcm-rq53",
-  "modified": "2025-12-18T21:31:41Z",
+  "modified": "2026-01-20T15:32:21Z",
   "published": "2025-12-18T09:30:26Z",
   "aliases": [
     "CVE-2025-54748"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54748"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/mapsvg/vulnerability/wordpress-mapsvg-plugin-8-6-12-arbitrary-file-download-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

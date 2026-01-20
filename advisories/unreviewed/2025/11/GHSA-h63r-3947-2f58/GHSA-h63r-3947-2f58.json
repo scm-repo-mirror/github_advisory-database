@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h63r-3947-2f58",
-  "modified": "2025-11-21T18:30:29Z",
+  "modified": "2026-01-20T15:31:56Z",
   "published": "2025-11-21T15:31:26Z",
   "aliases": [
     "CVE-2025-66063"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66063"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-google-places-review-slider/vulnerability/wordpress-wp-google-review-slider-plugin-17-4-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

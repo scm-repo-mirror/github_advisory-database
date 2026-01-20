@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3xr-wm72-mg2w",
-  "modified": "2025-11-13T12:31:32Z",
+  "modified": "2026-01-20T15:31:37Z",
   "published": "2025-10-27T03:30:39Z",
   "aliases": [
     "CVE-2025-62971"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62971"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/attesa-extra/vulnerability/wordpress-attesa-extra-plugin-1-4-5-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

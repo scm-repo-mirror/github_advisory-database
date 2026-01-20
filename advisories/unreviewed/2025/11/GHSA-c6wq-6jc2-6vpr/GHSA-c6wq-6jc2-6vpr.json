@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6wq-6jc2-6vpr",
-  "modified": "2025-11-17T18:30:26Z",
+  "modified": "2026-01-20T15:31:50Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-60235"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60235"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/support-ticket-system-for-woocommerce/vulnerability/wordpress-helpdesk-support-ticket-system-for-woocommerce-plugin-2-0-7-arbitrary-file-upload-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

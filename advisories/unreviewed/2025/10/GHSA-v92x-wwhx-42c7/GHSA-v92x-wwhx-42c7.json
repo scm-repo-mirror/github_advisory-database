@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v92x-wwhx-42c7",
-  "modified": "2025-11-13T12:31:29Z",
+  "modified": "2026-01-20T15:31:36Z",
   "published": "2025-10-27T03:30:38Z",
   "aliases": [
     "CVE-2025-62929"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62929"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/testimonial/vulnerability/wordpress-testimonial-slider-plugin-2-0-15-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

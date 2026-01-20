@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26wv-jmh7-mwh7",
-  "modified": "2025-11-13T12:31:22Z",
+  "modified": "2026-01-20T15:31:26Z",
   "published": "2025-10-22T15:31:15Z",
   "aliases": [
     "CVE-2025-52750"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52750"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/emu2-email-users-2/vulnerability/wordpress-emu2-plugin-0-83b-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

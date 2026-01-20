@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66fq-7q7x-4qmp",
-  "modified": "2025-11-13T12:31:35Z",
+  "modified": "2026-01-20T15:31:48Z",
   "published": "2025-11-06T18:32:53Z",
   "aliases": [
     "CVE-2025-49909"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49909"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/penci-bookmark-follow/vulnerability/wordpress-penci-bookmark-follow-plugin-2-4-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

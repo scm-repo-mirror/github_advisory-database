@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjj9-hq36-7gwq",
-  "modified": "2025-11-13T12:31:27Z",
+  "modified": "2026-01-20T15:31:34Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62071"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62071"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/social-testimonials-and-reviews-widget/vulnerability/wordpress-social-proof-testimonials-and-reviews-by-repuso-plugin-5-29-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9pw-6xfq-5jqf",
-  "modified": "2025-12-18T21:31:40Z",
+  "modified": "2026-01-20T15:32:18Z",
   "published": "2025-12-18T09:30:25Z",
   "aliases": [
     "CVE-2025-49914"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49914"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/mp-restaurant-menu/vulnerability/wordpress-restaurant-menu-by-motopress-plugin-2-4-7-sensitive-data-exposure-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

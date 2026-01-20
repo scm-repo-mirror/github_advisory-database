@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46rg-3ch6-xmgj",
-  "modified": "2025-12-11T21:31:27Z",
+  "modified": "2026-01-20T15:32:04Z",
   "published": "2025-12-09T18:30:40Z",
   "aliases": [
     "CVE-2025-64254"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64254"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/photo-block/vulnerability/wordpress-photo-block-plugin-1-5-1-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

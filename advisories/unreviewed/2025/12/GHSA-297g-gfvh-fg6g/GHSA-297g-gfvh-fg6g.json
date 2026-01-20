@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-297g-gfvh-fg6g",
-  "modified": "2025-12-18T21:31:34Z",
+  "modified": "2026-01-20T15:32:13Z",
   "published": "2025-12-16T09:31:08Z",
   "aliases": [
     "CVE-2025-64630"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64630"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/business-directory-plugin/vulnerability/wordpress-business-directory-plugin-6-4-19-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

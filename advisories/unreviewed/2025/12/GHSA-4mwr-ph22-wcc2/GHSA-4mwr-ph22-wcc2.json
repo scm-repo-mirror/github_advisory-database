@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mwr-ph22-wcc2",
-  "modified": "2025-12-11T00:30:30Z",
+  "modified": "2026-01-20T15:32:02Z",
   "published": "2025-12-09T18:30:38Z",
   "aliases": [
     "CVE-2025-62869"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62869"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/gravitec-net-web-push-notifications/vulnerability/wordpress-gravitec-net-web-push-notifications-plugin-2-9-17-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

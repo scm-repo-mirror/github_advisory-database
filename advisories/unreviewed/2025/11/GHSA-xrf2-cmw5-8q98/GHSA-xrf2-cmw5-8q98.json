@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrf2-cmw5-8q98",
-  "modified": "2025-11-28T21:31:18Z",
+  "modified": "2026-01-20T15:31:56Z",
   "published": "2025-11-21T15:31:27Z",
   "aliases": [
     "CVE-2025-66095"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66095"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/kivicare-clinic-management-system/vulnerability/wordpress-kivicare-plugin-3-6-13-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

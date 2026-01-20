@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4pw-24fx-xqv3",
-  "modified": "2025-12-11T00:30:31Z",
+  "modified": "2026-01-20T15:32:02Z",
   "published": "2025-12-09T18:30:38Z",
   "aliases": [
     "CVE-2025-62873"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62873"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-flashy-marketing-automation/vulnerability/wordpress-wp-flashy-marketing-automation-plugin-2-0-8-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

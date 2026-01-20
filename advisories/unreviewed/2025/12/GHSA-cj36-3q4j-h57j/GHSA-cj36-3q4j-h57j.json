@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj36-3q4j-h57j",
-  "modified": "2025-12-09T18:30:39Z",
+  "modified": "2026-01-20T15:32:03Z",
   "published": "2025-12-09T18:30:39Z",
   "aliases": [
     "CVE-2025-63042"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63042"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/tutor-lms-elementor-addons/vulnerability/wordpress-tutor-lms-elementor-addons-plugin-3-0-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

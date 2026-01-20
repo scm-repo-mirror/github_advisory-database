@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43c8-2xf3-9353",
-  "modified": "2025-12-11T18:30:42Z",
+  "modified": "2026-01-20T15:31:59Z",
   "published": "2025-12-09T18:30:37Z",
   "aliases": [
     "CVE-2025-62085"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62085"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/bertha-ai-free/vulnerability/wordpress-bertha-ai-plugin-1-13-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

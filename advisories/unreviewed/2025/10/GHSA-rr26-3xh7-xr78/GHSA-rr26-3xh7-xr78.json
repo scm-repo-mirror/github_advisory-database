@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rr26-3xh7-xr78",
-  "modified": "2025-11-13T12:31:19Z",
+  "modified": "2026-01-20T15:31:21Z",
   "published": "2025-10-22T15:31:12Z",
   "aliases": [
     "CVE-2025-30944"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30944"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/tablesome-premium/vulnerability/wordpress-tablesome-table-premium-1-1-23-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

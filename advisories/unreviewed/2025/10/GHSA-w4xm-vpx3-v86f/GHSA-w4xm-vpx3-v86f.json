@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4xm-vpx3-v86f",
-  "modified": "2025-10-27T03:30:40Z",
+  "modified": "2026-01-20T15:31:39Z",
   "published": "2025-10-27T03:30:40Z",
   "aliases": [
     "CVE-2025-58918"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58918"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/WordPress/Theme/entrada/vulnerability/wordpress-entrada-theme-5-7-7-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

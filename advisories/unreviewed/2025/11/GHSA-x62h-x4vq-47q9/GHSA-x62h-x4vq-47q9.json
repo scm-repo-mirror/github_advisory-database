@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x62h-x4vq-47q9",
-  "modified": "2025-11-21T21:30:17Z",
+  "modified": "2026-01-20T15:31:56Z",
   "published": "2025-11-21T15:31:26Z",
   "aliases": [
     "CVE-2025-66064"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66064"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/rafflepress/vulnerability/wordpress-giveaways-and-contests-by-rafflepress-plugin-1-12-20-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

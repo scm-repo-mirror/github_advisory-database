@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxqj-85wp-2652",
-  "modified": "2025-12-11T00:30:31Z",
+  "modified": "2026-01-20T15:32:02Z",
   "published": "2025-12-09T18:30:38Z",
   "aliases": [
     "CVE-2025-62872"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62872"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/facebook-photo-fetcher/vulnerability/wordpress-social-photo-fetcher-plugin-3-0-4-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

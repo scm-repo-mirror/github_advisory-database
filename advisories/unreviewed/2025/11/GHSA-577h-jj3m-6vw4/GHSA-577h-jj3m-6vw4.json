@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-577h-jj3m-6vw4",
-  "modified": "2025-11-13T12:31:35Z",
+  "modified": "2026-01-20T15:31:47Z",
   "published": "2025-11-06T18:32:52Z",
   "aliases": [
     "CVE-2025-49900"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/advanced-scrollbar/vulnerability/wordpress-advanced-scrollbar-plugin-1-1-8-privilege-escalation-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

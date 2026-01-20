@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j89p-93xp-xgv5",
-  "modified": "2025-12-10T21:31:29Z",
+  "modified": "2026-01-20T15:31:57Z",
   "published": "2025-11-21T15:31:28Z",
   "aliases": [
     "CVE-2025-66111"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66111"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/nelio-popups/vulnerability/wordpress-nelio-popups-plugin-1-3-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

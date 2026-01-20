@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hqvj-xwvm-6vr9",
-  "modified": "2025-11-13T12:31:40Z",
+  "modified": "2026-01-20T15:31:49Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-60204"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/woocommerce-store-toolkit/vulnerability/wordpress-woocommerce-store-toolkit-plugin-2-4-3-local-file-inclusion-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

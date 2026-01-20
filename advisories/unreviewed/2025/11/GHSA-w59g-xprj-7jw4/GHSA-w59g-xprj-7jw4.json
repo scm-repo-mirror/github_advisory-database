@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w59g-xprj-7jw4",
-  "modified": "2025-11-22T00:31:20Z",
+  "modified": "2026-01-20T15:31:56Z",
   "published": "2025-11-21T15:31:27Z",
   "aliases": [
     "CVE-2025-66087"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66087"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/propertyhive/vulnerability/wordpress-propertyhive-plugin-2-1-12-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

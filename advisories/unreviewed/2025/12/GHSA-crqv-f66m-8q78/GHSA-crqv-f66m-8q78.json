@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crqv-f66m-8q78",
-  "modified": "2025-12-17T21:30:45Z",
+  "modified": "2026-01-20T15:32:16Z",
   "published": "2025-12-16T09:31:10Z",
   "aliases": [
     "CVE-2025-67999"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67999"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/newsletter/vulnerability/wordpress-newsletter-plugin-9-0-9-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

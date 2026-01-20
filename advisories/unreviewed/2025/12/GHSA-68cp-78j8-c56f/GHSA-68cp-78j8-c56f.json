@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68cp-78j8-c56f",
-  "modified": "2025-12-09T18:30:39Z",
+  "modified": "2026-01-20T15:32:04Z",
   "published": "2025-12-09T18:30:39Z",
   "aliases": [
     "CVE-2025-63064"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63064"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/eventon/vulnerability/wordpress-eventon-plugin-4-9-12-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

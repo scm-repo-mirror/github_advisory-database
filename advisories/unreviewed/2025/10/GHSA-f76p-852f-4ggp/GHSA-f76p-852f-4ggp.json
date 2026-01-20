@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f76p-852f-4ggp",
-  "modified": "2025-11-13T12:31:27Z",
+  "modified": "2026-01-20T15:31:32Z",
   "published": "2025-10-22T15:31:19Z",
   "aliases": [
     "CVE-2025-62020"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62020"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/vod-infomaniak/vulnerability/wordpress-vod-infomaniak-plugin-1-5-11-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ff6g-9x2f-3qgm",
-  "modified": "2025-11-13T12:31:25Z",
+  "modified": "2026-01-20T15:31:29Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-60132"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/video-blogster-lite/vulnerability/wordpress-video-blogster-lite-plugin-1-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

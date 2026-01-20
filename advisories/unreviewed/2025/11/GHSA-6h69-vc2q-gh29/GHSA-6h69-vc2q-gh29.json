@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h69-vc2q-gh29",
-  "modified": "2025-11-13T12:31:35Z",
+  "modified": "2026-01-20T15:31:47Z",
   "published": "2025-11-06T18:32:51Z",
   "aliases": [
     "CVE-2025-48086"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/ajax-search-lite/vulnerability/wordpress-ajax-search-lite-plugin-4-13-3-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7chc-h92q-cv66",
-  "modified": "2025-12-16T18:31:31Z",
+  "modified": "2026-01-20T15:32:13Z",
   "published": "2025-12-16T09:31:07Z",
   "aliases": [
     "CVE-2025-64242"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64242"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/easy-property-listings/vulnerability/wordpress-easy-property-listings-plugin-3-5-15-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8w5m-hc8r-mmm9",
-  "modified": "2025-11-13T12:31:33Z",
+  "modified": "2026-01-20T15:31:41Z",
   "published": "2025-10-29T09:30:23Z",
   "aliases": [
     "CVE-2025-64226"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64226"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/stockie-extra/vulnerability/wordpress-stockie-extra-plugin-1-2-11-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

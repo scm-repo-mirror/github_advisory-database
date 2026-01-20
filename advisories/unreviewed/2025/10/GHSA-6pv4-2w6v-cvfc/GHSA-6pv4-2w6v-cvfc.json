@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pv4-2w6v-cvfc",
-  "modified": "2025-11-13T12:31:22Z",
+  "modified": "2026-01-20T15:31:25Z",
   "published": "2025-10-22T15:31:14Z",
   "aliases": [
     "CVE-2025-49962"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49962"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/bbpress-notify-nospam/vulnerability/wordpress-bbpress-notify-plugin-2-19-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

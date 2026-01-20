@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfr5-v73v-62qr",
-  "modified": "2025-12-09T18:30:39Z",
+  "modified": "2026-01-20T15:32:03Z",
   "published": "2025-12-09T18:30:39Z",
   "aliases": [
     "CVE-2025-63049"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63049"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/listingpro-lead-form/vulnerability/wordpress-listingpro-lead-form-plugin-1-0-2-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

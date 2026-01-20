@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85xv-hm5x-j45g",
-  "modified": "2025-12-09T18:30:43Z",
+  "modified": "2026-01-20T15:32:12Z",
   "published": "2025-12-09T18:30:43Z",
   "aliases": [
     "CVE-2025-67579"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67579"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-user-extra-fields/vulnerability/wordpress-user-extra-fields-plugin-16-8-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

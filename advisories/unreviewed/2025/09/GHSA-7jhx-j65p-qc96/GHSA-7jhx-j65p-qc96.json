@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jhx-j65p-qc96",
-  "modified": "2025-11-03T18:31:42Z",
+  "modified": "2026-01-20T15:31:21Z",
   "published": "2025-09-22T21:30:17Z",
   "aliases": [
     "CVE-2025-39846"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npcmcia: Fix a NULL pointer dereference in __iodyn_find_io_region()\n\nIn __iodyn_find_io_region(), pcmcia_make_resource() is assigned to\nres and used in pci_bus_alloc_resource(). There is a dereference of res\nin pci_bus_alloc_resource(), which could lead to a NULL pointer\ndereference on failure of pcmcia_make_resource().\n\nFix this bug by adding a check of res.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-19T16:15:43Z"

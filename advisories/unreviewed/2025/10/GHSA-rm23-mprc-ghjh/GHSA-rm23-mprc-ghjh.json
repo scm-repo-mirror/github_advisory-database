@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rm23-mprc-ghjh",
-  "modified": "2025-11-13T12:31:24Z",
+  "modified": "2026-01-20T15:31:28Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-58966"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/nex-forms-lite/vulnerability/wordpress-nex-forms-lite-plugin-8-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

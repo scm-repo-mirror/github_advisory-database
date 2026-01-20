@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mm38-qj6v-5ph8",
-  "modified": "2025-12-09T18:30:40Z",
+  "modified": "2026-01-20T15:32:04Z",
   "published": "2025-12-09T18:30:40Z",
   "aliases": [
     "CVE-2025-63067"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63067"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/porto-functionality/vulnerability/wordpress-porto-theme-functionality-plugin-3-6-2-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

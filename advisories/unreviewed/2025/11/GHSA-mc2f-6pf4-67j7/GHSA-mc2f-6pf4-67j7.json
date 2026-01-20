@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mc2f-6pf4-67j7",
-  "modified": "2025-11-21T18:30:29Z",
+  "modified": "2026-01-20T15:31:56Z",
   "published": "2025-11-21T15:31:26Z",
   "aliases": [
     "CVE-2025-66062"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66062"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-youtube-lyte/vulnerability/wordpress-wp-youtube-lyte-plugin-1-7-28-open-redirection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

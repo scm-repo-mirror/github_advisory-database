@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64cj-p6q8-24qc",
-  "modified": "2025-11-13T12:31:24Z",
+  "modified": "2026-01-20T15:31:29Z",
   "published": "2025-10-22T15:31:17Z",
   "aliases": [
     "CVE-2025-59007"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59007"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/tf-woo-product-grid/vulnerability/wordpress-tf-woo-product-grid-addon-for-elementor-plugin-1-0-1-deserialization-of-untrusted-data-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

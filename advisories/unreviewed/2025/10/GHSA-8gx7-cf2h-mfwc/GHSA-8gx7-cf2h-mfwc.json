@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gx7-cf2h-mfwc",
-  "modified": "2025-11-13T12:31:33Z",
+  "modified": "2026-01-20T15:31:41Z",
   "published": "2025-10-29T09:30:24Z",
   "aliases": [
     "CVE-2025-64228"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/affs/vulnerability/wordpress-sumo-affiliates-pro-plugin-11-0-0-sensitive-data-exposure-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

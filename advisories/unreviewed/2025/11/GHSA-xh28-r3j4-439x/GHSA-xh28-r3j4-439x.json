@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh28-r3j4-439x",
-  "modified": "2025-11-13T18:31:03Z",
+  "modified": "2026-01-20T15:31:55Z",
   "published": "2025-11-13T12:31:42Z",
   "aliases": [
     "CVE-2025-64277"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64277"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/chatbot/vulnerability/wordpress-chatbot-plugin-7-3-9-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

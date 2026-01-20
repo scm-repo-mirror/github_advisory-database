@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p439-6462-pr5v",
-  "modified": "2025-11-13T12:31:20Z",
+  "modified": "2026-01-20T15:31:22Z",
   "published": "2025-10-22T15:31:13Z",
   "aliases": [
     "CVE-2025-49380"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49380"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/woo-vehicle-parts-finder/vulnerability/wordpress-woocommerce-vehicle-parts-finder-plugin-3-7-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

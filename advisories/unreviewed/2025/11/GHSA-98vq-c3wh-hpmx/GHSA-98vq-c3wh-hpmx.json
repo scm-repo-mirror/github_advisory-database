@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98vq-c3wh-hpmx",
-  "modified": "2025-11-13T12:31:40Z",
+  "modified": "2026-01-20T15:31:52Z",
   "published": "2025-11-06T18:32:56Z",
   "aliases": [
     "CVE-2025-62030"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62030"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/td-composer/vulnerability/wordpress-tagdiv-composer-plugin-5-4-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

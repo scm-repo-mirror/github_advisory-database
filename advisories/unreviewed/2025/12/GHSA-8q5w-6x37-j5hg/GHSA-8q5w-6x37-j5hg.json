@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8q5w-6x37-j5hg",
-  "modified": "2025-12-11T00:30:32Z",
+  "modified": "2026-01-20T15:32:11Z",
   "published": "2025-12-09T18:30:42Z",
   "aliases": [
     "CVE-2025-67552"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67552"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/walker-core/vulnerability/wordpress-walker-core-plugin-1-3-17-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

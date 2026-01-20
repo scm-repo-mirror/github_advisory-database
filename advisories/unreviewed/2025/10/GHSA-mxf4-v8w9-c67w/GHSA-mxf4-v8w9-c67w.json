@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxf4-v8w9-c67w",
-  "modified": "2025-11-13T12:31:23Z",
+  "modified": "2026-01-20T15:31:28Z",
   "published": "2025-10-22T15:31:16Z",
   "aliases": [
     "CVE-2025-53423"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53423"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/triss/vulnerability/wordpress-triss-theme-2-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

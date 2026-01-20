@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68wf-63x8-j6c7",
-  "modified": "2025-11-13T12:31:35Z",
+  "modified": "2026-01-20T15:31:47Z",
   "published": "2025-11-06T18:32:52Z",
   "aliases": [
     "CVE-2025-49393"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49393"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/sign-up-sheets/vulnerability/wordpress-sign-up-sheets-plugin-2-3-2-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

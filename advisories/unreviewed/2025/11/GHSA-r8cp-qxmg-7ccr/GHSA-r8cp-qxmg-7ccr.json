@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8cp-qxmg-7ccr",
-  "modified": "2025-11-17T18:30:26Z",
+  "modified": "2026-01-20T15:31:50Z",
   "published": "2025-11-06T18:32:55Z",
   "aliases": [
     "CVE-2025-60245"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60245"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-user-manager/vulnerability/wordpress-wp-user-manager-plugin-2-9-12-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq83-vrqm-m2w4",
-  "modified": "2025-12-16T18:31:32Z",
+  "modified": "2026-01-20T15:32:15Z",
   "published": "2025-12-16T09:31:09Z",
   "aliases": [
     "CVE-2025-66163"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66163"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/masker-elementor/vulnerability/wordpress-masker-for-elementor-plugin-1-1-4-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

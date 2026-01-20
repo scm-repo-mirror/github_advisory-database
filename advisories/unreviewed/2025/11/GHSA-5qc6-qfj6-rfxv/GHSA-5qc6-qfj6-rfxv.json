@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qc6-qfj6-rfxv",
-  "modified": "2025-11-17T18:30:25Z",
+  "modified": "2026-01-20T15:31:49Z",
   "published": "2025-11-06T18:32:54Z",
   "aliases": [
     "CVE-2025-58986"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58986"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/joan/vulnerability/wordpress-jock-on-air-now-joan-plugin-6-0-4-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-494c-jx9h-h8rq",
-  "modified": "2025-11-13T12:31:36Z",
+  "modified": "2026-01-20T15:31:48Z",
   "published": "2025-11-06T18:32:53Z",
   "aliases": [
     "CVE-2025-52764"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52764"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/flexoslider/vulnerability/wordpress-flexoslider-plugin-1-0004-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgg9-7rw7-5rhw",
-  "modified": "2025-12-11T00:30:32Z",
+  "modified": "2026-01-20T15:32:05Z",
   "published": "2025-12-09T18:30:41Z",
   "aliases": [
     "CVE-2025-67468"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67468"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/cf7-salesforce/vulnerability/wordpress-integration-for-salesforce-and-contact-form-7-wpforms-elementor-formidable-ninja-forms-plugin-1-4-6-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",
