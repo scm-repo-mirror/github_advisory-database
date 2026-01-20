@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpwp-4h2m-765c",
-  "modified": "2026-01-16T19:21:54Z",
+  "modified": "2026-01-20T21:03:33Z",
   "published": "2026-01-16T19:21:54Z",
   "aliases": [],
   "summary": "Active Job - Object injection security vulnerability",
@@ -41,6 +41,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rails/rails"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activejob/GHSA-mpwp-4h2m-765c.yml"
     },
     {
       "type": "WEB",
