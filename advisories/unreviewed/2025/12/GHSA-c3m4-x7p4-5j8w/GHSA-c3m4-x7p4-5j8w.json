@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3m4-x7p4-5j8w",
-  "modified": "2025-12-18T18:30:29Z",
+  "modified": "2026-01-20T15:32:29Z",
   "published": "2025-12-18T09:30:28Z",
   "aliases": [
     "CVE-2025-60080"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60080"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/pdf-for-gravity-forms/vulnerability/wordpress-pdf-for-gravity-forms-drag-and-drop-template-builder-plugin-6-3-0-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j76c-q2wf-w8xx",
-  "modified": "2025-12-18T18:30:29Z",
+  "modified": "2026-01-20T15:32:28Z",
   "published": "2025-12-18T09:30:28Z",
   "aliases": [
     "CVE-2025-60079"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60079"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/parallax-section/vulnerability/wordpress-parallax-section-block-plugin-1-0-9-broken-authentication-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

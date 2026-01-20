@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqq4-834c-75mv",
-  "modified": "2025-12-18T21:31:41Z",
+  "modified": "2026-01-20T15:32:26Z",
   "published": "2025-12-18T09:30:28Z",
   "aliases": [
     "CVE-2025-60070"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/molla/vulnerability/wordpress-molla-multipurpose-responsive-shopify-theme-1-5-13-arbitrary-code-execution-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",
