@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6j26-jfmq-hf5r",
-  "modified": "2026-01-20T21:31:35Z",
+  "modified": "2026-01-21T15:31:15Z",
   "published": "2026-01-20T21:31:35Z",
   "aliases": [
     "CVE-2025-57156"
   ],
   "details": "NULL pointer dereference in the dacp_reply_playqueueedit_clear function in src/httpd_dacp.c in owntone-server through commit 6d604a1 (newer commit after version 28.12) allows remote attackers to cause a Denial of Service (crash).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-20T21:16:03Z"
