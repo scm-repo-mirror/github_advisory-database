@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qppm-g56g-fpvp",
-  "modified": "2026-01-21T16:37:41Z",
+  "modified": "2026-01-21T21:11:06Z",
   "published": "2026-01-20T18:58:15Z",
   "aliases": [
     "CVE-2025-66803"
@@ -70,6 +70,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-362",
       "CWE-367",
       "CWE-613"
     ],
