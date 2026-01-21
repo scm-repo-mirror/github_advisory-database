@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5qx-fwf5-q388",
-  "modified": "2026-01-21T15:31:16Z",
+  "modified": "2026-01-21T21:30:29Z",
   "published": "2026-01-21T15:31:16Z",
   "aliases": [
     "CVE-2025-13878"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://kb.isc.org/docs/cve-2025-13878"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/21/3"
     }
   ],
   "database_specific": {

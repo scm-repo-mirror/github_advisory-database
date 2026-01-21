@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2jw4-27vv-49jx",
-  "modified": "2024-03-28T06:30:46Z",
+  "modified": "2026-01-21T21:30:27Z",
   "published": "2024-03-28T06:30:46Z",
   "aliases": [
     "CVE-2024-30244"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Andy Moyle Church Admin.This issue affects Church Admin: from n/a through 4.0.27.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Andy Moyle Church Admin.This issue affects Church Admin: from n/a through 4.0.27.",
   "severity": [
     {
       "type": "CVSS_V3",

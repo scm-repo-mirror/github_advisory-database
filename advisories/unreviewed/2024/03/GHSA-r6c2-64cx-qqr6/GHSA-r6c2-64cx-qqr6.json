@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6c2-64cx-qqr6",
-  "modified": "2024-03-27T09:30:40Z",
+  "modified": "2026-01-21T21:30:27Z",
   "published": "2024-03-27T09:30:40Z",
   "aliases": [
     "CVE-2024-30197"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Andy Moyle Church Admin allows Stored XSS.This issue affects Church Admin: from n/a through 4.0.26.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Andy Moyle Church Admin allows Stored XSS.This issue affects Church Admin: from n/a through 4.0.26.",
   "severity": [
     {
       "type": "CVSS_V3",

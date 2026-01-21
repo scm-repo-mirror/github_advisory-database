@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4w3-hxw6-99q7",
-  "modified": "2026-01-21T18:30:30Z",
+  "modified": "2026-01-21T21:30:29Z",
   "published": "2026-01-21T18:30:30Z",
   "aliases": [
     "CVE-2026-20045"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-rce-mORhqY4b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-20045"
     }
   ],
   "database_specific": {
