@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfq2-gv2r-vgjg",
-  "modified": "2026-01-13T00:30:47Z",
+  "modified": "2026-01-21T18:30:27Z",
   "published": "2026-01-13T00:30:46Z",
   "aliases": [
     "CVE-2026-22214"
   ],
   "details": "RIOT OS versions up to and including 2026.01-devel-317 contain a stack-based buffer overflow vulnerability in the ethos utility due to missing bounds checking when processing incoming serial frame data. The vulnerability occurs in the _handle_char() function, where incoming frame bytes are appended to a fixed-size stack buffer without verifying that the current write index remains within bounds. An attacker capable of sending crafted serial or TCP-framed input can cause the current write index to exceed the buffer size, resulting in a write past the end of the stack buffer. This condition leads to memory corruption and application crash.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:A/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

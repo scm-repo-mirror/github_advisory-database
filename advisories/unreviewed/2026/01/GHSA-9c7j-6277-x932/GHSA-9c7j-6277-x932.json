@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c7j-6277-x932",
-  "modified": "2026-01-21T09:31:30Z",
+  "modified": "2026-01-21T18:30:28Z",
   "published": "2026-01-20T18:31:57Z",
   "aliases": [
     "CVE-2025-67824"
   ],
   "details": "The WorklogPRO - Jira Timesheets plugin in the Jira Data Center before 4.24.1-jira9, 4.24.1-jira10, and 4.24.1-jira11 allows attackers to inject arbitrary HTML or JavaScript via XSS. This is exploited via a crafted payload placed in the name of a filter. This code is executed in the browser when the user attempts to create a timesheet with the filter timesheet type on the custom timesheet dialog because the filter name is not properly sanitized during the action.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-20T16:16:06Z"

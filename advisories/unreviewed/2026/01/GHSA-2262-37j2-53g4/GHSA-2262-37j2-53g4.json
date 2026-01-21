@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2262-37j2-53g4",
-  "modified": "2026-01-16T18:31:33Z",
+  "modified": "2026-01-21T18:30:27Z",
   "published": "2026-01-16T18:31:33Z",
   "aliases": [
     "CVE-2026-0629"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.tp-link.com/us/support/faq/4899"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/faq/4906"
     },
     {
       "type": "WEB",
