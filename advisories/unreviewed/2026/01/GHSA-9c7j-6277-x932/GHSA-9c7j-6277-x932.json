@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c7j-6277-x932",
-  "modified": "2026-01-20T18:31:57Z",
+  "modified": "2026-01-21T09:31:30Z",
   "published": "2026-01-20T18:31:57Z",
   "aliases": [
     "CVE-2025-67824"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://thestarware.atlassian.net/wiki/spaces/WLP/pages/3326574597/Security+Advisory+CVE-2025-57681+-+Stored+XSS+in+WorklogPRO+DC"
+    },
+    {
+      "type": "WEB",
+      "url": "https://thestarware.atlassian.net/wiki/x/CAAdyg"
     }
   ],
   "database_specific": {
