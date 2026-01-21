@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qw5-wf2q-f538",
-  "modified": "2026-01-16T19:20:40Z",
+  "modified": "2026-01-21T16:35:36Z",
   "published": "2026-01-16T19:20:40Z",
   "aliases": [],
   "summary": "ActiveRecord-JDBC-Adapter (AR-JDBC) lib/arjdbc/jdbc/adapter.rb sql.gsub() Function SQL Injection",
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/jruby/activerecord-jdbc-adapter/blob/master/lib/arjdbc/jdbc/adapter.rb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activerecord-jdbc-adapter/GHSA-5qw5-wf2q-f538.yml"
     },
     {
       "type": "WEB",
