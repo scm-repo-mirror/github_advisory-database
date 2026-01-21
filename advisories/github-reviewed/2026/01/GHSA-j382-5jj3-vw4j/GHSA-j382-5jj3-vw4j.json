@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j382-5jj3-vw4j",
-  "modified": "2026-01-09T00:30:28Z",
+  "modified": "2026-01-21T15:00:11Z",
   "published": "2026-01-07T18:30:25Z",
   "aliases": [
     "CVE-2025-12543"
@@ -20,6 +20,15 @@
         "ecosystem": "Maven",
         "name": "io.undertow:undertow-core"
       },
+      "versions": [
+        "2.4.0.Alpha1"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.undertow:undertow-core"
+      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
@@ -28,7 +37,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "2.4.0.Alpha1"
+              "fixed": "2.3.21.Final"
             }
           ]
         }
@@ -39,6 +48,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12543"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/pull/1857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/pull/1860"
     },
     {
       "type": "WEB",
@@ -63,6 +80,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/undertow-io/undertow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/releases/tag/2.3.21.Final"
     }
   ],
   "database_specific": {
