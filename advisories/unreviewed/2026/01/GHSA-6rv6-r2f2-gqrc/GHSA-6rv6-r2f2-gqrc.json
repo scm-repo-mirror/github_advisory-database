@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6rv6-r2f2-gqrc",
+  "modified": "2026-01-21T00:31:42Z",
+  "published": "2026-01-21T00:31:42Z",
+  "aliases": [
+    "CVE-2025-15282"
+  ],
+  "details": "User-controlled data URLs parsed by urllib.request.DataHandler allow injecting headers through newlines in the data URL mediatype.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/issues/143925"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/pull/143926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/f25509e78e8be6ea73c811ac2b8c928c28841b9f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/X66HL7SISGJT33J53OHXMZT4DFLMHVKF"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-93"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-20T22:15:50Z"
+  }
+}
