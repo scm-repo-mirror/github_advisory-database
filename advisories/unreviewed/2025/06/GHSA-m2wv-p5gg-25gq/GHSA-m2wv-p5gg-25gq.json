@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2wv-p5gg-25gq",
-  "modified": "2025-06-20T12:30:52Z",
+  "modified": "2026-01-21T12:30:30Z",
   "published": "2025-06-20T12:30:52Z",
   "aliases": [
     "CVE-2025-5255"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/phcode-dev/phoenix-desktop/pull/623/commits/0c75fb57f89d0b7d9b180026bc2624b7dcf807da"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/phcode-dev/phoenix-desktop/commit/ab5d5ffd04fbbab770c1ef6250cd0ec5323289c2"
     },
     {
       "type": "WEB",
