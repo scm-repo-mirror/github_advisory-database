@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8w2-w357-9pjv",
-  "modified": "2026-01-21T15:31:15Z",
+  "modified": "2026-01-21T16:56:50Z",
   "published": "2026-01-20T18:31:57Z",
   "aliases": [
     "CVE-2025-64087"
   ],
+  "summary": "XDocReport affected by a Server-Side Template Injection (SSTI) vulnerability",
   "details": "A Server-Side Template Injection (SSTI) vulnerability in the FreeMarker component of opensagres XDocReport v1.0.0 to v2.1.0 allows attackers to execute arbitrary code via injecting crafted template expressions.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "fr.opensagres.xdocreport:fr.opensagres.xdocreport.template.freemarker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -25,10 +46,14 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/AT190510-Cuong/CVE-2025-64087-SSTI-"
+      "url": "https://github.com/opensagres/xdocreport/commit/3b35d105e5ae2006bcaa2b07563188efc466711d"
     },
     {
       "type": "WEB",
+      "url": "https://github.com/AT190510-Cuong/CVE-2025-64087-SSTI-"
+    },
+    {
+      "type": "PACKAGE",
       "url": "https://github.com/opensagres/xdocreport"
     },
     {
@@ -45,8 +70,8 @@
       "CWE-1336"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-01-21T16:56:50Z",
     "nvd_published_at": "2026-01-20T16:16:06Z"
   }
 }
