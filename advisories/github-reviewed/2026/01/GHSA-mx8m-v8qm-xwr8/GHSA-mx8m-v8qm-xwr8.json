@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mx8m-v8qm-xwr8",
-  "modified": "2026-01-16T20:58:33Z",
+  "modified": "2026-01-21T16:19:03Z",
   "published": "2026-01-16T12:30:25Z",
   "aliases": [
     "CVE-2025-14435"
@@ -80,25 +80,6 @@
       "database_specific": {
         "last_known_affected_version_range": "<= 11.0.6"
       }
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
-        "name": "github.com/mattermost/mattermost/server/v8"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "8.0.0-20251210072417-cc6b77b27132"
-            }
-          ]
-        }
-      ]
     }
   ],
   "references": [
