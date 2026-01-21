@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8x4-x68c-m6fc",
-  "modified": "2026-01-14T19:50:44Z",
+  "modified": "2026-01-21T16:37:34Z",
   "published": "2026-01-14T16:53:10Z",
   "aliases": [
     "CVE-2026-22787"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/eKoopmans/html2pdf.js/commit/988826e336035b39a8608182d7b73c0e3cd78c7b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://aydinnyunus.github.io/2026/01/17/cve-2026-22787-html2pdf-xss-vulnerability"
     },
     {
       "type": "PACKAGE",

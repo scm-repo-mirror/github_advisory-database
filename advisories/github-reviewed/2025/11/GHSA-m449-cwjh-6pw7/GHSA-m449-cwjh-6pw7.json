@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m449-cwjh-6pw7",
-  "modified": "2025-11-27T08:15:59Z",
+  "modified": "2026-01-21T16:37:13Z",
   "published": "2025-11-24T22:42:07Z",
   "aliases": [
     "CVE-2025-66019"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/py-pdf/pypdf/commit/96186725e5e6f237129a58a97cd19204a9ce40b2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://aydinnyunus.github.io/2025/12/20/cve-2025-66019-pypdf-lzw-dos"
     },
     {
       "type": "PACKAGE",
