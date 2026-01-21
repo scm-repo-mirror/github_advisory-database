@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h526-wf6g-67jv",
-  "modified": "2026-01-21T01:01:13Z",
+  "modified": "2026-01-21T17:08:30Z",
   "published": "2026-01-21T01:01:13Z",
   "aliases": [
     "CVE-2026-23947"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "8.0.0-rc.0"
             },
             {
               "fixed": "8.0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@orval/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.19.0"
             }
           ]
         }
@@ -51,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/orval-labs/orval"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/orval-labs/orval/releases/tag/v7.19.0"
     },
     {
       "type": "WEB",
