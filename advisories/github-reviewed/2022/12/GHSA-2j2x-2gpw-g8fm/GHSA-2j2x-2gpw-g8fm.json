@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j2x-2gpw-g8fm",
-  "modified": "2023-01-06T03:16:40Z",
+  "modified": "2026-01-21T14:45:10Z",
   "published": "2022-12-25T21:30:22Z",
   "aliases": [
     "CVE-2020-36632"
@@ -28,10 +28,92 @@
               "introduced": "0"
             },
             {
+              "fixed": "1.6.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "flat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0"
+            },
+            {
+              "fixed": "2.0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "flat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0"
+            },
+            {
+              "fixed": "3.0.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.0.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "flat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.0.0"
+            },
+            {
+              "fixed": "4.0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "flat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.0"
+            },
+            {
               "fixed": "5.0.1"
             }
           ]
         }
+      ],
+      "versions": [
+        "5.0.0"
       ]
     }
   ],
@@ -55,6 +137,22 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/hughsk/flat"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hughsk/flat/compare/3.0.0...3.0.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hughsk/flat/compare/4.1.0...4.1.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hughsk/flat/compare/v1.6.0...1.6.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hughsk/flat/compare/v2.0.1...2.0.2"
     },
     {
       "type": "WEB",
