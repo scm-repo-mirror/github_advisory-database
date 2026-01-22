@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcwc-3fw3-8cqv",
-  "modified": "2026-01-11T14:53:23Z",
+  "modified": "2026-01-22T16:28:55Z",
   "published": "2026-01-09T19:19:57Z",
   "aliases": [
     "CVE-2026-22687"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4293"
     }
   ],
   "database_specific": {
