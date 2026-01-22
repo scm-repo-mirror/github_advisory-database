@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4qr-mpj2-hxhr",
-  "modified": "2025-04-08T18:34:11Z",
+  "modified": "2026-01-22T21:33:37Z",
   "published": "2024-04-12T15:37:21Z",
   "aliases": [
     "CVE-2023-51409"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-51409"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2023-51409"
     },
     {
       "type": "WEB",

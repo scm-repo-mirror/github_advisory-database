@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2mm-jj4p-hm2p",
-  "modified": "2025-05-22T00:34:03Z",
+  "modified": "2026-01-22T21:33:42Z",
   "published": "2025-05-22T00:34:03Z",
   "aliases": [
     "CVE-2025-34026"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://projectdiscovery.io/blog/versa-concerto-authentication-bypass-rce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-34026"
     }
   ],
   "database_specific": {

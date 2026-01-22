@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vqxh-445g-37fc",
+  "modified": "2026-01-22T21:33:47Z",
+  "published": "2026-01-22T21:33:47Z",
+  "aliases": [
+    "CVE-2025-22234"
+  ],
+  "details": "The fix applied in CVE-2025-22228 inadvertently broke the timing attack mitigation implemented in DaoAuthenticationProvider. This can allow attackers to infer valid usernames or other authentication behavior via response-time differences under certain configurations.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22234"
+    },
+    {
+      "type": "WEB",
+      "url": "https://spring.io/security/cve-2025-22234"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-208"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-22T21:15:49Z"
+  }
+}

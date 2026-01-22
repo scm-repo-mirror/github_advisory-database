@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxm7-w7xh-m5mq",
-  "modified": "2025-10-04T18:31:14Z",
+  "modified": "2026-01-22T21:33:43Z",
   "published": "2025-10-04T18:31:14Z",
   "aliases": [
     "CVE-2022-50503"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmtd: lpddr2_nvm: Fix possible null-ptr-deref\n\nIt will cause null-ptr-deref when resource_size(add_range) invoked,\nif platform_get_resource() returns NULL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:47Z"

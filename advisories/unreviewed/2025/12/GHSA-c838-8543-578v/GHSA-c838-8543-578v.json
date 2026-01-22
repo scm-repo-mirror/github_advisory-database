@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c838-8543-578v",
-  "modified": "2025-12-21T03:31:11Z",
+  "modified": "2026-01-22T21:33:43Z",
   "published": "2025-12-21T03:31:10Z",
   "aliases": [
     "CVE-2025-14071"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14071"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/live-composer/live-composer-page-builder/commit/17176e259878b450f9feaabbf42522b0e360ff96"
     },
     {
       "type": "WEB",
