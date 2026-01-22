@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qg4c-8pj4-qgw2",
-  "modified": "2025-11-22T03:31:17Z",
+  "modified": "2026-01-22T06:30:28Z",
   "published": "2025-06-16T18:32:19Z",
   "aliases": [
     "CVE-2025-49794"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-49794"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0934"
     },
     {
       "type": "WEB",

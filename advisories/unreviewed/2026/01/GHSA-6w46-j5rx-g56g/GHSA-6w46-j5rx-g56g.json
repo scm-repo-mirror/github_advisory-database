@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6w46-j5rx-g56g",
+  "modified": "2026-01-22T06:30:29Z",
+  "published": "2026-01-22T06:30:29Z",
+  "aliases": [
+    "CVE-2025-71176"
+  ],
+  "details": "pytest through 9.0.2 on UNIX relies on directories with the /tmp/pytest-of-{user} name pattern, which allows local users to cause a denial of service or possibly gain privileges.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71176"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pytest-dev/pytest/issues/13669"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2026/01/21/5"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-379"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-22T05:16:17Z"
+  }
+}
