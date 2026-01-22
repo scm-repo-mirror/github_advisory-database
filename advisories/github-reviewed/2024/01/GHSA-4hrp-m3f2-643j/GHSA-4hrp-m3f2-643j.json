@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hrp-m3f2-643j",
-  "modified": "2025-05-30T16:30:44Z",
+  "modified": "2026-01-22T20:51:55Z",
   "published": "2024-01-19T21:30:36Z",
-  "aliases": [
-    "CVE-2024-23679"
-  ],
-  "summary": "Session fixation in Enonic XP",
-  "details": "Enonic XP versions less than 7.7.4 are vulnerable to a session fixation issue. An remote and unauthenticated attacker can use prior sessions due to the lack of invalidating session attributes.",
+  "withdrawn": "2026-01-22T20:51:55Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Session fixation in Enonic XP",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-4m5p-5w5w-3jcf. This link is maintained to preserve external references.\n\n## Original Description\nEnonic XP versions less than 7.7.4 are vulnerable to a session fixation issue. An remote and unauthenticated attacker can use prior sessions due to the lack of invalidating session attributes.",
   "severity": [
     {
       "type": "CVSS_V3",
