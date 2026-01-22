@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r2f-6fm9-2qgh",
-  "modified": "2023-01-13T19:21:37Z",
+  "modified": "2026-01-22T20:38:52Z",
   "published": "2023-01-10T06:30:25Z",
-  "aliases": [
-    "CVE-2017-20166"
-  ],
-  "summary": "Ecto lacks a protection mechanism",
-  "details": "Ecto 2.2.0 lacks a certain protection mechanism associated with the interaction between `is_nil` and `raise`.",
+  "withdrawn": "2026-01-22T20:38:52Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Ecto lacks a protection mechanism",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-2xxx-fhc8-9qvq. This link is maintained to preserve external references.\n\n## Original Description\nEcto 2.2.0 lacks a certain protection mechanism associated with the interaction between `is_nil` and `raise`.",
   "severity": [
     {
       "type": "CVSS_V3",

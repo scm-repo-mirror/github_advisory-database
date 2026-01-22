@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv5g-q4h3-64q4",
-  "modified": "2024-01-26T19:58:39Z",
+  "modified": "2026-01-22T20:39:58Z",
   "published": "2024-01-19T21:30:37Z",
-  "aliases": [
-    "CVE-2024-23685"
-  ],
-  "summary": "Hard-coded credentials in org.folio:mod-remote-storage",
-  "details": "Hard-coded credentials in mod-remote-storage versions under 1.7.2 and from 2.0.0 to 2.0.3 allows unauthorized users to gain read access to mod-inventory-storage records including instances, holdings, items, contributor-types, and identifier-types.\n\n\n",
+  "withdrawn": "2026-01-22T20:39:58Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Hard-coded credentials in org.folio:mod-remote-storage",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-m8v7-469p-5x89. This link is maintained to preserve external references.\n\n## Original Description\nHard-coded credentials in mod-remote-storage versions under 1.7.2 and from 2.0.0 to 2.0.3 allows unauthorized users to gain read access to mod-inventory-storage records including instances, holdings, items, contributor-types, and identifier-types.",
   "severity": [
     {
       "type": "CVSS_V3",
