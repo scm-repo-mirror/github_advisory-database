@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc6f-qjxc-622v",
-  "modified": "2024-01-26T19:58:37Z",
+  "modified": "2026-01-22T20:36:31Z",
   "published": "2024-01-19T21:30:36Z",
-  "aliases": [
-    "CVE-2024-0758"
-  ],
-  "summary": "JavaScript execution via malicious molfiles (XSS)",
-  "details": "MolecularFaces before 0.3.0 is vulnerable to cross site scripting. A remote attacker can execute arbitrary JavaScript in the context of a victim browser via crafted molfiles.\n\n\n",
+  "withdrawn": "2026-01-22T20:36:31Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: JavaScript execution via malicious molfiles (XSS)",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-2pwh-52h7-7j84. This link is maintained to preserve external references.\n\n## Original Description\nMolecularFaces before 0.3.0 is vulnerable to cross site scripting. A remote attacker can execute arbitrary JavaScript in the context of a victim browser via crafted molfiles.",
   "severity": [
     {
       "type": "CVSS_V3",
