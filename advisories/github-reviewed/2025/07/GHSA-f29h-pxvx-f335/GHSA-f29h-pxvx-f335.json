@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f29h-pxvx-f335",
-  "modified": "2025-07-22T16:23:21Z",
+  "modified": "2026-01-22T21:52:56Z",
   "published": "2025-07-19T18:30:33Z",
   "aliases": [
     "CVE-2025-54313"
@@ -232,6 +232,10 @@
     {
       "type": "WEB",
       "url": "https://www.endorlabs.com/learn/cve-2025-54313-eslint-config-prettier-compromise----high-severity-but-windows-only"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-54313"
     },
     {
       "type": "WEB",
