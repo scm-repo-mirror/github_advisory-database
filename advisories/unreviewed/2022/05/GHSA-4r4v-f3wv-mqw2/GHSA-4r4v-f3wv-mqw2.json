@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r4v-f3wv-mqw2",
-  "modified": "2022-05-14T00:01:52Z",
+  "modified": "2026-01-22T15:31:28Z",
   "published": "2022-05-06T00:00:49Z",
   "aliases": [
     "CVE-2021-41739"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41739"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40rootless724/artica-proxy-4-30-cyrus-events-php-rce-3aa2a868c695"
     },
     {
       "type": "WEB",

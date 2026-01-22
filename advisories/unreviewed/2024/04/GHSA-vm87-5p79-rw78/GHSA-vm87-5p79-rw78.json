@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm87-5p79-rw78",
-  "modified": "2024-04-24T18:30:33Z",
+  "modified": "2026-01-22T15:31:28Z",
   "published": "2024-04-24T18:30:33Z",
   "aliases": [
     "CVE-2023-47774"
   ],
-  "details": "Improper Restriction of Rendered UI Layers or Frames vulnerability in Automattic Jetpack allows Clickjacking.This issue affects Jetpack: from n/a before 12.7.\n\n",
+  "details": "Improper Restriction of Rendered UI Layers or Frames vulnerability in Automattic Jetpack allows Clickjacking.This issue affects Jetpack: from n/a before 12.7.",
   "severity": [
     {
       "type": "CVSS_V3",

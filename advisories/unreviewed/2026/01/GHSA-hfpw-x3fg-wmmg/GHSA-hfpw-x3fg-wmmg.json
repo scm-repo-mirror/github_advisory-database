@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfpw-x3fg-wmmg",
-  "modified": "2026-01-21T21:30:30Z",
+  "modified": "2026-01-22T15:31:31Z",
   "published": "2026-01-21T21:30:30Z",
   "aliases": [
     "CVE-2025-12781"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-704"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
