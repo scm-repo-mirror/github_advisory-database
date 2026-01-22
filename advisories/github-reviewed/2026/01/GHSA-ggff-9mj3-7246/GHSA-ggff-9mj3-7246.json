@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggff-9mj3-7246",
-  "modified": "2026-01-21T15:47:44Z",
+  "modified": "2026-01-22T15:52:09Z",
   "published": "2026-01-21T15:47:44Z",
   "aliases": [
     "CVE-2026-0895"
   ],
-  "summary": "mailqueue TYPO3 extension affected by Insecure Deserialization",
-  "details": "## Description\n\nThe extension extends TYPO3’s FileSpool component, which was vulnerable to Insecure Deserialization prior to [TYPO3-CORE-SA-2026-004](https://typo3.org/security/advisory/typo3-core-sa-2026-004). Since the related fix is overwritten by the extension, using the extension with a patched TYPO3 core version still allows for Insecure Deserialization, because the affected vulnerable code was extracted from TYPO3 core to the extension.\n\nMore information about this vulnerability can be found in the related TYPO3 Core Security Advisory [TYPO3-CORE-SA-2026-004](https://typo3.org/security/advisory/typo3-core-sa-2026-004).",
+  "summary": "mailqueue TYPO3 extension affected by Insecure Deserialization in QueueableFileTransport",
+  "details": "## Description\n\nThe extension extends TYPO3’s FileSpool component, which was vulnerable to Insecure Deserialization prior to [TYPO3-CORE-SA-2026-004](https://typo3.org/security/advisory/typo3-core-sa-2026-004). Since the related fix is overwritten by the extension, using the extension with a patched TYPO3 core version still allows for Insecure Deserialization, because the affected vulnerable code was extracted from TYPO3 core to the extension.\n\nMore information about this vulnerability can be found in the related TYPO3 Core Security Advisory [TYPO3-CORE-SA-2026-004](https://typo3.org/security/advisory/typo3-core-sa-2026-004).\n\n## References\n\n* [TYPO3-EXT-SA-2026-001](https://typo3.org/security/advisory/typo3-ext-sa-2026-001)\n* https://github.com/CPS-IT/mailqueue/commit/fd09aa4e1a751551bae4b228bee814e22f2048db\n* https://github.com/CPS-IT/mailqueue/commit/12a0a35027bb5609917790a94e43bbf117abf733",
   "severity": [
     {
       "type": "CVSS_V4",
