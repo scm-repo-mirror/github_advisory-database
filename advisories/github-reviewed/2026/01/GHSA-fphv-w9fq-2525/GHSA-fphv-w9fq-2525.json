@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fphv-w9fq-2525",
-  "modified": "2026-01-21T16:19:32Z",
+  "modified": "2026-01-22T02:19:15Z",
   "published": "2026-01-21T16:19:32Z",
   "aliases": [
     "CVE-2026-23992"
@@ -33,25 +33,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
-        "name": "github.com/theupdateframework/go-tuf"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "last_affected": "0.7.0"
-            }
-          ]
-        }
-      ]
     }
   ],
   "references": [
@@ -60,8 +41,16 @@
       "url": "https://github.com/theupdateframework/go-tuf/security/advisories/GHSA-fphv-w9fq-2525"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/theupdateframework/go-tuf/commit/b38d91fdbc69dfe31fe9230d97dafe527ea854a0"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/theupdateframework/go-tuf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/theupdateframework/go-tuf/releases/tag/v2.3.1"
     }
   ],
   "database_specific": {
