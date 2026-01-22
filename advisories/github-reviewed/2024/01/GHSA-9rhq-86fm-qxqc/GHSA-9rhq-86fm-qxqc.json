@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rhq-86fm-qxqc",
-  "modified": "2025-05-22T21:42:23Z",
+  "modified": "2026-01-22T20:30:28Z",
   "published": "2024-01-20T00:30:27Z",
-  "aliases": [
-    "CVE-2024-23687"
-  ],
-  "summary": "Hard-coded credentials in org.folio:mod-data-export-spring",
-  "details": "Hard-coded credentials in FOLIO mod-data-export-spring versions before 1.5.4 and from 2.0.0 to 2.0.2 allows unauthenticated users to access critical APIs, modify user data, modify configurations including single-sign-on, and manipulate fees/fines.",
+  "withdrawn": "2026-01-22T20:30:28Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Hard-coded credentials in org.folio:mod-data-export-spring",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-vf78-3q9f-92g3. This link is maintained to preserve external references.\n\n## Original Description\nHard-coded credentials in FOLIO mod-data-export-spring versions before 1.5.4 and from 2.0.0 to 2.0.2 allows unauthenticated users to access critical APIs, modify user data, modify configurations including single-sign-on, and manipulate fees/fines.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4pg-5ggh-vcpp",
-  "modified": "2024-01-26T20:28:48Z",
+  "modified": "2026-01-22T20:30:53Z",
   "published": "2024-01-19T21:30:36Z",
-  "aliases": [
-    "CVE-2024-23681"
-  ],
-  "summary": "Sandbox escape in Artemis Java Test Sandbox",
-  "details": "Artemis Java Test Sandbox versions before 1.11.2 are vulnerable to a sandbox escape when an attacker loads untrusted libraries using System.load or System.loadLibrary. An attacker can abuse this issue to execute arbitrary Java when a victim executes the supposedly sandboxed code.\n\n\n",
+  "withdrawn": "2026-01-22T20:30:53Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Sandbox escape in Artemis Java Test Sandbox",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-98hq-4wmw-98w9. This link is maintained to preserve external references.\n\n## Original Description\nArtemis Java Test Sandbox versions before 1.11.2 are vulnerable to a sandbox escape when an attacker loads untrusted libraries using System.load or System.loadLibrary. An attacker can abuse this issue to execute arbitrary Java when a victim executes the supposedly sandboxed code.",
   "severity": [
     {
       "type": "CVSS_V3",
