@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r4m-qw57-chr8",
-  "modified": "2025-03-31T23:32:54Z",
+  "modified": "2026-01-22T21:47:40Z",
   "published": "2025-03-31T17:31:54Z",
   "aliases": [
     "CVE-2025-31125"
@@ -127,6 +127,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/vitejs/vite"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-31125"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrqp-q7vx-v2cx",
-  "modified": "2025-02-14T00:32:57Z",
+  "modified": "2026-01-22T21:47:02Z",
   "published": "2025-02-13T17:16:27Z",
   "aliases": [
     "CVE-2025-26511"
@@ -62,6 +62,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/instaclustr/cassandra-lucene-index/commit/44ab4b639c9354a6335f40b1cf6178c745c6e101"
     },
     {
       "type": "WEB",
