@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-846p-jg2w-w324",
-  "modified": "2026-01-21T16:19:28Z",
+  "modified": "2026-01-22T02:16:31Z",
   "published": "2026-01-21T16:19:28Z",
   "aliases": [
     "CVE-2026-23991"
@@ -33,31 +33,16 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
-        "name": "github.com/theupdateframework/go-tuf"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "last_affected": "0.7.0"
-            }
-          ]
-        }
-      ]
     }
   ],
   "references": [
     {
       "type": "WEB",
       "url": "https://github.com/theupdateframework/go-tuf/security/advisories/GHSA-846p-jg2w-w324"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/theupdateframework/go-tuf/commit/73345ab6b0eb7e59d525dac17a428f043074cef6"
     },
     {
       "type": "PACKAGE",
