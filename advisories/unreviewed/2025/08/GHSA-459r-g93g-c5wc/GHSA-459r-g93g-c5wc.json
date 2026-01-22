@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-459r-g93g-c5wc",
-  "modified": "2025-11-03T18:31:33Z",
+  "modified": "2026-01-22T18:50:53Z",
   "published": "2025-08-16T12:30:33Z",
   "aliases": [
     "CVE-2025-38540"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: quirks: Add quirk for 2 Chicony Electronics HP 5MP Cameras\n\nThe Chicony Electronics HP 5MP Cameras (USB ID 04F2:B824 & 04F2:B82C)\nreport a HID sensor interface that is not actually implemented.\nAttempting to access this non-functional sensor via iio_info causes\nsystem hangs as runtime PM tries to wake up an unresponsive sensor.\n\nAdd these 2 devices to the HID ignore list since the sensor interface is\nnon-functional by design and should not be exposed to userspace.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-16T12:15:29Z"
