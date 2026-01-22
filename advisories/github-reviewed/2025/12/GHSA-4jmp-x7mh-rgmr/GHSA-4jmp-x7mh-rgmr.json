@@ -1,11 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jmp-x7mh-rgmr",
-  "modified": "2025-12-18T01:06:46Z",
+  "modified": "2026-01-22T16:10:26Z",
   "published": "2025-12-12T20:15:03Z",
   "aliases": [],
   "summary": "Finality Provider vulnerable to anti-slashing bypassing due to misconfiguration",
-  "details": "### Summary\n\nThe anti-slashing is not effective if the attacker can access EOTS manager endpoints.\n\n### Impact\n\nIf the EOTS manager endpoints are open to public without HMAC protection, the attacker can manually cause slashing of the finality provider through the RPC endpoints",
+  "details": "### Summary\n\nThe anti-slashing is not effective if the attacker can access EOTS manager endpoints.\n\n### Impact\n\nIf the EOTS manager endpoints are open to public without HMAC protection, the attacker can manually cause slashing of the finality provider through the RPC endpoints.\n\nReport credits go to: x.com/RebelsRunways",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -26,10 +26,40 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.0.3"
+              "fixed": "1.0.4"
             }
           ]
         }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.0.3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/babylonlabs-io/finality-provider"
+      },
+      "versions": [
+        "1.1.0-rc.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/babylonlabs-io/finality-provider"
+      },
+      "versions": [
+        "1.1.0-rc.1"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/babylonlabs-io/finality-provider"
+      },
+      "versions": [
+        "1.99.0-devnet.6"
       ]
     }
   ],
