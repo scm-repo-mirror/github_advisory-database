@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fphv-w9fq-2525",
-  "modified": "2026-01-22T02:19:15Z",
+  "modified": "2026-01-22T15:43:46Z",
   "published": "2026-01-21T16:19:32Z",
   "aliases": [
     "CVE-2026-23992"
@@ -41,6 +41,10 @@
       "url": "https://github.com/theupdateframework/go-tuf/security/advisories/GHSA-fphv-w9fq-2525"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23992"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/theupdateframework/go-tuf/commit/b38d91fdbc69dfe31fe9230d97dafe527ea854a0"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-21T16:19:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-22T03:15:47Z"
   }
 }

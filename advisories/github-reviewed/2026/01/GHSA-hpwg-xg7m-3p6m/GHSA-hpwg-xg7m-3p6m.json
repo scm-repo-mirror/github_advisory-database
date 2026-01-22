@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpwg-xg7m-3p6m",
-  "modified": "2026-01-21T16:13:44Z",
+  "modified": "2026-01-22T15:43:29Z",
   "published": "2026-01-21T16:13:44Z",
   "aliases": [
     "CVE-2026-23965"
@@ -41,6 +41,10 @@
       "url": "https://github.com/JuneAndGreen/sm-crypto/security/advisories/GHSA-hpwg-xg7m-3p6m"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23965"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/JuneAndGreen/sm-crypto/commit/85295a859d0766222d12ce2be3e6fce7b438b510"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-21T16:13:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-22T03:15:46Z"
   }
 }

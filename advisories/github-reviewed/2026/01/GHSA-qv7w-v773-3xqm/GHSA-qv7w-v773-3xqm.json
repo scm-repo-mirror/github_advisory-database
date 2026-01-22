@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv7w-v773-3xqm",
-  "modified": "2026-01-21T16:13:35Z",
+  "modified": "2026-01-22T15:43:21Z",
   "published": "2026-01-21T16:13:35Z",
   "aliases": [
     "CVE-2026-23967"
@@ -41,6 +41,10 @@
       "url": "https://github.com/JuneAndGreen/sm-crypto/security/advisories/GHSA-qv7w-v773-3xqm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23967"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/JuneAndGreen/sm-crypto"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-21T16:13:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-22T03:15:47Z"
   }
 }
