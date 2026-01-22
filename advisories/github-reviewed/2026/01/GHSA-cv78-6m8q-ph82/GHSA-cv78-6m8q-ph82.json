@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cv78-6m8q-ph82",
-  "modified": "2026-01-21T22:00:38Z",
+  "modified": "2026-01-22T15:39:57Z",
   "published": "2026-01-21T22:00:38Z",
   "aliases": [
     "CVE-2026-23960"
@@ -82,6 +82,10 @@
       "url": "https://github.com/argoproj/argo-workflows/security/advisories/GHSA-cv78-6m8q-ph82"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23960"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/argoproj/argo-workflows/commit/159a5c56285ecd4d3bb0a67aeef4507779a44e17"
     },
@@ -109,6 +113,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-21T22:00:38Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-21T22:15:50Z"
   }
 }
