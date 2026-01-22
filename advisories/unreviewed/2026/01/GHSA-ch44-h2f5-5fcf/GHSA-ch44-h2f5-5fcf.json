@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch44-h2f5-5fcf",
-  "modified": "2026-01-21T18:30:32Z",
+  "modified": "2026-01-22T18:30:31Z",
   "published": "2026-01-21T18:30:32Z",
   "aliases": [
     "CVE-2025-69762"
   ],
   "details": "Tenda AX3 firmware v16.03.12.11 contains a stack overflow in formSetIptv via the list parameter, which can cause memory corruption and enable remote code execution.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-21T18:16:24Z"

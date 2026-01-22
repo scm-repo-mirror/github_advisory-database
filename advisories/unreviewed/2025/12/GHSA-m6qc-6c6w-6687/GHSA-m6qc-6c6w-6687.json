@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6qc-6c6w-6687",
-  "modified": "2025-12-20T00:30:27Z",
+  "modified": "2026-01-22T18:30:29Z",
   "published": "2025-12-18T18:30:30Z",
   "aliases": [
     "CVE-2025-63390"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63390"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Cristliu/0897bceac5fdc2d945304b5087a84f14"
     },
     {
       "type": "WEB",

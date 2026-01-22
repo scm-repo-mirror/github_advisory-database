@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-r42m-r5c8-69mx",
+  "modified": "2026-01-22T18:30:41Z",
+  "published": "2026-01-22T18:30:41Z",
+  "aliases": [
+    "CVE-2026-24368"
+  ],
+  "details": "Missing Authorization vulnerability in Theme-one The Grid the-grid allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects The Grid: from n/a through < 2.8.0.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24368"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/the-grid/vulnerability/wordpress-the-grid-plugin-2-8-0-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-22T17:16:40Z"
+  }
+}

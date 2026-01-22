@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-94gj-3qj6-w8qv",
+  "modified": "2026-01-22T18:30:33Z",
+  "published": "2026-01-22T18:30:33Z",
+  "aliases": [
+    "CVE-2025-67617"
+  ],
+  "details": "Deserialization of Untrusted Data vulnerability in themeton Consult Aid consultaid allows Object Injection.This issue affects Consult Aid: from n/a through <= 1.4.3.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67617"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/consultaid/vulnerability/wordpress-consult-aid-theme-1-4-3-php-object-injection-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-22T17:16:01Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cvm-3562-3m3m",
-  "modified": "2025-07-08T15:31:51Z",
+  "modified": "2026-01-22T18:30:28Z",
   "published": "2025-06-30T03:30:31Z",
   "aliases": [
     "CVE-2025-0634"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Samsung/rlottie/pull/571"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Samsung/rlottie/commit/507ea027e47d3e1dc7ddbd9994621215eae7ebb9"
     }
   ],
   "database_specific": {

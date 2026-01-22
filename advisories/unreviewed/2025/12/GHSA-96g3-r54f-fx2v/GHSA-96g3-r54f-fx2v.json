@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96g3-r54f-fx2v",
-  "modified": "2025-12-20T00:30:27Z",
+  "modified": "2026-01-22T18:30:29Z",
   "published": "2025-12-18T18:30:30Z",
   "aliases": [
     "CVE-2025-63388"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/Cristliu/5ded6d03e41d7d66ecb1b568bae3ff6c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Cristliu/c2bc7d05abd89db8eb542a453a528d77"
     },
     {
       "type": "WEB",

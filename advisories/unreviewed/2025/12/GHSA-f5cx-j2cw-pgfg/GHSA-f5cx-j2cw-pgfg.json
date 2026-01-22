@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5cx-j2cw-pgfg",
-  "modified": "2025-12-19T18:31:12Z",
+  "modified": "2026-01-22T18:30:29Z",
   "published": "2025-12-18T21:31:42Z",
   "aliases": [
     "CVE-2025-56157"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/Cristliu/216ddbadaf3258498c93d408683ecabd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Cristliu/298f51cbc72c45d91632cd0d65aa8161"
     },
     {
       "type": "WEB",

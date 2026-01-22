@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c6jq-h3hj-7vwx",
+  "modified": "2026-01-22T18:30:40Z",
+  "published": "2026-01-22T18:30:40Z",
+  "aliases": [
+    "CVE-2026-22481"
+  ],
+  "details": "Missing Authorization vulnerability in Rasedul Haque Rumi BD Courier Order Ratio Checker bd-courier-order-ratio-checker allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects BD Courier Order Ratio Checker: from n/a through <= 2.0.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22481"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/bd-courier-order-ratio-checker/vulnerability/wordpress-bd-courier-order-ratio-checker-plugin-2-0-1-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-22T17:16:36Z"
+  }
+}

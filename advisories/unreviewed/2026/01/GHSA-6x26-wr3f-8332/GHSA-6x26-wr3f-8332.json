@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6x26-wr3f-8332",
+  "modified": "2026-01-22T18:30:39Z",
+  "published": "2026-01-22T18:30:39Z",
+  "aliases": [
+    "CVE-2026-22353"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in winkm89 teachPress teachpress allows Stored XSS.This issue affects teachPress: from n/a through <= 9.0.12.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22353"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/teachpress/vulnerability/wordpress-teachpress-plugin-9-0-12-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-22T17:16:31Z"
+  }
+}

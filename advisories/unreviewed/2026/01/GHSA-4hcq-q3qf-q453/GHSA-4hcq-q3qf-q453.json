@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hcq-q3qf-q453",
-  "modified": "2026-01-20T18:31:54Z",
+  "modified": "2026-01-22T18:30:31Z",
   "published": "2026-01-12T21:30:34Z",
   "aliases": [
     "CVE-2026-22200"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/osTicket/osTicket/releases/tag/v1.18.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://horizon3.ai/attack-research/attack-blogs/ticket-to-shell-exploiting-php-filters-and-cnext-in-osticket-cve-2026-22200"
     },
     {
       "type": "WEB",

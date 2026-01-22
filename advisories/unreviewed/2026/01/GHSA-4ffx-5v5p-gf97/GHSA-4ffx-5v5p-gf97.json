@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4ffx-5v5p-gf97",
+  "modified": "2026-01-22T18:30:36Z",
+  "published": "2026-01-22T18:30:36Z",
+  "aliases": [
+    "CVE-2025-68896"
+  ],
+  "details": "Missing Authorization vulnerability in vrpr WDV One Page Docs wdv-one-page-docs allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WDV One Page Docs: from n/a through <= 1.2.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68896"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wdv-one-page-docs/vulnerability/wordpress-wdv-one-page-docs-plugin-1-2-4-broken-access-control-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-22T17:16:13Z"
+  }
+}
