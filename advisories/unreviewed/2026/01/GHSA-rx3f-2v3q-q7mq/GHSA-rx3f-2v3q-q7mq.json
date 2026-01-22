@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx3f-2v3q-q7mq",
-  "modified": "2026-01-16T00:30:54Z",
+  "modified": "2026-01-22T00:31:30Z",
   "published": "2026-01-16T00:30:54Z",
   "aliases": [
     "CVE-2023-7334"

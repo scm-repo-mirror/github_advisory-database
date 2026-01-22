@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvwq-h638-7j7w",
-  "modified": "2025-10-01T12:30:28Z",
+  "modified": "2026-01-22T00:31:29Z",
   "published": "2025-10-01T12:30:28Z",
   "aliases": [
     "CVE-2022-50440"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vmwgfx: Validate the box size for the snooped cursor\n\nInvalid userspace dma surface copies could potentially overflow\nthe memcpy from the surface to the snooped image leading to crashes.\nTo fix it the dimensions of the copybox have to be validated\nagainst the expected size of the snooped cursor.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:36Z"

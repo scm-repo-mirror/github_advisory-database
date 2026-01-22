@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfq7-53pj-q6wc",
-  "modified": "2026-01-19T15:30:37Z",
+  "modified": "2026-01-22T00:31:30Z",
   "published": "2026-01-19T15:30:37Z",
   "aliases": [
     "CVE-2026-1181"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-284",
       "CWE-79"
     ],
     "severity": "CRITICAL",

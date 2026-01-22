@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75wp-8gpw-f4fr",
-  "modified": "2025-10-01T12:30:28Z",
+  "modified": "2026-01-22T00:31:29Z",
   "published": "2025-10-01T12:30:28Z",
   "aliases": [
     "CVE-2022-50438"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: hinic: fix memory leak when reading function table\n\nWhen the input parameter idx meets the expected case option in\nhinic_dbg_get_func_table(), read_data is not released. Fix it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:35Z"

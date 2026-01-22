@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv3w-w9gj-7hf3",
-  "modified": "2024-03-28T09:31:12Z",
+  "modified": "2026-01-22T00:31:29Z",
   "published": "2024-03-28T09:31:12Z",
   "aliases": [
     "CVE-2023-39309"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ThemeFusion Fusion Builder.This issue affects Fusion Builder: from n/a through 3.11.1.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ThemeFusion Fusion Builder.This issue affects Fusion Builder: from n/a through 3.11.1.",
   "severity": [
     {
       "type": "CVSS_V3",

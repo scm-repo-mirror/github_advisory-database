@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h235-mqh4-6cp2",
-  "modified": "2025-10-01T12:30:28Z",
+  "modified": "2026-01-22T00:31:29Z",
   "published": "2025-10-01T12:30:28Z",
   "aliases": [
     "CVE-2022-50436"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: don't set up encryption key during jbd2 transaction\n\nCommit a80f7fcf1867 (\"ext4: fixup ext4_fc_track_* functions' signature\")\nextended the scope of the transaction in ext4_unlink() too far, making\nit include the call to ext4_find_entry().  However, ext4_find_entry()\ncan deadlock when called from within a transaction because it may need\nto set up the directory's encryption key.\n\nFix this by restoring the transaction to its original scope.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:35Z"
