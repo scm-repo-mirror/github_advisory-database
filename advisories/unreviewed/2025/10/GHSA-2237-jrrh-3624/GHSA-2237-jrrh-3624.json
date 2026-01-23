@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2237-jrrh-3624",
-  "modified": "2025-11-03T18:31:43Z",
+  "modified": "2026-01-23T03:30:29Z",
   "published": "2025-10-01T09:30:24Z",
   "aliases": [
     "CVE-2025-39891"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mwifiex: Initialize the chan_stats array to zero\n\nThe adapter->chan_stats[] array is initialized in\nmwifiex_init_channel_scan_gap() with vmalloc(), which doesn't zero out\nmemory.  The array is filled in mwifiex_update_chan_statistics()\nand then the user can query the data in mwifiex_cfg80211_dump_survey().\n\nThere are two potential issues here.  What if the user calls\nmwifiex_cfg80211_dump_survey() before the data has been filled in.\nAlso the mwifiex_update_chan_statistics() function doesn't necessarily\ninitialize the whole array.  Since the array was not initialized at\nthe start that could result in an information leak.\n\nAlso this array is pretty small.  It's a maximum of 900 bytes so it's\nmore appropriate to use kcalloc() instead vmalloc().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T08:15:31Z"

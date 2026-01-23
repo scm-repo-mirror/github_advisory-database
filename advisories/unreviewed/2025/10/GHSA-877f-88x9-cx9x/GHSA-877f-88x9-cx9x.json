@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-877f-88x9-cx9x",
-  "modified": "2025-10-01T12:30:30Z",
+  "modified": "2026-01-23T03:30:29Z",
   "published": "2025-10-01T12:30:30Z",
   "aliases": [
     "CVE-2023-53504"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/bnxt_re: Properly order ib_device_unalloc() to avoid UAF\n\nib_dealloc_device() should be called only after device cleanup.  Fix the\ndealloc sequence.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:54Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7fj-8w72-h36h",
-  "modified": "2025-10-01T12:30:30Z",
+  "modified": "2026-01-23T03:30:29Z",
   "published": "2025-10-01T12:30:30Z",
   "aliases": [
     "CVE-2023-53508"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nublk: fail to start device if queue setup is interrupted\n\nIn ublk_ctrl_start_dev(), if wait_for_completion_interruptible() is\ninterrupted by signal, queues aren't setup successfully yet, so we\nhave to fail UBLK_CMD_START_DEV, otherwise kernel oops can be triggered.\n\nReported by German when working on qemu-storage-deamon which requires\nsingle thread ublk daemon.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:54Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qjjr-vrx2-c9cp",
-  "modified": "2025-11-03T18:31:40Z",
+  "modified": "2026-01-23T03:30:28Z",
   "published": "2025-09-11T18:35:52Z",
   "aliases": [
     "CVE-2025-39760"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: core: config: Prevent OOB read in SS endpoint companion parsing\n\nusb_parse_ss_endpoint_companion() checks descriptor type before length,\nenabling a potentially odd read outside of the buffer size.\n\nFix this up by checking the size first before looking at any of the\nfields in the descriptor.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-11T17:15:39Z"
