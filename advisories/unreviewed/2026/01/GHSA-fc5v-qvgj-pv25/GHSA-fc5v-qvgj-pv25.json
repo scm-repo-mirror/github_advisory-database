@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc5v-qvgj-pv25",
-  "modified": "2026-01-16T00:30:54Z",
+  "modified": "2026-01-23T21:30:41Z",
   "published": "2026-01-16T00:30:54Z",
   "aliases": [
     "CVE-2026-1009"

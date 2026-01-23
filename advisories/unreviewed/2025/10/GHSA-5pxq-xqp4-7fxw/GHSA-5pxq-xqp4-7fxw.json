@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pxq-xqp4-7fxw",
-  "modified": "2025-10-06T21:30:45Z",
+  "modified": "2026-01-23T21:30:37Z",
   "published": "2025-10-06T21:30:45Z",
   "aliases": [
     "CVE-2025-11344"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://docu.ilias.de/go/blog/15821/882"
+    },
+    {
+      "type": "WEB",
+      "url": "https://srlabs.de/blog/breaking-ilias-part-2-three-to-rce"
     },
     {
       "type": "WEB",

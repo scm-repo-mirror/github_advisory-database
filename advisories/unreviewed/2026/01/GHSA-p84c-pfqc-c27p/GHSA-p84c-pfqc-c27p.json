@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p84c-pfqc-c27p",
-  "modified": "2026-01-15T21:31:48Z",
+  "modified": "2026-01-23T21:30:40Z",
   "published": "2026-01-15T21:31:48Z",
   "aliases": [
     "CVE-2026-21913"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-665"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

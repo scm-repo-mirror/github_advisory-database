@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqfg-j9g4-4mfh",
-  "modified": "2024-06-18T06:30:43Z",
+  "modified": "2026-01-23T21:30:30Z",
   "published": "2024-06-18T06:30:43Z",
   "aliases": [
     "CVE-2024-37079"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24453"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-37079"
     }
   ],
   "database_specific": {

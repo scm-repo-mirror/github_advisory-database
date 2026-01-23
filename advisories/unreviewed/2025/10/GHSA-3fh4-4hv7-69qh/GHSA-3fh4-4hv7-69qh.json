@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fh4-4hv7-69qh",
-  "modified": "2025-10-04T18:31:13Z",
+  "modified": "2026-01-23T21:30:37Z",
   "published": "2025-10-04T18:31:13Z",
   "aliases": [
     "CVE-2022-50482"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu/vt-d: Clean up si_domain in the init_dmars() error path\n\nA splat from kmem_cache_destroy() was seen with a kernel prior to\ncommit ee2653bbe89d (\"iommu/vt-d: Remove domain and devinfo mempool\")\nwhen there was a failure in init_dmars(), because the iommu_domain\ncache still had objects. While the mempool code is now gone, there\nstill is a leak of the si_domain memory if init_dmars() fails. So\nclean up si_domain in the init_dmars() error path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:44Z"

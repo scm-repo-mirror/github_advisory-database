@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpjc-m442-8hrm",
-  "modified": "2025-10-04T09:30:20Z",
+  "modified": "2026-01-23T21:30:36Z",
   "published": "2025-10-04T09:30:20Z",
   "aliases": [
     "CVE-2025-39934"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: bridge: anx7625: Fix NULL pointer dereference with early IRQ\n\nIf the interrupt occurs before resource initialization is complete, the\ninterrupt handler/worker may access uninitialized data such as the I2C\ntcpc_client device, potentially leading to NULL pointer dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T08:15:46Z"

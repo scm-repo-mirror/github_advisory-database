@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m892-r7q3-ww6c",
-  "modified": "2024-01-11T18:31:22Z",
+  "modified": "2026-01-23T21:30:29Z",
   "published": "2024-01-05T06:30:19Z",
   "aliases": [
     "CVE-2024-22087"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/foxweb/pico/issues/31"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/foxweb/pico/commit/7a5e4e242121c839cb77f5b9003e735a852f4e58"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/foxweb/pico/commit/e2d172f"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54w6-r4qm-xv7r",
-  "modified": "2026-01-23T15:31:37Z",
+  "modified": "2026-01-23T21:30:43Z",
   "published": "2026-01-23T15:31:37Z",
   "aliases": [
     "CVE-2026-24596"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in marynixie Related Posts Thumbnails Plugin for WordPress related-posts-thumbnails allows Cross Site Request Forgery.This issue affects Related Posts Thumbnails Plugin for WordPress: from n/a through <= 4.3.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:17Z"

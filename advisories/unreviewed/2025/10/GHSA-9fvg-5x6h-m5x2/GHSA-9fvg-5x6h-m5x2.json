@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fvg-5x6h-m5x2",
-  "modified": "2025-10-04T09:30:21Z",
+  "modified": "2026-01-23T21:30:36Z",
   "published": "2025-10-04T09:30:21Z",
   "aliases": [
     "CVE-2025-39951"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\num: virtio_uml: Fix use-after-free after put_device in probe\n\nWhen register_virtio_device() fails in virtio_uml_probe(),\nthe code sets vu_dev->registered = 1 even though\nthe device was not successfully registered.\nThis can lead to use-after-free or other issues.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T08:15:48Z"

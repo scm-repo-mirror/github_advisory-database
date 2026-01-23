@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x97q-xc6x-vxw7",
-  "modified": "2025-10-01T12:30:31Z",
+  "modified": "2026-01-23T21:30:36Z",
   "published": "2025-10-01T12:30:31Z",
   "aliases": [
     "CVE-2023-53518"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPM / devfreq: Fix leak in devfreq_dev_release()\n\nsrcu_init_notifier_head() allocates resources that need to be released\nwith a srcu_cleanup_notifier_head() call.\n\nReported by kmemleak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:56Z"

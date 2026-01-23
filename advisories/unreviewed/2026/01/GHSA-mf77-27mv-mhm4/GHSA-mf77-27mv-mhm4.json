@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf77-27mv-mhm4",
-  "modified": "2026-01-21T18:30:31Z",
+  "modified": "2026-01-23T21:30:42Z",
   "published": "2026-01-21T18:30:31Z",
   "aliases": [
     "CVE-2021-47865"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47865"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/proftpd/proftpd/issues/1298"
     },
     {
       "type": "WEB",

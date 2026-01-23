@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh8m-vpwg-c7rq",
-  "modified": "2025-10-09T18:30:36Z",
+  "modified": "2026-01-23T21:30:37Z",
   "published": "2025-10-09T18:30:36Z",
   "aliases": [
     "CVE-2025-59968"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-862"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

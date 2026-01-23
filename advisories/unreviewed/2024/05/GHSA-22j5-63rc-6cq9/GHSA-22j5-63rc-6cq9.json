@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22j5-63rc-6cq9",
-  "modified": "2024-05-08T15:30:41Z",
+  "modified": "2026-01-23T21:30:30Z",
   "published": "2024-05-08T15:30:41Z",
   "aliases": [
     "CVE-2024-31270"
   ],
-  "details": "Missing Authorization vulnerability in Repute InfoSystems ARForms Form Builder.This issue affects ARForms Form Builder: from n/a through 1.6.1.\n\n",
+  "details": "Missing Authorization vulnerability in Repute InfoSystems ARForms Form Builder.This issue affects ARForms Form Builder: from n/a through 1.6.1.",
   "severity": [
     {
       "type": "CVSS_V3",

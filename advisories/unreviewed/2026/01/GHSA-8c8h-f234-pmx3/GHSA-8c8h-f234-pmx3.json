@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c8h-f234-pmx3",
-  "modified": "2026-01-23T18:31:28Z",
+  "modified": "2026-01-23T21:30:43Z",
   "published": "2026-01-23T18:31:28Z",
   "aliases": [
     "CVE-2025-66720"
   ],
   "details": "Null pointer dereference in free5gc pcf 1.4.0 in file internal/sbi/processor/ampolicy.go in function HandleDeletePoliciesPolAssoId.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T16:15:52Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwjg-7mjq-fhh3",
-  "modified": "2025-10-01T12:30:31Z",
+  "modified": "2026-01-23T21:30:36Z",
   "published": "2025-10-01T12:30:31Z",
   "aliases": [
     "CVE-2023-53527"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nthunderbolt: Fix memory leak in tb_handle_dp_bandwidth_request()\n\nThe memory allocated in tb_queue_dp_bandwidth_request() needs to be\nreleased once the request is handled to avoid leaking it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:57Z"
