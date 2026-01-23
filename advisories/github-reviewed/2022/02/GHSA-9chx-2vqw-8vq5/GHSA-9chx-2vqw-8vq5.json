@@ -1,13 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9chx-2vqw-8vq5",
-  "modified": "2022-02-08T16:08:49Z",
+  "modified": "2026-01-23T22:41:41Z",
   "published": "2022-02-01T00:01:00Z",
+  "withdrawn": "2026-01-23T22:41:41Z",
   "aliases": [
     "CVE-2022-23409"
   ],
-  "summary": "Path Traversal in the Logs plugin for Craft CMS",
-  "details": "The Logs plugin before 3.0.4 for Craft CMS allows remote attackers to read arbitrary files via input to actionStream in Controller.php.",
+  "summary": "Duplicate Advisory: Path Traversal in the Logs plugin for Craft CMS",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-fp63-499m-hq6m. This link is maintained to preserve external references.\n\n## Original Description\nThe Logs plugin before 3.0.4 for Craft CMS allows remote attackers to read arbitrary files via input to actionStream in Controller.php.",
   "severity": [
     {
       "type": "CVSS_V3",
