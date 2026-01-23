@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2frx-2596-x5r6",
-  "modified": "2025-04-04T16:06:09Z",
+  "modified": "2026-01-23T17:09:14Z",
   "published": "2025-04-04T16:06:08Z",
   "aliases": [
     "CVE-2025-31130"
@@ -540,7 +540,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/GitoxideLabs/gitoxide/commit/4660f7a6f71873311f68f170b0f1f6659a02829d"
+      "url": "https://github.com/GitoxideLabs/gitoxide/commit/f253f02a6658b3b7612a50d56c71f5ae4da4ca21"
     },
     {
       "type": "PACKAGE",
