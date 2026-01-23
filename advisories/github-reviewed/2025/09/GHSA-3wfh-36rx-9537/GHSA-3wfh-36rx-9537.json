@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wfh-36rx-9537",
-  "modified": "2025-09-22T21:58:53Z",
+  "modified": "2026-01-23T17:28:00Z",
   "published": "2025-09-16T22:20:08Z",
   "aliases": [
     "CVE-2025-59432"
@@ -46,7 +46,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/ongres/scram/commit/f04975680d4a67bc84cc6c61bbffd5186223e2e2"
+      "url": "https://github.com/ongres/scram/commit/e0b0cf99f05406a0d26682c72fcb5728e95124b3"
     },
     {
       "type": "WEB",
