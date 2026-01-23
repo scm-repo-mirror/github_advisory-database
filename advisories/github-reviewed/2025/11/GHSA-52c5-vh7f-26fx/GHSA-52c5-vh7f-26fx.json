@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52c5-vh7f-26fx",
-  "modified": "2025-11-19T14:26:11Z",
+  "modified": "2026-01-23T21:37:34Z",
   "published": "2025-11-06T15:44:35Z",
   "aliases": [
     "CVE-2025-64501"
@@ -54,7 +54,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/etaminstudio/prosemirror_to_html/blob/ea8beb32f6c37f29f042ba4155ccf18504da716e/lib/prosemirror_to_html.rb#L249"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/prosemirror_to_html/CVE-2025-64501.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/prosemirror_to_html/GHSA-vfpf-xmwh-8m65.yml"
     }
   ],
   "database_specific": {
