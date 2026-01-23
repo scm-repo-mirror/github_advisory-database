@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-793v-589g-574v",
-  "modified": "2026-01-08T20:11:40Z",
+  "modified": "2026-01-23T16:39:04Z",
   "published": "2026-01-06T17:53:44Z",
   "aliases": [
     "CVE-2026-21883"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/bokeh/bokeh/commit/cedd113b0e271b439dce768671685cf5f861812e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://aydinnyunus.github.io/2026/01/24/bokeh-websocket-hijacking-cve-2026-21883"
     },
     {
       "type": "PACKAGE",
