@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hgr3-x44x-33hx",
+  "modified": "2026-01-23T00:31:16Z",
+  "published": "2026-01-23T00:31:16Z",
+  "aliases": [
+    "CVE-2026-20736"
+  ],
+  "details": "Gitea does not properly verify repository context when deleting attachments. A user who previously uploaded an attachment to a repository may be able to delete it after losing access to that repository by making the request through a different repository they can access.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/go-gitea/gitea/security/advisories/GHSA-jr6h-pwwp-c8g6"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20736"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/go-gitea/gitea/pull/36320"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.gitea.com/release-of-1.25.4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/go-gitea/gitea/releases/tag/v1.25.4"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-22T22:16:17Z"
+  }
+}
