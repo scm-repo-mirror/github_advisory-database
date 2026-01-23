@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8whr-v3gm-w8h9",
-  "modified": "2021-10-04T21:08:30Z",
+  "modified": "2026-01-23T22:49:42Z",
   "published": "2020-09-03T15:51:04Z",
+  "withdrawn": "2026-01-23T22:49:42Z",
   "aliases": [],
-  "summary": "Command Injection in node-rules",
-  "details": "Versions of `node-rules` prior to 5.0.0 are vulnerable to Command Injection. The package fails to sanitize input rules and passes it directly to an `eval` call when using the `fromJSON` function. This may allow attackers to execute arbitrary code in the system if the rules are user-controlled.\n\n\n## Recommendation\n\nUpgrade to version 5.0.0 or later.",
+  "summary": "Duplicate Advisory: Command Injection in node-rules",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-f78f-353m-cf4j. This link is maintained to preserve external references.\n\n## Original Description\nVersions of `node-rules` prior to 5.0.0 are vulnerable to Command Injection. The package fails to sanitize input rules and passes it directly to an `eval` call when using the `fromJSON` function. This may allow attackers to execute arbitrary code in the system if the rules are user-controlled.\n\n\n## Recommendation\n\nUpgrade to version 5.0.0 or later.",
   "severity": [
     {
       "type": "CVSS_V3",
