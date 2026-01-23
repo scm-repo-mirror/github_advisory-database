@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43fm-9f2q-hw2w",
-  "modified": "2026-01-22T18:30:38Z",
+  "modified": "2026-01-23T22:35:51Z",
   "published": "2026-01-22T18:30:38Z",
   "aliases": [
     "CVE-2025-69098"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in wpWave Hide My WP hide_my_wp allows Reflected XSS.This issue affects Hide My WP: from n/a through <= 6.2.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:22Z"

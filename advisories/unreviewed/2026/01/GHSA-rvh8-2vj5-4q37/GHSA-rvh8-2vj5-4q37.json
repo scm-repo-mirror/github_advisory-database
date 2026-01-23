@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvh8-2vj5-4q37",
-  "modified": "2026-01-23T15:31:38Z",
+  "modified": "2026-01-23T22:35:51Z",
   "published": "2026-01-23T15:31:38Z",
   "aliases": [
     "CVE-2026-24612"
   ],
   "details": "Missing Authorization vulnerability in themebeez Orchid Store orchid-store allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Orchid Store: from n/a through <= 1.5.15.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:19Z"

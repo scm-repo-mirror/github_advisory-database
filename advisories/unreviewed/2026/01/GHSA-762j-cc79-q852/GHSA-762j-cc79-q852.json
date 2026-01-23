@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-762j-cc79-q852",
-  "modified": "2026-01-23T15:31:38Z",
+  "modified": "2026-01-23T22:35:52Z",
   "published": "2026-01-23T15:31:38Z",
   "aliases": [
     "CVE-2026-24626"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in LogicHunt Logo Slider logo-slider-wp allows Stored XSS.This issue affects Logo Slider: from n/a through <= 4.9.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:21Z"

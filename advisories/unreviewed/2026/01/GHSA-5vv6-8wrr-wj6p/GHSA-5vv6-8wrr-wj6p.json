@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vv6-8wrr-wj6p",
-  "modified": "2026-01-23T15:31:34Z",
+  "modified": "2026-01-23T22:35:51Z",
   "published": "2026-01-23T15:31:34Z",
   "aliases": [
     "CVE-2025-69907"
   ],
   "details": "An unauthenticated information disclosure vulnerability exists in Newgen OmniDocs due to missing authentication and access control on the /omnidocs/GetListofCabinet API endpoint. A remote attacker can access this endpoint without valid credentials to retrieve sensitive internal configuration information, including cabinet names and database-related metadata. This allows unauthorized enumeration of backend deployment details and may facilitate further targeted attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:05Z"
