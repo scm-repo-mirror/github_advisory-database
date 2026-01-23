@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-387g-7jpp-vpxj",
+  "modified": "2026-01-23T15:31:38Z",
+  "published": "2026-01-23T15:31:38Z",
+  "aliases": [
+    "CVE-2026-24620"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in PluginOps Landing Page Builder page-builder-add allows Stored XSS.This issue affects Landing Page Builder: from n/a through <= 1.5.3.3.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24620"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/page-builder-add/vulnerability/wordpress-landing-page-builder-plugin-1-5-3-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-23T15:16:21Z"
+  }
+}
