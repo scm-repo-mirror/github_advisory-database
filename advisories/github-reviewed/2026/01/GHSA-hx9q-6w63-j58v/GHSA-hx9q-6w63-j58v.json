@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx9q-6w63-j58v",
-  "modified": "2026-01-22T18:55:43Z",
+  "modified": "2026-01-23T16:56:03Z",
   "published": "2026-01-22T18:30:33Z",
   "aliases": [
     "CVE-2025-67221"
@@ -39,6 +39,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67221"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ijl/orjson/issues/620"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kpatsakis/CVE-2025-67221/issues/1"
     },
     {
       "type": "PACKAGE",
