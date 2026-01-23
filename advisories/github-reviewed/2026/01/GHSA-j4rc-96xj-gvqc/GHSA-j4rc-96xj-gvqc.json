@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4rc-96xj-gvqc",
-  "modified": "2026-01-23T20:17:33Z",
+  "modified": "2026-01-23T21:12:42Z",
   "published": "2026-01-23T20:17:33Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-24422"
+  ],
   "summary": "phpMyFAQ: Public API endpoints expose emails and invisible questions",
   "details": "### Summary\nSeveral public API endpoints return email addresses and non‑public records (e.g. open questions with isVisible=false).\n\n### Details\nOpenQuestionController::list() calls Question::getAll() with the default showAll=true, returning invisible questions and their emails. Similar exposures exist in comment/news/faq APIs.\n\n### PoC\n```\ncurl -i -H 'Accept-Language: en' \\\n  http://192.168.40.16/phpmyfaq/api/v3.0/open-questions\n```\n\n### Impact\nPrivacy exposure of email addresses and non‑public content; increased risk of phishing/scraping.",
   "severity": [
