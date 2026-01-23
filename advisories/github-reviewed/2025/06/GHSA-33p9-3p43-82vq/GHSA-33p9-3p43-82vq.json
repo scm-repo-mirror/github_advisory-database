@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33p9-3p43-82vq",
-  "modified": "2025-06-04T21:00:23Z",
+  "modified": "2026-01-23T16:31:13Z",
   "published": "2025-06-04T21:00:23Z",
   "aliases": [
     "CVE-2025-30167"
@@ -46,6 +46,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30167"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jupyter/jupyter_core/commit/5e8965600adda6b416692ce7e85ecb2bd814bd52"
     },
     {
       "type": "PACKAGE",
