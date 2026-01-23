@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gqc-6j2q-83qp",
-  "modified": "2026-01-15T22:34:28Z",
+  "modified": "2026-01-23T21:46:10Z",
   "published": "2026-01-15T18:17:15Z",
   "aliases": [
     "CVE-2026-23519"
@@ -59,6 +59,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-203",
       "CWE-208"
     ],
     "severity": "HIGH",
