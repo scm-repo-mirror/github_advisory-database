@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcv2-xgw5-pqxf",
-  "modified": "2026-01-22T21:46:51Z",
+  "modified": "2026-01-23T15:49:39Z",
   "published": "2026-01-22T20:28:56Z",
   "aliases": [
     "CVE-2026-24137"
@@ -44,6 +44,10 @@
       "url": "https://github.com/sigstore/sigstore/security/advisories/GHSA-fcv2-xgw5-pqxf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24137"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/sigstore/sigstore/commit/8ec410a2993ea78083aecf0e473a85453039496e"
     },
@@ -63,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-22T20:28:56Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-23T00:15:52Z"
   }
 }

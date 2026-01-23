@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c4x-jm2x-pf9j",
-  "modified": "2026-01-22T18:41:26Z",
+  "modified": "2026-01-23T15:49:13Z",
   "published": "2026-01-22T18:41:26Z",
   "aliases": [
     "CVE-2026-24117"
@@ -44,6 +44,10 @@
       "url": "https://github.com/sigstore/rekor/security/advisories/GHSA-4c4x-jm2x-pf9j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24117"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/sigstore/rekor/commit/60ef2bceba192c5bf9327d003bceea8bf1f8275f"
     },
@@ -63,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-22T18:41:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-22T22:16:21Z"
   }
 }
