@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pchf-49fh-w34r",
-  "modified": "2026-01-22T18:30:17Z",
+  "modified": "2026-01-23T15:46:52Z",
   "published": "2026-01-21T23:02:07Z",
   "aliases": [
     "CVE-2026-24058"
@@ -44,6 +44,10 @@
       "url": "https://github.com/charmbracelet/soft-serve/security/advisories/GHSA-pchf-49fh-w34r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24058"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/charmbracelet/soft-serve/commit/8539f9ad39918b67d612a35785a2b4326efc8741"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-21T23:02:07Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-22T22:16:21Z"
   }
 }
