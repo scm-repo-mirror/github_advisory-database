@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36p8-9jxx-p4v9",
-  "modified": "2024-10-28T12:30:55Z",
+  "modified": "2026-01-23T18:31:22Z",
   "published": "2024-10-28T12:30:55Z",
   "aliases": [
     "CVE-2024-50498"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50498"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-50498"
     },
     {
       "type": "WEB",

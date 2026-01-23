@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c827-pf9p-24mm",
-  "modified": "2026-01-16T12:30:24Z",
+  "modified": "2026-01-23T18:31:27Z",
   "published": "2026-01-16T12:30:24Z",
   "aliases": [
     "CVE-2025-14844"

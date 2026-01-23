@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whm8-436x-pvrj",
-  "modified": "2025-05-01T15:31:50Z",
+  "modified": "2026-01-23T18:31:22Z",
   "published": "2025-05-01T15:31:50Z",
   "aliases": [
     "CVE-2022-49852"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nriscv: process: fix kernel info leakage\n\nthread_struct's s[12] may contain random kernel memory content, which\nmay be finally leaked to userspace. This is a security hole. Fix it\nby clearing the s[12] array in thread_struct when fork.\n\nAs for kthread case, it's better to clear the s[12] array as well.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:08Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p55f-69cf-qgpm",
-  "modified": "2026-01-22T18:30:39Z",
+  "modified": "2026-01-23T18:31:28Z",
   "published": "2026-01-22T18:30:39Z",
   "aliases": [
     "CVE-2025-70899"
   ],
   "details": "PHPgurukul Online Course Registration v3.1 lacks Cross-Site Request Forgery (CSRF) protection on all administrative forms. An attacker can perform unauthorized actions on behalf of authenticated administrators by tricking them into visiting a malicious webpage.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:28Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3fv-p9hp-v9h2",
-  "modified": "2025-10-04T18:31:13Z",
+  "modified": "2026-01-23T18:31:23Z",
   "published": "2025-10-04T18:31:13Z",
   "aliases": [
     "CVE-2022-50474"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmacintosh: fix possible memory leak in macio_add_one_device()\n\nAfer commit 1fa5ae857bb1 (\"driver core: get rid of struct device's\nbus_id string array\"), the name of device is allocated dynamically. It\nneeds to be freed when of_device_register() fails. Call put_device() to\ngive up the reference that's taken in device_initialize(), so that it\ncan be freed in kobject_cleanup() when the refcount hits 0.\n\nmacio device is freed in macio_release_dev(), so the kfree() can be\nremoved.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:43Z"

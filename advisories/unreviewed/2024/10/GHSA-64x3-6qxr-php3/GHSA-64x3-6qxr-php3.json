@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64x3-6qxr-php3",
-  "modified": "2024-10-26T03:30:43Z",
+  "modified": "2026-01-23T18:31:21Z",
   "published": "2024-10-26T03:30:43Z",
   "aliases": [
     "CVE-2024-9932"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9932"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/JoshuaProvoste/0-click-RCE-Exploit-for-CVE-2024-9932"
     },
     {
       "type": "WEB",

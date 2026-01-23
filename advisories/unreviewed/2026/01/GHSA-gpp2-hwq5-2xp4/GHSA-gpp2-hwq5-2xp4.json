@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpp2-hwq5-2xp4",
-  "modified": "2026-01-16T15:31:25Z",
+  "modified": "2026-01-23T18:31:28Z",
   "published": "2026-01-16T15:31:25Z",
   "aliases": [
     "CVE-2026-0695"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6wg-29xj-2fjf",
-  "modified": "2026-01-18T18:30:16Z",
+  "modified": "2026-01-23T18:31:28Z",
   "published": "2026-01-18T18:30:16Z",
   "aliases": [
     "CVE-2026-0863"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://research.jfrog.com/vulnerabilities/n8n-python-runner-sandbox-escape-jfsa-2026-001651077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.smartkeyss.com/post/cve-2026-0863-python-sandbox-escape-in-n8n-via-exception-formatting-and-implicit-code-execution"
     }
   ],
   "database_specific": {
