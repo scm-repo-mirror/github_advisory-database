@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5p4-42cc-2j44",
-  "modified": "2022-10-19T12:00:19Z",
+  "modified": "2026-01-24T21:30:23Z",
   "published": "2022-10-17T19:00:28Z",
   "aliases": [
     "CVE-2022-0699"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OSGeo/shapelib/commit/c75b9281a5b9452d92e1682bdfe6019a13ed819f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/01/msg00023.html"
     }
   ],
   "database_specific": {

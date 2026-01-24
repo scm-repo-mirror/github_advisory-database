@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-63jr-j347-v237",
-  "modified": "2025-05-22T15:34:50Z",
+  "modified": "2026-01-24T21:30:23Z",
   "published": "2025-05-22T15:34:50Z",
   "aliases": [
     "CVE-2023-47466"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/taglib/taglib/compare/v1.13.1...v2.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/01/msg00022.html"
     }
   ],
   "database_specific": {
