@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7pgx-8vw6-gxgv",
+  "modified": "2026-01-25T15:30:26Z",
+  "published": "2026-01-25T15:30:26Z",
+  "aliases": [
+    "CVE-2025-71163"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: idxd: fix device leaks on compat bind and unbind\n\nMake sure to drop the reference taken when looking up the idxd device as\npart of the compat bind and unbind sysfs interface.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71163"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0c97ff108f825a70c3bb29d65ddf0a013d231bb9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/799900f01792cf8b525a44764f065f83fcafd468"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a7226fd61def74b60dd8e47ec84cabafc39d575b"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-25T15:15:54Z"
+  }
+}
