@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg57-8cqc-xf6h",
-  "modified": "2026-01-19T21:33:12Z",
+  "modified": "2026-01-26T18:31:28Z",
   "published": "2026-01-19T21:33:12Z",
   "aliases": [
     "CVE-2026-1175"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/birkir/prime/issues/546"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/birkir/prime"
     },
     {
       "type": "WEB",

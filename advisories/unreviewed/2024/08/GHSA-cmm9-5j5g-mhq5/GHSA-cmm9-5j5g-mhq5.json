@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmm9-5j5g-mhq5",
-  "modified": "2024-08-30T15:31:29Z",
+  "modified": "2026-01-26T18:31:24Z",
   "published": "2024-08-29T21:31:03Z",
   "aliases": [
     "CVE-2024-41348"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/jpatokal/openflights/issues/1478"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jpatokal/openflights/commit/d815df727a94fe98d3299873f0efddf6a81a56a3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jpatokal/openflights/commit/e7f5d8112d5353cc1ceb6ae92aa5ff2f3c2e35a6"
     }
   ],
   "database_specific": {

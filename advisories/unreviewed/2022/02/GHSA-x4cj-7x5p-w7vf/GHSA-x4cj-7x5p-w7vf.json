@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4cj-7x5p-w7vf",
-  "modified": "2023-05-29T21:30:16Z",
+  "modified": "2026-01-26T18:31:24Z",
   "published": "2022-02-25T00:00:59Z",
   "aliases": [
     "CVE-2021-3610"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1973689"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/fuzzing2026/CVE-PoCs/tree/main/imagemagick-CVE-2021-3610"
     },
     {
       "type": "WEB",

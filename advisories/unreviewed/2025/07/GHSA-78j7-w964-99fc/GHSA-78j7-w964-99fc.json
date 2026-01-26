@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78j7-w964-99fc",
-  "modified": "2025-11-05T00:31:18Z",
+  "modified": "2026-01-26T18:31:27Z",
   "published": "2025-07-05T03:30:23Z",
   "aliases": [
     "CVE-2025-53603"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Alinto/sope/pull/69"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Alinto/sope/commit/280104e45c20519ac4849ebf8bca114d91383543"
     },
     {
       "type": "WEB",

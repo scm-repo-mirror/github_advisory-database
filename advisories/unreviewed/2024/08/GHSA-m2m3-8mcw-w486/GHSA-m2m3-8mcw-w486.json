@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2m3-8mcw-w486",
-  "modified": "2024-08-30T15:31:29Z",
+  "modified": "2026-01-26T18:31:23Z",
   "published": "2024-08-29T21:31:03Z",
   "aliases": [
     "CVE-2024-41347"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/jpatokal/openflights/issues/1477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jpatokal/openflights/commit/36733f430b11a78404457a5dfc295ab1182292c0"
     }
   ],
   "database_specific": {

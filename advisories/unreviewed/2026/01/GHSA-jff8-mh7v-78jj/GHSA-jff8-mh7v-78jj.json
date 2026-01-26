@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jff8-mh7v-78jj",
-  "modified": "2026-01-23T15:31:36Z",
+  "modified": "2026-01-26T18:31:28Z",
   "published": "2026-01-23T15:31:36Z",
   "aliases": [
     "CVE-2026-24553"
   ],
   "details": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Dotstore Fraud Prevention For Woocommerce woo-blocker-lite-prevent-fake-orders-and-blacklist-fraud-customers allows Retrieve Embedded Sensitive Data.This issue affects Fraud Prevention For Woocommerce: from n/a through <= 2.3.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-497"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:11Z"

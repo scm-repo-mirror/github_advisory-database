@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f68w-mw2g-j2g2",
-  "modified": "2022-05-24T17:47:38Z",
+  "modified": "2026-01-26T18:31:24Z",
   "published": "2022-05-24T17:47:38Z",
   "aliases": [
     "CVE-2021-28856"
   ],
   "details": "In Deark before v1.5.8, a specially crafted input file can cause a division by zero in (src/fmtutil.c) because of the value of pixelsize.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://fatihhcelik.github.io/posts/Division-By-Zero-Deark"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/fuzzing2026/CVE-PoCs/tree/main/deark-CVE-2021-28856"
     }
   ],
   "database_specific": {

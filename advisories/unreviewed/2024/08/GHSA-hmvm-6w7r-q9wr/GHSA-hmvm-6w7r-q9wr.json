@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmvm-6w7r-q9wr",
-  "modified": "2025-04-16T15:34:13Z",
+  "modified": "2026-01-26T18:31:24Z",
   "published": "2024-08-29T21:31:03Z",
   "aliases": [
     "CVE-2024-41358"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/phpipam/phpipam/issues/4148"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/phpipam/phpipam/commit/3986ac1acfbf47ddd4fe05cd158aaf2cacafe36b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/phpipam/phpipam/commit/b131fb99c9ada95b38e4cb2749ac599e42fad3d9"
     },
     {
       "type": "WEB",
