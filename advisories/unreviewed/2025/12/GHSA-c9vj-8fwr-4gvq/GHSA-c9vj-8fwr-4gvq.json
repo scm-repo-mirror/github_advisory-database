@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9vj-8fwr-4gvq",
-  "modified": "2026-01-08T21:30:28Z",
+  "modified": "2026-01-26T21:30:31Z",
   "published": "2025-12-29T03:30:26Z",
   "aliases": [
     "CVE-2025-52691"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691?ref=labs.watchtowr.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-52691"
     },
     {
       "type": "WEB",

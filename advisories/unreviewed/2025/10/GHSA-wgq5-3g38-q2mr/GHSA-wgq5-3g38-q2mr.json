@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgq5-3g38-q2mr",
-  "modified": "2025-10-01T12:30:31Z",
+  "modified": "2026-01-26T21:30:30Z",
   "published": "2025-10-01T12:30:31Z",
   "aliases": [
     "CVE-2023-53521"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: ses: Fix slab-out-of-bounds in ses_intf_remove()\n\nA fix for:\n\nBUG: KASAN: slab-out-of-bounds in ses_intf_remove+0x23f/0x270 [ses]\nRead of size 8 at addr ffff88a10d32e5d8 by task rmmod/12013\n\nWhen edev->components is zero, accessing edev->component[0] members is\nwrong.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-01T12:15:56Z"

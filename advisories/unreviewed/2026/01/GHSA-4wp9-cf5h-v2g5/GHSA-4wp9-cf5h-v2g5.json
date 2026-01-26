@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4wp9-cf5h-v2g5",
-  "modified": "2026-01-22T21:33:45Z",
+  "modified": "2026-01-26T21:30:31Z",
   "published": "2026-01-21T00:31:43Z",
   "aliases": [
     "CVE-2026-21962"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/cpujan2026.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://x.com/0xacb/status/2015473216844620280"
     }
   ],
   "database_specific": {

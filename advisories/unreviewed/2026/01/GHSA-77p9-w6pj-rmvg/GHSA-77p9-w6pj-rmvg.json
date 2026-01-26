@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77p9-w6pj-rmvg",
-  "modified": "2026-01-26T15:31:25Z",
+  "modified": "2026-01-26T21:30:36Z",
   "published": "2026-01-26T12:30:29Z",
   "aliases": [
     "CVE-2016-15057"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/hbvf1ztqw2kv51khvzm5nk3mml3nm4z1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/26/1"
     }
   ],
   "database_specific": {

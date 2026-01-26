@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qv6-2v4w-q82f",
-  "modified": "2026-01-23T15:31:37Z",
+  "modified": "2026-01-26T21:30:35Z",
   "published": "2026-01-23T15:31:37Z",
   "aliases": [
     "CVE-2026-24578"
   ],
   "details": "Missing Authorization vulnerability in Jahid Hasan Admin login URL Change admin-login-url-change allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Admin login URL Change: from n/a through <= 1.1.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:15Z"

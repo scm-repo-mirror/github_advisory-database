@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvxr-5p5v-9mhj",
-  "modified": "2026-01-22T18:30:40Z",
+  "modified": "2026-01-26T21:30:33Z",
   "published": "2026-01-22T18:30:40Z",
   "aliases": [
     "CVE-2026-22482"
   ],
   "details": "Server-Side Request Forgery (SSRF) vulnerability in wbolt.com IMGspider imgspider allows Server Side Request Forgery.This issue affects IMGspider: from n/a through <= 2.3.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-918"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:36Z"

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-frpp-8pwq-hjrx",
+  "modified": "2026-01-26T21:30:36Z",
+  "published": "2026-01-26T21:30:36Z",
+  "aliases": [
+    "CVE-2025-14969"
+  ],
+  "details": "A flaw was found in Hibernate Reactive. When an HTTP endpoint is exposed to perform database operations, a remote client can prematurely close the HTTP connection. This action may lead to leaking connections from the database connection pool, potentially causing a Denial of Service (DoS) by exhausting available database connections.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14969"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-14969"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2423822"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-772"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-26T20:16:08Z"
+  }
+}

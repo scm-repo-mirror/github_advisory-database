@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch84-h92g-mw93",
-  "modified": "2026-01-26T18:31:31Z",
+  "modified": "2026-01-26T21:30:36Z",
   "published": "2026-01-26T18:31:31Z",
   "aliases": [
     "CVE-2026-21509"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21509"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-21509"
     }
   ],
   "database_specific": {

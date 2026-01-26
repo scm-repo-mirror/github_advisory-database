@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mm7-c9cw-wf2r",
-  "modified": "2026-01-23T15:31:37Z",
+  "modified": "2026-01-26T21:30:35Z",
   "published": "2026-01-23T15:31:37Z",
   "aliases": [
     "CVE-2026-24571"
   ],
   "details": "Missing Authorization vulnerability in boxnow BOX NOW Delivery box-now-delivery allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects BOX NOW Delivery: from n/a through <= 3.0.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:15Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrv6-5rxr-645f",
-  "modified": "2025-06-12T15:31:23Z",
+  "modified": "2026-01-26T21:30:30Z",
   "published": "2025-06-12T15:31:23Z",
   "aliases": [
     "CVE-2025-49198"

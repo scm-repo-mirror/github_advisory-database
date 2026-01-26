@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4994-8w6g-9jvw",
-  "modified": "2022-05-13T01:08:25Z",
+  "modified": "2026-01-26T21:30:29Z",
   "published": "2022-05-13T01:08:25Z",
   "aliases": [
     "CVE-2018-14634"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/45516"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2018-14634"
     },
     {
       "type": "WEB",
