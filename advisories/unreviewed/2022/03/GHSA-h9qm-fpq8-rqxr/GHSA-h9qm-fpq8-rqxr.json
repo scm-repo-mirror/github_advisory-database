@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9qm-fpq8-rqxr",
-  "modified": "2022-03-31T00:00:33Z",
+  "modified": "2026-01-26T15:30:28Z",
   "published": "2022-03-26T00:00:28Z",
   "aliases": [
     "CVE-2022-26573"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/magicblack/maccms10/issues/840"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/magicblack/maccms10/commit/026a2893d7de4ba4987b670b292ba569f3b8d296#diff-498970d2c74a54ff851bf844ce006053b7bb7042b19711a81966554f62aff753L41-R47"
     }
   ],
   "database_specific": {

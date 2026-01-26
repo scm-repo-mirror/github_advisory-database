@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x85f-j5v8-5vrv",
-  "modified": "2026-01-23T18:31:28Z",
+  "modified": "2026-01-26T15:30:49Z",
   "published": "2026-01-21T00:31:42Z",
   "aliases": [
     "CVE-2026-0672"
@@ -29,11 +29,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/62700107418eb2cca3fc88da036a243ea975f172"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/python/cpython/commit/712452e6f1d4b9f7f8c4c92ebfcaac1705faa440"
     },
     {
       "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/7852d72b653fea0199acf5fc2a84f6f8b84eba8d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/918387e4912d12ffc166c8f2a38df92b6ec756ca"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/python/cpython/commit/95746b3a13a985787ef53b977129041971ed7f70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/b1869ff648bbee0717221d09e6deff46617f3e85"
     },
     {
       "type": "WEB",

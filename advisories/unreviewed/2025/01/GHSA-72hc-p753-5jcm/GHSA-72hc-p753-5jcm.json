@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-72hc-p753-5jcm",
-  "modified": "2025-02-05T18:34:40Z",
+  "modified": "2026-01-26T15:30:29Z",
   "published": "2025-01-24T21:31:28Z",
   "aliases": [
     "CVE-2024-57277"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/innocommerce/innoshop/issues/115"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/innocommerce/innoshop/commit/7ccc90d2b549e14460efc4f758b01adbd080e7ff"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37g4-vx3r-j5q5",
-  "modified": "2025-11-21T09:30:27Z",
+  "modified": "2026-01-26T15:30:30Z",
   "published": "2025-11-21T09:30:27Z",
   "aliases": [
     "CVE-2025-12746"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12746"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tainacan/tainacan/commit/8468fb4ec76c709d5ae2852d1fc64986b1dc73cf"
     },
     {
       "type": "WEB",
