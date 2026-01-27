@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4hm-q54x-6vvj",
-  "modified": "2026-01-22T18:30:37Z",
+  "modified": "2026-01-27T18:32:11Z",
   "published": "2026-01-22T18:30:37Z",
   "aliases": [
     "CVE-2025-69054"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in highwarden Super Logos Showcase superlogoshowcase-wp allows Reflected XSS.This issue affects Super Logos Showcase: from n/a through <= 2.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:18Z"

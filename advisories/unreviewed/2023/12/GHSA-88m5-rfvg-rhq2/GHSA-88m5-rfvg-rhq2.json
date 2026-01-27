@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88m5-rfvg-rhq2",
-  "modified": "2023-12-29T06:30:29Z",
+  "modified": "2026-01-27T18:32:05Z",
   "published": "2023-12-29T06:30:29Z",
   "aliases": [
     "CVE-2023-23442"
   ],
-  "details": "\nSome Honor products are affected by type confusion vulnerability, successful exploitation could cause information leak.\n\n",
+  "details": "Some Honor products are affected by type confusion vulnerability, successful exploitation could cause information leak.",
   "severity": [
     {
       "type": "CVSS_V3",

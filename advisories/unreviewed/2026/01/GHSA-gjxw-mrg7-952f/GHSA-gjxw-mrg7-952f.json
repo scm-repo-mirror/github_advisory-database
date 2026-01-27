@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gjxw-mrg7-952f",
+  "modified": "2026-01-27T18:32:15Z",
+  "published": "2026-01-27T18:32:15Z",
+  "aliases": [
+    "CVE-2025-28164"
+  ],
+  "details": "Buffer Overflow vulnerability in libpng 1.6.43-1.6.46 allows a local attacker to cause a denial of service via png_create_read_struct() function.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-28164"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pnggroup/libpng/issues/655"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/kittener/506516f8c22178005b4379c8b2a7de20"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-27T16:16:14Z"
+  }
+}

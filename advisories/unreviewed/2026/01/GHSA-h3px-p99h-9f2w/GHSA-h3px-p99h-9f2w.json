@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h3px-p99h-9f2w",
+  "modified": "2026-01-27T18:32:17Z",
+  "published": "2026-01-27T18:32:17Z",
+  "aliases": [
+    "CVE-2025-69562"
+  ],
+  "details": "code-projects Mobile Shop Management System 1.0 is vulnerable to SQL Injection in /insertmessage.php via the userid parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69562"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/lih28984-commits/a847a034c3bb626904dcc6ab7576257f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/Z_180yc/zyy/issues/IDC5FU"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-27T17:16:09Z"
+  }
+}

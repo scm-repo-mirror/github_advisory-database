@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3mf-5v3f-q955",
-  "modified": "2026-01-23T15:31:36Z",
+  "modified": "2026-01-27T18:32:12Z",
   "published": "2026-01-23T15:31:36Z",
   "aliases": [
     "CVE-2026-24544"
   ],
   "details": "Missing Authorization vulnerability in Harmonic Design HD Quiz hd-quiz allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects HD Quiz: from n/a through <= 2.0.9.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:10Z"

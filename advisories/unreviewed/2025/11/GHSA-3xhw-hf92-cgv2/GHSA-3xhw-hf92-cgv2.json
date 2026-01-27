@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xhw-hf92-cgv2",
-  "modified": "2025-11-07T18:30:30Z",
+  "modified": "2026-01-27T18:32:08Z",
   "published": "2025-11-07T18:30:30Z",
   "aliases": [
     "CVE-2025-63689"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ycf1998/money-pos/issues/3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ycf1998/money-pos/commit/11f276bd20a41f089298d804e43cb1c39d041e59"
     },
     {
       "type": "WEB",

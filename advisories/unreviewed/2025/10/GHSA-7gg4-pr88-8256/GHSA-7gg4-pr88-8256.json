@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7gg4-pr88-8256",
-  "modified": "2025-10-04T18:31:13Z",
+  "modified": "2026-01-27T18:32:05Z",
   "published": "2025-10-04T18:31:13Z",
   "aliases": [
     "CVE-2022-50485"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: add EXT4_IGET_BAD flag to prevent unexpected bad inode\n\nThere are many places that will get unhappy (and crash) when ext4_iget()\nreturns a bad inode. However, if iget the boot loader inode, allows a bad\ninode to be returned, because the inode may not be initialized. This\nmechanism can be used to bypass some checks and cause panic. To solve this\nproblem, we add a special iget flag EXT4_IGET_BAD. Only with this flag\nwe'd be returning bad inode from ext4_iget(), otherwise we always return\nthe error code if the inode is bad inode.(suggested by Jan Kara)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:45Z"

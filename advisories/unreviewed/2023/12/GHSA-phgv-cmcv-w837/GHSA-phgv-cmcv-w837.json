@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phgv-cmcv-w837",
-  "modified": "2023-12-29T03:30:28Z",
+  "modified": "2026-01-27T18:32:04Z",
   "published": "2023-12-29T03:30:28Z",
   "aliases": [
     "CVE-2023-23435"
   ],
-  "details": "\nSome Honor products are affected by signature management vulnerability, successful exploitation could cause the forged system file overwrite the correct system file\n\n",
+  "details": "Some Honor products are affected by signature management vulnerability, successful exploitation could cause the forged system file overwrite the correct system file",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwf8-rq93-5m8v",
-  "modified": "2025-11-03T18:31:39Z",
+  "modified": "2026-01-27T18:32:05Z",
   "published": "2025-09-05T18:31:17Z",
   "aliases": [
     "CVE-2025-38715"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhfs: fix slab-out-of-bounds in hfs_bnode_read()\n\nThis patch introduces is_bnode_offset_valid() method that checks\nthe requested offset value. Also, it introduces\ncheck_and_correct_requested_length() method that checks and\ncorrect the requested length (if it is necessary). These methods\nare used in hfs_bnode_read(), hfs_bnode_write(), hfs_bnode_clear(),\nhfs_bnode_copy(), and hfs_bnode_move() with the goal to prevent\nthe access out of allocated memory and triggering the crash.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T16:15:40Z"
