@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrw9-g62v-7fmf",
-  "modified": "2025-09-24T20:10:59Z",
+  "modified": "2026-01-27T21:06:02Z",
   "published": "2025-09-24T18:30:31Z",
   "aliases": [
     "CVE-2025-57350"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "2.0.10"
+              "fixed": "2.0.13"
             }
           ]
         }
@@ -45,12 +45,24 @@
       "url": "https://github.com/Keyang/node-csvtojson/issues/498"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/Keyang/node-csvtojson/issues/502"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Keyang/node-csvtojson/commit/4caeebd13b67be63282a7bbed3ca0cf9813f4bfc"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/Keyang/node-csvtojson"
     },
     {
       "type": "WEB",
       "url": "https://github.com/VulnSageAgent/PoCs/tree/main/JavaScript/prototype-pollution/CVE-2025-57350"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-CSVTOJSON-13109616"
     }
   ],
   "database_specific": {
