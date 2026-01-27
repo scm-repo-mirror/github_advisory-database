@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-444m-px7r-qpvv",
+  "modified": "2026-01-27T09:30:30Z",
+  "published": "2026-01-27T09:30:30Z",
+  "aliases": [
+    "CVE-2026-24819"
+  ],
+  "details": "Improperly Controlled Sequential Memory Allocation vulnerability in foxinmy weixin4j (weixin4j-base/src/main/java/com/foxinmy/weixin4j/util modules). This vulnerability is associated with program files CharArrayBuffer.Java, ClassUtil.Java.\n\nThis issue affects weixin4j.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:N/VA:N/SC:L/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:Y/R:A/V:D/RE:M/U:Amber"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24819"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/foxinmy/weixin4j/pull/229"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1325"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-27T09:15:52Z"
+  }
+}

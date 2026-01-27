@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4m2m-3rvh-cp5p",
-  "modified": "2026-01-26T12:30:29Z",
+  "modified": "2026-01-27T09:30:29Z",
   "published": "2026-01-26T12:30:29Z",
   "aliases": [
     "CVE-2025-59109"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.dormakabagroup.com/en/security-advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Jan/24"
     }
   ],
   "database_specific": {
