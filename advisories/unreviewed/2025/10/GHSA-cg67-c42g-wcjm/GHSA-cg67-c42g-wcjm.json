@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg67-c42g-wcjm",
-  "modified": "2025-10-04T09:30:20Z",
+  "modified": "2026-01-27T21:31:35Z",
   "published": "2025-10-04T09:30:20Z",
   "aliases": [
     "CVE-2025-39937"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: rfkill: gpio: Fix crash due to dereferencering uninitialized pointer\n\nSince commit 7d5e9737efda (\"net: rfkill: gpio: get the name and type from\ndevice property\") rfkill_find_type() gets called with the possibly\nuninitialized \"const char *type_name;\" local variable.\n\nOn x86 systems when rfkill-gpio binds to a \"BCM4752\" or \"LNV4752\"\nacpi_device, the rfkill->type is set based on the ACPI acpi_device_id:\n\n        rfkill->type = (unsigned)id->driver_data;\n\nand there is no \"type\" property so device_property_read_string() will fail\nand leave type_name uninitialized, leading to a potential crash.\n\nrfkill_find_type() does accept a NULL pointer, fix the potential crash\nby initializing type_name to NULL.\n\nNote likely sofar this has not been caught because:\n\n1. Not many x86 machines actually have a \"BCM4752\"/\"LNV4752\" acpi_device\n2. The stack happened to contain NULL where type_name is stored",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T08:15:46Z"

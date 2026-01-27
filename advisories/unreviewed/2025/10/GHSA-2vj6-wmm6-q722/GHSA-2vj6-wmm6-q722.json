@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vj6-wmm6-q722",
-  "modified": "2025-10-04T09:30:20Z",
+  "modified": "2026-01-27T21:31:35Z",
   "published": "2025-10-04T09:30:20Z",
   "aliases": [
     "CVE-2025-39933"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: let recv_done verify data_offset, data_length and remaining_data_length\n\nThis is inspired by the related server fixes.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T08:15:46Z"

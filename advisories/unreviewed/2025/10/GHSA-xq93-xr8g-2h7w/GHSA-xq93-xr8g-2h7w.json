@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq93-xr8g-2h7w",
-  "modified": "2025-10-04T09:30:20Z",
+  "modified": "2026-01-27T21:31:34Z",
   "published": "2025-10-04T09:30:20Z",
   "aliases": [
     "CVE-2025-39929"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix smbdirect_recv_io leak in smbd_negotiate() error path\n\nDuring tests of another unrelated patch I was able to trigger this\nerror: Objects remaining on __kmem_cache_shutdown()",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T08:15:44Z"

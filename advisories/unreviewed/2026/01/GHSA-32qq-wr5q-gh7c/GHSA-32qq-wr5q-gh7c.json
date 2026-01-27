@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32qq-wr5q-gh7c",
-  "modified": "2026-01-22T18:30:39Z",
+  "modified": "2026-01-27T21:31:42Z",
   "published": "2026-01-22T18:30:39Z",
   "aliases": [
     "CVE-2025-69319"
   ],
   "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Beaver Builder Beaver Builder beaver-builder-lite-version allows Code Injection.This issue affects Beaver Builder: from n/a through <= 2.9.4.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-94"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:27Z"

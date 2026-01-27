@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xw7x-gch6-cpx7",
-  "modified": "2025-10-04T09:30:21Z",
+  "modified": "2026-01-27T21:31:35Z",
   "published": "2025-10-04T09:30:21Z",
   "aliases": [
     "CVE-2025-39943"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: smbdirect: validate data_offset and data_length field of smb_direct_data_transfer\n\nIf data_offset and data_length of smb_direct_data_transfer struct are\ninvalid, out of bounds issue could happen.\nThis patch validate data_offset and data_length field in recv_done.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T08:15:47Z"
