@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp3q-wwp3-pwv9",
-  "modified": "2026-01-22T21:42:16Z",
+  "modified": "2026-01-27T20:47:43Z",
   "published": "2026-01-22T21:41:14Z",
   "aliases": [],
   "summary": "Freeform Craft Plugin CP UI (builder/integrations) has Stored Cross-Site Scripting (XSS) issue",
@@ -23,7 +23,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.0.0"
             },
             {
               "fixed": "5.14.7"
