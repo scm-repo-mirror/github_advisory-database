@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxwh-xxrp-7mqj",
-  "modified": "2026-01-22T18:30:32Z",
+  "modified": "2026-01-27T00:31:09Z",
   "published": "2026-01-22T18:30:32Z",
   "aliases": [
     "CVE-2025-50003"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in axiomthemes Amuli amuli allows PHP Local File Inclusion.This issue affects Amuli: from n/a through <= 2.3.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:15:56Z"

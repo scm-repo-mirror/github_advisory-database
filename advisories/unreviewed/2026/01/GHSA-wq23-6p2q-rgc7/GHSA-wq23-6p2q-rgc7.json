@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq23-6p2q-rgc7",
-  "modified": "2026-01-22T18:30:33Z",
+  "modified": "2026-01-27T00:31:11Z",
   "published": "2026-01-22T18:30:33Z",
   "aliases": [
     "CVE-2025-63019"
   ],
   "details": "Insertion of Sensitive Information Into Sent Data vulnerability in Johan Jonk Stenström Cookies and Content Security Policy cookies-and-content-security-policy allows Retrieve Embedded Sensitive Data.This issue affects Cookies and Content Security Policy: from n/a through <= 2.34.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-201"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:15:59Z"

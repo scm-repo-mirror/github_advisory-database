@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7999-j568-xv77",
-  "modified": "2026-01-23T15:31:36Z",
+  "modified": "2026-01-27T00:31:13Z",
   "published": "2026-01-23T15:31:36Z",
   "aliases": [
     "CVE-2026-24534"
   ],
   "details": "Missing Authorization vulnerability in uPress Booter booter-bots-crawlers-manager allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Booter: from n/a through <= 1.5.7.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:09Z"

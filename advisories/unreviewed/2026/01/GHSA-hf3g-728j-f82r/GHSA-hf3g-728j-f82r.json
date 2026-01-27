@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf3g-728j-f82r",
-  "modified": "2026-01-22T18:30:39Z",
+  "modified": "2026-01-27T00:31:12Z",
   "published": "2026-01-22T18:30:39Z",
   "aliases": [
     "CVE-2025-69292"
   ],
   "details": "Incorrect Privilege Assignment vulnerability in e-plugins WP Membership wp-membership allows Privilege Escalation.This issue affects WP Membership: from n/a through <= 1.6.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-266"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:26Z"

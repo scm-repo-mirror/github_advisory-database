@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f88v-cpjm-qpmx",
-  "modified": "2026-01-22T18:30:31Z",
+  "modified": "2026-01-27T00:31:09Z",
   "published": "2026-01-22T18:30:31Z",
   "aliases": [
     "CVE-2025-31413"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in bdthemes Element Pack Elementor Addons bdthemes-element-pack-lite allows Cross Site Request Forgery.This issue affects Element Pack Elementor Addons: from n/a through <= 8.3.13.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:15:54Z"

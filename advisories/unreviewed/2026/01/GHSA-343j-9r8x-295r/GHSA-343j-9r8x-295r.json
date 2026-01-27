@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-343j-9r8x-295r",
-  "modified": "2026-01-23T15:31:35Z",
+  "modified": "2026-01-27T00:31:13Z",
   "published": "2026-01-23T15:31:35Z",
   "aliases": [
     "CVE-2026-24532"
   ],
   "details": "Missing Authorization vulnerability in SiteLock SiteLock Security sitelock allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects SiteLock Security: from n/a through <= 5.0.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:09Z"

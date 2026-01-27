@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cr2-4mv6-v473",
-  "modified": "2026-01-23T15:31:36Z",
+  "modified": "2026-01-27T00:31:13Z",
   "published": "2026-01-23T15:31:36Z",
   "aliases": [
     "CVE-2026-24536"
   ],
   "details": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in webpushr Webpushr webpushr-web-push-notifications allows Retrieve Embedded Sensitive Data.This issue affects Webpushr: from n/a through <= 4.38.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-497"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-23T15:16:09Z"
