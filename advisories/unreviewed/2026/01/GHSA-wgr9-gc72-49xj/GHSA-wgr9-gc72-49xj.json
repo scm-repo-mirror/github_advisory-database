@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgr9-gc72-49xj",
-  "modified": "2026-01-26T21:30:36Z",
+  "modified": "2026-01-27T03:31:33Z",
   "published": "2026-01-26T21:30:36Z",
   "aliases": [
     "CVE-2025-14756"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14756"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jvn.jp/en/vu/JVNVU94651499"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jvn.jp/vu/JVNVU94651499"
     },
     {
       "type": "WEB",
