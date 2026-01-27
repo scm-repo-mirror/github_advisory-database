@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-6mw6-mj76-grwc",
-  "modified": "2026-01-27T22:23:11Z",
-  "published": "2026-01-05T19:43:29Z",
-  "aliases": [
-    "CVE-2026-0810"
-  ],
-  "summary": "gix-date can create non-utf8 string with `TimeBuf::as_str`",
-  "details": "The function `gix_date::parse::TimeBuf::as_str` can create an illegal string containing non-utf8 characters. This violates the safety invariant of `TimeBuf` and can lead to undefined behavior when consuming the string.\n\nThe bug can be prevented by adding `str::from_utf8` to the function `TimeBuf::write`.",
+  "id": "GHSA-8rgq-m2pm-jvmg",
+  "modified": "2026-01-27T22:22:40Z",
+  "published": "2026-01-26T21:30:36Z",
+  "withdrawn": "2026-01-27T22:22:39Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: gix-date can create non-utf8 string with `TimeBuf::as_str`",
+  "details": "### Duplicate Advisory\n\nThis advisory has been withdrawn because it is a duplicate of GHSA-6mw6-mj76-grwc. This link is maintained to preserve external references.\n\n### Original Description\nA flaw was found in gix-date. The `gix_date::parse::TimeBuf::as_str` function can generate strings containing invalid non-UTF8 characters. This issue violates the internal safety invariants of the `TimeBuf` component, leading to undefined behavior when these malformed strings are subsequently processed. This could potentially result in application instability or other unforeseen consequences.",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -46,19 +45,15 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/GitoxideLabs/gitoxide/pull/2306"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/GitoxideLabs/gitoxide/commit/76376ef5e97c63e108db0c9fe2eb096f4bfe70f7"
-    },
-    {
-      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2026-0810"
     },
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2427057"
+    },
+    {
+      "type": "WEB",
+      "url": "https://crates.io/crates/gix-date"
     },
     {
       "type": "PACKAGE",
@@ -75,7 +70,7 @@
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
-    "github_reviewed_at": "2026-01-05T19:43:29Z",
-    "nvd_published_at": null
+    "github_reviewed_at": "2026-01-27T22:22:39Z",
+    "nvd_published_at": "2026-01-26T20:16:09Z"
   }
 }
