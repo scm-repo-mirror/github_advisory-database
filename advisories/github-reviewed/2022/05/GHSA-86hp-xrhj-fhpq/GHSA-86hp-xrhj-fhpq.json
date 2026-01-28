@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86hp-xrhj-fhpq",
-  "modified": "2023-07-14T22:45:09Z",
+  "modified": "2026-01-28T21:28:48Z",
   "published": "2022-05-24T22:00:13Z",
   "aliases": [
     "CVE-2019-12747"
   ],
-  "summary": "Typo3 Vulnerable to Insecure Deserialization",
+  "summary": "TYPO3 Vulnerable to Insecure Deserialization",
   "details": "TYPO3 8.x through 8.7.26 and 9.x through 9.5.7 allows Deserialization of Untrusted Data.",
   "severity": [
     {
@@ -116,6 +116,10 @@
     {
       "type": "WEB",
       "url": "https://typo3.org/security/advisory/typo3-core-sa-2019-020"
+    },
+    {
+      "type": "WEB",
+      "url": "http://github.com/TYPO3/typo3/commit/647aa7afa582983cddc547fa106d31e2b1ef34fe"
     }
   ],
   "database_specific": {
