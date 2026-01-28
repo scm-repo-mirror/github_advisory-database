@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fhg-x5mc-6h7m",
-  "modified": "2026-01-22T18:30:35Z",
+  "modified": "2026-01-28T18:30:44Z",
   "published": "2026-01-22T18:30:35Z",
   "aliases": [
     "CVE-2025-68869"
   ],
   "details": "Incorrect Privilege Assignment vulnerability in LazyCoders LLC LazyTasks lazytasks-project-task-management allows Privilege Escalation.This issue affects LazyTasks: from n/a through <= 1.4.01.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-266"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:12Z"

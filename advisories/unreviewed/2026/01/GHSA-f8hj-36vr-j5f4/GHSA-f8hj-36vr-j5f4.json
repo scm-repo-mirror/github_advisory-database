@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8hj-36vr-j5f4",
-  "modified": "2026-01-22T18:30:37Z",
+  "modified": "2026-01-28T18:30:45Z",
   "published": "2026-01-22T18:30:37Z",
   "aliases": [
     "CVE-2025-69035"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in strongholdthemes Dental Care CPT dentalcare-cpt allows Object Injection.This issue affects Dental Care CPT: from n/a through <= 20.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:16Z"

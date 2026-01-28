@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvh9-829f-59hr",
-  "modified": "2024-03-27T09:30:41Z",
+  "modified": "2026-01-28T18:30:35Z",
   "published": "2024-03-27T09:30:41Z",
   "aliases": [
     "CVE-2024-29926"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in HasThemes WC Builder allows Stored XSS.This issue affects WC Builder: from n/a through 1.0.18.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in HasThemes WC Builder allows Stored XSS.This issue affects WC Builder: from n/a through 1.0.18.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mgq-8xvj-wv28",
-  "modified": "2026-01-22T18:30:35Z",
+  "modified": "2026-01-28T18:30:42Z",
   "published": "2026-01-22T18:30:35Z",
   "aliases": [
     "CVE-2025-68035"
   ],
   "details": "Insertion of Sensitive Information Into Sent Data vulnerability in tabbyai Tabby Checkout tabby-checkout allows Retrieve Embedded Sensitive Data.This issue affects Tabby Checkout: from n/a through <= 5.8.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-201"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:08Z"

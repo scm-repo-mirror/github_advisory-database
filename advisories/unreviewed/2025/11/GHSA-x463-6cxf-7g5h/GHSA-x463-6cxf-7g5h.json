@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x463-6cxf-7g5h",
-  "modified": "2025-11-27T15:31:26Z",
+  "modified": "2026-01-28T18:30:36Z",
   "published": "2025-11-27T15:31:26Z",
   "aliases": [
     "CVE-2025-8890"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert.pl/en/posts/2025/11/CVE-2025-8890"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.securitum.com/cve-2025-8890.html"
     }
   ],
   "database_specific": {

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h385-vvhp-wmmp",
-  "modified": "2024-03-19T18:32:02Z",
+  "modified": "2026-01-28T18:30:35Z",
   "published": "2024-03-19T18:32:02Z",
   "aliases": [
     "CVE-2024-29094"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in HasThemes HT Easy GA4 ( Google Analytics 4 ) allows Stored XSS.This issue affects HT Easy GA4 ( Google Analytics 4 ): from n/a through 1.1.7.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in HasThemes HT Easy GA4 ( Google Analytics 4 ) allows Stored XSS.This issue affects HT Easy GA4 ( Google Analytics 4 ): from n/a through 1.1.7.",
   "severity": [
     {
       "type": "CVSS_V3",

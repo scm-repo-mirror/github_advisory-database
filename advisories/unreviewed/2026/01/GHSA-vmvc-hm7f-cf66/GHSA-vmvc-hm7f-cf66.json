@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmvc-hm7f-cf66",
-  "modified": "2026-01-22T18:30:34Z",
+  "modified": "2026-01-28T18:30:42Z",
   "published": "2026-01-22T18:30:34Z",
   "aliases": [
     "CVE-2025-68015"
   ],
   "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Vollstart Event Tickets with Ticket Scanner event-tickets-with-ticket-scanner allows Code Injection.This issue affects Event Tickets with Ticket Scanner: from n/a through <= 2.8.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-94"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:07Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cxv-pxqj-hqq3",
-  "modified": "2026-01-22T18:30:35Z",
+  "modified": "2026-01-28T18:30:42Z",
   "published": "2026-01-22T18:30:35Z",
   "aliases": [
     "CVE-2025-68034"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in CleverReach® CleverReach® WP cleverreach-wp allows SQL Injection.This issue affects CleverReach® WP: from n/a through <= 1.5.22.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:08Z"

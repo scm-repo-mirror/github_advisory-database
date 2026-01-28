@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4gg-mrh3-p357",
-  "modified": "2026-01-22T18:30:37Z",
+  "modified": "2026-01-28T18:30:45Z",
   "published": "2026-01-22T18:30:37Z",
   "aliases": [
     "CVE-2025-69003"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in QantumThemes KenthaRadio qt-kentharadio allows Reflected XSS.This issue affects KenthaRadio: from n/a through <= 2.2.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:16Z"

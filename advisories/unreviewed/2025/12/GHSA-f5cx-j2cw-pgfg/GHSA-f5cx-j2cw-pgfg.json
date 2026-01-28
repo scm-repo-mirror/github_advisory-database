@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5cx-j2cw-pgfg",
-  "modified": "2026-01-22T18:30:29Z",
+  "modified": "2026-01-28T18:30:37Z",
   "published": "2025-12-18T21:31:42Z",
   "aliases": [
     "CVE-2025-56157"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/langgenius/dify"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/langgenius/dify/releases/tag/1.0.1"
     },
     {
       "type": "WEB",

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gxh3-vmjw-7f4q",
+  "modified": "2026-01-28T18:30:47Z",
+  "published": "2026-01-28T18:30:47Z",
+  "aliases": [
+    "CVE-2025-65889"
+  ],
+  "details": "A type validation flaw in the flow.dstack() component of OneFlow v0.9.0 allows attackers to cause a Denial of Service (DoS) via a crafted input.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-65889"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Oneflow-Inc/oneflow/issues/10663"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Daisy2ang"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Oneflow-Inc/oneflow"
+    },
+    {
+      "type": "WEB",
+      "url": "http://oneflow.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-28T17:16:08Z"
+  }
+}
