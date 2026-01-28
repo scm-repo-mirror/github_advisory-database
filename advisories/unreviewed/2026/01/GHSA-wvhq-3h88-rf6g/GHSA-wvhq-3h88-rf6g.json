@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvhq-3h88-rf6g",
-  "modified": "2026-01-27T18:32:15Z",
+  "modified": "2026-01-28T00:31:40Z",
   "published": "2026-01-27T18:32:15Z",
   "aliases": [
     "CVE-2025-15467"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://openssl-library.org/news/secadv/20260127.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/27/10"
     }
   ],
   "database_specific": {

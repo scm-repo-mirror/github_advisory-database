@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grjj-54gm-q5vf",
-  "modified": "2024-08-27T21:31:13Z",
+  "modified": "2026-01-28T00:31:37Z",
   "published": "2024-08-27T21:31:13Z",
   "aliases": [
     "CVE-2024-1544"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1544"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/wolfSSL/wolfssl/pull/7020"
     },
     {
       "type": "WEB",

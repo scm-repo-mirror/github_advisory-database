@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9chr-m38j-w26g",
-  "modified": "2024-09-04T15:30:33Z",
+  "modified": "2026-01-28T00:31:37Z",
   "published": "2024-08-30T00:31:23Z",
   "aliases": [
     "CVE-2024-1545"
@@ -21,12 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/wolfSSL/wolfssl/pull/7167"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/wolfSSL/wolfssl/releases/tag/v5.7.0-stable"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-1256",
+      "CWE-252",
       "CWE-74"
     ],
     "severity": "MODERATE",

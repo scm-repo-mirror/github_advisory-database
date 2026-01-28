@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c759-qxvg-wjj9",
-  "modified": "2026-01-22T18:30:36Z",
+  "modified": "2026-01-28T00:31:38Z",
   "published": "2026-01-22T18:30:36Z",
   "aliases": [
     "CVE-2025-68898"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in cjjparadoxmax Synergy Project Manager synergy-project-manager allows Stored XSS.This issue affects Synergy Project Manager: from n/a through <= 1.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:13Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh85-rfqv-qpgw",
-  "modified": "2026-01-22T18:30:35Z",
+  "modified": "2026-01-28T00:31:38Z",
   "published": "2026-01-22T18:30:35Z",
   "aliases": [
     "CVE-2025-68857"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ichurakov Paid Downloads paid-downloads allows Blind SQL Injection.This issue affects Paid Downloads: from n/a through <= 3.15.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:11Z"

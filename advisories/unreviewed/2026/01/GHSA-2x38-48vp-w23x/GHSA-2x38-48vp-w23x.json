@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x38-48vp-w23x",
-  "modified": "2026-01-27T21:31:49Z",
+  "modified": "2026-01-28T00:31:40Z",
   "published": "2026-01-27T21:31:49Z",
   "aliases": [
     "CVE-2026-24858"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-24858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.fortinet.com/blog/psirt-blogs/analysis-of-sso-abuse-on-fortios"
     }
   ],
   "database_specific": {
