@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rpc5-pm7q-hjmp",
+  "modified": "2026-01-28T03:30:30Z",
+  "published": "2026-01-28T03:30:30Z",
+  "aliases": [
+    "CVE-2026-1513"
+  ],
+  "details": "billboard.js before 3.18.0 allows an attacker to execute malicious JavaScript due to improper sanitization during chart option binding.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1513"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cve.naver.com/detail/cve-2026-1513.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-28T02:16:00Z"
+  }
+}
