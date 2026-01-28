@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc53-w5wm-253v",
-  "modified": "2026-01-28T18:30:49Z",
+  "modified": "2026-01-28T21:31:22Z",
   "published": "2026-01-28T18:30:49Z",
   "aliases": [
     "CVE-2025-57796"
   ],
   "details": "Explorance Blue versions prior to 8.14.12 use reversible symmetric encryption with a hardcoded static key to protect sensitive data, including user passwords and system configurations. This approach allows stored values to be decrypted offline if the encrypted data are obtained.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -35,7 +40,7 @@
     "cwe_ids": [
       "CWE-257"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-28T18:16:49Z"

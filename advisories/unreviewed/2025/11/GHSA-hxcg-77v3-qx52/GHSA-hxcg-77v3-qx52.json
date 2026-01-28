@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxcg-77v3-qx52",
-  "modified": "2025-12-10T00:30:21Z",
+  "modified": "2026-01-28T21:31:17Z",
   "published": "2025-11-12T18:31:25Z",
   "aliases": [
     "CVE-2025-59089"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/latchset/kdcproxy/pull/68"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/latchset/kdcproxy/commit/c7675365aa20be11f03247966336c7613cac84e1"
     },
     {
       "type": "WEB",

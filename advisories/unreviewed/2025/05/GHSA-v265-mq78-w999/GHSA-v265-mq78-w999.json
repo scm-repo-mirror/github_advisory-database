@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v265-mq78-w999",
-  "modified": "2025-05-15T15:31:23Z",
+  "modified": "2026-01-28T21:31:17Z",
   "published": "2025-05-14T18:30:49Z",
   "aliases": [
     "CVE-2025-47705"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.drupal.org/sa-contrib-2025-051"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-47705"
     }
   ],
   "database_specific": {

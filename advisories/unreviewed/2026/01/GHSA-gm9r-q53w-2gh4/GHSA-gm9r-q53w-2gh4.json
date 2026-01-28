@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gm9r-q53w-2gh4",
+  "modified": "2026-01-28T21:31:23Z",
+  "published": "2026-01-28T21:31:23Z",
+  "aliases": [
+    "CVE-2025-61726"
+  ],
+  "details": "The net/url package does not set a limit on the number of query parameters in a query. While the maximum size of query parameters in URLs is generally limited by the maximum request header size, the net/http.Request.ParseForm method can parse large URL-encoded forms. Parsing a large form containing many unique query parameters can cause excessive memory consumption.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61726"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/cl/736712"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/77101"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/g/golang-announce/c/Vd2tYVM8eUc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2026-4341"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-28T20:16:09Z"
+  }
+}
