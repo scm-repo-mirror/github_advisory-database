@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v5x-9m47-cqr2",
-  "modified": "2025-04-17T21:30:43Z",
+  "modified": "2026-01-29T02:38:40Z",
   "published": "2024-12-09T21:31:02Z",
   "withdrawn": "2025-03-25T21:48:41Z",
   "aliases": [],
@@ -41,7 +41,31 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/wildfly-security/wildfly-elytron/pull/2253"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/wildfly-security/wildfly-elytron/pull/2261"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/wildfly-security/wildfly-elytron/commit/5ac5e6bbcba58883b3cebb2ddbcec4de140c5ceb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/wildfly-security/wildfly-elytron/commit/d7754f5a6a91ceb0f4dbbbfe301991f6a55404cb"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:3989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3990"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3992"
     },
     {
       "type": "WEB",
