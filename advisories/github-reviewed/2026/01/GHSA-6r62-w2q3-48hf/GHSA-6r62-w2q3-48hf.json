@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6r62-w2q3-48hf",
-  "modified": "2026-01-26T21:17:16Z",
+  "modified": "2026-01-29T03:23:35Z",
   "published": "2026-01-26T21:17:16Z",
   "aliases": [
     "CVE-2026-24123"
@@ -41,6 +41,10 @@
       "url": "https://github.com/bentoml/BentoML/security/advisories/GHSA-6r62-w2q3-48hf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24123"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/bentoml/BentoML/commit/84d08cfeb40c5f2ce71b3d3444bbaa0fb16b5ca4"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-26T21:17:16Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-26T23:16:08Z"
   }
 }

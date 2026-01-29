@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x96-7vc8-cm3p",
-  "modified": "2026-01-26T21:02:45Z",
+  "modified": "2026-01-29T03:23:02Z",
   "published": "2026-01-26T21:02:44Z",
   "aliases": [
     "CVE-2026-23889"
@@ -41,6 +41,10 @@
       "url": "https://github.com/pnpm/pnpm/security/advisories/GHSA-6x96-7vc8-cm3p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23889"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/pnpm/pnpm/commit/6ca07ffbe6fc0e8b8cdc968f228903ba0886f7c0"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-26T21:02:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-26T22:15:56Z"
   }
 }

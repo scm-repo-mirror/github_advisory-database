@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpqm-wm3m-f34h",
-  "modified": "2026-01-26T21:02:39Z",
+  "modified": "2026-01-29T03:23:11Z",
   "published": "2026-01-26T21:02:39Z",
   "aliases": [
     "CVE-2026-23890"
@@ -41,6 +41,10 @@
       "url": "https://github.com/pnpm/pnpm/security/advisories/GHSA-xpqm-wm3m-f34h"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23890"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/pnpm/pnpm/commit/8afbb1598445d37985d91fda18abb4795ae5062d"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-26T21:02:39Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-26T22:15:56Z"
   }
 }

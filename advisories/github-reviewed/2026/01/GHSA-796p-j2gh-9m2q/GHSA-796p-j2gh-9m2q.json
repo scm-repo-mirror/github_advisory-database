@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-796p-j2gh-9m2q",
-  "modified": "2026-01-26T18:55:13Z",
+  "modified": "2026-01-29T03:22:29Z",
   "published": "2026-01-26T18:55:13Z",
   "aliases": [
     "CVE-2026-22696"
@@ -120,6 +120,10 @@
       "url": "https://github.com/Phala-Network/dcap-qvl/security/advisories/GHSA-796p-j2gh-9m2q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22696"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/Phala-Network/dcap-qvl"
     }
@@ -132,6 +136,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-26T18:55:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-26T22:15:55Z"
   }
 }
