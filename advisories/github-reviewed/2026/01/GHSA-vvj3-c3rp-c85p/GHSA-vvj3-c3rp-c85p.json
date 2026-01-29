@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvj3-c3rp-c85p",
-  "modified": "2026-01-27T22:26:22Z",
+  "modified": "2026-01-29T03:43:28Z",
   "published": "2026-01-27T22:26:22Z",
   "aliases": [
     "CVE-2026-24765"
@@ -117,6 +117,14 @@
       "url": "https://github.com/sebastianbergmann/phpunit/security/advisories/GHSA-vvj3-c3rp-c85p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24765"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sebastianbergmann/phpunit/commit/3141742e00620e2968d3d2e732d320de76685fda"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/sebastianbergmann/phpunit/commit/613d142f5a8471ca71623ce5ca2795f79248329e"
     },
@@ -156,6 +164,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-27T22:26:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-27T22:15:56Z"
   }
 }

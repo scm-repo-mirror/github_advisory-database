@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcp2-x6j4-29j7",
-  "modified": "2026-01-13T15:10:03Z",
+  "modified": "2026-01-29T03:41:14Z",
   "published": "2026-01-13T15:10:03Z",
   "aliases": [
     "CVE-2026-22705"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/RustCrypto/signatures"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0144.html"
     }
   ],
   "database_specific": {
