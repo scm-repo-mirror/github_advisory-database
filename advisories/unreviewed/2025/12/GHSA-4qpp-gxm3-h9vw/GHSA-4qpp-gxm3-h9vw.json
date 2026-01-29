@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qpp-gxm3-h9vw",
-  "modified": "2026-01-28T21:31:17Z",
+  "modified": "2026-01-29T12:30:25Z",
   "published": "2025-12-11T15:30:32Z",
   "aliases": [
     "CVE-2025-14523"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-14523"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:1571"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:1570"
     },
     {
       "type": "WEB",
