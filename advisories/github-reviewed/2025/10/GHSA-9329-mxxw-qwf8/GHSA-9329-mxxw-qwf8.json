@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9329-mxxw-qwf8",
-  "modified": "2025-10-16T19:49:01Z",
+  "modified": "2026-01-29T03:59:42Z",
   "published": "2025-10-16T19:49:01Z",
   "aliases": [
     "CVE-2025-53092"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
   "affected": [
@@ -64,7 +64,7 @@
       "CWE-364",
       "CWE-942"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-10-16T19:49:01Z",
     "nvd_published_at": "2025-10-16T17:15:33Z"
