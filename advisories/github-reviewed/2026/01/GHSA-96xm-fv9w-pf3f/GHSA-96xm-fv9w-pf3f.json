@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96xm-fv9w-pf3f",
-  "modified": "2026-01-28T22:20:35Z",
+  "modified": "2026-01-29T03:56:38Z",
   "published": "2026-01-28T22:20:35Z",
   "aliases": [
     "CVE-2026-24889"
@@ -79,6 +79,14 @@
       "url": "https://github.com/stellar/rs-soroban-sdk/security/advisories/GHSA-96xm-fv9w-pf3f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24889"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/stellar/rs-soroban-sdk/pull/1703"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/stellar/rs-soroban-sdk/commit/3890521426d71bb4d892b21f5a283a1e836cfa38"
     },
@@ -114,6 +122,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-28T22:20:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-28T22:15:56Z"
   }
 }
