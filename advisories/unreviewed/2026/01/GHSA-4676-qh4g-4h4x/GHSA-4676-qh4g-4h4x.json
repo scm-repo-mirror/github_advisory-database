@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4676-qh4g-4h4x",
-  "modified": "2026-01-22T18:30:34Z",
+  "modified": "2026-01-29T03:31:26Z",
   "published": "2026-01-22T18:30:34Z",
   "aliases": [
     "CVE-2025-67947"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in scriptsbundle AdForest Elementor adforest-elementor allows Reflected XSS.This issue affects AdForest Elementor: from n/a through <= 3.0.11.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:04Z"

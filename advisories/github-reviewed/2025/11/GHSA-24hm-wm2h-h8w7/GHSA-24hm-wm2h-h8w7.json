@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24hm-wm2h-h8w7",
-  "modified": "2025-12-01T23:57:53Z",
+  "modified": "2026-01-29T03:30:58Z",
   "published": "2025-11-28T06:32:06Z",
   "aliases": [
     "CVE-2025-66371"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/iterasdev/peppol-py/releases/tag/1.1.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://invoice.secvuln.info"
     }
   ],
   "database_specific": {

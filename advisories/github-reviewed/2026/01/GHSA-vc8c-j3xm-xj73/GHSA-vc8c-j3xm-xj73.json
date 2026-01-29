@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vc8c-j3xm-xj73",
-  "modified": "2026-01-27T00:48:20Z",
+  "modified": "2026-01-29T03:28:33Z",
   "published": "2026-01-27T00:48:20Z",
   "aliases": [
     "CVE-2026-24116"
@@ -82,6 +82,10 @@
       "url": "https://github.com/bytecodealliance/wasmtime/security/advisories/GHSA-vc8c-j3xm-xj73"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24116"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/bytecodealliance/wasmtime/commit/728fa07184f8da2a046f48ef9b61f869dce133a6"
     },
@@ -108,6 +112,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/bytecodealliance/wasmtime"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0006.html"
     }
   ],
   "database_specific": {
@@ -117,6 +125,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-27T00:48:20Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-27T19:16:16Z"
   }
 }

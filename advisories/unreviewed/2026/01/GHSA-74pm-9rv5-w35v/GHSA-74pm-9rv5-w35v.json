@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74pm-9rv5-w35v",
-  "modified": "2026-01-22T18:30:33Z",
+  "modified": "2026-01-29T03:31:26Z",
   "published": "2026-01-22T18:30:33Z",
   "aliases": [
     "CVE-2025-67619"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in designthemes Kids Heaven kids-world allows Object Injection.This issue affects Kids Heaven: from n/a through <= 3.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:02Z"

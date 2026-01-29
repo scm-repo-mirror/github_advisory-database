@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p9x-46gm-qfx2",
-  "modified": "2026-01-27T18:01:26Z",
+  "modified": "2026-01-29T03:31:31Z",
   "published": "2026-01-27T18:01:26Z",
   "aliases": [
     "CVE-2026-22039"
@@ -60,6 +60,10 @@
       "url": "https://github.com/kyverno/kyverno/security/advisories/GHSA-8p9x-46gm-qfx2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22039"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/kyverno/kyverno/commit/e0ba4de4f1e0ca325066d5095db51aec45b1407b"
     },
@@ -80,6 +84,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-27T18:01:26Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-27T17:16:12Z"
   }
 }

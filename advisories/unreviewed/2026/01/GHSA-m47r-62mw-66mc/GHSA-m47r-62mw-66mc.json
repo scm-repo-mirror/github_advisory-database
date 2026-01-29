@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m47r-62mw-66mc",
-  "modified": "2026-01-22T18:30:34Z",
+  "modified": "2026-01-29T03:31:27Z",
   "published": "2026-01-22T18:30:34Z",
   "aliases": [
     "CVE-2025-67961"
   ],
   "details": "Server-Side Request Forgery (SSRF) vulnerability in Marco van Wieren WPO365 wpo365-login allows Server Side Request Forgery.This issue affects WPO365: from n/a through <= 40.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-918"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:05Z"
