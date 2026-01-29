@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfwv-5762-mwrm",
-  "modified": "2026-01-23T00:31:16Z",
+  "modified": "2026-01-29T18:31:32Z",
   "published": "2026-01-23T00:31:16Z",
   "aliases": [
     "CVE-2026-1201"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1201"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ostrichlab.io/research-blog/?post=hubitat_writeup"
     },
     {
       "type": "WEB",

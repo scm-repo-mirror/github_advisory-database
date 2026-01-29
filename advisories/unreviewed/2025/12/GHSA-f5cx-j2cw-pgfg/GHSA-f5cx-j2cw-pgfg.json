@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5cx-j2cw-pgfg",
-  "modified": "2026-01-28T18:30:37Z",
+  "modified": "2026-01-29T18:31:31Z",
   "published": "2025-12-18T21:31:42Z",
   "aliases": [
     "CVE-2025-56157"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-56157"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/langgenius/dify/issues/15285"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/langgenius/dify/pull/15286"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/langgenius/dify/pull/15286.diff"
     },
     {
       "type": "WEB",
