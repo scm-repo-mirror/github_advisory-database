@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3hw-29fv-2x75",
-  "modified": "2026-01-21T16:36:27Z",
+  "modified": "2026-01-29T03:50:11Z",
   "published": "2026-01-21T16:36:27Z",
   "aliases": [],
   "summary": "@envelop/graphql-modules has a Race Condition vulnerability",
