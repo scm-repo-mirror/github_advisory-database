@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc6m-pwr3-g72p",
-  "modified": "2026-01-29T00:31:10Z",
+  "modified": "2026-01-29T21:30:25Z",
   "published": "2026-01-20T21:31:34Z",
   "aliases": [
     "CVE-2025-56005"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/01/28/5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/29/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/01/29/2"
     }
   ],
   "database_specific": {

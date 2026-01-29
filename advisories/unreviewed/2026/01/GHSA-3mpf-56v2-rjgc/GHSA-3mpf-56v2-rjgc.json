@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mpf-56v2-rjgc",
-  "modified": "2026-01-28T21:31:23Z",
+  "modified": "2026-01-29T21:30:30Z",
   "published": "2026-01-28T21:31:23Z",
   "aliases": [
     "CVE-2025-69601"
   ],
   "details": "A directory traversal (Zip Slip) vulnerability exists in the “Static Sites” feature of 66biolinks v44.0.0 by AltumCode. Uploaded ZIP archives are automatically extracted without validating or sanitizing file paths. An attacker can include traversal sequences (e.g., ../) in ZIP entries to write files outside the intended extraction directory. This allows static files (html, js, css, images) file write to unintended locations, or overwriting existing HTML files, potentially leading to content defacement and, in certain deployments, further impact if sensitive files are overwritten.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-28T19:16:23Z"
