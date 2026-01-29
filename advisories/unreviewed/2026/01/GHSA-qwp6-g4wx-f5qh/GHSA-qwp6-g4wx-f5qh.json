@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwp6-g4wx-f5qh",
-  "modified": "2026-01-22T18:30:35Z",
+  "modified": "2026-01-29T00:31:10Z",
   "published": "2026-01-22T18:30:35Z",
   "aliases": [
     "CVE-2025-68859"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in agmorpheus Syntax Highlighter Compress syntax-highlighter-compress allows Reflected XSS.This issue affects Syntax Highlighter Compress: from n/a through <= 3.0.83.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-01-22T17:16:11Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg3w-gvfh-562h",
-  "modified": "2026-01-07T12:31:22Z",
+  "modified": "2026-01-29T00:31:09Z",
   "published": "2026-01-07T12:31:22Z",
   "aliases": [
     "CVE-2025-14625"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14625"
+    },
+    {
+      "type": "WEB",
+      "url": "https://community.altera.com/kb/knowledge-base/how-to-mitigate-the-security-vulnerability-in-the-nios%C2%AE-ii-command-shell-utility/350185"
     },
     {
       "type": "WEB",
