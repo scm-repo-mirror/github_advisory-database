@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7gcm-g887-7qv7",
-  "modified": "2026-01-23T16:56:33Z",
+  "modified": "2026-01-30T21:29:13Z",
   "published": "2026-01-23T15:31:35Z",
   "aliases": [
     "CVE-2026-0994"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "6.33.4"
+              "fixed": "6.33.5"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 6.33.4"
+      }
     }
   ],
   "references": [
@@ -47,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/protocolbuffers/protobuf/pull/25239"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/protocolbuffers/protobuf/commit/d2b001626d137c62dfee6c88c87324102531868b"
     },
     {
       "type": "PACKAGE",
