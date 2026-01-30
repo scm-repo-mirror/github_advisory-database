@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-793v-2p67-gw99",
-  "modified": "2025-11-10T21:30:30Z",
+  "modified": "2026-01-30T12:31:20Z",
   "published": "2025-05-20T18:30:55Z",
   "aliases": [
     "CVE-2025-37926"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1067361a1cc6ad9cdf7acfc47f90012b72ad1502"
     },
     {
       "type": "WEB",

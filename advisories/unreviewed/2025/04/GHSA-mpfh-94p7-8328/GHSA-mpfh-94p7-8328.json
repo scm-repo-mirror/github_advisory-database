@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpfh-94p7-8328",
-  "modified": "2025-05-06T18:30:36Z",
+  "modified": "2026-01-30T12:31:20Z",
   "published": "2025-04-16T15:34:39Z",
   "aliases": [
     "CVE-2024-58097"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/16c6c35c03ea73054a1f6d3302a4ce4a331b427d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8db5de0cf02fccf4c759aa58edbe65659daf607c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9f1a002f0171d27f3554e529f3c70df438f05dfe"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc3q-7xfr-h5h3",
-  "modified": "2025-11-17T15:30:33Z",
+  "modified": "2026-01-30T12:31:20Z",
   "published": "2025-06-18T12:30:31Z",
   "aliases": [
     "CVE-2025-38011"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8d2979b9bb1be0f4a52dff600e56d780403e04ac"
     },
     {
       "type": "WEB",
