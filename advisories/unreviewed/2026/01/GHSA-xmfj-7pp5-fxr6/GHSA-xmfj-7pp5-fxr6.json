@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xmfj-7pp5-fxr6",
+  "modified": "2026-01-30T09:30:55Z",
+  "published": "2026-01-30T09:30:55Z",
+  "aliases": [
+    "CVE-2026-25211"
+  ],
+  "details": "Llama Stack (aka llama-stack) before 0.4.0rc3 does not censor the pgvector password in the initialization log.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25211"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/llamastack/llama-stack/pull/4439"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/llamastack/llama-stack/compare/v0.4.0rc2...v0.4.0rc3"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-532"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-01-30T08:16:02Z"
+  }
+}
