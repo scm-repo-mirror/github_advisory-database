@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8qv-xx7v-pc2c",
-  "modified": "2025-09-25T15:30:23Z",
+  "modified": "2026-01-30T06:30:15Z",
   "published": "2025-09-25T15:30:23Z",
   "aliases": [
     "CVE-2025-54946"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://zuso.ai/advisory"
+    },
+    {
+      "type": "WEB",
+      "url": "https://zuso.ai/advisory/za-2025-14"
     }
   ],
   "database_specific": {

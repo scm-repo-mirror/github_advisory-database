@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6gp-xc9x-p59q",
-  "modified": "2025-10-20T09:30:27Z",
+  "modified": "2026-01-30T06:30:15Z",
   "published": "2025-10-20T09:30:27Z",
   "aliases": [
     "CVE-2025-31342"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://zuso.ai/advisory"
+    },
+    {
+      "type": "WEB",
+      "url": "https://zuso.ai/advisory/za-2025-15"
     }
   ],
   "database_specific": {
