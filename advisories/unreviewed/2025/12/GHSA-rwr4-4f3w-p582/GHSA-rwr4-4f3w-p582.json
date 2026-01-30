@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwr4-4f3w-p582",
-  "modified": "2026-01-29T18:31:31Z",
+  "modified": "2026-01-30T21:30:19Z",
   "published": "2025-12-06T06:30:16Z",
   "aliases": [
     "CVE-2025-13292"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.cloud.google.com/apigee/docs/release-notes#October_16_2025"
+    },
+    {
+      "type": "WEB",
+      "url": "https://focalsecurity.io/blog/gatewaytoheaven-gcp-cross-tenant-vulnerability"
     },
     {
       "type": "WEB",

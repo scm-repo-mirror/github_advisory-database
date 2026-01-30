@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vwr-5vph-4mjg",
-  "modified": "2026-01-30T18:31:16Z",
+  "modified": "2026-01-30T21:30:22Z",
   "published": "2026-01-30T18:31:16Z",
   "aliases": [
     "CVE-2025-15497"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://community.openvpn.net/Security%20Announcements/CVE-2025-15497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/openvpn-announce@lists.sourceforge.net/msg00156.html"
     }
   ],
   "database_specific": {
