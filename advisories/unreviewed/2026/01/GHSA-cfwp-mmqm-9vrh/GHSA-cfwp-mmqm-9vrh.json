@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfwp-mmqm-9vrh",
-  "modified": "2026-01-19T21:33:11Z",
+  "modified": "2026-01-30T18:31:13Z",
   "published": "2026-01-19T21:33:11Z",
   "aliases": [
     "CVE-2025-55252"
