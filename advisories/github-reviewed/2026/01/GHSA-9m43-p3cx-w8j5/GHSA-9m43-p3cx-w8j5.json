@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m43-p3cx-w8j5",
-  "modified": "2026-01-29T22:04:24Z",
+  "modified": "2026-01-31T03:33:30Z",
   "published": "2026-01-29T22:04:24Z",
   "aliases": [
     "CVE-2026-24845"
@@ -41,6 +41,10 @@
       "url": "https://github.com/chainguard-dev/malcontent/security/advisories/GHSA-9m43-p3cx-w8j5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24845"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/chainguard-dev/malcontent/commit/538ed00cdc639d687a4bd1e843a2be0428a3b3e7"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-29T22:04:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-29T22:15:54Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vghf-hv5q-vc2g",
-  "modified": "2025-12-02T16:51:42Z",
+  "modified": "2026-01-31T03:33:13Z",
   "published": "2025-11-27T06:31:25Z",
   "aliases": [
     "CVE-2025-12758"
@@ -63,10 +63,15 @@
     {
       "type": "WEB",
       "url": "https://security.snyk.io/vuln/SNYK-JS-VALIDATOR-13653476"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Jan/27"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-172",
       "CWE-792"
     ],
     "severity": "HIGH",

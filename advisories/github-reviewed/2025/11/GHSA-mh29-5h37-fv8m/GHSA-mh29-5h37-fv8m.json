@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh29-5h37-fv8m",
-  "modified": "2025-11-17T15:20:43Z",
+  "modified": "2026-01-31T03:32:42Z",
   "published": "2025-11-14T14:29:48Z",
   "aliases": [
     "CVE-2025-64718"
@@ -65,11 +65,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/nodeca/js-yaml/issues/730#issuecomment-3549635876"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/nodeca/js-yaml/commit/383665ff4248ec2192d1274e934462bb30426879"
     },
     {
       "type": "WEB",
       "url": "https://github.com/nodeca/js-yaml/commit/5278870a17454fe8621dbd8c445c412529525266"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-mh29-5h37-fv8m"
     },
     {
       "type": "PACKAGE",
