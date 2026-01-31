@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rqg-fqph-5w7w",
-  "modified": "2026-01-23T21:30:40Z",
+  "modified": "2026-01-31T00:30:28Z",
   "published": "2026-01-15T21:31:47Z",
   "aliases": [
     "CVE-2026-0227"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.paloaltonetworks.com/CVE-2025-4620"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.paloaltonetworks.com/CVE-2026-0227"
     }
   ],
   "database_specific": {

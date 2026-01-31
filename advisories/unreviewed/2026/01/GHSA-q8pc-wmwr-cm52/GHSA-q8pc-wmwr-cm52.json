@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8pc-wmwr-cm52",
-  "modified": "2026-01-29T18:31:48Z",
+  "modified": "2026-01-31T00:30:28Z",
   "published": "2026-01-29T18:31:48Z",
   "aliases": [
     "CVE-2025-15545"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15545"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nico-security.com/posts/cve-2025-15545"
     },
     {
       "type": "WEB",
