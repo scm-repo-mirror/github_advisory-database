@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfpc-wj3m-qw2m",
-  "modified": "2026-01-30T20:38:35Z",
+  "modified": "2026-01-31T03:53:45Z",
   "published": "2026-01-30T20:38:35Z",
   "aliases": [
     "CVE-2026-25130"
@@ -41,6 +41,10 @@
       "url": "https://github.com/aliasrobotics/cai/security/advisories/GHSA-jfpc-wj3m-qw2m"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25130"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/aliasrobotics/cai/commit/e22a1220f764e2d7cf9da6d6144926f53ca01cde"
     },
@@ -60,6 +64,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-30T20:38:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-30T21:15:58Z"
   }
 }

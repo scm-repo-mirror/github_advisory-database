@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4mg-4433-c7g3",
-  "modified": "2025-08-21T21:35:37Z",
+  "modified": "2026-01-31T03:54:44Z",
   "published": "2025-08-14T00:06:00Z",
   "aliases": [
     "CVE-2025-24293"
@@ -79,6 +79,10 @@
       "url": "https://github.com/rails/rails/security/advisories/GHSA-r4mg-4433-c7g3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24293"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rails/rails/commit/1b1adf6ee6ca0f3104fcfce79360b2ec1e06a354"
     },
@@ -89,6 +93,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rails/rails/commit/fb8f3a18c3d97524c0efc29150d1e5f3162fbb13"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-r4mg-4433-c7g3"
     },
     {
       "type": "PACKAGE",
@@ -106,6 +114,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-14T00:06:00Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-01-30T21:15:55Z"
   }
 }
