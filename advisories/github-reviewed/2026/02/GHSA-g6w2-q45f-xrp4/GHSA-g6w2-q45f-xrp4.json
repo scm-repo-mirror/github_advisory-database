@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6w2-q45f-xrp4",
-  "modified": "2026-02-02T18:00:43Z",
+  "modified": "2026-02-02T18:02:33Z",
   "published": "2026-02-02T18:00:43Z",
   "aliases": [
     "CVE-2026-23476"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "2025.71"
+              "fixed": "2025.81"
             }
           ]
         }
@@ -39,6 +39,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/NeoRazorX/facturascripts/security/advisories/GHSA-g6w2-q45f-xrp4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NeoRazorX/facturascripts/commit/2afd98cecd26c5f8357e0e321d86063ad1012fc3"
     },
     {
       "type": "PACKAGE",
