@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mpf-56v2-rjgc",
-  "modified": "2026-01-29T21:30:30Z",
+  "modified": "2026-02-02T18:31:32Z",
   "published": "2026-01-28T21:31:23Z",
   "aliases": [
     "CVE-2025-69601"
