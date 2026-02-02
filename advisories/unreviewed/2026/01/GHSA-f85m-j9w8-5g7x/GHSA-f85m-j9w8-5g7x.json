@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f85m-j9w8-5g7x",
-  "modified": "2026-01-28T21:31:23Z",
+  "modified": "2026-02-02T09:30:30Z",
   "published": "2026-01-28T21:31:23Z",
   "aliases": [
     "CVE-2025-46691"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.dell.com/support/kbdoc/en-us/000394670/dsa-2025-444"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.dell.com/support/kbdoc/en-us/000394670/dsa-2025-444?lang=en"
     }
   ],
   "database_specific": {
