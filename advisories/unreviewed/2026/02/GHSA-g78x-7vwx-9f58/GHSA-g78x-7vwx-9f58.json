@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-g78x-7vwx-9f58",
+  "modified": "2026-02-02T06:30:53Z",
+  "published": "2026-02-02T06:30:53Z",
+  "aliases": [
+    "CVE-2025-13881"
+  ],
+  "details": "A flaw was found in Keycloak Admin API. This vulnerability allows an administrator with limited privileges to retrieve sensitive custom attributes via the /unmanagedAttributes endpoint, bypassing User Profile visibility settings.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13881"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-13881"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2418330"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-266"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-02T06:16:19Z"
+  }
+}
