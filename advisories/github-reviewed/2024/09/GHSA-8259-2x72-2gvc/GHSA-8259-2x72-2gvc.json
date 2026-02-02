@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8259-2x72-2gvc",
-  "modified": "2024-09-19T17:36:07Z",
+  "modified": "2026-02-02T15:37:32Z",
   "published": "2024-09-11T15:31:12Z",
   "aliases": [
     "CVE-2024-8642"
@@ -62,7 +62,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://gitlab.eclipse.org/security/cve-assignement/-/issues/28"
+      "url": "https://gitlab.eclipse.org/security/cve-assignment/-/issues/28"
     },
     {
       "type": "WEB",
