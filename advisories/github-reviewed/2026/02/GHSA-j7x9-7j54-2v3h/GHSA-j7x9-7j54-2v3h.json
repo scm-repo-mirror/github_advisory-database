@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7x9-7j54-2v3h",
-  "modified": "2026-02-02T12:31:14Z",
+  "modified": "2026-02-02T22:07:41Z",
   "published": "2026-02-02T12:31:14Z",
   "aliases": [
     "CVE-2026-0599"
   ],
+  "summary": "Hugging Face Text Generation Inference vulnerable to Uncontrolled Resource Consumption",
   "details": "A vulnerability in huggingface/text-generation-inference version 3.3.6 allows unauthenticated remote attackers to exploit unbounded external image fetching during input validation in VLM mode. The issue arises when the router scans inputs for Markdown image links and performs a blocking HTTP GET request, reading the entire response body into memory and cloning it before decoding. This behavior can lead to resource exhaustion, including network bandwidth saturation, memory inflation, and CPU overutilization. The vulnerability is triggered even if the request is later rejected for exceeding token limits. The default deployment configuration, which lacks memory usage limits and authentication, exacerbates the impact, potentially crashing the host machine. The issue is resolved in version 3.3.7.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "text-generation"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.3.7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/huggingface/text-generation-inference/commit/24ee40d143d8d046039f12f76940a85886cbe152"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/huggingface/text-generation-inference"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-400"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-02-02T22:07:41Z",
     "nvd_published_at": "2026-02-02T11:16:17Z"
   }
 }
