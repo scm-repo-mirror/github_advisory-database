@@ -1,19 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gj28-gw7w-3pxc",
-  "modified": "2026-02-02T18:31:33Z",
+  "modified": "2026-02-02T22:36:58Z",
   "published": "2026-02-02T18:31:33Z",
   "aliases": [
     "CVE-2026-1770"
   ],
+  "summary": "Crafter CMS has Improper Control of Dynamically-Managed Code Resources",
   "details": "Improper Control of Dynamically-Managed Code Resources vulnerability in Crafter Studio of Crafter CMS allows authenticated developers to execute OS commands via Groovy Sandbox Bypass. By inserting malicious Groovy elements, an attacker may bypass sandbox restrictions and obtain RCE (Remote Code Execution).",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:H/UI:N/VC:L/VI:H/VA:H/SC:H/SI:H/SA:H/E:U/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:N/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:H/UI:N/VC:L/VI:H/VA:H/SC:H/SI:H/SA:H/E:U"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.craftercms:craftercms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.0.0"
+            },
+            {
+              "fixed": "4.5.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://docs.craftercms.org/current/security/advisory.html#cv-2026020201"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/craftercms/craftercms"
     }
   ],
   "database_specific": {
@@ -29,8 +54,8 @@
       "CWE-913"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-02-02T22:36:58Z",
     "nvd_published_at": "2026-02-02T17:16:17Z"
   }
 }
