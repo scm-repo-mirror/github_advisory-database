@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7vg-w8q8-c3wf",
-  "modified": "2021-06-25T15:35:07Z",
+  "modified": "2026-02-02T21:01:04Z",
   "published": "2021-09-08T18:00:20Z",
-  "aliases": [
-    "CVE-2021-32710"
-  ],
-  "summary": "Session Fixation",
-  "details": "Shopware is an open source eCommerce platform. Potential session hijacking of store customers in versions below 6.3.5.2. We recommend to update to the current version 6.3.5.2. You can get the update to 6.3.5.2 regularly via the Auto-Updater or directly via the download overview. For older versions of 6.1 and 6.2, corresponding security measures are also available via a plugin. For the full range of functions, we recommend updating to the latest Shopware version.",
+  "withdrawn": "2026-02-02T21:01:04Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Session Fixation",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-h9q8-5gv2-v6mg. This link is maintained to preserve external references.\n\n## Original Description\nShopware is an open source eCommerce platform. Potential session hijacking of store customers in versions below 6.3.5.2. We recommend to update to the current version 6.3.5.2. You can get the update to 6.3.5.2 regularly via the Auto-Updater or directly via the download overview. For older versions of 6.1 and 6.2, corresponding security measures are also available via a plugin. For the full range of functions, we recommend updating to the latest Shopware version.",
   "severity": [
     {
       "type": "CVSS_V3",
