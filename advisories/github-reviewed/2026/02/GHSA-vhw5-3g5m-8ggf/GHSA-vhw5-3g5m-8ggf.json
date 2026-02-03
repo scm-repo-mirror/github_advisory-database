@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhw5-3g5m-8ggf",
-  "modified": "2026-02-03T19:15:59Z",
+  "modified": "2026-02-03T20:29:44Z",
   "published": "2026-02-03T19:15:59Z",
   "aliases": [
     "CVE-2026-24052"
   ],
   "summary": "Claude Code has a Domain Validation Bypass which Allows Automatic Requests to Attacker-Controlled Domains",
-  "details": "Claude Code contained insufficient URL validation in its trusted domain verification mechanism for WebFetch requests. The application used a `startsWith()` function to validate trusted domains (e.g., `docs.python.org`, `modelcontextprotocol.io`), this could have enabled attackers to register domains like `modelcontextprotocol.io.example.com` that would pass validation. This could enable automatic requests to attacker-controlled domains without user consent, potentially leading to data exfiltration. \n\nUsers on standard Claude Code auto-update have received this fix already. Users performing manual updates are advised to update to the latest version.",
+  "details": "Claude Code contained insufficient URL validation in its trusted domain verification mechanism for WebFetch requests. The application used a `startsWith()` function to validate trusted domains (e.g., `docs.python.org`, `modelcontextprotocol.io`), this could have enabled attackers to register domains like `modelcontextprotocol.io.example.com` that would pass validation. This could enable automatic requests to attacker-controlled domains without user consent, potentially leading to data exfiltration. \n\nUsers on standard Claude Code auto-update have received this fix already. Users performing manual updates are advised to update to the latest version.\n\nThank you to hackerone.com/47sid-praetorian for reporting this issue!",
   "severity": [
     {
       "type": "CVSS_V4",
