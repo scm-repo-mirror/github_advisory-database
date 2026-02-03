@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhw5-3g5m-8ggf",
-  "modified": "2026-02-03T20:29:44Z",
+  "modified": "2026-02-03T22:15:32Z",
   "published": "2026-02-03T19:15:59Z",
   "aliases": [
     "CVE-2026-24052"
@@ -41,6 +41,10 @@
       "url": "https://github.com/anthropics/claude-code/security/advisories/GHSA-vhw5-3g5m-8ggf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24052"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/anthropics/claude-code"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-03T19:15:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-03T21:16:13Z"
   }
 }
