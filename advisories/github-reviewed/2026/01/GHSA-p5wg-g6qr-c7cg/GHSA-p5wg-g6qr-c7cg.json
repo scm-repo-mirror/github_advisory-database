@@ -1,13 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5wg-g6qr-c7cg",
-  "modified": "2026-01-29T14:58:19Z",
+  "modified": "2026-02-03T17:43:56Z",
   "published": "2026-01-26T18:31:29Z",
+  "withdrawn": "2026-02-03T17:43:56Z",
   "aliases": [
     "CVE-2025-50537"
   ],
-  "summary": "Not a vulnerability",
-  "details": "There is a Stack Overflow vulnerability in eslint before 9.26.0 when serializing objects with circular references in `eslint/lib/shared/serialization.js`. The exploit is triggered via the `RuleTester.run()` method, which validates test cases and checks for duplicates. During validation, the internal function `checkDuplicateTestCase()` is called, which in turn uses the `isSerializable()` function for serialization checks. When a circular reference object is passed in, `isSerializable()` enters infinite recursion, ultimately causing a Stack Overflow.",
+  "summary": "Withdrawn Advisory: eslint has a Stack Overflow when serializing objects with circular references",
+  "details": "## Withdrawn Advisory\nThis advisory has been withdrawn because RuleTester is used for testing rules during development and results in a error rather than crashing the application.\n\n## Original Description\n\nThere is a Stack Overflow vulnerability in eslint before 9.26.0 when serializing objects with circular references in `eslint/lib/shared/serialization.js`. The exploit is triggered via the `RuleTester.run()` method, which validates test cases and checks for duplicates. During validation, the internal function `checkDuplicateTestCase()` is called, which in turn uses the `isSerializable()` function for serialization checks. When a circular reference object is passed in, `isSerializable()` enters infinite recursion, ultimately causing a Stack Overflow.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -58,7 +59,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-674"
+    ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-01-29T14:58:17Z",
