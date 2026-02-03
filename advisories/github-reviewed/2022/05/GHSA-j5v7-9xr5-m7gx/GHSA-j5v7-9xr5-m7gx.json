@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5v7-9xr5-m7gx",
-  "modified": "2025-04-14T20:07:28Z",
+  "modified": "2026-02-03T16:55:27Z",
   "published": "2022-05-17T03:59:52Z",
   "aliases": [
     "CVE-2015-8759"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/TYPO3/typo3/commit/de1755a6dcff9b037c6d5a1fa340ba100aff054a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/2015-12-15-2.yaml"
     },
     {
       "type": "PACKAGE",
