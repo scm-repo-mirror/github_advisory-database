@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4832-crwv-4gfx",
-  "modified": "2025-10-07T18:31:10Z",
+  "modified": "2026-02-03T21:31:47Z",
   "published": "2025-10-07T18:31:10Z",
   "aliases": [
     "CVE-2023-53676"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: target: iscsi: Fix buffer overflow in lio_target_nacl_info_show()\n\nThe function lio_target_nacl_info_show() uses sprintf() in a loop to print\ndetails for every iSCSI connection in a session without checking for the\nbuffer length. With enough iSCSI connections it's possible to overflow the\nbuffer provided by configfs and corrupt the memory.\n\nThis patch replaces sprintf() with sysfs_emit_at() that checks for buffer\nboundries.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:51Z"

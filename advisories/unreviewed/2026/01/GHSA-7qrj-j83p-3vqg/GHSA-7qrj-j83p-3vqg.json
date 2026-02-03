@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qrj-j83p-3vqg",
-  "modified": "2026-01-28T09:30:31Z",
+  "modified": "2026-02-03T21:31:50Z",
   "published": "2026-01-28T09:30:31Z",
   "aliases": [
     "CVE-2025-40551"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_2026-1_release_notes.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-40551"
     },
     {
       "type": "WEB",

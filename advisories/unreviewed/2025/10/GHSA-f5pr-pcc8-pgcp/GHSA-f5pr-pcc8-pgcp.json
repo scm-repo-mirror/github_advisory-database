@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5pr-pcc8-pgcp",
-  "modified": "2025-10-07T18:31:10Z",
+  "modified": "2026-02-03T21:31:46Z",
   "published": "2025-10-07T18:31:10Z",
   "aliases": [
     "CVE-2023-53658"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: bcm-qspi: return error if neither hif_mspi nor mspi is available\n\nIf neither a \"hif_mspi\" nor \"mspi\" resource is present, the driver will\njust early exit in probe but still return success. Apart from not doing\nanything meaningful, this would then also lead to a null pointer access\non removal, as platform_get_drvdata() would return NULL, which it would\nthen try to dereference when trying to unregister the spi master.\n\nFix this by unconditionally calling devm_ioremap_resource(), as it can\nhandle a NULL res and will then return a viable ERR_PTR() if we get one.\n\nThe \"return 0;\" was previously a \"goto qspi_resource_err;\" where then\nret was returned, but since ret was still initialized to 0 at this place\nthis was a valid conversion in 63c5395bb7a9 (\"spi: bcm-qspi: Fix\nuse-after-free on unbind\"). The issue was not introduced by this commit,\nonly made more obvious.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:49Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62wc-jj78-f4f6",
-  "modified": "2026-01-21T21:30:29Z",
+  "modified": "2026-02-03T21:31:48Z",
   "published": "2026-01-20T21:31:35Z",
   "aliases": [
     "CVE-2025-55130"

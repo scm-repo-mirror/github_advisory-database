@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v452-696f-f255",
-  "modified": "2022-05-24T17:37:51Z",
+  "modified": "2026-02-03T21:31:45Z",
   "published": "2022-05-24T17:37:51Z",
   "aliases": [
     "CVE-2020-35945"
   ],
   "details": "An issue was discovered in the Divi Builder plugin, Divi theme, and Divi Extra theme before 4.5.3 for WordPress. Authenticated attackers, with contributor-level or above capabilities, can upload arbitrary files, including .php files. This occurs because the check for file extensions is on the client side.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
