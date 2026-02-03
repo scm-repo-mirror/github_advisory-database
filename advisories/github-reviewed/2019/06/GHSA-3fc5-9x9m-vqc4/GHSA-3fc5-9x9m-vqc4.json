@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fc5-9x9m-vqc4",
-  "modified": "2021-08-04T21:25:59Z",
+  "modified": "2026-02-03T19:36:21Z",
   "published": "2019-06-03T17:31:32Z",
+  "withdrawn": "2026-02-03T19:36:21Z",
   "aliases": [],
-  "summary": "Privilege Escalation in express-cart",
-  "details": "Versions of `express-cart` before 1.1.6 are vulnerable to privilege escalation. This vulnerability can be exploited so that normal users can escalate their privilege and add new administrator users.\n\n\n## Recommendation\n\nUpdate to version 1.1.6 or later.",
+  "summary": "Duplicate Advisory: Privilege Escalation in express-cart",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-hr89-w7p6-pjmq. This link is maintained to preserve external references.\n\n## Original Description\nVersions of `express-cart` before 1.1.6 are vulnerable to privilege escalation. This vulnerability can be exploited so that normal users can escalate their privilege and add new administrator users.\n\n\n## Recommendation\n\nUpdate to version 1.1.6 or later.",
   "severity": [
     {
       "type": "CVSS_V3",
