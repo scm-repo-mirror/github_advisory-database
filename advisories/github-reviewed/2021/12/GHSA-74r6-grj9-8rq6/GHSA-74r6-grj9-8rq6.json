@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74r6-grj9-8rq6",
-  "modified": "2021-12-06T22:06:15Z",
+  "modified": "2026-02-03T17:39:19Z",
   "published": "2021-12-16T15:27:55Z",
-  "aliases": [
-    "CVE-2021-23758"
-  ],
-  "summary": "Remote Code Execution in AjaxNetProfessional",
-  "details": "All versions of package ajaxpro.2 are vulnerable to Deserialization of Untrusted Data due to the possibility of deserialization of arbitrary .NET classes, which can be abused to gain remote code execution.",
+  "withdrawn": "2026-02-03T17:39:19Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Remote Code Execution in AjaxNetProfessional",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-6r7c-6w96-8pvw. This link is maintained to preserve external references.\n\n## Original Description\nAll versions of package ajaxpro.2 are vulnerable to Deserialization of Untrusted Data due to the possibility of deserialization of arbitrary .NET classes, which can be abused to gain remote code execution.",
   "severity": [
     {
       "type": "CVSS_V3",

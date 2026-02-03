@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f95-mxq2-2f63",
-  "modified": "2024-04-10T22:12:50Z",
+  "modified": "2026-02-03T17:39:05Z",
   "published": "2024-04-10T18:30:48Z",
-  "aliases": [
-    "CVE-2024-1728"
-  ],
-  "summary": "Gradio Local File Inclusion vulnerability",
-  "details": "gradio-app/gradio is vulnerable to a local file inclusion vulnerability due to improper validation of user-supplied input in the UploadButton component. Attackers can exploit this vulnerability to read arbitrary files on the filesystem, such as private SSH keys, by manipulating the file path in the request to the `/queue/join` endpoint. This issue could potentially lead to remote code execution. The vulnerability is present in the handling of file upload paths, allowing attackers to redirect file uploads to unintended locations on the server.",
+  "withdrawn": "2026-02-03T17:39:05Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Gradio Local File Inclusion vulnerability",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-m842-4qm8-7gpq. This link is maintained to preserve external references.\n\n## Original Description\ngradio-app/gradio is vulnerable to a local file inclusion vulnerability due to improper validation of user-supplied input in the UploadButton component. Attackers can exploit this vulnerability to read arbitrary files on the filesystem, such as private SSH keys, by manipulating the file path in the request to the `/queue/join` endpoint. This issue could potentially lead to remote code execution. The vulnerability is present in the handling of file upload paths, allowing attackers to redirect file uploads to unintended locations on the server.",
   "severity": [
     {
       "type": "CVSS_V3",
