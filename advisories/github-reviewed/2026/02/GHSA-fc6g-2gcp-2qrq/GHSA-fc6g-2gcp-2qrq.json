@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc6g-2gcp-2qrq",
-  "modified": "2026-02-03T17:31:41Z",
+  "modified": "2026-02-03T18:55:45Z",
   "published": "2026-02-03T17:31:41Z",
   "aliases": [
     "CVE-2026-21862"
@@ -41,6 +41,10 @@
       "url": "https://github.com/rustfs/rustfs/security/advisories/GHSA-fc6g-2gcp-2qrq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21862"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rustfs/rustfs/commit/b4ba62fa3300b5b258fdc0da141481e3be7ea960"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-03T17:31:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-03T16:16:12Z"
   }
 }
