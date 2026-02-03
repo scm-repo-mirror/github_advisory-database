@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p4w-fq8m-2hp7",
-  "modified": "2026-02-02T20:17:39Z",
+  "modified": "2026-02-03T16:13:28Z",
   "published": "2026-02-02T20:17:39Z",
   "aliases": [
     "CVE-2026-25142"
@@ -44,6 +44,10 @@
       "url": "https://github.com/nyariv/SandboxJS/security/advisories/GHSA-9p4w-fq8m-2hp7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25142"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nyariv/SandboxJS/commit/75c8009db32e6829b0ad92ca13bf458178442bd3"
     },
@@ -63,6 +67,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-02T20:17:39Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-02T23:16:09Z"
   }
 }
