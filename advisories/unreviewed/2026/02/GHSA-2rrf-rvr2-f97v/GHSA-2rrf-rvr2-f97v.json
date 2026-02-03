@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rrf-rvr2-f97v",
-  "modified": "2026-02-02T09:30:31Z",
+  "modified": "2026-02-03T00:30:18Z",
   "published": "2026-02-02T09:30:31Z",
   "aliases": [
     "CVE-2026-20403"
   ],
   "details": "In Modem, there is a possible system crash due to a missing bounds check. This could lead to remote denial of service, if a UE has connected to a rogue base station controlled by the attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY01689254 (Note: For N15 and NR16) / MOLY01689259 (Note: For NR17 and NR17R); Issue ID: MSV-4843.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-787"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-02T09:15:54Z"

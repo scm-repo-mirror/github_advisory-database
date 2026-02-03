@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84w3-v7pc-5h8q",
-  "modified": "2026-02-02T09:30:31Z",
+  "modified": "2026-02-03T00:30:18Z",
   "published": "2026-02-02T09:30:31Z",
   "aliases": [
     "CVE-2026-20407"
   ],
   "details": "In wlan STA driver, there is a possible escalation of privilege due to a missing bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00464377; Issue ID: MSV-4905.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-787"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-02T09:15:55Z"
