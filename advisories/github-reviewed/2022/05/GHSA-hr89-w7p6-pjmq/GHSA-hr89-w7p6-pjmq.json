@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hr89-w7p6-pjmq",
-  "modified": "2024-04-01T22:03:23Z",
+  "modified": "2026-02-03T17:00:36Z",
   "published": "2022-05-13T01:49:36Z",
   "aliases": [
     "CVE-2018-12457"
@@ -26,13 +26,13 @@
           "events": [
             {
               "introduced": "0"
+            },
+            {
+              "fixed": "1.1.6"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 1.1.6"
-      }
+      ]
     }
   ],
   "references": [
@@ -47,6 +47,22 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/343626"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/mrvautin/expressCart"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nodejs/security-wg/blob/main/vuln/npm/469.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://snyk.io/vuln/npm:express-cart:20180712"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.npmjs.com/advisories/730"
     },
     {
       "type": "WEB",
