@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rmw-4rx2-vh9r",
-  "modified": "2026-02-03T15:30:26Z",
+  "modified": "2026-02-03T18:30:43Z",
   "published": "2026-02-03T15:30:26Z",
   "aliases": [
     "CVE-2026-24997"
   ],
   "details": "Missing Authorization vulnerability in Wired Impact Wired Impact Volunteer Management wired-impact-volunteer-management allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Wired Impact Volunteer Management: from n/a through <= 2.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-03T15:16:18Z"

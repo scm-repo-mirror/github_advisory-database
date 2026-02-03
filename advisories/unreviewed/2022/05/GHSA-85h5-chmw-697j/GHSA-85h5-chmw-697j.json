@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85h5-chmw-697j",
-  "modified": "2026-02-03T15:30:19Z",
+  "modified": "2026-02-03T18:30:27Z",
   "published": "2022-05-24T17:01:42Z",
   "aliases": [
     "CVE-2019-19006"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.freepbx.org/display/FOP/2019-11-20+Remote+Admin+Authentication+Bypass"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-19006"
     },
     {
       "type": "WEB",

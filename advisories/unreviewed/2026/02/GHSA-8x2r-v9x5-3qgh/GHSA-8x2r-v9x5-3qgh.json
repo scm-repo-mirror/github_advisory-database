@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8x2r-v9x5-3qgh",
+  "modified": "2026-02-03T18:30:47Z",
+  "published": "2026-02-03T18:30:47Z",
+  "aliases": [
+    "CVE-2025-70559"
+  ],
+  "details": "pdfminer.six before 20251230 contains an insecure deserialization vulnerability in the CMap loading mechanism. The library uses Python pickle to deserialize CMap cache files without validation. An attacker with the ability to place a malicious pickle file in a location accessible to the application can trigger arbitrary code execution or privilege escalation when the file is loaded by a trusted process. This is caused by an incomplete patch to CVE-2025-64512.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/pdfminer/pdfminer.six/security/advisories/GHSA-f83h-ghpp-7wcc"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70559"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-f83h-ghpp-7wcc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-03T18:16:17Z"
+  }
+}

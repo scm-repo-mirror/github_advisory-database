@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xf8g-xrmp-prrv",
+  "modified": "2026-02-03T18:30:47Z",
+  "published": "2026-02-03T18:30:47Z",
+  "aliases": [
+    "CVE-2025-67186"
+  ],
+  "details": "TOTOLINK A950RG V4.1.2cu.5204_B20210112 contains a buffer overflow vulnerability in the setUrlFilterRules interface of /lib/cste_modules/firewall.so. The vulnerability occurs because the `url` parameter is not properly validated for length, allowing remote attackers to trigger a buffer overflow, potentially leading to arbitrary code execution or denial of service.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SunnyYANGyaya/cuicuishark-sheep-fishIOT/blob/main/ToTolink/A950RG/5024-setUrlFliterRules-url-buffer.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-03T18:16:16Z"
+  }
+}

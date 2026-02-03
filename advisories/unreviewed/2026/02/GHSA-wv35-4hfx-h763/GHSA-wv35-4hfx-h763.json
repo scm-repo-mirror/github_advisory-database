@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wv35-4hfx-h763",
+  "modified": "2026-02-03T18:30:47Z",
+  "published": "2026-02-03T18:30:47Z",
+  "aliases": [
+    "CVE-2025-67188"
+  ],
+  "details": "A buffer overflow vulnerability exists in TOTOLINK A950RG V4.1.2cu.5204_B20210112. The issue resides in the setRadvdCfg interface of the /lib/cste_modules/ipv6.so module. The function fails to properly validate the length of the user-controlled radvdinterfacename parameter, allowing remote attackers to trigger a stack buffer overflow.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SunnyYANGyaya/cuicuishark-sheep-fishIOT/blob/main/ToTolink/A950RG/5024-ipv6-setRadvdCfg-radvdinterfacename-buffer.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-03T18:16:16Z"
+  }
+}

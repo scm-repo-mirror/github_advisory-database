@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvv3-fjwq-p2f6",
-  "modified": "2025-10-07T18:31:10Z",
+  "modified": "2026-02-03T18:30:30Z",
   "published": "2025-10-07T18:31:10Z",
   "aliases": [
     "CVE-2023-53682"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhwmon: (xgene) Fix ioremap and memremap leak\n\nSmatch reports:\n\ndrivers/hwmon/xgene-hwmon.c:757 xgene_hwmon_probe() warn:\n'ctx->pcc_comm_addr' from ioremap() not released on line: 757.\n\nThis is because in drivers/hwmon/xgene-hwmon.c:701 xgene_hwmon_probe(),\nioremap and memremap is not released, which may cause a leak.\n\nTo fix this, ioremap and memremap is modified to devm_ioremap and\ndevm_memremap.\n\n[groeck: Fixed formatting and subject]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:52Z"

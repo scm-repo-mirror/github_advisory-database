@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pgj6-pfrx-wvwj",
+  "modified": "2026-02-03T18:30:46Z",
+  "published": "2026-02-03T18:30:46Z",
+  "aliases": [
+    "CVE-2025-59439"
+  ],
+  "details": "An issue was discovered in Samsung Modem Exynos through 2025-08-29. Incorrect handling of NAS Registration messages leads to a Denial of Service because of Improper Handling of Exceptional Conditions.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59439"
+    },
+    {
+      "type": "WEB",
+      "url": "https://semiconductor.samsung.com/support/quality-support/product-security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-03T18:16:14Z"
+  }
+}

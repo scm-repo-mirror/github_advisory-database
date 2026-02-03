@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7h48-rq2g-79x4",
-  "modified": "2025-10-07T18:31:10Z",
+  "modified": "2026-02-03T18:30:30Z",
   "published": "2025-10-07T18:31:10Z",
   "aliases": [
     "CVE-2023-53681"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbcache: Fix __bch_btree_node_alloc to make the failure behavior consistent\n\nIn some specific situations, the return value of __bch_btree_node_alloc\nmay be NULL. This may lead to a potential NULL pointer dereference in\ncaller function like a calling chain :\nbtree_split->bch_btree_node_alloc->__bch_btree_node_alloc.\n\nFix it by initializing the return value in __bch_btree_node_alloc.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:52Z"

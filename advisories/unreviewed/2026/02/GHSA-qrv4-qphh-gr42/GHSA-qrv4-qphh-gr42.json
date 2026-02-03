@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrv4-qphh-gr42",
-  "modified": "2026-02-03T15:30:24Z",
+  "modified": "2026-02-03T18:30:42Z",
   "published": "2026-02-03T15:30:24Z",
   "aliases": [
     "CVE-2026-24947"
   ],
   "details": "Missing Authorization vulnerability in LA-Studio LA-Studio Element Kit for Elementor lastudio-element-kit allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects LA-Studio Element Kit for Elementor: from n/a through < 1.5.6.3.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-03T15:16:15Z"

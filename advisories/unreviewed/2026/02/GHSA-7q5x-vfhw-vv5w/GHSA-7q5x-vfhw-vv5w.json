@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q5x-vfhw-vv5w",
-  "modified": "2026-02-03T15:30:26Z",
+  "modified": "2026-02-03T18:30:43Z",
   "published": "2026-02-03T15:30:26Z",
   "aliases": [
     "CVE-2026-24992"
   ],
   "details": "Insertion of Sensitive Information Into Sent Data vulnerability in WPFactory Advanced WooCommerce Product Sales Reporting webd-woocommerce-advanced-reporting-statistics allows Retrieve Embedded Sensitive Data.This issue affects Advanced WooCommerce Product Sales Reporting: from n/a through <= 4.1.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-201"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-03T15:16:18Z"

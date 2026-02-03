@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2r8f-cf6w-x5vq",
+  "modified": "2026-02-03T18:30:47Z",
+  "published": "2026-02-03T18:30:47Z",
+  "aliases": [
+    "CVE-2025-69971"
+  ],
+  "details": "FUXA v1.2.7 contains a hard-coded credential vulnerability in server/api/jwt-helper.js. The application uses a hard-coded secret key to sign and verify JWT Tokens. This allows remote attackers to forge valid admin tokens and bypass authentication to gain full administrative access.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69971"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/frangoteam/FUXA/blob/master/server/api/jwt-helper.js"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-03T18:16:17Z"
+  }
+}

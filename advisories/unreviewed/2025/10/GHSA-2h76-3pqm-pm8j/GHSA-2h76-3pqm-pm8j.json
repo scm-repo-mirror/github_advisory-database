@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h76-3pqm-pm8j",
-  "modified": "2025-10-07T18:31:11Z",
+  "modified": "2026-02-03T18:30:30Z",
   "published": "2025-10-07T18:31:11Z",
   "aliases": [
     "CVE-2023-53687"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntty: serial: samsung_tty: Fix a memory leak in s3c24xx_serial_getclk() when iterating clk\n\nWhen the best clk is searched, we iterate over all possible clk.\n\nIf we find a better match, the previous one, if any, needs to be freed.\nIf a better match has already been found, we still need to free the new\none, otherwise it leaks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:53Z"
