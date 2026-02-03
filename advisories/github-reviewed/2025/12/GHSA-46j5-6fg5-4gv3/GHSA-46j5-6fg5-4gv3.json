@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46j5-6fg5-4gv3",
-  "modified": "2025-12-18T22:43:39Z",
+  "modified": "2026-02-03T17:37:53Z",
   "published": "2025-12-18T09:30:30Z",
-  "aliases": [
-    "CVE-2025-14874"
-  ],
-  "summary": "Nodemailer is vulnerable to DoS through Uncontrolled Recursion",
-  "details": "A flaw was found in Nodemailer. This vulnerability allows a denial of service (DoS) via a crafted email address header that triggers infinite recursion in the address parser.",
+  "withdrawn": "2026-02-03T17:37:53Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Nodemailer is vulnerable to DoS through Uncontrolled Recursion",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-rcmh-qjqh-p98v. This link is maintained to preserve external references.\n\n## Original Description\nA flaw was found in Nodemailer. This vulnerability allows a denial of service (DoS) via a crafted email address header that triggers infinite recursion in the address parser.",
   "severity": [
     {
       "type": "CVSS_V3",
