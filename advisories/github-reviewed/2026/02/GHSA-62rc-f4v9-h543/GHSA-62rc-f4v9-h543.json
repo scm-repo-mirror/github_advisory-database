@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62rc-f4v9-h543",
-  "modified": "2026-02-02T23:24:50Z",
+  "modified": "2026-02-03T16:10:16Z",
   "published": "2026-02-02T23:24:50Z",
   "aliases": [
     "CVE-2026-1778"
@@ -60,12 +60,20 @@
       "url": "https://github.com/aws/sagemaker-python-sdk/security/advisories/GHSA-62rc-f4v9-h543"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1778"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/aws/sagemaker-python-sdk/commit/5e7a3efa7bec0a161194ffa0cef346dda93bf2c6"
     },
     {
       "type": "WEB",
       "url": "https://github.com/aws/sagemaker-python-sdk/commit/c8098958910f7db78d07037425debfd4d44a6964"
+    },
+    {
+      "type": "WEB",
+      "url": "https://aws.amazon.com/security/security-bulletins/2026-004-AWS"
     },
     {
       "type": "PACKAGE",
@@ -84,6 +92,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-02T23:24:50Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-02T23:16:04Z"
   }
 }
