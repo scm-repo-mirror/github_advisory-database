@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rpmg-26wm-r5vr",
+  "modified": "2026-02-03T15:30:25Z",
+  "published": "2026-02-03T15:30:25Z",
+  "aliases": [
+    "CVE-2026-24966"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Copyscape Copyscape Premium copyscape-premium allows Cross Site Request Forgery.This issue affects Copyscape Premium: from n/a through <= 1.4.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/copyscape-premium/vulnerability/wordpress-copyscape-premium-plugin-1-4-1-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-03T15:16:17Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mx4j-wm6m-3mxr",
-  "modified": "2025-10-09T12:30:19Z",
+  "modified": "2026-02-03T15:30:20Z",
   "published": "2025-10-09T12:30:18Z",
   "aliases": [
     "CVE-2025-39957"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mac80211: increase scan_ies_len for S1G\n\nCurrently the S1G capability element is not taken into account\nfor the scan_ies_len, which leads to a buffer length validation\nfailure in ieee80211_prep_hw_scan() and subsequent WARN in\n__ieee80211_start_scan(). This prevents hw scanning from functioning.\nTo fix ensure we accommodate for the S1G capability length.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-09T10:15:37Z"
