@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v585-mf6r-rqrc",
-  "modified": "2026-02-02T23:00:13Z",
+  "modified": "2026-02-03T21:40:44Z",
   "published": "2026-02-02T23:00:13Z",
   "aliases": [
     "CVE-2026-25489"
@@ -66,6 +66,10 @@
       "url": "https://github.com/craftcms/commerce/security/advisories/GHSA-v585-mf6r-rqrc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25489"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/commerce/commit/fa273330807807d05b564d37c88654cd772839ee"
     },
@@ -89,6 +93,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-02T23:00:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-03T19:16:26Z"
   }
 }

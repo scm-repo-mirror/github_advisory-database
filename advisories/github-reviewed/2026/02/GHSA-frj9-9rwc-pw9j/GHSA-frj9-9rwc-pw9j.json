@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frj9-9rwc-pw9j",
-  "modified": "2026-02-02T22:41:44Z",
+  "modified": "2026-02-03T21:39:52Z",
   "published": "2026-02-02T22:41:44Z",
   "aliases": [
     "CVE-2026-25482"
@@ -66,6 +66,10 @@
       "url": "https://github.com/craftcms/commerce/security/advisories/GHSA-frj9-9rwc-pw9j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25482"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/commerce/commit/d94d1c9832a47a1c383e375ae87c46c13935ba65"
     },
@@ -89,6 +93,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-02T22:41:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-03T19:16:25Z"
   }
 }
