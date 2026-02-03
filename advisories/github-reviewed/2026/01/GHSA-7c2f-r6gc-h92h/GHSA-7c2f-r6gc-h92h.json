@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c2f-r6gc-h92h",
-  "modified": "2026-01-16T21:00:10Z",
+  "modified": "2026-02-03T17:22:47Z",
   "published": "2026-01-16T12:30:25Z",
   "aliases": [
     "CVE-2025-68675"
@@ -39,6 +39,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68675"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/airflow/pull/59688"
     },
     {
       "type": "PACKAGE",
