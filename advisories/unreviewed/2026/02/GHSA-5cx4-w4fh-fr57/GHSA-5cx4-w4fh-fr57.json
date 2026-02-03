@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5cx4-w4fh-fr57",
+  "modified": "2026-02-03T12:30:29Z",
+  "published": "2026-02-03T12:30:29Z",
+  "aliases": [
+    "CVE-2025-67853"
+  ],
+  "details": "A flaw was found in Moodle. A remote attacker could exploit a lack of proper rate limiting in the confirmation email service. This vulnerability allows attackers to more easily enumerate or guess user credentials, facilitating brute-force attacks against user accounts.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-67853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2423847"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-307"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-03T11:15:55Z"
+  }
+}
