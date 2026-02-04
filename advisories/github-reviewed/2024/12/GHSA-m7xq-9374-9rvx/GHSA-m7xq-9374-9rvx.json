@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7xq-9374-9rvx",
-  "modified": "2024-12-04T16:41:00Z",
+  "modified": "2026-02-04T17:51:50Z",
   "published": "2024-12-02T21:31:20Z",
   "aliases": [
     "CVE-2024-53900"
@@ -67,7 +67,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.6.0-rc0"
             },
             {
               "fixed": "6.13.5"
@@ -81,6 +81,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/github/advisory-database/pull/6769"
     },
     {
       "type": "WEB",
