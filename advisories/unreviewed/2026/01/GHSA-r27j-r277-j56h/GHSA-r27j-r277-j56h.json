@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r27j-r277-j56h",
-  "modified": "2026-01-28T18:30:47Z",
+  "modified": "2026-02-04T12:31:25Z",
   "published": "2026-01-28T09:30:31Z",
   "aliases": [
     "CVE-2026-0818"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1881530"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/02/msg00005.html"
     },
     {
       "type": "WEB",
