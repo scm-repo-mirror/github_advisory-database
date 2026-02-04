@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3hq-3qj8-c5fm",
-  "modified": "2026-02-02T21:02:04Z",
+  "modified": "2026-02-04T17:47:38Z",
   "published": "2026-02-02T06:30:53Z",
   "aliases": [
     "CVE-2026-1530"
@@ -71,6 +71,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/fog/fog-kubevirt/releases/tag/v1.5.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/fog-kubevirt/CVE-2026-1530.yml"
     }
   ],
   "database_specific": {
