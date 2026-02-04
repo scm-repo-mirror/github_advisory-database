@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xx4-26g9-3j94",
-  "modified": "2025-10-07T18:31:08Z",
+  "modified": "2026-02-04T18:30:19Z",
   "published": "2025-10-07T18:31:08Z",
   "aliases": [
     "CVE-2022-50525"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu/fsl_pamu: Fix resource leak in fsl_pamu_probe()\n\nThe fsl_pamu_probe() returns directly when create_csd() failed, leaving\nirq and memories unreleased.\nFix by jumping to error if create_csd() returns error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:36Z"

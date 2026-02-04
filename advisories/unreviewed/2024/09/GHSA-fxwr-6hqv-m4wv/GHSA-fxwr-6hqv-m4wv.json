@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxwr-6hqv-m4wv",
-  "modified": "2024-09-05T18:30:56Z",
+  "modified": "2026-02-04T18:30:18Z",
   "published": "2024-09-04T21:30:32Z",
   "aliases": [
     "CVE-2024-42642"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/VL4DR/CVE-2024-42642/tree/main"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.crucial.com/support/ssd-support/mx500-support"
     },
     {
       "type": "WEB",

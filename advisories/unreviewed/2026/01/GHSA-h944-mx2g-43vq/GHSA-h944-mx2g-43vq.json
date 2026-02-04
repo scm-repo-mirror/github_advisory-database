@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h944-mx2g-43vq",
-  "modified": "2026-01-31T00:30:28Z",
+  "modified": "2026-02-04T18:30:28Z",
   "published": "2026-01-31T00:30:28Z",
   "aliases": [
     "CVE-2025-36009"
@@ -22,11 +22,16 @@
     {
       "type": "WEB",
       "url": "https://www.ibm.com/support/pages/node/7257623"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ibm.com/support/pages/node/7257695"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1108"
+      "CWE-1108",
+      "CWE-1284"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

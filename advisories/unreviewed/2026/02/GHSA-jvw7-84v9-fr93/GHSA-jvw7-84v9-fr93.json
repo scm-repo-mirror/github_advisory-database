@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jvw7-84v9-fr93",
+  "modified": "2026-02-04T18:30:44Z",
+  "published": "2026-02-04T18:30:44Z",
+  "aliases": [
+    "CVE-2026-23105"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: qfq: Use cl_is_active to determine whether class is active in qfq_rm_from_ag\n\nThis is more of a preventive patch to make the code more consistent and\nto prevent possible exploits that employ child qlen manipulations on qfq.\nuse cl_is_active instead of relying on the child qdisc's qlen to determine\nclass activation.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23105"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/77f1afd0bb4d5da95236f6114e6d0dfcde187ff6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/93b8635974fb050c43d07e35e5edfe6e685ca28a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/abd9fc26ea577561a5ef6241a1b058755ffdad0c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d837fbee92453fbb829f950c8e7cf76207d73f33"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-04T17:16:21Z"
+  }
+}

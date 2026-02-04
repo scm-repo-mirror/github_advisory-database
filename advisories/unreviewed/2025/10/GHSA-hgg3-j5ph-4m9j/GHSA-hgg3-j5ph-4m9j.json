@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgg3-j5ph-4m9j",
-  "modified": "2025-10-07T18:31:08Z",
+  "modified": "2026-02-04T18:30:19Z",
   "published": "2025-10-07T18:31:08Z",
   "aliases": [
     "CVE-2022-50523"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: rockchip: Fix memory leak in rockchip_clk_register_pll()\n\nIf clk_register() fails, @pll->rate_table may have allocated memory by\nkmemdup(), so it needs to be freed, otherwise will cause memory leak\nissue, this patch fixes it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:36Z"

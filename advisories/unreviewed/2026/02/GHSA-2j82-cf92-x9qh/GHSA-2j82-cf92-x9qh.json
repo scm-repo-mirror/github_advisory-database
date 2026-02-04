@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2j82-cf92-x9qh",
+  "modified": "2026-02-04T18:30:43Z",
+  "published": "2026-02-04T18:30:43Z",
+  "aliases": [
+    "CVE-2026-23084"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbe2net: Fix NULL pointer dereference in be_cmd_get_mac_from_list\n\nWhen the parameter pmac_id_valid argument of be_cmd_get_mac_from_list() is\nset to false, the driver may request the PMAC_ID from the firmware of the\nnetwork card, and this function will store that PMAC_ID at the provided\naddress pmac_id. This is the contract of this function.\n\nHowever, there is a location within the driver where both\npmac_id_valid == false and pmac_id == NULL are being passed. This could\nresult in dereferencing a NULL pointer.\n\nTo resolve this issue, it is necessary to pass the address of a stub\nvariable to the function.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23084"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/31410a01a86bcb98c798d01061abf1f789c4f75a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/47ffb4dcffe336f4a7bd0f3284be7aadc6484698"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8215794403d264739cc676668087512950b2ff31"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e206fb415db36bad52bb90c08d46ce71ffbe8a80"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-04T17:16:19Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvxv-2qp5-99vx",
-  "modified": "2026-02-03T18:30:46Z",
+  "modified": "2026-02-04T18:30:30Z",
   "published": "2026-02-03T18:30:46Z",
   "aliases": [
     "CVE-2025-60865"
   ],
   "details": "Insecure Permissions vulnerability in avanquest Driver Updater v.9.1.57803.1174 allows a local attacker to escalate privileges via the Driver Updater Service windows component.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-03T18:16:14Z"

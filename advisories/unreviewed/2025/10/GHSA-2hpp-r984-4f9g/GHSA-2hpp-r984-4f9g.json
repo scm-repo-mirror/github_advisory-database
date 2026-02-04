@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hpp-r984-4f9g",
-  "modified": "2025-10-07T18:31:08Z",
+  "modified": "2026-02-04T18:30:19Z",
   "published": "2025-10-07T18:31:08Z",
   "aliases": [
     "CVE-2022-50520"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/radeon: Fix PCI device refcount leak in radeon_atrm_get_bios()\n\nAs comment of pci_get_class() says, it returns a pci_device with its\nrefcount increased and decreased the refcount for the input parameter\n@from if it is not NULL.\n\nIf we break the loop in radeon_atrm_get_bios() with 'pdev' not NULL, we\nneed to call pci_dev_put() to decrease the refcount. Add the missing\npci_dev_put() to avoid refcount leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:35Z"
