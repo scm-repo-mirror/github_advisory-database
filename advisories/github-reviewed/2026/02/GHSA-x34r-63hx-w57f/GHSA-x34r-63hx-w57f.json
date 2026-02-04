@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x34r-63hx-w57f",
-  "modified": "2026-02-02T20:42:28Z",
+  "modified": "2026-02-04T21:56:32Z",
   "published": "2026-02-02T20:42:28Z",
   "aliases": [
     "CVE-2026-25481"
@@ -48,6 +48,10 @@
       "url": "https://github.com/langroid/langroid/security/advisories/GHSA-x34r-63hx-w57f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25481"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/langroid/langroid/commit/30abbc1a854dee22fbd2f8b2f575dfdabdb603ea"
     },
@@ -63,6 +67,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-02T20:42:28Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T20:16:07Z"
   }
 }

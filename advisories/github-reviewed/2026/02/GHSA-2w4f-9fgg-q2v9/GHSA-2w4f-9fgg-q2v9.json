@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w4f-9fgg-q2v9",
-  "modified": "2026-02-04T00:09:57Z",
+  "modified": "2026-02-04T21:56:16Z",
   "published": "2026-02-04T00:09:57Z",
   "aliases": [
     "CVE-2026-25145"
@@ -41,6 +41,10 @@
       "url": "https://github.com/chainguard-dev/melange/security/advisories/GHSA-2w4f-9fgg-q2v9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25145"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/chainguard-dev/melange/commit/2f95c9f4355ed993f2670bf1bb82d88b0f65e9e4"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-04T00:09:57Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T20:16:06Z"
   }
 }
