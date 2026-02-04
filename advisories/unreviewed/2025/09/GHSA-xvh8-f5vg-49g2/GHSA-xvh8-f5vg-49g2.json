@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvh8-f5vg-49g2",
-  "modified": "2025-09-18T15:30:32Z",
+  "modified": "2026-02-04T00:30:26Z",
   "published": "2025-09-18T15:30:32Z",
   "aliases": [
     "CVE-2025-10666"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://www.dlink.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52469"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c64q-8p7x-8r8g",
-  "modified": "2025-10-07T18:31:10Z",
+  "modified": "2026-02-04T00:30:27Z",
   "published": "2025-10-07T18:31:10Z",
   "aliases": [
     "CVE-2023-53639"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath6kl: reduce WARN to dev_dbg() in callback\n\nThe warn is triggered on a known race condition, documented in the code above\nthe test, that is correctly handled.  Using WARN() hinders automated testing.\nReducing severity.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:47Z"

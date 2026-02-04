@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxmq-8fwh-qv2c",
-  "modified": "2025-09-13T18:30:55Z",
+  "modified": "2026-02-04T00:30:26Z",
   "published": "2025-09-13T18:30:55Z",
   "aliases": [
     "CVE-2025-10370"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.643522"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52470"
     }
   ],
   "database_specific": {
