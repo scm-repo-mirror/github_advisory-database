@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6jcc-xgcr-q3h4",
-  "modified": "2025-08-11T13:56:21Z",
+  "modified": "2026-02-04T22:13:40Z",
   "published": "2025-08-08T14:29:48Z",
   "aliases": [
     "CVE-2025-54888"
@@ -141,7 +141,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/fedify-dev/fedify/commit/226d9b84dbec52172a70138bba8861454afde42b"
+      "url": "https://github.com/fedify-dev/fedify/commit/14a2f8c6d2c3cbc00c3170a86ad3b7b8555c6847"
     },
     {
       "type": "PACKAGE",
