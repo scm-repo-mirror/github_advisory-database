@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqg6-98cw-gxhq",
-  "modified": "2026-02-03T20:49:22Z",
+  "modified": "2026-02-04T17:45:43Z",
   "published": "2026-02-03T20:49:22Z",
   "aliases": [
     "CVE-2026-25150"
@@ -41,6 +41,10 @@
       "url": "https://github.com/QwikDev/qwik/security/advisories/GHSA-xqg6-98cw-gxhq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25150"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/QwikDev/qwik/commit/5f65bae2bc33e6ca0c21e4cfcf9eae05077716f7"
     },
@@ -56,6 +60,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-03T20:49:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-03T22:16:30Z"
   }
 }
