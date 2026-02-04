@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5v4-v883-569m",
-  "modified": "2022-05-24T16:56:33Z",
+  "modified": "2026-02-04T21:30:23Z",
   "published": "2022-05-24T16:56:33Z",
   "aliases": [
     "CVE-2016-11003"
   ],
   "details": "The Elegant Themes Bloom plugin before 1.1.1 for WordPress has privilege escalation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-269"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65wq-6hc9-fgcm",
-  "modified": "2025-10-07T18:31:09Z",
+  "modified": "2026-02-04T21:30:24Z",
   "published": "2025-10-07T18:31:09Z",
   "aliases": [
     "CVE-2022-50547"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: solo6x10: fix possible memory leak in solo_sysfs_init()\n\nIf device_register() returns error in solo_sysfs_init(), the\nname allocated by dev_set_name() need be freed. As comment of\ndevice_register() says, it should use put_device() to give up\nthe reference in the error path. So fix this by calling\nput_device(), then the name can be freed in kobject_cleanup().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:39Z"

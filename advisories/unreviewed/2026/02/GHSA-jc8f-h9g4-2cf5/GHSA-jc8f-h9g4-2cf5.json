@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jc8f-h9g4-2cf5",
+  "modified": "2026-02-04T21:30:32Z",
+  "published": "2026-02-04T21:30:32Z",
+  "aliases": [
+    "CVE-2025-71031"
+  ],
+  "details": "Water-Melon Melon commit 9df9292 and below is vulnerable to Denial of Service. The HTTP component doesn't have any maximum length. As a result, an excessive request header could cause a denial of service by consuming RAM memory.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71031"
+    },
+    {
+      "type": "WEB",
+      "url": "https://suphawith-phusanbai.gitbook.io/book-of-suphawith/my-exploits/cve-2025-71031-denial-of-service-in-melon-c-library"
+    },
+    {
+      "type": "WEB",
+      "url": "https://suphawith-phusanbai.gitbook.io/book-of-suphawith/my-exploits/denial-of-service-in-melon-c-library"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-04T20:16:04Z"
+  }
+}

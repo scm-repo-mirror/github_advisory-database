@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgj6-pfrx-wvwj",
-  "modified": "2026-02-04T18:30:30Z",
+  "modified": "2026-02-04T21:30:32Z",
   "published": "2026-02-03T18:30:46Z",
   "aliases": [
     "CVE-2025-59439"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://semiconductor.samsung.com/support/quality-support/product-security-updates"
+    },
+    {
+      "type": "WEB",
+      "url": "https://semiconductor.samsung.com/support/quality-support/product-security-updates/cve-2025-59439"
     }
   ],
   "database_specific": {

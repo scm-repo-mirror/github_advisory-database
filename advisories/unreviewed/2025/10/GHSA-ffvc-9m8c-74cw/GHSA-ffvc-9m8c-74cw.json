@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffvc-9m8c-74cw",
-  "modified": "2025-10-07T18:31:08Z",
+  "modified": "2026-02-04T21:30:24Z",
   "published": "2025-10-07T18:31:08Z",
   "aliases": [
     "CVE-2022-50540"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: qcom-adm: fix wrong sizeof config in slave_config\n\nFix broken slave_config function that uncorrectly compare the\nperipheral_size with the size of the config pointer instead of the size\nof the config struct. This cause the crci value to be ignored and cause\na kernel panic on any slave that use adm driver.\n\nTo fix this, compare to the size of the struct and NOT the size of the\npointer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:38Z"

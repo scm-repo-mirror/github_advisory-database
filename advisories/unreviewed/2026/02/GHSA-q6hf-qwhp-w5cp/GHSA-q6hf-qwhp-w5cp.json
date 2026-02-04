@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q6hf-qwhp-w5cp",
-  "modified": "2026-02-04T18:30:31Z",
+  "modified": "2026-02-04T21:30:32Z",
   "published": "2026-02-03T18:30:47Z",
   "aliases": [
     "CVE-2025-71179"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://creativeitem.com/products/academy-learning-management-system"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cod3rLucas/security-advisories/blob/main/CVE-2025-71179.md"
     },
     {
       "type": "WEB",

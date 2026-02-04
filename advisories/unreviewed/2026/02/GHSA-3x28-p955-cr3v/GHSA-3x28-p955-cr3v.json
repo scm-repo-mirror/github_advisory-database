@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3x28-p955-cr3v",
-  "modified": "2026-02-03T18:30:47Z",
+  "modified": "2026-02-04T21:30:32Z",
   "published": "2026-02-03T18:30:47Z",
   "aliases": [
     "CVE-2025-70841"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://codecanyon.net/item/dokans-multitenancy-based-ecommerce-platform-saas/31122915"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cod3rLucas/security-advisories/blob/main/CVE-2025-70841.md"
     }
   ],
   "database_specific": {
