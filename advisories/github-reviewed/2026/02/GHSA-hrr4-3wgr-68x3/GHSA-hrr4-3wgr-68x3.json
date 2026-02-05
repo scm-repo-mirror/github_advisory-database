@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrr4-3wgr-68x3",
-  "modified": "2026-02-04T17:47:05Z",
+  "modified": "2026-02-05T00:37:07Z",
   "published": "2026-02-04T00:14:02Z",
   "aliases": [
     "CVE-2026-25579"
@@ -41,18 +41,27 @@
       "url": "https://github.com/navidrome/navidrome/security/advisories/GHSA-hrr4-3wgr-68x3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25579"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/navidrome/navidrome"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/navidrome/navidrome/releases/tag/v0.60.0"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-400",
       "CWE-770",
       "CWE-789"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-04T00:14:02Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T22:16:01Z"
   }
 }

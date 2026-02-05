@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-434x-w66g-qw3r",
-  "modified": "2026-02-04T17:54:53Z",
+  "modified": "2026-02-05T00:37:18Z",
   "published": "2026-02-03T19:17:46Z",
   "aliases": [
     "CVE-2026-25541"
@@ -41,6 +41,10 @@
       "url": "https://github.com/tokio-rs/bytes/security/advisories/GHSA-434x-w66g-qw3r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25541"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/tokio-rs/bytes/commit/d0293b0e35838123c51ca5dfdf468ecafee4398f"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-03T19:17:46Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T22:16:00Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jx2-rhfh-q928",
-  "modified": "2026-02-04T20:02:32Z",
+  "modified": "2026-02-05T00:37:12Z",
   "published": "2026-02-04T20:02:32Z",
   "aliases": [
     "CVE-2026-25546"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Coding-Solo/godot-mcp/security/advisories/GHSA-8jx2-rhfh-q928"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25546"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Coding-Solo/godot-mcp/issues/64"
     },
@@ -64,6 +68,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-04T20:02:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T22:16:00Z"
   }
 }
