@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7chh-rv6q-8pp3",
-  "modified": "2026-02-04T15:30:29Z",
+  "modified": "2026-02-05T06:31:23Z",
   "published": "2026-02-04T15:30:29Z",
   "aliases": [
     "CVE-2026-1642"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://my.f5.com/manage/s/article/K000159824"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/02/05/1"
     }
   ],
   "database_specific": {
