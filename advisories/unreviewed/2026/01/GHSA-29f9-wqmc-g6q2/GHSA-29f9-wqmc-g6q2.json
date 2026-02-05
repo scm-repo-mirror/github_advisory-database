@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29f9-wqmc-g6q2",
-  "modified": "2026-01-31T00:30:28Z",
+  "modified": "2026-02-05T21:32:38Z",
   "published": "2026-01-31T00:30:28Z",
   "aliases": [
     "CVE-2025-2668"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-770",
       "CWE-789"
     ],
     "severity": "MODERATE",

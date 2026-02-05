@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m2c-5h5x-7j8g",
-  "modified": "2026-02-05T18:30:30Z",
+  "modified": "2026-02-05T21:32:39Z",
   "published": "2026-02-05T18:30:30Z",
   "aliases": [
     "CVE-2025-68721"
   ],
   "details": "Axigen Mail Server before 10.5.57 contains an improper access control vulnerability in the WebAdmin interface. A delegated admin account with zero permissions can bypass access control checks and gain unauthorized access to the SSL Certificates management endpoint (page=sslcerts). This allows the attacker to view, download, upload, and delete SSL certificate files, despite lacking the necessary privileges to access the Security & Filtering section.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-05T16:15:50Z"

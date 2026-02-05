@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jpw-fm5p-f98m",
-  "modified": "2026-01-23T18:31:30Z",
+  "modified": "2026-02-05T21:32:37Z",
   "published": "2026-01-23T18:31:30Z",
   "aliases": [
     "CVE-2026-24423"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://code-white.com/public-vulnerability-list/#systemadminsettingscontrollerconnecttohub-missing-authentication-in-smartermail"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-24423"
     },
     {
       "type": "WEB",
