@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67v7-3g49-mxh2",
-  "modified": "2026-02-04T17:48:07Z",
+  "modified": "2026-02-05T00:02:34Z",
   "published": "2026-02-03T21:13:02Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-25597"
+  ],
   "summary": "PrestaShop affected by time based enumeration in FO login form",
   "details": "### Impact\nA time-based user enumeration vulnerability in the user authentication functionality of PrestaShop. This vulnerability allows an attacker to determine whether a customer account exists in the system by measuring response times.\n\n### Patches\n8.2.4 and 9.0.3\n\n### Workarounds\nnone\n\n### References\nFound by Lam Yiu Tung",
   "severity": [
