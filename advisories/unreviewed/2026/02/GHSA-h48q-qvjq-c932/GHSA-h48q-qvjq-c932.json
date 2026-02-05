@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h48q-qvjq-c932",
-  "modified": "2026-02-03T21:31:52Z",
+  "modified": "2026-02-05T09:31:12Z",
   "published": "2026-02-03T21:31:52Z",
   "aliases": [
     "CVE-2026-25614"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.blesta.com/2026/01/28/security-advisory"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Feb/2"
     }
   ],
   "database_specific": {
