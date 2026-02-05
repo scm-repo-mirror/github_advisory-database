@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c59-mwgh-r2x6",
-  "modified": "2026-02-02T14:09:06Z",
+  "modified": "2026-02-05T16:14:30Z",
   "published": "2026-01-28T18:30:47Z",
   "aliases": [
     "CVE-2025-61140"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.1.1"
+              "fixed": "1.2.0"
             }
           ]
         }
@@ -43,6 +43,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/dchester/jsonpath/issues/181"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dchester/jsonpath/issues/194"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dchester/jsonpath/pull/195"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dchester/jsonpath/commit/9631412641b7095f86840a7a45b5b3afc68b0fcb"
     },
     {
       "type": "WEB",
