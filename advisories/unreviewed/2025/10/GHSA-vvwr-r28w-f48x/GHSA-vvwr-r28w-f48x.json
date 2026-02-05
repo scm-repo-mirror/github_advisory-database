@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvwr-r28w-f48x",
-  "modified": "2025-10-07T18:31:08Z",
+  "modified": "2026-02-05T15:31:07Z",
   "published": "2025-10-07T18:31:07Z",
   "aliases": [
     "CVE-2022-50513"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nstaging: rtl8723bs: fix a potential memory leak in rtw_init_cmd_priv()\n\nIn rtw_init_cmd_priv(), if `pcmdpriv->rsp_allocated_buf` is allocated\nin failure, then `pcmdpriv->cmd_allocated_buf` will be not properly\nreleased. Besides, considering there are only two error paths and the\nfirst one can directly return, so we do not need implicitly jump to the\n`exit` tag to execute the error handler.\n\nSo this patch added `kfree(pcmdpriv->cmd_allocated_buf);` on the error\npath to release the resource and simplified the return logic of\nrtw_init_cmd_priv(). As there is no proper device to test with, no runtime\ntesting was performed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:34Z"

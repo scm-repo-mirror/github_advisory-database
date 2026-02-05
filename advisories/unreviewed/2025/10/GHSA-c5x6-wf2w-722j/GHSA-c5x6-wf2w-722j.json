@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5x6-wf2w-722j",
-  "modified": "2025-10-07T18:31:07Z",
+  "modified": "2026-02-05T15:31:07Z",
   "published": "2025-10-07T18:31:07Z",
   "aliases": [
     "CVE-2022-50509"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: coda: Add check for kmalloc\n\nAs the kmalloc may return NULL pointer,\nit should be better to check the return value\nin order to avoid NULL poineter dereference,\nsame as the others.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-07T16:15:33Z"

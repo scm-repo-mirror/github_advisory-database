@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frpp-8pwq-hjrx",
-  "modified": "2026-01-27T21:05:43Z",
+  "modified": "2026-02-05T15:31:09Z",
   "published": "2026-01-26T21:30:36Z",
   "aliases": [
     "CVE-2025-14969"
@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/hibernate/hibernate-reactive/commit/cd7f104e10de918004707ca0e26e3840976f780a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:1965"
     },
     {
       "type": "WEB",
