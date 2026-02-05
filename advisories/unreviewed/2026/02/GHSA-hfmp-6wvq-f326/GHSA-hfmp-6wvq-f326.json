@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfmp-6wvq-f326",
-  "modified": "2026-02-04T21:30:32Z",
+  "modified": "2026-02-05T00:31:00Z",
   "published": "2026-02-04T21:30:32Z",
   "aliases": [
     "CVE-2026-0947"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation (\"Cross-site Scripting\") vulnerability in Drupal AT Internet Piano Analytics allows Cross-Site Scripting (XSS).This issue affects AT Internet Piano Analytics: from 0.0.0 before 1.0.1, from 2.0.0 before 2.3.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-04T21:15:59Z"
