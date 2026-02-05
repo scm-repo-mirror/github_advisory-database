@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxrv-835q-v5mh",
-  "modified": "2026-02-03T16:26:13Z",
+  "modified": "2026-02-05T00:34:23Z",
   "published": "2026-02-02T22:21:54Z",
   "aliases": [
     "CVE-2026-25521"
@@ -41,6 +41,10 @@
       "url": "https://github.com/locutusjs/locutus/security/advisories/GHSA-rxrv-835q-v5mh"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25521"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/locutusjs/locutus/commit/042af9ca7fde2ff599120783e720a17f335bb01c"
     },
@@ -56,6 +60,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-02T22:21:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T22:15:59Z"
   }
 }

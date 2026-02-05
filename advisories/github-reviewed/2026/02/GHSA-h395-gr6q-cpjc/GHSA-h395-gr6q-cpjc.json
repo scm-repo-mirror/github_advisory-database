@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h395-gr6q-cpjc",
-  "modified": "2026-02-03T22:15:57Z",
+  "modified": "2026-02-05T00:34:49Z",
   "published": "2026-02-03T18:47:40Z",
   "aliases": [
     "CVE-2026-25537"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Keats/jsonwebtoken/security/advisories/GHSA-h395-gr6q-cpjc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25537"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Keats/jsonwebtoken/commit/abbc3076742c4161347bc6b8bf4aa5eb86e1dc01"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-03T18:47:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T22:15:59Z"
   }
 }

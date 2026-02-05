@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjx9-j8f8-7j74",
-  "modified": "2026-02-03T17:52:55Z",
+  "modified": "2026-02-05T00:34:36Z",
   "published": "2026-02-03T17:52:55Z",
   "aliases": [
     "CVE-2026-25526"
@@ -60,6 +60,10 @@
       "url": "https://github.com/HubSpot/jinjava/security/advisories/GHSA-gjx9-j8f8-7j74"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25526"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/HubSpot/jinjava/commit/3d02e504d8bbb13bf3fe019e9ca7b51dfce7a998"
     },
@@ -87,6 +91,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-03T17:52:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T22:15:59Z"
   }
 }

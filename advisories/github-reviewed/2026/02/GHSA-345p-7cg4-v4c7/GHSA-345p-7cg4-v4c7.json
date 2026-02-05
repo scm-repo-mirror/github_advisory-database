@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-345p-7cg4-v4c7",
-  "modified": "2026-02-04T20:04:16Z",
+  "modified": "2026-02-05T00:34:41Z",
   "published": "2026-02-04T20:04:16Z",
   "aliases": [
     "CVE-2026-25536"
@@ -44,6 +44,10 @@
       "url": "https://github.com/modelcontextprotocol/typescript-sdk/security/advisories/GHSA-345p-7cg4-v4c7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25536"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/modelcontextprotocol/typescript-sdk/issues/204"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-04T20:04:16Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-04T22:15:59Z"
   }
 }
