@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv3h-x6c4-r867",
-  "modified": "2026-01-21T22:30:24Z",
+  "modified": "2026-02-05T15:53:35Z",
   "published": "2026-01-21T09:31:30Z",
   "aliases": [
     "CVE-2025-14559"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "26.5.1"
+              "fixed": "26.5.2"
             }
           ]
         }
@@ -46,6 +46,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/d67349f3aa9fed5c61750619d0f9de6356aeaeff"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-14559"
     },
     {
@@ -55,6 +59,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/keycloak/keycloak"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/releases/tag/26.5.2"
     }
   ],
   "database_specific": {
