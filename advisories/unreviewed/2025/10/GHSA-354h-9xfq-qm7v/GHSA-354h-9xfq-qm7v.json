@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-354h-9xfq-qm7v",
-  "modified": "2025-10-04T18:31:14Z",
+  "modified": "2026-02-05T18:30:28Z",
   "published": "2025-10-04T18:31:14Z",
   "aliases": [
     "CVE-2022-50505"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu/amd: Fix pci device refcount leak in ppr_notifier()\n\nAs comment of pci_get_domain_bus_and_slot() says, it returns\na pci device with refcount increment, when finish using it,\nthe caller must decrement the reference count by calling\npci_dev_put(). So call it before returning from ppr_notifier()\nto avoid refcount leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:47Z"

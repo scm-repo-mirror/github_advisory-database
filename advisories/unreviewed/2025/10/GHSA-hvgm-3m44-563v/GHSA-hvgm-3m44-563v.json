@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvgm-3m44-563v",
-  "modified": "2025-10-04T18:31:16Z",
+  "modified": "2026-02-05T18:30:28Z",
   "published": "2025-10-04T18:31:16Z",
   "aliases": [
     "CVE-2023-53605"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: amd: display: Fix memory leakage\n\nThis commit fixes memory leakage in dc_construct_ctx() function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:57Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8wv-9hr6-j68w",
-  "modified": "2025-10-04T18:31:16Z",
+  "modified": "2026-02-05T18:30:29Z",
   "published": "2025-10-04T18:31:16Z",
   "aliases": [
     "CVE-2023-53614"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/ksm: fix race with VMA iteration and mm_struct teardown\n\nexit_mmap() will tear down the VMAs and maple tree with the mmap_lock held\nin write mode.  Ensure that the maple tree is still valid by checking\nksm_test_exit() after taking the mmap_lock in read mode, but before the\nfor_each_vma() iterator dereferences a destroyed maple tree.\n\nSince the maple tree is destroyed, the flags telling lockdep to check an\nexternal lock has been cleared.  Skip the for_each_vma() iterator to avoid\ndereferencing a maple tree without the external lock flag, which would\ncreate a lockdep warning.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:58Z"

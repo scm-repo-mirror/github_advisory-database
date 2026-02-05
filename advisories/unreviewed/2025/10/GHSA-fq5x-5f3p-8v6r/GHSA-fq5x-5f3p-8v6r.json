@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq5x-5f3p-8v6r",
-  "modified": "2025-10-04T18:31:16Z",
+  "modified": "2026-02-05T18:30:29Z",
   "published": "2025-10-04T18:31:16Z",
   "aliases": [
     "CVE-2023-53615"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: qla2xxx: Fix deletion race condition\n\nSystem crash when using debug kernel due to link list corruption. The cause\nof the link list corruption is due to session deletion was allowed to queue\nup twice.  Here's the internal trace that show the same port was allowed to\ndouble queue for deletion on different cpu.\n\n20808683956 015 qla2xxx [0000:13:00.1]-e801:4: Scheduling sess ffff93ebf9306800 for deletion 50:06:0e:80:12:48:ff:50 fc4_type 1\n20808683957 027 qla2xxx [0000:13:00.1]-e801:4: Scheduling sess ffff93ebf9306800 for deletion 50:06:0e:80:12:48:ff:50 fc4_type 1\n\nMove the clearing/setting of deleted flag lock.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:58Z"
