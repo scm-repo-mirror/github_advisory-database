@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-399j-vxmf-hjvr",
-  "modified": "2025-11-13T16:25:24Z",
+  "modified": "2026-02-05T21:38:31Z",
   "published": "2025-11-03T18:31:52Z",
   "aliases": [
     "CVE-2025-11953"
@@ -174,6 +174,14 @@
     {
       "type": "WEB",
       "url": "https://jfrog.com/blog/cve-2025-11953-critical-react-native-community-cli-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-11953"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/blog/metro4shell_eitw"
     },
     {
       "type": "WEB",
