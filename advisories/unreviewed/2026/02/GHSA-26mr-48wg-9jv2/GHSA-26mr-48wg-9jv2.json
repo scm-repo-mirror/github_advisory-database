@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26mr-48wg-9jv2",
-  "modified": "2026-02-04T18:30:42Z",
+  "modified": "2026-02-06T18:30:29Z",
   "published": "2026-02-04T18:30:42Z",
   "aliases": [
     "CVE-2025-71196"
@@ -24,11 +24,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a9eec890879731c280697fdf1c50699e905b2fa7"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b91c9f6bfb04e430adeeac7e7ebc9d80f9d72bad"
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c06f13876cbad702582cd67fc77356e5524d02cd"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/cabd25b57216ddc132efbcc31f972baa03aad15a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fb9d513cdf1614bf0f0e785816afb1faae3f81af"
     }
   ],
   "database_specific": {

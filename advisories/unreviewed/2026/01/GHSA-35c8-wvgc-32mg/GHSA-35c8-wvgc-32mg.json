@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35c8-wvgc-32mg",
-  "modified": "2026-01-31T12:30:12Z",
+  "modified": "2026-02-06T18:30:29Z",
   "published": "2026-01-31T12:30:12Z",
   "aliases": [
     "CVE-2026-23037"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6c5124a60989051799037834f0a1a4b428718157"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/97250eb05e4b6afe787290e8fd97d0675116c61b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/aec888f44853584b5a7cd01249806030cf94a73d"
     },
     {
       "type": "WEB",

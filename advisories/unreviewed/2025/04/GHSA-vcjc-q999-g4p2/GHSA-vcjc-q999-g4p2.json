@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcjc-q999-g4p2",
-  "modified": "2025-10-31T21:30:55Z",
+  "modified": "2026-02-06T18:30:26Z",
   "published": "2025-04-16T15:34:43Z",
   "aliases": [
     "CVE-2025-22083"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3fd054baf382a426bbf5135ede0fc5673db74d3e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/451c72f5e7cf5d339a6410a635cee0825687c3dc"
     },
     {
       "type": "WEB",

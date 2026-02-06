@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8v3-969r-cfp9",
-  "modified": "2026-02-04T18:30:44Z",
+  "modified": "2026-02-06T18:30:30Z",
   "published": "2026-02-04T18:30:44Z",
   "aliases": [
     "CVE-2026-23089"
@@ -13,6 +13,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23089"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/51b1aa6fe7dc87356ba58df06afb9677c9b841ea"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/56fb6efd5d04caf6f14994d51ec85393b9a896c6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7009daeefa945973a530b2f605fe445fc03747af"
     },
     {
       "type": "WEB",

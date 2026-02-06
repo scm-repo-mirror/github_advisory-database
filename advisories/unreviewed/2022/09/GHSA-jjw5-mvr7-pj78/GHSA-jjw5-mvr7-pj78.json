@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjw5-mvr7-pj78",
-  "modified": "2022-09-29T00:00:26Z",
+  "modified": "2026-02-06T18:30:26Z",
   "published": "2022-09-27T00:00:22Z",
   "aliases": [
     "CVE-2022-40924"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/admin77888/Bug_report/blob/main/vendors/pushpam02/zoo-management-system/RCE-1.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/51819"
     }
   ],
   "database_specific": {

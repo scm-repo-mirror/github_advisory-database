@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m33j-r627-qphr",
-  "modified": "2025-10-30T12:31:09Z",
+  "modified": "2026-02-06T18:30:27Z",
   "published": "2025-10-30T12:31:09Z",
   "aliases": [
     "CVE-2025-40090"
@@ -16,11 +16,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1891abe832cbf5a11039e088766131d0f1642d02"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3412fbd81b46b9cfae013817b61d4bbd27e09e36"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4602b8cee1481dbb896182e5cb1e8cf12910e9e7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5493571f4351f74e11db9943e98a07c56467cf7e"
     },
     {
       "type": "WEB",

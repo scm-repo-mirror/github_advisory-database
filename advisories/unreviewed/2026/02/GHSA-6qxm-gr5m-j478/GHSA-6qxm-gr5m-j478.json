@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qxm-gr5m-j478",
-  "modified": "2026-02-04T18:30:44Z",
+  "modified": "2026-02-06T18:30:31Z",
   "published": "2026-02-04T18:30:44Z",
   "aliases": [
     "CVE-2026-23098"
@@ -13,6 +13,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23098"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/25aab6bfc31017a7e52035b99aef5c2b6bde8ffb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6e0110ea90313b7c0558a0b77038274a6821caf8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7c48fdf2d1349bb54815b56fb012b9d577707708"
     },
     {
       "type": "WEB",

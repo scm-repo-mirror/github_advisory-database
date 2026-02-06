@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x64x-2355-5mf3",
-  "modified": "2022-12-01T18:30:48Z",
+  "modified": "2026-02-06T18:30:26Z",
   "published": "2022-11-30T18:30:19Z",
   "aliases": [
     "CVE-2022-44151"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/li-baige/bug_report/blob/main/vendors/oretnom23/Simple%20Inventory%20Management%20System/SQLi-1.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/51808"
     }
   ],
   "database_specific": {

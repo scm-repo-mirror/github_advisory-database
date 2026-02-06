@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxhr-ffpx-g953",
-  "modified": "2026-01-26T21:30:30Z",
+  "modified": "2026-02-06T18:30:27Z",
   "published": "2025-10-01T12:30:31Z",
   "aliases": [
     "CVE-2023-53520"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/573ebae162111063eedc6c838a659ba628f66a0f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e1fa25a91091bbed691ba2996a6cee809e3309a2"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgqx-9hcf-wpvq",
-  "modified": "2025-10-28T21:30:29Z",
+  "modified": "2026-02-06T18:30:26Z",
   "published": "2025-04-16T15:34:38Z",
   "aliases": [
     "CVE-2024-58096"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58096"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1d2178918efc928e11bed9631469ef79ff0a862a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/27ca8004ba93a0665faa6d477eaeb551e03de6c8"
     },
     {
       "type": "WEB",

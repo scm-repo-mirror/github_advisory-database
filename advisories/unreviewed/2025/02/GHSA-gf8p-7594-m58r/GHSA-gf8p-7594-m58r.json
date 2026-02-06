@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gf8p-7594-m58r",
-  "modified": "2025-10-23T18:31:06Z",
+  "modified": "2026-02-06T18:30:26Z",
   "published": "2025-02-27T03:34:00Z",
   "aliases": [
     "CVE-2024-57994"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3257dac521d0ac6653108c755141dce634bb8ff2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/572777a258c048e0d0fb3a0c47430eadcefe80c0"
     },
     {
       "type": "WEB",

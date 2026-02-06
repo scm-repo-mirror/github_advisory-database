@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm73-pr98-fpfg",
-  "modified": "2026-02-04T18:30:43Z",
+  "modified": "2026-02-06T18:30:30Z",
   "published": "2026-02-04T18:30:43Z",
   "aliases": [
     "CVE-2026-23087"
@@ -24,7 +24,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/427b0fb30ddec3bad05dcd73b00718f98c7026d2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4a975c72429b050c234405668b742cdecc11548e"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/901a5f309daba412e2a30364d7ec1492fa11c32c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a8bb3ec8d85951a56af0a72d93ccbc2aee42eef9"
     },
     {
       "type": "WEB",
