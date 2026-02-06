@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j2f-3rj3-wgpg",
-  "modified": "2026-02-05T20:32:53Z",
+  "modified": "2026-02-06T21:42:15Z",
   "published": "2026-02-05T20:32:53Z",
   "aliases": [
     "CVE-2026-23989"
@@ -63,17 +63,26 @@
       "url": "https://github.com/opencloud-eu/reva/security/advisories/GHSA-9j2f-3rj3-wgpg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/opencloud-eu/reva/commit/95aa2bc5d980eaf6cc134d75782b4f5ac7b36ae1"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/opencloud-eu/reva"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-22"
+      "CWE-22",
+      "CWE-863"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-05T20:32:53Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-06T19:16:08Z"
   }
 }

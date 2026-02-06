@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjpw-65fv-8g48",
-  "modified": "2026-02-05T21:04:58Z",
+  "modified": "2026-02-06T21:42:50Z",
   "published": "2026-02-05T21:04:58Z",
   "aliases": [
     "CVE-2026-25586"
@@ -44,6 +44,10 @@
       "url": "https://github.com/nyariv/SandboxJS/security/advisories/GHSA-jjpw-65fv-8g48"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25586"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nyariv/SandboxJS/commit/67cb186c41c78c51464f70405504e8ef0a6e43c3"
     },
@@ -59,6 +63,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-05T21:04:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-06T20:16:10Z"
   }
 }

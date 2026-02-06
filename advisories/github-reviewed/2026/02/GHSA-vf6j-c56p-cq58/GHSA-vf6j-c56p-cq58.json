@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf6j-c56p-cq58",
-  "modified": "2026-02-06T18:52:45Z",
+  "modified": "2026-02-06T21:43:14Z",
   "published": "2026-02-06T18:52:44Z",
   "aliases": [
     "CVE-2026-25650"
@@ -41,12 +41,20 @@
       "url": "https://github.com/smn2gnt/MCP-Salesforce/security/advisories/GHSA-vf6j-c56p-cq58"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25650"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/smn2gnt/MCP-Salesforce/commit/a1e3a5a786f48508d066b6d40b58201ebf9b7fd6"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/smn2gnt/MCP-Salesforce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/smn2gnt/MCP-Salesforce/releases/tag/v0.1.10"
     }
   ],
   "database_specific": {
@@ -56,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-06T18:52:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-06T19:16:09Z"
   }
 }

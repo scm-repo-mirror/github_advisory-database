@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4w9-gch5-c2g4",
-  "modified": "2026-02-06T18:54:33Z",
+  "modified": "2026-02-06T21:43:18Z",
   "published": "2026-02-06T18:54:33Z",
   "aliases": [
     "CVE-2026-25651"
@@ -41,12 +41,20 @@
       "url": "https://github.com/tgies/client-certificate-auth/security/advisories/GHSA-m4w9-gch5-c2g4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25651"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/tgies/client-certificate-auth/commit/8fc995e953db483495be46862965e50fe9e1cc52"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/tgies/client-certificate-auth"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tgies/client-certificate-auth/releases/tag/v1.0.0"
     }
   ],
   "database_specific": {
@@ -56,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-06T18:54:33Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-06T19:16:09Z"
   }
 }
