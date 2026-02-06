@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23m6-25rj-w83p",
-  "modified": "2025-10-04T18:31:15Z",
+  "modified": "2026-02-06T15:30:58Z",
   "published": "2025-10-04T18:31:15Z",
   "aliases": [
     "CVE-2023-53573"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: rs9: Fix suspend/resume\n\nDisabling the cache in commit 2ff4ba9e3702 (\"clk: rs9: Fix I2C accessors\")\nwithout removing cache synchronization in resume path results in a\nkernel panic as map->cache_ops is unset, due to REGCACHE_NONE.\nEnable flat cache again to support resume again. num_reg_defaults_raw\nis necessary to read the cache defaults from hardware. Some registers\nare strapped in hardware and cannot be provided in software.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:52Z"

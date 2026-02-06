@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v53j-mp5w-59f7",
-  "modified": "2024-02-14T18:30:24Z",
+  "modified": "2026-02-06T15:30:57Z",
   "published": "2024-02-05T21:30:31Z",
   "aliases": [
     "CVE-2023-51951"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-51951"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/51990"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvj3-c3rp-c85p",
-  "modified": "2026-01-29T03:43:28Z",
+  "modified": "2026-02-06T15:30:59Z",
   "published": "2026-01-27T22:26:22Z",
   "aliases": [
     "CVE-2026-24765"
@@ -151,6 +151,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sebastianbergmann/phpunit/releases/tag/9.6.33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/02/msg00009.html"
     },
     {
       "type": "WEB",

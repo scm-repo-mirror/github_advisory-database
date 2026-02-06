@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g37-8p7x-w23g",
-  "modified": "2024-12-03T18:31:01Z",
+  "modified": "2026-02-06T15:30:57Z",
   "published": "2024-04-16T18:31:36Z",
   "aliases": [
     "CVE-2024-32256"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/jinhaochan/CVE-POC/blob/main/tms/POC.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/51923"
     }
   ],
   "database_specific": {

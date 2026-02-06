@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5xv-9h76-hchp",
-  "modified": "2024-08-01T21:31:40Z",
+  "modified": "2026-02-06T15:30:57Z",
   "published": "2024-06-14T18:31:46Z",
   "aliases": [
     "CVE-2024-36599"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/kaliankhe/CVE-Aslam-mahi/blob/9ec0572c68bfd3708a7d6e089181024131f4e927/vendors/projectworlds.in/AEGON%20LIFE%20v1.0%20Life%20Insurance%20Management%20System/CVE-2024-36599"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52042"
     }
   ],
   "database_specific": {

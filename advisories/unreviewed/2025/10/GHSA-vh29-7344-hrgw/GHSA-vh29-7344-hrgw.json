@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vh29-7344-hrgw",
-  "modified": "2025-10-04T18:31:16Z",
+  "modified": "2026-02-06T15:30:59Z",
   "published": "2025-10-04T18:31:16Z",
   "aliases": [
     "CVE-2023-53604"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndm integrity: call kmem_cache_destroy() in dm_integrity_init() error path\n\nOtherwise the journal_io_cache will leak if dm_register_target() fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:57Z"

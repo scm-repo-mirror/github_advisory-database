@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ffw-9f6g-j2rr",
-  "modified": "2025-10-04T18:31:15Z",
+  "modified": "2026-02-06T15:30:58Z",
   "published": "2025-10-04T18:31:15Z",
   "aliases": [
     "CVE-2023-53572"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: imx: scu: use _safe list iterator to avoid a use after free\n\nThis loop is freeing \"clk\" so it needs to use list_for_each_entry_safe().\nOtherwise it dereferences a freed variable to get the next item on the\nloop.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:52Z"

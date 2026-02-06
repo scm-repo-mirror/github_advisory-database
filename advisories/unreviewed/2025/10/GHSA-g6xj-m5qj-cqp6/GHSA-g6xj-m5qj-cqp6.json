@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6xj-m5qj-cqp6",
-  "modified": "2025-10-04T18:31:16Z",
+  "modified": "2026-02-06T15:30:58Z",
   "published": "2025-10-04T18:31:16Z",
   "aliases": [
     "CVE-2023-53597"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncifs: fix mid leak during reconnection after timeout threshold\n\nWhen the number of responses with status of STATUS_IO_TIMEOUT\nexceeds a specified threshold (NUM_STATUS_IO_TIMEOUT), we reconnect\nthe connection. But we do not return the mid, or the credits\nreturned for the mid, or reduce the number of in-flight requests.\n\nThis bug could result in the server->in_flight count to go bad,\nand also cause a leak in the mids.\n\nThis change moves the check to a few lines below where the\nresponse is decrypted, even of the response is read from the\ntransform header. This way, the code for returning the mids\ncan be reused.\n\nAlso, the cifs_reconnect was reconnecting just the transport\nconnection before. In case of multi-channel, this may not be\nwhat we want to do after several timeouts. Changed that to\nreconnect the session and the tree too.\n\nAlso renamed NUM_STATUS_IO_TIMEOUT to a more appropriate name\nMAX_STATUS_IO_TIMEOUT.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:56Z"

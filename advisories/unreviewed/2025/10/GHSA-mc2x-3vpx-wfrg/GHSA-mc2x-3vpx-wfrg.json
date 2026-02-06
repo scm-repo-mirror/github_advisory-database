@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mc2x-3vpx-wfrg",
-  "modified": "2025-10-04T18:31:16Z",
+  "modified": "2026-02-06T15:30:59Z",
   "published": "2025-10-04T18:31:16Z",
   "aliases": [
     "CVE-2023-53602"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath11k: fix memory leak in WMI firmware stats\n\nMemory allocated for firmware pdev, vdev and beacon statistics\nare not released during rmmod.\n\nFix it by calling ath11k_fw_stats_free() function before hardware\nunregister.\n\nWhile at it, avoid calling ath11k_fw_stats_free() while processing\nthe firmware stats received in the WMI event because the local list\nis getting spliced and reinitialised and hence there are no elements\nin the list after splicing.\n\nTested-on: QCN9074 hw1.0 PCI WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:56Z"
