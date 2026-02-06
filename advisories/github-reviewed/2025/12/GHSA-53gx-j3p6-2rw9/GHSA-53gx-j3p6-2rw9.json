@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53gx-j3p6-2rw9",
-  "modified": "2025-12-02T01:27:59Z",
+  "modified": "2026-02-06T19:00:05Z",
   "published": "2025-12-01T18:59:29Z",
   "aliases": [
     "CVE-2025-55749"
@@ -9,6 +9,10 @@
   "summary": "XWiki Jetty Package (XJetty) allows accessing any application file through URL",
   "details": "### Impact\n\nIn an instance which is using the XWiki Jetty package (XJetty), a context is exposed to statically access any file located in the webapp/ folder.\n\nIt allows accessing files which might contains credentials, like http://myhots/webapps/xwiki/WEB-INF/xwiki.cfg, http://myhots/webapps/xwiki/WEB-INF/xwiki.properties or http://myhots/webapps/xwiki/WEB-INF/hibernate.cfg.xml.\n\n### Patches\n\nThis has been patched in 16.10.11, 17.4.4, 17.7.0.\n\n### Workarounds\n\nThe workaround is to modify the start_xwiki.sh script following https://github.com/xwiki/xwiki-platform/compare/8b68d8a70b43f25391b3ee48477d7eb71b95cf4b...99a04a0e2143583f5154a43e02174155da7e8e10.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n* Open an issue in [Jira XWiki.org](https://jira.xwiki.org/)\n* Email us at [Security Mailing List](mailto:security@xwiki.org)\n\n### Attribution\n\nVulnerability reported by Joseph Huber.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
