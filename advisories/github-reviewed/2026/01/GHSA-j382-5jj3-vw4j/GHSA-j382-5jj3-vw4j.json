@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j382-5jj3-vw4j",
-  "modified": "2026-01-21T15:00:11Z",
+  "modified": "2026-02-06T15:11:17Z",
   "published": "2026-01-07T18:30:25Z",
   "aliases": [
     "CVE-2025-12543"
@@ -34,10 +34,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.3.0.Alpha1"
             },
             {
               "fixed": "2.3.21.Final"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.undertow:undertow-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.39.Final"
             }
           ]
         }
@@ -83,7 +102,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/releases/tag/2.2.39.Final"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/undertow-io/undertow/releases/tag/2.3.21.Final"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.redhat.com/browse/UNDERTOW-2656"
     }
   ],
   "database_specific": {
