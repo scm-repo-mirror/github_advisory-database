@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6v5-fh4h-64xc",
-  "modified": "2026-02-05T19:01:28Z",
+  "modified": "2026-02-06T15:20:46Z",
   "published": "2026-02-05T17:57:55Z",
   "aliases": [
     "CVE-2026-25727"
@@ -42,11 +42,19 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/time-rs/time/commit/f6206b050fd54817d8872834b4d61f605570e89b"
+      "url": "https://github.com/time-rs/time/commit/1c63dc7985b8fa26bd8c689423cc56b7a03841ee"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/time-rs/time"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/time-rs/time/blob/main/CHANGELOG.md#0347-2026-02-05"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0009.html"
     }
   ],
   "database_specific": {
