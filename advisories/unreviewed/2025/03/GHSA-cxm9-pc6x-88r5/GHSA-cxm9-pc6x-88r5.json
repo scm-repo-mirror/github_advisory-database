@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxm9-pc6x-88r5",
-  "modified": "2025-04-10T21:31:07Z",
+  "modified": "2026-02-06T09:30:28Z",
   "published": "2025-03-03T21:31:00Z",
   "aliases": [
     "CVE-2024-51954"

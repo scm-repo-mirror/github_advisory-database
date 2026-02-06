@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3pq4-wgqv-gq3h",
-  "modified": "2026-02-05T06:31:23Z",
+  "modified": "2026-02-06T09:30:28Z",
   "published": "2026-02-05T06:31:23Z",
   "aliases": [
     "CVE-2025-15080"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/vu/JVNVU95093080"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-02"
     },
     {
       "type": "WEB",
