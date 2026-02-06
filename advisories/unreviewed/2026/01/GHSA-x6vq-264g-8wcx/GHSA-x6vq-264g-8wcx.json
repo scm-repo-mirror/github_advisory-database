@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6vq-264g-8wcx",
-  "modified": "2026-01-29T21:30:31Z",
+  "modified": "2026-02-06T03:30:18Z",
   "published": "2026-01-29T21:30:31Z",
   "aliases": [
     "CVE-2026-25068"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/alsa-project/alsa-lib/commit/5f7fe33002d2d98d84f72e381ec2cccc0d5d3d40"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/02/msg00008.html"
     },
     {
       "type": "WEB",

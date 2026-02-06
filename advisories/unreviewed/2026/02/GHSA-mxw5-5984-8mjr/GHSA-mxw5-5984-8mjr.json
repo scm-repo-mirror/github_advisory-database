@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxw5-5984-8mjr",
-  "modified": "2026-02-05T21:32:42Z",
+  "modified": "2026-02-06T03:30:18Z",
   "published": "2026-02-05T21:32:42Z",
   "aliases": [
     "CVE-2026-0106"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/docs/security/bulletin/pixel/2026/2026-02-01"
     },
     {
       "type": "WEB",
