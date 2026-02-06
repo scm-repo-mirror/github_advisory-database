@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f8m-9547-2gqm",
-  "modified": "2026-02-06T19:57:28Z",
+  "modified": "2026-02-06T21:38:15Z",
   "published": "2026-02-06T18:30:32Z",
   "aliases": [
     "CVE-2025-70963"
@@ -51,6 +51,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-284"
     ],
     "severity": "MODERATE",
