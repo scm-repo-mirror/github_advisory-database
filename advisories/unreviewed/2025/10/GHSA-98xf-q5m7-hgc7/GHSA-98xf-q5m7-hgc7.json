@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98xf-q5m7-hgc7",
-  "modified": "2025-10-04T18:31:14Z",
+  "modified": "2026-02-06T21:30:46Z",
   "published": "2025-10-04T18:31:14Z",
   "aliases": [
     "CVE-2023-53546"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/mlx5: DR, fix memory leak in mlx5dr_cmd_create_reformat_ctx\n\nwhen mlx5_cmd_exec failed in mlx5dr_cmd_create_reformat_ctx, the memory\npointed by 'in' is not released, which will cause memory leak. Move memory\nrelease after mlx5_cmd_exec.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:49Z"

@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64h4-vpph-xc2h",
-  "modified": "2026-02-03T06:31:05Z",
+  "modified": "2026-02-06T21:30:48Z",
   "published": "2026-02-03T06:31:05Z",
   "aliases": [
     "CVE-2025-58381"
   ],
   "details": "A\n vulnerability in Brocade Fabric OS before 9.2.1c2 could allow an \nauthenticated attacker with admin privileges using the shell commands \n“source, ping6, sleep, disown, wait to modify the path variables and \nmove upwards in the directory structure or to traverse to different \ndirectories.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:H/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
