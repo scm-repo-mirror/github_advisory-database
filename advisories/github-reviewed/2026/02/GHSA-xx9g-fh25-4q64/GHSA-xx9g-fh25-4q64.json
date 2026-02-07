@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx9g-fh25-4q64",
-  "modified": "2026-02-06T19:53:55Z",
+  "modified": "2026-02-07T00:33:34Z",
   "published": "2026-02-06T19:53:55Z",
   "aliases": [
     "CVE-2026-25762"
@@ -66,6 +66,18 @@
       "url": "https://github.com/adonisjs/core/security/advisories/GHSA-xx9g-fh25-4q64"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25762"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/adonisjs/bodyparser/releases/tag/v10.1.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/adonisjs/bodyparser/releases/tag/v11.0.0-next.9"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/adonisjs/core"
     }
@@ -78,6 +90,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-06T19:53:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-06T23:15:54Z"
   }
 }

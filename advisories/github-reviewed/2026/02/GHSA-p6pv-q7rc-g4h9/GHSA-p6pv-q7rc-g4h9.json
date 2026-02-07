@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6pv-q7rc-g4h9",
-  "modified": "2026-02-06T14:34:34Z",
+  "modified": "2026-02-07T00:33:27Z",
   "published": "2026-02-05T21:13:24Z",
   "aliases": [
     "CVE-2026-25757"
@@ -98,6 +98,10 @@
       "url": "https://github.com/spree/spree/security/advisories/GHSA-p6pv-q7rc-g4h9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25757"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/spree/spree/commit/3e00be64c128ef4bd4b99731f0c3ab469509cfab"
     },
@@ -137,6 +141,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-05T21:13:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-06T23:15:54Z"
   }
 }
