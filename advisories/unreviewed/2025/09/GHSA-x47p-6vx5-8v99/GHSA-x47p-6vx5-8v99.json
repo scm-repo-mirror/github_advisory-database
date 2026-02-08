@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x47p-6vx5-8v99",
-  "modified": "2025-09-12T12:30:23Z",
+  "modified": "2026-02-08T18:30:18Z",
   "published": "2025-09-12T12:30:23Z",
   "aliases": [
     "CVE-2025-27234"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27234"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/02/msg00012.html"
     },
     {
       "type": "WEB",
