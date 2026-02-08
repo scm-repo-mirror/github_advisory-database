@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mc5-7qhg-fp3w",
-  "modified": "2025-03-21T21:51:07Z",
+  "modified": "2026-02-08T01:00:10Z",
   "published": "2025-03-11T21:12:54Z",
   "aliases": [
     "CVE-2025-27591"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -58,7 +62,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0149.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.facebook.com/security/advisories/cve-2025-27591"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2025/03/12/1"
     },
     {
       "type": "WEB",
