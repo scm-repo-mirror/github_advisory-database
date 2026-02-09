@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c244-p6m5-vqj6",
+  "modified": "2026-02-09T12:30:22Z",
+  "published": "2026-02-09T12:30:22Z",
+  "aliases": [
+    "CVE-2026-23903"
+  ],
+  "details": "Authentication Bypass by Alternate Name vulnerability in Apache Shiro.\n\nThis issue affects Apache Shiro: before 2.0.7.\n\nUsers are recommended to upgrade to version 2.0.7, which fixes the issue.\n\nThe issue only effects static files. If static files are served from a case-insensitive filesystem,\nsuch as default macOS setup, static files may be accessed by varying the case of the filename in the request.\nIf only lower-case (common default) filters are present in Shiro, they may be bypassed this way.\n\nShiro 2.0.7 and later has a new parameters to remediate this issue\nshiro.ini: filterChainResolver.caseInsensitive = true\napplication.propertie: shiro.caseInsensitive=true\n\nShiro 3.0.0 and later (upcoming) makes this the default.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23903"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/5jjf0hnjcol58z2m5y255c7scz1lnp8k"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/02/08/1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-289"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-09T10:15:57Z"
+  }
+}

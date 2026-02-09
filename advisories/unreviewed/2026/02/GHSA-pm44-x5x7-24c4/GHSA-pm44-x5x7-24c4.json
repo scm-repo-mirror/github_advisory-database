@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pm44-x5x7-24c4",
+  "modified": "2026-02-09T12:30:22Z",
+  "published": "2026-02-09T12:30:22Z",
+  "aliases": [
+    "CVE-2026-22922"
+  ],
+  "details": "Apache Airflow versions 3.1.0 through 3.1.6 contain an authorization flaw that can allow an authenticated user with custom permissions limited to task access to view task logs without having task log access. \n\nUsers are recommended to upgrade to Apache Airflow 3.1.7 or later, which resolves this issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22922"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/airflow/pull/60412"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/gdb7vffhpmrj5hp1j0oj1j13o4vmsq40"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-648"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-09T11:16:13Z"
+  }
+}
