@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2453-mppf-46cj",
-  "modified": "2026-02-09T20:35:41Z",
+  "modified": "2026-02-09T22:38:37Z",
   "published": "2026-02-09T20:35:41Z",
   "aliases": [
     "CVE-2026-25495"
@@ -66,6 +66,10 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-2453-mppf-46cj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25495"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/commit/96c60d775c644ff0a0276da52fe29e11d4cd38d2"
     },
@@ -89,6 +93,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-09T20:35:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-09T20:15:58Z"
   }
 }

