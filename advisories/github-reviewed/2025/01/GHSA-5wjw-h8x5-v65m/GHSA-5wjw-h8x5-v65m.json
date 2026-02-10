@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wjw-h8x5-v65m",
-  "modified": "2025-01-16T19:05:32Z",
+  "modified": "2026-02-10T09:30:26Z",
   "published": "2025-01-14T18:32:06Z",
   "withdrawn": "2025-01-16T19:05:32Z",
   "aliases": [],
@@ -38,6 +38,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23366"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10924"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10926"
     },
     {
       "type": "WEB",
