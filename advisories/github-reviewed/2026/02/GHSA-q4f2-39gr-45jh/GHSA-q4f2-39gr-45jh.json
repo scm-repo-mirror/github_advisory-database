@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4f2-39gr-45jh",
-  "modified": "2026-02-10T00:25:24Z",
+  "modified": "2026-02-10T02:56:04Z",
   "published": "2026-02-10T00:25:24Z",
   "aliases": [
     "CVE-2026-25892"
@@ -41,6 +41,10 @@
       "url": "https://github.com/vrana/adminer/security/advisories/GHSA-q4f2-39gr-45jh"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25892"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/vrana/adminer/commit/21d3a3150388677b18647d68aec93b7850e457d3"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-10T00:25:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-09T22:16:04Z"
   }
 }
