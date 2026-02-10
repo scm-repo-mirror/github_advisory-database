@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-295f-pwgh-q72q",
-  "modified": "2025-11-17T12:30:14Z",
+  "modified": "2026-02-10T12:30:25Z",
   "published": "2025-11-17T12:30:14Z",
   "aliases": [
     "CVE-2025-40936"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-241605.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-445819.html"
     }
   ],
   "database_specific": {

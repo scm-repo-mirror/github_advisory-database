@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpmj-mx2h-xgfx",
-  "modified": "2025-11-11T21:30:27Z",
+  "modified": "2026-02-10T12:30:25Z",
   "published": "2025-03-11T12:30:59Z",
   "aliases": [
     "CVE-2024-56181"
