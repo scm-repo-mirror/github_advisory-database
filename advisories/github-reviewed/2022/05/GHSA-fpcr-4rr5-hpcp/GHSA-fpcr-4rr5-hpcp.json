@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpcr-4rr5-hpcp",
-  "modified": "2026-02-06T22:42:23Z",
+  "modified": "2026-02-10T14:16:10Z",
   "published": "2022-05-24T17:21:06Z",
   "aliases": [
     "CVE-2017-18906"
@@ -10,7 +10,7 @@
   "details": "An issue was discovered in Mattermost Server before 4.0.0, 3.10.2, and 3.9.2, when Single Sign-On OAuth2 is used. An attacker could claim somebody else's account.",
   "severity": [
     {
-      "type": "CVSS_V4",
+      "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
     }
   ],
