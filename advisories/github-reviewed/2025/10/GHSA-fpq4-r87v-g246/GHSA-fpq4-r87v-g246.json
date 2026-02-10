@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpq4-r87v-g246",
-  "modified": "2026-02-10T18:30:32Z",
+  "modified": "2026-02-10T21:33:09Z",
   "published": "2025-10-17T21:31:17Z",
   "aliases": [
     "CVE-2025-34281"
   ],
+  "summary": "ThingsBoard vulnerable to stored cross-site scripting (XSS) vulnerability in the dashboard's Image Upload Gallery feature",
   "details": "ThingsBoard versions < 4.2.1 contain a stored cross-site scripting (XSS) vulnerability in the dashboard's Image Upload Gallery feature. An attacker can upload an SVG file containing malicious JavaScript, which may be executed when the file is rendered in the UI. This issue results from insufficient sanitization and improper content-type validation of uploaded SVG files.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.thingsboard:application"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,6 +61,10 @@
       "url": "https://advisory.checkmarx.net/advisory/CVE-2025-34281"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/thingsboard/thingsboard"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2.1"
     },
@@ -53,8 +78,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-02-10T21:33:09Z",
     "nvd_published_at": "2025-10-17T19:15:37Z"
   }
 }
