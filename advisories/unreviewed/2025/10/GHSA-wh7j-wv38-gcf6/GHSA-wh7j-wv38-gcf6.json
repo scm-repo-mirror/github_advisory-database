@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh7j-wv38-gcf6",
-  "modified": "2025-10-04T18:31:14Z",
+  "modified": "2026-02-10T00:30:27Z",
   "published": "2025-10-04T18:31:14Z",
   "aliases": [
     "CVE-2023-53535"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: bcmgenet: Add a check for oversized packets\n\nOccasionnaly we may get oversized packets from the hardware which\nexceed the nomimal 2KiB buffer size we allocate SKBs with. Add an early\ncheck which drops the packet to avoid invoking skb_over_panic() and move\non to processing the next packet.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:48Z"

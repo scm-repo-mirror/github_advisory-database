@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2cg-q42r-r6f6",
-  "modified": "2025-10-04T18:31:14Z",
+  "modified": "2026-02-10T00:30:27Z",
   "published": "2025-10-04T18:31:14Z",
   "aliases": [
     "CVE-2023-53536"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nblk-crypto: make blk_crypto_evict_key() more robust\n\nIf blk_crypto_evict_key() sees that the key is still in-use (due to a\nbug) or that ->keyslot_evict failed, it currently just returns while\nleaving the key linked into the keyslot management structures.\n\nHowever, blk_crypto_evict_key() is only called in contexts such as inode\neviction where failure is not an option.  So actually the caller\nproceeds with freeing the blk_crypto_key regardless of the return value\nof blk_crypto_evict_key().\n\nThese two assumptions don't match, and the result is that there can be a\nuse-after-free in blk_crypto_reprogram_all_keys() after one of these\nerrors occurs.  (Note, these errors *shouldn't* happen; we're just\ntalking about what happens if they do anyway.)\n\nFix this by making blk_crypto_evict_key() unlink the key from the\nkeyslot management structures even on failure.\n\nAlso improve some comments.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:48Z"

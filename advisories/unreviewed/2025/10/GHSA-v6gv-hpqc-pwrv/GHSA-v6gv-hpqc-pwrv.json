@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v6gv-hpqc-pwrv",
-  "modified": "2025-10-04T18:31:14Z",
+  "modified": "2026-02-10T00:30:26Z",
   "published": "2025-10-04T18:31:14Z",
   "aliases": [
     "CVE-2023-53533"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nInput: raspberrypi-ts - fix refcount leak in rpi_ts_probe\n\nrpi_firmware_get() take reference, we need to release it in error paths\nas well. Use devm_rpi_firmware_get() helper to handling the resources.\nAlso remove the existing rpi_firmware_put().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:48Z"
