@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm59-rqc7-hhvf",
-  "modified": "2026-02-09T21:34:01Z",
+  "modified": "2026-02-10T13:48:26Z",
   "published": "2025-12-18T22:03:08Z",
   "aliases": [
     "CVE-2025-53000"
@@ -36,6 +36,10 @@
     }
   ],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/jupyter/nbconvert/security/advisories/GHSA-xm59-rqc7-hhvf"
+    },
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53000"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv3h-x6c4-r867",
-  "modified": "2026-02-05T15:53:35Z",
+  "modified": "2026-02-10T13:47:26Z",
   "published": "2026-01-21T09:31:30Z",
   "aliases": [
     "CVE-2025-14559"
@@ -47,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/commit/d67349f3aa9fed5c61750619d0f9de6356aeaeff"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:2365"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:2366"
     },
     {
       "type": "WEB",
