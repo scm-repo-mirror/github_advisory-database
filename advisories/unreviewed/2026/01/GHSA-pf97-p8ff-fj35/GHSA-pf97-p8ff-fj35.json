@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf97-p8ff-fj35",
-  "modified": "2026-01-29T21:30:26Z",
+  "modified": "2026-02-10T18:30:33Z",
   "published": "2026-01-21T09:31:30Z",
   "aliases": [
     "CVE-2026-24061"
@@ -58,6 +58,14 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2026/01/20/8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2026-24061-detection-script-remote-authentication-bypass-in-gnu-inetutils-package"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2026-24061-mitigation-script-remote-authentication-bypass-in-gnu-inetutils-package"
     },
     {
       "type": "WEB",

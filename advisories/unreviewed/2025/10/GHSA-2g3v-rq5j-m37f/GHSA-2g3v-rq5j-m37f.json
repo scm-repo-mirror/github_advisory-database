@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g3v-rq5j-m37f",
-  "modified": "2025-10-14T18:30:36Z",
+  "modified": "2026-02-10T18:30:32Z",
   "published": "2025-10-14T18:30:36Z",
   "aliases": [
     "CVE-2025-59282"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-59282-detection-script-race-condition-in-microsoft-inbox-com-objects"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-59282-mitigation-script-race-condition-in-microsoft-inbox-com-objects"
     }
   ],
   "database_specific": {

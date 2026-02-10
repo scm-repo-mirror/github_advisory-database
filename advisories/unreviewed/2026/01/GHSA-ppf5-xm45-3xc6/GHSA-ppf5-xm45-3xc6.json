@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppf5-xm45-3xc6",
-  "modified": "2026-01-13T15:37:05Z",
+  "modified": "2026-02-10T18:30:32Z",
   "published": "2026-01-13T15:37:05Z",
   "aliases": [
     "CVE-2025-13447"
@@ -37,7 +37,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-78"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
