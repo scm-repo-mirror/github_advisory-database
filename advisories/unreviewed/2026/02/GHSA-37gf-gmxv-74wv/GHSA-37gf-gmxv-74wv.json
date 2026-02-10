@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37gf-gmxv-74wv",
-  "modified": "2026-02-09T21:31:03Z",
+  "modified": "2026-02-10T03:30:27Z",
   "published": "2026-02-09T21:31:03Z",
   "aliases": [
     "CVE-2026-1486"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1486"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:2365"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:2366"
     },
     {
       "type": "WEB",
