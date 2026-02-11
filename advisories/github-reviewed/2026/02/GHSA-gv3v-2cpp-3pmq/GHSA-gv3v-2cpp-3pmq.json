@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv3v-2cpp-3pmq",
-  "modified": "2026-02-10T12:30:28Z",
+  "modified": "2026-02-11T19:08:55Z",
   "published": "2026-02-10T12:30:28Z",
   "aliases": [
     "CVE-2025-11537"
   ],
+  "summary": "Keycloak logs sensitive headers",
   "details": "A flaw was found in Keycloak. When the logging format is configured to a verbose, user-supplied pattern (such as the pre-defined 'long' pattern), sensitive headers including Authorization and Cookie are disclosed to the logs in cleartext. An attacker with read access to the log files can extract these credentials (e.g., bearer tokens, session cookies) and use them to impersonate users, leading to a full account compromise.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-quarkus-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.6.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11537"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/137a35c1109ff43a305f26264978a3ea21452373"
     },
     {
       "type": "WEB",
@@ -26,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2402616"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/keycloak/keycloak"
     }
   ],
   "database_specific": {
@@ -33,8 +62,8 @@
       "CWE-117"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-02-11T19:08:55Z",
     "nvd_published_at": "2026-02-10T11:16:09Z"
   }
 }
