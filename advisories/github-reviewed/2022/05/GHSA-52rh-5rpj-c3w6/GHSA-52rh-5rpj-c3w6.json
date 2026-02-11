@@ -1,12 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52rh-5rpj-c3w6",
-  "modified": "2022-05-05T16:00:50Z",
+  "modified": "2026-02-11T21:54:44Z",
   "published": "2022-05-05T16:00:50Z",
   "aliases": [],
   "summary": "Improper handling of multiline messages in node-irc",
   "details": "node-irc is a socket wrapper for the IRC protocol that extends Node.js' EventEmitter. The vulnerability allows an attacker to manipulate a Matrix user into executing IRC commands by having them reply to a maliciously crafted message. Incorrect handling of a CR character allowed for making part of the message be sent to the IRC server verbatim rather than as a message to the channel.\nThe vulnerability has been patched in node-irc version 1.2.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -37,6 +42,10 @@
       "url": "https://github.com/matrix-org/node-irc/security/advisories/GHSA-52rh-5rpj-c3w6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29166"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/matrix-org/node-irc/commit/2976c856df37660a9d664e94c857c796de2e34f7"
     },
@@ -54,7 +63,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-74",
+      "CWE-93"
+    ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2022-05-05T16:00:50Z",
