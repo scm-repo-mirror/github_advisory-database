@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x566-frf2-p8rw",
-  "modified": "2026-02-11T09:30:17Z",
+  "modified": "2026-02-11T12:30:21Z",
   "published": "2026-02-09T12:30:22Z",
   "aliases": [
     "CVE-2025-6830"
