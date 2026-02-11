@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c3f-cg9x-f3gr",
-  "modified": "2026-01-09T19:55:24Z",
+  "modified": "2026-02-11T14:12:50Z",
   "published": "2025-09-16T18:31:27Z",
   "aliases": [
     "CVE-2025-10492"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://community.jaspersoft.com/advisories/jaspersoft-security-advisory-september-16-2025-jaspersoft-library-cve-2025-10492-r6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://community.jaspersoft.com/forums/topic/69926-cve-2025-10492-%E2%80%93-no-fix-available-after-jasperreports-upgrade-community-edition"
     },
     {
       "type": "PACKAGE",

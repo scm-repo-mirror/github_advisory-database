@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8xr-pgv5-gxw3",
-  "modified": "2025-06-10T19:59:36Z",
+  "modified": "2026-02-11T14:14:28Z",
   "published": "2025-06-09T06:30:21Z",
   "aliases": [
     "CVE-2025-25207"
@@ -55,7 +55,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-770"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,

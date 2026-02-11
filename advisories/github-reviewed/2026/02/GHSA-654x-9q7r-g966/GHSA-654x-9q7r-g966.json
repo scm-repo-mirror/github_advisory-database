@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-654x-9q7r-g966",
-  "modified": "2026-02-04T17:45:55Z",
+  "modified": "2026-02-11T14:14:07Z",
   "published": "2026-02-02T21:52:06Z",
   "aliases": [
     "CVE-2026-25509"
@@ -55,6 +55,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-203",
       "CWE-204"
     ],
     "severity": "MODERATE",
