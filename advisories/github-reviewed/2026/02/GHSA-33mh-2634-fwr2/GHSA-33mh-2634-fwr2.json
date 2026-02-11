@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33mh-2634-fwr2",
-  "modified": "2026-02-09T22:39:44Z",
+  "modified": "2026-02-11T23:13:21Z",
   "published": "2026-02-09T20:37:05Z",
   "aliases": [
     "CVE-2026-25765"
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/lostisland/faraday/releases/tag/v2.14.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/faraday/CVE-2026-25765.yml"
     },
     {
       "type": "WEB",
