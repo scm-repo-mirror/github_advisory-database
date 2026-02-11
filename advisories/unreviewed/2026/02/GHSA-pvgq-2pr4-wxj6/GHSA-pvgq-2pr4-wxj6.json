@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvgq-2pr4-wxj6",
-  "modified": "2026-02-04T18:30:31Z",
+  "modified": "2026-02-11T18:31:25Z",
   "published": "2026-02-03T18:30:47Z",
   "aliases": [
     "CVE-2025-70758"
   ],
   "details": "chetans9 core-php-admin-panel through commit a94a780d6 contains an authentication bypass vulnerability in includes/auth_validate.php. The application sends an HTTP redirect via header(Location:login.php) when a user is not authenticated but fails to call exit() afterward. This allows remote unauthenticated attackers to access protected pages.customer database.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-703"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-03T18:16:18Z"
