@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qmm-fmp8-wcfp",
-  "modified": "2026-02-08T12:30:26Z",
+  "modified": "2026-02-11T21:30:35Z",
   "published": "2026-02-08T12:30:26Z",
   "aliases": [
     "CVE-2026-2151"
@@ -46,7 +46,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-78"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
