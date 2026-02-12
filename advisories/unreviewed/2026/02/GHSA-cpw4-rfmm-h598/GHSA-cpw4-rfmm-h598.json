@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpw4-rfmm-h598",
-  "modified": "2026-02-12T00:31:05Z",
+  "modified": "2026-02-12T21:31:26Z",
   "published": "2026-02-12T00:31:05Z",
   "aliases": [
     "CVE-2026-20676"
   ],
   "details": "This issue was addressed through improved state management. This issue is fixed in iOS 26.3 and iPadOS 26.3, Safari 26.3, macOS Tahoe 26.3, visionOS 26.3. A website may be able to track users through Safari web extensions.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-11T23:16:09Z"

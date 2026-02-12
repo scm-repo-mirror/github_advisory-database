@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m83h-48rr-jcrh",
-  "modified": "2026-01-28T09:30:30Z",
+  "modified": "2026-02-12T21:31:24Z",
   "published": "2026-01-28T09:30:30Z",
   "aliases": [
     "CVE-2025-40536"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://documentation.solarwinds.com/en/success_center/whd/content/release_notes/whd_2026-1_release_notes.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-40536"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.huntress.com/blog/active-exploitation-solarwinds-web-help-desk-cve-2025-26399"
     },
     {
       "type": "WEB",

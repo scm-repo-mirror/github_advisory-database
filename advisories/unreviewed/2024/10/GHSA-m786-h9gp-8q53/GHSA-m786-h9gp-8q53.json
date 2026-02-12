@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m786-h9gp-8q53",
-  "modified": "2024-10-08T18:33:14Z",
+  "modified": "2026-02-12T21:31:24Z",
   "published": "2024-10-08T18:33:14Z",
   "aliases": [
     "CVE-2024-43468"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43468"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-43468"
     }
   ],
   "database_specific": {

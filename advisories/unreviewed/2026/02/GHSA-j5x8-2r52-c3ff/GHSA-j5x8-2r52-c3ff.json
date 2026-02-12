@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5x8-2r52-c3ff",
-  "modified": "2026-02-12T15:32:47Z",
+  "modified": "2026-02-12T21:31:26Z",
   "published": "2026-02-12T00:31:05Z",
   "aliases": [
     "CVE-2026-20700"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/126353"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-20700"
     }
   ],
   "database_specific": {

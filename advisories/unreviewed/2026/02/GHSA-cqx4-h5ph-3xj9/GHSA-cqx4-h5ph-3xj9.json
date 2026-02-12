@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqx4-h5ph-3xj9",
-  "modified": "2026-02-03T03:30:26Z",
+  "modified": "2026-02-12T21:31:25Z",
   "published": "2026-02-03T03:30:26Z",
   "aliases": [
     "CVE-2025-15556"
@@ -33,7 +33,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://notepad-plus-plus.org//news//clarification-security-incident"
+    },
+    {
+      "type": "WEB",
       "url": "https://notepad-plus-plus.org/news/hijacked-incident-info-update"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-15556"
     },
     {
       "type": "WEB",
