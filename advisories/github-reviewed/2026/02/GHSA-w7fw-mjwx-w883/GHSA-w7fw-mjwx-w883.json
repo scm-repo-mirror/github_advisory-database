@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7fw-mjwx-w883",
-  "modified": "2026-02-12T17:04:39Z",
+  "modified": "2026-02-12T20:07:59Z",
   "published": "2026-02-12T17:04:39Z",
   "aliases": [
     "CVE-2026-2391"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.7.0"
             },
             {
               "fixed": "6.14.2"
