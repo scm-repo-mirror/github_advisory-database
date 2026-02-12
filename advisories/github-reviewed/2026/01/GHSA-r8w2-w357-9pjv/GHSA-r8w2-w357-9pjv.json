@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8w2-w357-9pjv",
-  "modified": "2026-01-28T18:23:28Z",
+  "modified": "2026-02-12T19:51:02Z",
   "published": "2026-01-20T18:31:57Z",
   "aliases": [
     "CVE-2025-64087"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "2.1.0"
+              "fixed": "2.2.0"
             }
           ]
         }
