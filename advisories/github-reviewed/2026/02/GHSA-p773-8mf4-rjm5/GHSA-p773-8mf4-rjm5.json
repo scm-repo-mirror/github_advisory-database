@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p773-8mf4-rjm5",
-  "modified": "2026-02-12T18:30:23Z",
+  "modified": "2026-02-12T22:14:12Z",
   "published": "2026-02-12T18:30:23Z",
   "aliases": [
     "CVE-2025-56647"
   ],
+  "summary": "@farmfe/core is Missing Origin Validation in WebSocket",
   "details": "npm @farmfe/core before 1.7.6 is Missing Origin Validation in WebSocket. The development (hot module reloading) server does not validate origin when connecting to a WebSocket client. This allows attackers to surveil developers running Farm who visit their webpage and steal source code that is leaked by the WebSocket server.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@farmfe/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -30,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/R4356th/d4372c6f83275d583c180c0e7d7332af"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/farm-fe/farm"
     }
   ],
   "database_specific": {
@@ -37,8 +62,8 @@
       "CWE-1385"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-02-12T22:14:11Z",
     "nvd_published_at": "2026-02-12T16:16:03Z"
   }
 }
