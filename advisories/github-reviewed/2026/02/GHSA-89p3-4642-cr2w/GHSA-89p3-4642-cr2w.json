@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89p3-4642-cr2w",
-  "modified": "2026-02-12T15:54:11Z",
+  "modified": "2026-02-12T22:08:02Z",
   "published": "2026-02-12T15:54:11Z",
   "aliases": [
     "CVE-2026-25949"
@@ -44,6 +44,14 @@
       "url": "https://github.com/traefik/traefik/security/advisories/GHSA-89p3-4642-cr2w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25949"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/traefik/traefik/commit/31e566e9f1d7888ccb6fbc18bfed427203c35678"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/traefik/traefik"
     },
@@ -59,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-12T15:54:11Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-12T20:16:11Z"
   }
 }
