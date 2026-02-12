@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-96rf-whf9-r5vh",
+  "modified": "2026-02-12T00:31:03Z",
+  "published": "2026-02-12T00:31:03Z",
+  "aliases": [
+    "CVE-2024-50619"
+  ],
+  "details": "Vulnerabilities in the My Account and User Management components in CIPPlanner CIPAce before 9.17 allows attackers to escalate their access levels. A low-privileged authenticated user can gain access to other people's accounts by tampering with the client's user id to change their account information. A low-privileged authenticated user can elevate his or her system privileges by modifying the information of a user role that is disabled in the client.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50619"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cipplanner.com/cve-2024-50619-cve-public-notification-of-resolution"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-11T22:15:50Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v9g2-54rr-mxmg",
+  "modified": "2026-02-12T00:31:05Z",
+  "published": "2026-02-12T00:31:05Z",
+  "aliases": [
+    "CVE-2026-20661"
+  ],
+  "details": "An authorization issue was addressed with improved state management. This issue is fixed in iOS 26.3 and iPadOS 26.3, iOS 18.7.5 and iPadOS 18.7.5. An attacker with physical access to a locked device may be able to view sensitive user information.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20661"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/126346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/126347"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-11T23:16:08Z"
+  }
+}

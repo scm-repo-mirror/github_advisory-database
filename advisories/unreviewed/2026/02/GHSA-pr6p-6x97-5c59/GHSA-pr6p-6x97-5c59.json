@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pr6p-6x97-5c59",
+  "modified": "2026-02-12T00:31:04Z",
+  "published": "2026-02-12T00:31:03Z",
+  "aliases": [
+    "CVE-2025-46310"
+  ],
+  "details": "This issue was addressed through improved state management. This issue is fixed in macOS Sequoia 15.7.4, macOS Sonoma 14.8.4. An attacker with root privileges may be able to delete protected system files.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46310"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/126349"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/126350"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-11T23:16:03Z"
+  }
+}
