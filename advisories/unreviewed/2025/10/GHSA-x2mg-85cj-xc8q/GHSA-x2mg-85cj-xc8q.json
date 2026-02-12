@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2mg-85cj-xc8q",
-  "modified": "2025-10-04T18:31:15Z",
+  "modified": "2026-02-12T18:30:18Z",
   "published": "2025-10-04T18:31:14Z",
   "aliases": [
     "CVE-2023-53551"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: u_serial: Add null pointer check in gserial_resume\n\nConsider a case where gserial_disconnect has already cleared\ngser->ioport. And if a wakeup interrupt triggers afterwards,\ngserial_resume gets called, which will lead to accessing of\ngser->ioport and thus causing null pointer dereference.Add\na null pointer check to prevent this.\n\nAdded a static spinlock to prevent gser->ioport from becoming\nnull after the newly added check.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-10-04T16:15:50Z"

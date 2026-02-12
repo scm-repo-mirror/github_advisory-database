@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmxw-gfwm-67w3",
-  "modified": "2026-02-11T15:30:27Z",
+  "modified": "2026-02-12T18:30:21Z",
   "published": "2026-02-11T15:30:27Z",
   "aliases": [
     "CVE-2026-2250"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2250"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cydome.io/vulnerability-advisory-cve-2026-2250-unauthenticated-data-exfilteration-and-information-disclosure-in-metis-wic-wireless-intelligent-collector"
     },
     {
       "type": "WEB",

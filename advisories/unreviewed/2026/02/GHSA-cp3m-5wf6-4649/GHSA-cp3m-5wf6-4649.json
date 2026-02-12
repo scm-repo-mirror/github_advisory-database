@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp3m-5wf6-4649",
-  "modified": "2026-02-11T15:30:27Z",
+  "modified": "2026-02-12T18:30:21Z",
   "published": "2026-02-11T15:30:27Z",
   "aliases": [
     "CVE-2026-2248"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2248"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cydome.io/vulnerability-advisory-cve-2026-2248-unauthenticated-remote-root-shell-in-metis-wic"
     },
     {
       "type": "WEB",
