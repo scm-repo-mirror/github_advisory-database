@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qvhc-9v3j-5rfw",
-  "modified": "2026-02-12T17:37:54Z",
+  "modified": "2026-02-12T17:44:46Z",
   "published": "2026-02-10T21:32:18Z",
   "aliases": [
     "CVE-2026-21218"
@@ -15,7 +15,7 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -108,7 +108,7 @@
     "cwe_ids": [
       "CWE-166"
     ],
-    "severity": "LOW",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-10T21:32:18Z",
     "nvd_published_at": "2026-02-10T18:16:22Z"
