@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jxr-23ph-c89g",
-  "modified": "2025-06-03T17:32:56Z",
+  "modified": "2026-02-13T20:52:09Z",
   "published": "2025-03-04T18:33:43Z",
-  "aliases": [
-    "CVE-2025-23368"
-  ],
-  "summary": "Wildfly Elytron integration susceptible to brute force attacks via CLI",
-  "details": "A flaw was found in Wildfly Elytron integration. The component does not implement sufficient measures to prevent multiple failed authentication attempts within a short time frame, making it more susceptible to brute force attacks via CLI.",
+  "withdrawn": "2026-02-13T20:52:09Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Wildfly Elytron integration susceptible to brute force attacks via CLI",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-qhp6-6p8p-2rqh. This link is maintained to preserve external references.\n\n### Original Description\nA flaw was found in Wildfly Elytron integration. The component does not implement sufficient measures to prevent multiple failed authentication attempts within a short time frame, making it more susceptible to brute force attacks via CLI.",
   "severity": [
     {
       "type": "CVSS_V3",
