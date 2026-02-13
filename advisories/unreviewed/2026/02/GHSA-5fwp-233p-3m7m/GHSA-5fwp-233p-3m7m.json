@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fwp-233p-3m7m",
-  "modified": "2026-02-12T00:31:04Z",
+  "modified": "2026-02-13T00:32:51Z",
   "published": "2026-02-12T00:31:04Z",
   "aliases": [
     "CVE-2026-20650"
   ],
   "details": "A denial-of-service issue was addressed with improved validation. This issue is fixed in watchOS 26.3, tvOS 26.3, macOS Tahoe 26.3, visionOS 26.3, iOS 26.3 and iPadOS 26.3. An attacker in a privileged network position may be able to perform denial-of-service attack using crafted Bluetooth packets.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-400"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-11T23:16:07Z"
