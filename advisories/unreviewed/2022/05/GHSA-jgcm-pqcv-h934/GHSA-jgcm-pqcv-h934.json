@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgcm-pqcv-h934",
-  "modified": "2022-05-17T02:54:55Z",
+  "modified": "2026-02-13T18:31:21Z",
   "published": "2022-05-17T02:54:55Z",
   "aliases": [
     "CVE-2017-6541"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/WPO-Foundation/webpagetest/issues/834"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2017-6541.md"
     },
     {
       "type": "WEB",

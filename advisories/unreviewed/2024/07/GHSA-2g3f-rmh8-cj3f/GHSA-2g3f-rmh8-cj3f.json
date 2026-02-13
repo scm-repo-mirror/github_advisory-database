@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g3f-rmh8-cj3f",
-  "modified": "2024-08-01T15:32:11Z",
+  "modified": "2026-02-13T18:31:21Z",
   "published": "2024-07-26T18:30:36Z",
   "aliases": [
     "CVE-2024-41355"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/phpipam/phpipam/issues/4151"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2024-41355.md"
     }
   ],
   "database_specific": {

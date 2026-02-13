@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh94-8q48-f3m3",
-  "modified": "2026-01-26T15:31:19Z",
+  "modified": "2026-02-13T18:31:23Z",
   "published": "2026-01-23T18:31:30Z",
   "aliases": [
     "CVE-2026-1299"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/8cdf6204f4ae821f32993f8fc6bad0d318f95f36"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/e417f05ad77a4c30ddc07f99e90fc0cef43e831a"
     },
     {
       "type": "WEB",

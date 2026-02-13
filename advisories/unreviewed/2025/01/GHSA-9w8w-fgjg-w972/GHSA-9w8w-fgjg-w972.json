@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9w8w-fgjg-w972",
-  "modified": "2025-01-08T15:31:10Z",
+  "modified": "2026-02-13T18:31:21Z",
   "published": "2025-01-07T21:30:55Z",
   "aliases": [
     "CVE-2024-54819"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/partywavesec/CVE-2024-55557"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.partywave.site/show/research/cve-2024-54819-i-librarian-server-side-request-forgery"
     }
   ],
   "database_specific": {

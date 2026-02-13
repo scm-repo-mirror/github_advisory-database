@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5wr-5p37-2wm6",
-  "modified": "2026-02-07T00:30:27Z",
+  "modified": "2026-02-13T18:31:24Z",
   "published": "2026-02-07T00:30:27Z",
   "aliases": [
     "CVE-2026-1731"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://beyondtrustcorp.service-now.com/csm?id=csm_kb_article&sysparm_article=KB0023293"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/win3zz/CVE-2026-1731"
     },
     {
       "type": "WEB",

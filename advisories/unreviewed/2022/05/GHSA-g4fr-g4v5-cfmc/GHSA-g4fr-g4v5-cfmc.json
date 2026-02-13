@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4fr-g4v5-cfmc",
-  "modified": "2022-05-13T01:12:12Z",
+  "modified": "2026-02-13T18:31:21Z",
   "published": "2022-05-13T01:12:12Z",
   "aliases": [
     "CVE-2017-6478"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/paintballrefjosh/MaNGOSWebV4/issues/15"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2017-6478.md"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23wj-fq4f-57vr",
-  "modified": "2022-05-14T02:03:36Z",
+  "modified": "2026-02-13T18:31:21Z",
   "published": "2022-05-14T02:03:36Z",
   "aliases": [
     "CVE-2018-15899"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/bg5sbk/MiniCMS/issues/21"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2018-15899.md"
     }
   ],
   "database_specific": {

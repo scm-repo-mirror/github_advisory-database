@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x34v-6wh4-m93r",
-  "modified": "2024-08-28T18:31:54Z",
+  "modified": "2026-02-13T18:31:21Z",
   "published": "2024-08-23T21:30:42Z",
   "aliases": [
     "CVE-2024-42845"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/partywavesec/invesalius3_vulnerabilities/tree/main/CVE-2024-42845"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.partywave.site/show/research/tic-tac-beware-of-your-scan"
     }
   ],
   "database_specific": {

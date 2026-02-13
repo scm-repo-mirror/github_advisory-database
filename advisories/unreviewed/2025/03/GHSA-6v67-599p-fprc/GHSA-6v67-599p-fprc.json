@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6v67-599p-fprc",
-  "modified": "2026-02-04T21:30:24Z",
+  "modified": "2026-02-13T18:31:21Z",
   "published": "2025-03-11T18:32:17Z",
   "aliases": [
     "CVE-2025-24054"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/52478"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52480"
     },
     {
       "type": "WEB",
