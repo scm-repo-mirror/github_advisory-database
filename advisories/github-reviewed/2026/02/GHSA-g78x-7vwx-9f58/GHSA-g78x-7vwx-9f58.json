@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g78x-7vwx-9f58",
-  "modified": "2026-02-10T03:30:26Z",
+  "modified": "2026-02-13T21:51:17Z",
   "published": "2026-02-02T06:30:53Z",
   "aliases": [
     "CVE-2025-13881"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "26.5.0"
             },
             {
               "fixed": "26.5.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-services"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.4.9"
             }
           ]
         }
@@ -47,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/pull/45427"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/1d7ab8d5fb1403902f5152820a8fc734d38b08d2"
     },
     {
       "type": "WEB",
