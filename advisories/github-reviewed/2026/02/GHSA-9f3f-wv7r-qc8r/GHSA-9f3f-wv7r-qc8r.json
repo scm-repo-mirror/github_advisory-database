@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f3f-wv7r-qc8r",
-  "modified": "2026-02-12T22:07:22Z",
+  "modified": "2026-02-13T14:18:28Z",
   "published": "2026-02-11T15:13:12Z",
   "aliases": [
     "CVE-2026-26014"
@@ -25,13 +25,16 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.1.0"
             },
             {
-              "fixed": "3.1.0"
+              "fixed": "3.1.1"
             }
           ]
         }
+      ],
+      "versions": [
+        "3.1.0"
       ]
     },
     {
@@ -71,6 +74,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/pion/dtls/v3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.11"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -91,12 +113,20 @@
       "url": "https://github.com/pion/dtls/commit/61762dee8217991882c5eb79856b9e7a73ee349f"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/pion/dtls/commit/90e241cfec2985715efdd3d005972847462a67d6"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/pion/dtls"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/pion/dtls/releases/tag/v3.1.0"
+      "url": "https://github.com/pion/dtls/releases/tag/v3.0.11"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pion/dtls/releases/tag/v3.1.1"
     }
   ],
   "database_specific": {
