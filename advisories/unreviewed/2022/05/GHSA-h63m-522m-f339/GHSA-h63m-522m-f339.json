@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h63m-522m-f339",
-  "modified": "2022-05-24T19:10:32Z",
+  "modified": "2026-02-13T21:31:31Z",
   "published": "2022-05-24T19:10:32Z",
   "aliases": [
     "CVE-2021-38383"
   ],
   "details": "OwnTone (aka owntone-server) through 28.1 has a use-after-free in net_bind() in misc.c.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

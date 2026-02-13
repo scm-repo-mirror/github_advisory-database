@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53wq-r63f-m33q",
-  "modified": "2022-08-16T00:00:43Z",
+  "modified": "2026-02-13T21:31:31Z",
   "published": "2022-05-24T19:08:56Z",
   "aliases": [
     "CVE-2021-35942"
@@ -37,6 +37,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://sourceware.org/git/?p=glibc.git%3Ba=commit%3Bh=5adda61f62b77384718b4c0d8336ade8f2b4b35c"
+    },
+    {
+      "type": "WEB",
       "url": "https://sourceware.org/git/?p=glibc.git;a=commit;h=5adda61f62b77384718b4c0d8336ade8f2b4b35c"
     },
     {
@@ -46,7 +50,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-190"
+      "CWE-190",
+      "CWE-704"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
