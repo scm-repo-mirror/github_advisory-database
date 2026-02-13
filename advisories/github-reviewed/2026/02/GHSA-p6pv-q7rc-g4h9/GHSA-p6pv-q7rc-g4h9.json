@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6pv-q7rc-g4h9",
-  "modified": "2026-02-07T00:33:27Z",
+  "modified": "2026-02-13T17:16:21Z",
   "published": "2026-02-05T21:13:24Z",
   "aliases": [
     "CVE-2026-25757"
@@ -116,6 +116,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/spree/spree/commit/ea4a5db590ca753dbc986f2a4e818d9e0edfb1ad"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/spree_storefront/CVE-2026-25757.yml"
     },
     {
       "type": "PACKAGE",

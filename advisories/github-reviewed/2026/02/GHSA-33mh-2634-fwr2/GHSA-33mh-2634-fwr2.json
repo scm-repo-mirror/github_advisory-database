@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33mh-2634-fwr2",
-  "modified": "2026-02-12T14:22:46Z",
+  "modified": "2026-02-13T17:16:36Z",
   "published": "2026-02-09T20:37:05Z",
   "aliases": [
     "CVE-2026-25765"
