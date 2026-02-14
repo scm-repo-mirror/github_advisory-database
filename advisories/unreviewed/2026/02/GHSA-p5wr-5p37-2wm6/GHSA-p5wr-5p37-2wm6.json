@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5wr-5p37-2wm6",
-  "modified": "2026-02-13T18:31:24Z",
+  "modified": "2026-02-14T03:32:08Z",
   "published": "2026-02-07T00:30:27Z",
   "aliases": [
     "CVE-2026-1731"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://www.beyondtrust.com/trust-center/security-advisories/bt26-02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-1731"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.greynoise.io/blog/reconnaissance-beyondtrust-rce-cve-2026-1731"
     }
   ],
   "database_specific": {
