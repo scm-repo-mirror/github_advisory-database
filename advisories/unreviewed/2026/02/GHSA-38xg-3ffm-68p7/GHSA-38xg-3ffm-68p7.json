@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-38xg-3ffm-68p7",
+  "modified": "2026-02-14T00:32:42Z",
+  "published": "2026-02-14T00:32:42Z",
+  "aliases": [
+    "CVE-2025-70866"
+  ],
+  "details": "LavaLite CMS 10.1.0 is vulnerable to Incorrect Access Control. An authenticated user with low-level privileges (User role) can directly access the admin backend by logging in through /admin/login. The vulnerability exists because the admin and user authentication guards share the same user provider without role-based access control verification.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-70866"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/gkjzjh146/6d541c80b0666a596581ccd85bd10058"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/LavaLite/cms/releases/tag/v10.1.0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-02-13T22:16:09Z"
+  }
+}

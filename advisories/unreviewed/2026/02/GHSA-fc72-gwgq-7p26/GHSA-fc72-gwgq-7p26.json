@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc72-gwgq-7p26",
-  "modified": "2026-02-04T15:30:31Z",
+  "modified": "2026-02-14T00:32:41Z",
   "published": "2026-02-04T15:30:31Z",
   "aliases": [
     "CVE-2026-20732"

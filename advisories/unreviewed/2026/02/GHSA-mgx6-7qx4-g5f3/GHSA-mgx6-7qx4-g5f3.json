@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgx6-7qx4-g5f3",
-  "modified": "2026-02-13T03:31:23Z",
+  "modified": "2026-02-14T00:32:41Z",
   "published": "2026-02-13T03:31:23Z",
   "aliases": [
     "CVE-2025-9292"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9292"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.omadanetworks.com/us/support/faq/4969"
     },
     {
       "type": "WEB",
